@@ -72,7 +72,7 @@
       <hangarShadowTexture>vehicles/russian/R42_T-60/T-60_HangarShadowMap.dds</hangarShadowTexture>
       <customization>
          <customizableVehicleAreas>
-            <paint></paint>
+            <paint> HULL </paint>
             <camouflage> HULL </camouflage>
          </customizableVehicleAreas>
       </customization>
@@ -100,8 +100,14 @@
          <slot>
             <slotType>camouflage</slotType>
             <slotId> 3 </slotId>
-            <anchorPosition>0.000000 0.182077 1.23969</anchorPosition>
-            <anchorDirection> 0 0.145314 0.989386 </anchorDirection>
+            <anchorPosition>0.000000 0.180801 1.2432</anchorPosition>
+            <anchorDirection>0.000000 0.143918 0.98959</anchorDirection>
+         </slot>
+         <slot>
+            <slotType>paint</slotType>
+            <slotId> 2 </slotId>
+            <anchorPosition>0.000000 0.180801 1.2432</anchorPosition>
+            <anchorDirection>0.000000 0.143918 0.98959</anchorDirection>
          </slot>
       </customizationSlots>
       <camouflage>
@@ -749,7 +755,7 @@
          </physicalTracks>
          <customization>
             <customizableVehicleAreas>
-               <paint></paint>
+               <paint>CHASSIS</paint>
                <camouflage></camouflage>
             </customizableVehicleAreas>
          </customization>
@@ -757,8 +763,14 @@
             <slot>
                <slotType>style</slotType>
                <slotId> 257 </slotId>
-               <anchorPosition>-0.302784 1.77709 -0.238467</anchorPosition>
-               <anchorDirection>0.000000 1 -0.000000</anchorDirection>
+               <anchorPosition>-0.302513 1.80127 -0.187737</anchorPosition>
+               <anchorDirection>0.000000 1 0.000000</anchorDirection>
+            </slot>
+            <slot>
+               <slotType>paint</slotType>
+               <slotId> 256 </slotId>
+               <anchorPosition>-1.14945 0.477776 -0.00738001</anchorPosition>
+               <anchorDirection>-0.923391 0.383814 -0.00592861</anchorDirection>
             </slot>
          </customizationSlots>
       </Chassis_T-60>
@@ -1396,7 +1408,7 @@
          </physicalTracks>
          <customization>
             <customizableVehicleAreas>
-               <paint></paint>
+               <paint>CHASSIS</paint>
                <camouflage></camouflage>
             </customizableVehicleAreas>
          </customization>
@@ -1404,8 +1416,14 @@
             <slot>
                <slotType>style</slotType>
                <slotId> 257 </slotId>
-               <anchorPosition>-0.302764 1.77709 -0.238557</anchorPosition>
-               <anchorDirection>-0.000000 1 0.000000</anchorDirection>
+               <anchorPosition>-0.302513 1.80127 -0.187737</anchorPosition>
+               <anchorDirection>0.000000 1 0.000000</anchorDirection>
+            </slot>
+            <slot>
+               <slotType>paint</slotType>
+               <slotId> 256 </slotId>
+               <anchorPosition>-1.14945 0.477776 -0.00738001</anchorPosition>
+               <anchorDirection>-0.923391 0.383814 -0.00592861</anchorDirection>
             </slot>
          </customizationSlots>
       </Chassis_T-60_2>
@@ -1497,7 +1515,7 @@
                </hitTester>
                <customization>
                   <customizableVehicleAreas>
-                     <paint></paint>
+                     <paint>GUN_2</paint>
                      <camouflage>GUN</camouflage>
                   </customizableVehicleAreas>
                </customization>
@@ -1505,9 +1523,16 @@
                   <slot>
                      <slotType>camouflage</slotType>
                      <slotId> 770 </slotId>
-                     <anchorPosition>0.124328 0.00668752 0.504433</anchorPosition>
+                     <anchorPosition>0.0631284 0.00668753 0.504433</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
                      <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 768 </slotId>
+                     <anchorPosition> 0 0.108245 0.108245 </anchorPosition>
+                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
+                     <applyTo> 16384 </applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1556,7 +1581,7 @@
                </hitTester>
                <customization>
                   <customizableVehicleAreas>
-                     <paint></paint>
+                     <paint>GUN GUN_2</paint>
                      <camouflage>GUN</camouflage>
                   </customizableVehicleAreas>
                </customization>
@@ -1564,9 +1589,23 @@
                   <slot>
                      <slotType>camouflage</slotType>
                      <slotId> 770 </slotId>
-                     <anchorPosition>0.124102 0.00691366 0.699319</anchorPosition>
+                     <anchorPosition>0.0629908 0.00691355 0.699319</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
                      <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 768 </slotId>
+                     <anchorPosition>0.0629908 0.00691355 0.699319</anchorPosition>
+                     <anchorDirection>0.000000 0.000000 1</anchorDirection>
+                     <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 769 </slotId>
+                     <anchorPosition> 0 0.108245 0.108245 </anchorPosition>
+                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
+                     <applyTo> 16384 </applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1589,7 +1628,7 @@
          <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
          <customization>
             <customizableVehicleAreas>
-               <paint></paint>
+               <paint>TURRET</paint>
                <camouflage>TURRET</camouflage>
             </customizableVehicleAreas>
          </customization>
@@ -1610,14 +1649,20 @@
                <rayStart> 0.615567 0.376166 0.107738 </rayStart>
                <rayEnd>0.252353 0.212485 0.0719646</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
+               <isMirrored> true </isMirrored>
                <size>0.17</size>
                <hideIfDamaged> false </hideIfDamaged>
-               <isMirrored> true </isMirrored>
                <isUVProportional> true </isUVProportional>
             </slot>
             <slot>
                <slotType>camouflage</slotType>
                <slotId> 513 </slotId>
+               <anchorPosition> 0 0.484928 0 </anchorPosition>
+               <anchorDirection>0.000000 1 0.000000</anchorDirection>
+            </slot>
+            <slot>
+               <slotType>paint</slotType>
+               <slotId> 512 </slotId>
                <anchorPosition> 0 0.484928 0 </anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
@@ -1712,7 +1757,7 @@
                </hitTester>
                <customization>
                   <customizableVehicleAreas>
-                     <paint></paint>
+                     <paint>GUN_2</paint>
                      <camouflage>GUN</camouflage>
                   </customizableVehicleAreas>
                </customization>
@@ -1720,9 +1765,16 @@
                   <slot>
                      <slotType>camouflage</slotType>
                      <slotId> 770 </slotId>
-                     <anchorPosition>0.118962 0.0066874 0.504433</anchorPosition>
+                     <anchorPosition>0.063123 0.00668743 0.504433</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
                      <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 768 </slotId>
+                     <anchorPosition> 0 0.112205 0.112205 </anchorPosition>
+                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
+                     <applyTo> 16384 </applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1771,7 +1823,7 @@
                </hitTester>
                <customization>
                   <customizableVehicleAreas>
-                     <paint></paint>
+                     <paint>GUN GUN_2</paint>
                      <camouflage>GUN</camouflage>
                   </customizableVehicleAreas>
                </customization>
@@ -1779,9 +1831,23 @@
                   <slot>
                      <slotType>camouflage</slotType>
                      <slotId> 770 </slotId>
-                     <anchorPosition>0.12619 0.00676441 0.699319</anchorPosition>
+                     <anchorPosition>0.0629907 0.00676427 0.699319</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
                      <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 768 </slotId>
+                     <anchorPosition>0.0629907 0.00676427 0.699319</anchorPosition>
+                     <anchorDirection>0.000000 0.000000 1</anchorDirection>
+                     <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 769 </slotId>
+                     <anchorPosition> 0 0.108245 0.108245 </anchorPosition>
+                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
+                     <applyTo> 16384 </applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1830,7 +1896,7 @@
                </hitTester>
                <customization>
                   <customizableVehicleAreas>
-                     <paint></paint>
+                     <paint>GUN GUN_2</paint>
                      <camouflage>GUN</camouflage>
                   </customizableVehicleAreas>
                </customization>
@@ -1838,9 +1904,23 @@
                   <slot>
                      <slotType>camouflage</slotType>
                      <slotId> 770 </slotId>
-                     <anchorPosition>0.156929 -0.0216854 0.888781</anchorPosition>
+                     <anchorPosition>0.0778104 -0.0216854 0.888781</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
                      <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 768 </slotId>
+                     <anchorPosition>0.0778104 -0.0216854 0.888781</anchorPosition>
+                     <anchorDirection>0.000000 0.000000 1</anchorDirection>
+                     <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 769 </slotId>
+                     <anchorPosition> 0 0.128511 0.128511 </anchorPosition>
+                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
+                     <applyTo> 16384 </applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1863,7 +1943,7 @@
          <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
          <customization>
             <customizableVehicleAreas>
-               <paint></paint>
+               <paint>TURRET</paint>
                <camouflage>TURRET</camouflage>
             </customizableVehicleAreas>
          </customization>
@@ -1884,14 +1964,20 @@
                <rayStart> 0.535659 0.296511 0.106224 </rayStart>
                <rayEnd> 0.396088 0.231428 0.106224 </rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
+               <isMirrored> true </isMirrored>
                <size>0.18</size>
                <hideIfDamaged> false </hideIfDamaged>
-               <isMirrored> true </isMirrored>
                <isUVProportional> true </isUVProportional>
             </slot>
             <slot>
                <slotType>camouflage</slotType>
                <slotId> 513 </slotId>
+               <anchorPosition>0.000000 0.48527 0.000000</anchorPosition>
+               <anchorDirection>0.000000 1 0.000000</anchorDirection>
+            </slot>
+            <slot>
+               <slotType>paint</slotType>
+               <slotId> 512 </slotId>
                <anchorPosition>0.000000 0.48527 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>

@@ -3148,11 +3148,6 @@
       <season>ALL</season>
       <historical> false </historical>
       <priceGroup>legacy notInShop</priceGroup>
-      <vehicleFilter>
-         <include>
-            <levels>6 7 8 9 10</levels>
-         </include>
-      </vehicleFilter>
       <type>EMBLEM</type>
       <decal>
          <id> 545 </id>
@@ -3189,7 +3184,6 @@
       <vehicleFilter>
          <include>
             <nations>germany italy japan</nations>
-            <levels>6 7 8 9 10</levels>
          </include>
       </vehicleFilter>
       <type>EMBLEM</type>
@@ -4055,6 +4049,20 @@
       <type>EMBLEM</type>
    </itemGroup>
    <itemGroup>
+      <name>Cosmonautics Day</name>
+      <userString>#vehicle_customization:inscription/special</userString>
+      <season>ALL</season>
+      <historical> false </historical>
+      <priceGroup>emblems notInShop</priceGroup>
+      <type>EMBLEM</type>
+      <decal>
+         <id> 2 </id>
+         <texture>gui/maps/vehicles/decals/player_stickers/special/sticker_477.dds</texture>
+         <userString>#vehicle_customization:emblem/special/sticker_477</userString>
+         <mirror> false </mirror>
+      </decal>
+   </itemGroup>
+   <itemGroup>
       <userString>#vehicle_customization:emblem/special</userString>
       <season>ALL</season>
       <historical> false </historical>
@@ -4067,6 +4075,20 @@
          <mirror> false </mirror>
       </decal>
       <name>twitch</name>
+      <type>EMBLEM</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:emblem/special</userString>
+      <season>ALL</season>
+      <historical> false </historical>
+      <priceGroup>emblems notInShop</priceGroup>
+      <decal>
+         <id> 4 </id>
+         <texture>gui/maps/vehicles/decals/player_stickers/special/sticker_488.dds</texture>
+         <userString>#vehicle_customization:emblem/special/sticker_488</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name> 8 </name>
       <type>EMBLEM</type>
    </itemGroup>
    <xmlns:ussr> ussr </xmlns:ussr>
@@ -4209,7 +4231,6 @@
       <vehicleFilter>
          <include>
             <nations>italy</nations>
-            <levels>6 7 8 9 10</levels>
          </include>
       </vehicleFilter>
       <type>EMBLEM</type>
@@ -8190,7 +8211,6 @@
       <vehicleFilter>
          <include>
             <nations>ussr poland czech china germany italy japan</nations>
-            <levels>6 7 8 9 10</levels>
          </include>
       </vehicleFilter>
       <type>INSCRIPTION</type>
@@ -8210,7 +8230,6 @@
       <vehicleFilter>
          <include>
             <nations>france uk usa sweden</nations>
-            <levels>6 7 8 9 10</levels>
          </include>
       </vehicleFilter>
       <type>INSCRIPTION</type>
@@ -8344,7 +8363,6 @@
       <vehicleFilter>
          <include>
             <nations>uk</nations>
-            <levels>6 7 8 9 10</levels>
          </include>
       </vehicleFilter>
       <type>INSCRIPTION</type>
@@ -8673,6 +8691,209 @@
       </decal>
    </itemGroup>
    <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations> ussr </nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 715 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_253.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_253</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_look_2_ussr</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations>italy</nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 716 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_254.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_254</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_look_2_italy</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations>poland</nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 717 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_246.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_246</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_2_poland</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations>usa</nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 718 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_247.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_247</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_2_usa</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations>france</nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 710 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_248.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_248</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_2_france</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations>sweden</nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 711 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_249.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_249</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_2_sweden</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations>japan</nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 712 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_250.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_250</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_2_japan</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations>uk</nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 713 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_252.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_252</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_2_uk</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:inscription/battle</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <nations>germany</nations>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 714 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_251.dds</texture>
+         <userString>#vehicle_customization:inscription/battle/inscription_251</userString>
+         <mirror> false </mirror>
+      </decal>
+      <name>generic_custom_2_germany</name>
+      <type>INSCRIPTION</type>
+   </itemGroup>
+   <itemGroup>
+      <name>ranked 4th</name>
+      <userString>#vehicle_customization:inscription/special</userString>
+      <season>ALL</season>
+      <historical> false </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <type>INSCRIPTION</type>
+      <tags>hiddenInUI</tags>
+      <vehicleFilter>
+         <include>
+            <levels> 10 </levels>
+         </include>
+      </vehicleFilter>
+      <decal>
+         <id> 706 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_244.dds</texture>
+         <userString>#vehicle_customization:inscription/special/special_244</userString>
+         <mirror> false </mirror>
+      </decal>
+      <decal>
+         <id> 707 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_245.dds</texture>
+         <userString>#vehicle_customization:inscription/special/special_245</userString>
+         <mirror> false </mirror>
+      </decal>
+      <decal>
+         <id> 708 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_258.dds</texture>
+         <userString>#vehicle_customization:inscription/special/special_258</userString>
+         <mirror> false </mirror>
+      </decal>
+   </itemGroup>
+   <itemGroup>
       <userString>#vehicle_customization:inscription/special</userString>
       <season>ALL</season>
       <historical> false </historical>
@@ -8703,11 +8924,6 @@
       <season>ALL</season>
       <historical> false </historical>
       <priceGroup>legacy notInShop</priceGroup>
-      <vehicleFilter>
-         <include>
-            <levels>6 7 8 9 10</levels>
-         </include>
-      </vehicleFilter>
       <type>INSCRIPTION</type>
       <decal>
          <id> 549 </id>
@@ -8783,6 +8999,20 @@
          <id> 703 </id>
          <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_240.dds</texture>
          <userString>#vehicle_customization:inscription/special/special_240</userString>
+         <mirror> false </mirror>
+      </decal>
+   </itemGroup>
+   <itemGroup>
+      <name>Cosmonautics Day</name>
+      <userString>#vehicle_customization:inscription/special</userString>
+      <season>ALL</season>
+      <historical> false </historical>
+      <priceGroup>inscriptions notInShop</priceGroup>
+      <type>INSCRIPTION</type>
+      <decal>
+         <id> 1 </id>
+         <texture>gui/maps/vehicles/decals/inscriptions/special/inscription_241.dds</texture>
+         <userString>#vehicle_customization:inscription/special/special_241</userString>
          <mirror> false </mirror>
       </decal>
    </itemGroup>

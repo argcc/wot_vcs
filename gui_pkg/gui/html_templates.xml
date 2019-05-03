@@ -15,12 +15,11 @@
    </igr>
    <lobby>
       <header>
-         <base-account-label>&lt;font color=&quot;#8C8C7E&quot;&gt;_(#menu:accountTypes/base)&lt;/font&gt;</base-account-label>
-         <account-doLabel>&lt;font color=&quot;#8C8C7E&quot;&gt;%(doLabel)s&lt;/font&gt;</account-doLabel>
-         <account-buyLabel>&lt;font color=&quot;#FFC363&quot;&gt;%(doLabel)s&lt;/font&gt;</account-buyLabel>
-         <account-timeLabel>&lt;font color=&quot;#FFCC66&quot; size=&quot;16&quot;&gt;%(time).0f &lt;/font&gt;&lt;font color=&quot;#CB7518&quot; size=&quot;12&quot;&gt;%(metric)s&lt;/font&gt;</account-timeLabel>
-         <premium-account-label>&lt;font color=&quot;#FFC363&quot;&gt;_(#menu:accountTypes/premium)&lt;/font&gt;</premium-account-label>
-         <subscription-account-label>&lt;font color=&quot;#FFC363&quot;&gt;_(#menu:accountTypes/subscription)&lt;/font&gt;</subscription-account-label>
+         <premium-timeLabel>&lt;font color=&quot;#cbac77&quot; size=&quot;16&quot;&gt;%(time).0f &lt;/font&gt;&lt;font color=&quot;#cbac77&quot; size=&quot;12&quot;&gt;%(metric)s&lt;/font&gt;</premium-timeLabel>
+         <premiumPlus-timeLabel>&lt;font color=&quot;#FFCC66&quot; size=&quot;16&quot;&gt;%(time).0f &lt;/font&gt;&lt;font color=&quot;#CB7518&quot; size=&quot;12&quot;&gt;%(metric)s&lt;/font&gt;</premiumPlus-timeLabel>
+         <premiumEnd-timeLabel>&lt;font color=&quot;#ee7000&quot; size=&quot;16&quot;&gt;%(time).0f &lt;/font&gt;&lt;font color=&quot;#CB7518&quot; size=&quot;12&quot;&gt;%(metric)s&lt;/font&gt;</premiumEnd-timeLabel>
+         <accountBooster>&lt;font color=&apos;#CCFFFF&apos;&gt;%(message)s&lt;/font&gt;</accountBooster>
+         <clanBooster>&lt;font color=&apos;#9ED038&apos;&gt;%(message)s&lt;/font&gt;</clanBooster>
       </header>
       <tank_params>
          <maxHealth>&lt;h1&gt;_(#menu:tank_params/maxHealth)&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;</maxHealth>
@@ -100,6 +99,9 @@
             </context>
             <text>_(#vehicle_customization:propertySheet/inscriptionController/invalid_inscription)</text>
          </inscription_hint>
+         <style_info_bonus>
+            <text>&lt;font size=&apos;14&apos; color=&quot;#8C8C7E&quot; face=&quot;$TitleFont&quot;&gt;&lt;font size=&apos;15&apos; color=&quot;#E9E2BF&quot; face=&quot;$TitleFont&quot;&gt;+%(bonus)s&lt;/font&gt; _(#vehicle_customization:styleInfo/bonus)&lt;/font&gt;</text>
+         </style_info_bonus>
       </customization>
       <battle_results>
          <penalty_extra_msg>
@@ -128,8 +130,8 @@
          </lightText>
          <percent>&lt;font color=&apos;#d0ceb8&apos;&gt;%(value)s %%&lt;/font&gt;</percent>
          <negative_percent>&lt;font color=&apos;#bc0000&apos;&gt;%(value)s %%&lt;/font&gt;</negative_percent>
-         <credits_label>%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/CreditsIconBig-1.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;3&quot;/&gt;</credits_label>
-         <xp_label>%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/XpIconBig-1.png&quot; width=&quot;32&quot; height=&quot;32&quot; vspace=&quot;-5&quot;/&gt;</xp_label>
+         <credits_label>%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/CreditsIcon-1.png&quot; width=&quot;16&quot; height=&quot;16&quot;/&gt;</credits_label>
+         <xp_label>%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/XpIconBig.png&quot; width=&quot;16&quot; height=&quot;15&quot; vspace=&quot;-2&quot;/&gt;</xp_label>
          <credits_small_label>%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/CreditsIcon-2.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-3&quot;/&gt;</credits_small_label>
          <credits_small_inactive_label>&lt;font color=&quot;#42433f&quot;&gt;%(value)s&lt;/font&gt; &lt;IMG SRC=&quot;img://gui/maps/icons/library/CreditsIconInactive-2.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-3&quot;/&gt;</credits_small_inactive_label>
          <gold_small_label>&lt;font color=&quot;#fbc062&quot;&gt;%(value)s&lt;/font&gt; &lt;IMG SRC=&quot;img://gui/maps/icons/library/GoldIcon-2.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-3&quot;/&gt;</gold_small_label>
@@ -142,7 +144,10 @@
          <resource_small_inactive_label>&lt;font color=&quot;#4c4b45&quot;&gt;%(value)s&lt;/font&gt; &lt;IMG SRC=&quot;img://gui/maps/icons/library/fortification/nutInactive.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-3&quot;/&gt;</resource_small_inactive_label>
          <free_xp_small_label>%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/EliteXpIcon-2.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-3&quot;/&gt;</free_xp_small_label>
          <free_xp_small_inactive_label>&lt;font color=&quot;#34322a&quot;&gt;%(value)s&lt;/font&gt; &lt;IMG SRC=&quot;img://gui/maps/icons/library/FreeXpIconInactive-1.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-2&quot;/&gt;</free_xp_small_inactive_label>
-         <multy_xp_small_label>_(#battle_results:common/xpMultiplierSign)%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/multyXp.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-2&quot;/&gt;</multy_xp_small_label>
+         <multy_xp_small_label>%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/multyXp.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-2&quot;/&gt;</multy_xp_small_label>
+         <multy_xp_small_label_free>%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/FreeXpIcon-3.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-2&quot;/&gt;</multy_xp_small_label_free>
+         <multy_xp_small_multiplier>_(#battle_results:common/xpMultiplierSign)%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/multyXp.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-2&quot;/&gt;</multy_xp_small_multiplier>
+         <multy_xp_small_multiplier_free>_(#battle_results:common/xpMultiplierSign)%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/FreeXpIcon-3.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-2&quot;/&gt;</multy_xp_small_multiplier_free>
          <igr_bonus>_(#battle_results:common/xpMultiplierSign)%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/multyXp.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-2&quot;/&gt;</igr_bonus>
          <team_killer>&lt;font color=&quot;#09e2ff&quot;&gt;%(text)s&lt;/font&gt;</team_killer>
          <ref_system_bonus>_(#battle_results:common/xpMultiplierSign)%(value)s &lt;IMG SRC=&quot;img://gui/maps/icons/library/multyXp.png&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-2&quot;/&gt;</ref_system_bonus>
@@ -692,6 +697,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
             <slots>_(#quests:bonuses/item/slots) &lt;font color=&apos;#95907F&apos;&gt;%(value)s&lt;/font&gt;</slots>
             <berths>_(#quests:bonuses/item/berths) &lt;font color=&apos;#95907F&apos;&gt;%(value)s&lt;/font&gt;</berths>
             <premium>_(#quests:bonuses/item/premium) &lt;font color=&apos;#95907F&apos;&gt;%(value)s&lt;/font&gt;</premium>
+            <premium_plus>_(#quests:bonuses/item/premiumPlus) &lt;font color=&apos;#95907F&apos;&gt;%(value)s&lt;/font&gt;</premium_plus>
             <awardSheet>&lt;font color=&apos;#FBC062&apos;&gt;%(value)s &lt;/font&gt;&lt;img src=&apos;img://gui/maps/icons/quests/token16.png&apos; width=&apos;16&apos; height=&apos;16&apos; vspace=&apos;-3&apos; /&gt;</awardSheet>
             <rentDays>_(#quests:bonuses/vehicles/rentDays) &lt;font color=&apos;#E9E2BF&apos;&gt;%(value)s&lt;/font&gt;</rentDays>
             <lootBox>&lt;img src=&apos;img://gui/maps/icons/quests/bonuses/small/lootBox_%(lootBoxType)s.png&apos; width=&apos;32&apos; height=&apos;32&apos; vspace=&apos;-14&apos; /&gt; &lt;font color=&apos;#CED9D9&apos;&gt;x%(value)s&lt;/font&gt;</lootBox>
@@ -955,8 +961,10 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
          <epicTitleYellow>&lt;font face=&apos;$TitleFont&apos; size=&apos;73&apos; color=&apos;#f5eed5&apos;&gt;%(message)s&lt;/font&gt;</epicTitleYellow>
          <heroTitle>&lt;font face=&apos;$TitleFont&apos; size=&apos;56&apos; color=&apos;#F2F2F7&apos;&gt;%(message)s&lt;/font&gt;</heroTitle>
          <heroTitleYellow>&lt;font face=&apos;$TitleFont&apos; size=&apos;56&apos; color=&apos;#f5eed5&apos;&gt;%(message)s&lt;/font&gt;</heroTitleYellow>
+         <heroTitleTK>&lt;font face=&apos;$TitleFont&apos; size=&apos;56&apos; color=&apos;#09e2ff&apos;&gt;%(message)s&lt;/font&gt;</heroTitleTK>
          <grandTitle>&lt;font face=&apos;$TitleFont&apos; size=&apos;36&apos; color=&apos;#F2F2F7&apos;&gt;%(message)s&lt;/font&gt;</grandTitle>
          <grandTitleYellow>&lt;font face=&apos;$TitleFont&apos; size=&apos;36&apos; color=&apos;#f5eed5&apos;&gt;%(message)s&lt;/font&gt;</grandTitleYellow>
+         <grandTitleTK>&lt;font face=&apos;$TitleFont&apos; size=&apos;36&apos; color=&apos;#09e2ff&apos;&gt;%(message)s&lt;/font&gt;</grandTitleTK>
          <superPromoTitle>&lt;font face=&apos;$TitleFont&apos; size=&apos;28&apos; color=&apos;#F2F2F7&apos;&gt;%(message)s&lt;/font&gt;</superPromoTitle>
          <superPromoTitleEm>&lt;font face=&apos;$TitleFont&apos; size=&apos;28&apos; color=&apos;#F5EED5&apos;&gt;%(message)s&lt;/font&gt;</superPromoTitleEm>
          <promoTitle>&lt;font face=&apos;$TitleFont&apos; size=&apos;24&apos; color=&apos;#F2F2E7&apos;&gt;%(message)s&lt;/font&gt;</promoTitle>
@@ -1022,6 +1030,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
          <vehicleStatusSimpleText>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#CFC7A8&apos;&gt;%(message)s&lt;/font&gt;</vehicleStatusSimpleText>
          <vehicleStatusInfoText>&lt;font face=&apos;$TitleFont&apos; size=&apos;15&apos; color=&apos;#CFC7A8&apos;&gt;%(message)s&lt;/font&gt;</vehicleStatusInfoText>
          <vehicleStatusCriticalText>&lt;font face=&apos;$TitleFont&apos; size=&apos;15&apos; color=&apos;#ffe0b6&apos;&gt;%(message)s&lt;/font&gt;</vehicleStatusCriticalText>
+         <vehicleStatusCriticalTextSmall>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#ffe0b6&apos;&gt;%(message)s&lt;/font&gt;</vehicleStatusCriticalTextSmall>
          <vehicleName>&lt;font face=&apos;$FieldFont&apos; size=&apos;15&apos; color=&apos;#C9C9B6&apos;&gt;%(message)s&lt;/font&gt;</vehicleName>
          <premiumVehicleName>&lt;font face=&apos;$FieldFont&apos; size=&apos;15&apos; color=&apos;#FFA759&apos;&gt;%(message)s&lt;/font&gt;</premiumVehicleName>
          <missionStatusUnavailable>&lt;font face=&apos;$TitleFont&apos; size=&apos;18&apos; color=&apos;#ff2717&apos;&gt;%(message)s&lt;/font&gt;</missionStatusUnavailable>

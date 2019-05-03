@@ -67,7 +67,6 @@
       <vehicleFilter>
          <include>
             <nations>germany</nations>
-            <levels>6 7 8 9 10</levels>
          </include>
          <exclude>
             <vehicles>germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian</vehicles>
@@ -206,7 +205,6 @@
       <vehicleFilter>
          <include>
             <nations>germany</nations>
-            <levels>6 7 8 9 10</levels>
          </include>
          <exclude>
             <vehicles>germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian</vehicles>
@@ -412,6 +410,82 @@
                   </item>
                   <item>
                      <id> 14618 </id>
+                     <appliedTo> 52416 </appliedTo>
+                  </item>
+               </decals>
+            </outfit>
+            <outfit>
+               <season>event</season>
+            </outfit>
+         </outfits>
+      </style>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:styles/main_styles</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <vehicleFilter>
+         <include>
+            <nations>germany</nations>
+         </include>
+         <exclude>
+            <vehicles>germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian</vehicles>
+         </exclude>
+      </vehicleFilter>
+      <style>
+         <id> 26 </id>
+         <texture>gui/maps/vehicles/styles/generic_custom_look_2_germany.png</texture>
+         <description>#vehicle_customization:main_style/generic_custom_look_2_germany_desc</description>
+         <userString>#vehicle_customization:main_style/generic_custom_look_2_germany</userString>
+         <priceGroup>generic custom look styles</priceGroup>
+         <outfits>
+            <outfit>
+               <season>winter</season>
+               <camouflages>
+                  <item>
+                     <id> 695 </id>
+                     <appliedTo> 4368 </appliedTo>
+                     <patternSize> 1 </patternSize>
+                     <palette> 0 </palette>
+                  </item>
+               </camouflages>
+               <decals>
+                  <item>
+                     <id> 714 </id>
+                     <appliedTo> 52416 </appliedTo>
+                  </item>
+               </decals>
+            </outfit>
+            <outfit>
+               <season>summer</season>
+               <camouflages>
+                  <item>
+                     <id> 694 </id>
+                     <appliedTo> 4368 </appliedTo>
+                     <patternSize> 1 </patternSize>
+                     <palette> 0 </palette>
+                  </item>
+               </camouflages>
+               <decals>
+                  <item>
+                     <id> 714 </id>
+                     <appliedTo> 52416 </appliedTo>
+                  </item>
+               </decals>
+            </outfit>
+            <outfit>
+               <season>desert</season>
+               <camouflages>
+                  <item>
+                     <id> 696 </id>
+                     <appliedTo> 4368 </appliedTo>
+                     <patternSize> 1 </patternSize>
+                     <palette> 0 </palette>
+                  </item>
+               </camouflages>
+               <decals>
+                  <item>
+                     <id> 714 </id>
                      <appliedTo> 52416 </appliedTo>
                   </item>
                </decals>

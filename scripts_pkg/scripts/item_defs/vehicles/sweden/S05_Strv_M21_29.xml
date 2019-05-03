@@ -75,7 +75,7 @@
       <hangarShadowTexture>vehicles/sweden/S05_Strv_M21_29/Strv_M21_29_HangarShadowMap.dds</hangarShadowTexture>
       <customization>
          <customizableVehicleAreas>
-            <paint></paint>
+            <paint> HULL </paint>
             <camouflage> HULL </camouflage>
          </customizableVehicleAreas>
       </customization>
@@ -116,9 +116,9 @@
             <rayStart>0.00269473 0.337418 -2.15905</rayStart>
             <rayEnd>0.00269473 0.248907 -1.9797</rayEnd>
             <rayUp>0.000000 1 0.000000</rayUp>
+            <isMirrored> true </isMirrored>
             <size>0.25</size>
             <hideIfDamaged> true </hideIfDamaged>
-            <isMirrored> true </isMirrored>
             <isUVProportional> true </isUVProportional>
          </slot>
          <slot>
@@ -134,6 +134,12 @@
          <slot>
             <slotType>camouflage</slotType>
             <slotId> 3 </slotId>
+            <anchorPosition>0.000000 0.676752 1.34338</anchorPosition>
+            <anchorDirection> 0 0.449903 0.893077 </anchorDirection>
+         </slot>
+         <slot>
+            <slotType>paint</slotType>
+            <slotId> 2 </slotId>
             <anchorPosition>0.000000 0.676752 1.34338</anchorPosition>
             <anchorDirection> 0 0.449903 0.893077 </anchorDirection>
          </slot>
@@ -766,7 +772,7 @@
          </physicalTracks>
          <customization>
             <customizableVehicleAreas>
-               <paint></paint>
+               <paint>CHASSIS</paint>
                <camouflage></camouflage>
             </customizableVehicleAreas>
          </customization>
@@ -774,8 +780,14 @@
             <slot>
                <slotType>style</slotType>
                <slotId> 257 </slotId>
-               <anchorPosition>0.000446646 2.59876 -0.946554</anchorPosition>
-               <anchorDirection>-0.000000 1 0.000000</anchorDirection>
+               <anchorPosition>0.000000 2.59885 -0.946333</anchorPosition>
+               <anchorDirection>0.000000 1 -0.000000</anchorDirection>
+            </slot>
+            <slot>
+               <slotType>paint</slotType>
+               <slotId> 256 </slotId>
+               <anchorPosition>-1.03168 0.56572 0.416855</anchorPosition>
+               <anchorDirection>-0.82649 0.453204 0.333947</anchorDirection>
             </slot>
          </customizationSlots>
       </Chassis_S05_Strv_M21_29>
@@ -857,7 +869,7 @@
                </hitTester>
                <customization>
                   <customizableVehicleAreas>
-                     <paint></paint>
+                     <paint>GUN GUN_2</paint>
                      <camouflage>GUN</camouflage>
                   </customizableVehicleAreas>
                </customization>
@@ -865,9 +877,23 @@
                   <slot>
                      <slotType>camouflage</slotType>
                      <slotId> 770 </slotId>
-                     <anchorPosition> 0 0 0.497686 </anchorPosition>
-                     <anchorDirection>-0.000000 0.000000 1</anchorDirection>
+                     <anchorPosition> 0 0 0.439815 </anchorPosition>
+                     <anchorDirection>0.000000 0.000000 1</anchorDirection>
                      <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 768 </slotId>
+                     <anchorPosition> 0 0 0.439815 </anchorPosition>
+                     <anchorDirection>0.000000 0.000000 1</anchorDirection>
+                     <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 769 </slotId>
+                     <anchorPosition>0.000000 0.0833149 0.0833149</anchorPosition>
+                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
+                     <applyTo> 16384 </applyTo>
                   </slot>
                </customizationSlots>
             </_37mm_kanon_m_Skoda>
@@ -922,7 +948,7 @@
                </hitTester>
                <customization>
                   <customizableVehicleAreas>
-                     <paint></paint>
+                     <paint>GUN_2</paint>
                      <camouflage>GUN</camouflage>
                   </customizableVehicleAreas>
                </customization>
@@ -930,9 +956,16 @@
                   <slot>
                      <slotType>camouflage</slotType>
                      <slotId> 770 </slotId>
-                     <anchorPosition> 0 0 0.603175 </anchorPosition>
-                     <anchorDirection>-0.000000 0.000000 1</anchorDirection>
+                     <anchorPosition> 0 -0 0.531431 </anchorPosition>
+                     <anchorDirection>0.000000 0.000000 1</anchorDirection>
                      <applyTo> 4096 </applyTo>
+                  </slot>
+                  <slot>
+                     <slotType>paint</slotType>
+                     <slotId> 768 </slotId>
+                     <anchorPosition>0.000000 0.0916989 0.0916986</anchorPosition>
+                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
+                     <applyTo> 16384 </applyTo>
                   </slot>
                </customizationSlots>
             </_20mm_akan_m_Madsen>
@@ -952,7 +985,7 @@
          <physicsShape>0.964 0.000 0.971 0.000 0.348 0.551 0.500 0.500 0.500 0.500 0.000 0.500 0.000 0.000 0.000</physicsShape>
          <customization>
             <customizableVehicleAreas>
-               <paint></paint>
+               <paint>TURRET</paint>
                <camouflage>TURRET</camouflage>
             </customizableVehicleAreas>
          </customization>
@@ -960,7 +993,13 @@
             <slot>
                <slotType>camouflage</slotType>
                <slotId> 513 </slotId>
-               <anchorPosition> 0 0.554568 0 </anchorPosition>
+               <anchorPosition> 0 0.554567 0 </anchorPosition>
+               <anchorDirection>0.000000 1 0.000000</anchorDirection>
+            </slot>
+            <slot>
+               <slotType>paint</slotType>
+               <slotId> 512 </slotId>
+               <anchorPosition> 0 0.554567 0 </anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
          </customizationSlots>

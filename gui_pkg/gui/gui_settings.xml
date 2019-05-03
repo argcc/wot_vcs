@@ -921,13 +921,14 @@
       <value> 5 </value>
    </setting>
    <setting>
-      https://wotclassic.ru/$LANGUAGE_CODE/
-      <name>wotClassicRegistrationUrl</name>
-      <type>url</type>
-   </setting>
-   <setting>
-      https://marathon.worldoftanks.ru/$LANGUAGE_CODE/
-      <name>marathonSMTSUrl</name>
-      <type>url</type>
+      <name>premiumInfo</name>
+      <type> dict </type>
+      <value>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/wot_premium/
+            <name>baseURL</name>
+            <type>url</type>
+         </item>
+      </value>
    </setting>
 </gui_settings.xml>
