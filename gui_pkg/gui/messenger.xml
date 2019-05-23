@@ -1430,8 +1430,9 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <priority>medium</priority>
          <type> grey </type>
          <icon>MessageIcon</icon>
-         <message>&lt;font color=&quot;#e9e2bf&quot; face=&quot;$TitleFont&quot; size=&quot;15&quot;&gt;_(#system_messages:telecom/notifications/vehicleReceived/title)&lt;/font&gt;
-&lt;font color=&quot;#8C8C7C&quot; face=&quot;$FieldFont&quot; size=&quot;14&quot;&gt;_(#system_messages:telecom/notifications/vehicleReceived/comment)&lt;/font&gt;</message>
+         <message>&lt;font color=&quot;#e9e2bf&quot; face=&quot;$TitleFont&quot; size=&quot;15&quot;&gt;%(title)s&lt;/font&gt;
+&lt;font color=&quot;#8C8C7C&quot; face=&quot;$FieldFont&quot; size=&quot;14&quot;&gt;%(comment)s&lt;/font&gt;
+&lt;font color=&quot;#595950&quot; face=&quot;$FieldFont&quot; size=&quot;14&quot;&gt;%(subcomment)s&lt;/font&gt;</message>
       </telecomVehicleReceived>
       <telecomVehicleStatus>
          <priority>medium</priority>
@@ -1445,9 +1446,9 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <priority>medium</priority>
          <type> grey </type>
          <icon>WarningIcon</icon>
-         <message>&lt;font color=&quot;#e9e2bf&quot; face=&quot;$TitleFont&quot; size=&quot;15&quot;&gt;_(#system_messages:telecom/notifications/vehicleRemoved/title)&lt;/font&gt;
-&lt;font color=&quot;#8C8C7C&quot; face=&quot;$FieldFont&quot; size=&quot;14&quot;&gt;_(#system_messages:telecom/notifications/vehicleRemoved/comment)&lt;/font&gt;
-&lt;font color=&quot;#595950&quot; face=&quot;$FieldFont&quot; size=&quot;14&quot;&gt;_(#system_messages:telecom/notifications/vehicleRemoved/subcomment)&lt;/font&gt;</message>
+         <message>&lt;font color=&quot;#e9e2bf&quot; face=&quot;$TitleFont&quot; size=&quot;15&quot;&gt;%(title)s&lt;/font&gt;
+&lt;font color=&quot;#8C8C7C&quot; face=&quot;$FieldFont&quot; size=&quot;14&quot;&gt;%(comment)s&lt;/font&gt;
+&lt;font color=&quot;#595950&quot; face=&quot;$FieldFont&quot; size=&quot;14&quot;&gt;%(subcomment)s&lt;/font&gt;</message>
       </telecomVehicleRemoved>
       <prbVehicleKick>
          <priority> high </priority>
