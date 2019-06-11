@@ -569,9 +569,9 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <vehiclesRentedInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/vehiclesRented): &lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(vehicles)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</vehiclesRentedInvoiceReceived>
       <compensationForInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/compensation) &lt;b&gt;%(items)s&lt;/b&gt; %(compensation)s&lt;/font&gt;</compensationForInvoiceReceived>
       <customizationCompensationInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/compensation) &lt;b&gt;%(type)s &quot;%(name)s&quot;&lt;/b&gt; (&lt;b&gt;%(amount)s&lt;/b&gt; _(#messenger:serviceChannelMessages/invoiceReceived/pieces)) %(compensation)s&lt;/font&gt;</customizationCompensationInvoiceReceived>
-      <goldCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/gold) &lt;b&gt;%(amount)s&lt;/b&gt;</goldCompensationInvoiceReceived>
-      <creditsCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/credits) &lt;b&gt;%(amount)s&lt;/b&gt;</creditsCompensationInvoiceReceived>
-      <crystalCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/crystal) &lt;b&gt;%(amount)s&lt;/b&gt;</crystalCompensationInvoiceReceived>
+      <goldCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/gold) %(amount)s</goldCompensationInvoiceReceived>
+      <creditsCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/credits) %(amount)s</creditsCompensationInvoiceReceived>
+      <crystalCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/crystal) %(amount)s</crystalCompensationInvoiceReceived>
       <tankmenInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/tankmen): &lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(tankman)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</tankmenInvoiceReceived>
       <boostersInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/boosters): &lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(boosters)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</boostersInvoiceReceived>
       <discountsInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/discounts): &lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(discounts)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</discountsInvoiceReceived>
@@ -649,7 +649,7 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 &lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s &lt;/font&gt;
 &lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
 &lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color=&apos;#C8C8B5&apos;&gt;%(xp)s&lt;/font&gt;%(xpEx)s&lt;/font&gt;%(crystalStr)s%(gold)s
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color=&apos;#C5CFCF&apos;&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s%(piggyBank)s</message>
+&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color=&apos;#C5CFCF&apos;&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s</message>
       </battleVictoryResult>
       <battleDrawGameResult>
          <type> battleResult </type>
@@ -669,7 +669,7 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 &lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s &lt;/font&gt;
 &lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
 &lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color=&apos;#C8C8B5&apos;&gt;%(xp)s&lt;/font&gt;%(xpEx)s&lt;/font&gt;%(crystalStr)s%(gold)s
-&lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color=&apos;#C5CFCF&apos;&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s%(piggyBank)s</message>
+&lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color=&apos;#C5CFCF&apos;&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s</message>
       </battleDrawGameResult>
       <battleDefeatResult>
          <type> battleResult </type>

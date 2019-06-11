@@ -421,6 +421,8 @@
          <optionalDevice>
             <colorTagOpen>&lt;font color=&quot;#80d43a&quot;&gt;</colorTagOpen>
             <colorTagClose>&lt;/font&gt;</colorTagClose>
+            <expTagOpen>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#C9C9B6&apos;&gt;</expTagOpen>
+            <expTagClose>&lt;/font&gt;</expTagClose>
          </optionalDevice>
          <crewBattleBooster>
             <colorTagOpen>&lt;font color=&quot;#80d43a&quot;&gt;</colorTagOpen>
@@ -702,6 +704,10 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
             <rentDays>_(#quests:bonuses/vehicles/rentDays) &lt;font color=&apos;#E9E2BF&apos;&gt;%(value)s&lt;/font&gt;</rentDays>
             <lootBox>&lt;img src=&apos;img://gui/maps/icons/quests/bonuses/small/lootBox_%(lootBoxType)s.png&apos; width=&apos;32&apos; height=&apos;32&apos; vspace=&apos;-14&apos; /&gt; &lt;font color=&apos;#CED9D9&apos;&gt;x%(value)s&lt;/font&gt;</lootBox>
             <crewSkin>&lt;img src=&apos;img://gui/maps/icons/quests/bonuses/small/crewSkin%(rarity)s.png&apos;/&gt; &lt;font color=&apos;#CED9D9&apos;&gt;x%(value)s&lt;/font&gt;</crewSkin>
+            <crewBook>&lt;img src=&apos;img://gui/maps/icons/crewBooks/books/small/%(type)s_%(nation)s.png&apos;/&gt; &lt;font color=&apos;#CED9D9&apos;&gt;x%(value)s&lt;/font&gt;</crewBook>
+            <vehicleBlueprints>_(#quests:bonusName/blueprints/vehicle) &lt;font color=&apos;#CED9D9&apos;&gt;%(value)s&lt;/font&gt;</vehicleBlueprints>
+            <nationBlueprints>_(#quests:bonusName/blueprints/nation) &lt;font color=&apos;#CED9D9&apos;&gt;%(value)s&lt;/font&gt;</nationBlueprints>
+            <universalBlueprints>_(#quests:bonusName/blueprints/universal) &lt;font color=&apos;#CED9D9&apos;&gt;%(value)s&lt;/font&gt;</universalBlueprints>
          </bonuses>
          <carouselBonuses>
             <credits>&lt;font face=&apos;$FieldFont&apos; size=&apos;22&apos; color=&apos;#CED9D9&apos;&gt;&lt;b&gt;%(value)s &lt;/b&gt;&lt;/font&gt;&lt;img src=&apos;img://gui/maps/icons/library/CreditsIcon-1.png&apos; width=&apos;16&apos; height=&apos;16&apos; /&gt;</credits>
@@ -992,8 +998,10 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
          <highlightText>&lt;font face=&apos;$FieldFont&apos; size=&apos;16&apos; color=&apos;#E9E2BF&apos;&gt;%(message)s&lt;/font&gt;</highlightText>
          <lockedText>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#FF0000&apos;&gt;%(message)s&lt;/font&gt;</lockedText>
          <successText>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#497212&apos;&gt;%(message)s&lt;/font&gt;</successText>
+         <statsIncrease>&lt;font face=&apos;$FieldFont&apos; size=&apos;16&apos; color=&apos;#80D43A&apos;&gt;%(message)s&lt;/font&gt;</statsIncrease>
          <alertText>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#EE7000&apos;&gt;%(message)s&lt;/font&gt;</alertText>
          <errorText>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#ff2717&apos;&gt;%(message)s&lt;/font&gt;</errorText>
+         <statsDecrease>&lt;font face=&apos;$FieldFont&apos; size=&apos;16&apos; color=&apos;#ff2717&apos;&gt;%(message)s&lt;/font&gt;</statsDecrease>
          <neutralText>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#CBAC77&apos;&gt;%(message)s&lt;/font&gt;</neutralText>
          <goodPingText>&lt;font face=&apos;$TextFont&apos; size=&apos;11&apos; color=&apos;#497212&apos;&gt;%(message)s&lt;/font&gt;</goodPingText>
          <standartPingText>&lt;font face=&apos;$TextFont&apos; size=&apos;11&apos; color=&apos;#595950&apos;&gt;%(message)s&lt;/font&gt;</standartPingText>
@@ -1091,6 +1099,20 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
             <marksOnGun>&lt;img src=&apos;img://gui/maps/icons/library/marksOnGun/mark_%(count)d.png&apos; width=&apos;24&apos; height=&apos;24&apos; vspace=&apos;-8&apos;/&gt;</marksOnGun>
          </statistic>
       </tank_carousel>
+      <session_stats>
+         <rates>
+            <inc>&lt;font face=&quot;$FieldFont&quot; size=&quot;10&quot; color=&quot;#80D43A&quot;&gt;%(value)s&lt;/font&gt;</inc>
+            <dec>&lt;font face=&quot;$FieldFont&quot; size=&quot;10&quot; color=&quot;#FF2717&quot;&gt;%(value)s&lt;/font&gt;</dec>
+         </rates>
+         <ratio>
+            <context>
+               <open>&lt;font color=&quot;#595950&quot;&gt;</open>
+               <close>&lt;/font&gt;</close>
+            </context>
+            <normal>_(#session_stats:ratio/normal)</normal>
+            <inverse>_(#session_stats:ratio/inverse)</inverse>
+         </ratio>
+      </session_stats>
    </lobby>
    <contacts>
       <contact>
