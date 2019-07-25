@@ -8,6 +8,10 @@
          <Exposed></Exposed>
          <Arg>UINT16</Arg>
       </respawnController_chooseVehicleForRespawn>
+      <respawnController_setSwapVehicle>
+         <Exposed></Exposed>
+         <Arg>UINT16</Arg>
+      </respawnController_setSwapVehicle>
       <respawnController_performRespawn>
          <Exposed></Exposed>
       </respawnController_performRespawn>
@@ -25,6 +29,12 @@
             <of>RESPAWN_AVAILABLE_VEHICLE</of>
          </Arg>
       </respawnController_updateRespawnVehicles>
+      <respawnController_eventUpdateRespawnVehicles>
+         <Arg>
+            ARRAY
+            <of>EVENT_RESPAWN_AVAILABLE_VEHICLE</of>
+         </Arg>
+      </respawnController_eventUpdateRespawnVehicles>
       <respawnController_updateRespawnCooldowns>
          <Arg>
             ARRAY
@@ -65,6 +75,12 @@
             <of>RESPAWN_AVAILABLE_VEHICLE</of>
          </Arg>
       </updateRespawnVehicles>
+      <eventUpdateRespawnVehicles>
+         <Arg>
+            ARRAY
+            <of>EVENT_RESPAWN_AVAILABLE_VEHICLE</of>
+         </Arg>
+      </eventUpdateRespawnVehicles>
       <updateRespawnCooldowns>
          <Arg>
             ARRAY
@@ -89,5 +105,10 @@
             <of>UINT8</of>
          </Arg>
       </onTeamLivesRestored>
+      <addRespawnGroup>
+         <Arg>UINT8</Arg>
+         <Arg>VECTOR3</Arg>
+         <Arg> BOOL </Arg>
+      </addRespawnGroup>
    </ClientMethods>
 </RespawnController_Avatar.def>

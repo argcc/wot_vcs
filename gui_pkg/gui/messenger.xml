@@ -606,6 +606,7 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <creditsRentCompensationReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/rentCompensation/creditsReceived): &lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(credits)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</creditsRentCompensationReceived>
       <rentDays>_(#messenger:serviceChannelMessages/invoiceReceived/rentDays) %(value)s</rentDays>
       <postBattleSharingLink>&lt;font color=&quot;#CBAC77&quot;&gt;_(#messenger:chat/postBattleSharing/label): %(arena)s, %(vehicle)s, %(xp)s&lt;/font&gt;&lt;a href=&quot;event:%(linkCode)s&quot;&gt; %(arrowButton)s &lt;/a&gt; &lt;font color=&quot;#CBAC77&quot;&gt;</postBattleSharingLink>
+      <eventRerawdTokensReceived>&lt;font color=&apos;#D6D7D4&apos;&gt;%(text)s&lt;/font&gt;</eventRerawdTokensReceived>
       <badgeAchievement>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/badgeAchievement): &lt;font color=&apos;#D6D7D4&apos;&gt;%(badges)s&lt;/font&gt;&lt;/font&gt;</badgeAchievement>
       <removedBadgeAchievement>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/removedBadgeAchievement): &lt;font color=&apos;#D6D7D4&apos;&gt;%(badges)s&lt;/font&gt;&lt;/font&gt;</removedBadgeAchievement>
    </htmlTemplatesSimple>
@@ -711,6 +712,40 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 &lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color=&apos;#C8C8B5&apos;&gt;%(xp)s&lt;/font&gt;%(xpEx)s&lt;/font&gt;%(crystalStr)s%(gold)s
 &lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color=&apos;#C5CFCF&apos;&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s%(piggyBank)s</message>
       </battleEndedGameResult>
+      <eventBattleVictoryResult>
+         <type> battleResult </type>
+         <icon> BattleResultIcon </icon>
+         <bgIcon>BgBattleResultIconVictory</bgIcon>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
+               <action>showBattleResults</action>
+            </button>
+         </buttonsLayout>
+         <message>&lt;font face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;_(#messenger:serviceChannelMessages/battleResults/victory)!&lt;/font&gt;
+&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s&lt;/font&gt;
+&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
+&lt;font color=&apos;#8C8C7E&apos;&gt;%(frontName)s: %(frontPoints)s&lt;/font&gt;
+&lt;font color=&apos;#8C8C7E&apos;&gt;%(generalName)s: %(generalPoints)s&lt;/font&gt;</message>
+      </eventBattleVictoryResult>
+      <eventBattleDefeatResult>
+         <type> battleResult </type>
+         <icon> BattleResultIcon </icon>
+         <bgIcon> BgBattleResultIconDefeat </bgIcon>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
+               <action>showBattleResults</action>
+            </button>
+         </buttonsLayout>
+         <message>&lt;font face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;_(#messenger:serviceChannelMessages/battleResults/defeat)&lt;/font&gt;
+&lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s&lt;/font&gt;
+&lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
+&lt;font color=&apos;#929290&apos;&gt;%(frontName)s: %(frontPoints)s&lt;/font&gt;
+&lt;font color=&apos;#929290&apos;&gt;%(generalName)s: %(generalPoints)s&lt;/font&gt;</message>
+      </eventBattleDefeatResult>
       <battleTutorialResBonuses>
          <type> battleResult </type>
          <icon> BattleResultIcon </icon>
@@ -1192,6 +1227,31 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon> BattleResultIcon </icon>
          <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests):&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
       </tokenQuests>
+      <eventFrontReward>
+         <type> grey </type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/eventFrontReward)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventFrontReward>
+      <eventGeneralLevelReached>
+         <type> grey </type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/eventGeneralLevelReached)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventGeneralLevelReached>
+      <eventFrontLevelReached>
+         <type> grey </type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/eventFrontLevelReached)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventFrontLevelReached>
+      <eventGeneralReward>
+         <type> grey </type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/eventGeneralReward)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventGeneralReward>
+      <eventGeneralBuyReward>
+         <type> grey </type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/eventGeneralBuyReward)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventGeneralBuyReward>
       <personalMissions>
          <type> grey </type>
          <icon>InformationIcon</icon>
@@ -1462,6 +1522,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>MessageIcon</icon>
          <message>&lt;font color=&quot;#8C8C7E&quot;&gt;_(#system_messages:squad/notValidMaxSpgDeleted)&lt;/font&gt;</message>
       </prbVehicleMaxSpgKick>
+      <prbWrongFrontKick>
+         <priority> high </priority>
+         <type> grey </type>
+         <icon>MessageIcon</icon>
+         <message>&lt;font color=&quot;#8C8C7E&quot;&gt;_(#system_messages:squad/notValidFrontDeleted)&lt;/font&gt;</message>
+      </prbWrongFrontKick>
       <RotationGroupLock>
          <priority>medium</priority>
          <type> grey </type>

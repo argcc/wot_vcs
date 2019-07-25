@@ -1,0 +1,52 @@
+<battle_hints.xml>
+   <hint>
+      <name>arena_waiting</name>
+      <component>battleHint</component>
+      <message>#event:notification/arena_state/arena_waiting</message>
+      <priority> 100 </priority>
+   </hint>
+   <hint>
+      <name>start_wave</name>
+      <component>battleHint</component>
+      <message>#event:notification/start_wave</message>
+      <duration> 5 </duration>
+      <priority> 100 </priority>
+      <iconPath>event/arrow</iconPath>
+      <soundNotification>hb1_new_enemy_wave</soundNotification>
+   </hint>
+   <hint>
+      <name>prebattlenotif</name>
+      <component>battleHint</component>
+      <message>#event:notification/prebattlenotif</message>
+      <duration> 5 </duration>
+      <priority> 100 </priority>
+      <iconPath> event/shield </iconPath>
+      <soundNotification>hb1_ui_notification_shown</soundNotification>
+   </hint>
+   <hint>
+      <name>end_wave</name>
+      <component>battleHint</component>
+      <message>#event:notification/end_wave</message>
+      <duration> 5 </duration>
+      <priority> 100 </priority>
+      <iconPath>event/arrowGrey</iconPath>
+      <soundNotification>hb1_attack_repelled</soundNotification>
+   </hint>
+   <hint>
+      <name>end_last_wave</name>
+      <component>battleHint</component>
+      <message>#event:notification/end_last_wave</message>
+      <duration> 5 </duration>
+      <priority> 100 </priority>
+      <iconPath>event/arrowGrey</iconPath>
+      <soundNotification>hb1_attack_repelled_no_vo</soundNotification>
+   </hint>
+   <hint>
+      <name>bomb_start</name>
+      <component>battleHint</component>
+      <message>#event:notification/bomb_start</message>
+      <duration> 5 </duration>
+      <priority> 110 </priority>
+      <soundNotification>hb1_enemy_death_zone</soundNotification>
+   </hint>
+</battle_hints.xml>
