@@ -79,9 +79,9 @@ items = globals().get(&apos;items&apos;)
 filter = globals().get(&apos;BattleResults&apos;)
 &quot;&quot;&quot;:type: battle_result_filters&quot;&quot;&quot;
 
-PROGRESS_ID_MAIN = &apos;blockedDamageInBattle&apos;
+PROGRESS_ID_MAIN = &apos;damageInBattle&apos;
 PROGRESS_ID_MAIN_SERIES = &apos;battlesSeries&apos;
-PROGRESS_ID_ADD = &apos;blockedDamageInBattleAdv&apos;
+PROGRESS_ID_ADD = &apos;damageInBattleAdv&apos;
 PROGRESS_ID_ADD_SERIES = &apos;battlesSeriesAdv&apos;
 
 def onInit(eventType, eventData, quest, processor):
@@ -93,7 +93,7 @@ def onFinishBattle(eventType, eventData, quest, processor):
     questProgress = quest_progress.BaseQuestProgress(quest.config, processor.getQuestProgress(quest.progressID))
 
     brfilter = filter.BattleResultsFilter(eventData)
-    result = eventData[&apos;avatarResults&apos;][&apos;damageBlockedByArmor&apos;]
+    result = brfilter.sumDamage(brfilter.filterDamageTo())
     questProgress.getProgress(PROGRESS_ID_MAIN).setGoal(brfilter.getMyHP() * questProgress.getProgress(PROGRESS_ID_MAIN).getParam(&quot;vehicleHealthFactor&quot;))
     questProgress.getProgress(PROGRESS_ID_ADD).setGoal(brfilter.getMyHP() * questProgress.getProgress(PROGRESS_ID_ADD).getParam(&quot;vehicleHealthFactor&quot;))
     resultInBattle = questProgress.increaseUntilComplete(PROGRESS_ID_MAIN, result)

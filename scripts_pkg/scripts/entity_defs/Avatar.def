@@ -12,10 +12,6 @@
       <Interface>RecoveryMechanic_Avatar</Interface>
       <Interface>DestructibleEntity_Avatar</Interface>
       <Interface>RespawnController_Avatar</Interface>
-      <Interface>BattleHintsController_Avatar</Interface>
-      <Interface>WaveBotsSpawnController_Avatar</Interface>
-      <Interface>LineOfFrontController_Avatar</Interface>
-      <Interface>EventAbilitiesController_Avatar</Interface>
       <Interface>AvatarEpic</Interface>
    </Implements>
    <Volatile>
@@ -312,7 +308,7 @@
          <Arg>UINT8</Arg>
          <Arg>EXTRA_ID</Arg>
          <Arg>OBJECT_ID</Arg>
-         <Arg>UINT16</Arg>
+         <Arg>UINT8</Arg>
       </showVehicleDamageInfo>
       <showOtherVehicleDamagedDevices>
          <Arg>OBJECT_ID</Arg>
@@ -609,7 +605,6 @@
       </explodeProjectile>
       <refreshVehicle>
          <Arg>UINT16</Arg>
-         <Arg> BOOL </Arg>
       </refreshVehicle>
       <activateEquipment>
          <Exposed>OWN_CLIENT</Exposed>
@@ -723,7 +718,7 @@
          <Arg>UINT8</Arg>
          <Arg>EXTRA_ID</Arg>
          <Arg>OBJECT_ID</Arg>
-         <Arg>UINT16</Arg>
+         <Arg>UINT8</Arg>
       </showVehicleDamageInfo>
       <vehicle_moveWith>
          <Exposed></Exposed>
@@ -804,9 +799,5 @@
          <Exposed></Exposed>
       </logStreamCorruption>
       <sendFinalStats></sendFinalStats>
-      <changeSelectedRespawnGroupID>
-         <Exposed></Exposed>
-         <Arg>UINT8</Arg>
-      </changeSelectedRespawnGroupID>
    </BaseMethods>
 </Avatar.def>

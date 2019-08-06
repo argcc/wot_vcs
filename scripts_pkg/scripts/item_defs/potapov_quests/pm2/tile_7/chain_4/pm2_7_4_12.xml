@@ -74,9 +74,9 @@ filter = globals().get(&apos;BattleResults&apos;)
 records = globals().get(&apos;records&apos;)
 &quot;&quot;&quot;:type: dossiers2.custom.records&quot;&quot;&quot;
 
-PROGRESS_ID_MAIN = &apos;medal&apos;
+PROGRESS_ID_MAIN = &apos;assist&apos;
 PROGRESS_ID_MAIN_SERIES = &apos;battlesSeries&apos;
-PROGRESS_ID_ADD = &apos;medalAdv&apos;
+PROGRESS_ID_ADD = &apos;assistAdv&apos;
 PROGRESS_ID_ADD_SERIES = &apos;battlesSeriesAdv&apos;
 
 def onInit(eventType, eventData, quest, processor):
@@ -87,11 +87,13 @@ def onInit(eventType, eventData, quest, processor):
 def onFinishBattle(eventType, eventData, quest, processor):
     questProgress = quest_progress.BaseQuestProgress(quest.config, processor.getQuestProgress(quest.progressID))
 
-    medalSet = records.BATTLE_HERO_MEDAL_SET | records.EPIC_MEDAL_SET
-    result = sum(1 for medal in eventData[&apos;avatarResults&apos;][&apos;achievements&apos;] if medal in medalSet)
+    brfilter = filter.BattleResultsFilter(eventData)
+    assistByRadioOrTrack = sum([len(tanks) for tanks in
+        brfilter.filterAssist(method=questProgress.getProgress(PROGRESS_ID_MAIN).getParam(&apos;assistTypes&apos;),
+                              result=[&apos;killed&apos;]).itervalues()])
 
-    questProgress.increaseSumProgress(PROGRESS_ID_MAIN, PROGRESS_ID_MAIN_SERIES, result)
-    questProgress.increaseSumProgress(PROGRESS_ID_ADD, PROGRESS_ID_ADD_SERIES, result, PROGRESS_ID_MAIN)
+    questProgress.increaseSumProgress(PROGRESS_ID_MAIN, PROGRESS_ID_MAIN_SERIES, assistByRadioOrTrack)
+    questProgress.increaseSumProgress(PROGRESS_ID_ADD, PROGRESS_ID_ADD_SERIES, assistByRadioOrTrack, PROGRESS_ID_MAIN)
 
     eventData[&apos;results&apos;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=PROGRESS_ID_ADD))
 

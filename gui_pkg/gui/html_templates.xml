@@ -163,8 +163,6 @@
          <tooltip_two_liner>%(line1)s&lt;br/&gt;%(line2)s</tooltip_two_liner>
          <tooltip_three_liner>%(line1)s&lt;br/&gt;%(line2)s&lt;br/&gt;%(line3)s</tooltip_three_liner>
          <tooltip_four_liner>%(line1)s&lt;br/&gt;%(line2)s&lt;br/&gt;%(line3)s&lt;br/&gt;%(line4)s</tooltip_four_liner>
-         <tooltip_general_reward>%(text)s&lt;IMG SRC=&quot;img://gui/maps/icons/event/ResultScreenGeneralPointsReward.png&quot; width=&quot;23&quot; height=&quot;24&quot; vspace=&quot;-5&quot;/&gt;</tooltip_general_reward>
-         <tooltip_front_reward>%(text)s&lt;IMG SRC=&quot;img://gui/maps/icons/event/ResultScreenFrontPointsReward.png&quot; width=&quot;16&quot; height=&quot;15&quot; vspace=&quot;-3&quot; /&gt;</tooltip_front_reward>
          <teamResourceTotal>
             <context>
                <color_tag_open>&lt;font color=&quot;#A29B70&quot;&gt;</color_tag_open>
@@ -457,6 +455,7 @@
             <COMPANY>_(#invites:invites/text/COMPANY) %(sender)s</COMPANY>
             <UNIT>_(#invites:invites/text/UNIT) %(sender)s</UNIT>
             <TRAINING>_(#invites:invites/text/TRAINING) %(sender)s</TRAINING>
+            <EPIC_TRAINING>_(#invites:invites/text/EPIC_TRAINING) %(sender)s</EPIC_TRAINING>
             <SORTIE>_(#invites:invites/text/SORTIE) %(sender)s</SORTIE>
             <FORT_BATTLE>_(#invites:invites/text/FORT_BATTLE) %(sender)s</FORT_BATTLE>
             <CLUBS>_(#invites:invites/text/CLUBS) %(sender)s</CLUBS>
@@ -710,6 +709,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
             <vehicleBlueprints>_(#quests:bonusName/blueprints/vehicle) &lt;font color=&apos;#CED9D9&apos;&gt;%(value)s&lt;/font&gt;</vehicleBlueprints>
             <nationBlueprints>_(#quests:bonusName/blueprints/nation) &lt;font color=&apos;#CED9D9&apos;&gt;%(value)s&lt;/font&gt;</nationBlueprints>
             <universalBlueprints>_(#quests:bonusName/blueprints/universal) &lt;font color=&apos;#CED9D9&apos;&gt;%(value)s&lt;/font&gt;</universalBlueprints>
+            <festivalTickets>&lt;font color=&apos;#95907F&apos;&gt;%(value)s &lt;/font&gt;&lt;img src=&apos;img://gui/maps/icons/library/FestTicketsIcon-1.png&apos; width=&apos;16&apos; height=&apos;16&apos; vspace=&apos;-3&apos; /&gt;</festivalTickets>
          </bonuses>
          <carouselBonuses>
             <credits>&lt;font face=&apos;$FieldFont&apos; size=&apos;22&apos; color=&apos;#CED9D9&apos;&gt;&lt;b&gt;%(value)s &lt;/b&gt;&lt;/font&gt;&lt;img src=&apos;img://gui/maps/icons/library/CreditsIcon-1.png&apos; width=&apos;16&apos; height=&apos;16&apos; /&gt;</credits>
@@ -1046,10 +1046,6 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
          <missionStatusUnavailable>&lt;font face=&apos;$TitleFont&apos; size=&apos;18&apos; color=&apos;#ff2717&apos;&gt;%(message)s&lt;/font&gt;</missionStatusUnavailable>
          <missionStatusAvailable>&lt;font face=&apos;$TitleFont&apos; size=&apos;18&apos; color=&apos;#7ab300&apos;&gt;%(message)s&lt;/font&gt;</missionStatusAvailable>
          <failedStatusText>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#B70000&apos;&gt;%(message)s&lt;/font&gt;</failedStatusText>
-         <eventGeneralProgressActive>&lt;font color=&apos;#FFEE99&apos;&gt;%(message)s&lt;/font&gt;</eventGeneralProgressActive>
-         <eventGeneralLevelDescription>&lt;font color=&apos;#FEFEEC&apos;&gt;%(highlighted)s&lt;br&gt;&lt;/font&gt;%(ordinary)s</eventGeneralLevelDescription>
-         <eventFront1>&lt;font color=&apos;#FFEE99&apos;&gt;%(message)s&lt;/font&gt;</eventFront1>
-         <eventFront2>&lt;font color=&apos;#FFEE99&apos;&gt;%(message)s&lt;/font&gt;</eventFront2>
       </textStyle>
       <profileStatistics>
          <marksOfMasteryText>%(marksOfMastery)s&lt;font size=&apos;14&apos; color=&apos;#939188&apos;&gt;/%(totalVehicles)s&lt;/font&gt;</marksOfMasteryText>
@@ -1119,6 +1115,14 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
             <inverse>_(#session_stats:ratio/inverse)</inverse>
          </ratio>
       </session_stats>
+      <festival>
+         <shopPackages>
+            <description>
+               <colorTagOpen>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#CBAC77&apos;&gt;</colorTagOpen>
+               <colorTagClose>&lt;/font&gt;</colorTagClose>
+            </description>
+         </shopPackages>
+      </festival>
    </lobby>
    <contacts>
       <contact>
@@ -1193,7 +1197,4 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
          <tie>&lt;font color=&quot;#FFFFFF&quot;&gt;_(#bootcamp:resultlabel/tie)&lt;/font&gt;</tie>
       </battle_results>
    </bootcamp>
-   <event>
-      <rewardFront>&lt;font color=&apos;#F7B44F&apos;&gt;%(message)s&lt;/font&gt;</rewardFront>
-   </event>
 </html_templates.xml>
