@@ -1,0 +1,1336 @@
+<battle_royale_settings.xml>
+   <radar>
+      <marker>
+         <lifeTime>10.0</lifeTime>
+         <fadeIn>0.2</fadeIn>
+         <fadeOut>1.0</fadeOut>
+      </marker>
+   </radar>
+   <airdrop>
+      <marker>
+         <fadeIn>0.2</fadeIn>
+         <fadeOut>1.0</fadeOut>
+      </marker>
+   </airdrop>
+   <spawn>
+      <selectEndingSoonTime> 10 </selectEndingSoonTime>
+   </spawn>
+   <techTree>
+      <vehicleParams>
+         <parameter>
+            avgDamage
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            avgPiercingPower
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            reloadTime
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            aimingTime
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            shotDispersionAngle
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            avgDamagePerMinute
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            maxHealth
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            hullArmor
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            turretArmor
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            enginePower
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            speedLimits
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            radarRadius
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            radarCooldown
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            circularVisionRadius
+            <priority> 1 </priority>
+         </parameter>
+         <parameter>
+            radioDistance
+            <priority> 1 </priority>
+         </parameter>
+      </vehicleParams>
+      <modules>
+         <germany>
+            <module>
+               <id> 302 </id>
+               <titleText>chasis_rotation_speed</titleText>
+               <icon>chasis_rotation_speed</icon>
+               <parameters>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+               <constantParams>
+                  <parameter>
+                     <priority> 1 </priority>
+                     <drivingControl>+5%</drivingControl>
+                  </parameter>
+               </constantParams>
+            </module>
+            <module>
+               <id> 303 </id>
+               <titleText>chasis_handling</titleText>
+               <icon>chasis_handling</icon>
+               <parameters>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+               <constantParams>
+                  <parameter>
+                     <priority> 1 </priority>
+                     <drivingControl>+30%</drivingControl>
+                  </parameter>
+               </constantParams>
+            </module>
+            <module>
+               <id> 304 </id>
+               <titleText>body_mobility</titleText>
+               <icon>body_mobility</icon>
+               <parameters>
+                  <parameter>
+                     maxHullHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     hullArmor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 305 </id>
+               <titleText>body_armor</titleText>
+               <icon>body_armor</icon>
+               <parameters>
+                  <parameter>
+                     maxHullHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     hullArmor
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 312 </id>
+               <titleText>radar_cooldown</titleText>
+               <icon>radar_cooldown</icon>
+               <parameters>
+                  <parameter>
+                     radarRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     radarCooldown
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 313 </id>
+               <titleText>radar_distance</titleText>
+               <icon>radar_distance</icon>
+               <parameters>
+                  <parameter>
+                     radarRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     radarCooldown
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 322 </id>
+               <titleText>engine_acceleration</titleText>
+               <icon>engine_acceleration</icon>
+               <parameters>
+                  <parameter>
+                     enginePower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     forwardMaxSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 323 </id>
+               <titleText>engine_speed</titleText>
+               <icon>engine_speed</icon>
+               <parameters>
+                  <parameter>
+                     enginePower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     forwardMaxSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 332 </id>
+               <titleText>gun_penetration</titleText>
+               <icon>gun_penetration</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 333 </id>
+               <titleText>gun_alpha</titleText>
+               <icon>gun_alpha</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 334 </id>
+               <titleText>gun_he</titleText>
+               <icon>gun_he</icon>
+               <parameters>
+                  <parameter>
+                     shellsCount
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     shellReloadingTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     reloadMagazineTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 335 </id>
+               <titleText>gun_auto_loader</titleText>
+               <icon>gun_auto_loader</icon>
+               <parameters>
+                  <parameter>
+                     autoReloadTime
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 336 </id>
+               <titleText>gun_dpm</titleText>
+               <icon>gun_dpm</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 337 </id>
+               <titleText>gun_alpha</titleText>
+               <icon>gun_alpha</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 342 </id>
+               <titleText>turret_vision</titleText>
+               <icon>turret_vision</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 343 </id>
+               <titleText>turret_rotation_speed</titleText>
+               <icon>turret_rotation_speed</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 344 </id>
+               <titleText>turret_armor</titleText>
+               <icon>turret_armor</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+         </germany>
+         <ussr>
+            <module>
+               <id> 302 </id>
+               <titleText>chasis_rotation_speed</titleText>
+               <icon>chasis_rotation_speed</icon>
+               <parameters>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+               <constantParams>
+                  <parameter>
+                     <priority> 1 </priority>
+                     <drivingControl>+5%</drivingControl>
+                  </parameter>
+               </constantParams>
+            </module>
+            <module>
+               <id> 303 </id>
+               <titleText>chasis_handling</titleText>
+               <icon>chasis_handling</icon>
+               <parameters>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+               <constantParams>
+                  <parameter>
+                     <priority> 1 </priority>
+                     <drivingControl>+30%</drivingControl>
+                  </parameter>
+               </constantParams>
+            </module>
+            <module>
+               <id> 304 </id>
+               <titleText>body_mobility</titleText>
+               <icon>body_mobility</icon>
+               <parameters>
+                  <parameter>
+                     maxHullHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     hullArmor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 305 </id>
+               <titleText>body_armor</titleText>
+               <icon>body_armor</icon>
+               <parameters>
+                  <parameter>
+                     maxHullHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     hullArmor
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 312 </id>
+               <titleText>radar_cooldown</titleText>
+               <icon>radar_cooldown</icon>
+               <parameters>
+                  <parameter>
+                     radarRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     radarCooldown
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 313 </id>
+               <titleText>radar_distance</titleText>
+               <icon>radar_distance</icon>
+               <parameters>
+                  <parameter>
+                     radarRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     radarCooldown
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 322 </id>
+               <titleText>engine_acceleration</titleText>
+               <icon>engine_acceleration</icon>
+               <parameters>
+                  <parameter>
+                     enginePower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     forwardMaxSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 323 </id>
+               <titleText>engine_speed</titleText>
+               <icon>engine_speed</icon>
+               <parameters>
+                  <parameter>
+                     enginePower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     forwardMaxSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 332 </id>
+               <titleText>gun_penetration</titleText>
+               <icon>gun_penetration</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 333 </id>
+               <titleText>gun_alpha</titleText>
+               <icon>gun_alpha</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 334 </id>
+               <titleText>gun_he</titleText>
+               <icon>gun_he</icon>
+               <parameters>
+                  <parameter>
+                     shellsCount
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     shellReloadingTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     reloadMagazineTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 335 </id>
+               <titleText>gun_auto_loader</titleText>
+               <icon>gun_auto_loader</icon>
+               <parameters>
+                  <parameter>
+                     autoReloadTime
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 336 </id>
+               <titleText>gun_dpm</titleText>
+               <icon>gun_dpm</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 337 </id>
+               <titleText>gun_alpha</titleText>
+               <icon>gun_alpha</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 342 </id>
+               <titleText>turret_vision</titleText>
+               <icon>turret_vision</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 343 </id>
+               <titleText>turret_rotation_speed</titleText>
+               <icon>turret_rotation_speed</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 344 </id>
+               <titleText>turret_armor</titleText>
+               <icon>turret_armor</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+         </ussr>
+         <usa>
+            <module>
+               <id> 302 </id>
+               <titleText>chasis_rotation_speed</titleText>
+               <icon>chasis_rotation_speed</icon>
+               <parameters>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+               <constantParams>
+                  <parameter>
+                     <priority> 1 </priority>
+                     <drivingControl>+5%</drivingControl>
+                  </parameter>
+               </constantParams>
+            </module>
+            <module>
+               <id> 303 </id>
+               <titleText>chasis_handling</titleText>
+               <icon>chasis_handling</icon>
+               <parameters>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+               <constantParams>
+                  <parameter>
+                     <priority> 1 </priority>
+                     <drivingControl>+30%</drivingControl>
+                  </parameter>
+               </constantParams>
+            </module>
+            <module>
+               <id> 304 </id>
+               <titleText>body_mobility</titleText>
+               <icon>body_mobility</icon>
+               <parameters>
+                  <parameter>
+                     maxHullHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     hullArmor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 305 </id>
+               <titleText>body_armor</titleText>
+               <icon>body_armor</icon>
+               <parameters>
+                  <parameter>
+                     maxHullHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     hullArmor
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 312 </id>
+               <titleText>radar_cooldown</titleText>
+               <icon>radar_cooldown</icon>
+               <parameters>
+                  <parameter>
+                     radarRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     radarCooldown
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 313 </id>
+               <titleText>radar_distance</titleText>
+               <icon>radar_distance</icon>
+               <parameters>
+                  <parameter>
+                     radarRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     radarCooldown
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 322 </id>
+               <titleText>engine_acceleration</titleText>
+               <icon>engine_acceleration</icon>
+               <parameters>
+                  <parameter>
+                     enginePower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     forwardMaxSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 323 </id>
+               <titleText>engine_speed</titleText>
+               <icon>engine_speed</icon>
+               <parameters>
+                  <parameter>
+                     enginePower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     forwardMaxSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 332 </id>
+               <titleText>gun_penetration</titleText>
+               <icon>gun_penetration</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 333 </id>
+               <titleText>gun_alpha</titleText>
+               <icon>gun_alpha</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 334 </id>
+               <titleText>gun_he</titleText>
+               <icon>gun_he</icon>
+               <parameters>
+                  <parameter>
+                     shellsCount
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     shellReloadingTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     reloadMagazineTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 335 </id>
+               <titleText>gun_auto_loader_2</titleText>
+               <icon>gun_auto_loader</icon>
+               <parameters>
+                  <parameter>
+                     shellsCount
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     shellReloadingTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     reloadMagazineTime
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 336 </id>
+               <titleText>gun_dpm</titleText>
+               <icon>gun_dpm</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 337 </id>
+               <titleText>gun_alpha</titleText>
+               <icon>gun_alpha</icon>
+               <parameters>
+                  <parameter>
+                     reloadTime
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgPiercingPower
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamageList
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     avgDamagePerMinute
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     dispertionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     aimingTime
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 342 </id>
+               <titleText>turret_vision</titleText>
+               <icon>turret_vision</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 343 </id>
+               <titleText>turret_rotation_speed</titleText>
+               <icon>turret_rotation_speed</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+            <module>
+               <id> 344 </id>
+               <titleText>turret_armor</titleText>
+               <icon>turret_armor</icon>
+               <parameters>
+                  <parameter>
+                     maxHealth
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     armor
+                     <priority> 1 </priority>
+                  </parameter>
+                  <parameter>
+                     circularVisionRadius
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     rotationSpeed
+                     <priority> 2 </priority>
+                  </parameter>
+                  <parameter>
+                     weight
+                     <priority> 2 </priority>
+                  </parameter>
+               </parameters>
+            </module>
+         </usa>
+      </modules>
+   </techTree>
+   <upgradeAttentionTime>10.0</upgradeAttentionTime>
+</battle_royale_settings.xml>

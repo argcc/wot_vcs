@@ -636,6 +636,15 @@
          <minTimeBetweenEvents> 2 </minTimeBetweenEvents>
       </voice>
    </combat_reserve>
+   <nitro_combat_reserve>
+      <voice>
+         <wwsound>be_nitro_replenishment_full</wwsound>
+         <playRules> 3 </playRules>
+         <shouldBindToPlayer> True </shouldBindToPlayer>
+         <timeout> 9 </timeout>
+         <minTimeBetweenEvents> 2 </minTimeBetweenEvents>
+      </voice>
+   </nitro_combat_reserve>
    <crew_member_contusion>
       <fx>
          <wwsound>crew_member_contusion</wwsound>
@@ -1525,4 +1534,10 @@
          <playRules> 0 </playRules>
       </fx>
    </eb_ability_inspire_deployed>
+   <br_ability>
+      <fx>
+         <wwsound>eb_ability_ready_to_use</wwsound>
+         <playRules> 0 </playRules>
+      </fx>
+   </br_ability>
 </sound_notifications.xml>

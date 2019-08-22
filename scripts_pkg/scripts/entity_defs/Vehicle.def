@@ -1,23 +1,4 @@
 <Vehicle.def>
-   <Implements>
-      <Interface>VehicleAIProxy</Interface>
-      <Interface>TeamBase_Vehicle</Interface>
-      <Interface>SectorBase_Vehicle</Interface>
-      <Interface>RepairBase_Vehicle</Interface>
-      <Interface>VehicleObserver</Interface>
-      <Interface>BattleFeedback</Interface>
-      <Interface> Harm </Interface>
-      <Interface>Sector_Vehicle</Interface>
-      <Interface>ProtectionZone_Vehicle</Interface>
-      <Interface>StepRepairPoint_Vehicle</Interface>
-      <Interface>DestructibleEntity_Vehicle</Interface>
-      <Interface>DefenderBonusController_Vehicle</Interface>
-      <Interface>RecoveryMechanic_Vehicle</Interface>
-      <Interface>RespawnController_Vehicle</Interface>
-      <Interface>SmokeController_Vehicle</Interface>
-      <Interface>InspireController_Vehicle</Interface>
-      <Interface>Wheels</Interface>
-   </Implements>
    <LoDLevels>
       <level>
          20
@@ -34,7 +15,33 @@
          <hyst> 20 </hyst>
          <label>FAR</label>
       </level>
+      <manual>
+         <label>MY_VEHICLE</label>
+      </manual>
    </LoDLevels>
+   <Implements>
+      <Interface>VehicleAIProxy</Interface>
+      <Interface>TeamBase_Vehicle</Interface>
+      <Interface>SectorBase_Vehicle</Interface>
+      <Interface>RepairBase_Vehicle</Interface>
+      <Interface>VehicleObserver</Interface>
+      <Interface>BattleFeedback</Interface>
+      <Interface> Harm </Interface>
+      <Interface>Sector_Vehicle</Interface>
+      <Interface>ProtectionZone_Vehicle</Interface>
+      <Interface>StepRepairPoint_Vehicle</Interface>
+      <Interface>DestructibleEntity_Vehicle</Interface>
+      <Interface>DefenderBonusController_Vehicle</Interface>
+      <Interface>RecoveryMechanic_Vehicle</Interface>
+      <Interface>RespawnController_Vehicle</Interface>
+      <Interface>SmokeController_Vehicle</Interface>
+      <Interface>Wheels</Interface>
+      <Interface>ConeVisibility</Interface>
+      <Interface>Radar</Interface>
+      <Interface> BattleXP </Interface>
+      <Interface> InBattleUpgrades </Interface>
+      <Interface>VehicleLoot</Interface>
+   </Implements>
    <Volatile>
       <position></position>
       <yaw></yaw>
@@ -205,13 +212,21 @@
          <Flags> BASE </Flags>
       </arena>
       <inspiringEffect>
-         <Type>INSPIRING_EFFECT</Type>
+         <Type>BUFF_EFFECT</Type>
          <Flags>ALL_CLIENTS</Flags>
       </inspiringEffect>
+      <healingEffect>
+         <Type>BUFF_EFFECT</Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </healingEffect>
       <inspired>
-         <Type> INSPIRED </Type>
+         <Type>BUFF_EFFECT_INACTIVATION</Type>
          <Flags>ALL_CLIENTS</Flags>
       </inspired>
+      <healing>
+         <Type>BUFF_EFFECT_INACTIVATION</Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </healing>
       <isSpeedCapturing>
          <Type> BOOL </Type>
          <Flags>ALL_CLIENTS</Flags>
@@ -225,10 +240,13 @@
       <events></events>
       <p></p>
       <_Vehicle__p></_Vehicle__p>
+      <arenaCell></arenaCell>
       <_components></_components>
       <_battleFeedback></_battleFeedback>
       <_directVisibility></_directVisibility>
       <_harm></_harm>
+      <_inspireController></_inspireController>
+      <_healPointController></_healPointController>
       <_entityExtraUserData></_entityExtraUserData>
       <_extras></_extras>
       <attrs></attrs>
@@ -289,6 +307,10 @@
          <Arg>VECTOR3</Arg>
          <DetailDistance> 100 </DetailDistance>
       </showRammingEffect>
+      <onVehicleUpgraded>
+         <Arg>STRING</Arg>
+         <Arg>STRING</Arg>
+      </onVehicleUpgraded>
    </ClientMethods>
    <CellMethods>
       <updatePrebattleID>
@@ -320,6 +342,9 @@
          <Arg>UINT8</Arg>
          <Arg>INT32</Arg>
       </changeSetting>
+      <activateRadar>
+         <Exposed></Exposed>
+      </activateRadar>
       <sendVisibilityDevelopmentInfo>
          <Exposed></Exposed>
          <Arg>OBJECT_ID</Arg>
@@ -338,6 +363,10 @@
          <Arg>INT32</Arg>
          <Arg>STRING</Arg>
       </setDevelopmentFeature>
+      <upgradeVehicle>
+         <Exposed></Exposed>
+         <Arg>INT32</Arg>
+      </upgradeVehicle>
       <receiveFakeShot>
          <Arg>INT32</Arg>
          <Arg>FLOAT32</Arg>
@@ -392,6 +421,7 @@
       <updateVehicleAmmo>
          <Arg>INT32</Arg>
          <Arg>UINT16</Arg>
+         <Arg>UINT8</Arg>
          <Arg>UINT8</Arg>
          <Arg>INT16</Arg>
          <Arg>INT16</Arg>
@@ -476,6 +506,9 @@
       <requestVisibilityLists>
          <Arg>MAILBOX</Arg>
       </requestVisibilityLists>
+      <updateActiveDeathZones>
+         <Arg>PYTHON</Arg>
+      </updateActiveDeathZones>
    </CellMethods>
    <BaseMethods>
       <createCellNearHere>
