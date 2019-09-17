@@ -35,7 +35,6 @@
          <Arg>INT32</Arg>
          <Arg>UINT16</Arg>
          <Arg>UINT16</Arg>
-         <Arg>UINT8</Arg>
          <Arg>INT16</Arg>
          <Arg>INT16</Arg>
       </avatarClientProxy_updateVehicleAmmo>
@@ -58,12 +57,6 @@
          <Arg>UINT8</Arg>
          <Arg>INT32</Arg>
       </avatarClientProxy_updateVehicleSetting>
-      <avatarClientProxy_vehicleUpgradeResponse>
-         <Arg>INT32</Arg>
-         <Arg> BOOL </Arg>
-         <Arg>STRING</Arg>
-      </avatarClientProxy_vehicleUpgradeResponse>
-      <avatarClientProxy_upgradeVehicleGun></avatarClientProxy_upgradeVehicleGun>
       <avatarClientProxy_updateTargetingInfo>
          <Arg>FLOAT32</Arg>
          <Arg>FLOAT32</Arg>
@@ -158,10 +151,6 @@
          <Arg>STRING</Arg>
          <Arg>PYTHON</Arg>
       </avatarClientProxy_updateQuestProgress>
-      <avatarClientProxy_onLootAction>
-         <Arg>OBJECT_ID</Arg>
-         <Arg>UINT8</Arg>
-         <Arg>FLOAT32</Arg>
-      </avatarClientProxy_onLootAction>
+      <avatarClientProxy_onWrongWay></avatarClientProxy_onWrongWay>
    </BaseMethods>
 </AvatarClientProxy.def>

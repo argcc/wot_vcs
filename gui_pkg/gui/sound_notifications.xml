@@ -1,4 +1,53 @@
 <sound_notifications.xml>
+   <event_race_vo_pre_start>
+      <voice>
+         <wwsound>ev_race_vo_pre_start</wwsound>
+         <playRules> 2 </playRules>
+         <shouldBindToPlayer> True </shouldBindToPlayer>
+      </voice>
+   </event_race_vo_pre_start>
+   <event_race_vo_start>
+      <voice>
+         <wwsound>ev_race_vo_start</wwsound>
+         <playRules> 2 </playRules>
+         <shouldBindToPlayer> True </shouldBindToPlayer>
+      </voice>
+   </event_race_vo_start>
+   <event_race_vo_tank_repair>
+      <voice>
+         <wwsound>ev_race_vo_tank_repair</wwsound>
+         <playRules> 2 </playRules>
+         <shouldBindToPlayer> True </shouldBindToPlayer>
+      </voice>
+   </event_race_vo_tank_repair>
+   <event_race_vo_neutral_zone_enter>
+      <voice>
+         <wwsound>ev_race_vo_neutral_zone_enter</wwsound>
+         <playRules> 2 </playRules>
+         <shouldBindToPlayer> True </shouldBindToPlayer>
+      </voice>
+   </event_race_vo_neutral_zone_enter>
+   <event_race_vo_victory>
+      <voice>
+         <wwsound>ev_race_vo_victory</wwsound>
+         <playRules> 1 </playRules>
+         <shouldBindToPlayer> True </shouldBindToPlayer>
+      </voice>
+   </event_race_vo_victory>
+   <event_race_vo_defeat>
+      <voice>
+         <wwsound>ev_race_vo_defeat</wwsound>
+         <playRules> 1 </playRules>
+         <shouldBindToPlayer> True </shouldBindToPlayer>
+      </voice>
+   </event_race_vo_defeat>
+   <event_race_vo_draw>
+      <voice>
+         <wwsound>ev_race_vo_draw</wwsound>
+         <playRules> 1 </playRules>
+         <shouldBindToPlayer> True </shouldBindToPlayer>
+      </voice>
+   </event_race_vo_draw>
    <target_captured>
       <voice>
          <wwsound>vo_target_captured</wwsound>
@@ -636,15 +685,6 @@
          <minTimeBetweenEvents> 2 </minTimeBetweenEvents>
       </voice>
    </combat_reserve>
-   <nitro_combat_reserve>
-      <voice>
-         <wwsound>be_nitro_replenishment_full</wwsound>
-         <playRules> 3 </playRules>
-         <shouldBindToPlayer> True </shouldBindToPlayer>
-         <timeout> 9 </timeout>
-         <minTimeBetweenEvents> 2 </minTimeBetweenEvents>
-      </voice>
-   </nitro_combat_reserve>
    <crew_member_contusion>
       <fx>
          <wwsound>crew_member_contusion</wwsound>
@@ -1534,10 +1574,4 @@
          <playRules> 0 </playRules>
       </fx>
    </eb_ability_inspire_deployed>
-   <br_ability>
-      <fx>
-         <wwsound>eb_ability_ready_to_use</wwsound>
-         <playRules> 0 </playRules>
-      </fx>
-   </br_ability>
 </sound_notifications.xml>

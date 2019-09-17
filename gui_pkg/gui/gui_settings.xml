@@ -962,4 +962,40 @@
       <name> GamescomeUrl </name>
       <type>url</type>
    </setting>
+   <setting>
+      <name>racingEvent</name>
+      <type> dict </type>
+      <value>
+         <item>
+            $PARAMS(/progress)
+            <name> progress </name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/info)
+            <name> info </name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/collectionAward/)
+            <name>collection</name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/personalAward)
+            <name>personalAward</name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/tournamentFinished)
+            <name>tournamentFinished</name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/tournamentStageFinished/)
+            <name>tournamentStageFinished</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
 </gui_settings.xml>

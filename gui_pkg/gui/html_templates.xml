@@ -462,7 +462,6 @@
             <EVENT>_(#invites:invites/text/EVENT) %(sender)s</EVENT>
             <EXTERNAL>_(#invites:invites/text/EXTERNAL) %(sender)s</EXTERNAL>
             <EPIC>_(#invites:invites/text/EPIC) %(sender)s</EPIC>
-            <BATTLE_ROYALE>_(#invites:invites/text/BATTLE_ROYALE) %(sender)s</BATTLE_ROYALE>
          </inviteTitle>
          <inviteTitleCreatorName>
             <context>
@@ -772,7 +771,6 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
             <levelError>&lt;IMG SRC=&apos;img://gui/maps/icons/library/errorIcon.png&apos; width=&apos;16&apos; height=&apos;16&apos; vspace=&apos;-3&apos; hspace=&apos;0&apos;/&gt; &lt;font face=&apos;$FieldFont&apos; size=&apos;15&apos; color=&apos;#B70000&apos;&gt;_(#cyberSport:window/unit/teamPoints)  &lt;/font&gt;&lt;font face=&apos;$TitleFont&apos; size=&apos;15&apos; color=&apos;#B70000&apos;&gt;%(sumLevels)s&lt;/font&gt;</levelError>
             <invalidLevelDescription>%(description)s&lt;br/&gt;&lt;br/&gt;&lt;IMG SRC=&apos;img://gui/maps/icons/library/alertIcon2.png&apos; width=&apos;16&apos; height=&apos;16&apos; vspace=&apos;-3&apos; hspace=&apos;0&apos;/&gt; &lt;font color=&apos;#B70000&apos;&gt;%(reason)s&lt;/font&gt;</invalidLevelDescription>
             <required>&lt;IMG SRC=&apos;img://gui/maps/icons/library/cybersport/alertIcon.png&apos; width=&apos;16&apos; height=&apos;16&apos; vspace=&apos;-4&apos; hspace=&apos;0&apos;/&gt; &lt;font color=&apos;#EE7000&apos;&gt;_(#cyberSport:window/unit/slot/required)&lt;/font&gt;</required>
-            <battleRoyale>&lt;IMG SRC=&apos;img://gui/maps/icons/library/cybersport/alertIcon.png&apos; width=&apos;16&apos; height=&apos;16&apos; vspace=&apos;-4&apos; hspace=&apos;0&apos;/&gt; &lt;font size=&apos;14&apos; color=&apos;#EE7000&apos;&gt;_(#cyberSport:window/unit/slot/battleRoyale)&lt;/font&gt;</battleRoyale>
          </unit>
          <league>
             <leagueInfoWithIcon>&lt;img src=&quot;%(icon)s&quot; width=&quot;16&quot; height=&quot;16&quot; vspace=&quot;-4&quot;&gt; &lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&apos;#8C8C7E&apos;&gt;_(#profile:profile/summary/club/ladderInfo)&lt;/font&gt;</leagueInfoWithIcon>
@@ -1199,10 +1197,4 @@ _(#invites:invites/text/fort/defence) &lt;font color=&quot;#c9c9b6&quot;&gt;%(cl
          <tie>&lt;font color=&quot;#FFFFFF&quot;&gt;_(#bootcamp:resultlabel/tie)&lt;/font&gt;</tie>
       </battle_results>
    </bootcamp>
-   <battleRoyale>
-      <paramTitleOrange>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&quot;#ffb266&quot;&gt;%(message)s&lt;/font&gt;</paramTitleOrange>
-      <paramTitleRed>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&quot;#ff3333&quot;&gt;%(message)s&lt;/font&gt;</paramTitleRed>
-      <paramTitleGreen>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&quot;#ccff66&quot;&gt;%(message)s&lt;/font&gt;</paramTitleGreen>
-      <standardText>&lt;font face=&apos;$FieldFont&apos; size=&apos;14&apos; color=&quot;#595950&quot;&gt;%(message)s&lt;/font&gt;</standardText>
-   </battleRoyale>
 </html_templates.xml>
