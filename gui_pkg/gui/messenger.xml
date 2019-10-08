@@ -522,13 +522,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <inviteToSpecialBattle>&lt;img src=&apos;img://gui/maps/icons/library/%(icon)s.png&apos; width=&apos;16&apos; height=&apos;16&apos; align=&apos;baseline&apos; vspace=&apos;-1&apos;/&gt;&amp;nbsp;&lt;font color=&apos;#FFFFFF&apos;&gt;%(text)s&lt;/font&gt;</inviteToSpecialBattle>
       <battleResultAchieves>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/achieves): &lt;font color=&apos;#D6D7D4&apos;&gt;%(achieves)s&lt;/font&gt;&lt;/font&gt;</battleResultAchieves>
       <battleResultRankedProgress>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/rankedProgress): &lt;font color=&apos;#D6D7D4&apos;&gt;%(rankedProgress)s&lt;/font&gt;&lt;/font&gt;</battleResultRankedProgress>
-      <battleResultRankedBonusBattles>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/rankedBonusBattles): &lt;font color=&apos;#D6D7D4&apos;&gt;%(rankedBonusBattles)s&lt;/font&gt;&lt;/font&gt;</battleResultRankedBonusBattles>
+      <battleResultRankedBonusBattles>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/rankedBonusBattles): %(rankedBonusBattles)s&lt;/font&gt;</battleResultRankedBonusBattles>
       <battleResultCrystal>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/crystal): &lt;font color=&apos;#D6D7D4&apos;&gt;%(crystal)s&lt;/font&gt;&lt;/font&gt;</battleResultCrystal>
       <piggyBank>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/piggyBank): &lt;font color=&apos;#D6D7D4&apos;&gt;%(credits)s&lt;/font&gt;&lt;/font&gt;</piggyBank>
       <battleResultLocks>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/vehicleLock)&lt;/font&gt;</battleResultLocks>
       <battleResultGold>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/gold): &lt;font color=&apos;#FFC363&apos;&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battleResultGold>
       <battleQuests>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests): &lt;/font&gt;%(achieves)s</battleQuests>
-      <racingBattleQuests>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/battleResults/racing/quests):&lt;br/&gt;&lt;/font&gt;%(achieves)s</racingBattleQuests>
       <battleQuestsSlots>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/vehicleSlots): &lt;font color=&apos;#D6D7D4&apos;&gt;%(slots)s&lt;/font&gt;&lt;/font&gt;</battleQuestsSlots>
       <battleQuestsFreeXP>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/freeXP): &lt;font color=&apos;#D6D7D4&apos;&gt;%(freeXP)s&lt;/font&gt;&lt;/font&gt;</battleQuestsFreeXP>
       <battleQuestsCredits>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/credits): &lt;font color=&apos;#D6D7D4&apos;&gt;%(credits)s&lt;/font&gt;&lt;/font&gt;</battleQuestsCredits>
@@ -539,7 +538,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <battleQuestsPremium>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/premium): &lt;font color=&apos;#D6D7D4&apos;&gt;%(days)s&lt;/font&gt;&lt;/font&gt;</battleQuestsPremium>
       <battleQuestsPremiumPlus>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/premium_plus): &lt;font color=&apos;#D6D7D4&apos;&gt;%(days)s&lt;/font&gt;&lt;/font&gt;</battleQuestsPremiumPlus>
       <battleQuestsItems>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/items): &lt;font color=&apos;#D6D7D4&apos;&gt;%(names)s&lt;/font&gt;&lt;/font&gt;</battleQuestsItems>
-      <battleQuestsFestivalTickets>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/festivalTickets): &lt;font color=&apos;#D6D7D4&apos;&gt;%(count)s&lt;/font&gt;&lt;/font&gt;</battleQuestsFestivalTickets>
       <completionTokens>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:personalMissions/completionTokenGain): &lt;font color=&apos;#D6D7D4&apos;&gt;%(completionToken)s&lt;/font&gt;&lt;/font&gt;</completionTokens>
       <vehiclesAccruedQuestsReceived>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/vehiclesAccrued): &lt;font color=&apos;#D6D7D4&apos;&gt;%(vehicles)s&lt;/font&gt;&lt;/font&gt;</vehiclesAccruedQuestsReceived>
       <vehiclesDebitedQuestsReceived>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/vehiclesDebited): &lt;font color=&apos;#D6D7D4&apos;&gt;%(vehicles)s&lt;/font&gt;&lt;/font&gt;</vehiclesDebitedQuestsReceived>
@@ -595,11 +593,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <nationalBlueprintsDebitedInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited): &lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;</nationalBlueprintsDebitedInvoiceReceived>
       <crewSkinsAccruedReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/crewSkinsAccrued): &lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(crewSkins)s&lt;/b&gt;&lt;/font&gt;</crewSkinsAccruedReceived>
       <crewSkinsDebitedReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/crewSkinsDebited): &lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(crewSkins)s&lt;/b&gt;&lt;/font&gt;</crewSkinsDebitedReceived>
-      <festivalItemsAccrued>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/festivalItemsAccrued)&lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(festItems)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</festivalItemsAccrued>
-      <festivalItemsDebited>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/festivalItemsDebited)&lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(festItems)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</festivalItemsDebited>
-      <festivalTicketsAccruedInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/festivalTicketsAccrued)&lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</festivalTicketsAccruedInvoiceReceived>
-      <festivalTicketsDebitedInvoiceReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/festivalTicketsDebited)&lt;font color=&apos;#8C8C7E&apos;&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</festivalTicketsDebitedInvoiceReceived>
-      <racingCollectionElementReceived>&lt;font color=&apos;#8C8C7E&apos;&gt;%(text)s&lt;font color=&apos;#C8C8B5&apos;&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</racingCollectionElementReceived>
       <prebattleOpponents>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;%(first)s&lt;/font&gt; vs. &lt;font color=&apos;#8C8C7E&apos;&gt;%(second)s&lt;/font&gt;&lt;/font&gt;</prebattleOpponents>
       <prebattleSubtotal>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/prebattle/subtotal): &lt;font color=&apos;#8C8C7E&apos;&gt;%(first)d:%(second)d&lt;/font&gt;&lt;/font&gt;</prebattleSubtotal>
       <prebattleTotal>&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/prebattle/total): &lt;font color=&apos;#8C8C7E&apos;&gt;%(result)s (%(first)d:%(second)d)&lt;/font&gt;&lt;/font&gt;</prebattleTotal>
@@ -639,25 +632,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>ErrorIcon</icon>
          <message>&lt;font color=&apos;#8C8C7E&apos;&gt;%(text)s&lt;/font&gt;</message>
       </battleCanceled>
-      <RacingNotificationSysMessage>
-         <priority>medium</priority>
-         <type>lightGrey</type>
-         <icon>RacingNotificationIcon</icon>
-         <message>&lt;font face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;%(header)s&lt;/font&gt;&lt;br/&gt;&lt;font size=&quot;14&quot; color=&apos;#8C8C7E&apos;&gt;%(text)s&lt;/font&gt;</message>
-      </RacingNotificationSysMessage>
-      <RacingCollectionElementGot>
-         <priority>medium</priority>
-         <type>lightGrey</type>
-         <icon>RacingNotificationIcon</icon>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
-               <action> showRacingCollection </action>
-            </button>
-         </buttonsLayout>
-         <message>&lt;font size=&quot;14&quot; color=&apos;#8C8C7E&apos;&gt;%(text)s&lt;/font&gt;</message>
-      </RacingCollectionElementGot>
       <battleVictoryResult>
          <type> battleResult </type>
          <icon> BattleResultIcon </icon>
@@ -718,123 +692,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 &lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color=&apos;#C8C8B5&apos;&gt;%(xp)s&lt;/font&gt;%(xpEx)s&lt;/font&gt;%(crystalStr)s%(gold)s
 &lt;font color=&apos;#929290&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color=&apos;#C5CFCF&apos;&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s%(piggyBank)s</message>
       </battleDefeatResult>
-      <racingVictoryResult>
-         <type> battleResult </type>
-         <icon>RacingNotificationIcon</icon>
-         <bgIcon>BgRaceResultIconVictory</bgIcon>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
-               <action>showBattleResults</action>
-            </button>
-         </buttonsLayout>
-         <message>&lt;font face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;_(#messenger:serviceChannelMessages/battleResults/victory)!&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/battleResults/racing/racingPoints): &lt;font color=&apos;#C5CFCF&apos;&gt;%(racingPoints)s&lt;/font&gt;&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/battleResults/racing/racingBowls): &lt;font color=&apos;#C5CFCF&apos;&gt;%(racingBowls)s&lt;/font&gt;&lt;/font&gt;%(quests)s</message>
-      </racingVictoryResult>
-      <racingDrawGameResult>
-         <type> battleResult </type>
-         <icon>RacingNotificationIcon</icon>
-         <bgIcon> BgRaceResultIconDraw </bgIcon>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
-               <action>showBattleResults</action>
-            </button>
-         </buttonsLayout>
-         <message>&lt;font face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;_(#messenger:serviceChannelMessages/battleResults/drawGame)&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/battleResults/racing/racingPoints): &lt;font color=&apos;#C5CFCF&apos;&gt;%(racingPoints)s&lt;/font&gt;&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/battleResults/racing/racingBowls): &lt;font color=&apos;#C5CFCF&apos;&gt;%(racingBowls)s&lt;/font&gt;&lt;/font&gt;%(quests)s</message>
-      </racingDrawGameResult>
-      <racingDefeatResult>
-         <type> battleResult </type>
-         <icon>RacingNotificationIcon</icon>
-         <bgIcon>BgRaceResultIconDefeat</bgIcon>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
-               <action>showBattleResults</action>
-            </button>
-         </buttonsLayout>
-         <message>&lt;font face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;_(#messenger:serviceChannelMessages/battleResults/defeat)&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/battleResults/racing/racingPoints): &lt;font color=&apos;#C5CFCF&apos;&gt;%(racingPoints)s&lt;/font&gt;&lt;/font&gt;
-&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/battleResults/racing/racingBowls): &lt;font color=&apos;#C5CFCF&apos;&gt;%(racingBowls)s&lt;/font&gt;&lt;/font&gt;%(quests)s</message>
-      </racingDefeatResult>
-      <racingRegistrationStarted>
-         <priority> high </priority>
-         <type> grey </type>
-         <icon>InformationIcon</icon>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
-               <action> openMissionsMarathon </action>
-            </button>
-         </buttonsLayout>
-         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/racingEvent/registrationStarted)&lt;/font&gt;</message>
-      </racingRegistrationStarted>
-      <racingRegistrationFinished>
-         <priority>medium</priority>
-         <type> grey </type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/racingEvent/registrationFinished)&lt;/font&gt;</message>
-      </racingRegistrationFinished>
-      <racingRegistrationSuspended>
-         <priority>medium</priority>
-         <type> grey </type>
-         <icon>ErrorIcon</icon>
-         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/racingEvent/registrationSuspended)&lt;/font&gt;</message>
-      </racingRegistrationSuspended>
-      <racingRegistrationResumed>
-         <priority>medium</priority>
-         <type> grey </type>
-         <icon>WarningIcon</icon>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
-               <action> openMissionsMarathon </action>
-            </button>
-         </buttonsLayout>
-         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/racingEvent/registrationResumed)&lt;/font&gt;</message>
-      </racingRegistrationResumed>
-      <racingEventStarted>
-         <priority> high </priority>
-         <type> grey </type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/racingEvent/eventStarted)&lt;/font&gt;</message>
-      </racingEventStarted>
-      <racingEventFinished>
-         <priority>medium</priority>
-         <type> grey </type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/racingEvent/eventFinished)&lt;/font&gt;</message>
-      </racingEventFinished>
-      <racingEventSuspended>
-         <priority> high </priority>
-         <type> grey </type>
-         <icon>ErrorIcon</icon>
-         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/racingEvent/eventSuspended)&lt;/font&gt;</message>
-      </racingEventSuspended>
-      <racingEventResumed>
-         <priority> high </priority>
-         <type> grey </type>
-         <icon>WarningIcon</icon>
-         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/racingEvent/eventResumed)&lt;/font&gt;</message>
-      </racingEventResumed>
-      <racingProgressReward>
-         <priority>medium</priority>
-         <type> grey </type>
-         <icon>RacingNotificationIcon</icon>
-         <message>&lt;font face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;%(title)s&lt;/font&gt;
-&lt;font color=&apos;#929290&apos;&gt;%(message)s:&lt;br/&gt; %(reward)s&lt;/font&gt;</message>
-      </racingProgressReward>
       <battleEndedGameResult>
          <type> battleResult </type>
          <icon> BattleResultIcon </icon>
@@ -1155,12 +1012,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>CreditsIcon</icon>
          <message>&lt;font  face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/purchase)&lt;/font&gt;&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;%(text)s&lt;/font&gt;</message>
       </PurchaseForCreditsSysMessage>
-      <PurchaseForFestTicketsSysMessage>
-         <priority>medium</priority>
-         <type>yellow</type>
-         <icon>FestTicketsIcon</icon>
-         <message>&lt;font  face=&quot;$TitleFont&quot; size=&quot;15&quot; color=&quot;#E9E2BF&quot;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/purchase)&lt;/font&gt;&lt;br/&gt;&lt;font color=&apos;#8C8C7E&apos;&gt;%(text)s&lt;/font&gt;</message>
-      </PurchaseForFestTicketsSysMessage>
       <PurchaseForGoldSysMessage>
          <type>yellow</type>
          <icon> GoldIcon </icon>
@@ -1807,19 +1658,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
             </button>
          </buttonsLayout>
       </ProgressiveRewardNotification>
-      <FestivalCollectionCompletedSysMessage>
-         <type> grey </type>
-         <icon>InformationIcon</icon>
-         <priority> high </priority>
-         <message>&lt;font face=&quot;$FieldFont&quot; size=&quot;14&quot; color=&apos;#8C8C7E&apos;&gt;_(#festival:serviceChannelMessages/collectionCompleted/text)&lt;/font&gt;</message>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#festival:serviceChannelMessages/collectionCompleted/button)</label>
-               <action> openFestivalShopView </action>
-            </button>
-         </buttonsLayout>
-      </FestivalCollectionCompletedSysMessage>
       <FrontlineVehicleRewardsSysMessage>
          <type>lightGrey</type>
          <priority>medium</priority>
@@ -1843,5 +1681,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>WarningIcon</icon>
          <message>&lt;font color=&apos;#8C8C7E&apos;&gt;%(text)s&lt;/font&gt;</message>
       </ProjectionDecalsDemountedSysMessage>
+      <FlExchangeMessage>
+         <type> grey </type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/flExchange/quests)&lt;/font&gt;
+&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/flExchange/quests/points): %(points)s&lt;/font&gt;
+&lt;font color=&apos;#8C8C7E&apos;&gt;_(#messenger:serviceChannelMessages/flExchange/quests/reward): &lt;font color=&apos;#FFC363&apos;&gt;%(gold)s&lt;/font&gt;, &lt;font color=&apos;#C9C9B6&apos;&gt;%(crystal)s&lt;/font&gt;&lt;/font&gt;</message>
+      </FlExchangeMessage>
    </htmlTemplates>
 </messenger.xml>

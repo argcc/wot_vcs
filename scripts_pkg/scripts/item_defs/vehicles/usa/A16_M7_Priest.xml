@@ -265,8 +265,8 @@
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
          <hullPosition> 0 0.993734 0 </hullPosition>
          <hitTester>
-            <collisionModelServer>vehicles//american/A16_M7_Priest/collision/Chassis.model</collisionModelServer>
-            <collisionModelClient>vehicles//american/A16_M7_Priest/collision_client/Chassis.model</collisionModelClient>
+            <collisionModelServer>vehicles/american/A16_M7_Priest/collision/Chassis.model</collisionModelServer>
+            <collisionModelClient>vehicles/american/A16_M7_Priest/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.08701 1.87203</topRightCarryingPoint>
          <maxClimbAngle> 25 </maxClimbAngle>
@@ -1135,8 +1135,8 @@
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
          <hullPosition> 0 0.993734 0 </hullPosition>
          <hitTester>
-            <collisionModelServer>vehicles//american/A16_M7_Priest/collision/Chassis.model</collisionModelServer>
-            <collisionModelClient>vehicles//american/A16_M7_Priest/collision_client/Chassis.model</collisionModelClient>
+            <collisionModelServer>vehicles/american/A16_M7_Priest/collision/Chassis.model</collisionModelServer>
+            <collisionModelClient>vehicles/american/A16_M7_Priest/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.08701 1.87203</topRightCarryingPoint>
          <maxClimbAngle> 25 </maxClimbAngle>
@@ -2095,10 +2095,16 @@
          </customization>
          <customizationSlots>
             <slot>
+               <slotType>paint</slotType>
+               <slotId> 31000 </slotId>
+               <anchorPosition>0.30938 0.160317 0.28925</anchorPosition>
+               <anchorDirection>0.000000 1 -0.000000</anchorDirection>
+            </slot>
+            <slot>
                <slotType>camouflage</slotType>
                <slotId> 32000 </slotId>
                <anchorPosition>0.30938 0.160317 0.289246</anchorPosition>
-               <anchorDirection>0.000000 1 0.000000</anchorDirection>
+               <anchorDirection>0.000000 1 -0.000000</anchorDirection>
             </slot>
          </customizationSlots>
          <camouflage>

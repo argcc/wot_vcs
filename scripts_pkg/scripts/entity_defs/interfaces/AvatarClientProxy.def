@@ -12,6 +12,9 @@
          <Arg>VECTOR3</Arg>
          <Arg>FLOAT32</Arg>
       </avatarClientProxy_updateGunMarker>
+      <avatarClientProxy_updateTargetVehicleID>
+         <Arg>OBJECT_ID</Arg>
+      </avatarClientProxy_updateTargetVehicleID>
       <avatarClientProxy_updateVehicleHealth>
          <Arg>OBJECT_ID</Arg>
          <Arg>INT16</Arg>
@@ -38,6 +41,18 @@
          <Arg>INT16</Arg>
          <Arg>INT16</Arg>
       </avatarClientProxy_updateVehicleAmmo>
+      <avatarClientProxy_updateDualGunState>
+         <Arg>OBJECT_ID</Arg>
+         <Arg>UINT8</Arg>
+         <Arg>
+            ARRAY
+            <of>UINT8</of>
+         </Arg>
+         <Arg>
+            ARRAY
+            <of>COOLDOWN_INFO</of>
+         </Arg>
+      </avatarClientProxy_updateDualGunState>
       <avatarClientProxy_updateVehicleOptionalDeviceStatus>
          <Arg>OBJECT_ID</Arg>
          <Arg>UINT8</Arg>
@@ -151,6 +166,5 @@
          <Arg>STRING</Arg>
          <Arg>PYTHON</Arg>
       </avatarClientProxy_updateQuestProgress>
-      <avatarClientProxy_onWrongWay></avatarClientProxy_onWrongWay>
    </BaseMethods>
 </AvatarClientProxy.def>

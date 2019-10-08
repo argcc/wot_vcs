@@ -117,6 +117,7 @@
       <_45mm_Kanone> 134 </_45mm_Kanone>
       <_90mm_Rheinmetall_DM1M> 135 </_90mm_Rheinmetall_DM1M>
       <_128mm_Kw_K_L_61K> 136 </_128mm_Kw_K_L_61K>
+      <_105mm_Rheinmetall_V1> 137 </_105mm_Rheinmetall_V1>
       <_105mm_Kw_K_L_73> 138 </_105mm_Kw_K_L_73>
       <_90mm_Kanone_M41> 139 </_90mm_Kanone_M41>
       <_20mm_KwK_30_bot> 244 </_20mm_KwK_30_bot>
@@ -128,7 +129,6 @@
       <Gun_PzIV> 255 </Gun_PzIV>
       <Gun_VK4502P> 256 </Gun_VK4502P>
       <Gun_Auf_Panther> 257 </Gun_Auf_Panther>
-      <_30mm_MK103A_race> 258 </_30mm_MK103A_race>
       <_88mm_KwK_43_L71A_IGR> 60001 </_88mm_KwK_43_L71A_IGR>
       <_88mm_KwK_43_L71_IGR> 60002 </_88mm_KwK_43_L71_IGR>
       <_105mm_KwK46_L68_IGR> 60003 </_105mm_KwK46_L68_IGR>
@@ -786,59 +786,6 @@
             </_30mm_M>
          </shots>
       </_30mm_MK103A>
-      <_30mm_MK103A_race>
-         <userString>#germany_vehicles:_30mm_MK103A_race</userString>
-         <tags></tags>
-         <level> 5 </level>
-         <notInShop> true </notInShop>
-         <price> 34300 </price>
-         <impulse>0.06</impulse>
-         <recoil>
-            <lodDist>MEDIUM</lodDist>
-            <amplitude>0.14</amplitude>
-            <recoilEffect> auto </recoilEffect>
-         </recoil>
-         <effects>shot_auto</effects>
-         <reloadEffect>reload12_25</reloadEffect>
-         <pitchLimits>
-            <minPitch>0.0 -25.0 1.0 -25.0</minPitch>
-            <maxPitch>0.0 8.0 1.0 8.0</maxPitch>
-         </pitchLimits>
-         <turretYawLimits>-180 180</turretYawLimits>
-         <rotationSpeed>43.75</rotationSpeed>
-         <reloadTime>1.6</reloadTime>
-         <maxAmmo> 600 </maxAmmo>
-         <aimingTime>1.71428571428571</aimingTime>
-         <clip>
-            <count> 9 </count>
-            <rate> 300 </rate>
-         </clip>
-         <burst>
-            <count> 3 </count>
-            <rate> 300 </rate>
-         </burst>
-         <weight> 141 </weight>
-         <maxHealth> 72 </maxHealth>
-         <maxRegenHealth> 36 </maxRegenHealth>
-         <invulnerable> true </invulnerable>
-         <repairCost> 4 </repairCost>
-         <invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
-         <shotDispersionRadius>0.537142857142857</shotDispersionRadius>
-         <shotDispersionFactors>
-            <turretRotation>0.08</turretRotation>
-            <afterShot>1.0</afterShot>
-            <whileGunDamaged>2.0</whileGunDamaged>
-         </shotDispersionFactors>
-         <shots>
-            <_30mm_Pzgr43_race>
-               <defaultPortion>0.016</defaultPortion>
-               <speed> 2400 </speed>
-               <gravity>9.81</gravity>
-               <maxDistance> 3000 </maxDistance>
-               <piercingPower>95 95</piercingPower>
-            </_30mm_Pzgr43_race>
-         </shots>
-      </_30mm_MK103A_race>
       <_37mm_SA_38f_L34>
          <userString>#germany_vehicles:_37mm_SA_38f_L34</userString>
          <tags></tags>
@@ -5936,6 +5883,64 @@
             </_105mm_HE_M68M2>
          </shots>
       </_105mm_BK_L7>
+      <_105mm_Rheinmetall_V1>
+         <userString>#germany_vehicles:_105mm_Rheinmetall_V1</userString>
+         <tags></tags>
+         <level> 10 </level>
+         <price> 290000 </price>
+         <notInShop> true </notInShop>
+         <impulse>0.48</impulse>
+         <recoil>
+            <lodDist>MEDIUM</lodDist>
+            <amplitude>0.24</amplitude>
+            <recoilEffect> main </recoilEffect>
+         </recoil>
+         <effects>shot_large</effects>
+         <reloadEffect>reload85_107</reloadEffect>
+         <pitchLimits>
+            <minPitch>0.0 -20.0 1.0 -20.0</minPitch>
+            <maxPitch>0.0 10.0 1.0 10.0</maxPitch>
+         </pitchLimits>
+         <turretYawLimits>-180 180</turretYawLimits>
+         <rotationSpeed>35.0</rotationSpeed>
+         <reloadTime>7.5</reloadTime>
+         <maxAmmo> 72 </maxAmmo>
+         <aimingTime> 2 </aimingTime>
+         <weight> 1300 </weight>
+         <maxHealth> 208 </maxHealth>
+         <maxRegenHealth> 104 </maxRegenHealth>
+         <repairCost> 8 </repairCost>
+         <invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+         <shotDispersionRadius>0.4</shotDispersionRadius>
+         <shotDispersionFactors>
+            <turretRotation>0.05</turretRotation>
+            <afterShot>4.0</afterShot>
+            <whileGunDamaged>2.0</whileGunDamaged>
+         </shotDispersionFactors>
+         <shots>
+            <_105mm_Exp_APDS>
+               <defaultPortion>0.95</defaultPortion>
+               <speed> 1478 </speed>
+               <gravity>9.81</gravity>
+               <maxDistance> 720 </maxDistance>
+               <piercingPower>268 258</piercingPower>
+            </_105mm_Exp_APDS>
+            <_105mm_Exp_HEAT>
+               <defaultPortion>0.0</defaultPortion>
+               <speed> 1173 </speed>
+               <gravity>9.81</gravity>
+               <maxDistance> 720 </maxDistance>
+               <piercingPower>310 310</piercingPower>
+            </_105mm_Exp_HEAT>
+            <_105mm_Exp_HE>
+               <defaultPortion>0.05</defaultPortion>
+               <speed> 1173 </speed>
+               <gravity>9.81</gravity>
+               <maxDistance> 720 </maxDistance>
+               <piercingPower>53 53</piercingPower>
+            </_105mm_Exp_HE>
+         </shots>
+      </_105mm_Rheinmetall_V1>
       <_105mm_KwK46_L68>
          <userString>#germany_vehicles:_105mm_KwK46_L68</userString>
          <tags></tags>

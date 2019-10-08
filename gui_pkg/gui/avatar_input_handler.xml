@@ -428,6 +428,92 @@
          </dynamics>
       </camera>
    </sniperMode>
+   <dualGunMode>
+      <defaultOffset>0.0 0.0</defaultOffset>
+      <aim>sniper</aim>
+      <binoculars_usual>
+         <background>system/maps/slens_map.dds</background>
+         <distortion>system/maps/slens_nornal.dds</distortion>
+         <rgbCube>system/maps/post_processing/cube/wgr_lens_gb5.dds</rgbCube>
+         <greenOffset>4.0</greenOffset>
+         <blueOffset>8.0</blueOffset>
+         <aberrationRadius>0.5</aberrationRadius>
+         <distortionAmount>-0.003</distortionAmount>
+      </binoculars_usual>
+      <binoculars_coated>
+         <background>system/maps/slens_map.dds</background>
+         <distortion>system/maps/slens_nornal.dds</distortion>
+         <rgbCube>system/maps/post_processing/cube/wgr_lens_blue2.dds</rgbCube>
+         <greenOffset>3.5</greenOffset>
+         <blueOffset>7.0</blueOffset>
+         <aberrationRadius>0.5</aberrationRadius>
+         <distortionAmount>-0.003</distortionAmount>
+      </binoculars_coated>
+      <numScrolls> 1 </numScrolls>
+      <camera>
+         <transitionTime>0.4</transitionTime>
+         <keySensitivity>0.01</keySensitivity>
+         <sensitivity>0.005</sensitivity>
+         <scrollSensitivity>0.0025</scrollSensitivity>
+         <zooms>2 4 8 16 25</zooms>
+         <aimingSystem>
+            <T>0.5 0.5 0.4</T>
+            <deviation>-0.0 0.0</deviation>
+         </aimingSystem>
+         <dynamics>
+            <impulseOscillator>
+               <mass>1.5</mass>
+               <stiffness>90.0 90.0 90.0</stiffness>
+               <drag>12.0 12.0 12.0</drag>
+               <constraints>10.0 10.0 10.0</constraints>
+            </impulseOscillator>
+            <movementOscillator>
+               <mass>1.0</mass>
+               <stiffness>25.0 25.0 25.0</stiffness>
+               <drag>5.0 5.0 5.0</drag>
+               <constraints>50.0 50.0 50.0</constraints>
+            </movementOscillator>
+            <randomNoiseOscillatorSpherical>
+               <mass>0.8</mass>
+               <stiffness>8600.0</stiffness>
+               <drag>33.0</drag>
+               <scaleCoeff>1.0 1.0 1.0</scaleCoeff>
+            </randomNoiseOscillatorSpherical>
+            <impulseSensitivities>
+               <shot>4.0</shot>
+               <hit>3.0</hit>
+               <otherShot>0.5</otherShot>
+               <splash>5.0</splash>
+               <vehicleExplosion> 1200 </vehicleExplosion>
+            </impulseSensitivities>
+            <noiseSensitivities>
+               <shot>25.0</shot>
+               <hit>40.0</hit>
+               <otherShot>10.0</otherShot>
+               <splash>25.0</splash>
+               <collision>0.5</collision>
+               <vehicleExplosion> 1200 </vehicleExplosion>
+            </noiseSensitivities>
+            <impulseLimits>
+               <shot>0.1 2.0</shot>
+               <hit>0.0 1.3</hit>
+            </impulseLimits>
+            <noiseLimits>
+               <shot>0.4 3.5</shot>
+               <hit>0.05 3.0</hit>
+            </noiseLimits>
+            <accelerationSensitivity>0.2 0.4 0.2</accelerationSensitivity>
+            <accelerationThreshold>2.0</accelerationThreshold>
+            <accelerationMax>6.0</accelerationMax>
+            <maxShotImpulseDistance>25.0</maxShotImpulseDistance>
+            <maxExplosionImpulseDistance>35.0</maxExplosionImpulseDistance>
+            <impulsePartToRoll>0.5</impulsePartToRoll>
+            <pivotShift>0.0</pivotShift>
+            <aimMarkerDistance>1.0</aimMarkerDistance>
+            <zoomExposure>0.6 0.5 0.4 0.3 0.2</zoomExposure>
+         </dynamics>
+      </camera>
+   </dualGunMode>
    <videoMode>
       <defaultOffset>0.0 0.0</defaultOffset>
       <camera>

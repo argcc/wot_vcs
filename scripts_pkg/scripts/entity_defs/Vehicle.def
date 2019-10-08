@@ -17,8 +17,6 @@
       <Interface>SmokeController_Vehicle</Interface>
       <Interface>InspireController_Vehicle</Interface>
       <Interface>Wheels</Interface>
-      <Interface>FestivalRaceRepair</Interface>
-      <Interface>RaceController_Vehicle</Interface>
    </Implements>
    <LoDLevels>
       <level>
@@ -49,11 +47,6 @@
          <Type> BOOL </Type>
          <Flags>ALL_CLIENTS</Flags>
       </isStrafing>
-      <isSurfaceContact>
-         <Type> BOOL </Type>
-         <Flags>ALL_CLIENTS</Flags>
-         <Default> True </Default>
-      </isSurfaceContact>
       <physicsMode>
          <Type>UINT8</Type>
          <Flags>ALL_CLIENTS</Flags>
@@ -236,7 +229,6 @@
       <_battleFeedback></_battleFeedback>
       <_directVisibility></_directVisibility>
       <_harm></_harm>
-      <_raceController></_raceController>
       <_entityExtraUserData></_entityExtraUserData>
       <_extras></_extras>
       <attrs></attrs>
@@ -245,7 +237,6 @@
       <mover></mover>
       <directVisibility></directVisibility>
       <arenaCell></arenaCell>
-      <_Vehicle__vehicleCoordLogPeriod></_Vehicle__vehicleCoordLogPeriod>
       <_ProximityManager__data></_ProximityManager__data>
       <_TimerManager__unpersistedTimers></_TimerManager__unpersistedTimers>
       <gameObject></gameObject>
@@ -257,6 +248,7 @@
          <Arg>UINT8</Arg>
       </onHealthChanged>
       <showShooting>
+         <Arg>UINT8</Arg>
          <Arg>UINT8</Arg>
       </showShooting>
       <showDamageFromShot>

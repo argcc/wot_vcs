@@ -1154,7 +1154,9 @@
          <id> 188 </id>
          <texture>gui/maps/vehicles/styles/battle_of_kursk_02.png</texture>
          <description>#vehicle_customization:special_style/battle_of_kursk_02_desc</description>
+         <longDescriptionSpecial>#vehicle_customization:special_style/battle_of_kursk_02_desc/long</longDescriptionSpecial>
          <userString>#vehicle_customization:special_style/battle_of_kursk_02</userString>
+         <tags>Kursk_battle</tags>
          <outfits>
             <outfit>
                <season>ALL</season>
@@ -2133,7 +2135,9 @@
          <id> 214 </id>
          <texture>gui/maps/vehicles/styles/jacks_lamp.png</texture>
          <description>#vehicle_customization:special_style/jacks_lamp_desc</description>
+         <longDescriptionSpecial>#vehicle_customization:special_style/jacks_lamp_desc/long</longDescriptionSpecial>
          <userString>#vehicle_customization:special_style/jacks_lamp</userString>
+         <tags>Halloween</tags>
          <outfits>
             <outfit>
                <season>ALL</season>
@@ -4130,27 +4134,27 @@
       </style>
    </itemGroup>
    <itemGroup>
-      <userString>#vehicle_customization:styles/special_styles</userString>
+      <userString>#vehicle_customization:styles/main_styles</userString>
       <season>ALL</season>
-      <historical> false </historical>
+      <historical> true </historical>
       <vehicleFilter>
-         <include>
-            <vehicles>germany:G00_VK1602_race usa:A00_M24_Chaffee_race ussr:R00_T-50_race</vehicles>
-         </include>
+         <exclude>
+            <vehicles>china:Ch01_Type59_Gold germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+         </exclude>
       </vehicleFilter>
       <style>
-         <id> 59 </id>
-         <texture>gui/maps/vehicles/styles/chaffee.png</texture>
-         <description>#vehicle_customization:special_style/chaffee_desc</description>
-         <userString>#vehicle_customization:special_style/chaffee</userString>
-         <tags>vehicleBound hiddenInUI</tags>
-         <priceGroup>styles 750g notInShop</priceGroup>
+         <id> 73 </id>
+         <texture>gui/maps/vehicles/styles/generic_custom_look_3.png</texture>
+         <description>#vehicle_customization:main_style/generic_custom_look_3_desc</description>
+         <userString>#vehicle_customization:main_style/generic_custom_look_3</userString>
+         <longDescriptionSpecial>#vehicle_customization:main_style/generic_custom_look_3_desc/long</longDescriptionSpecial>
+         <priceGroup>styles 750g</priceGroup>
          <outfits>
             <outfit>
-               <season>ALL</season>
+               <season>summer</season>
                <camouflages>
                   <item>
-                     <id> 11 </id>
+                     <id> 47 </id>
                      <appliedTo> 4368 </appliedTo>
                      <patternSize> 1 </patternSize>
                      <palette> 0 </palette>
@@ -4161,7 +4165,56 @@
                      <id> 0 </id>
                      <appliedTo> 13104 </appliedTo>
                   </item>
+                  <item>
+                     <id> 18 </id>
+                     <appliedTo> 52416 </appliedTo>
+                  </item>
                </decals>
+            </outfit>
+            <outfit>
+               <season>desert</season>
+               <camouflages>
+                  <item>
+                     <id> 48 </id>
+                     <appliedTo> 4368 </appliedTo>
+                     <patternSize> 1 </patternSize>
+                     <palette> 0 </palette>
+                  </item>
+               </camouflages>
+               <decals>
+                  <item>
+                     <id> 0 </id>
+                     <appliedTo> 13104 </appliedTo>
+                  </item>
+                  <item>
+                     <id> 18 </id>
+                     <appliedTo> 52416 </appliedTo>
+                  </item>
+               </decals>
+            </outfit>
+            <outfit>
+               <season>winter</season>
+               <camouflages>
+                  <item>
+                     <id> 49 </id>
+                     <appliedTo> 4368 </appliedTo>
+                     <patternSize> 1 </patternSize>
+                     <palette> 0 </palette>
+                  </item>
+               </camouflages>
+               <decals>
+                  <item>
+                     <id> 0 </id>
+                     <appliedTo> 13104 </appliedTo>
+                  </item>
+                  <item>
+                     <id> 18 </id>
+                     <appliedTo> 52416 </appliedTo>
+                  </item>
+               </decals>
+            </outfit>
+            <outfit>
+               <season>event</season>
             </outfit>
          </outfits>
       </style>
@@ -4326,6 +4379,7 @@
       <userString>#vehicle_customization:styles/special_styles</userString>
       <season>ALL</season>
       <historical> false </historical>
+      <priceGroup>styles 750g notInShop</priceGroup>
       <vehicleFilter>
          <exclude>
             <vehicles>china:Ch01_Type59_Gold germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
@@ -4336,7 +4390,6 @@
          <texture>gui/maps/vehicles/styles/t_october.png</texture>
          <description>#vehicle_customization:special_style/t_october_desc</description>
          <userString>#vehicle_customization:special_style/t_october</userString>
-         <priceGroup>styles 750g notInShop</priceGroup>
          <outfits>
             <outfit>
                <season>ALL</season>
