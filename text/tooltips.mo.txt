@@ -675,6 +675,7 @@ Content-Transfer-Encoding: 8bit
 [crewBooks/storage/filters/crewBook/title]::{Учебное пособие}
 [crewBooks/storage/filters/guide/title]::{Учебное руководство}
 [crewBooks/storage/filters/personalBook/title]::{Персональное учебное пособие}
+[crewBooks/storage/filters/universalBook/title]::{Учебное пособие}
 [crewBooks/tankman/skill/lowGainedXp]::{Округлено до сотых процента.}
 [crewCustom/body]::{С машиной идёт уникальный экипаж}
 [crewSkins/allUsedDescr]::{Чтобы применить этот облик, снимите его с другого члена экипажа.}
@@ -1722,6 +1723,7 @@ Content-Transfer-Encoding: 8bit
 [login/soundButton/on/body]::{Включить звук.}
 [login/soundButton/on/header]::{?empty?}
 [marathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике Х уровня, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите уникальную премиум ПТ-САУ VIII уровня бесплатно.}
+[marathon/body/completed]::{После активной фазы вы ещё некоторое время сможете купить уникальный премиум танк VIII уровня с учётом персональной скидки в Премиум магазине.}
 [marathon/body/extra]::{%(day)s до завершения продаж уникального премиум танка VIII уровня с учётом персональной скидки.}
 [marathon/date]::{%(day)s %(month)s %(hour)s:%(minutes)s}
 [marathon/error/battle_type]::{Доступно только в Случайных боях}
@@ -1730,7 +1732,7 @@ Content-Transfer-Encoding: 8bit
 [marathon/extra_state/discount]::{Ваша скидка: %(discount)s%%}
 [marathon/extra_state/steps]::{Пройдено этапов: %(currentStep)s / %(allStep)s}
 [marathon/header]::{Зимняя охота}
-[marathon/off/body]::{В настоящий момент событие недоступно по техническим причинам. Попробуйте позже.}
+[marathon/off/body]::{В данный момент событие недоступно по техническим причинам. Попробуйте позже.}
 [marathon/off/header]::{Событие недоступно}
 [marathon/state/complete]::{Завершено}
 [marathon/state/end]::{До завершения: %(value)s}
@@ -2087,6 +2089,8 @@ Content-Transfer-Encoding: 8bit
 [quests/awards/vehicleRent/rentLeft/rentBattles]::{боёв в аренду: %(count)s}
 [quests/awards/vehicleRent/rentLeft/rentDays]::{дней аренды: %(count)s}
 [quests/awards/vehicleRent/rentLeft/rentWins]::{побед в аренду: %(count)s}
+[quests/bonuses/token/battle_bonus_x5/body]::{Возможность получить в пять раз больше опыта за бой, начиная со второго боя в день на любой машине.}
+[quests/bonuses/token/battle_bonus_x5/header]::{Задача на x5 к опыту за бой}
 [quests/bonuses/token/body]::{Данная марка — наградной элемент, необходимый для выполнения определённой боевой задачи.}
 [quests/bonuses/token/header]::{Марка %(userName)s}
 [quests/complete/personal/progressDaily/body]::{Боевая задача выполнена: %(count)s
@@ -2252,6 +2256,10 @@ Content-Transfer-Encoding: 8bit
 [researchPage/vehicle/status/parentModuleIsLocked/header]::{Исследование недоступно}
 [researchPage/vehicle/status/parentModuleIsLocked/text]::{Исследуйте модули предыдущей машины, необходимые для доступа к этой машине.}
 [selectedVehicle/header]::{Выбранная машина}
+[seniorityAwards/additional/tooltip/header]::{Вы также получите:}
+[seniorityAwards/hangarEntryPoint/tooltip/body]::{Ящики с заслуженной наградой — в подарок за выслугу лет! Открывайте и забирайте содержимое.}
+[seniorityAwards/hangarEntryPoint/tooltip/header]::{Заслуженная награда}
+[seniorityAwards/hangarSlot/tooltip/header]::{Слот в Ангаре}
 [server/notRecomended]::{%(icon)s Сервер %(server)s доступен для игры,
 но не рекомендуется для выбора из-за перегруженности.}
 [setting_window/controls/key_input/ptt/warning]::{Клавиша %(keyName)s уже используется для другого действия.}
@@ -2922,5 +2930,22 @@ Content-Transfer-Encoding: 8bit
 [windowHelp/body]::{Наведите курсор на такую иконку, чтобы получить
 дополнительную информацию об элементе.}
 [windowHelp/header]::{Подсказка}
+[winterMarathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике IX–X уровней, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите американский тяжёлый премиум танк VIII уровня M54 Renegade бесплатно!}
+[winterMarathon/body/completed]::{После активной фазы вы ещё некоторое время сможете купить американский тяжёлый премиум танк VIII уровня M54 Renegade с учётом персональной скидки в Премиум магазине.}
+[winterMarathon/body/extra]::{%(hours)s до завершения активной фазы события «Охота на ренегата». После активной фазы вы ещё некоторое время сможете купить американский тяжёлый премиум танк VIII уровня M54 Renegade с учётом персональной скидки в Премиум магазине.}
+[winterMarathon/date]::{%(day)s %(month)s %(hour)s:%(minutes)s}
+[winterMarathon/error/battle_type]::{Доступно только в Случайных боях}
+[winterMarathon/error/veh_type]::{Доступно только на технике VI уровня и выше}
+[winterMarathon/extra_state/completed]::{Танк получен}
+[winterMarathon/extra_state/discount]::{Ваша скидка: %(discount)s%%}
+[winterMarathon/extra_state/steps]::{Пройдено этапов: %(currentStep)s / %(allStep)s}
+[winterMarathon/header]::{Охота на ренегата}
+[winterMarathon/off/body]::{В данный момент событие недоступно по техническим причинам. Попробуйте позже.}
+[winterMarathon/off/header]::{Событие недоступно}
+[winterMarathon/progress]::{День %(value)s из 50}
+[winterMarathon/state/complete]::{Завершено}
+[winterMarathon/state/end]::{До завершения: %(value)s}
+[winterMarathon/state/start]::{До начала: %(value)s}
+[winterMarathon/subtitle]::{Событие проводится с %(startDate)s по %(finishDate)s}
 [xpExchangewindow/gold/goldAfterExchange/body]::{Актуальное количество золота будет отображаться только после его докупки.}
 [xpExchangewindow/gold/goldAfterExchange/header]::{Золото после перевода}
