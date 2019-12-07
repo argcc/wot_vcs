@@ -1,5 +1,5 @@
 <chain-7.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
@@ -41,7 +41,7 @@
                      FirstFoundVehicleID
                      <is-not-none></is-not-none>
                   </var>
-                  <effect-not-triggered> SelectPremiumVehicleHint </effect-not-triggered>
+                  <effect-not-triggered>SelectPremiumVehicleHint</effect-not-triggered>
                </condition>
             </show-hint>
             <show-hint>
@@ -52,7 +52,7 @@
                      FirstFoundVehicleID
                      <is-none></is-none>
                   </var>
-                  <effect-not-triggered> NoPremiumVehicleHint </effect-not-triggered>
+                  <effect-not-triggered>NoPremiumVehicleHint</effect-not-triggered>
                </condition>
             </show-hint>
             <show-hint>
@@ -82,35 +82,35 @@
       <game-attribute>
          SelectedVehicleSetter
          <var-ref>SelectedVehicleID</var-ref>
-         <name> CurrentVehicleCD </name>
+         <name>CurrentVehicleCD</name>
       </game-attribute>
       <game-attribute>
          FirstFoundVehicleSetter
          <var-ref>FirstFoundVehicleID</var-ref>
-         <name> PremiumVehicleCD </name>
+         <name>PremiumVehicleCD</name>
       </game-attribute>
       <click-outside-action>
          TankCarouselClickOutSide
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <effects>
             <refuse-training></refuse-training>
          </effects>
       </click-outside-action>
       <hint>
          SelectPremiumVehicleHint
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <text>_(#tutorial:chain7/hint/selectPremiumVehicle)</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                TankCarousel
                <effects>
-                  <close-hint> SelectPremiumVehicleHint </close-hint>
+                  <close-hint>SelectPremiumVehicleHint</close-hint>
                   <activate>SelectPremiumVehicleHintClicked</activate>
-                  <set-action> TankCarouselClickOutSide </set-action>
+                  <set-action>TankCarouselClickOutSide</set-action>
                </effects>
             </click>
             <click-outside>
@@ -129,11 +129,11 @@
       </hint>
       <hint>
          NoPremiumVehicleHint
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <text>_(#tutorial:chain7/hint/noPremiumVehicle)</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -162,7 +162,7 @@
          <text>_(#tutorial:chain7/hint/clickToFightButton)</text>
          <arrow>
             <direction>B</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -192,7 +192,7 @@
          <type>rentedVehicles</type>
          <on-effects>
             <set-var>SelectedVehicleSetter</set-var>
-            <remove-action> TankCarouselClickOutSide </remove-action>
+            <remove-action>TankCarouselClickOutSide</remove-action>
             <activate>PremiumVehicleSelected</activate>
          </on-effects>
          <off-effects>

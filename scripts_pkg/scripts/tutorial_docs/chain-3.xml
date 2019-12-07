@@ -1,5 +1,5 @@
 <chain-3.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
@@ -8,10 +8,10 @@
             <gui-item>
                VehicleResearchButton
                <on-scene-effects>
-                  <activate> VehicleResearchButtonOnScene </activate>
+                  <activate>VehicleResearchButtonOnScene</activate>
                </on-scene-effects>
                <not-on-scene-effects>
-                  <inactivate> VehicleResearchButtonOnScene </inactivate>
+                  <inactivate>VehicleResearchButtonOnScene</inactivate>
                </not-on-scene-effects>
             </gui-item>
             <gui-item>
@@ -33,7 +33,7 @@
          </gui-items>
          <post-effects>
             <clear-scene></clear-scene>
-            <inactivate> SelectRequiredVehicleClicked </inactivate>
+            <inactivate>SelectRequiredVehicleClicked</inactivate>
             <inactivate>BuyVehicleHintClicked</inactivate>
             <inactivate>ShowCongratulation</inactivate>
             <inactivate>InSandbox</inactivate>
@@ -52,15 +52,15 @@
             <show-hint>
                ResearchButtonHint
                <condition>
-                  <active> VehicleResearchButtonOnScene </active>
-                  <active> VehicleRequiredLevelSelected </active>
+                  <active>VehicleResearchButtonOnScene</active>
+                  <active>VehicleRequiredLevelSelected</active>
                </condition>
             </show-hint>
             <show-hint>
                SelectRequiredVehicleHint
                <condition>
                   <active>TankCarouselOnScene</active>
-                  <inactive> VehicleRequiredLevelSelected </inactive>
+                  <inactive>VehicleRequiredLevelSelected</inactive>
                   <var>
                      FirstFoundVehicleID
                      <is-not-none></is-not-none>
@@ -72,7 +72,7 @@
                BuyVehicleHint
                <condition>
                   <active>TankCarouselOnScene</active>
-                  <inactive> VehicleRequiredLevelSelected </inactive>
+                  <inactive>VehicleRequiredLevelSelected</inactive>
                   <var>
                      FirstFoundVehicleID
                      <is-none></is-none>
@@ -105,15 +105,15 @@
             <gui-item>
                TankAcademyButton
                <on-scene-effects>
-                  <activate> TankAcademyButtonOnScene </activate>
+                  <activate>TankAcademyButtonOnScene</activate>
                </on-scene-effects>
                <not-on-scene-effects>
-                  <inactivate> TankAcademyButtonOnScene </inactivate>
+                  <inactivate>TankAcademyButtonOnScene</inactivate>
                </not-on-scene-effects>
             </gui-item>
          </gui-items>
          <post-effects>
-            <inactivate> VehicleIsInInventory </inactivate>
+            <inactivate>VehicleIsInInventory</inactivate>
             <inactivate>BonusReceived</inactivate>
             <run-trigger>
                BuyNextLevelVehicleTrigger
@@ -179,35 +179,35 @@
             <show-hint>
                TankAcademyButtonHint
                <condition>
-                  <active> TankAcademyButtonOnScene </active>
-                  <active> PlayerHasTankmanDiscount </active>
+                  <active>TankAcademyButtonOnScene</active>
+                  <active>PlayerHasTankmanDiscount</active>
                   <effect-not-triggered>TankAcademyButtonHint</effect-not-triggered>
                </condition>
             </show-hint>
             <activate>
                ShowCongratulation
                <condition>
-                  <active> VehicleIsInInventory </active>
+                  <active>VehicleIsInInventory</active>
                   <inactive>BonusReceived</inactive>
                </condition>
             </activate>
             <request-bonus>
                <condition>
-                  <active> VehicleIsInInventory </active>
+                  <active>VehicleIsInInventory</active>
                   <inactive>BonusReceived</inactive>
                </condition>
             </request-bonus>
             <show-award-window>
                CongratulationWindow
                <condition>
-                  <active> VehicleIsInInventory </active>
+                  <active>VehicleIsInInventory</active>
                   <active>BonusReceived</active>
                   <active>ShowCongratulation</active>
                </condition>
             </show-award-window>
             <refuse-training>
                <condition>
-                  <active> VehicleIsInInventory </active>
+                  <active>VehicleIsInInventory</active>
                   <active>BonusReceived</active>
                   <active>ShowCongratulation</active>
                </condition>
@@ -227,13 +227,13 @@
       <game-attribute>
          SelectedVehicleSetter
          <var-ref>SelectedVehicleID</var-ref>
-         <name> CurrentVehicleCD </name>
+         <name>CurrentVehicleCD</name>
       </game-attribute>
       <game-attribute>
          FirstFoundVehicleSetter
          <var-ref>FirstFoundVehicleID</var-ref>
          <name>InventoryVehicleCDByLevel</name>
-         <args> RequiredVehicleLevel </args>
+         <args>RequiredVehicleLevel</args>
       </game-attribute>
       <gui-item-criteria>
          ResearchRootNodeCriteria
@@ -242,7 +242,7 @@
       </gui-item-criteria>
       <click-outside-action>
          TankCarouselClickOutSide
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <effects>
             <refuse-training></refuse-training>
          </effects>
@@ -253,14 +253,14 @@
          <text>_(#tutorial:chain3/hint/goToResearch)</text>
          <arrow>
             <direction>L</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                VehicleResearchButton
                <effects>
                   <close-hint>ResearchButtonHint</close-hint>
-                  <activate> VehicleResearchButtonClicked </activate>
+                  <activate>VehicleResearchButtonClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -279,19 +279,19 @@
       </hint>
       <hint>
          SelectRequiredVehicleHint
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <text>SelectVehicleText</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                TankCarousel
                <effects>
                   <close-hint>SelectRequiredVehicleHint</close-hint>
-                  <set-action> TankCarouselClickOutSide </set-action>
-                  <activate> SelectRequiredVehicleClicked </activate>
+                  <set-action>TankCarouselClickOutSide</set-action>
+                  <activate>SelectRequiredVehicleClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -310,11 +310,11 @@
       </hint>
       <hint>
          BuyVehicleHint
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <text>BuyVehicleText</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -340,7 +340,7 @@
       </hint>
       <hint>
          NextLevelVehiclesHint
-         <item-id> ResearchRootNode </item-id>
+         <item-id>ResearchRootNode</item-id>
          <text>#tutorial:chain3/hint/nextLevel</text>
          <actions>
             <click>
@@ -365,7 +365,7 @@
       </hint>
       <hint>
          NoNextLevelVehiclesHint
-         <item-id> ResearchRootNode </item-id>
+         <item-id>ResearchRootNode</item-id>
          <text>#tutorial:chain3/hint/noNextLevel</text>
          <actions>
             <click>
@@ -394,7 +394,7 @@
          <text>#tutorial:chain3/hint/selectTankAcademy</text>
          <arrow>
             <direction>L</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -427,25 +427,25 @@
    <triggers>
       <trigger>
          CurrentVehicleRequiredLevelTrigger
-         <type> vehicleRequiredLevel </type>
-         <validate-var> RequiredVehicleLevel </validate-var>
+         <type>vehicleRequiredLevel</type>
+         <validate-var>RequiredVehicleLevel</validate-var>
          <on-effects>
             <set-var>SelectedVehicleSetter</set-var>
             <close-hint>SelectRequiredVehicleHint</close-hint>
             <remove-action>
                TankCarouselClickOutSide
                <condition>
-                  <active> SelectRequiredVehicleClicked </active>
+                  <active>SelectRequiredVehicleClicked</active>
                </condition>
             </remove-action>
-            <activate> VehicleRequiredLevelSelected </activate>
+            <activate>VehicleRequiredLevelSelected</activate>
          </on-effects>
          <off-effects>
-            <inactivate> VehicleRequiredLevelSelected </inactivate>
+            <inactivate>VehicleRequiredLevelSelected</inactivate>
             <refuse-training>
                <condition>
                   <either>
-                     <active> SelectRequiredVehicleClicked </active>
+                     <active>SelectRequiredVehicleClicked</active>
                      <active>BuyVehicleHintClicked</active>
                   </either>
                </condition>
@@ -455,10 +455,10 @@
       <trigger>
          BuyNextLevelVehicleTrigger
          <type>buyNextLevelVehicle</type>
-         <validate-var> RequiredVehicleLevel </validate-var>
+         <validate-var>RequiredVehicleLevel</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
-            <activate> VehicleIsInInventory </activate>
+            <activate>VehicleIsInInventory</activate>
          </on-effects>
          <off-effects>
             <refuse-training></refuse-training>
@@ -466,20 +466,20 @@
       </trigger>
       <trigger>
          FreeSlotTrigger
-         <type> freeSlot </type>
+         <type>freeSlot</type>
          <on-effects>
-            <global-activate> SlotDiscountUsed </global-activate>
+            <global-activate>SlotDiscountUsed</global-activate>
          </on-effects>
       </trigger>
       <trigger>
          TankmanDiscountTrigger
          <type>tankmanDiscount</type>
-         <validate-var> TankmanCostIndex </validate-var>
+         <validate-var>TankmanCostIndex</validate-var>
          <on-effects>
-            <activate> PlayerHasTankmanDiscount </activate>
+            <activate>PlayerHasTankmanDiscount</activate>
          </on-effects>
          <off-effects>
-            <inactivate> PlayerHasTankmanDiscount </inactivate>
+            <inactivate>PlayerHasTankmanDiscount</inactivate>
          </off-effects>
       </trigger>
       <trigger>
@@ -506,7 +506,7 @@
    <vars>
       <var-set>
          TankmanCostIndex
-         <asInt> 2 </asInt>
+         <asInt>2</asInt>
       </var-set>
    </vars>
 </chain-3.xml>

@@ -1,5 +1,5 @@
 <AiScenarioSpawnPoint.def>
-   <Domain> BASE </Domain>
+   <Domain>BASE</Domain>
    <Properties>
       <team>
          <Type>UINT8</Type>
@@ -20,11 +20,11 @@
       <playerSpawn>
          <Type>UINT8</Type>
          <Editable> true </Editable>
-         <MinValue> 0 </MinValue>
-         <MaxValue> 1 </MaxValue>
+         <MinValue>0</MinValue>
+         <MaxValue>1</MaxValue>
       </playerSpawn>
       <tier>
-         <Type> INT8 </Type>
+         <Type>INT8</Type>
          <Editable> true </Editable>
       </tier>
       <assignment>
@@ -32,7 +32,7 @@
             ARRAY
             <of>UDO_REF</of>
          </Type>
-         <Editable> True </Editable>
+         <Editable>True</Editable>
       </assignment>
       <userData>
          <Type>STRING</Type>

@@ -1,19 +1,19 @@
 <RepairBase.def>
    <Implements>
-      <Interface> ControlPoint </Interface>
+      <Interface>ControlPoint</Interface>
    </Implements>
    <Properties>
       <baseID>
          <Type>UINT8</Type>
          <Flags>CELL_PRIVATE</Flags>
-         <Default> 1 </Default>
+         <Default>1</Default>
          <Editable> true </Editable>
       </baseID>
       <team>
          <Type>UINT8</Type>
          <Flags>CELL_PRIVATE</Flags>
          <Editable> true </Editable>
-         <Default> 0 </Default>
+         <Default>0</Default>
       </team>
       <repairTime>
          <Type>FLOAT32</Type>

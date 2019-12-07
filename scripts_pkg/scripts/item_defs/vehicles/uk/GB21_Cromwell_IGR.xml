@@ -8,8 +8,8 @@
       <loader></loader>
    </crew>
    <speedLimits>
-      <forward> 64 </forward>
-      <backward> 20 </backward>
+      <forward>64</forward>
+      <backward>20</backward>
    </speedLimits>
    <invisibility>
       <moving>0.19</moving>
@@ -31,25 +31,25 @@
          <armor_2>57.2</armor_2>
          <armor_3>44.5</armor_3>
          <armor_4>31.8</armor_4>
-         <armor_5> 20 </armor_5>
+         <armor_5>20</armor_5>
          <armor_6>14.4</armor_6>
          <armor_7>42.9</armor_7>
-         <armor_8> 0 </armor_8>
+         <armor_8>0</armor_8>
          <armor_9>39.7</armor_9>
-         <armor_10> 25 </armor_10>
-         <armor_11> 14 </armor_11>
+         <armor_10>25</armor_10>
+         <armor_11>14</armor_11>
          <armor_12>6.4</armor_12>
-         <armor_13> 8 </armor_13>
-         <armor_14> 20 </armor_14>
+         <armor_13>8</armor_13>
+         <armor_14>20</armor_14>
          <armor_15>39.3</armor_15>
-         <armor_16> 25 </armor_16>
+         <armor_16>25</armor_16>
       </armor>
       <primaryArmor>armor_1 armor_7 armor_4</primaryArmor>
-      <weight> 14900 </weight>
-      <maxHealth> 560 </maxHealth>
+      <weight>14900</weight>
+      <maxHealth>560</maxHealth>
       <ammoBayHealth>
-         <maxHealth> 180 </maxHealth>
-         <maxRegenHealth> 120 </maxRegenHealth>
+         <maxHealth>180</maxHealth>
+         <maxRegenHealth>120</maxRegenHealth>
          <repairCost>1.0</repairCost>
       </ammoBayHealth>
       <models>
@@ -77,14 +77,14 @@
       <hangarShadowTexture>vehicles/british/GB21_Cromwell/Cromwell_HangarShadowMap.dds</hangarShadowTexture>
       <customization>
          <customizableVehicleAreas>
-            <paint> HULL </paint>
-            <camouflage> HULL </camouflage>
+            <paint>HULL</paint>
+            <camouflage>HULL</camouflage>
          </customizableVehicleAreas>
       </customization>
       <customizationSlots>
          <slot>
-            <slotType> clan </slotType>
-            <slotId> 10000 </slotId>
+            <slotType>clan</slotType>
+            <slotId>10000</slotId>
             <rayStart>-0.709794 0.409502 2.22465</rayStart>
             <rayEnd>-0.709822 0.409502 2.02465</rayEnd>
             <rayUp>0.000000 1 0.000000</rayUp>
@@ -103,26 +103,26 @@
       <Chassis_GB21_Cromwell_2_IGR>
          <userString>#igr_vehicles:Chassis_GB21_Cromwell_IGR</userString>
          <tags></tags>
-         <level> 6 </level>
-         <price> 19000 </price>
+         <level>6</level>
+         <price>19000</price>
          <notInShop> true </notInShop>
          <armor>
-            <leftTrack> 20 </leftTrack>
-            <rightTrack> 20 </rightTrack>
+            <leftTrack>20</leftTrack>
+            <rightTrack>20</rightTrack>
          </armor>
-         <weight> 6500 </weight>
-         <maxLoad> 29500 </maxLoad>
+         <weight>6500</weight>
+         <maxLoad>29500</maxLoad>
          <terrainResistance>0.9 1 1.8</terrainResistance>
-         <brakeForce> 31000 </brakeForce>
+         <brakeForce>31000</brakeForce>
          <rotationIsAroundCenter> false </rotationIsAroundCenter>
-         <rotationSpeed> 36 </rotationSpeed>
+         <rotationSpeed>36</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.24</vehicleMovement>
             <vehicleRotation>0.24</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 120 </maxHealth>
-         <maxRegenHealth> 90 </maxRegenHealth>
+         <maxHealth>120</maxHealth>
+         <maxRegenHealth>90</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/british/GB21_Cromwell/normal/lod0/Chassis.model</undamaged>
@@ -147,43 +147,43 @@
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L0</name>
-               <radius> 0.254008 </radius>
-               <syncAngle> 18 </syncAngle>
+               <radius>0.254008</radius>
+               <syncAngle>18</syncAngle>
             </wheel>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L1</name>
-               <radius> 0.362315 </radius>
-               <syncAngle> 18 </syncAngle>
+               <radius>0.362315</radius>
+               <syncAngle>18</syncAngle>
             </wheel>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R0</name>
-               <radius> 0.253469 </radius>
-               <syncAngle> 18 </syncAngle>
+               <radius>0.253469</radius>
+               <syncAngle>18</syncAngle>
             </wheel>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R1</name>
-               <radius> 0.362315 </radius>
-               <syncAngle> 18 </syncAngle>
+               <radius>0.362315</radius>
+               <syncAngle>18</syncAngle>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>W_L</template>
-               <radius> 0.390681 </radius>
-               <startIndex> 0 </startIndex>
-               <count> 5 </count>
+               <radius>0.390681</radius>
+               <startIndex>0</startIndex>
+               <count>5</count>
             </group>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
-               <radius> 0.390682 </radius>
-               <startIndex> 0 </startIndex>
-               <count> 5 </count>
+               <radius>0.390682</radius>
+               <startIndex>0</startIndex>
+               <count>5</count>
             </group>
          </wheels>
          <drivingWheels>WD_L0 WD_L1</drivingWheels>
@@ -193,32 +193,32 @@
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-         <hullPosition> 0 0.904603 0 </hullPosition>
+         <hullPosition>0 0.904603 0</hullPosition>
          <hitTester>
             <collisionModelServer>vehicles/british/GB21_Cromwell/collision/Chassis.model</collisionModelServer>
             <collisionModelClient>vehicles/british/GB21_Cromwell/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.24899 1.86767</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <AODecals>
             <decal>
-               <transform> 4.09651 -0 0 0 1.35 0 -0 0 6.98759 -0 0 0 </transform>
+               <transform>4.09651 -0 0 0 1.35 0 -0 0 6.98759 -0 0 0</transform>
             </decal>
          </AODecals>
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 5 </count>
+               <startIndex>0</startIndex>
+               <count>5</count>
                <isLeft> true </isLeft>
                <minOffset>-0.13</minOffset>
                <maxOffset>0.1</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 5 </count>
+               <startIndex>0</startIndex>
+               <count>5</count>
                <isLeft> false </isLeft>
                <minOffset>-0.13</minOffset>
                <maxOffset>0.1</maxOffset>
@@ -233,8 +233,8 @@
             <segmentOffset>0.107</segmentOffset>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <trackThickness>-0.0053</trackThickness>
@@ -244,8 +244,8 @@
             <maxAmplitude>0.14</maxAmplitude>
             <maxOffset>0.14</maxOffset>
             <gravity>-9.8</gravity>
-            <elasticity> 1000 </elasticity>
-            <damping> 2 </damping>
+            <elasticity>1000</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VD_L0</name>
@@ -349,7 +349,7 @@
                <isLeft> true </isLeft>
                <name>Track_VT_L8</name>
                <forwardElastK>0.7</forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <backwardElastK>2</backwardElastK>
                <offset>-0.081</offset>
                <leftSibling>Track_VT_L7</leftSibling>
             </node>
@@ -428,34 +428,34 @@
                <isLeft> false </isLeft>
                <name>Track_VT_R8</name>
                <forwardElastK>0.7</forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <backwardElastK>2</backwardElastK>
                <offset>-0.081</offset>
                <leftSibling>Track_VT_R7</leftSibling>
             </node>
          </trackNodes>
          <physicalTracks>
             <left>
-               <segmentsCount> 126 </segmentsCount>
+               <segmentsCount>126</segmentsCount>
                <segmentsOuterThickness>0.0425679</segmentsOuterThickness>
                <segmentsInnerThickness>0.0212389</segmentsInnerThickness>
                <segmentsPlaneOffset>-1.24899</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.101896 </back>
+                     <back>0.101896</back>
                      <top>0.0776278</top>
                      <front>0.0921522</front>
-                     <bottom> 0.065392 </bottom>
+                     <bottom>0.065392</bottom>
                   </backwardMovement>
                   <forwardMovement>
                      <back>0.0939951</back>
                      <top>0.0996449</top>
-                     <front> 0.102079 </front>
-                     <bottom> 0.065392 </bottom>
+                     <front>0.102079</front>
+                     <bottom>0.065392</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/british/GB21_Cromwell/track/segment.model</model>
-                  <length> 0.101257 </length>
+                  <length>0.101257</length>
                </mainSegment>
                <collisionHull>
                   <bottom></bottom>
@@ -480,36 +480,36 @@
                   <topFront>
                      <wheelName>WD_L0</wheelName>
                      <basePos>2.67584 0.738791</basePos>
-                     <shiftVec> 0.246016 0.123705 </shiftVec>
-                     <jointIdx> 14 </jointIdx>
+                     <shiftVec>0.246016 0.123705</shiftVec>
+                     <jointIdx>14</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L1</wheelName>
                      <basePos>-2.60965 0.635779</basePos>
                      <shiftVec>-0.312483 0.0778787</shiftVec>
-                     <jointIdx> 74 </jointIdx>
+                     <jointIdx>74</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L4</wheelName>
                      <basePos>-1.86573 0.433903</basePos>
                      <shiftVec>0.0288862 -0.41192</shiftVec>
-                     <jointIdx> 88 </jointIdx>
+                     <jointIdx>88</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>1.86796 0.433906</basePos>
                      <shiftVec>0.0782106 -0.404427</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_L1</name>
-                     <radius> 0.321404 </radius>
+                     <radius>0.321404</radius>
                   </wheel>
                   <wheel>
                      <name>WD_L0</name>
-                     <radius> 0.274621 </radius>
+                     <radius>0.274621</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -518,12 +518,12 @@
                   <sync>
                      <name>WD_L1</name>
                      <startAngle>-12.805</startAngle>
-                     <teethCount> 20 </teethCount>
+                     <teethCount>20</teethCount>
                   </sync>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-9.90861</startAngle>
-                     <teethCount> 20 </teethCount>
+                     <teethCount>20</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -653,27 +653,27 @@
                </sourceCollisionHullPoints>
             </left>
             <right>
-               <segmentsCount> 126 </segmentsCount>
+               <segmentsCount>126</segmentsCount>
                <segmentsOuterThickness>0.0425945</segmentsOuterThickness>
                <segmentsInnerThickness>0.0212419</segmentsInnerThickness>
                <segmentsPlaneOffset>1.24899</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.101896 </back>
+                     <back>0.101896</back>
                      <top>0.0776278</top>
                      <front>0.0921522</front>
-                     <bottom> 0.065392 </bottom>
+                     <bottom>0.065392</bottom>
                   </backwardMovement>
                   <forwardMovement>
                      <back>0.0939951</back>
                      <top>0.0996449</top>
-                     <front> 0.102079 </front>
-                     <bottom> 0.065392 </bottom>
+                     <front>0.102079</front>
+                     <bottom>0.065392</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/british/GB21_Cromwell/track/segment.model</model>
-                  <length> 0.101257 </length>
+                  <length>0.101257</length>
                </mainSegment>
                <collisionHull>
                   <bottom></bottom>
@@ -698,32 +698,32 @@
                   <topFront>
                      <wheelName>WD_R0</wheelName>
                      <basePos>2.67584 0.738801</basePos>
-                     <shiftVec> 0.246023 0.123687 </shiftVec>
-                     <jointIdx> 14 </jointIdx>
+                     <shiftVec>0.246023 0.123687</shiftVec>
+                     <jointIdx>14</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R1</wheelName>
                      <basePos>-2.60965 0.635791</basePos>
                      <shiftVec>-0.312482 0.0778804</shiftVec>
-                     <jointIdx> 74 </jointIdx>
+                     <jointIdx>74</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R4</wheelName>
                      <basePos>-1.86573 0.433874</basePos>
                      <shiftVec>0.0288728 -0.411924</shiftVec>
-                     <jointIdx> 88 </jointIdx>
+                     <jointIdx>88</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>1.86796 0.433867</basePos>
                      <shiftVec>0.0782132 -0.40443</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_R1</name>
-                     <radius> 0.321403 </radius>
+                     <radius>0.321403</radius>
                   </wheel>
                   <wheel>
                      <name>WD_R0</name>
@@ -736,12 +736,12 @@
                   <sync>
                      <name>WD_R1</name>
                      <startAngle>-12.805</startAngle>
-                     <teethCount> 20 </teethCount>
+                     <teethCount>20</teethCount>
                   </sync>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-9.90871</startAngle>
-                     <teethCount> 20 </teethCount>
+                     <teethCount>20</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -883,43 +883,43 @@
       <Turret_2_GB21_Cromwell_IGR>
          <userString>#igr_vehicles:Turret_2_GB21_Cromwell_IGR</userString>
          <tags></tags>
-         <level> 6 </level>
-         <price> 17500 </price>
+         <level>6</level>
+         <price>17500</price>
          <notInShop> true </notInShop>
          <armor>
             <armor_1>76.2</armor_1>
             <armor_2>76.2</armor_2>
             <armor_3>63.5</armor_3>
             <armor_4>57.2</armor_4>
-            <armor_5> 20 </armor_5>
+            <armor_5>20</armor_5>
             <armor_6>19.1</armor_6>
             <armor_7>76.2</armor_7>
-            <armor_8> 0 </armor_8>
+            <armor_8>0</armor_8>
             <armor_9>63.5</armor_9>
-            <armor_10> 20 </armor_10>
-            <armor_11> 20 </armor_11>
+            <armor_10>20</armor_10>
+            <armor_11>20</armor_11>
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-         <weight> 5000 </weight>
-         <maxHealth> 190 </maxHealth>
-         <rotationSpeed> 48 </rotationSpeed>
+         <weight>5000</weight>
+         <maxHealth>190</maxHealth>
+         <rotationSpeed>48</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 120 </maxHealth>
-            <maxRegenHealth> 60 </maxRegenHealth>
+            <maxHealth>120</maxHealth>
+            <maxRegenHealth>60</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 360 </circularVisionRadius>
+         <circularVisionRadius>360</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 80 </maxHealth>
-            <maxRegenHealth> 40 </maxRegenHealth>
+            <maxHealth>80</maxHealth>
+            <maxRegenHealth>40</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
             <_75mm_Gun_Vickers_HV_IGR>
                shared
-               <maxAmmo> 64 </maxAmmo>
+               <maxAmmo>64</maxAmmo>
                <armor>
-                  <gun> 20 </gun>
+                  <gun>20</gun>
                </armor>
                <pitchLimits>
                   <minPitch>0 -15 1 -15</minPitch>
@@ -953,7 +953,7 @@
                <customizationSlots>
                   <slot>
                      <slotType>insigniaOnGun</slotType>
-                     <slotId> 49000 </slotId>
+                     <slotId>49000</slotId>
                      <rayStart>0.0737702 -0.019613 1.67725</rayStart>
                      <rayEnd>0.124343 -0.0466362 1.67723</rayEnd>
                      <rayUp>0.055 0.055 4</rayUp>
@@ -991,7 +991,7 @@
          <customizationSlots>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
+               <slotId>33000</slotId>
                <rayStart>0.960269 0.410067 0.0823802</rayStart>
                <rayEnd>0.765394 0.41005 0.0373965</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -1002,9 +1002,9 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34000 </slotId>
+               <slotId>34000</slotId>
                <rayStart>-0.89322 0.395088 0.366458</rayStart>
-               <rayEnd> -0.698344 0.395071 0.321475 </rayEnd>
+               <rayEnd>-0.698344 0.395071 0.321475</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.58</size>
                <hideIfDamaged> true </hideIfDamaged>
@@ -1032,7 +1032,7 @@
          <engines>
             <Rolls_Royse_Meteor_MkIV_IGR>
                <smplEnginePower>687.2327</smplEnginePower>
-               <smplFwMaxSpeed> 64 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>64</smplFwMaxSpeed>
             </Rolls_Royse_Meteor_MkIV_IGR>
          </engines>
          <chassis>
@@ -1081,7 +1081,7 @@
       <damagedStateGroup>medium</damagedStateGroup>
    </effects>
    <emblems>
-      <default> 15506 </default>
+      <default>15506</default>
       <lodDist>MEDIUM</lodDist>
       <alpha>0.88</alpha>
    </emblems>

@@ -9,11 +9,11 @@
             <run-trigger>Bot2OnArenaTrigger</run-trigger>
             <run-trigger>Bot3OnArenaTrigger</run-trigger>
             <run-trigger>GlobalEventsDispatcher</run-trigger>
-            <run-trigger> VehicleNoAmmoTrigger </run-trigger>
+            <run-trigger>VehicleNoAmmoTrigger</run-trigger>
             <teleport>
                TeleportMarker
                <condition>
-                  <active> TeleportToPoint8 </active>
+                  <active>TeleportToPoint8</active>
                </condition>
             </teleport>
          </post-effects>
@@ -21,72 +21,72 @@
             <show-marker>
                MarkerForPoint8
                <condition>
-                  <inactive> InPoint8 </inactive>
-                  <inactive> InPoint9 </inactive>
+                  <inactive>InPoint8</inactive>
+                  <inactive>InPoint9</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
             </show-marker>
             <next-task>
                MoveToPoint8Task
                <condition>
-                  <inactive> InPoint8 </inactive>
-                  <inactive> InPoint9 </inactive>
+                  <inactive>InPoint8</inactive>
+                  <inactive>InPoint9</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
             </next-task>
             <show-hint>
                MoveToPoint8Hint
                <condition>
-                  <inactive> InPoint8 </inactive>
-                  <inactive> InPoint9 </inactive>
+                  <inactive>InPoint8</inactive>
+                  <inactive>InPoint9</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
             </show-hint>
             <show-marker>
                MarkerForPoint9
                <condition>
-                  <active> InPoint8 </active>
-                  <inactive> InPoint9 </inactive>
+                  <active>InPoint8</active>
+                  <inactive>InPoint9</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
             </show-marker>
             <next-task>
                MoveToPoint9Task
                <condition>
-                  <active> InPoint8 </active>
-                  <inactive> InPoint9 </inactive>
+                  <active>InPoint8</active>
+                  <inactive>InPoint9</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
             </next-task>
             <show-hint>
                MoveToPoint9Hint
                <condition>
-                  <active> InPoint8 </active>
-                  <inactive> InPoint9 </inactive>
+                  <active>InPoint8</active>
+                  <inactive>InPoint9</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
             </show-hint>
             <next-task>
                SwitchToSniperModeTask
                <condition>
-                  <active> InPoint9 </active>
-                  <inactive> SniperModeOn </inactive>
+                  <active>InPoint9</active>
+                  <inactive>SniperModeOn</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
             </next-task>
             <show-hint>
                SwitchToSniperModeHint
                <condition>
-                  <active> InPoint9 </active>
-                  <inactive> SniperModeOn </inactive>
+                  <active>InPoint9</active>
+                  <inactive>SniperModeOn</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
             </show-hint>
             <next-task>
                DisableAutoAimModeTask
                <condition>
-                  <active> InPoint9 </active>
-                  <active> SniperModeOn </active>
+                  <active>InPoint9</active>
+                  <active>SniperModeOn</active>
                   <active>AutoAimAtBot3</active>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
@@ -94,8 +94,8 @@
             <show-hint>
                DisableAutoAimModeHint
                <condition>
-                  <active> InPoint9 </active>
-                  <active> SniperModeOn </active>
+                  <active>InPoint9</active>
+                  <active>SniperModeOn</active>
                   <active>AutoAimAtBot3</active>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
@@ -103,8 +103,8 @@
             <next-task>
                DestroyBot3Task
                <condition>
-                  <active> InPoint9 </active>
-                  <active> SniperModeOn </active>
+                  <active>InPoint9</active>
+                  <active>SniperModeOn</active>
                   <inactive>AutoAimAtBot3</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
@@ -112,8 +112,8 @@
             <show-hint>
                DestroyBot3Hint
                <condition>
-                  <active> InPoint9 </active>
-                  <active> SniperModeOn </active>
+                  <active>InPoint9</active>
+                  <active>SniperModeOn</active>
                   <inactive>AutoAimAtBot3</inactive>
                   <inactive>Bot3Destroyed</inactive>
                </condition>
@@ -161,9 +161,9 @@
    <has-id>
       <exit>
          DestroyBot3Done
-         <is-speak-over> True </is-speak-over>
-         <next-delay> 3 </next-delay>
-         <finish-delay> 2 </finish-delay>
+         <is-speak-over>True</is-speak-over>
+         <next-delay>3</next-delay>
+         <finish-delay>2</finish-delay>
          <chapter-id></chapter-id>
       </exit>
       <progress>
@@ -172,7 +172,7 @@
             <condition>
                Step10InProgress
                <either>
-                  <active> InPoint8 </active>
+                  <active>InPoint8</active>
                   <active>Bot3Destroyed</active>
                </either>
             </condition>
@@ -265,14 +265,14 @@
                RequestToReplenishAmmo
                <effects>
                   <activate>ReplenishAmmoDialogClosed</activate>
-                  <invoke-player-cmd> ReplenishAmmoCmd </invoke-player-cmd>
+                  <invoke-player-cmd>ReplenishAmmoCmd</invoke-player-cmd>
                </effects>
             </click>
          </actions>
       </dialog>
       <marker>
          MarkerForPoint8
-         <type> area </type>
+         <type>area</type>
          <var-ref>Point8Name</var-ref>
          <model>
             <path>content/Interface/Arrow/normal/lod0/arrow.model</path>
@@ -286,14 +286,14 @@
          </ground>
          <world>
             <shape>arrow</shape>
-            <min-distance> 50 </min-distance>
-            <max-distance> 60 </max-distance>
+            <min-distance>50</min-distance>
+            <max-distance>60</max-distance>
             <offset>0 9 0</offset>
          </world>
       </marker>
       <marker>
          TeleportMarker
-         <type> teleport </type>
+         <type>teleport</type>
          <var-ref>Point8Name</var-ref>
          <world>
             <offset>0 2.39 0</offset>
@@ -302,7 +302,7 @@
       </marker>
       <marker>
          MarkerForPoint9
-         <type> area </type>
+         <type>area</type>
          <var-ref>Point9Name</var-ref>
          <model>
             <path>content/Interface/Arrow/normal/lod0/arrow.model</path>
@@ -316,8 +316,8 @@
          </ground>
          <world>
             <shape>arrow</shape>
-            <min-distance> 50 </min-distance>
-            <max-distance> 60 </max-distance>
+            <min-distance>50</min-distance>
+            <max-distance>60</max-distance>
             <offset>0 9 0</offset>
          </world>
       </marker>
@@ -325,7 +325,7 @@
          AttackBot3Marker
          <type>vehicle</type>
          <var-ref>Bot3VehicleID</var-ref>
-         <period> 5 </period>
+         <period>5</period>
       </marker>
       <player-cmd>
          ReplenishAmmoCmd
@@ -352,7 +352,7 @@
       <trigger>
          Bot1OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot1Name </validate-var>
+         <validate-var>Bot1Name</validate-var>
          <set-var>Bot1VehicleID</set-var>
          <on-effects>
             <activate>Bot1OnArena</activate>
@@ -364,7 +364,7 @@
       <trigger>
          Bot2OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot2Name </validate-var>
+         <validate-var>Bot2Name</validate-var>
          <set-var>Bot2VehicleID</set-var>
          <on-effects>
             <activate>Bot2OnArena</activate>
@@ -376,7 +376,7 @@
       <trigger>
          Bot3OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot3Name </validate-var>
+         <validate-var>Bot3Name</validate-var>
          <set-var>Bot3VehicleID</set-var>
          <on-effects>
             <activate>Bot3OnArena</activate>
@@ -399,22 +399,22 @@
       </trigger>
       <trigger>
          Point8Trigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>Point8Name</validate-var>
          <on-effects>
             <activate>Task11Continue</activate>
-            <activate> InPoint8 </activate>
+            <activate>InPoint8</activate>
             <remove-marker>MarkerForPoint8</remove-marker>
          </on-effects>
          <off-effects></off-effects>
       </trigger>
       <trigger>
          Point9Trigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>Point9Name</validate-var>
          <on-effects>
             <activate>Task11Continue</activate>
-            <activate> InPoint9 </activate>
+            <activate>InPoint9</activate>
             <remove-marker>MarkerForPoint9</remove-marker>
             <remove-marker>MarkerForPoint8</remove-marker>
             <enable-camera-zoom></enable-camera-zoom>
@@ -423,14 +423,14 @@
                <condition>
                   <inactive>AutoAimAtBot3</inactive>
                   <active>Task11Continue</active>
-                  <active> SniperModeOn </active>
+                  <active>SniperModeOn</active>
                </condition>
             </show-marker>
          </on-effects>
          <off-effects>
             <inactivate>Task11Continue</inactivate>
-            <inactivate> InPoint9 </inactivate>
-            <remove-marker> AttackBot3Marker </remove-marker>
+            <inactivate>InPoint9</inactivate>
+            <remove-marker>AttackBot3Marker</remove-marker>
          </off-effects>
       </trigger>
       <trigger>
@@ -441,7 +441,7 @@
          <on-effects>
             <inactivate>Task11Continue</inactivate>
             <activate>AutoAimAtBot3</activate>
-            <remove-marker> AttackBot3Marker </remove-marker>
+            <remove-marker>AttackBot3Marker</remove-marker>
          </on-effects>
          <off-effects>
             <activate>Task11Continue</activate>
@@ -449,7 +449,7 @@
             <show-marker>
                AttackBot3Marker
                <condition>
-                  <active> InPoint9 </active>
+                  <active>InPoint9</active>
                </condition>
             </show-marker>
          </off-effects>
@@ -457,26 +457,26 @@
       <trigger>
          SniperModeTrigger
          <type>sniperMode</type>
-         <init-state-flag> SniperModeOn </init-state-flag>
+         <init-state-flag>SniperModeOn</init-state-flag>
          <on-effects>
             <activate>Task11Continue</activate>
-            <activate> SniperModeOn </activate>
+            <activate>SniperModeOn</activate>
             <show-marker>
                AttackBot3Marker
                <condition>
-                  <active> InPoint9 </active>
+                  <active>InPoint9</active>
                </condition>
             </show-marker>
          </on-effects>
          <off-effects>
             <inactivate>Task11Continue</inactivate>
-            <inactivate> SniperModeOn </inactivate>
-            <remove-marker> AttackBot3Marker </remove-marker>
+            <inactivate>SniperModeOn</inactivate>
+            <remove-marker>AttackBot3Marker</remove-marker>
          </off-effects>
       </trigger>
       <trigger>
          Bot1DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot1VehicleID</validate-var>
          <on-effects>
             <activate>Bot1Destroyed</activate>
@@ -487,7 +487,7 @@
       </trigger>
       <trigger>
          Bot2DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot2VehicleID</validate-var>
          <on-effects>
             <activate>Bot2Destroyed</activate>
@@ -498,11 +498,11 @@
       </trigger>
       <trigger>
          Bot3DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot3VehicleID</validate-var>
          <on-effects>
             <activate>Bot3Destroyed</activate>
-            <remove-marker> AttackBot3Marker </remove-marker>
+            <remove-marker>AttackBot3Marker</remove-marker>
          </on-effects>
          <off-effects>
             <inactivate>Bot3Destroyed</inactivate>
@@ -514,20 +514,20 @@
          <includes>
             <trigger>Point8Trigger</trigger>
             <trigger>Point9Trigger</trigger>
-            <trigger> AutoAimAtBot3Trigger </trigger>
+            <trigger>AutoAimAtBot3Trigger</trigger>
             <trigger>SniperModeTrigger</trigger>
-            <trigger> Bot1DestroyedTrigger </trigger>
-            <trigger> Bot2DestroyedTrigger </trigger>
-            <trigger> Bot3DestroyedTrigger </trigger>
+            <trigger>Bot1DestroyedTrigger</trigger>
+            <trigger>Bot2DestroyedTrigger</trigger>
+            <trigger>Bot3DestroyedTrigger</trigger>
          </includes>
       </trigger>
    </triggers>
    <vars>
       <var-set-ref>Point8Name</var-set-ref>
       <var-set-ref>Point9Name</var-set-ref>
-      <var-set-ref> Bot1Name </var-set-ref>
-      <var-set-ref> Bot2Name </var-set-ref>
-      <var-set-ref> Bot3Name </var-set-ref>
+      <var-set-ref>Bot1Name</var-set-ref>
+      <var-set-ref>Bot2Name</var-set-ref>
+      <var-set-ref>Bot3Name</var-set-ref>
       <var-set-ref>ImagePath</var-set-ref>
       <var-set-ref>DefaultVehicleInImages</var-set-ref>
    </vars>

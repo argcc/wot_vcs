@@ -8,8 +8,8 @@
       <loader></loader>
    </crew>
    <speedLimits>
-      <forward> 34 </forward>
-      <backward> 10 </backward>
+      <forward>34</forward>
+      <backward>10</backward>
    </speedLimits>
    <invisibility>
       <moving>0.03</moving>
@@ -27,26 +27,26 @@
    </camouflage>
    <hull>
       <armor>
-         <armor_1> 75 </armor_1>
-         <armor_2> 40 </armor_2>
-         <armor_3> 75 </armor_3>
-         <armor_4> 70 </armor_4>
-         <armor_5> 60 </armor_5>
-         <armor_6> 40 </armor_6>
-         <armor_7> 30 </armor_7>
-         <armor_8> 0 </armor_8>
-         <armor_9> 40 </armor_9>
-         <armor_10> 50 </armor_10>
-         <armor_11> 30 </armor_11>
-         <armor_12> 75 </armor_12>
-         <armor_13> 70 </armor_13>
+         <armor_1>75</armor_1>
+         <armor_2>40</armor_2>
+         <armor_3>75</armor_3>
+         <armor_4>70</armor_4>
+         <armor_5>60</armor_5>
+         <armor_6>40</armor_6>
+         <armor_7>30</armor_7>
+         <armor_8>0</armor_8>
+         <armor_9>40</armor_9>
+         <armor_10>50</armor_10>
+         <armor_11>30</armor_11>
+         <armor_12>75</armor_12>
+         <armor_13>70</armor_13>
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-      <weight> 27670 </weight>
-      <maxHealth> 448 </maxHealth>
+      <weight>27670</weight>
+      <maxHealth>448</maxHealth>
       <ammoBayHealth>
-         <maxHealth> 150 </maxHealth>
-         <maxRegenHealth> 100 </maxRegenHealth>
+         <maxHealth>150</maxHealth>
+         <maxRegenHealth>100</maxRegenHealth>
          <repairCost>1.0</repairCost>
       </ammoBayHealth>
       <models>
@@ -65,7 +65,7 @@
          <nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
       </exhaust>
       <turretPositions>
-         <turret> 0 0.724581 0.554402 </turret>
+         <turret>0 0.724581 0.554402</turret>
       </turretPositions>
       <hitTester>
          <collisionModelServer>vehicles/russian/R00_Placeholder/collision/Hull.model</collisionModelServer>
@@ -75,13 +75,13 @@
       <customization>
          <customizableVehicleAreas>
             <paint></paint>
-            <camouflage> HULL </camouflage>
+            <camouflage>HULL</camouflage>
          </customizableVehicleAreas>
       </customization>
       <customizationSlots>
          <slot>
-            <slotType> clan </slotType>
-            <slotId> 10000 </slotId>
+            <slotType>clan</slotType>
+            <slotId>10000</slotId>
             <rayStart>0.0209436 5.03019 4.36902</rayStart>
             <rayEnd>0.0209436 -4.43685 1.14798</rayEnd>
             <rayUp>0.000000 0.000000 -1</rayUp>
@@ -99,26 +99,26 @@
       <KV_1>
          <userString>#ussr_vehicles:KV_1</userString>
          <tags></tags>
-         <level> 4 </level>
-         <price> 4020 </price>
+         <level>4</level>
+         <price>4020</price>
          <notInShop> true </notInShop>
          <armor>
-            <leftTrack> 20 </leftTrack>
-            <rightTrack> 20 </rightTrack>
+            <leftTrack>20</leftTrack>
+            <rightTrack>20</rightTrack>
          </armor>
-         <weight> 10600 </weight>
-         <maxLoad> 47800 </maxLoad>
+         <weight>10600</weight>
+         <maxLoad>47800</maxLoad>
          <terrainResistance>1.1 1.7 3.1</terrainResistance>
-         <brakeForce> 37500 </brakeForce>
+         <brakeForce>37500</brakeForce>
          <rotationIsAroundCenter> false </rotationIsAroundCenter>
-         <rotationSpeed> 17 </rotationSpeed>
+         <rotationSpeed>17</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.28</vehicleMovement>
             <vehicleRotation>0.28</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 130 </maxHealth>
-         <maxRegenHealth> 100 </maxRegenHealth>
+         <maxHealth>130</maxHealth>
+         <maxRegenHealth>100</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/russian/R00_Placeholder/normal/lod0/Chassis.model</undamaged>
@@ -143,39 +143,39 @@
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L0</name>
-               <radius> 0.250289 </radius>
+               <radius>0.250289</radius>
             </wheel>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L1</name>
-               <radius> 0.265311 </radius>
+               <radius>0.265311</radius>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>W_L</template>
                <radius>0.41516</radius>
-               <startIndex> 0 </startIndex>
-               <count> 5 </count>
+               <startIndex>0</startIndex>
+               <count>5</count>
             </group>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R0</name>
-               <radius> 0.250289 </radius>
+               <radius>0.250289</radius>
             </wheel>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R1</name>
-               <radius> 0.265311 </radius>
+               <radius>0.265311</radius>
             </wheel>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
                <radius>0.41516</radius>
-               <startIndex> 0 </startIndex>
-               <count> 5 </count>
+               <startIndex>0</startIndex>
+               <count>5</count>
             </group>
          </wheels>
          <drivingWheels>WD_L0 WD_L1</drivingWheels>
@@ -185,17 +185,17 @@
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_med_npc</wwsoundNPC>
-         <hullPosition> 0 0.823819 0 </hullPosition>
+         <hullPosition>0 0.823819 0</hullPosition>
          <hitTester>
             <collisionModelServer>vehicles/russian/R00_Placeholder/collision/Chassis.model</collisionModelServer>
             <collisionModelClient>vehicles/russian/R00_Placeholder/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.24516 1.86577</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <AODecals>
             <decal>
-               <transform> 4.54824 -0 0 0 1.32576 0 -0 -0 8.33496 0 0 1e-06 </transform>
+               <transform>4.54824 -0 0 0 1.32576 0 -0 -0 8.33496 0 0 1e-06</transform>
             </decal>
          </AODecals>
          <customization>
@@ -210,40 +210,40 @@
       <KV_1>
          <userString>#ussr_vehicles:KV_1</userString>
          <tags></tags>
-         <level> 5 </level>
-         <price> 9380 </price>
+         <level>5</level>
+         <price>9380</price>
          <notInShop> true </notInShop>
          <armor>
-            <armor_1> 90 </armor_1>
-            <armor_2> 95 </armor_2>
-            <armor_3> 75 </armor_3>
-            <armor_4> 75 </armor_4>
-            <armor_5> 40 </armor_5>
-            <armor_6> 40 </armor_6>
-            <armor_7> 40 </armor_7>
-            <armor_8> 0 </armor_8>
-            <armor_9> 15 </armor_9>
-            <armor_10> 30 </armor_10>
+            <armor_1>90</armor_1>
+            <armor_2>95</armor_2>
+            <armor_3>75</armor_3>
+            <armor_4>75</armor_4>
+            <armor_5>40</armor_5>
+            <armor_6>40</armor_6>
+            <armor_7>40</armor_7>
+            <armor_8>0</armor_8>
+            <armor_9>15</armor_9>
+            <armor_10>30</armor_10>
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-         <weight> 7020 </weight>
-         <maxHealth> 112 </maxHealth>
-         <rotationSpeed> 22 </rotationSpeed>
+         <weight>7020</weight>
+         <maxHealth>112</maxHealth>
+         <rotationSpeed>22</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 100 </maxHealth>
-            <maxRegenHealth> 49 </maxRegenHealth>
+            <maxHealth>100</maxHealth>
+            <maxRegenHealth>49</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 310 </circularVisionRadius>
+         <circularVisionRadius>310</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 100 </maxHealth>
-            <maxRegenHealth> 49 </maxRegenHealth>
+            <maxHealth>100</maxHealth>
+            <maxRegenHealth>49</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
             <Gun_01_KV>
                shared
-               <maxAmmo> 111 </maxAmmo>
+               <maxAmmo>111</maxAmmo>
                <armor>
                   <armor_1>
                      90
@@ -261,7 +261,7 @@
                      10
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_4>
-                  <gun> 20 </gun>
+                  <gun>20</gun>
                </armor>
                <shotDispersionRadius>0.46</shotDispersionRadius>
                <reloadTime>4.3</reloadTime>
@@ -314,8 +314,8 @@
          <customizationSlots>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
-               <rayStart> -0.950314 0.558178 -0.885143 </rayStart>
+               <slotId>33000</slotId>
+               <rayStart>-0.950314 0.558178 -0.885143</rayStart>
                <rayEnd>-0.565803 0.45015 -0.863205</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.4</size>
@@ -324,8 +324,8 @@
             </slot>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33001 </slotId>
-               <rayStart> 0.950314 0.558178 -0.885143 </rayStart>
+               <slotId>33001</slotId>
+               <rayStart>0.950314 0.558178 -0.885143</rayStart>
                <rayEnd>0.565803 0.45015 -0.863205</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.4</size>
@@ -355,7 +355,7 @@
          <engines>
             <Engine_01_KV>
                <smplEnginePower>528.6406</smplEnginePower>
-               <smplFwMaxSpeed> 34 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>34</smplFwMaxSpeed>
             </Engine_01_KV>
          </engines>
          <chassis>
@@ -402,7 +402,7 @@
       <damagedStateGroup>large</damagedStateGroup>
    </effects>
    <emblems>
-      <default> 15501 </default>
+      <default>15501</default>
       <lodDist>MEDIUM</lodDist>
       <alpha>0.88</alpha>
    </emblems>

@@ -1,6 +1,6 @@
 <Avatar.def>
    <Implements>
-      <Interface> Chat </Interface>
+      <Interface>Chat</Interface>
       <Interface>PlayerMessenger_chat2</Interface>
       <Interface>ClientCommandsPort</Interface>
       <Interface>InvitationsClient</Interface>
@@ -20,7 +20,7 @@
    <Properties>
       <state>
          <Type>UINT16</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </state>
       <name>
          <Type>STRING</Type>
@@ -28,15 +28,15 @@
       </name>
       <account>
          <Type>MAILBOX</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </account>
       <playerVehicle>
          <Type>MAILBOX</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </playerVehicle>
       <arena>
          <Type>MAILBOX</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </arena>
       <arenaUniqueID>
          <Type>UINT64</Type>
@@ -72,7 +72,7 @@
          <Flags>BASE_AND_CLIENT</Flags>
       </clientCtx>
       <tkillIsSuspected>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>BASE_AND_CLIENT</Flags>
       </tkillIsSuspected>
       <arenaBase>
@@ -96,11 +96,11 @@
          <Flags>CELL_PRIVATE</Flags>
       </playerVehicleTypeCompDescr>
       <isObserverBothTeams>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>OWN_CLIENT</Flags>
       </isObserverBothTeams>
       <isGunLocked>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>OWN_CLIENT</Flags>
       </isGunLocked>
       <ownVehicleGear>
@@ -167,7 +167,7 @@
          <Flags>CELL_PRIVATE</Flags>
       </viewpoints>
       <isHistoricallyAccurate>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>OWN_CLIENT</Flags>
       </isHistoricallyAccurate>
       <inBattleQuestNames>
@@ -197,12 +197,12 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </update>
       <onKickedFromServer>
          <Arg>STRING</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>UINT32</Arg>
       </onKickedFromServer>
       <onIGRTypeChanged>
@@ -218,9 +218,9 @@
       <updateVehicleHealth>
          <Arg>OBJECT_ID</Arg>
          <Arg>INT16</Arg>
-         <Arg> INT8 </Arg>
-         <Arg> BOOL </Arg>
-         <Arg> BOOL </Arg>
+         <Arg>INT8</Arg>
+         <Arg>BOOL</Arg>
+         <Arg>BOOL</Arg>
       </updateVehicleHealth>
       <updateVehicleGunReloadTime>
          <Arg>OBJECT_ID</Arg>
@@ -231,7 +231,7 @@
          <Arg>OBJECT_ID</Arg>
          <Arg>FLOAT32</Arg>
          <Arg>FLOAT32</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </updateVehicleClipReloadTime>
       <updateVehicleAmmo>
          <Arg>OBJECT_ID</Arg>
@@ -266,7 +266,7 @@
       <updateVehicleOptionalDeviceStatus>
          <Arg>OBJECT_ID</Arg>
          <Arg>UINT8</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </updateVehicleOptionalDeviceStatus>
       <updateVehicleMiscStatus>
          <Arg>OBJECT_ID</Arg>
@@ -313,8 +313,8 @@
          <Arg>OBJECT_ID</Arg>
          <Arg>UINT16</Arg>
          <Arg>UINT32</Arg>
-         <Arg> BOOL </Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
+         <Arg>BOOL</Arg>
          <Arg>OBJECT_ID</Arg>
          <Arg>UINT8</Arg>
       </showOwnVehicleHitDirection>
@@ -351,7 +351,7 @@
          <Arg>FLOAT64</Arg>
          <Arg>VECTOR3</Arg>
          <Arg>VECTOR2</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </updatePlaneTrajectory>
       <showHittingArea>
          <Arg>UINT16</Arg>
@@ -372,7 +372,7 @@
       <showTracer>
          <Arg>OBJECT_ID</Arg>
          <Arg>SHOT_ID</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>UINT8</Arg>
          <Arg>VECTOR3</Arg>
          <Arg>VECTOR3</Arg>
@@ -396,7 +396,7 @@
          </Arg>
       </explodeProjectile>
       <onRoundFinished>
-         <Arg> INT8 </Arg>
+         <Arg>INT8</Arg>
          <Arg>UINT8</Arg>
       </onRoundFinished>
       <onKickedFromArena>
@@ -416,7 +416,7 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </updateArena>
       <updatePositions>
@@ -430,7 +430,7 @@
          </Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </updatePositions>
       <receivePhysicsDebugInfo>
@@ -450,7 +450,7 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </receiveNotification>
       <onRepairPointAction>
@@ -502,7 +502,7 @@
       <autoAim>
          <Exposed>OWN_CLIENT</Exposed>
          <Arg>OBJECT_ID</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </autoAim>
       <moveTo>
          <Exposed>OWN_CLIENT</Exposed>
@@ -517,14 +517,14 @@
          <Arg>OBJECT_ID</Arg>
       </monitorVehicleDamagedDevices>
       <onOwnVehicleStatusChanged>
-         <Arg> INT8 </Arg>
-         <Arg> INT8 </Arg>
-         <Arg> BOOL </Arg>
-         <Arg> BOOL </Arg>
+         <Arg>INT8</Arg>
+         <Arg>INT8</Arg>
+         <Arg>BOOL</Arg>
+         <Arg>BOOL</Arg>
       </onOwnVehicleStatusChanged>
       <allowUnbindingFromVehicle></allowUnbindingFromVehicle>
       <forbidUnbindingFromVehicle>
-         <Arg> INT8 </Arg>
+         <Arg>INT8</Arg>
       </forbidUnbindingFromVehicle>
       <fullyDiscloseVehicles>
          <Arg>
@@ -534,9 +534,9 @@
       </fullyDiscloseVehicles>
       <receiveVisibilityUpdate>
          <Arg>OBJECT_ID</Arg>
-         <Arg> BOOL </Arg>
-         <Arg> BOOL </Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
+         <Arg>BOOL</Arg>
+         <Arg>BOOL</Arg>
       </receiveVisibilityUpdate>
       <receiveVisibilityLists>
          <Arg>OBJECT_ID</Arg>
@@ -544,7 +544,7 @@
          <Arg>PYTHON</Arg>
       </receiveVisibilityLists>
       <receivePositionsFromArena>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>
             ARRAY
             <of>OBJECT_ID</of>
@@ -563,7 +563,7 @@
          </Arg>
          <Arg>
             ARRAY
-            <of> BOOL </of>
+            <of>BOOL</of>
          </Arg>
       </receivePositionsFromArena>
       <receiveVehiclePositionFromArena>
@@ -583,7 +583,7 @@
          </Arg>
       </receiveVehicleDamagedDevices>
       <lockGunOnClient>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </lockGunOnClient>
       <showShotResults>
          <Arg>
@@ -618,7 +618,7 @@
       <sendFinalStats></sendFinalStats>
       <switchViewPointOrBindToVehicle>
          <Exposed>OWN_CLIENT</Exposed>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>OBJECT_ID</Arg>
       </switchViewPointOrBindToVehicle>
       <grantRagePoints>
@@ -641,13 +641,13 @@
       <sendAmmoStatusToClient></sendAmmoStatusToClient>
       <setDualGunCharger>
          <Exposed>OWN_CLIENT</Exposed>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </setDualGunCharger>
    </CellMethods>
    <BaseMethods>
       <kickSelf>
          <Arg>STRING</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>FLOAT32</Arg>
       </kickSelf>
       <setClientReady>
@@ -670,7 +670,7 @@
          <Exposed></Exposed>
          <Arg>DB_ID</Arg>
          <Arg>INT32</Arg>
-         <Arg> INT8 </Arg>
+         <Arg>INT8</Arg>
       </makeDenunciation>
       <banUnbanUser>
          <Exposed></Exposed>
@@ -678,7 +678,7 @@
          <Arg>UINT8</Arg>
          <Arg>UINT32</Arg>
          <Arg>STRING</Arg>
-         <Arg> INT8 </Arg>
+         <Arg>INT8</Arg>
       </banUnbanUser>
       <requestToken>
          <Arg>UINT16</Arg>
@@ -768,7 +768,7 @@
       </onKickedFromArena>
       <onRoundStarted></onRoundStarted>
       <onRoundFinished>
-         <Arg> INT8 </Arg>
+         <Arg>INT8</Arg>
          <Arg>UINT8</Arg>
       </onRoundFinished>
       <leaveDisconnected></leaveDisconnected>

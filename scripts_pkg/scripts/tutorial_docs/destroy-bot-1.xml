@@ -8,13 +8,13 @@
             <run-trigger>Bot2OnArenaTrigger</run-trigger>
             <run-trigger>Bot3OnArenaTrigger</run-trigger>
             <run-trigger>GlobalEventsDispatcher</run-trigger>
-            <run-trigger> VehicleNoAmmoTrigger </run-trigger>
+            <run-trigger>VehicleNoAmmoTrigger</run-trigger>
             <activate>Task6Continue</activate>
             <inactivate>AimAtBot1</inactivate>
             <teleport>
                TeleportMarker
                <condition>
-                  <active> TeleportToPoint4 </active>
+                  <active>TeleportToPoint4</active>
                </condition>
             </teleport>
          </post-effects>
@@ -22,21 +22,21 @@
             <show-marker>
                MarkerForPoint4
                <condition>
-                  <inactive> InPoint4 </inactive>
+                  <inactive>InPoint4</inactive>
                   <inactive>Bot1Destroyed</inactive>
                </condition>
             </show-marker>
             <next-task>
                MoveToPoint4Task
                <condition>
-                  <inactive> InPoint4 </inactive>
+                  <inactive>InPoint4</inactive>
                   <inactive>Bot1Destroyed</inactive>
                </condition>
             </next-task>
             <show-hint>
                MoveToPoint4Hint
                <condition>
-                  <inactive> InPoint4 </inactive>
+                  <inactive>InPoint4</inactive>
                   <inactive>InSoftTerrain</inactive>
                   <inactive>Bot1Destroyed</inactive>
                </condition>
@@ -44,7 +44,7 @@
             <show-hint>
                OnSoftTerrainHint
                <condition>
-                  <inactive> InPoint4 </inactive>
+                  <inactive>InPoint4</inactive>
                   <active>InSoftTerrain</active>
                </condition>
             </show-hint>
@@ -52,7 +52,7 @@
                AimAtBot1Task
                <condition>
                   <active>Bot1OnArena</active>
-                  <active> InPoint4 </active>
+                  <active>InPoint4</active>
                   <inactive>AimAtBot1</inactive>
                   <inactive>Bot1Destroyed</inactive>
                </condition>
@@ -61,7 +61,7 @@
                AimAtBot1Hint
                <condition>
                   <active>Bot1OnArena</active>
-                  <active> InPoint4 </active>
+                  <active>InPoint4</active>
                   <inactive>AimAtBot1</inactive>
                   <inactive>Bot1Destroyed</inactive>
                </condition>
@@ -71,7 +71,7 @@
                <condition>
                   <active>Bot1OnArena</active>
                   <active>AimAtBot1</active>
-                  <active> InPoint4 </active>
+                  <active>InPoint4</active>
                   <inactive>Bot1Destroyed</inactive>
                </condition>
             </next-task>
@@ -80,7 +80,7 @@
                <condition>
                   <active>Bot1OnArena</active>
                   <active>AimAtBot1</active>
-                  <active> InPoint4 </active>
+                  <active>InPoint4</active>
                   <inactive>Bot1Destroyed</inactive>
                </condition>
             </show-hint>
@@ -94,7 +94,7 @@
                AttackBot1Marker
                <condition>
                   <active>Bot1OnArena</active>
-                  <active> InPoint4 </active>
+                  <active>InPoint4</active>
                   <inactive>Bot1Destroyed</inactive>
                </condition>
             </show-marker>
@@ -135,9 +135,9 @@
    <has-id>
       <exit>
          DestroyBot1Done
-         <is-speak-over> True </is-speak-over>
-         <next-delay> 3 </next-delay>
-         <finish-delay> 2 </finish-delay>
+         <is-speak-over>True</is-speak-over>
+         <next-delay>3</next-delay>
+         <finish-delay>2</finish-delay>
          <chapter-id></chapter-id>
       </exit>
       <progress>
@@ -213,14 +213,14 @@
                RequestToReplenishAmmo
                <effects>
                   <activate>ReplenishAmmoDialogClosed</activate>
-                  <invoke-player-cmd> ReplenishAmmoCmd </invoke-player-cmd>
+                  <invoke-player-cmd>ReplenishAmmoCmd</invoke-player-cmd>
                </effects>
             </click>
          </actions>
       </dialog>
       <marker>
          MarkerForPoint4
-         <type> area </type>
+         <type>area</type>
          <var-ref>Point4Name</var-ref>
          <model>
             <path>content/Interface/Arrow/normal/lod0/arrow.model</path>
@@ -234,14 +234,14 @@
          </ground>
          <world>
             <shape>arrow</shape>
-            <min-distance> 50 </min-distance>
-            <max-distance> 60 </max-distance>
+            <min-distance>50</min-distance>
+            <max-distance>60</max-distance>
             <offset>0 9 0</offset>
          </world>
       </marker>
       <marker>
          TeleportMarker
-         <type> teleport </type>
+         <type>teleport</type>
          <var-ref>Point4Name</var-ref>
          <world>
             <offset>0 0 0</offset>
@@ -252,7 +252,7 @@
          AttackBot1Marker
          <type>vehicle</type>
          <var-ref>Bot1VehicleID</var-ref>
-         <period> 5 </period>
+         <period>5</period>
       </marker>
       <player-cmd>
          ReplenishAmmoCmd
@@ -279,7 +279,7 @@
       <trigger>
          Bot1OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot1Name </validate-var>
+         <validate-var>Bot1Name</validate-var>
          <set-var>Bot1VehicleID</set-var>
          <on-effects>
             <activate>Bot1OnArena</activate>
@@ -291,7 +291,7 @@
       <trigger>
          Bot2OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot2Name </validate-var>
+         <validate-var>Bot2Name</validate-var>
          <set-var>Bot2VehicleID</set-var>
          <on-effects>
             <activate>Bot2OnArena</activate>
@@ -303,7 +303,7 @@
       <trigger>
          Bot3OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot3Name </validate-var>
+         <validate-var>Bot3Name</validate-var>
          <set-var>Bot3VehicleID</set-var>
          <on-effects>
             <activate>Bot3OnArena</activate>
@@ -326,22 +326,22 @@
       </trigger>
       <trigger>
          Point4Trigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>Point4Name</validate-var>
          <on-effects>
             <activate>Task6Continue</activate>
-            <activate> InPoint4 </activate>
+            <activate>InPoint4</activate>
             <remove-marker>MarkerForPoint4</remove-marker>
          </on-effects>
          <off-effects>
             <inactivate>Task6Continue</inactivate>
-            <inactivate> InPoint4 </inactivate>
-            <remove-marker> AttackBot1Marker </remove-marker>
+            <inactivate>InPoint4</inactivate>
+            <remove-marker>AttackBot1Marker</remove-marker>
          </off-effects>
       </trigger>
       <trigger>
          SoftTerrainTrigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>SoftTerrainName</validate-var>
          <on-effects>
             <activate>InSoftTerrain</activate>
@@ -352,14 +352,14 @@
       </trigger>
       <trigger>
          AimAtBot1Trigger
-         <type> aimAtVeh </type>
+         <type>aimAtVeh</type>
          <validate-var>Bot1VehicleID</validate-var>
          <init-state-flag>AimAtBot1</init-state-flag>
          <on-effects>
             <activate>
                Task6Continue
                <condition>
-                  <active> InPoint4 </active>
+                  <active>InPoint4</active>
                </condition>
             </activate>
             <activate>AimAtBot1</activate>
@@ -371,11 +371,11 @@
       </trigger>
       <trigger>
          Bot1DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot1VehicleID</validate-var>
          <on-effects>
             <activate>Bot1Destroyed</activate>
-            <remove-marker> AttackBot1Marker </remove-marker>
+            <remove-marker>AttackBot1Marker</remove-marker>
          </on-effects>
          <off-effects>
             <inactivate>Bot1Destroyed</inactivate>
@@ -383,7 +383,7 @@
       </trigger>
       <trigger>
          Bot2DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot2VehicleID</validate-var>
          <on-effects>
             <activate>Bot2Destroyed</activate>
@@ -394,7 +394,7 @@
       </trigger>
       <trigger>
          Bot3DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot3VehicleID</validate-var>
          <on-effects>
             <activate>Bot3Destroyed</activate>
@@ -409,10 +409,10 @@
          <includes>
             <trigger>Point4Trigger</trigger>
             <trigger>SoftTerrainTrigger</trigger>
-            <trigger> AimAtBot1Trigger </trigger>
-            <trigger> Bot1DestroyedTrigger </trigger>
-            <trigger> Bot2DestroyedTrigger </trigger>
-            <trigger> Bot3DestroyedTrigger </trigger>
+            <trigger>AimAtBot1Trigger</trigger>
+            <trigger>Bot1DestroyedTrigger</trigger>
+            <trigger>Bot2DestroyedTrigger</trigger>
+            <trigger>Bot3DestroyedTrigger</trigger>
          </includes>
       </trigger>
    </triggers>
@@ -422,9 +422,9 @@
          SoftTerrainName
          <asString>soft terrain</asString>
       </var-set>
-      <var-set-ref> Bot1Name </var-set-ref>
-      <var-set-ref> Bot2Name </var-set-ref>
-      <var-set-ref> Bot3Name </var-set-ref>
+      <var-set-ref>Bot1Name</var-set-ref>
+      <var-set-ref>Bot2Name</var-set-ref>
+      <var-set-ref>Bot3Name</var-set-ref>
       <var-set-ref>ImagePath</var-set-ref>
       <var-set-ref>DefaultVehicleInImages</var-set-ref>
    </vars>

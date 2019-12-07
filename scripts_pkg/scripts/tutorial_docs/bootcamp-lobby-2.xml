@@ -1,6 +1,6 @@
 <bootcamp-lobby-2.xml>
-   <default-scene> DefaultScene </default-scene>
-   <initial-scene> DefaultScene </initial-scene>
+   <default-scene>DefaultScene</default-scene>
+   <initial-scene>DefaultScene</initial-scene>
    <scenes>
       <scene>
          DefaultScene
@@ -24,10 +24,10 @@
       <scene>
          Research
          <post-effects>
-            <set-gui-item-criteria> ResearchItemNodeCriteria </set-gui-item-criteria>
+            <set-gui-item-criteria>ResearchItemNodeCriteria</set-gui-item-criteria>
             <effects-group>
                <condition>
-                  <checkpoint-not-reached> ModuleUnlockedCheckpoint </checkpoint-not-reached>
+                  <checkpoint-not-reached>ModuleUnlockedCheckpoint</checkpoint-not-reached>
                </condition>
                <effects>
                   <play-sound>
@@ -36,8 +36,8 @@
                   </play-sound>
                   <play-animation>
                      ResearchXP
-                     <type> clip </type>
-                     <wait_for_finish> True </wait_for_finish>
+                     <type>clip</type>
+                     <wait_for_finish>True</wait_for_finish>
                   </play-animation>
                </effects>
             </effects-group>
@@ -79,13 +79,13 @@
          <condition></condition>
          <effects>
             <set-var>FirstVehicleSetter</set-var>
-            <set-var> ModuleSetter </set-var>
+            <set-var>ModuleSetter</set-var>
             <invoke-gui-cmd>
                OverrideHangarMenuButtons
                <args>
                   <arg>
                      EnabledHangarMenuButtons_Initial
-                     <name> buttonsListVarID </name>
+                     <name>buttonsListVarID</name>
                   </arg>
                </args>
             </invoke-gui-cmd>
@@ -109,32 +109,32 @@
             <play-animation>
                CreditsButton
                <type>tween</type>
-               <wait_for_finish> True </wait_for_finish>
+               <wait_for_finish>True</wait_for_finish>
             </play-animation>
             <set-visible>
                CreditsButton
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <invoke-gui-cmd>
                OverrideHangarMenuButtons
                <args>
                   <arg>
                      EnabledHangarMenuButtons_AfterIntro
-                     <name> buttonsListVarID </name>
+                     <name>buttonsListVarID</name>
                   </arg>
                </args>
             </invoke-gui-cmd>
             <set-visible>
                MainMenuGradient
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HeaderCenterBg
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HeaderCenterMenuBg
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <play-animation>
                MainMenuButtonBar
@@ -159,19 +159,19 @@
             <play-animation>
                MenuHangar
                <type>tween</type>
-               <wait_for_finish> True </wait_for_finish>
+               <wait_for_finish>True</wait_for_finish>
             </play-animation>
             <set-visible>
                VehicleResearchPanel
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                VehicleResearchPanelBG
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                VehicleResearchButton
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <play-animation>
                VehicleResearchPanel
@@ -181,18 +181,18 @@
             <play-animation>
                VehicleResearchPanelBG
                <type>tween</type>
-               <wait_for_finish> True </wait_for_finish>
+               <wait_for_finish>True</wait_for_finish>
             </play-animation>
             <set-visible>
                HangarParams
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <play-animation>
                HangarParams
                <type>tween</type>
-               <wait_for_finish> True </wait_for_finish>
+               <wait_for_finish>True</wait_for_finish>
                <condition>
-                  <not-on-scene> Research </not-on-scene>
+                  <not-on-scene>Research</not-on-scene>
                </condition>
             </play-animation>
          </effects>
@@ -206,7 +206,7 @@
             </game-item>
          </condition>
          <effects>
-            <show-dialog> ModuleUnlockedDialog </show-dialog>
+            <show-dialog>ModuleUnlockedDialog</show-dialog>
          </effects>
       </checkpoint>
       <checkpoint>
@@ -221,23 +221,23 @@
             <show-dialog>ModuleBoughtDialog</show-dialog>
             <set-visible>
                HangarModuleGun
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleTurret
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleEngine
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleChassis
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleRadio
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <update-layout>AmmunitionPanel</update-layout>
          </effects>
@@ -254,11 +254,11 @@
             </play-sound>
             <play-animation>
                HangarModuleEngine
-               <type> clip </type>
-               <wait_for_finish> True </wait_for_finish>
+               <type>clip</type>
+               <wait_for_finish>True</wait_for_finish>
             </play-animation>
             <set-allowed-to-fight>
-               <value> True </value>
+               <value>True</value>
             </set-allowed-to-fight>
          </effects>
       </checkpoint>
@@ -270,7 +270,7 @@
       </game-attribute>
       <game-attribute>
          ModuleSetter
-         <var-ref> ModuleCD </var-ref>
+         <var-ref>ModuleCD</var-ref>
          <name>BootcampNationDataField</name>
          <args>module</args>
       </game-attribute>
@@ -294,7 +294,7 @@
             <message>
                <data>
                   <icon>../maps/icons/bootcamp/lines/bcExp.png</icon>
-                  <preset> BLUE </preset>
+                  <preset>BLUE</preset>
                   <label>#bootcamp:message/experience/label</label>
                   <text>#bootcamp:message/experience/text</text>
                   <voiceover>vo_bc_hangar_experience</voiceover>
@@ -314,7 +314,7 @@
             <message>
                <data>
                   <icon>../maps/icons/bootcamp/lines/bcCredits.png</icon>
-                  <preset> BLUE </preset>
+                  <preset>BLUE</preset>
                   <label>#bootcamp:message/credits/label</label>
                   <text>#bootcamp:message/credits/text</text>
                   <voiceover>vo_bc_hangar_silver</voiceover>
@@ -344,7 +344,7 @@
                   <data>
                      <nation_id>usa</nation_id>
                      <icon>../maps/icons/bootcamp/lines/bcUnlock.png</icon>
-                     <preset> BLUE </preset>
+                     <preset>BLUE</preset>
                      <label>#bootcamp:message/unlock/module/label</label>
                      <text>#bootcamp:message/unlock/module/text</text>
                      <voiceover>vo_bc_hangar_module_investigated</voiceover>
@@ -352,15 +352,15 @@
                   <data>
                      <nation_id>germany</nation_id>
                      <icon>../maps/icons/bootcamp/lines/bcUnlock.png</icon>
-                     <preset> BLUE </preset>
+                     <preset>BLUE</preset>
                      <label>#bootcamp:message/unlock/module/label</label>
                      <text>#bootcamp:message/unlock/module/text</text>
                      <voiceover>vo_bc_hangar_module_investigated</voiceover>
                   </data>
                   <data>
-                     <nation_id> ussr </nation_id>
+                     <nation_id>ussr</nation_id>
                      <icon>../maps/icons/bootcamp/lines/bcUnlock.png</icon>
-                     <preset> BLUE </preset>
+                     <preset>BLUE</preset>
                      <label>#bootcamp:message/unlock/module/label</label>
                      <text>#bootcamp:message/unlock/module/text</text>
                      <voiceover>vo_bc_hangar_module_investigated</voiceover>
@@ -378,7 +378,7 @@
             <message>
                <data>
                   <icon>../maps/icons/bootcamp/lines/bcEngine.png</icon>
-                  <preset> GOLD </preset>
+                  <preset>GOLD</preset>
                   <label>#bootcamp:message/new/module/label</label>
                   <text>#bootcamp:message/new/module/text</text>
                   <voiceover>vo_bc_hangar_module_purchased</voiceover>
@@ -408,7 +408,7 @@
          <validate-var></validate-var>
          <sequence>
             <checkpoint>StartCheckpoint</checkpoint>
-            <checkpoint> ModuleUnlockedCheckpoint </checkpoint>
+            <checkpoint>ModuleUnlockedCheckpoint</checkpoint>
             <checkpoint>ModuleBoughtCheckpoint</checkpoint>
             <checkpoint>EndCheckpoint</checkpoint>
          </sequence>

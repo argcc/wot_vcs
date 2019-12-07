@@ -1,14 +1,14 @@
 <A125_AEP_1.xml>
    <xmlns:xmlref>http://bwt/xmlref</xmlns:xmlref>
    <crew>
-      <commander> radioman </commander>
+      <commander>radioman</commander>
       <gunner></gunner>
       <driver></driver>
       <loader></loader>
    </crew>
    <speedLimits>
-      <forward> 35 </forward>
-      <backward> 12 </backward>
+      <forward>35</forward>
+      <backward>12</backward>
    </speedLimits>
    <invisibility>
       <moving>0.046</moving>
@@ -17,7 +17,7 @@
       <camouflageNetBonus>0.05</camouflageNetBonus>
       <firePenalty>0.138</firePenalty>
    </invisibility>
-   <repairCost> 9 </repairCost>
+   <repairCost>9</repairCost>
    <premiumVehicleXPFactor>0.05</premiumVehicleXPFactor>
    <crewXpFactor>1.5</crewXpFactor>
    <camouflage>
@@ -34,21 +34,21 @@
          <armor_5>25.4</armor_5>
          <armor_6>19.1</armor_6>
          <armor_7>50.8</armor_7>
-         <armor_8> 0 </armor_8>
+         <armor_8>0</armor_8>
          <armor_9>76.2</armor_9>
          <armor_10>203.2</armor_10>
          <armor_11>76.2</armor_11>
          <armor_13>177.8</armor_13>
          <armor_14>152.4</armor_14>
-         <armor_15> 127 </armor_15>
+         <armor_15>127</armor_15>
          <armor_16>101.6</armor_16>
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-      <weight> 26497 </weight>
-      <maxHealth> 1440 </maxHealth>
+      <weight>26497</weight>
+      <maxHealth>1440</maxHealth>
       <ammoBayHealth>
-         <maxHealth> 260 </maxHealth>
-         <maxRegenHealth> 180 </maxRegenHealth>
+         <maxHealth>260</maxHealth>
+         <maxRegenHealth>180</maxRegenHealth>
          <repairCost>1.0</repairCost>
       </ammoBayHealth>
       <models>
@@ -67,7 +67,7 @@
          <nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
       </exhaust>
       <turretPositions>
-         <turret> 0 0.479888 -0.000483 </turret>
+         <turret>0 0.479888 -0.000483</turret>
       </turretPositions>
       <hitTester>
          <collisionModelServer>vehicles/american/A125_AEP_1/collision/Hull.model</collisionModelServer>
@@ -76,8 +76,8 @@
       <hangarShadowTexture>vehicles/american/A125_AEP_1/AEP_1_HangarShadowMap.dds</hangarShadowTexture>
       <customizationSlots>
          <slot>
-            <slotType> clan </slotType>
-            <slotId> 10000 </slotId>
+            <slotType>clan</slotType>
+            <slotId>10000</slotId>
             <rayStart>-0.0437639 0.154802 3.2941</rayStart>
             <rayEnd>-0.0437639 -0.0276299 3.21213</rayEnd>
             <rayUp>0.000000 0.000000 -1</rayUp>
@@ -87,21 +87,21 @@
          </slot>
          <slot>
             <slotType>paint</slotType>
-            <slotId> 11000 </slotId>
+            <slotId>11000</slotId>
             <anchorPosition>0.000002 0.273422 2.84317</anchorPosition>
             <anchorDirection>0.000000 0.0868182 0.996224</anchorDirection>
          </slot>
          <slot>
             <slotType>camouflage</slotType>
-            <slotId> 12000 </slotId>
+            <slotId>12000</slotId>
             <anchorPosition>0.000000 0.247774 2.84317</anchorPosition>
             <anchorDirection>0.000000 0.0868181 0.996224</anchorDirection>
          </slot>
       </customizationSlots>
       <customization>
          <customizableVehicleAreas>
-            <paint> HULL </paint>
-            <camouflage> HULL </camouflage>
+            <paint>HULL</paint>
+            <camouflage>HULL</camouflage>
          </customizableVehicleAreas>
       </customization>
       <camouflage>
@@ -113,26 +113,26 @@
       <Chassis_A125_AEP_1>
          <userString>#usa_vehicles:Chassis_A125_AEP_1</userString>
          <tags></tags>
-         <level> 9 </level>
-         <price> 50000 </price>
+         <level>9</level>
+         <price>50000</price>
          <notInShop> true </notInShop>
          <armor>
-            <leftTrack> 20 </leftTrack>
-            <rightTrack> 20 </rightTrack>
+            <leftTrack>20</leftTrack>
+            <rightTrack>20</rightTrack>
          </armor>
-         <weight> 14000 </weight>
-         <maxLoad> 60000 </maxLoad>
+         <weight>14000</weight>
+         <maxLoad>60000</maxLoad>
          <terrainResistance>1.2 1.3 2.4</terrainResistance>
-         <brakeForce> 56000 </brakeForce>
+         <brakeForce>56000</brakeForce>
          <rotationIsAroundCenter> true </rotationIsAroundCenter>
-         <rotationSpeed> 30 </rotationSpeed>
+         <rotationSpeed>30</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.14</vehicleMovement>
             <vehicleRotation>0.14</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 240 </maxHealth>
-         <maxRegenHealth> 180 </maxRegenHealth>
+         <maxHealth>240</maxHealth>
+         <maxRegenHealth>180</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/american/A125_AEP_1/normal/lod0/Chassis.model</undamaged>
@@ -149,12 +149,12 @@
             <lodDist>MEDIUM_TRACK</lodDist>
             <leftMaterial>track_mat_L_skinned</leftMaterial>
             <rightMaterial>track_mat_R_skinned</rightMaterial>
-            <textureScale> 2 </textureScale>
-            <pairsCount> 2 </pairsCount>
+            <textureScale>2</textureScale>
+            <pairsCount>2</pairsCount>
          </tracks>
          <AODecals>
             <decal>
-               <transform> 4.13048 -0 -0 -0 1.34202 0 -0 0 5.65285 0 0 0 </transform>
+               <transform>4.13048 -0 -0 -0 1.34202 0 -0 0 5.65285 0 0 0</transform>
             </decal>
          </AODecals>
          <wheels>
@@ -163,14 +163,14 @@
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L0</name>
-               <syncAngle> 20 </syncAngle>
+               <syncAngle>20</syncAngle>
                <geometry>
-                  <radius> 0.462953 </radius>
+                  <radius>0.462953</radius>
                </geometry>
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 1 </trackPairIdx>
+               <trackPairIdx>1</trackPairIdx>
             </wheel>
             <wheel>
                <isLeft> true </isLeft>
@@ -182,7 +182,7 @@
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 1 </trackPairIdx>
+               <trackPairIdx>1</trackPairIdx>
             </wheel>
             <wheel>
                <isLeft> true </isLeft>
@@ -194,20 +194,20 @@
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 0 </trackPairIdx>
+               <trackPairIdx>0</trackPairIdx>
             </wheel>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L3</name>
-               <syncAngle> 20 </syncAngle>
+               <syncAngle>20</syncAngle>
                <geometry>
-                  <radius> 0.462953 </radius>
+                  <radius>0.462953</radius>
                </geometry>
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 0 </trackPairIdx>
+               <trackPairIdx>0</trackPairIdx>
             </wheel>
             <group>
                <isLeft> true </isLeft>
@@ -216,12 +216,12 @@
                <geometry>
                   <radius>0.33</radius>
                </geometry>
-               <startIndex> 0 </startIndex>
-               <count> 3 </count>
+               <startIndex>0</startIndex>
+               <count>3</count>
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 1 </trackPairIdx>
+               <trackPairIdx>1</trackPairIdx>
             </group>
             <group>
                <isLeft> true </isLeft>
@@ -230,25 +230,25 @@
                <geometry>
                   <radius>0.33</radius>
                </geometry>
-               <startIndex> 3 </startIndex>
-               <count> 3 </count>
+               <startIndex>3</startIndex>
+               <count>3</count>
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 0 </trackPairIdx>
+               <trackPairIdx>0</trackPairIdx>
             </group>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R0</name>
-               <syncAngle> 20 </syncAngle>
+               <syncAngle>20</syncAngle>
                <geometry>
-                  <radius> 0.462953 </radius>
+                  <radius>0.462953</radius>
                </geometry>
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 1 </trackPairIdx>
+               <trackPairIdx>1</trackPairIdx>
             </wheel>
             <wheel>
                <isLeft> false </isLeft>
@@ -260,7 +260,7 @@
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 1 </trackPairIdx>
+               <trackPairIdx>1</trackPairIdx>
             </wheel>
             <wheel>
                <isLeft> false </isLeft>
@@ -272,20 +272,20 @@
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 0 </trackPairIdx>
+               <trackPairIdx>0</trackPairIdx>
             </wheel>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R3</name>
-               <syncAngle> 20 </syncAngle>
+               <syncAngle>20</syncAngle>
                <geometry>
-                  <radius> 0.462953 </radius>
+                  <radius>0.462953</radius>
                </geometry>
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 0 </trackPairIdx>
+               <trackPairIdx>0</trackPairIdx>
             </wheel>
             <group>
                <isLeft> false </isLeft>
@@ -294,12 +294,12 @@
                <geometry>
                   <radius>0.33</radius>
                </geometry>
-               <startIndex> 0 </startIndex>
-               <count> 3 </count>
+               <startIndex>0</startIndex>
+               <count>3</count>
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 1 </trackPairIdx>
+               <trackPairIdx>1</trackPairIdx>
             </group>
             <group>
                <isLeft> false </isLeft>
@@ -308,12 +308,12 @@
                <geometry>
                   <radius>0.33</radius>
                </geometry>
-               <startIndex> 3 </startIndex>
-               <count> 3 </count>
+               <startIndex>3</startIndex>
+               <count>3</count>
                <scrollProcessor>
                   <connectedToEngine> false </connectedToEngine>
                </scrollProcessor>
-               <trackPairIdx> 0 </trackPairIdx>
+               <trackPairIdx>0</trackPairIdx>
             </group>
             <generalWheels> true </generalWheels>
             <traces>
@@ -330,7 +330,7 @@
          <drivingWheels>WD_L0 WD_L3</drivingWheels>
          <effects>
             <lodDist>MEDIUM</lodDist>
-            <mud> largeTankMud </mud>
+            <mud>largeTankMud</mud>
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
@@ -340,7 +340,7 @@
             <collisionModelClient>vehicles/american/A125_AEP_1/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.48042 2.18117</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <splineDesc>
             <segmentModelLeft>vehicles/american/A125_AEP_1/track/segment_1.model</segmentModelLeft>
@@ -350,28 +350,28 @@
             <multipleTracks>
                <left>
                   <desc>vehicles/american/A125_AEP_1/track/left.track</desc>
-                  <trackPairIdx> 0 </trackPairIdx>
+                  <trackPairIdx>0</trackPairIdx>
                   <segmentLength>0.145</segmentLength>
                   <segmentOffset>0.271</segmentOffset>
                   <segment2Offset>0.075</segment2Offset>
                </left>
                <left>
                   <desc>vehicles/american/A125_AEP_1/track/left2.track</desc>
-                  <trackPairIdx> 1 </trackPairIdx>
+                  <trackPairIdx>1</trackPairIdx>
                   <segmentLength>0.145</segmentLength>
                   <segmentOffset>0.311</segmentOffset>
                   <segment2Offset>0.075</segment2Offset>
                </left>
                <right>
                   <desc>vehicles/american/A125_AEP_1/track/right.track</desc>
-                  <trackPairIdx> 0 </trackPairIdx>
+                  <trackPairIdx>0</trackPairIdx>
                   <segmentLength>0.145</segmentLength>
                   <segmentOffset>0.271</segmentOffset>
                   <segment2Offset>0.075</segment2Offset>
                </right>
                <right>
                   <desc>vehicles/american/A125_AEP_1/track/right2.track</desc>
-                  <trackPairIdx> 1 </trackPairIdx>
+                  <trackPairIdx>1</trackPairIdx>
                   <segmentLength>0.145</segmentLength>
                   <segmentOffset>0.311</segmentOffset>
                   <segment2Offset>0.075</segment2Offset>
@@ -379,8 +379,8 @@
             </multipleTracks>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <trackThickness>-0.00791367</trackThickness>
@@ -390,12 +390,12 @@
             <maxAmplitude>0.1</maxAmplitude>
             <maxOffset>0.1</maxOffset>
             <gravity>-9.8</gravity>
-            <elasticity> 1100 </elasticity>
-            <damping> 2 </damping>
+            <elasticity>1100</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VT_L0</name>
-               <forwardElastK> 2 </forwardElastK>
+               <forwardElastK>2</forwardElastK>
                <backwardElastK>0.75</backwardElastK>
             </node>
             <node>
@@ -435,7 +435,7 @@
             <node>
                <isLeft> false </isLeft>
                <name>Track_VT_R0</name>
-               <forwardElastK> 2 </forwardElastK>
+               <forwardElastK>2</forwardElastK>
                <backwardElastK>0.75</backwardElastK>
             </node>
             <node>
@@ -460,16 +460,16 @@
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <startIndex>0</startIndex>
+               <count>6</count>
                <isLeft> true </isLeft>
                <minOffset>-0.1</minOffset>
                <maxOffset>0.1</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <startIndex>0</startIndex>
+               <count>6</count>
                <isLeft> false </isLeft>
                <minOffset>-0.1</minOffset>
                <maxOffset>0.1</maxOffset>
@@ -477,8 +477,8 @@
          </groundNodes>
          <physicalTracks>
             <left>
-               <segmentsCount> 110 </segmentsCount>
-               <segmentsOuterThickness> 0.096044 </segmentsOuterThickness>
+               <segmentsCount>110</segmentsCount>
+               <segmentsOuterThickness>0.096044</segmentsOuterThickness>
                <segmentsInnerThickness>-0.0181627</segmentsInnerThickness>
                <segmentsPlaneOffset>-1.48</segmentsPlaneOffset>
                <springsLength>
@@ -486,13 +486,13 @@
                      <back>0.0703907</back>
                      <top>0.0619831</top>
                      <front>0.0648724</front>
-                     <bottom> 0.066453 </bottom>
+                     <bottom>0.066453</bottom>
                   </backwardMovement>
                   <forwardMovement>
                      <back>0.0673907</back>
-                     <top> 0.069705 </top>
+                     <top>0.069705</top>
                      <front>0.0648724</front>
-                     <bottom> 0.066453 </bottom>
+                     <bottom>0.066453</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
@@ -523,25 +523,25 @@
                      <wheelName>W_L3</wheelName>
                      <basePos>-0.394068003 0.415794998</basePos>
                      <shiftVec>0.311 0.0</shiftVec>
-                     <jointIdx> 19 </jointIdx>
+                     <jointIdx>19</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L3</wheelName>
                      <basePos>-3.20695 0.77908</basePos>
                      <shiftVec>-0.402727 0.0856153</shiftVec>
-                     <jointIdx> 73 </jointIdx>
+                     <jointIdx>73</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L5</wheelName>
                      <basePos>-2.17382 0.396491</basePos>
                      <shiftVec>0.0153527 -0.311837</shiftVec>
-                     <jointIdx> 98 </jointIdx>
+                     <jointIdx>98</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L4</wheelName>
                      <basePos>-1.32189703 0.415794998</basePos>
                      <shiftVec>0.0 -0.311</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
@@ -552,11 +552,11 @@
                </radiusOverrides>
                <teethSyncs>
                   <syncWithMainModel> true </syncWithMainModel>
-                  <segmentSyncPivotOffset> 0 </segmentSyncPivotOffset>
+                  <segmentSyncPivotOffset>0</segmentSyncPivotOffset>
                   <sync>
                      <name>WD_L3</name>
                      <startAngle>-66.1414</startAngle>
-                     <teethCount> 18 </teethCount>
+                     <teethCount>18</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -718,25 +718,25 @@
                   </top>
                   <bottom></bottom>
                </sourceCollisionHullPoints>
-               <trackPairIdx> 0 </trackPairIdx>
+               <trackPairIdx>0</trackPairIdx>
             </left>
             <left>
-               <segmentsCount> 110 </segmentsCount>
-               <segmentsOuterThickness> 0.096044 </segmentsOuterThickness>
+               <segmentsCount>110</segmentsCount>
+               <segmentsOuterThickness>0.096044</segmentsOuterThickness>
                <segmentsInnerThickness>-0.0181627</segmentsInnerThickness>
                <segmentsPlaneOffset>-1.48</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
                      <front>0.05</front>
-                     <top> 0.069705 </top>
+                     <top>0.069705</top>
                      <back>0.0648724</back>
-                     <bottom> 0.066453 </bottom>
+                     <bottom>0.066453</bottom>
                   </backwardMovement>
                   <forwardMovement>
                      <back>0.0648724</back>
                      <top>0.0619831</top>
                      <front>0.065</front>
-                     <bottom> 0.066453 </bottom>
+                     <bottom>0.066453</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
@@ -767,40 +767,40 @@
                      <wheelName>WD_L0</wheelName>
                      <basePos>3.21333 0.779118</basePos>
                      <shiftVec>0.409394 0.0795587</shiftVec>
-                     <jointIdx> 25 </jointIdx>
+                     <jointIdx>25</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>W_L2</wheelName>
                      <basePos>0.495086998 0.415794998</basePos>
                      <shiftVec>-0.311 0.0</shiftVec>
-                     <jointIdx> 79 </jointIdx>
+                     <jointIdx>79</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L1</wheelName>
                      <basePos>1.42367601 0.415794998</basePos>
                      <shiftVec>0.0 -0.311</shiftVec>
-                     <jointIdx> 98 </jointIdx>
+                     <jointIdx>98</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>2.27103 0.396457</basePos>
                      <shiftVec>0.0316577 -0.310226</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_L0</name>
-                     <radius> 0.415969 </radius>
+                     <radius>0.415969</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
                   <syncWithMainModel> true </syncWithMainModel>
-                  <segmentSyncPivotOffset> 0 </segmentSyncPivotOffset>
+                  <segmentSyncPivotOffset>0</segmentSyncPivotOffset>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-62.9957</startAngle>
-                     <teethCount> 18 </teethCount>
+                     <teethCount>18</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -962,10 +962,10 @@
                   </top>
                   <bottom></bottom>
                </sourceCollisionHullPoints>
-               <trackPairIdx> 1 </trackPairIdx>
+               <trackPairIdx>1</trackPairIdx>
             </left>
             <right>
-               <segmentsCount> 110 </segmentsCount>
+               <segmentsCount>110</segmentsCount>
                <segmentsOuterThickness>0.0771124</segmentsOuterThickness>
                <segmentsInnerThickness>0.0007689</segmentsInnerThickness>
                <segmentsPlaneOffset>1.48</segmentsPlaneOffset>
@@ -974,13 +974,13 @@
                      <back>0.0703907</back>
                      <top>0.0619831</top>
                      <front>0.0648724</front>
-                     <bottom> 0.066453 </bottom>
+                     <bottom>0.066453</bottom>
                   </backwardMovement>
                   <forwardMovement>
                      <back>0.0673907</back>
-                     <top> 0.069705 </top>
+                     <top>0.069705</top>
                      <front>0.0648724</front>
-                     <bottom> 0.066453 </bottom>
+                     <bottom>0.066453</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
@@ -1011,25 +1011,25 @@
                      <wheelName>W_R3</wheelName>
                      <basePos>-0.394068003 0.415794998</basePos>
                      <shiftVec>0.311 0.0</shiftVec>
-                     <jointIdx> 19 </jointIdx>
+                     <jointIdx>19</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R3</wheelName>
                      <basePos>-3.20695 0.77908</basePos>
                      <shiftVec>-0.402727 0.0856153</shiftVec>
-                     <jointIdx> 73 </jointIdx>
+                     <jointIdx>73</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R5</wheelName>
                      <basePos>-2.17382 0.396491</basePos>
                      <shiftVec>0.0153527 -0.311837</shiftVec>
-                     <jointIdx> 98 </jointIdx>
+                     <jointIdx>98</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R4</wheelName>
                      <basePos>-1.32189703 0.415794998</basePos>
                      <shiftVec>0.0 -0.311</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
@@ -1040,11 +1040,11 @@
                </radiusOverrides>
                <teethSyncs>
                   <syncWithMainModel> true </syncWithMainModel>
-                  <segmentSyncPivotOffset> 0 </segmentSyncPivotOffset>
+                  <segmentSyncPivotOffset>0</segmentSyncPivotOffset>
                   <sync>
                      <name>WD_R3</name>
                      <startAngle>-66.1414</startAngle>
-                     <teethCount> 18 </teethCount>
+                     <teethCount>18</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -1206,25 +1206,25 @@
                   </top>
                   <bottom></bottom>
                </sourceCollisionHullPoints>
-               <trackPairIdx> 0 </trackPairIdx>
+               <trackPairIdx>0</trackPairIdx>
             </right>
             <right>
-               <segmentsCount> 110 </segmentsCount>
+               <segmentsCount>110</segmentsCount>
                <segmentsOuterThickness>0.0771124</segmentsOuterThickness>
                <segmentsInnerThickness>0.0007689</segmentsInnerThickness>
                <segmentsPlaneOffset>1.48</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
                      <front>0.05</front>
-                     <top> 0.069705 </top>
+                     <top>0.069705</top>
                      <back>0.0648724</back>
-                     <bottom> 0.066453 </bottom>
+                     <bottom>0.066453</bottom>
                   </backwardMovement>
                   <forwardMovement>
                      <back>0.0648724</back>
                      <top>0.0619831</top>
                      <front>0.068</front>
-                     <bottom> 0.066453 </bottom>
+                     <bottom>0.066453</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
@@ -1255,40 +1255,40 @@
                      <wheelName>WD_R0</wheelName>
                      <basePos>3.21333 0.779118</basePos>
                      <shiftVec>0.409394 0.0795587</shiftVec>
-                     <jointIdx> 25 </jointIdx>
+                     <jointIdx>25</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>W_R2</wheelName>
                      <basePos>0.495086998 0.415794998</basePos>
                      <shiftVec>-0.311 0.0</shiftVec>
-                     <jointIdx> 79 </jointIdx>
+                     <jointIdx>79</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R1</wheelName>
                      <basePos>1.42367601 0.415794998</basePos>
                      <shiftVec>0.0 -0.311</shiftVec>
-                     <jointIdx> 98 </jointIdx>
+                     <jointIdx>98</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>2.27103 0.396457</basePos>
                      <shiftVec>0.0316577 -0.310226</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_R0</name>
-                     <radius> 0.415969 </radius>
+                     <radius>0.415969</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
                   <syncWithMainModel> true </syncWithMainModel>
-                  <segmentSyncPivotOffset> 0 </segmentSyncPivotOffset>
+                  <segmentSyncPivotOffset>0</segmentSyncPivotOffset>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-62.9957</startAngle>
-                     <teethCount> 18 </teethCount>
+                     <teethCount>18</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -1450,7 +1450,7 @@
                   </top>
                   <bottom></bottom>
                </sourceCollisionHullPoints>
-               <trackPairIdx> 1 </trackPairIdx>
+               <trackPairIdx>1</trackPairIdx>
             </right>
          </physicalTracks>
          <customization>
@@ -1462,13 +1462,13 @@
          <customizationSlots>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 21000 </slotId>
+               <slotId>21000</slotId>
                <anchorPosition>-1.76735 0.637287 -0.000259995</anchorPosition>
                <anchorDirection>-0.940711 0.33921 -0.000138388</anchorDirection>
             </slot>
             <slot>
                <slotType>style</slotType>
-               <slotId> 29000 </slotId>
+               <slotId>29000</slotId>
                <anchorPosition>0.0226467 2.67078 -0.790399</anchorPosition>
                <anchorDirection>-0.000000 1 0.000000</anchorDirection>
             </slot>
@@ -1479,18 +1479,18 @@
       <Turret_1_A125_AEP_1>
          <userString>#usa_vehicles:Turret_1_A125_AEP_1</userString>
          <tags></tags>
-         <level> 9 </level>
-         <price> 50000 </price>
+         <level>9</level>
+         <price>50000</price>
          <notInShop> true </notInShop>
          <armor>
             <armor_1>292.1</armor_1>
-            <armor_2> 254 </armor_2>
+            <armor_2>254</armor_2>
             <armor_3>101.6</armor_3>
             <armor_4>50.8</armor_4>
             <armor_5>38.1</armor_5>
             <armor_6>25.4</armor_6>
             <armor_7>215.9</armor_7>
-            <armor_8> 0 </armor_8>
+            <armor_8>0</armor_8>
             <armor_9>
                50.8
                <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -1498,29 +1498,29 @@
             <armor_10>190.5</armor_10>
             <armor_11>165.1</armor_11>
             <armor_12>146.1</armor_12>
-            <armor_13> 127 </armor_13>
+            <armor_13>127</armor_13>
             <armor_14>88.9</armor_14>
             <armor_15>63.5</armor_15>
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-         <weight> 11000 </weight>
-         <maxHealth> 360 </maxHealth>
-         <rotationSpeed> 32 </rotationSpeed>
+         <weight>11000</weight>
+         <maxHealth>360</maxHealth>
+         <rotationSpeed>32</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 120 </maxHealth>
-            <maxRegenHealth> 74 </maxRegenHealth>
+            <maxHealth>120</maxHealth>
+            <maxRegenHealth>74</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 390 </circularVisionRadius>
+         <circularVisionRadius>390</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 100 </maxHealth>
-            <maxRegenHealth> 49 </maxRegenHealth>
+            <maxHealth>100</maxHealth>
+            <maxRegenHealth>49</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
             <_120mm_Gun_M58A>
                shared
-               <maxAmmo> 40 </maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <armor>
                   <armor_1>
                      292.1
@@ -1546,11 +1546,11 @@
                      114.3
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_6>
-                  <gun> 50 </gun>
+                  <gun>50</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <shotDispersionRadius>0.38</shotDispersionRadius>
-               <reloadTime> 11 </reloadTime>
+               <reloadTime>11</reloadTime>
                <aimingTime>2.5</aimingTime>
                <invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
                <pitchLimits>
@@ -1574,28 +1574,28 @@
                <customizationSlots>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>-0.000275169 -0.00096527 2.92773</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.602077 0.602078 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.602077 0.602078</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>-0.000275169 -0.00096527 2.92773</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>insigniaOnGun</slotType>
-                     <slotId> 49000 </slotId>
+                     <slotId>49000</slotId>
                      <rayStart>0.000000 -0.000000 3.63245</rayStart>
                      <rayEnd>0.0155345 0.0625308 3.63221</rayEnd>
                      <rayUp>0.102 0.000000 0.000000</rayUp>
@@ -1634,21 +1634,21 @@
          <customizationSlots>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 31000 </slotId>
+               <slotId>31000</slotId>
                <anchorPosition>0.000000 1.02171 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>camouflage</slotType>
-               <slotId> 32000 </slotId>
+               <slotId>32000</slotId>
                <anchorPosition>0.000000 1.02171 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
+               <slotId>33000</slotId>
                <rayStart>1.00755 0.517206 1.10672</rayStart>
-               <rayEnd> 0.846868 0.472851 0.996212 </rayEnd>
+               <rayEnd>0.846868 0.472851 0.996212</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <isMirrored> true </isMirrored>
                <size>0.3</size>
@@ -1657,7 +1657,7 @@
             </slot>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33001 </slotId>
+               <slotId>33001</slotId>
                <rayStart>-0.959995 0.601636 1.10249</rayStart>
                <rayEnd>-0.82095 0.493834 1.00738</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -1667,21 +1667,21 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34000 </slotId>
+               <slotId>34000</slotId>
                <rayStart>-0.860085 0.484028 -1.88267</rayStart>
                <rayEnd>-0.66541 0.477355 -1.83731</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
-               <size> 0.801394 </size>
+               <size>0.801394</size>
                <hideIfDamaged> false </hideIfDamaged>
                <isUVProportional> true </isUVProportional>
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34001 </slotId>
+               <slotId>34001</slotId>
                <rayStart>1.34669 0.366963 0.722696</rayStart>
                <rayEnd>1.18906 0.326433 0.606473</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
-               <size> 0.696864 </size>
+               <size>0.696864</size>
                <hideIfDamaged> false </hideIfDamaged>
                <isUVProportional> true </isUVProportional>
             </slot>
@@ -1712,8 +1712,8 @@
       <detailed>
          <engines>
             <Continental_AOSI_1195_5>
-               <smplEnginePower> 900 </smplEnginePower>
-               <smplFwMaxSpeed> 35 </smplFwMaxSpeed>
+               <smplEnginePower>900</smplEnginePower>
+               <smplFwMaxSpeed>35</smplFwMaxSpeed>
             </Continental_AOSI_1195_5>
          </engines>
          <chassis>
@@ -1750,7 +1750,7 @@
                      </medium>
                   </metal>
                </grounds>
-               <axleCount> 5 </axleCount>
+               <axleCount>5</axleCount>
             </Chassis_A125_AEP_1>
          </chassis>
       </detailed>
@@ -1763,7 +1763,7 @@
       <damagedStateGroup>large</damagedStateGroup>
    </effects>
    <emblems>
-      <default> 15503 </default>
+      <default>15503</default>
       <lodDist>MEDIUM</lodDist>
       <alpha>0.88</alpha>
    </emblems>

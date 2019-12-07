@@ -1,6 +1,6 @@
 <premiumPacket.xml>
-   <default-scene> DefaultScene </default-scene>
-   <initial-scene> DefaultScene </initial-scene>
+   <default-scene>DefaultScene</default-scene>
+   <initial-scene>DefaultScene</initial-scene>
    <scenes>
       <scene>
          DefaultScene
@@ -21,7 +21,7 @@
             <show-hint>
                PremiumPeriodRendererHint
                <condition>
-                  <active> PremiumPeriodRendererOnScene </active>
+                  <active>PremiumPeriodRendererOnScene</active>
                   <effect-triggered>PremiumPeriodCriteria</effect-triggered>
                   <var>
                      PremiumDays
@@ -35,10 +35,10 @@
             <gui-item>
                PremiumPeriodRenderer
                <on-scene-effects>
-                  <activate> PremiumPeriodRendererOnScene </activate>
+                  <activate>PremiumPeriodRendererOnScene</activate>
                </on-scene-effects>
                <not-on-scene-effects>
-                  <inactivate> PremiumPeriodRendererOnScene </inactivate>
+                  <inactivate>PremiumPeriodRendererOnScene</inactivate>
                   <refuse-training>
                      <condition>
                         <effect-triggered>PremiumPeriodRendererHint</effect-triggered>
@@ -53,7 +53,7 @@
       <view-data>
          PremiumWindow
          <alias>premiumWindow</alias>
-         <scope> 1 </scope>
+         <scope>1</scope>
       </view-data>
       <gui-item-criteria>
          PremiumPeriodCriteria
@@ -66,7 +66,7 @@
          <text>_(#quests:action/chain/hint/premDays)</text>
          <arrow>
             <direction>B</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>

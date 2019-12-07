@@ -1,6 +1,6 @@
 <bootcamp-lobby-5.xml>
-   <default-scene> DefaultScene </default-scene>
-   <initial-scene> DefaultScene </initial-scene>
+   <default-scene>DefaultScene</default-scene>
+   <initial-scene>DefaultScene</initial-scene>
    <scenes>
       <scene>
          DefaultScene
@@ -31,7 +31,7 @@
             </message>
             <message>
                <data>
-                  <preset> BLUE </preset>
+                  <preset>BLUE</preset>
                   <icon>../maps/icons/bootcamp/lines/bcGold.png</icon>
                   <label>#bootcamp:message/gold/label</label>
                   <text>#bootcamp:message/gold/premiumPlus/text</text>
@@ -40,7 +40,7 @@
             </message>
             <message>
                <data>
-                  <preset> BLUE </preset>
+                  <preset>BLUE</preset>
                   <icon>../maps/icons/bootcamp/lines/bcPremiumPlus.png</icon>
                   <label>#bootcamp:message/premiumPlus/label</label>
                   <text>#bootcamp:message/premiumPlus/text</text>
@@ -55,7 +55,7 @@
                   <text>#bootcamp:message/mission/accomplished/text</text>
                   <voiceover>vo_bc_hangar_mission_accomplished</voiceover>
                   <bottom_renderer>rewards</bottom_renderer>
-                  <only_first_bootcamp_bottom> True </only_first_bootcamp_bottom>
+                  <only_first_bootcamp_bottom>True</only_first_bootcamp_bottom>
                   <bottom>
                      <data>
                         <icon>../maps/icons/bootcamp/rewards/bcGold.png</icon>
@@ -92,7 +92,7 @@
                   <text>#bootcamp:message/mission/accomplished/text</text>
                   <voiceover>vo_bc_hangar_mission_accomplished</voiceover>
                   <bottom_renderer>rewards</bottom_renderer>
-                  <only_first_bootcamp_bottom> True </only_first_bootcamp_bottom>
+                  <only_first_bootcamp_bottom>True</only_first_bootcamp_bottom>
                   <bottom>
                      <data>
                         <icon>../maps/icons/bootcamp/rewards/bcGold.png</icon>
@@ -149,76 +149,76 @@
             <invoke-gui-cmd>OverrideHangarMenuButtons</invoke-gui-cmd>
             <set-visible>
                VehicleResearchPanel
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                VehicleResearchPanelBG
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                VehicleResearchButton
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarParams
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleGun
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleTurret
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleEngine
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleChassis
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleRadio
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <update-layout>AmmunitionPanel</update-layout>
             <set-visible>
                TankCarouselContainer
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                TankCarouselContainerBG
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                CrewPanel
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarEquipment1
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarEquipment2
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarEquipment3
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                OptionalDevice1DropDown
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                OptionalDevice2DropDown
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                OptionalDevice3DropDown
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-var>SecondVehicleSetter</set-var>
             <select-in-hangar>SecondVehicleCD</select-in-hangar>
@@ -252,16 +252,16 @@
          EnabledHangarMenuButtons
          <asList>
             <asString>hangar</asString>
-            <asString> techtree </asString>
+            <asString>techtree</asString>
          </asList>
       </var-set>
       <var-set>
          EnabledHeaderMenuButtons
          <asList>
-            <asString> settings </asString>
+            <asString>settings</asString>
             <asString>account</asString>
             <asString>credits</asString>
-            <asString> prem </asString>
+            <asString>prem</asString>
          </asList>
       </var-set>
    </vars>
@@ -273,7 +273,7 @@
          <sequence>
             <checkpoint>StartCheckpoint</checkpoint>
             <checkpoint>VideoCheckpoint</checkpoint>
-            <checkpoint> AfterVideoCheckpoint </checkpoint>
+            <checkpoint>AfterVideoCheckpoint</checkpoint>
          </sequence>
          <on-effects>
             <save-checkpoint></save-checkpoint>

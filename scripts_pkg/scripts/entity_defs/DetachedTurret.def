@@ -2,17 +2,17 @@
    <LoDLevels>
       <level>
          100
-         <hyst> 4 </hyst>
-         <label> NEAR </label>
+         <hyst>4</hyst>
+         <label>NEAR</label>
       </level>
       <level>
          200
-         <hyst> 10 </hyst>
+         <hyst>10</hyst>
          <label>MEDIUM</label>
       </level>
       <level>
          300
-         <hyst> 20 </hyst>
+         <hyst>20</hyst>
          <label>FAR</label>
       </level>
    </LoDLevels>
@@ -44,11 +44,11 @@
          <Flags>ALL_CLIENTS</Flags>
       </vehicleCompDescr>
       <isUnderWater>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isUnderWater>
       <isCollidingWithWorld>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isCollidingWithWorld>
       <vehicleID>
@@ -64,12 +64,12 @@
          <Flags>CELL_PUBLIC</Flags>
       </vehicleInfo>
       <isAtackerProxy>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>CELL_PUBLIC</Flags>
       </isAtackerProxy>
       <arena>
          <Type>MAILBOX</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </arena>
    </Properties>
    <ClientMethods>
@@ -77,7 +77,7 @@
          <Arg>FLOAT32</Arg>
          <Arg>VECTOR3</Arg>
          <Arg>VECTOR3</Arg>
-         <DetailDistance> 100 </DetailDistance>
+         <DetailDistance>100</DetailDistance>
       </onStaticCollision>
       <showDamageFromShot>
          <Arg>

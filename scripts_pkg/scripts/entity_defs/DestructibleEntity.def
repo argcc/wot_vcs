@@ -1,20 +1,20 @@
 <DestructibleEntity.def>
    <Implements>
-      <Interface> Destructible </Interface>
+      <Interface>Destructible</Interface>
    </Implements>
    <Persistent> false </Persistent>
    <IsManualAoI> true </IsManualAoI>
    <Properties>
       <arena>
          <Type>MAILBOX</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </arena>
       <arenaBase>
          <Type>MAILBOX</Type>
          <Flags>CELL_PRIVATE</Flags>
       </arenaBase>
       <isActive>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isActive>
       <team>
@@ -36,7 +36,7 @@
          <Flags>ALL_CLIENTS</Flags>
       </maxHealth>
       <isDestructibleDestroyed>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
          <Default>False</Default>
       </isDestructibleDestroyed>
@@ -44,11 +44,11 @@
          <Type>UINT8</Type>
          <Flags>ALL_CLIENTS</Flags>
          <Editable> true </Editable>
-         <Default> 1 </Default>
+         <Default>1</Default>
       </typeID>
       <initActive>
-         <Type> BOOL </Type>
-         <Flags> BASE </Flags>
+         <Type>BOOL</Type>
+         <Flags>BASE</Flags>
          <Editable> true </Editable>
          <Default>False</Default>
       </initActive>

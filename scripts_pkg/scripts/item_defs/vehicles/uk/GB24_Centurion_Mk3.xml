@@ -4,11 +4,11 @@
       <commander></commander>
       <gunner></gunner>
       <driver></driver>
-      <loader> radioman </loader>
+      <loader>radioman</loader>
    </crew>
    <speedLimits>
-      <forward> 50 </forward>
-      <backward> 20 </backward>
+      <forward>50</forward>
+      <backward>20</backward>
    </speedLimits>
    <invisibility>
       <moving>0.152</moving>
@@ -30,10 +30,10 @@
          <armor_2>76.2</armor_2>
          <armor_3>50.8</armor_3>
          <armor_4>31.8</armor_4>
-         <armor_5> 10 </armor_5>
-         <armor_6> 17 </armor_6>
+         <armor_5>10</armor_5>
+         <armor_6>17</armor_6>
          <armor_7>28.6</armor_7>
-         <armor_8> 0 </armor_8>
+         <armor_8>0</armor_8>
          <armor_9>
             6
             <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -45,11 +45,11 @@
          <armor_11>19.1</armor_11>
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-      <weight> 27730 </weight>
-      <maxHealth> 1296 </maxHealth>
+      <weight>27730</weight>
+      <maxHealth>1296</maxHealth>
       <ammoBayHealth>
-         <maxHealth> 240 </maxHealth>
-         <maxRegenHealth> 160 </maxRegenHealth>
+         <maxHealth>240</maxHealth>
+         <maxRegenHealth>160</maxRegenHealth>
          <repairCost>1.0</repairCost>
       </ammoBayHealth>
       <models>
@@ -75,7 +75,7 @@
          <nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
       </exhaust>
       <turretPositions>
-         <turret> 0 0.416462 0.786877 </turret>
+         <turret>0 0.416462 0.786877</turret>
       </turretPositions>
       <hitTester>
          <collisionModelServer>vehicles/british/GB24_Centurion_Mk3/collision/Hull.model</collisionModelServer>
@@ -84,14 +84,14 @@
       <hangarShadowTexture>vehicles/british/GB24_Centurion_Mk3/Centurion_Mk3_HangarShadowMap.dds</hangarShadowTexture>
       <customization>
          <customizableVehicleAreas>
-            <paint> HULL </paint>
-            <camouflage> HULL </camouflage>
+            <paint>HULL</paint>
+            <camouflage>HULL</camouflage>
          </customizableVehicleAreas>
       </customization>
       <customizationSlots>
          <slot>
-            <slotType> clan </slotType>
-            <slotId> 10000 </slotId>
+            <slotType>clan</slotType>
+            <slotId>10000</slotId>
             <rayStart>1.77996 0.112555 3.0723</rayStart>
             <rayEnd>1.57997 0.112022 3.07282</rayEnd>
             <rayUp>0.000000 1 0.000000</rayUp>
@@ -101,7 +101,7 @@
          </slot>
          <slot>
             <slotType>inscription</slotType>
-            <slotId> 14000 </slotId>
+            <slotId>14000</slotId>
             <rayStart>-1.87833 0.0137289 2.53363</rayStart>
             <rayEnd>-1.47835 0.0114767 2.53168</rayEnd>
             <rayUp>0.000000 1 0.000000</rayUp>
@@ -111,13 +111,13 @@
          </slot>
          <slot>
             <slotType>paint</slotType>
-            <slotId> 11000 </slotId>
+            <slotId>11000</slotId>
             <anchorPosition>0.000000 0.654898 -2.51195</anchorPosition>
             <anchorDirection>0.000000 0.25228 -0.967654</anchorDirection>
          </slot>
          <slot>
             <slotType>camouflage</slotType>
-            <slotId> 12000 </slotId>
+            <slotId>12000</slotId>
             <anchorPosition>0.000000 0.654898 -2.51195</anchorPosition>
             <anchorDirection>0.000000 0.25228 -0.967654</anchorDirection>
          </slot>
@@ -132,31 +132,31 @@
       <Chassis_GB24_Centurion_Mk3>
          <userString>#gb_vehicles:Chassis_GB24_Centurion_Mk3</userString>
          <tags></tags>
-         <level> 8 </level>
-         <price> 31500 </price>
+         <level>8</level>
+         <price>31500</price>
          <unlocks>
             <chassis>
                Chassis_GB24_Centurion_Mk3_2
-               <cost> 23000 </cost>
+               <cost>23000</cost>
             </chassis>
          </unlocks>
          <armor>
-            <leftTrack> 25 </leftTrack>
-            <rightTrack> 25 </rightTrack>
+            <leftTrack>25</leftTrack>
+            <rightTrack>25</rightTrack>
          </armor>
-         <weight> 11000 </weight>
-         <maxLoad> 51500 </maxLoad>
+         <weight>11000</weight>
+         <maxLoad>51500</maxLoad>
          <terrainResistance>1.1 1.3 2.1</terrainResistance>
-         <brakeForce> 45000 </brakeForce>
+         <brakeForce>45000</brakeForce>
          <rotationIsAroundCenter> true </rotationIsAroundCenter>
-         <rotationSpeed> 30 </rotationSpeed>
+         <rotationSpeed>30</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.2</vehicleMovement>
             <vehicleRotation>0.2</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 230 </maxHealth>
-         <maxRegenHealth> 175 </maxRegenHealth>
+         <maxHealth>230</maxHealth>
+         <maxRegenHealth>175</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/british/GB24_Centurion_Mk3/normal/lod0/Chassis.model</undamaged>
@@ -179,8 +179,8 @@
             <segmentOffset>0.045</segmentOffset>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <traces>
@@ -216,56 +216,56 @@
                <isLeft> false </isLeft>
                <isLeading> false </isLeading>
                <name>WD_R0</name>
-               <radius> 0.339685 </radius>
+               <radius>0.339685</radius>
             </wheel>
             <group>
                <isLeft> false </isLeft>
                <template>WD_R</template>
-               <radius> 0.124443 </radius>
-               <startIndex> 1 </startIndex>
-               <count> 6 </count>
+               <radius>0.124443</radius>
+               <startIndex>1</startIndex>
+               <count>6</count>
             </group>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
-               <radius> 0.424898 </radius>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <radius>0.424898</radius>
+               <startIndex>0</startIndex>
+               <count>6</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> false </isLeading>
                <name>WD_L0</name>
-               <radius> 0.339685 </radius>
+               <radius>0.339685</radius>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>WD_L</template>
-               <radius> 0.124443 </radius>
-               <startIndex> 1 </startIndex>
-               <count> 6 </count>
+               <radius>0.124443</radius>
+               <startIndex>1</startIndex>
+               <count>6</count>
             </group>
             <group>
                <isLeft> true </isLeft>
                <template>W_L</template>
-               <radius> 0.424898 </radius>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <radius>0.424898</radius>
+               <startIndex>0</startIndex>
+               <count>6</count>
             </group>
          </wheels>
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <startIndex>0</startIndex>
+               <count>6</count>
                <isLeft> true </isLeft>
                <minOffset>-0.13</minOffset>
                <maxOffset>0.1</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <startIndex>0</startIndex>
+               <count>6</count>
                <isLeft> false </isLeft>
                <minOffset>-0.13</minOffset>
                <maxOffset>0.1</maxOffset>
@@ -278,8 +278,8 @@
             <maxAmplitude>0.14</maxAmplitude>
             <maxOffset>0.14</maxOffset>
             <gravity>-9.8</gravity>
-            <elasticity> 1000 </elasticity>
-            <damping> 2 </damping>
+            <elasticity>1000</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VD_L0</name>
@@ -306,7 +306,7 @@
          <drivingWheels>WD_L0 WD_L7</drivingWheels>
          <effects>
             <lodDist>MEDIUM</lodDist>
-            <mud> largeTankMud </mud>
+            <mud>largeTankMud</mud>
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
@@ -316,30 +316,30 @@
             <collisionModelClient>vehicles/british/GB24_Centurion_Mk3/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.31503 1.87808</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <AODecals>
             <decal>
-               <transform> 4.49212 -0 0 -0 1.65121 0 -0 0 8.94307 0 0 -0 </transform>
+               <transform>4.49212 -0 0 -0 1.65121 0 -0 0 8.94307 0 0 -0</transform>
             </decal>
          </AODecals>
          <physicalTracks>
             <left>
-               <segmentsCount> 95 </segmentsCount>
+               <segmentsCount>95</segmentsCount>
                <segmentsOuterThickness>0.0271689</segmentsOuterThickness>
                <segmentsInnerThickness>0.0249835</segmentsInnerThickness>
                <segmentsPlaneOffset>-1.31503</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.164895 </back>
-                     <top> 0.142899 </top>
-                     <front> 0.148774 </front>
+                     <back>0.164895</back>
+                     <top>0.142899</top>
+                     <front>0.148774</front>
                      <bottom>0.13177</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.155279 </back>
-                     <top> 0.160633 </top>
-                     <front> 0.163862 </front>
+                     <back>0.155279</back>
+                     <top>0.160633</top>
+                     <front>0.163862</front>
                      <bottom>0.13177</bottom>
                   </forwardMovement>
                </springsLength>
@@ -372,7 +372,7 @@
                      <part>
                         <xStart>2.94436</xStart>
                         <xStep>0.0825949</xStep>
-                        <ySamples> 0.954436 0.938654 0.823051 </ySamples>
+                        <ySamples>0.954436 0.938654 0.823051</ySamples>
                      </part>
                      <part>
                         <xStart>3.10955</xStart>
@@ -417,32 +417,32 @@
                   <topFront>
                      <wheelName>WD_L0</wheelName>
                      <basePos>3.53857 0.901783</basePos>
-                     <shiftVec> 0.341621 0.193106 </shiftVec>
-                     <jointIdx> 11 </jointIdx>
+                     <shiftVec>0.341621 0.193106</shiftVec>
+                     <jointIdx>11</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L7</wheelName>
                      <basePos>-2.78594 0.793946</basePos>
-                     <shiftVec> -0.309891 0.234843 </shiftVec>
-                     <jointIdx> 55 </jointIdx>
+                     <shiftVec>-0.309891 0.234843</shiftVec>
+                     <jointIdx>55</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L5</wheelName>
                      <basePos>-1.90963 0.452703</basePos>
-                     <shiftVec> -0.036014 -0.448438 </shiftVec>
-                     <jointIdx> 66 </jointIdx>
+                     <shiftVec>-0.036014 -0.448438</shiftVec>
+                     <jointIdx>66</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>2.62799 0.452726</basePos>
                      <shiftVec>0.0784268 -0.442993</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_L7</name>
-                     <radius> 0.387417 </radius>
+                     <radius>0.387417</radius>
                   </wheel>
                   <wheel>
                      <name>WD_L6</name>
@@ -470,7 +470,7 @@
                   </wheel>
                   <wheel>
                      <name>WD_L0</name>
-                     <radius> 0.391028 </radius>
+                     <radius>0.391028</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -479,12 +479,12 @@
                   <sync>
                      <name>WD_L7</name>
                      <startAngle>-75.0067</startAngle>
-                     <teethCount> 16 </teethCount>
+                     <teethCount>16</teethCount>
                   </sync>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-78.1313</startAngle>
-                     <teethCount> 16 </teethCount>
+                     <teethCount>16</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -610,27 +610,27 @@
                </sourceCollisionHullPoints>
             </left>
             <right>
-               <segmentsCount> 95 </segmentsCount>
-               <segmentsOuterThickness> 0.027191 </segmentsOuterThickness>
+               <segmentsCount>95</segmentsCount>
+               <segmentsOuterThickness>0.027191</segmentsOuterThickness>
                <segmentsInnerThickness>0.0249816</segmentsInnerThickness>
                <segmentsPlaneOffset>1.31503</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.164895 </back>
-                     <top> 0.142899 </top>
-                     <front> 0.148774 </front>
+                     <back>0.164895</back>
+                     <top>0.142899</top>
+                     <front>0.148774</front>
                      <bottom>0.13177</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.155279 </back>
-                     <top> 0.160633 </top>
-                     <front> 0.163862 </front>
+                     <back>0.155279</back>
+                     <top>0.160633</top>
+                     <front>0.163862</front>
                      <bottom>0.13177</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/british/GB24_Centurion_Mk3/track/segment.model</model>
-                  <length> 0.165192 </length>
+                  <length>0.165192</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -717,32 +717,32 @@
                   <topFront>
                      <wheelName>WD_R0</wheelName>
                      <basePos>3.53857 0.901783</basePos>
-                     <shiftVec> 0.341623 0.193145 </shiftVec>
-                     <jointIdx> 11 </jointIdx>
+                     <shiftVec>0.341623 0.193145</shiftVec>
+                     <jointIdx>11</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R7</wheelName>
                      <basePos>-2.78594 0.793946</basePos>
-                     <shiftVec> -0.309887 0.234792 </shiftVec>
-                     <jointIdx> 55 </jointIdx>
+                     <shiftVec>-0.309887 0.234792</shiftVec>
+                     <jointIdx>55</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R5</wheelName>
                      <basePos>-1.90963 0.452676</basePos>
                      <shiftVec>-0.0359384 -0.448442</shiftVec>
-                     <jointIdx> 66 </jointIdx>
+                     <jointIdx>66</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>2.62799 0.452699</basePos>
-                     <shiftVec> 0.078501 -0.442978 </shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <shiftVec>0.078501 -0.442978</shiftVec>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_R7</name>
-                     <radius> 0.387417 </radius>
+                     <radius>0.387417</radius>
                   </wheel>
                   <wheel>
                      <name>WD_R6</name>
@@ -770,7 +770,7 @@
                   </wheel>
                   <wheel>
                      <name>WD_R0</name>
-                     <radius> 0.391028 </radius>
+                     <radius>0.391028</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -779,12 +779,12 @@
                   <sync>
                      <name>WD_R7</name>
                      <startAngle>-75.0065</startAngle>
-                     <teethCount> 16 </teethCount>
+                     <teethCount>16</teethCount>
                   </sync>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-78.1311</startAngle>
-                     <teethCount> 16 </teethCount>
+                     <teethCount>16</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -920,13 +920,13 @@
          <customizationSlots>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 21000 </slotId>
+               <slotId>21000</slotId>
                <anchorPosition>-1.61999 0.668002 0.37829</anchorPosition>
                <anchorDirection>-0.90367 0.372628 0.211019</anchorDirection>
             </slot>
             <slot>
                <slotType>style</slotType>
-               <slotId> 29000 </slotId>
+               <slotId>29000</slotId>
                <anchorPosition>0.000111941 2.58131 0.786088</anchorPosition>
                <anchorDirection>-0.000000 1 -0.000000</anchorDirection>
             </slot>
@@ -935,25 +935,25 @@
       <Chassis_GB24_Centurion_Mk3_2>
          <userString>#gb_vehicles:Chassis_GB24_Centurion_Mk3_2</userString>
          <tags></tags>
-         <level> 9 </level>
-         <price> 63000 </price>
+         <level>9</level>
+         <price>63000</price>
          <armor>
-            <leftTrack> 25 </leftTrack>
-            <rightTrack> 25 </rightTrack>
+            <leftTrack>25</leftTrack>
+            <rightTrack>25</rightTrack>
          </armor>
-         <weight> 11000 </weight>
-         <maxLoad> 54000 </maxLoad>
+         <weight>11000</weight>
+         <maxLoad>54000</maxLoad>
          <terrainResistance>1 1.1 1.9</terrainResistance>
-         <brakeForce> 50000 </brakeForce>
+         <brakeForce>50000</brakeForce>
          <rotationIsAroundCenter> true </rotationIsAroundCenter>
-         <rotationSpeed> 32 </rotationSpeed>
+         <rotationSpeed>32</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.18</vehicleMovement>
             <vehicleRotation>0.18</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 240 </maxHealth>
-         <maxRegenHealth> 180 </maxRegenHealth>
+         <maxHealth>240</maxHealth>
+         <maxRegenHealth>180</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/british/GB24_Centurion_Mk3/normal/lod0/Chassis.model</undamaged>
@@ -976,8 +976,8 @@
             <segmentOffset>0.045</segmentOffset>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <traces>
@@ -1013,56 +1013,56 @@
                <isLeft> false </isLeft>
                <isLeading> false </isLeading>
                <name>WD_R0</name>
-               <radius> 0.339685 </radius>
+               <radius>0.339685</radius>
             </wheel>
             <group>
                <isLeft> false </isLeft>
                <template>WD_R</template>
-               <radius> 0.124443 </radius>
-               <startIndex> 1 </startIndex>
-               <count> 6 </count>
+               <radius>0.124443</radius>
+               <startIndex>1</startIndex>
+               <count>6</count>
             </group>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
-               <radius> 0.424898 </radius>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <radius>0.424898</radius>
+               <startIndex>0</startIndex>
+               <count>6</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> false </isLeading>
                <name>WD_L0</name>
-               <radius> 0.339685 </radius>
+               <radius>0.339685</radius>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>WD_L</template>
-               <radius> 0.124443 </radius>
-               <startIndex> 1 </startIndex>
-               <count> 6 </count>
+               <radius>0.124443</radius>
+               <startIndex>1</startIndex>
+               <count>6</count>
             </group>
             <group>
                <isLeft> true </isLeft>
                <template>W_L</template>
-               <radius> 0.424898 </radius>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <radius>0.424898</radius>
+               <startIndex>0</startIndex>
+               <count>6</count>
             </group>
          </wheels>
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <startIndex>0</startIndex>
+               <count>6</count>
                <isLeft> true </isLeft>
                <minOffset>-0.13</minOffset>
                <maxOffset>0.1</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 6 </count>
+               <startIndex>0</startIndex>
+               <count>6</count>
                <isLeft> false </isLeft>
                <minOffset>-0.13</minOffset>
                <maxOffset>0.1</maxOffset>
@@ -1075,8 +1075,8 @@
             <maxAmplitude>0.14</maxAmplitude>
             <maxOffset>0.14</maxOffset>
             <gravity>-9.8</gravity>
-            <elasticity> 1000 </elasticity>
-            <damping> 2 </damping>
+            <elasticity>1000</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VD_L0</name>
@@ -1103,7 +1103,7 @@
          <drivingWheels>WD_L0 WD_L7</drivingWheels>
          <effects>
             <lodDist>MEDIUM</lodDist>
-            <mud> largeTankMud </mud>
+            <mud>largeTankMud</mud>
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
@@ -1113,30 +1113,30 @@
             <collisionModelClient>vehicles/british/GB24_Centurion_Mk3/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.31503 1.87808</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <AODecals>
             <decal>
-               <transform> 4.46671 -0 0 -0 1.65121 -0 -0 0 8.94307 0 0 0 </transform>
+               <transform>4.46671 -0 0 -0 1.65121 -0 -0 0 8.94307 0 0 0</transform>
             </decal>
          </AODecals>
          <physicalTracks>
             <left>
-               <segmentsCount> 95 </segmentsCount>
+               <segmentsCount>95</segmentsCount>
                <segmentsOuterThickness>0.0271689</segmentsOuterThickness>
                <segmentsInnerThickness>0.0249835</segmentsInnerThickness>
                <segmentsPlaneOffset>-1.31503</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.164895 </back>
-                     <top> 0.142899 </top>
-                     <front> 0.148774 </front>
+                     <back>0.164895</back>
+                     <top>0.142899</top>
+                     <front>0.148774</front>
                      <bottom>0.13177</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.155279 </back>
-                     <top> 0.160633 </top>
-                     <front> 0.163862 </front>
+                     <back>0.155279</back>
+                     <top>0.160633</top>
+                     <front>0.163862</front>
                      <bottom>0.13177</bottom>
                   </forwardMovement>
                </springsLength>
@@ -1169,7 +1169,7 @@
                      <part>
                         <xStart>2.94436</xStart>
                         <xStep>0.0825949</xStep>
-                        <ySamples> 0.954436 0.938654 0.823051 </ySamples>
+                        <ySamples>0.954436 0.938654 0.823051</ySamples>
                      </part>
                      <part>
                         <xStart>3.10955</xStart>
@@ -1214,32 +1214,32 @@
                   <topFront>
                      <wheelName>WD_L0</wheelName>
                      <basePos>3.53857 0.901783</basePos>
-                     <shiftVec> 0.341621 0.193106 </shiftVec>
-                     <jointIdx> 11 </jointIdx>
+                     <shiftVec>0.341621 0.193106</shiftVec>
+                     <jointIdx>11</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L7</wheelName>
                      <basePos>-2.78594 0.793946</basePos>
-                     <shiftVec> -0.309891 0.234843 </shiftVec>
-                     <jointIdx> 55 </jointIdx>
+                     <shiftVec>-0.309891 0.234843</shiftVec>
+                     <jointIdx>55</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L5</wheelName>
                      <basePos>-1.90963 0.452703</basePos>
-                     <shiftVec> -0.036014 -0.448438 </shiftVec>
-                     <jointIdx> 66 </jointIdx>
+                     <shiftVec>-0.036014 -0.448438</shiftVec>
+                     <jointIdx>66</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>2.62799 0.452726</basePos>
                      <shiftVec>0.0784268 -0.442993</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_L7</name>
-                     <radius> 0.387417 </radius>
+                     <radius>0.387417</radius>
                   </wheel>
                   <wheel>
                      <name>WD_L6</name>
@@ -1267,7 +1267,7 @@
                   </wheel>
                   <wheel>
                      <name>WD_L0</name>
-                     <radius> 0.391028 </radius>
+                     <radius>0.391028</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -1276,12 +1276,12 @@
                   <sync>
                      <name>WD_L7</name>
                      <startAngle>-75.0067</startAngle>
-                     <teethCount> 16 </teethCount>
+                     <teethCount>16</teethCount>
                   </sync>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-78.1313</startAngle>
-                     <teethCount> 16 </teethCount>
+                     <teethCount>16</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -1407,27 +1407,27 @@
                </sourceCollisionHullPoints>
             </left>
             <right>
-               <segmentsCount> 95 </segmentsCount>
-               <segmentsOuterThickness> 0.027191 </segmentsOuterThickness>
+               <segmentsCount>95</segmentsCount>
+               <segmentsOuterThickness>0.027191</segmentsOuterThickness>
                <segmentsInnerThickness>0.0249816</segmentsInnerThickness>
                <segmentsPlaneOffset>1.31503</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.164895 </back>
-                     <top> 0.142899 </top>
-                     <front> 0.148774 </front>
+                     <back>0.164895</back>
+                     <top>0.142899</top>
+                     <front>0.148774</front>
                      <bottom>0.13177</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.155279 </back>
-                     <top> 0.160633 </top>
-                     <front> 0.163862 </front>
+                     <back>0.155279</back>
+                     <top>0.160633</top>
+                     <front>0.163862</front>
                      <bottom>0.13177</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/british/GB24_Centurion_Mk3/track/segment.model</model>
-                  <length> 0.165192 </length>
+                  <length>0.165192</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -1514,32 +1514,32 @@
                   <topFront>
                      <wheelName>WD_R0</wheelName>
                      <basePos>3.53857 0.901783</basePos>
-                     <shiftVec> 0.341623 0.193145 </shiftVec>
-                     <jointIdx> 11 </jointIdx>
+                     <shiftVec>0.341623 0.193145</shiftVec>
+                     <jointIdx>11</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R7</wheelName>
                      <basePos>-2.78594 0.793946</basePos>
-                     <shiftVec> -0.309887 0.234792 </shiftVec>
-                     <jointIdx> 55 </jointIdx>
+                     <shiftVec>-0.309887 0.234792</shiftVec>
+                     <jointIdx>55</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R5</wheelName>
                      <basePos>-1.90963 0.452676</basePos>
                      <shiftVec>-0.0359384 -0.448442</shiftVec>
-                     <jointIdx> 66 </jointIdx>
+                     <jointIdx>66</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>2.62799 0.452699</basePos>
-                     <shiftVec> 0.078501 -0.442978 </shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <shiftVec>0.078501 -0.442978</shiftVec>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_R7</name>
-                     <radius> 0.387417 </radius>
+                     <radius>0.387417</radius>
                   </wheel>
                   <wheel>
                      <name>WD_R6</name>
@@ -1567,7 +1567,7 @@
                   </wheel>
                   <wheel>
                      <name>WD_R0</name>
-                     <radius> 0.391028 </radius>
+                     <radius>0.391028</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -1576,12 +1576,12 @@
                   <sync>
                      <name>WD_R7</name>
                      <startAngle>-75.0065</startAngle>
-                     <teethCount> 16 </teethCount>
+                     <teethCount>16</teethCount>
                   </sync>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-78.1311</startAngle>
-                     <teethCount> 16 </teethCount>
+                     <teethCount>16</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -1717,13 +1717,13 @@
          <customizationSlots>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 21000 </slotId>
+               <slotId>21000</slotId>
                <anchorPosition>-1.61999 0.668002 0.37829</anchorPosition>
                <anchorDirection>-0.90367 0.372628 0.211019</anchorDirection>
             </slot>
             <slot>
                <slotType>style</slotType>
-               <slotId> 29000 </slotId>
+               <slotId>29000</slotId>
                <anchorPosition>0.000111712 2.58131 0.786083</anchorPosition>
                <anchorDirection>0.000000 1 -0.000000</anchorDirection>
             </slot>
@@ -1734,17 +1734,17 @@
       <Turret_1_GB24_Centurion_Mk3>
          <userString>#gb_vehicles:Turret_1_GB24_Centurion_Mk3</userString>
          <tags></tags>
-         <level> 8 </level>
-         <price> 50500 </price>
+         <level>8</level>
+         <price>50500</price>
          <armor>
             <armor_1>152.4</armor_1>
-            <armor_2> 254 </armor_2>
+            <armor_2>254</armor_2>
             <armor_3>88.9</armor_3>
             <armor_4>88.9</armor_4>
             <armor_5>28.6</armor_5>
             <armor_6>28.6</armor_6>
             <armor_7>120.7</armor_7>
-            <armor_8> 0 </armor_8>
+            <armor_8>0</armor_8>
             <armor_9>50.8</armor_9>
             <armor_10>88.9</armor_10>
             <armor_11>88.9</armor_11>
@@ -1752,24 +1752,24 @@
             <armor_16>177.8</armor_16>
          </armor>
          <primaryArmor>armor_2 armor_3 armor_10</primaryArmor>
-         <weight> 10400 </weight>
-         <maxHealth> 324 </maxHealth>
-         <rotationSpeed> 36 </rotationSpeed>
+         <weight>10400</weight>
+         <maxHealth>324</maxHealth>
+         <rotationSpeed>36</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 150 </maxHealth>
-            <maxRegenHealth> 75 </maxRegenHealth>
+            <maxHealth>150</maxHealth>
+            <maxRegenHealth>75</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 400 </circularVisionRadius>
+         <circularVisionRadius>400</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 110 </maxHealth>
-            <maxRegenHealth> 55 </maxRegenHealth>
+            <maxHealth>110</maxHealth>
+            <maxRegenHealth>55</maxRegenHealth>
             <repairCost>2.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
             <_20pdr_Gun_Type_A>
                shared
-               <maxAmmo> 72 </maxAmmo>
+               <maxAmmo>72</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.380783 10 0.444444 1 0.555556 1 0.619218 10 1 10</maxPitch>
@@ -1777,7 +1777,7 @@
                <unlocks>
                   <gun>
                      _20pdr_Gun_Type_B
-                     <cost> 45000 </cost>
+                     <cost>45000</cost>
                   </gun>
                </unlocks>
                <armor>
@@ -1805,10 +1805,10 @@
                      152.4
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_6>
-                  <gun> 40 </gun>
+                  <gun>40</gun>
                </armor>
                <shotDispersionRadius>0.33</shotDispersionRadius>
-               <reloadTime> 6 </reloadTime>
+               <reloadTime>6</reloadTime>
                <aimingTime>2.3</aimingTime>
                <invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
                <shotDispersionFactors>
@@ -1842,7 +1842,7 @@
                <customizationSlots>
                   <slot>
                      <slotType>insigniaOnGun</slotType>
-                     <slotId> 49000 </slotId>
+                     <slotId>49000</slotId>
                      <rayStart>0.0708393 0.0182139 3.14903</rayStart>
                      <rayEnd>0.071098 -0.0373812 3.14805</rayEnd>
                      <rayUp>0.081 0.076 4</rayUp>
@@ -1852,24 +1852,24 @@
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.0684816 0.00902247 2.30919</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.191093 0.191094 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.191093 0.191094</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.0684816 0.00902247 2.30919</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1880,7 +1880,7 @@
             </_20pdr_Gun_Type_A>
             <_20pdr_Gun_Type_B>
                shared
-               <maxAmmo> 72 </maxAmmo>
+               <maxAmmo>72</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.380783 10 0.444444 1 0.555556 1 0.619218 10 1 10</maxPitch>
@@ -1888,7 +1888,7 @@
                <unlocks>
                   <turret>
                      Turret_2_GB24_Centurion_Mk3
-                     <cost> 24000 </cost>
+                     <cost>24000</cost>
                   </turret>
                </unlocks>
                <armor>
@@ -1916,7 +1916,7 @@
                      152.4
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_6>
-                  <gun> 40 </gun>
+                  <gun>40</gun>
                </armor>
                <shotDispersionRadius>0.32</shotDispersionRadius>
                <reloadTime>5.7</reloadTime>
@@ -1953,7 +1953,7 @@
                <customizationSlots>
                   <slot>
                      <slotType>insigniaOnGun</slotType>
-                     <slotId> 49000 </slotId>
+                     <slotId>49000</slotId>
                      <rayStart>0.0708399 0.0182143 2.99296</rayStart>
                      <rayEnd>0.0659861 -0.0210624 2.99193</rayEnd>
                      <rayUp>0.082 0.077 4</rayUp>
@@ -1963,24 +1963,24 @@
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.0698019 0.00902224 2.13575</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.191093 0.191094 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.191093 0.191094</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.0698019 0.00902224 2.13575</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2019,9 +2019,9 @@
          <customizationSlots>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
+               <slotId>33000</slotId>
                <rayStart>-1.12083 0.665192 -0.538368</rayStart>
-               <rayEnd> -0.926549 0.647071 -0.494486 </rayEnd>
+               <rayEnd>-0.926549 0.647071 -0.494486</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.26</size>
                <hideIfDamaged> false </hideIfDamaged>
@@ -2029,23 +2029,23 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34000 </slotId>
+               <slotId>34000</slotId>
                <rayStart>1.37922 0.767965 -0.428207</rayStart>
                <rayEnd>1.30775 0.581459 -0.417852</rayEnd>
-               <rayUp> -0.902377 0.408884 0.136119 </rayUp>
+               <rayUp>-0.902377 0.408884 0.136119</rayUp>
                <size>0.68</size>
                <hideIfDamaged> false </hideIfDamaged>
                <isUVProportional> true </isUVProportional>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 31000 </slotId>
+               <slotId>31000</slotId>
                <anchorPosition>0.000000 1.04025 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>camouflage</slotType>
-               <slotId> 32000 </slotId>
+               <slotId>32000</slotId>
                <anchorPosition>0.000000 1.04025 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
@@ -2059,23 +2059,23 @@
       <Turret_2_GB24_Centurion_Mk3>
          <userString>#gb_vehicles:Turret_2_GB24_Centurion_Mk3</userString>
          <tags></tags>
-         <level> 9 </level>
-         <price> 61000 </price>
+         <level>9</level>
+         <price>61000</price>
          <unlocks>
             <gun>
                _105mm_Gun_L7
-               <cost> 55000 </cost>
+               <cost>55000</cost>
             </gun>
          </unlocks>
          <armor>
             <armor_1>152.4</armor_1>
-            <armor_2> 254 </armor_2>
+            <armor_2>254</armor_2>
             <armor_3>88.9</armor_3>
             <armor_4>88.9</armor_4>
             <armor_5>28.6</armor_5>
             <armor_6>28.6</armor_6>
             <armor_7>120.7</armor_7>
-            <armor_8> 0 </armor_8>
+            <armor_8>0</armor_8>
             <armor_9>50.8</armor_9>
             <armor_10>88.9</armor_10>
             <armor_11>88.9</armor_11>
@@ -2083,24 +2083,24 @@
             <armor_16>177.8</armor_16>
          </armor>
          <primaryArmor>armor_2 armor_3 armor_10</primaryArmor>
-         <weight> 10900 </weight>
-         <maxHealth> 424 </maxHealth>
-         <rotationSpeed> 36 </rotationSpeed>
+         <weight>10900</weight>
+         <maxHealth>424</maxHealth>
+         <rotationSpeed>36</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 150 </maxHealth>
-            <maxRegenHealth> 75 </maxRegenHealth>
+            <maxHealth>150</maxHealth>
+            <maxRegenHealth>75</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 410 </circularVisionRadius>
+         <circularVisionRadius>410</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 110 </maxHealth>
-            <maxRegenHealth> 55 </maxRegenHealth>
+            <maxHealth>110</maxHealth>
+            <maxRegenHealth>55</maxRegenHealth>
             <repairCost>2.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
             <_20pdr_Gun_Type_A>
                shared
-               <maxAmmo> 72 </maxAmmo>
+               <maxAmmo>72</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.380783 10 0.444444 1 0.555556 1 0.619218 10 1 10</maxPitch>
@@ -2130,10 +2130,10 @@
                      152.4
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_6>
-                  <gun> 40 </gun>
+                  <gun>40</gun>
                </armor>
                <shotDispersionRadius>0.33</shotDispersionRadius>
-               <reloadTime> 6 </reloadTime>
+               <reloadTime>6</reloadTime>
                <shotDispersionFactors>
                   <turretRotation>0.14</turretRotation>
                   <afterShot>3.5</afterShot>
@@ -2167,7 +2167,7 @@
                <customizationSlots>
                   <slot>
                      <slotType>insigniaOnGun</slotType>
-                     <slotId> 49000 </slotId>
+                     <slotId>49000</slotId>
                      <rayStart>0.0708393 0.0182139 3.2198</rayStart>
                      <rayEnd>0.0670883 0.0208441 3.21881</rayEnd>
                      <rayUp>0.08 0.076 4</rayUp>
@@ -2177,24 +2177,24 @@
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.0687038 0.00902224 2.30919</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.191093 0.191094 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.191093 0.191094</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.0687038 0.00902224 2.30919</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2205,7 +2205,7 @@
             </_20pdr_Gun_Type_A>
             <_20pdr_Gun_Type_B>
                shared
-               <maxAmmo> 72 </maxAmmo>
+               <maxAmmo>72</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.380783 10 0.444444 1 0.555556 1 0.619218 10 1 10</maxPitch>
@@ -2235,7 +2235,7 @@
                      152.4
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_6>
-                  <gun> 40 </gun>
+                  <gun>40</gun>
                </armor>
                <shotDispersionRadius>0.32</shotDispersionRadius>
                <reloadTime>5.7</reloadTime>
@@ -2272,7 +2272,7 @@
                <customizationSlots>
                   <slot>
                      <slotType>insigniaOnGun</slotType>
-                     <slotId> 49000 </slotId>
+                     <slotId>49000</slotId>
                      <rayStart>0.0708399 0.0182143 2.91657</rayStart>
                      <rayEnd>0.0602322 -0.00175441 2.91555</rayEnd>
                      <rayUp>0.082 0.077 4</rayUp>
@@ -2282,24 +2282,24 @@
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.0694416 0.00902247 2.13575</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.191093 0.191094 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.191093 0.191094</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.0694416 0.00902247 2.13575</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2310,7 +2310,7 @@
             </_20pdr_Gun_Type_B>
             <_105mm_Gun_L7>
                shared
-               <maxAmmo> 72 </maxAmmo>
+               <maxAmmo>72</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.380783 10 0.444444 0.1 0.555556 0.1 0.619218 10 1 10</maxPitch>
@@ -2318,7 +2318,7 @@
                <unlocks>
                   <vehicle>
                      GB86_Centurion_Action_X
-                     <cost> 180000 </cost>
+                     <cost>180000</cost>
                   </vehicle>
                </unlocks>
                <armor>
@@ -2346,7 +2346,7 @@
                      152.4
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_6>
-                  <gun> 45 </gun>
+                  <gun>45</gun>
                </armor>
                <shotDispersionRadius>0.32</shotDispersionRadius>
                <reloadTime>11.2</reloadTime>
@@ -2383,7 +2383,7 @@
                <customizationSlots>
                   <slot>
                      <slotType>insigniaOnGun</slotType>
-                     <slotId> 49000 </slotId>
+                     <slotId>49000</slotId>
                      <rayStart>0.0708376 0.0182135 2.81825</rayStart>
                      <rayEnd>0.0553732 0.0281832 2.81709</rayEnd>
                      <rayUp>0.094 0.091 4</rayUp>
@@ -2393,24 +2393,24 @@
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.0763651 0.009022 2.18897</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.191093 0.191094 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.191093 0.191094</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.0763651 0.009022 2.18897</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2449,7 +2449,7 @@
          <customizationSlots>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
+               <slotId>33000</slotId>
                <rayStart>-1.12093 0.666652 -0.540701</rayStart>
                <rayEnd>-0.926523 0.649318 -0.49706</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -2459,23 +2459,23 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34000 </slotId>
+               <slotId>34000</slotId>
                <rayStart>1.36698 0.767643 -0.518526</rayStart>
                <rayEnd>1.2955 0.581137 -0.50817</rayEnd>
-               <rayUp> -0.902377 0.408884 0.136119 </rayUp>
+               <rayUp>-0.902377 0.408884 0.136119</rayUp>
                <size>0.68</size>
                <hideIfDamaged> true </hideIfDamaged>
                <isUVProportional> true </isUVProportional>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 31000 </slotId>
+               <slotId>31000</slotId>
                <anchorPosition>0.000000 1.04025 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>camouflage</slotType>
-               <slotId> 32000 </slotId>
+               <slotId>32000</slotId>
                <anchorPosition>0.000000 1.04025 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
@@ -2493,7 +2493,7 @@
          <unlocks>
             <engine>
                Rolls_Royse_Meteor_MkIVC
-               <cost> 31000 </cost>
+               <cost>31000</cost>
             </engine>
          </unlocks>
       </Rolls_Royse_Meteor_MkIV>
@@ -2502,7 +2502,7 @@
          <unlocks>
             <engine>
                Rolls_Royce_Griffon
-               <cost> 45000 </cost>
+               <cost>45000</cost>
             </engine>
          </unlocks>
       </Rolls_Royse_Meteor_MkIVC>
@@ -2517,7 +2517,7 @@
          <unlocks>
             <radio>
                N22
-               <cost> 4500 </cost>
+               <cost>4500</cost>
             </radio>
          </unlocks>
       </N19Mk3>
@@ -2526,7 +2526,7 @@
          <unlocks>
             <radio>
                C42
-               <cost> 9000 </cost>
+               <cost>9000</cost>
             </radio>
          </unlocks>
       </N22>
@@ -2537,15 +2537,15 @@
          <engines>
             <Rolls_Royse_Meteor_MkIV>
                <smplEnginePower>687.2327</smplEnginePower>
-               <smplFwMaxSpeed> 50 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>50</smplFwMaxSpeed>
             </Rolls_Royse_Meteor_MkIV>
             <Rolls_Royse_Meteor_MkIVC>
                <smplEnginePower>792.9609</smplEnginePower>
-               <smplFwMaxSpeed> 50 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>50</smplFwMaxSpeed>
             </Rolls_Royse_Meteor_MkIVC>
             <Rolls_Royce_Griffon>
                <smplEnginePower>1004.417</smplEnginePower>
-               <smplFwMaxSpeed> 50 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>50</smplFwMaxSpeed>
             </Rolls_Royce_Griffon>
          </engines>
          <chassis>
@@ -2582,7 +2582,7 @@
                      </medium>
                   </metal>
                </grounds>
-               <axleCount> 5 </axleCount>
+               <axleCount>5</axleCount>
             </Chassis_GB24_Centurion_Mk3>
             <Chassis_GB24_Centurion_Mk3_2>
                <grounds>
@@ -2617,7 +2617,7 @@
                      </medium>
                   </metal>
                </grounds>
-               <axleCount> 5 </axleCount>
+               <axleCount>5</axleCount>
             </Chassis_GB24_Centurion_Mk3_2>
          </chassis>
       </detailed>
@@ -2635,7 +2635,7 @@
       <damagedStateGroup>large</damagedStateGroup>
    </effects>
    <emblems>
-      <default> 15506 </default>
+      <default>15506</default>
       <lodDist>MEDIUM</lodDist>
       <alpha>0.88</alpha>
    </emblems>

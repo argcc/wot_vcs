@@ -8,8 +8,8 @@
       <loader></loader>
    </crew>
    <speedLimits>
-      <forward> 20 </forward>
-      <backward> 12 </backward>
+      <forward>20</forward>
+      <backward>12</backward>
    </speedLimits>
    <invisibility>
       <moving>0.062</moving>
@@ -18,7 +18,7 @@
       <camouflageNetBonus>0.05</camouflageNetBonus>
       <firePenalty>0.186</firePenalty>
    </invisibility>
-   <repairCost> 4 </repairCost>
+   <repairCost>4</repairCost>
    <premiumVehicleXPFactor>0.3</premiumVehicleXPFactor>
    <crewXpFactor>1.5</crewXpFactor>
    <camouflage>
@@ -35,7 +35,7 @@
          <armor_5>25.4</armor_5>
          <armor_6>57.2</armor_6>
          <armor_7>101.6</armor_7>
-         <armor_8> 0 </armor_8>
+         <armor_8>0</armor_8>
          <armor_9>101.6</armor_9>
          <armor_10>19.1</armor_10>
          <armor_11>50.8</armor_11>
@@ -52,11 +52,11 @@
          </armor_16>
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-      <weight> 27303 </weight>
-      <maxHealth> 720 </maxHealth>
+      <weight>27303</weight>
+      <maxHealth>720</maxHealth>
       <ammoBayHealth>
-         <maxHealth> 200 </maxHealth>
-         <maxRegenHealth> 135 </maxRegenHealth>
+         <maxHealth>200</maxHealth>
+         <maxRegenHealth>135</maxRegenHealth>
          <repairCost>1.0</repairCost>
       </ammoBayHealth>
       <models>
@@ -91,14 +91,14 @@
       <hangarShadowTexture>vehicles/british/GB105_Black_Prince_2019/Black_Prince_2019_HangarShadowMap.dds</hangarShadowTexture>
       <customization>
          <customizableVehicleAreas>
-            <paint> HULL </paint>
-            <camouflage> HULL </camouflage>
+            <paint>HULL</paint>
+            <camouflage>HULL</camouflage>
          </customizableVehicleAreas>
       </customization>
       <customizationSlots>
          <slot>
-            <slotType> clan </slotType>
-            <slotId> 10000 </slotId>
+            <slotType>clan</slotType>
+            <slotId>10000</slotId>
             <rayStart>-0.743514 0.199767 2.36965</rayStart>
             <rayEnd>-0.743515 0.19965 2.16965</rayEnd>
             <rayUp>0.000000 1 0.000000</rayUp>
@@ -108,13 +108,13 @@
          </slot>
          <slot>
             <slotType>paint</slotType>
-            <slotId> 11000 </slotId>
+            <slotId>11000</slotId>
             <anchorPosition>0.000000 0.000000 2.59084</anchorPosition>
             <anchorDirection>0.000000 0.000000 1</anchorDirection>
          </slot>
          <slot>
             <slotType>camouflage</slotType>
-            <slotId> 12000 </slotId>
+            <slotId>12000</slotId>
             <anchorPosition>0.000000 0.000000 2.59084</anchorPosition>
             <anchorDirection>0.000000 0.000000 1</anchorDirection>
          </slot>
@@ -129,26 +129,26 @@
       <Chassis_GB105_Black_Prince_2019>
          <userString>#gb_vehicles:Chassis_GB105_Black_Prince_2019</userString>
          <tags></tags>
-         <level> 6 </level>
-         <price> 12000 </price>
+         <level>6</level>
+         <price>12000</price>
          <notInShop> true </notInShop>
          <armor>
-            <leftTrack> 20 </leftTrack>
-            <rightTrack> 20 </rightTrack>
+            <leftTrack>20</leftTrack>
+            <rightTrack>20</rightTrack>
          </armor>
-         <weight> 10000 </weight>
-         <maxLoad> 53000 </maxLoad>
+         <weight>10000</weight>
+         <maxLoad>53000</maxLoad>
          <terrainResistance>1.3 1.6 2.5</terrainResistance>
-         <brakeForce> 50000 </brakeForce>
+         <brakeForce>50000</brakeForce>
          <rotationIsAroundCenter> true </rotationIsAroundCenter>
-         <rotationSpeed> 20 </rotationSpeed>
+         <rotationSpeed>20</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.18</vehicleMovement>
             <vehicleRotation>0.18</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 140 </maxHealth>
-         <maxRegenHealth> 105 </maxRegenHealth>
+         <maxHealth>140</maxHealth>
+         <maxRegenHealth>105</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/british/GB105_Black_Prince_2019/normal/lod0/Chassis.model</undamaged>
@@ -176,7 +176,7 @@
          </tracks>
          <AODecals>
             <decal>
-               <transform> 3.85223 -0 0 0 1.54581 -0 -0 -0 8.05334 0 0 0 </transform>
+               <transform>3.85223 -0 0 0 1.54581 -0 -0 -0 8.05334 0 0 0</transform>
             </decal>
          </AODecals>
          <wheels>
@@ -185,43 +185,43 @@
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L0</name>
-               <radius> 0.417795 </radius>
-               <syncAngle> 30 </syncAngle>
+               <radius>0.417795</radius>
+               <syncAngle>30</syncAngle>
             </wheel>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L1</name>
                <radius>0.30859</radius>
-               <syncAngle> 40 </syncAngle>
+               <syncAngle>40</syncAngle>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>W_L</template>
                <radius>0.17749</radius>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
             </group>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R0</name>
-               <radius> 0.417795 </radius>
-               <syncAngle> 30 </syncAngle>
+               <radius>0.417795</radius>
+               <syncAngle>30</syncAngle>
             </wheel>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R1</name>
                <radius>0.30859</radius>
-               <syncAngle> 40 </syncAngle>
+               <syncAngle>40</syncAngle>
             </wheel>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
                <radius>0.17749</radius>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
             </group>
          </wheels>
          <splineDesc>
@@ -233,14 +233,14 @@
             <segmentOffset>0.034</segmentOffset>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <drivingWheels>WD_L0 WD_L1</drivingWheels>
          <effects>
             <lodDist>MEDIUM</lodDist>
-            <mud> largeTankMud </mud>
+            <mud>largeTankMud</mud>
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
@@ -250,22 +250,22 @@
             <collisionModelClient>vehicles/british/GB105_Black_Prince_2019/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.3381 2.16824</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <trackThickness>0.004</trackThickness>
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
                <isLeft> true </isLeft>
                <minOffset>-0.1</minOffset>
                <maxOffset>0.07</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
                <isLeft> false </isLeft>
                <minOffset>-0.1</minOffset>
                <maxOffset>0.07</maxOffset>
@@ -277,47 +277,47 @@
             <maxAmplitude>0.05</maxAmplitude>
             <maxOffset>0.05</maxOffset>
             <gravity>-9.8</gravity>
-            <elasticity> 1300 </elasticity>
-            <damping> 2 </damping>
+            <elasticity>1300</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VT_L0</name>
-               <forwardElastK> 2 </forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <forwardElastK>2</forwardElastK>
+               <backwardElastK>2</backwardElastK>
                <rightSibling>Track_VT_L1</rightSibling>
             </node>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VT_L1</name>
-               <forwardElastK> 2 </forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <forwardElastK>2</forwardElastK>
+               <backwardElastK>2</backwardElastK>
                <leftSibling>Track_VT_L0</leftSibling>
             </node>
             <node>
                <isLeft> false </isLeft>
                <name>Track_VT_R0</name>
-               <forwardElastK> 2 </forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <forwardElastK>2</forwardElastK>
+               <backwardElastK>2</backwardElastK>
                <rightSibling>Track_VT_R1</rightSibling>
             </node>
             <node>
                <isLeft> false </isLeft>
                <name>Track_VT_R1</name>
-               <forwardElastK> 2 </forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <forwardElastK>2</forwardElastK>
+               <backwardElastK>2</backwardElastK>
                <leftSibling>Track_VT_R0</leftSibling>
             </node>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VD_L0</name>
                <forwardElastK>0.5</forwardElastK>
-               <backwardElastK> 1 </backwardElastK>
+               <backwardElastK>1</backwardElastK>
             </node>
             <node>
                <isLeft> false </isLeft>
                <name>Track_VD_R0</name>
                <forwardElastK>0.5</forwardElastK>
-               <backwardElastK> 1 </backwardElastK>
+               <backwardElastK>1</backwardElastK>
             </node>
             <node>
                <isLeft> true </isLeft>
@@ -334,27 +334,27 @@
          </trackNodes>
          <physicalTracks>
             <left>
-               <segmentsCount> 73 </segmentsCount>
+               <segmentsCount>73</segmentsCount>
                <segmentsOuterThickness>0.0876225</segmentsOuterThickness>
                <segmentsInnerThickness>-0.00320846</segmentsInnerThickness>
                <segmentsPlaneOffset>-1.324</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.218749 </back>
-                     <top> 0.203131 </top>
-                     <front> 0.209931 </front>
-                     <bottom> 0.183783 </bottom>
+                     <back>0.218749</back>
+                     <top>0.203131</top>
+                     <front>0.209931</front>
+                     <bottom>0.183783</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.207865 </back>
-                     <top> 0.210168 </top>
-                     <front> 0.217462 </front>
-                     <bottom> 0.182255 </bottom>
+                     <back>0.207865</back>
+                     <top>0.210168</top>
+                     <front>0.217462</front>
+                     <bottom>0.182255</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/british/GB105_Black_Prince_2019/track/segment.model</model>
-                  <length> 0.214295 </length>
+                  <length>0.214295</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -365,7 +365,7 @@
                      </part>
                      <part>
                         <xStart>-2.78129</xStart>
-                        <xStep> 0.107147 </xStep>
+                        <xStep>0.107147</xStep>
                         <ySamples>1.20208 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.41139 1.40584 1.4003 1.39476 1.38921 1.38367 1.37813 1.37258 1.36704 1.35835</ySamples>
                      </part>
                      <part>
@@ -377,7 +377,7 @@
                   <top>
                      <part>
                         <xStart>-3.53133</xStart>
-                        <xStep> 0.107147 </xStep>
+                        <xStep>0.107147</xStep>
                         <ySamples>1.52038 1.59409 1.63777 1.65873 1.66555 1.66556 1.66556 1.66557 1.66558 1.65951 1.65161 1.64371 1.63581 1.62791 1.62001 1.61218 1.6044 1.59662 1.58883 1.58105 1.57326 1.5668 1.5668 1.5668 1.5668 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56678 1.56678 1.56678 1.56772 1.56987 1.57203 1.57418 1.57634 1.56832 1.55731 1.5463 1.5325 1.51762 1.50273 1.48784 1.47296 1.45808 1.4432 1.43073 1.41262 1.38278 1.33319</ySamples>
                      </part>
                   </top>
@@ -402,26 +402,26 @@
                   <topFront>
                      <wheelName>WD_L0</wheelName>
                      <basePos>3.22603 0.955369</basePos>
-                     <shiftVec> 0.278708 0.297137 </shiftVec>
-                     <jointIdx> 8 </jointIdx>
+                     <shiftVec>0.278708 0.297137</shiftVec>
+                     <jointIdx>8</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L1</wheelName>
                      <basePos>-3.18689 1.12564</basePos>
-                     <shiftVec> -0.190511 0.170326 </shiftVec>
-                     <jointIdx> 41 </jointIdx>
+                     <shiftVec>-0.190511 0.170326</shiftVec>
+                     <jointIdx>41</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L10</wheelName>
                      <basePos>-2.0657 0.246709</basePos>
                      <shiftVec>0.0714853 -0.174282</shiftVec>
-                     <jointIdx> 51 </jointIdx>
+                     <jointIdx>51</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>2.57306 0.283173</basePos>
                      <shiftVec>0.0440211 -0.16863</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
@@ -444,16 +444,16 @@
                </radiusOverrides>
                <teethSyncs>
                   <syncWithMainModel> true </syncWithMainModel>
-                  <segmentSyncPivotOffset> 0 </segmentSyncPivotOffset>
+                  <segmentSyncPivotOffset>0</segmentSyncPivotOffset>
                   <sync>
                      <name>WD_L1</name>
                      <startAngle>-210.245</startAngle>
-                     <teethCount> 9 </teethCount>
+                     <teethCount>9</teethCount>
                   </sync>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-155.516</startAngle>
-                     <teethCount> 12 </teethCount>
+                     <teethCount>12</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -588,27 +588,27 @@
                </sourceCollisionHullPoints>
             </left>
             <right>
-               <segmentsCount> 73 </segmentsCount>
+               <segmentsCount>73</segmentsCount>
                <segmentsOuterThickness>0.0876204</segmentsOuterThickness>
                <segmentsInnerThickness>-0.00320644</segmentsInnerThickness>
                <segmentsPlaneOffset>1.324</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.218749 </back>
-                     <top> 0.203131 </top>
-                     <front> 0.209931 </front>
-                     <bottom> 0.183783 </bottom>
+                     <back>0.218749</back>
+                     <top>0.203131</top>
+                     <front>0.209931</front>
+                     <bottom>0.183783</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.207865 </back>
-                     <top> 0.210168 </top>
-                     <front> 0.217462 </front>
-                     <bottom> 0.182255 </bottom>
+                     <back>0.207865</back>
+                     <top>0.210168</top>
+                     <front>0.217462</front>
+                     <bottom>0.182255</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/british/GB105_Black_Prince_2019/track/segment.model</model>
-                  <length> 0.214556 </length>
+                  <length>0.214556</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -619,7 +619,7 @@
                      </part>
                      <part>
                         <xStart>-2.77672</xStart>
-                        <xStep> 0.107278 </xStep>
+                        <xStep>0.107278</xStep>
                         <ySamples>1.21883 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.42182 1.41087 1.40532 1.39977 1.39422 1.38867 1.38312 1.37757 1.37202 1.36647 1.35393</ySamples>
                      </part>
                      <part>
@@ -631,7 +631,7 @@
                   <top>
                      <part>
                         <xStart>-3.52767</xStart>
-                        <xStep> 0.107278 </xStep>
+                        <xStep>0.107278</xStep>
                         <ySamples>1.52391 1.59584 1.63876 1.6591 1.66555 1.66556 1.66556 1.66557 1.66558 1.65915 1.65124 1.64333 1.63543 1.62752 1.61961 1.61178 1.60398 1.59619 1.5884 1.5806 1.57281 1.5668 1.5668 1.5668 1.5668 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56679 1.56678 1.56678 1.56678 1.56792 1.57008 1.57224 1.57439 1.57655 1.56722 1.5562 1.54517 1.53096 1.51605 1.50115 1.48625 1.47135 1.45645 1.44154 1.42939 1.41016 1.3781 1.32623</ySamples>
                      </part>
                   </top>
@@ -656,26 +656,26 @@
                   <topFront>
                      <wheelName>WD_R0</wheelName>
                      <basePos>3.22603 0.955369</basePos>
-                     <shiftVec> 0.391171 0.112309 </shiftVec>
-                     <jointIdx> 7 </jointIdx>
+                     <shiftVec>0.391171 0.112309</shiftVec>
+                     <jointIdx>7</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R1</wheelName>
                      <basePos>-3.18689 1.12564</basePos>
-                     <shiftVec> -0.190236 0.168192 </shiftVec>
-                     <jointIdx> 41 </jointIdx>
+                     <shiftVec>-0.190236 0.168192</shiftVec>
+                     <jointIdx>41</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R10</wheelName>
                      <basePos>-2.0657 0.246509</basePos>
                      <shiftVec>0.0747148 -0.174284</shiftVec>
-                     <jointIdx> 51 </jointIdx>
+                     <jointIdx>51</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>2.57306 0.283173</basePos>
                      <shiftVec>0.0456963 -0.168186</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
@@ -698,16 +698,16 @@
                </radiusOverrides>
                <teethSyncs>
                   <syncWithMainModel> true </syncWithMainModel>
-                  <segmentSyncPivotOffset> 0 </segmentSyncPivotOffset>
+                  <segmentSyncPivotOffset>0</segmentSyncPivotOffset>
                   <sync>
                      <name>WD_R1</name>
                      <startAngle>-198.394</startAngle>
-                     <teethCount> 9 </teethCount>
+                     <teethCount>9</teethCount>
                   </sync>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-146.615</startAngle>
-                     <teethCount> 12 </teethCount>
+                     <teethCount>12</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -851,13 +851,13 @@
          <customizationSlots>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 21000 </slotId>
+               <slotId>21000</slotId>
                <anchorPosition>-1.63913 0.72701 0.0949961</anchorPosition>
                <anchorDirection>-0.91284 0.404876 0.0529039</anchorDirection>
             </slot>
             <slot>
                <slotType>style</slotType>
-               <slotId> 29000 </slotId>
+               <slotId>29000</slotId>
                <anchorPosition>0.000000 2.47175 0.0021</anchorPosition>
                <anchorDirection>-0.000000 1 -0.000000</anchorDirection>
             </slot>
@@ -868,18 +868,18 @@
       <Turret_1_GB105_Black_Prince_2019>
          <userString>#gb_vehicles:Turret_1_GB105_Black_Prince_2019</userString>
          <tags></tags>
-         <level> 6 </level>
-         <price> 12000 </price>
+         <level>6</level>
+         <price>12000</price>
          <notInShop> true </notInShop>
          <armor>
             <armor_1>152.4</armor_1>
             <armor_2>139.7</armor_2>
             <armor_3>95.2</armor_3>
             <armor_4>101.6</armor_4>
-            <armor_5> 20 </armor_5>
-            <armor_6> 20 </armor_6>
+            <armor_5>20</armor_5>
+            <armor_6>20</armor_6>
             <armor_7>63.5</armor_7>
-            <armor_8> 0 </armor_8>
+            <armor_8>0</armor_8>
             <armor_9>
                20
                <vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -887,30 +887,30 @@
             <armor_10>38.1</armor_10>
             <armor_11>76.2</armor_11>
             <armor_12>101.6</armor_12>
-            <armor_13> 127 </armor_13>
+            <armor_13>127</armor_13>
             <armor_14>76.2</armor_14>
             <armor_15>50.8</armor_15>
             <armor_16>38.1</armor_16>
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-         <weight> 10000 </weight>
-         <maxHealth> 180 </maxHealth>
-         <rotationSpeed> 28 </rotationSpeed>
+         <weight>10000</weight>
+         <maxHealth>180</maxHealth>
+         <rotationSpeed>28</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 130 </maxHealth>
-            <maxRegenHealth> 65 </maxRegenHealth>
+            <maxHealth>130</maxHealth>
+            <maxRegenHealth>65</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 360 </circularVisionRadius>
+         <circularVisionRadius>360</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 80 </maxHealth>
-            <maxRegenHealth> 40 </maxRegenHealth>
+            <maxHealth>80</maxHealth>
+            <maxRegenHealth>40</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
             <OQF_17pdr_Gun_Mk_VII_A>
                shared
-               <maxAmmo> 89 </maxAmmo>
+               <maxAmmo>89</maxAmmo>
                <armor>
                   <armor_1>
                      152.4
@@ -936,7 +936,7 @@
                      50.8
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_6>
-                  <gun> 30 </gun>
+                  <gun>30</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <pitchLimits>
@@ -947,7 +947,7 @@
                <reloadTime>5.3</reloadTime>
                <shotDispersionFactors>
                   <turretRotation>0.23</turretRotation>
-                  <afterShot> 4 </afterShot>
+                  <afterShot>4</afterShot>
                   <whileGunDamaged>2.0</whileGunDamaged>
                </shotDispersionFactors>
                <aimingTime>2.5</aimingTime>
@@ -977,21 +977,21 @@
                <customizationSlots>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.000000 0.000915222 1.89294</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.000000 0.000915222 1.89294</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>insigniaOnGun</slotType>
-                     <slotId> 49000 </slotId>
+                     <slotId>49000</slotId>
                      <rayStart>0.000094 0.00182941 2.19298</rayStart>
                      <rayEnd>0.0166943 0.0562118 2.19275</rayEnd>
                      <rayUp>0.077 0.000000 0.000000</rayUp>
@@ -1038,19 +1038,19 @@
          <customizationSlots>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 31000 </slotId>
-               <anchorPosition> 0 0.861752 0 </anchorPosition>
+               <slotId>31000</slotId>
+               <anchorPosition>0 0.861752 0</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>camouflage</slotType>
-               <slotId> 32000 </slotId>
-               <anchorPosition> 0 0.861752 0 </anchorPosition>
+               <slotId>32000</slotId>
+               <anchorPosition>0 0.861752 0</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
+               <slotId>33000</slotId>
                <rayStart>-1.18669 0.612103 -0.310018</rayStart>
                <rayEnd>-1.00533 0.612103 -0.225711</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -1060,9 +1060,9 @@
             </slot>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33001 </slotId>
+               <slotId>33001</slotId>
                <rayStart>1.17541 0.578112 0.430511</rayStart>
-               <rayEnd> 0.982436 0.578112 0.377952 </rayEnd>
+               <rayEnd>0.982436 0.578112 0.377952</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <isMirrored> true </isMirrored>
                <size>0.26</size>
@@ -1071,7 +1071,7 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34000 </slotId>
+               <slotId>34000</slotId>
                <rayStart>-1.2077 0.217102 0.27971</rayStart>
                <rayEnd>-1.01345 0.217082 0.232113</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -1081,7 +1081,7 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34001 </slotId>
+               <slotId>34001</slotId>
                <rayStart>1.21214 0.269866 0.295602</rayStart>
                <rayEnd>1.01917 0.269862 0.243051</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -1111,13 +1111,13 @@
       <detailed>
          <engines>
             <Bedford_Type_120>
-               <smplEnginePower> 600 </smplEnginePower>
-               <smplFwMaxSpeed> 20 </smplFwMaxSpeed>
+               <smplEnginePower>600</smplEnginePower>
+               <smplFwMaxSpeed>20</smplFwMaxSpeed>
             </Bedford_Type_120>
          </engines>
          <chassis>
             <Chassis_GB105_Black_Prince_2019>
-               <axleCount> 5 </axleCount>
+               <axleCount>5</axleCount>
                <grounds>
                   <ground>
                      <medium>
@@ -1159,7 +1159,7 @@
       <damagedStateGroup>large</damagedStateGroup>
    </effects>
    <emblems>
-      <default> 15506 </default>
+      <default>15506</default>
       <lodDist>MEDIUM</lodDist>
       <alpha>0.88</alpha>
    </emblems>

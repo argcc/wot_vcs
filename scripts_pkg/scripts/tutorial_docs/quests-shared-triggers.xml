@@ -5,16 +5,16 @@
          <type>permanentOwnVehicle</type>
          <validate-var>VehicleConditionVar</validate-var>
          <on-effects>
-            <global-activate> PlayerOwnVehicle </global-activate>
+            <global-activate>PlayerOwnVehicle</global-activate>
          </on-effects>
          <off-effects>
-            <global-inactivate> PlayerOwnVehicle </global-inactivate>
+            <global-inactivate>PlayerOwnVehicle</global-inactivate>
          </off-effects>
       </trigger>
       <trigger>
          PveChainShownTrigger
          <type>tutorialAccountSetting</type>
-         <validate-var> PveChainShownVar </validate-var>
+         <validate-var>PveChainShownVar</validate-var>
          <on-effects>
             <activate>PveChainShown</activate>
          </on-effects>
@@ -25,7 +25,7 @@
       <trigger>
          DefaultQueueTrigger
          <type>tutorialAccountSetting</type>
-         <validate-var> DefaultQueue </validate-var>
+         <validate-var>DefaultQueue</validate-var>
          <on-effects>
             <activate>DefaultSandboxQueue</activate>
          </on-effects>
@@ -35,7 +35,7 @@
       </trigger>
       <trigger>
          InventoryVehicleTrigger
-         <type> inventoryVehicle </type>
+         <type>inventoryVehicle</type>
          <validate-var>SelectedVehicleCriteria</validate-var>
          <on-effects>
             <activate>NoPveVehicleInInventory</activate>
@@ -49,10 +49,10 @@
          <type>tutorialIntSetting</type>
          <validate-var>ResearchVar</validate-var>
          <off-effects>
-            <activate> ShowResearchHint </activate>
+            <activate>ShowResearchHint</activate>
          </off-effects>
          <on-effects>
-            <inactivate> ShowResearchHint </inactivate>
+            <inactivate>ShowResearchHint</inactivate>
          </on-effects>
       </trigger>
       <trigger>
@@ -60,10 +60,10 @@
          <type>tutorialIntSetting</type>
          <validate-var>ResearchTreeVar</validate-var>
          <off-effects>
-            <activate> ShowTechTreeHint </activate>
+            <activate>ShowTechTreeHint</activate>
          </off-effects>
          <on-effects>
-            <inactivate> ShowTechTreeHint </inactivate>
+            <inactivate>ShowTechTreeHint</inactivate>
          </on-effects>
       </trigger>
       <trigger>
@@ -71,10 +71,10 @@
          <type>tutorialIntSetting</type>
          <validate-var>PersonalCaseVar</validate-var>
          <off-effects>
-            <activate> ShowPersonalCaseHint </activate>
+            <activate>ShowPersonalCaseHint</activate>
          </off-effects>
          <on-effects>
-            <inactivate> ShowPersonalCaseHint </inactivate>
+            <inactivate>ShowPersonalCaseHint</inactivate>
          </on-effects>
       </trigger>
       <trigger>
@@ -82,16 +82,16 @@
          <type>tutorialIntSetting</type>
          <validate-var>TechnicalMaintenanceVar</validate-var>
          <off-effects>
-            <activate> ShowTechnicalMaintenanceHint </activate>
+            <activate>ShowTechnicalMaintenanceHint</activate>
          </off-effects>
          <on-effects>
-            <inactivate> ShowTechnicalMaintenanceHint </inactivate>
+            <inactivate>ShowTechnicalMaintenanceHint</inactivate>
          </on-effects>
       </trigger>
       <trigger>
          CustomizationHelpButtonTrigger
          <type>tutorialIntSetting</type>
-         <validate-var> CustomizationVar </validate-var>
+         <validate-var>CustomizationVar</validate-var>
          <off-effects>
             <activate>ShowCustomizationHint</activate>
          </off-effects>
@@ -104,12 +104,12 @@
          <type>timer</type>
          <validate-var>FightBtnTimer</validate-var>
          <on-effects>
-            <global-inactivate> BattleButtonHintCooldown </global-inactivate>
-            <activate> ShowBattleButtonHint </activate>
+            <global-inactivate>BattleButtonHintCooldown</global-inactivate>
+            <activate>ShowBattleButtonHint</activate>
          </on-effects>
          <off-effects>
-            <global-activate> BattleButtonHintCooldown </global-activate>
-            <inactivate> ShowBattleButtonHint </inactivate>
+            <global-activate>BattleButtonHintCooldown</global-activate>
+            <inactivate>ShowBattleButtonHint</inactivate>
          </off-effects>
       </trigger>
       <trigger>
@@ -134,12 +134,12 @@
       </trigger>
       <trigger>
          FightBtnDisableTrigger
-         <type> fightBtn </type>
+         <type>fightBtn</type>
          <on-effects>
-            <activate> FightBtnDisabled </activate>
+            <activate>FightBtnDisabled</activate>
          </on-effects>
          <off-effects>
-            <inactivate> FightBtnDisabled </inactivate>
+            <inactivate>FightBtnDisabled</inactivate>
          </off-effects>
       </trigger>
       <trigger>
@@ -161,18 +161,18 @@
       <trigger>
          TankamAcademyDiscountTrigger
          <type>tankmanAcademyDiscount</type>
-         <validate-var> TankmanCostIndex </validate-var>
+         <validate-var>TankmanCostIndex</validate-var>
          <on-effects>
-            <activate> PlayerHasTankmanDiscount </activate>
+            <activate>PlayerHasTankmanDiscount</activate>
          </on-effects>
          <off-effects>
-            <inactivate> PlayerHasTankmanDiscount </inactivate>
+            <inactivate>PlayerHasTankmanDiscount</inactivate>
          </off-effects>
       </trigger>
       <trigger>
          BattleTutorialBonusesTrigger
          <type>allTutorialBonuses</type>
-         <validate-var> BattleTutorialSettingVar </validate-var>
+         <validate-var>BattleTutorialSettingVar</validate-var>
          <on-effects>
             <request-bonus>
                TutorialQuest_1
@@ -190,7 +190,7 @@
             <show-award-window>
                TutorialAwardWindow2
                <condition>
-                  <effect-not-triggered> TutorialAwardWindow2 </effect-not-triggered>
+                  <effect-not-triggered>TutorialAwardWindow2</effect-not-triggered>
                   <bonus-not-received>TutorialQuest_2</bonus-not-received>
                </condition>
             </show-award-window>
@@ -221,7 +221,7 @@
       </trigger>
       <trigger>
          AwardWindow2CloseTrigger
-         <type> windowClosed </type>
+         <type>windowClosed</type>
          <validate-var>Chapter2Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
@@ -236,7 +236,7 @@
             <show-award-window>
                TutorialAwardWindow3
                <condition>
-                  <effect-not-triggered> TutorialAwardWindow3 </effect-not-triggered>
+                  <effect-not-triggered>TutorialAwardWindow3</effect-not-triggered>
                   <bonus-not-received>TutorialQuest_3</bonus-not-received>
                </condition>
             </show-award-window>
@@ -267,7 +267,7 @@
       </trigger>
       <trigger>
          AwardWindow3CloseTrigger
-         <type> windowClosed </type>
+         <type>windowClosed</type>
          <validate-var>Chapter3Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
@@ -283,7 +283,7 @@
             <show-award-window>
                TutorialAwardWindow4
                <condition>
-                  <effect-not-triggered> TutorialAwardWindow4 </effect-not-triggered>
+                  <effect-not-triggered>TutorialAwardWindow4</effect-not-triggered>
                   <bonus-not-received>TutorialQuest_4</bonus-not-received>
                </condition>
             </show-award-window>
@@ -314,7 +314,7 @@
       </trigger>
       <trigger>
          AwardWindow4CloseTrigger
-         <type> windowClosed </type>
+         <type>windowClosed</type>
          <validate-var>Chapter4Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
@@ -329,7 +329,7 @@
             <show-award-window>
                TutorialAwardWindow5
                <condition>
-                  <effect-not-triggered> TutorialAwardWindow5 </effect-not-triggered>
+                  <effect-not-triggered>TutorialAwardWindow5</effect-not-triggered>
                   <bonus-not-received>TutorialQuest_5</bonus-not-received>
                </condition>
             </show-award-window>
@@ -360,7 +360,7 @@
       </trigger>
       <trigger>
          AwardWindow5CloseTrigger
-         <type> windowClosed </type>
+         <type>windowClosed</type>
          <validate-var>Chapter5Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
@@ -376,7 +376,7 @@
             <show-award-window>
                TutorialAwardWindow6
                <condition>
-                  <effect-not-triggered> TutorialAwardWindow6 </effect-not-triggered>
+                  <effect-not-triggered>TutorialAwardWindow6</effect-not-triggered>
                   <bonus-not-received>TutorialQuest_6</bonus-not-received>
                </condition>
             </show-award-window>
@@ -407,7 +407,7 @@
       </trigger>
       <trigger>
          AwardWindow6CloseTrigger
-         <type> windowClosed </type>
+         <type>windowClosed</type>
          <validate-var>Chapter6Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
@@ -422,7 +422,7 @@
             <show-award-window>
                TutorialAwardWindow7
                <condition>
-                  <effect-not-triggered> TutorialAwardWindow7 </effect-not-triggered>
+                  <effect-not-triggered>TutorialAwardWindow7</effect-not-triggered>
                   <bonus-not-received>TutorialQuest_7</bonus-not-received>
                </condition>
             </show-award-window>
@@ -453,7 +453,7 @@
       </trigger>
       <trigger>
          AwardWindow7CloseTrigger
-         <type> windowClosed </type>
+         <type>windowClosed</type>
          <validate-var>Chapter7Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
@@ -469,7 +469,7 @@
             <show-award-window>
                TutorialAwardWindow8
                <condition>
-                  <effect-not-triggered> TutorialAwardWindow8 </effect-not-triggered>
+                  <effect-not-triggered>TutorialAwardWindow8</effect-not-triggered>
                   <bonus-not-received>TutorialQuest_8</bonus-not-received>
                </condition>
             </show-award-window>
@@ -500,7 +500,7 @@
       </trigger>
       <trigger>
          AwardWindow8CloseTrigger
-         <type> windowClosed </type>
+         <type>windowClosed</type>
          <validate-var>Chapter8Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
@@ -516,7 +516,7 @@
             <show-award-window>
                TutorialAwardWindow9
                <condition>
-                  <effect-not-triggered> TutorialAwardWindow9 </effect-not-triggered>
+                  <effect-not-triggered>TutorialAwardWindow9</effect-not-triggered>
                   <bonus-not-received>TutorialQuest_9</bonus-not-received>
                </condition>
             </show-award-window>
@@ -547,7 +547,7 @@
       </trigger>
       <trigger>
          AwardWindow9CloseTrigger
-         <type> windowClosed </type>
+         <type>windowClosed</type>
          <validate-var>Chapter9Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
@@ -579,7 +579,7 @@
       <trigger>
          AwardWindow10ProcessTrigger
          <type>windowProcessed</type>
-         <validate-var> Chapter10Var </validate-var>
+         <validate-var>Chapter10Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <go-scene>
@@ -588,14 +588,14 @@
                   <inactive>IsInQueue</inactive>
                </condition>
             </go-scene>
-            <show-unlocked-chapter> Chapter10Var </show-unlocked-chapter>
+            <show-unlocked-chapter>Chapter10Var</show-unlocked-chapter>
          </on-effects>
          <off-effects></off-effects>
       </trigger>
       <trigger>
          AwardWindow10CloseTrigger
-         <type> windowClosed </type>
-         <validate-var> Chapter10Var </validate-var>
+         <type>windowClosed</type>
+         <validate-var>Chapter10Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <activate>ShowQuestsControlHint</activate>
@@ -604,13 +604,13 @@
       </trigger>
       <trigger>
          MedKitInstallTrigger
-         <type> installItems </type>
+         <type>installItems</type>
          <validate-var>MedKitsConditionVar</validate-var>
          <on-effects>
             <save-account-setting>MedKitInstalledSetting</save-account-setting>
          </on-effects>
          <off-effects>
-            <save-account-setting> MedKitUninstalledSetting </save-account-setting>
+            <save-account-setting>MedKitUninstalledSetting</save-account-setting>
          </off-effects>
       </trigger>
       <trigger>
@@ -636,7 +636,7 @@
       <trigger>
          AwardWindow11ProcessTrigger
          <type>windowProcessed</type>
-         <validate-var> Chapter11Var </validate-var>
+         <validate-var>Chapter11Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <go-scene>
@@ -645,14 +645,14 @@
                   <inactive>IsInQueue</inactive>
                </condition>
             </go-scene>
-            <show-unlocked-chapter> Chapter11Var </show-unlocked-chapter>
+            <show-unlocked-chapter>Chapter11Var</show-unlocked-chapter>
          </on-effects>
          <off-effects></off-effects>
       </trigger>
       <trigger>
          AwardWindow11CloseTrigger
-         <type> windowClosed </type>
-         <validate-var> Chapter11Var </validate-var>
+         <type>windowClosed</type>
+         <validate-var>Chapter11Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <activate>ShowQuestsControlHint</activate>
@@ -661,7 +661,7 @@
       </trigger>
       <trigger>
          RepairKitInstallTrigger
-         <type> installItems </type>
+         <type>installItems</type>
          <validate-var>RepairKitsConditionVar</validate-var>
          <on-effects>
             <save-account-setting>RepairKitInstalledSetting</save-account-setting>
@@ -673,7 +673,7 @@
       <trigger>
          RepairKitUsedTrigger
          <type>tutorialIntSetting</type>
-         <validate-var> RepairKitUsedVar </validate-var>
+         <validate-var>RepairKitUsedVar</validate-var>
          <on-effects>
             <show-award-window>
                TutorialAwardWindow12
@@ -693,7 +693,7 @@
       <trigger>
          AwardWindow12ProcessTrigger
          <type>windowProcessed</type>
-         <validate-var> Chapter12Var </validate-var>
+         <validate-var>Chapter12Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <go-scene>
@@ -702,14 +702,14 @@
                   <inactive>IsInQueue</inactive>
                </condition>
             </go-scene>
-            <show-unlocked-chapter> Chapter12Var </show-unlocked-chapter>
+            <show-unlocked-chapter>Chapter12Var</show-unlocked-chapter>
          </on-effects>
          <off-effects></off-effects>
       </trigger>
       <trigger>
          AwardWindow12CloseTrigger
-         <type> windowClosed </type>
-         <validate-var> Chapter12Var </validate-var>
+         <type>windowClosed</type>
+         <validate-var>Chapter12Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <activate>ShowQuestsControlHint</activate>
@@ -718,10 +718,10 @@
       </trigger>
       <trigger>
          FireExtinguisherInstallTrigger
-         <type> installItems </type>
+         <type>installItems</type>
          <validate-var>FireExtinguishersConditionVar</validate-var>
          <on-effects>
-            <save-account-setting> FireExtinguisherInstalledSetting </save-account-setting>
+            <save-account-setting>FireExtinguisherInstalledSetting</save-account-setting>
          </on-effects>
          <off-effects>
             <save-account-setting>FireExtinguisherUninstalledSetting</save-account-setting>
@@ -750,7 +750,7 @@
       <trigger>
          AwardWindow13ProcessTrigger
          <type>windowProcessed</type>
-         <validate-var> Chapter13Var </validate-var>
+         <validate-var>Chapter13Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <go-scene>
@@ -759,14 +759,14 @@
                   <inactive>IsInQueue</inactive>
                </condition>
             </go-scene>
-            <show-unlocked-chapter> Chapter13Var </show-unlocked-chapter>
+            <show-unlocked-chapter>Chapter13Var</show-unlocked-chapter>
          </on-effects>
          <off-effects></off-effects>
       </trigger>
       <trigger>
          AwardWindow13CloseTrigger
-         <type> windowClosed </type>
-         <validate-var> Chapter13Var </validate-var>
+         <type>windowClosed</type>
+         <validate-var>Chapter13Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <activate>ShowQuestsControlHint</activate>
@@ -775,7 +775,7 @@
       </trigger>
       <trigger>
          OptionalDeviceInstallTrigger
-         <type> installItems </type>
+         <type>installItems</type>
          <validate-var>OptionalDeviceConditionVar</validate-var>
          <on-effects>
             <show-award-window>
@@ -797,7 +797,7 @@
       <trigger>
          AwardWindow14ProcessTrigger
          <type>windowProcessed</type>
-         <validate-var> Chapter14Var </validate-var>
+         <validate-var>Chapter14Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <go-scene>
@@ -806,14 +806,14 @@
                   <inactive>IsInQueue</inactive>
                </condition>
             </go-scene>
-            <show-unlocked-chapter> Chapter14Var </show-unlocked-chapter>
+            <show-unlocked-chapter>Chapter14Var</show-unlocked-chapter>
          </on-effects>
          <off-effects></off-effects>
       </trigger>
       <trigger>
          AwardWindow14CloseTrigger
-         <type> windowClosed </type>
-         <validate-var> Chapter14Var </validate-var>
+         <type>windowClosed</type>
+         <validate-var>Chapter14Var</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
             <activate>ShowQuestsControlHint</activate>

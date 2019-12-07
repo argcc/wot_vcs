@@ -1,5 +1,5 @@
 <dropSkillsCost.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
@@ -11,8 +11,8 @@
             <show-hint>
                CrewHint
                <condition>
-                  <effect-not-triggered> CrewHint </effect-not-triggered>
-                  <active> CrewPanelOnScene </active>
+                  <effect-not-triggered>CrewHint</effect-not-triggered>
+                  <active>CrewPanelOnScene</active>
                </condition>
             </show-hint>
             <show-hint>
@@ -26,16 +26,16 @@
             <gui-item>
                CrewPanel
                <on-scene-effects>
-                  <activate> CrewPanelOnScene </activate>
+                  <activate>CrewPanelOnScene</activate>
                </on-scene-effects>
                <not-on-scene-effects>
                   &gt;
                   <refuse-training>
                      <condition>
-                        <effect-triggered> CrewPanelOnScene </effect-triggered>
+                        <effect-triggered>CrewPanelOnScene</effect-triggered>
                      </condition>
                   </refuse-training>
-                  <inactivate> CrewPanelOnScene </inactivate>
+                  <inactivate>CrewPanelOnScene</inactivate>
                </not-on-scene-effects>
             </gui-item>
             <gui-item>
@@ -65,20 +65,20 @@
          <text>#quests:action/chain/hint/openPersonalCase</text>
          <arrow>
             <direction>R</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <padding>
-            <left> 0 </left>
-            <top> 0 </top>
-            <right> 0 </right>
-            <bottom> 0 </bottom>
+            <left>0</left>
+            <top>0</top>
+            <right>0</right>
+            <bottom>0</bottom>
          </padding>
          <actions>
             <click>
                CrewPanel
                <effects>
                   <run-trigger>PersonalCaseWaitTimer</run-trigger>
-                  <close-hint> CrewHint </close-hint>
+                  <close-hint>CrewHint</close-hint>
                </effects>
             </click>
             <click-outside>
@@ -97,17 +97,17 @@
       </hint>
       <hint>
          PersonalCaseDropSkillsButtonHint
-         <item-id> PersonalCaseDropSkillsButton </item-id>
+         <item-id>PersonalCaseDropSkillsButton</item-id>
          <text>#quests:action/chain/hint/dropSkills</text>
          <arrow>
             <direction>R</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <padding>
-            <left> 251 </left>
-            <top> 251 </top>
-            <right> 251 </right>
-            <bottom> 251 </bottom>
+            <left>251</left>
+            <top>251</top>
+            <right>251</right>
+            <bottom>251</bottom>
          </padding>
          <actions>
             <click>
@@ -148,7 +148,7 @@
    <vars>
       <var-set>
          WaitTimer
-         <asInt> 5 </asInt>
+         <asInt>5</asInt>
       </var-set>
    </vars>
 </dropSkillsCost.xml>

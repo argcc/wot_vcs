@@ -1,8 +1,8 @@
 <AreaDestructibles.def>
    <Implements>
       <Interface>ArtilleryController</Interface>
-      <Interface> BomberController </Interface>
-      <Interface> ProjectileController </Interface>
+      <Interface>BomberController</Interface>
+      <Interface>ProjectileController</Interface>
    </Implements>
    <Properties>
       <chunkID>
@@ -15,7 +15,7 @@
             <of>
                TUPLE
                <of>UINT8</of>
-               <size> 3 </size>
+               <size>3</size>
             </of>
          </Type>
          <Flags>ALL_CLIENTS</Flags>
@@ -26,7 +26,7 @@
             <of>
                TUPLE
                <of>UINT8</of>
-               <size> 3 </size>
+               <size>3</size>
             </of>
          </Type>
          <Flags>ALL_CLIENTS</Flags>
@@ -37,7 +37,7 @@
             <of>
                TUPLE
                <of>UINT8</of>
-               <size> 3 </size>
+               <size>3</size>
             </of>
          </Type>
          <Flags>ALL_CLIENTS</Flags>
@@ -48,7 +48,7 @@
             <of>
                TUPLE
                <of>UINT8</of>
-               <size> 5 </size>
+               <size>5</size>
             </of>
          </Type>
          <Flags>ALL_CLIENTS</Flags>
@@ -63,7 +63,7 @@
             <of>
                TUPLE
                <of>FLOAT32</of>
-               <size> 5 </size>
+               <size>5</size>
             </of>
          </Type>
          <Flags>CELL_PUBLIC</Flags>
@@ -86,7 +86,7 @@
       </cp>
       <arena>
          <Type>MAILBOX</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </arena>
    </Properties>
    <TempProperties>
@@ -117,7 +117,7 @@
          <Arg>
             TUPLE
             <of>FLOAT32</of>
-            <size> 2 </size>
+            <size>2</size>
          </Arg>
          <Arg>FLOAT32</Arg>
          <Arg>FLOAT64</Arg>
@@ -135,7 +135,7 @@
          <Arg>FLOAT32</Arg>
          <Arg>FLOAT32</Arg>
          <Arg>FLOAT32</Arg>
-         <Arg> INT8 </Arg>
+         <Arg>INT8</Arg>
          <Arg>DESTRUCTIBLE_ATTACK_INFO</Arg>
       </damageDestructible>
       <receiveTaggedDestructibleKill>

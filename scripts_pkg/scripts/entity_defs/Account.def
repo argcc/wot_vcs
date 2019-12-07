@@ -1,29 +1,29 @@
 <Account.def>
    <Implements>
-      <Interface> Chat </Interface>
+      <Interface>Chat</Interface>
       <Interface>PlayerMessenger_chat2</Interface>
       <Interface>AccountEditor</Interface>
       <Interface>TransactionUser</Interface>
       <Interface>InterclusterSender</Interface>
       <Interface>ClientCommandsPort</Interface>
-      <Interface> AccountAdmin </Interface>
+      <Interface>AccountAdmin</Interface>
       <Interface>AccountClan</Interface>
-      <Interface> AccountAuthTokenProvider </Interface>
+      <Interface>AccountAuthTokenProvider</Interface>
       <Interface>AccountAuthTokenProviderClient</Interface>
       <Interface>BattleResultProcessor</Interface>
       <Interface>Invitations</Interface>
       <Interface>InvitationsClient</Interface>
       <Interface>Invoicing</Interface>
-      <Interface> AccountPrebattle </Interface>
+      <Interface>AccountPrebattle</Interface>
       <Interface>AccountSpaProcessor</Interface>
-      <Interface> AccountIGRProcessing </Interface>
+      <Interface>AccountIGRProcessing</Interface>
       <Interface>SessionTracker</Interface>
       <Interface>AccountGlobalMapConnector</Interface>
       <Interface>AccountSysMessenger</Interface>
       <Interface>AccountUnit</Interface>
       <Interface>AccountUnitClient</Interface>
       <Interface>AccountUnitRemote</Interface>
-      <Interface> AccountUnitAssembler </Interface>
+      <Interface>AccountUnitAssembler</Interface>
       <Interface>AccountUnitBrowser</Interface>
       <Interface>AccountDebugger</Interface>
       <Interface>QuestProcessor</Interface>
@@ -38,143 +38,143 @@
          <Type>STRING</Type>
          <Flags>BASE_AND_CLIENT</Flags>
          <Persistent> true </Persistent>
-         <DatabaseLength> 96 </DatabaseLength>
+         <DatabaseLength>96</DatabaseLength>
       </name>
       <normalizedName>
          <Type>STRING</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
-         <DatabaseLength> 96 </DatabaseLength>
+         <DatabaseLength>96</DatabaseLength>
          <Identifier> true </Identifier>
       </normalizedName>
       <globalRating>
          <Type>UINT32</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
-         <Default> 0 </Default>
+         <Default>0</Default>
       </globalRating>
       <ver>
          <Type>INT16</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </ver>
       <accountType>
          <Type>UINT32</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </accountType>
       <attrs>
          <Type>UINT64</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </attrs>
       <premiumExpiryTime>
          <Type>UINT32</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </premiumExpiryTime>
       <autoBanTime>
          <Type>UINT32</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </autoBanTime>
       <clanDBID>
          <Type>DB_ID</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
          <Indexed> true </Indexed>
       </clanDBID>
       <lastUserMessageID>
          <Type>DB_ID</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
-         <Default> 255 </Default>
+         <Default>255</Default>
       </lastUserMessageID>
       <lastSystemMessageID>
          <Type>DB_ID</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
-         <Default> 255 </Default>
+         <Default>255</Default>
       </lastSystemMessageID>
       <lastInternalSystemMessageID>
          <Type>DB_ID</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
-         <Default> 255 </Default>
+         <Default>255</Default>
       </lastInternalSystemMessageID>
       <vivoxCredentials>
          <Type>STRING</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
-         <DatabaseLength> 36 </DatabaseLength>
+         <DatabaseLength>36</DatabaseLength>
       </vivoxCredentials>
       <jabberCredentials>
          <Type>STRING</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
-         <DatabaseLength> 36 </DatabaseLength>
+         <DatabaseLength>36</DatabaseLength>
       </jabberCredentials>
       <vhID>
          <Type>UINT64</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </vhID>
       <incarnationID>
          <Type>UINT64</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </incarnationID>
       <peripheryID>
          <Type>INT32</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
          <Indexed> true </Indexed>
       </peripheryID>
       <saveTime>
          <Type>INT32</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </saveTime>
       <lastPlayerActivityTime>
          <Type>INT32</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </lastPlayerActivityTime>
       <vehDossiersCutVer>
          <Type>UINT8</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </vehDossiersCutVer>
       <vehDossiersVer>
          <Type>UINT8</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </vehDossiersVer>
       <nextOffloadToPeripheryTime>
          <Type>INT32</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </nextOffloadToPeripheryTime>
       <walletID>
          <Type>UINT64</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </walletID>
       <extWalletID>
          <Type>UINT64</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
       </extWalletID>
       <pdata>
          <Type>STRING</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
          <Persistent> true </Persistent>
-         <DatabaseLength> 1024000 </DatabaseLength>
+         <DatabaseLength>1024000</DatabaseLength>
          <Backupable> false </Backupable>
       </pdata>
       <bp>
          <Type>PYTHON</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </bp>
       <initialServerSettings>
          <Type>PYTHON</Type>
@@ -186,7 +186,7 @@
    <ClientMethods>
       <onKickedFromServer>
          <Arg>STRING</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>UINT32</Arg>
       </onKickedFromServer>
       <onEnqueued>
@@ -234,11 +234,11 @@
          <Arg>UINT8</Arg>
       </onKickedFromPrebattle>
       <onCenterIsLongDisconnected>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </onCenterIsLongDisconnected>
       <showGUI>
          <Arg>STRING</Arg>
-         <VariableLengthHeaderSize> 2 </VariableLengthHeaderSize>
+         <VariableLengthHeaderSize>2</VariableLengthHeaderSize>
       </showGUI>
       <receiveActiveArenas>
          <Arg>
@@ -258,14 +258,14 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </updatePrebattle>
       <update>
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </update>
       <resyncDossiers></resyncDossiers>
@@ -276,7 +276,7 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </onUnitUpdate>
       <onUnitCallOk>
@@ -288,7 +288,7 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
          <Arg>PYTHON</Arg>
          <AllowUnsafeData> true </AllowUnsafeData>
@@ -300,7 +300,7 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </onUnitError>
       <onUnitBrowserError>
@@ -311,14 +311,14 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </onUnitBrowserResultsSet>
       <onUnitBrowserResultsUpdate>
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </onUnitBrowserResultsUpdate>
       <onGlobalMapUpdate>
@@ -346,14 +346,14 @@
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </onClanInfoReceived>
       <receiveNotification>
          <Arg>STRING</Arg>
          <VariableLengthHeaderSize>
             1
-            <WarnLevel> none </WarnLevel>
+            <WarnLevel>none</WarnLevel>
          </VariableLengthHeaderSize>
       </receiveNotification>
       <onEntityCheckOutEnqueued>
@@ -431,7 +431,7 @@
          <Arg>VECTOR3</Arg>
          <Arg>FLOAT32</Arg>
          <Arg>PYTHON</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>INT32</Arg>
          <Arg>
             ARRAY
@@ -454,7 +454,7 @@
       </stopKeepingAlive>
       <kickSelf>
          <Arg>STRING</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>UINT32</Arg>
       </kickSelf>
       <destroyIfNoKeepers></destroyIfNoKeepers>

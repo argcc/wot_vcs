@@ -1,15 +1,15 @@
 <offbattle.xml>
-   <default-scene> DefaultScene </default-scene>
-   <initial-scene> DefaultScene </initial-scene>
+   <default-scene>DefaultScene</default-scene>
+   <initial-scene>DefaultScene</initial-scene>
    <scenes>
       <scene>
          Hangar
          <post-effects>
             <inactivate>GreetingInitiated</inactivate>
-            <inactivate> ExitFromQueueClicked </inactivate>
+            <inactivate>ExitFromQueueClicked</inactivate>
             <inactivate>RefuseButtonClicked</inactivate>
-            <run-trigger> BonusTrigger </run-trigger>
-            <run-trigger> QueueTrigger </run-trigger>
+            <run-trigger>BonusTrigger</run-trigger>
+            <run-trigger>QueueTrigger</run-trigger>
             <run-trigger>ModeTrigger</run-trigger>
          </post-effects>
          <runtime-effects>
@@ -36,13 +36,13 @@
    <has-id>
       <dialog>
          GreetingDialog
-         <type> greeting </type>
+         <type>greeting</type>
          <image>../maps/tutorial/dialog-image-10.png</image>
          <title>_(#battle_tutorial:dialogs/greeting/title)</title>
-         <text>&lt;p&gt;&lt;font size=&quot;18&quot; color=&quot;#FDF4CE&quot; face=&quot;$FieldFont&quot;&gt;_(#battle_tutorial:dialogs/greeting/text/side-01)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;14&quot; face=&quot;$FieldFont&quot;&gt;&lt;font face=&quot;$TitleFont&quot;&gt;_(#battle_tutorial:dialogs/greeting/text/side-02)&lt;/font&gt; _(#battle_tutorial:dialogs/greeting/text/side-03)&lt;/font&gt;&lt;/p&gt;</text>
-         <time-note>_(#battle_tutorial:dialogs/greeting/notes/time) &lt;font face=&quot;$TitleFont&quot;&gt;{0:&gt;s}&lt;/font&gt;</time-note>
+         <text>&lt;p&gt;&lt;font size=&#34;18&#34; color=&#34;#FDF4CE&#34; face=&#34;$FieldFont&#34;&gt;_(#battle_tutorial:dialogs/greeting/text/side-01)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&#34;14&#34; face=&#34;$FieldFont&#34;&gt;&lt;font face=&#34;$TitleFont&#34;&gt;_(#battle_tutorial:dialogs/greeting/text/side-02)&lt;/font&gt; _(#battle_tutorial:dialogs/greeting/text/side-03)&lt;/font&gt;&lt;/p&gt;</text>
+         <time-note>_(#battle_tutorial:dialogs/greeting/notes/time) &lt;font face=&#34;$TitleFont&#34;&gt;{0:&gt;s}&lt;/font&gt;</time-note>
          <buttons>
-            <submit> ContinueTraining </submit>
+            <submit>ContinueTraining</submit>
             <cancel>RefuseTraining</cancel>
          </buttons>
          <actions>
@@ -50,7 +50,7 @@
                ContinueTraining
                <effects>
                   <activate>GreetingInitiated</activate>
-                  <enter-queue> EnteringToBattle </enter-queue>
+                  <enter-queue>EnteringToBattle</enter-queue>
                </effects>
             </click>
             <click>
@@ -77,19 +77,19 @@
          <type>queue</type>
          <var-ref>AvgWaitingTime</var-ref>
          <title>_(#battle_tutorial:dialogs/queue/title)</title>
-         <text>&lt;font color=&quot;#FF0000&quot;&gt;_(#battle_tutorial:dialogs/queue/server-overloaded/text)&lt;/font&gt;&lt;br/&gt;_(#battle_tutorial:dialogs/queue/wait/text)&lt;br/&gt;&lt;br/&gt;</text>
+         <text>&lt;font color=&#34;#FF0000&#34;&gt;_(#battle_tutorial:dialogs/queue/server-overloaded/text)&lt;/font&gt;&lt;br/&gt;_(#battle_tutorial:dialogs/queue/wait/text)&lt;br/&gt;&lt;br/&gt;</text>
          <player-time-text>
             <start>_(#battle_tutorial:labels/player-waiting-time) &lt;b&gt;</start>
             <end>&lt;/b&gt;&lt;br/&gt;</end>
          </player-time-text>
          <avg-time-text>&lt;i&gt;_(#battle_tutorial:labels/avg-waiting-time)&lt;/i&gt;</avg-time-text>
          <time-pointcuts>
-            <pointcut> 1 </pointcut>
-            <pointcut> 3 </pointcut>
-            <pointcut> 5 </pointcut>
-            <pointcut> 10 </pointcut>
-            <pointcut> 15 </pointcut>
-            <pointcut> 30 </pointcut>
+            <pointcut>1</pointcut>
+            <pointcut>3</pointcut>
+            <pointcut>5</pointcut>
+            <pointcut>10</pointcut>
+            <pointcut>15</pointcut>
+            <pointcut>30</pointcut>
          </time-pointcuts>
          <buttons>
             <submit>ExitFromQueue</submit>
@@ -99,8 +99,8 @@
             <click>
                ExitFromQueue
                <effects>
-                  <activate> ExitFromQueueClicked </activate>
-                  <exit-queue> EnteringToBattle </exit-queue>
+                  <activate>ExitFromQueueClicked</activate>
+                  <exit-queue>EnteringToBattle</exit-queue>
                </effects>
             </click>
          </actions>
@@ -152,14 +152,14 @@
          <off-effects>
             <refuse-training>
                <condition>
-                  <active> ExitFromQueueClicked </active>
+                  <active>ExitFromQueueClicked</active>
                </condition>
             </refuse-training>
          </off-effects>
       </trigger>
       <trigger>
          ModeTrigger
-         <type> mode </type>
+         <type>mode</type>
          <on-effects>
             <activate>InMode</activate>
             <show-dialog>GreetingDialog</show-dialog>

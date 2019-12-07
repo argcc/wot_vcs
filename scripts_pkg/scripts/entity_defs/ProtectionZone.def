@@ -3,7 +3,7 @@
    <Properties>
       <arena>
          <Type>MAILBOX</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </arena>
       <arenaBase>
          <Type>MAILBOX</Type>
@@ -12,7 +12,7 @@
       <zoneID>
          <Type>UINT8</Type>
          <Flags>ALL_CLIENTS</Flags>
-         <Default> 1 </Default>
+         <Default>1</Default>
          <Editable> true </Editable>
       </zoneID>
       <lengthX>
@@ -30,7 +30,7 @@
       <team>
          <Type>UINT8</Type>
          <Flags>ALL_CLIENTS</Flags>
-         <Default> 0 </Default>
+         <Default>0</Default>
          <Editable> true </Editable>
       </team>
       <maxStayTime>
@@ -42,7 +42,7 @@
       <numberOfTurrets>
          <Type>UINT8</Type>
          <Flags>CELL_PRIVATE</Flags>
-         <Default> 2 </Default>
+         <Default>2</Default>
          <Editable> true </Editable>
       </numberOfTurrets>
       <minTurretShootInterval>
@@ -90,11 +90,11 @@
       <mainDirection>
          <Type>UINT8</Type>
          <Flags>CELL_PRIVATE</Flags>
-         <Default> 0 </Default>
+         <Default>0</Default>
          <Editable> true </Editable>
       </mainDirection>
       <isActive>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
          <Default>False</Default>
       </isActive>

@@ -1,5 +1,5 @@
 <chain-8.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
@@ -36,7 +36,7 @@
             <inactivate>FreeXpExchangeSubmitButtonClicked</inactivate>
             <inactivate>FreeXpChanged</inactivate>
             <inactivate>ShowCongratulation</inactivate>
-            <run-trigger> BonusTrigger </run-trigger>
+            <run-trigger>BonusTrigger</run-trigger>
             <run-trigger>FreeXpExchangeTrigger</run-trigger>
             <run-trigger>SimpleDialogTrigger</run-trigger>
          </post-effects>
@@ -46,7 +46,7 @@
                <condition>
                   <active>FreeXpButtonOnScene</active>
                   <inactive>FreeXPExchangeSubmitButtonOnScene</inactive>
-                  <effect-not-triggered> FreeXpButtonHint </effect-not-triggered>
+                  <effect-not-triggered>FreeXpButtonHint</effect-not-triggered>
                </condition>
             </show-hint>
             <show-hint>
@@ -75,17 +75,17 @@
    <has-id>
       <hint>
          FreeXpButtonHint
-         <item-id> FreeXpButton </item-id>
+         <item-id>FreeXpButton</item-id>
          <text>_(#tutorial:chain8/hint/openXPChange)</text>
          <arrow>
             <direction>L</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                FreeXpButton
                <effects>
-                  <close-hint> FreeXpButtonHint </close-hint>
+                  <close-hint>FreeXpButtonHint</close-hint>
                   <activate>FreeXpButtonClicked</activate>
                </effects>
             </click>
@@ -109,7 +109,7 @@
          <text>_(#tutorial:chain8/hint/submit)</text>
          <arrow>
             <direction>L</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -174,7 +174,7 @@
       </trigger>
       <trigger>
          SimpleDialogTrigger
-         <type> simpleDialog </type>
+         <type>simpleDialog</type>
          <on-effects></on-effects>
          <off-effects>
             <refuse-training></refuse-training>

@@ -15,13 +15,13 @@
                Object1FocusOn
                <condition>
                   <active>Object1FocusOnEnabled</active>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                </condition>
             </activate>
             <show-marker>
                MarkerForPoint1
                <condition>
-                  <inactive> InPoint1 </inactive>
+                  <inactive>InPoint1</inactive>
                   <either>
                      <inactive>Object1FocusOn</inactive>
                      <inactive>Object2FocusOn</inactive>
@@ -31,7 +31,7 @@
             <next-task>
                MoveToPoint1Task
                <condition>
-                  <inactive> InPoint1 </inactive>
+                  <inactive>InPoint1</inactive>
                   <either>
                      <inactive>Object1FocusOn</inactive>
                      <inactive>Object2FocusOn</inactive>
@@ -41,21 +41,21 @@
             <show-marker>
                MarkerForObject1
                <condition>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                   <inactive>Object1FocusOn</inactive>
                </condition>
             </show-marker>
             <next-task>
                Object1FocusOnTask
                <condition>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                   <inactive>Object1FocusOn</inactive>
                </condition>
             </next-task>
             <show-hint>
                CameraControl1Hint
                <condition>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                   <either>
                      <inactive>Object1FocusOn</inactive>
                      <inactive>Object2FocusOn</inactive>
@@ -65,7 +65,7 @@
             <show-marker>
                MarkerForObject2
                <condition>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                   <active>Object1FocusOn</active>
                   <inactive>Object2FocusOn</inactive>
                </condition>
@@ -73,7 +73,7 @@
             <next-task>
                Object2FocusOnTask
                <condition>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                   <active>Object1FocusOn</active>
                   <inactive>Object2FocusOn</inactive>
                </condition>
@@ -81,7 +81,7 @@
             <show-hint>
                CameraControl2Hint
                <condition>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                   <active>Object1FocusOn</active>
                   <inactive>Object2FocusOn</inactive>
                </condition>
@@ -91,7 +91,7 @@
                <condition>
                   <active>Object1FocusOn</active>
                   <active>Object2FocusOn</active>
-                  <inactive> InPoint2 </inactive>
+                  <inactive>InPoint2</inactive>
                </condition>
             </show-marker>
             <next-task>
@@ -99,13 +99,13 @@
                <condition>
                   <active>Object1FocusOn</active>
                   <active>Object2FocusOn</active>
-                  <inactive> InPoint2 </inactive>
+                  <inactive>InPoint2</inactive>
                </condition>
             </next-task>
             <show-hint>
                ReturnToPoint1Hint
                <condition>
-                  <inactive> InPoint1 </inactive>
+                  <inactive>InPoint1</inactive>
                   <either>
                      <inactive>Object1FocusOn</inactive>
                      <inactive>Object2FocusOn</inactive>
@@ -117,7 +117,7 @@
                <condition>
                   <active>Object1FocusOn</active>
                   <active>Object2FocusOn</active>
-                  <inactive> InPoint2 </inactive>
+                  <inactive>InPoint2</inactive>
                </condition>
             </show-hint>
             <show-hint>
@@ -125,8 +125,8 @@
                <condition>
                   <active>Object1FocusOn</active>
                   <active>Object2FocusOn</active>
-                  <active> InPoint2 </active>
-                  <inactive> InPoint3 </inactive>
+                  <active>InPoint2</active>
+                  <inactive>InPoint3</inactive>
                </condition>
             </show-hint>
             <show-marker>
@@ -134,8 +134,8 @@
                <condition>
                   <active>Object1FocusOn</active>
                   <active>Object2FocusOn</active>
-                  <active> InPoint2 </active>
-                  <inactive> InPoint3 </inactive>
+                  <active>InPoint2</active>
+                  <inactive>InPoint3</inactive>
                </condition>
             </show-marker>
             <next-task>
@@ -143,20 +143,20 @@
                <condition>
                   <active>Object1FocusOn</active>
                   <active>Object2FocusOn</active>
-                  <active> InPoint2 </active>
-                  <inactive> InPoint3 </inactive>
+                  <active>InPoint2</active>
+                  <inactive>InPoint3</inactive>
                </condition>
             </next-task>
             <show-hint>
                VehicleControlDoneHint
                <condition>
-                  <active> InPoint3 </active>
+                  <active>InPoint3</active>
                </condition>
             </show-hint>
             <request-bonus>
                <condition>
                   <either>
-                     <active> InPoint3 </active>
+                     <active>InPoint3</active>
                      <active>Bot1Destroyed</active>
                      <active>Bot2Destroyed</active>
                      <active>Bot3Destroyed</active>
@@ -185,7 +185,7 @@
                VehicleControlDone
                <condition>
                   <either>
-                     <active> InPoint3 </active>
+                     <active>InPoint3</active>
                   </either>
                </condition>
             </next-chapter>
@@ -205,12 +205,12 @@
    <has-id>
       <exit>
          VehicleControlDone
-         <next-delay> 3 </next-delay>
+         <next-delay>3</next-delay>
          <chapter-id>DestroyBot1</chapter-id>
       </exit>
       <exit>
          VehicleControlAutoCompleted
-         <next-delay> 0 </next-delay>
+         <next-delay>0</next-delay>
          <chapter-id></chapter-id>
       </exit>
       <progress>
@@ -226,17 +226,17 @@
             </condition>
             <condition>
                Step3InProgress
-               <active> InPoint2 </active>
+               <active>InPoint2</active>
             </condition>
             <condition>
                Step4InProgress
-               <active> InPoint3 </active>
+               <active>InPoint3</active>
             </condition>
          </steps>
       </progress>
       <task>
          MoveToPoint1Task
-         <flag> InPoint1 </flag>
+         <flag>InPoint1</flag>
          <text>_(#battle_tutorial:tasks-panel/return-to-point-1/text)</text>
       </task>
       <task>
@@ -255,7 +255,7 @@
       </task>
       <task>
          MoveToPoint3Task
-         <flag> InPoint2 </flag>
+         <flag>InPoint2</flag>
          <text>_(#battle_tutorial:tasks-panel/move-to-point-3/text)</text>
       </task>
       <greeting>
@@ -277,7 +277,7 @@
          <text>_(#battle_tutorial:hints/camera-control/text)</text>
          <image-ref>BattleHintImage01</image-ref>
          <speak>/tutorial_voice/tutorial_voice/medicine</speak>
-         <wwspeak> medicine </wwspeak>
+         <wwspeak>medicine</wwspeak>
       </hint>
       <hint>
          ReturnToPoint1Hint
@@ -313,8 +313,8 @@
          <var-ref>Object1Name</var-ref>
          <world>
             <shape>eye</shape>
-            <min-distance> 0 </min-distance>
-            <max-distance> 0 </max-distance>
+            <min-distance>0</min-distance>
+            <max-distance>0</max-distance>
             <offset>0 4.5 0</offset>
          </world>
       </marker>
@@ -324,14 +324,14 @@
          <var-ref>Object2Name</var-ref>
          <world>
             <shape>eye</shape>
-            <min-distance> 0 </min-distance>
-            <max-distance> 0 </max-distance>
+            <min-distance>0</min-distance>
+            <max-distance>0</max-distance>
             <offset>0 3.5 0</offset>
          </world>
       </marker>
       <marker>
          MarkerForPoint1
-         <type> area </type>
+         <type>area</type>
          <var-ref>Point1Name</var-ref>
          <model>
             <path>content/Interface/Arrow/normal/lod0/arrow.model</path>
@@ -345,14 +345,14 @@
          </ground>
          <world>
             <shape>arrow</shape>
-            <min-distance> 50 </min-distance>
-            <max-distance> 60 </max-distance>
+            <min-distance>50</min-distance>
+            <max-distance>60</max-distance>
             <offset>0 9 0</offset>
          </world>
       </marker>
       <marker>
          MarkerForPoint2
-         <type> area </type>
+         <type>area</type>
          <var-ref>Point2Name</var-ref>
          <model>
             <path>content/Interface/Arrow/normal/lod0/arrow.model</path>
@@ -366,14 +366,14 @@
          </ground>
          <world>
             <shape>arrow</shape>
-            <min-distance> 50 </min-distance>
-            <max-distance> 60 </max-distance>
+            <min-distance>50</min-distance>
+            <max-distance>60</max-distance>
             <offset>0 9 0</offset>
          </world>
       </marker>
       <marker>
          MarkerForPoint3
-         <type> area </type>
+         <type>area</type>
          <var-ref>Point3Name</var-ref>
          <model>
             <path>content/Interface/Arrow/normal/lod0/arrow.model</path>
@@ -387,8 +387,8 @@
          </ground>
          <world>
             <shape>arrow</shape>
-            <min-distance> 50 </min-distance>
-            <max-distance> 60 </max-distance>
+            <min-distance>50</min-distance>
+            <max-distance>60</max-distance>
             <offset>0 9 0</offset>
          </world>
       </marker>
@@ -418,7 +418,7 @@
       <trigger>
          Bot1OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot1Name </validate-var>
+         <validate-var>Bot1Name</validate-var>
          <set-var>Bot1VehicleID</set-var>
          <on-effects>
             <activate>Bot1OnArena</activate>
@@ -430,7 +430,7 @@
       <trigger>
          Bot2OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot2Name </validate-var>
+         <validate-var>Bot2Name</validate-var>
          <set-var>Bot2VehicleID</set-var>
          <on-effects>
             <activate>Bot2OnArena</activate>
@@ -442,7 +442,7 @@
       <trigger>
          Bot3OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot3Name </validate-var>
+         <validate-var>Bot3Name</validate-var>
          <set-var>Bot3VehicleID</set-var>
          <on-effects>
             <activate>Bot3OnArena</activate>
@@ -457,7 +457,7 @@
          <validate-var>Object1Name</validate-var>
          <on-effects>
             <activate>Object1FocusOnEnabled</activate>
-            <remove-marker> MarkerForObject1 </remove-marker>
+            <remove-marker>MarkerForObject1</remove-marker>
          </on-effects>
          <off-effects></off-effects>
       </trigger>
@@ -470,23 +470,23 @@
                Object2FocusOn
                <condition>
                   <active>Object1FocusOn</active>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                </condition>
             </activate>
             <activate>
                MoveToPoint2
                <condition>
                   <active>Object1FocusOn</active>
-                  <active> InPoint1 </active>
+                  <active>InPoint1</active>
                </condition>
             </activate>
-            <remove-marker> MarkerForObject2 </remove-marker>
+            <remove-marker>MarkerForObject2</remove-marker>
          </on-effects>
          <off-effects></off-effects>
       </trigger>
       <trigger>
          Point1Trigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>Point1Name</validate-var>
          <on-effects>
             <activate>
@@ -510,13 +510,13 @@
                   </either>
                </condition>
             </inactivate>
-            <remove-marker> MarkerForObject1 </remove-marker>
-            <remove-marker> MarkerForObject2 </remove-marker>
+            <remove-marker>MarkerForObject1</remove-marker>
+            <remove-marker>MarkerForObject2</remove-marker>
          </off-effects>
       </trigger>
       <trigger>
          Point2Trigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>Point2Name</validate-var>
          <on-effects>
             <activate>
@@ -537,13 +537,13 @@
       </trigger>
       <trigger>
          Point3Trigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>Point3Name</validate-var>
          <on-effects>
             <activate>
                InPoint3
                <condition>
-                  <active> InPoint2 </active>
+                  <active>InPoint2</active>
                </condition>
             </activate>
             <remove-marker>MarkerForPoint3</remove-marker>
@@ -552,7 +552,7 @@
       </trigger>
       <trigger>
          Bot1DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot1VehicleID</validate-var>
          <on-effects>
             <activate>Bot1Destroyed</activate>
@@ -563,7 +563,7 @@
       </trigger>
       <trigger>
          Bot2DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot2VehicleID</validate-var>
          <on-effects>
             <activate>Bot2Destroyed</activate>
@@ -574,7 +574,7 @@
       </trigger>
       <trigger>
          Bot3DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot3VehicleID</validate-var>
          <on-effects>
             <activate>Bot3Destroyed</activate>
@@ -592,9 +592,9 @@
             <trigger>Point1Trigger</trigger>
             <trigger>Point2Trigger</trigger>
             <trigger>Point3Trigger</trigger>
-            <trigger> Bot1DestroyedTrigger </trigger>
-            <trigger> Bot2DestroyedTrigger </trigger>
-            <trigger> Bot3DestroyedTrigger </trigger>
+            <trigger>Bot1DestroyedTrigger</trigger>
+            <trigger>Bot2DestroyedTrigger</trigger>
+            <trigger>Bot3DestroyedTrigger</trigger>
          </includes>
       </trigger>
    </triggers>
@@ -610,9 +610,9 @@
       <var-set-ref>Point1Name</var-set-ref>
       <var-set-ref>Point2Name</var-set-ref>
       <var-set-ref>Point3Name</var-set-ref>
-      <var-set-ref> Bot1Name </var-set-ref>
-      <var-set-ref> Bot2Name </var-set-ref>
-      <var-set-ref> Bot3Name </var-set-ref>
+      <var-set-ref>Bot1Name</var-set-ref>
+      <var-set-ref>Bot2Name</var-set-ref>
+      <var-set-ref>Bot3Name</var-set-ref>
       <var-set-ref>ImagePath</var-set-ref>
       <var-set-ref>DefaultVehicleInImages</var-set-ref>
    </vars>

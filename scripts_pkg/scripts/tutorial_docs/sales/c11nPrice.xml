@@ -1,5 +1,5 @@
 <c11nPrice.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
@@ -9,7 +9,7 @@
             <show-hint>
                TuningBtnHint
                <condition>
-                  <active> TuningBtnOnScene </active>
+                  <active>TuningBtnOnScene</active>
                </condition>
             </show-hint>
             <refuse-training>
@@ -22,10 +22,10 @@
             <gui-item>
                TuningBtn
                <on-scene-effects>
-                  <activate> TuningBtnOnScene </activate>
+                  <activate>TuningBtnOnScene</activate>
                </on-scene-effects>
                <not-on-scene-effects>
-                  <inactivate> TuningBtnOnScene </inactivate>
+                  <inactivate>TuningBtnOnScene</inactivate>
                </not-on-scene-effects>
             </gui-item>
          </gui-items>
@@ -46,19 +46,19 @@
          <text>#quests:action/chain/hint/customization</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <padding>
-            <left> 251 </left>
-            <top> 251 </top>
-            <right> 253 </right>
-            <bottom> 253 </bottom>
+            <left>251</left>
+            <top>251</top>
+            <right>253</right>
+            <bottom>253</bottom>
          </padding>
          <actions>
             <click>
                TuningBtn
                <effects>
-                  <activate> TuningBtnClicked </activate>
+                  <activate>TuningBtnClicked</activate>
                </effects>
             </click>
             <click-outside>

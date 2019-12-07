@@ -1,13 +1,13 @@
 <A24_T2_med.xml>
    <xmlns:xmlref>http://bwt/xmlref</xmlns:xmlref>
    <crew>
-      <commander> radioman </commander>
+      <commander>radioman</commander>
       <gunner>loader</gunner>
       <driver></driver>
    </crew>
    <speedLimits>
-      <forward> 40 </forward>
-      <backward> 17 </backward>
+      <forward>40</forward>
+      <backward>17</backward>
    </speedLimits>
    <invisibility>
       <moving>0.135</moving>
@@ -25,22 +25,22 @@
    </camouflage>
    <hull>
       <armor>
-         <armor_1> 22 </armor_1>
-         <armor_2> 22 </armor_2>
-         <armor_3> 22 </armor_3>
-         <armor_4> 22 </armor_4>
-         <armor_5> 6 </armor_5>
-         <armor_6> 22 </armor_6>
-         <armor_7> 6 </armor_7>
-         <armor_8> 0 </armor_8>
-         <armor_9> 10 </armor_9>
+         <armor_1>22</armor_1>
+         <armor_2>22</armor_2>
+         <armor_3>22</armor_3>
+         <armor_4>22</armor_4>
+         <armor_5>6</armor_5>
+         <armor_6>22</armor_6>
+         <armor_7>6</armor_7>
+         <armor_8>0</armor_8>
+         <armor_9>10</armor_9>
       </armor>
       <primaryArmor>armor_2 armor_3 armor_4</primaryArmor>
-      <weight> 6000 </weight>
-      <maxHealth> 124 </maxHealth>
+      <weight>6000</weight>
+      <maxHealth>124</maxHealth>
       <ammoBayHealth>
-         <maxHealth> 85 </maxHealth>
-         <maxRegenHealth> 55 </maxRegenHealth>
+         <maxHealth>85</maxHealth>
+         <maxRegenHealth>55</maxRegenHealth>
          <repairCost>1.0</repairCost>
       </ammoBayHealth>
       <models>
@@ -68,14 +68,14 @@
       <hangarShadowTexture>vehicles/american/A24_T2_med/T2_med_HangarShadowMap.dds</hangarShadowTexture>
       <customization>
          <customizableVehicleAreas>
-            <paint> HULL </paint>
-            <camouflage> HULL </camouflage>
+            <paint>HULL</paint>
+            <camouflage>HULL</camouflage>
          </customizableVehicleAreas>
       </customization>
       <customizationSlots>
          <slot>
-            <slotType> clan </slotType>
-            <slotId> 10000 </slotId>
+            <slotType>clan</slotType>
+            <slotId>10000</slotId>
             <rayStart>0.0872807 0.107443 2.15743</rayStart>
             <rayEnd>0.0872807 0.107443 2.05743</rayEnd>
             <rayUp>0.000000 1 0.000000</rayUp>
@@ -85,9 +85,9 @@
          </slot>
          <slot>
             <slotType>inscription</slotType>
-            <slotId> 14000 </slotId>
+            <slotId>14000</slotId>
             <rayStart>1.0483 0.775769 -0.969447</rayStart>
-            <rayEnd> 0.448299 0.775769 -0.969447 </rayEnd>
+            <rayEnd>0.448299 0.775769 -0.969447</rayEnd>
             <rayUp>0.000000 1 0.000000</rayUp>
             <size>0.82</size>
             <hideIfDamaged> true </hideIfDamaged>
@@ -95,7 +95,7 @@
          </slot>
          <slot>
             <slotType>inscription</slotType>
-            <slotId> 14001 </slotId>
+            <slotId>14001</slotId>
             <rayStart>-1.51367 0.707817 -0.0335708</rayStart>
             <rayEnd>-0.913667 0.707817 -0.0335708</rayEnd>
             <rayUp>0.000000 1 0.000000</rayUp>
@@ -105,15 +105,15 @@
          </slot>
          <slot>
             <slotType>camouflage</slotType>
-            <slotId> 12000 </slotId>
+            <slotId>12000</slotId>
             <anchorPosition>0.000000 0.52223 1.25954</anchorPosition>
-            <anchorDirection> 0 0.383003 0.923747 </anchorDirection>
+            <anchorDirection>0 0.383003 0.923747</anchorDirection>
          </slot>
          <slot>
             <slotType>paint</slotType>
-            <slotId> 11000 </slotId>
+            <slotId>11000</slotId>
             <anchorPosition>0.000000 0.52223 1.25954</anchorPosition>
-            <anchorDirection> 0 0.383003 0.923747 </anchorDirection>
+            <anchorDirection>0 0.383003 0.923747</anchorDirection>
          </slot>
       </customizationSlots>
       <camouflage>
@@ -125,31 +125,31 @@
       <T2E1>
          <userString>#usa_vehicles:T2E1</userString>
          <tags></tags>
-         <level> 1 </level>
-         <price> 340 </price>
+         <level>1</level>
+         <price>340</price>
          <unlocks>
             <chassis>
                T2E4
-               <cost> 110 </cost>
+               <cost>110</cost>
             </chassis>
          </unlocks>
          <armor>
-            <leftTrack> 10 </leftTrack>
-            <rightTrack> 10 </rightTrack>
+            <leftTrack>10</leftTrack>
+            <rightTrack>10</rightTrack>
          </armor>
-         <weight> 4300 </weight>
-         <maxLoad> 15600 </maxLoad>
+         <weight>4300</weight>
+         <maxLoad>15600</maxLoad>
          <terrainResistance>1 1.4 2.7</terrainResistance>
-         <brakeForce> 34500 </brakeForce>
+         <brakeForce>34500</brakeForce>
          <rotationIsAroundCenter> false </rotationIsAroundCenter>
-         <rotationSpeed> 38 </rotationSpeed>
+         <rotationSpeed>38</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.27</vehicleMovement>
             <vehicleRotation>0.27</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 50 </maxHealth>
-         <maxRegenHealth> 40 </maxRegenHealth>
+         <maxHealth>50</maxHealth>
+         <maxRegenHealth>40</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/american/A24_T2_med/normal/lod0/Chassis.model</undamaged>
@@ -174,15 +174,15 @@
                <isLeft> true </isLeft>
                <template>W_L</template>
                <radius>0.19</radius>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
             </group>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
                <radius>0.19</radius>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
@@ -195,8 +195,8 @@
                <isLeft> true </isLeft>
                <template>WD_L</template>
                <radius>0.16</radius>
-               <startIndex> 1 </startIndex>
-               <count> 4 </count>
+               <startIndex>1</startIndex>
+               <count>4</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
@@ -216,8 +216,8 @@
                <isLeft> false </isLeft>
                <template>WD_R</template>
                <radius>0.16</radius>
-               <startIndex> 1 </startIndex>
-               <count> 4 </count>
+               <startIndex>1</startIndex>
+               <count>4</count>
             </group>
             <wheel>
                <isLeft> false </isLeft>
@@ -230,36 +230,36 @@
          <drivingWheels>WD_L0 WD_L5</drivingWheels>
          <effects>
             <lodDist>MEDIUM</lodDist>
-            <mud> smallTankMud </mud>
+            <mud>smallTankMud</mud>
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-         <hullPosition> 0 0.937829 0 </hullPosition>
+         <hullPosition>0 0.937829 0</hullPosition>
          <hitTester>
             <collisionModelServer>vehicles/american/A24_T2_med/collision/Chassis.model</collisionModelServer>
             <collisionModelClient>vehicles/american/A24_T2_med/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.00181 1.46564</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <AODecals>
             <decal>
-               <transform> 3.46364 -0 0 -0 1.24941 -0 0 0 5.79899 -0 -0 0 </transform>
+               <transform>3.46364 -0 0 -0 1.24941 -0 0 0 5.79899 -0 -0 0</transform>
             </decal>
          </AODecals>
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
                <isLeft> true </isLeft>
                <minOffset>-0.1</minOffset>
                <maxOffset>0.07</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
                <isLeft> false </isLeft>
                <minOffset>-0.1</minOffset>
                <maxOffset>0.07</maxOffset>
@@ -274,8 +274,8 @@
             <segmentOffset>0.243</segmentOffset>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <trackNodes>
@@ -283,9 +283,9 @@
             <linkBones> false </linkBones>
             <maxAmplitude>0.1</maxAmplitude>
             <maxOffset>0.1</maxOffset>
-            <gravity> 247 </gravity>
-            <elasticity> 1083 </elasticity>
-            <damping> 2 </damping>
+            <gravity>247</gravity>
+            <elasticity>1083</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> false </isLeft>
                <name>Track_VT_R0</name>
@@ -325,7 +325,7 @@
                <isLeft> false </isLeft>
                <name>Track_VT_R4</name>
                <forwardElastK>0.9</forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <backwardElastK>2</backwardElastK>
                <offset>-0.099</offset>
             </node>
             <node>
@@ -353,7 +353,7 @@
                <isLeft> true </isLeft>
                <name>Track_VT_L4</name>
                <forwardElastK>0.9</forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <backwardElastK>2</backwardElastK>
                <offset>-0.099</offset>
             </node>
             <node>
@@ -385,30 +385,30 @@
                <offset>-0.03</offset>
             </node>
          </trackNodes>
-         <trackThickness> 0 </trackThickness>
+         <trackThickness>0</trackThickness>
          <physicalTracks>
             <left>
-               <segmentsCount> 76 </segmentsCount>
+               <segmentsCount>76</segmentsCount>
                <segmentsOuterThickness>0.06</segmentsOuterThickness>
                <segmentsInnerThickness>-0.09</segmentsInnerThickness>
                <segmentsPlaneOffset>-1.00181</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.141963 </back>
-                     <top> 0.124463 </top>
-                     <front> 0.131944 </front>
-                     <bottom> 0.122179 </bottom>
+                     <back>0.141963</back>
+                     <top>0.124463</top>
+                     <front>0.131944</front>
+                     <bottom>0.122179</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.131249 </back>
-                     <top> 0.139122 </top>
-                     <front> 0.140604 </front>
-                     <bottom> 0.122179 </bottom>
+                     <back>0.131249</back>
+                     <top>0.139122</top>
+                     <front>0.140604</front>
+                     <bottom>0.122179</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/american/A24_T2_med/track/A24_T2_med.model</model>
-                  <length> 0.141043 </length>
+                  <length>0.141043</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -435,7 +435,7 @@
                         <ySamples>1.34197 1.37148 1.3787 1.37915 1.37961 1.38006 1.38034 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415</ySamples>
                      </part>
                      <part>
-                        <xStart> -0.502364 </xStart>
+                        <xStart>-0.502364</xStart>
                         <xStep>0.0705216</xStep>
                         <ySamples>1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.38448 1.38415 1.38382 1.38349 1.38316 1.38282 1.38249 1.38216 1.38183 1.3815 1.38117 1.38083 1.3805 1.38017 1.36219 1.37488 1.36839 1.3619 1.35541 1.33985 1.32431 1.30865 1.28923</ySamples>
                      </part>
@@ -462,35 +462,35 @@
                      <wheelName>WD_L0</wheelName>
                      <basePos>2.22969 0.717541</basePos>
                      <shiftVec>0.312182 0.0963321</shiftVec>
-                     <jointIdx> 10 </jointIdx>
+                     <jointIdx>10</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L5</wheelName>
                      <basePos>-1.8784 0.636447</basePos>
-                     <shiftVec> -0.337976 0.100259 </shiftVec>
-                     <jointIdx> 46 </jointIdx>
+                     <shiftVec>-0.337976 0.100259</shiftVec>
+                     <jointIdx>46</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L11</wheelName>
                      <basePos>-1.49169 0.151559</basePos>
                      <shiftVec>0.00708663 -0.104542</shiftVec>
-                     <jointIdx> 54 </jointIdx>
+                     <jointIdx>54</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>1.51771 0.151552</basePos>
                      <shiftVec>0.0111876 -0.103942</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_L5</name>
-                     <radius> 0.351403 </radius>
+                     <radius>0.351403</radius>
                   </wheel>
                   <wheel>
                      <name>WD_L0</name>
-                     <radius> 0.325487 </radius>
+                     <radius>0.325487</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -499,12 +499,12 @@
                   <sync>
                      <name>WD_L5</name>
                      <startAngle>-21.703</startAngle>
-                     <teethCount> 14 </teethCount>
+                     <teethCount>14</teethCount>
                   </sync>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-25.025</startAngle>
-                     <teethCount> 14 </teethCount>
+                     <teethCount>14</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -582,19 +582,19 @@
                         <point>-1.11146 0.975873 -1.20747</point>
                         <point>-1.11146 0.997961 -1.13695</point>
                         <point>-1.12146 0.844006 -1.06643</point>
-                        <point> -0.941456 0.830849 -0.995907 </point>
+                        <point>-0.941456 0.830849 -0.995907</point>
                         <point>-0.941456 0.82371 -0.925385</point>
-                        <point> -0.941456 0.823615 -0.854864 </point>
+                        <point>-0.941456 0.823615 -0.854864</point>
                         <point>-0.941457 0.82352 -0.784342</point>
                         <point>-1.03146 0.869745 -0.713821</point>
-                        <point> -0.941457 0.823331 -0.643299 </point>
-                        <point> -0.941458 0.830851 -0.572777 </point>
+                        <point>-0.941457 0.823331 -0.643299</point>
+                        <point>-0.941458 0.830851 -0.572777</point>
                         <point>-1.12146 0.85094 -0.502257</point>
                         <point>-1.11146 0.999643 -0.431735</point>
                         <point>-1.11146 0.967485 -0.361214</point>
-                        <point> -0.941458 0.822857 -0.290691 </point>
+                        <point>-0.941458 0.822857 -0.290691</point>
                         <point>-1.00146 0.859197 -0.22017</point>
-                        <point> -0.941459 0.822668 -0.149648 </point>
+                        <point>-0.941459 0.822668 -0.149648</point>
                         <point>-0.941459 0.830853 -0.0791264</point>
                         <point>-0.941459 0.830853 -0.00860452</point>
                         <point>-0.94146 0.830854 0.0619173</point>
@@ -602,12 +602,12 @@
                         <point>-0.94146 0.830854 0.20296</point>
                         <point>-0.94146 0.8221 0.273482</point>
                         <point>-1.01146 0.86975 0.344003</point>
-                        <point> -0.941461 0.830855 0.414525 </point>
+                        <point>-0.941461 0.830855 0.414525</point>
                         <point>-1.12147 1.00149 0.485046</point>
                         <point>-1.12146 0.861883 0.555568</point>
                         <point>-0.941462 0.830856 0.62609</point>
-                        <point> -0.941462 0.821808 0.696611 </point>
-                        <point> -0.941462 0.821809 0.767133 </point>
+                        <point>-0.941462 0.821808 0.696611</point>
+                        <point>-0.941462 0.821809 0.767133</point>
                         <point>-1.00146 0.869753 0.837655</point>
                         <point>-1.02146 0.834745 0.908176</point>
                         <point>-1.02146 0.834752 0.978698</point>
@@ -634,27 +634,27 @@
                </sourceCollisionHullPoints>
             </left>
             <right>
-               <segmentsCount> 76 </segmentsCount>
+               <segmentsCount>76</segmentsCount>
                <segmentsOuterThickness>0.06</segmentsOuterThickness>
                <segmentsInnerThickness>-0.09</segmentsInnerThickness>
                <segmentsPlaneOffset>1.00181</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.141963 </back>
-                     <top> 0.124463 </top>
-                     <front> 0.131944 </front>
-                     <bottom> 0.122179 </bottom>
+                     <back>0.141963</back>
+                     <top>0.124463</top>
+                     <front>0.131944</front>
+                     <bottom>0.122179</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.131249 </back>
-                     <top> 0.139122 </top>
-                     <front> 0.140604 </front>
-                     <bottom> 0.122179 </bottom>
+                     <back>0.131249</back>
+                     <top>0.139122</top>
+                     <front>0.140604</front>
+                     <bottom>0.122179</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/american/A24_T2_med/track/A24_T2_med.model</model>
-                  <length> 0.141041 </length>
+                  <length>0.141041</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -703,35 +703,35 @@
                      <wheelName>WD_R0</wheelName>
                      <basePos>2.22969 0.717541</basePos>
                      <shiftVec>0.312192 0.0963323</shiftVec>
-                     <jointIdx> 10 </jointIdx>
+                     <jointIdx>10</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R5</wheelName>
                      <basePos>-1.8784 0.636447</basePos>
-                     <shiftVec> -0.337972 0.100249 </shiftVec>
-                     <jointIdx> 46 </jointIdx>
+                     <shiftVec>-0.337972 0.100249</shiftVec>
+                     <jointIdx>46</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R11</wheelName>
                      <basePos>-1.49169 0.151523</basePos>
                      <shiftVec>0.0070914 -0.104542</shiftVec>
-                     <jointIdx> 54 </jointIdx>
+                     <jointIdx>54</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>1.51771 0.151516</basePos>
                      <shiftVec>0.0112064 -0.10394</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_R5</name>
-                     <radius> 0.351396 </radius>
+                     <radius>0.351396</radius>
                   </wheel>
                   <wheel>
                      <name>WD_R0</name>
-                     <radius> 0.325496 </radius>
+                     <radius>0.325496</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -740,12 +740,12 @@
                   <sync>
                      <name>WD_R5</name>
                      <startAngle>-21.7036</startAngle>
-                     <teethCount> 14 </teethCount>
+                     <teethCount>14</teethCount>
                   </sync>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-25.0252</startAngle>
-                     <teethCount> 14 </teethCount>
+                     <teethCount>14</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -822,30 +822,30 @@
                         <point>1.11152 0.998077 -1.137</point>
                         <point>1.12153 0.839324 -1.06647</point>
                         <point>0.941528 0.83092 -0.995954</point>
-                        <point> 0.941528 0.823781 -0.925433 </point>
-                        <point> 0.941528 0.823686 -0.854912 </point>
-                        <point> 0.941528 0.823591 -0.784392 </point>
-                        <point> 0.981526 0.869821 -0.713871 </point>
+                        <point>0.941528 0.823781 -0.925433</point>
+                        <point>0.941528 0.823686 -0.854912</point>
+                        <point>0.941528 0.823591 -0.784392</point>
+                        <point>0.981526 0.869821 -0.713871</point>
                         <point>0.941527 0.823402 -0.64335</point>
-                        <point> 0.941527 0.830922 -0.572829 </point>
+                        <point>0.941527 0.830922 -0.572829</point>
                         <point>1.12153 0.85087 -0.502308</point>
                         <point>1.11152 0.999689 -0.431788</point>
                         <point>1.11152 0.967762 -0.361267</point>
-                        <point> 0.941526 0.822928 -0.290746 </point>
+                        <point>0.941526 0.822928 -0.290746</point>
                         <point>1.00152 0.85966 -0.220225</point>
-                        <point> 0.941525 0.822739 -0.149705 </point>
+                        <point>0.941525 0.822739 -0.149705</point>
                         <point>0.941525 0.830924 -0.0791843</point>
                         <point>0.941525 0.830924 -0.00866341</point>
                         <point>0.941524 0.830925 0.0618575</point>
-                        <point> 0.941524 0.830925 0.132378 </point>
-                        <point> 0.941524 0.830925 0.202899 </point>
+                        <point>0.941524 0.830925 0.132378</point>
+                        <point>0.941524 0.830925 0.202899</point>
                         <point>0.941524 0.822171 0.27342</point>
-                        <point> 0.991522 0.869826 0.343941 </point>
-                        <point> 0.941523 0.830926 0.414461 </point>
+                        <point>0.991522 0.869826 0.343941</point>
+                        <point>0.941523 0.830926 0.414461</point>
                         <point>1.11152 1.0016 0.484982</point>
                         <point>1.12152 0.862155 0.555503</point>
-                        <point> 0.941522 0.830927 0.626023 </point>
-                        <point> 0.941523 0.821879 0.696544 </point>
+                        <point>0.941522 0.830927 0.626023</point>
+                        <point>0.941523 0.821879 0.696544</point>
                         <point>0.941522 0.82188 0.767065</point>
                         <point>1.00152 0.869828 0.837586</point>
                         <point>1.02152 0.834822 0.908106</point>
@@ -882,40 +882,40 @@
          <customizationSlots>
             <slot>
                <slotType>style</slotType>
-               <slotId> 29000 </slotId>
+               <slotId>29000</slotId>
                <anchorPosition>0.000890523 2.66604 -0.601182</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 21000 </slotId>
+               <slotId>21000</slotId>
                <anchorPosition>-1.18783 0.55365 0.16305</anchorPosition>
-               <anchorDirection> -0.899444 0.419233 0.123464 </anchorDirection>
+               <anchorDirection>-0.899444 0.419233 0.123464</anchorDirection>
             </slot>
          </customizationSlots>
       </T2E1>
       <T2E4>
          <userString>#usa_vehicles:T2E4</userString>
          <tags></tags>
-         <level> 2 </level>
-         <price> 650 </price>
+         <level>2</level>
+         <price>650</price>
          <armor>
-            <leftTrack> 10 </leftTrack>
-            <rightTrack> 10 </rightTrack>
+            <leftTrack>10</leftTrack>
+            <rightTrack>10</rightTrack>
          </armor>
-         <weight> 4300 </weight>
-         <maxLoad> 16200 </maxLoad>
+         <weight>4300</weight>
+         <maxLoad>16200</maxLoad>
          <terrainResistance>0.9 1.2 2.3</terrainResistance>
-         <brakeForce> 34500 </brakeForce>
+         <brakeForce>34500</brakeForce>
          <rotationIsAroundCenter> false </rotationIsAroundCenter>
-         <rotationSpeed> 40 </rotationSpeed>
+         <rotationSpeed>40</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.25</vehicleMovement>
             <vehicleRotation>0.25</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 60 </maxHealth>
-         <maxRegenHealth> 45 </maxRegenHealth>
+         <maxHealth>60</maxHealth>
+         <maxRegenHealth>45</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/american/A24_T2_med/normal/lod0/Chassis.model</undamaged>
@@ -940,15 +940,15 @@
                <isLeft> true </isLeft>
                <template>W_L</template>
                <radius>0.19</radius>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
             </group>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
                <radius>0.19</radius>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
@@ -961,8 +961,8 @@
                <isLeft> true </isLeft>
                <template>WD_L</template>
                <radius>0.16</radius>
-               <startIndex> 1 </startIndex>
-               <count> 4 </count>
+               <startIndex>1</startIndex>
+               <count>4</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
@@ -982,8 +982,8 @@
                <isLeft> false </isLeft>
                <template>WD_R</template>
                <radius>0.16</radius>
-               <startIndex> 1 </startIndex>
-               <count> 4 </count>
+               <startIndex>1</startIndex>
+               <count>4</count>
             </group>
             <wheel>
                <isLeft> false </isLeft>
@@ -996,36 +996,36 @@
          <drivingWheels>WD_L0 WD_L5</drivingWheels>
          <effects>
             <lodDist>MEDIUM</lodDist>
-            <mud> smallTankMud </mud>
+            <mud>smallTankMud</mud>
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-         <hullPosition> 0 0.937829 0 </hullPosition>
+         <hullPosition>0 0.937829 0</hullPosition>
          <hitTester>
             <collisionModelServer>vehicles/american/A24_T2_med/collision/Chassis.model</collisionModelServer>
             <collisionModelClient>vehicles/american/A24_T2_med/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>1.00181 1.46564</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <AODecals>
             <decal>
-               <transform> 3.46507 -0 0 -0 1.24941 0 0 -0 5.79899 -0 0 0 </transform>
+               <transform>3.46507 -0 0 -0 1.24941 0 0 -0 5.79899 -0 0 0</transform>
             </decal>
          </AODecals>
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
                <isLeft> true </isLeft>
                <minOffset>-0.1</minOffset>
                <maxOffset>0.07</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 12 </count>
+               <startIndex>0</startIndex>
+               <count>12</count>
                <isLeft> false </isLeft>
                <minOffset>-0.1</minOffset>
                <maxOffset>0.07</maxOffset>
@@ -1040,8 +1040,8 @@
             <segmentOffset>0.243</segmentOffset>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <trackNodes>
@@ -1049,9 +1049,9 @@
             <linkBones> false </linkBones>
             <maxAmplitude>0.01</maxAmplitude>
             <maxOffset>0.01</maxOffset>
-            <gravity> 247 </gravity>
-            <elasticity> 757 </elasticity>
-            <damping> 2 </damping>
+            <gravity>247</gravity>
+            <elasticity>757</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VT_L0</name>
@@ -1070,7 +1070,7 @@
                <isLeft> true </isLeft>
                <name>Track_VT_L1</name>
                <forwardElastK>0.83</forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <backwardElastK>2</backwardElastK>
                <offset>-0.064</offset>
             </node>
             <node>
@@ -1084,7 +1084,7 @@
                <isLeft> true </isLeft>
                <name>Track_VT_L3</name>
                <forwardElastK>0.8</forwardElastK>
-               <backwardElastK> 3 </backwardElastK>
+               <backwardElastK>3</backwardElastK>
                <offset>-0.064</offset>
             </node>
             <node>
@@ -1098,7 +1098,7 @@
                <isLeft> false </isLeft>
                <name>Track_VT_R1</name>
                <forwardElastK>0.83</forwardElastK>
-               <backwardElastK> 2 </backwardElastK>
+               <backwardElastK>2</backwardElastK>
                <offset>-0.064</offset>
             </node>
             <node>
@@ -1112,7 +1112,7 @@
                <isLeft> false </isLeft>
                <name>Track_VT_R3</name>
                <forwardElastK>0.8</forwardElastK>
-               <backwardElastK> 3 </backwardElastK>
+               <backwardElastK>3</backwardElastK>
                <offset>-0.064</offset>
             </node>
             <node>
@@ -1151,30 +1151,30 @@
                <offset>-0.03</offset>
             </node>
          </trackNodes>
-         <trackThickness> 0 </trackThickness>
+         <trackThickness>0</trackThickness>
          <physicalTracks>
             <left>
-               <segmentsCount> 76 </segmentsCount>
+               <segmentsCount>76</segmentsCount>
                <segmentsOuterThickness>0.06</segmentsOuterThickness>
                <segmentsInnerThickness>-0.09</segmentsInnerThickness>
                <segmentsPlaneOffset>-1.00181</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.141963 </back>
-                     <top> 0.124463 </top>
-                     <front> 0.131944 </front>
-                     <bottom> 0.122179 </bottom>
+                     <back>0.141963</back>
+                     <top>0.124463</top>
+                     <front>0.131944</front>
+                     <bottom>0.122179</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.131249 </back>
-                     <top> 0.139122 </top>
-                     <front> 0.140604 </front>
-                     <bottom> 0.122179 </bottom>
+                     <back>0.131249</back>
+                     <top>0.139122</top>
+                     <front>0.140604</front>
+                     <bottom>0.122179</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/american/A24_T2_med/track/A24_T2_med.model</model>
-                  <length> 0.141043 </length>
+                  <length>0.141043</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -1201,7 +1201,7 @@
                         <ySamples>1.34197 1.37148 1.3787 1.37915 1.37961 1.38006 1.38034 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415 1.28415</ySamples>
                      </part>
                      <part>
-                        <xStart> -0.502364 </xStart>
+                        <xStart>-0.502364</xStart>
                         <xStep>0.0705216</xStep>
                         <ySamples>1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.29265 1.38448 1.38415 1.38382 1.38349 1.38316 1.38282 1.38249 1.38216 1.38183 1.3815 1.38117 1.38083 1.3805 1.38017 1.36219 1.37488 1.36839 1.3619 1.35541 1.33985 1.32431 1.30865 1.28923</ySamples>
                      </part>
@@ -1228,35 +1228,35 @@
                      <wheelName>WD_L0</wheelName>
                      <basePos>2.22969 0.717541</basePos>
                      <shiftVec>0.312182 0.0963321</shiftVec>
-                     <jointIdx> 10 </jointIdx>
+                     <jointIdx>10</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L5</wheelName>
                      <basePos>-1.8784 0.636447</basePos>
-                     <shiftVec> -0.337976 0.100259 </shiftVec>
-                     <jointIdx> 46 </jointIdx>
+                     <shiftVec>-0.337976 0.100259</shiftVec>
+                     <jointIdx>46</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L11</wheelName>
                      <basePos>-1.49169 0.151559</basePos>
                      <shiftVec>0.00708663 -0.104542</shiftVec>
-                     <jointIdx> 54 </jointIdx>
+                     <jointIdx>54</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>1.51771 0.151552</basePos>
                      <shiftVec>0.0111876 -0.103942</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_L5</name>
-                     <radius> 0.351403 </radius>
+                     <radius>0.351403</radius>
                   </wheel>
                   <wheel>
                      <name>WD_L0</name>
-                     <radius> 0.325487 </radius>
+                     <radius>0.325487</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -1265,12 +1265,12 @@
                   <sync>
                      <name>WD_L5</name>
                      <startAngle>-21.703</startAngle>
-                     <teethCount> 14 </teethCount>
+                     <teethCount>14</teethCount>
                   </sync>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-25.025</startAngle>
-                     <teethCount> 14 </teethCount>
+                     <teethCount>14</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -1348,19 +1348,19 @@
                         <point>-1.11146 0.975873 -1.20747</point>
                         <point>-1.11146 0.997961 -1.13695</point>
                         <point>-1.12146 0.844006 -1.06643</point>
-                        <point> -0.941456 0.830849 -0.995907 </point>
+                        <point>-0.941456 0.830849 -0.995907</point>
                         <point>-0.941456 0.82371 -0.925385</point>
-                        <point> -0.941456 0.823615 -0.854864 </point>
+                        <point>-0.941456 0.823615 -0.854864</point>
                         <point>-0.941457 0.82352 -0.784342</point>
                         <point>-1.03146 0.869745 -0.713821</point>
-                        <point> -0.941457 0.823331 -0.643299 </point>
-                        <point> -0.941458 0.830851 -0.572777 </point>
+                        <point>-0.941457 0.823331 -0.643299</point>
+                        <point>-0.941458 0.830851 -0.572777</point>
                         <point>-1.12146 0.85094 -0.502257</point>
                         <point>-1.11146 0.999643 -0.431735</point>
                         <point>-1.11146 0.967485 -0.361214</point>
-                        <point> -0.941458 0.822857 -0.290691 </point>
+                        <point>-0.941458 0.822857 -0.290691</point>
                         <point>-1.00146 0.859197 -0.22017</point>
-                        <point> -0.941459 0.822668 -0.149648 </point>
+                        <point>-0.941459 0.822668 -0.149648</point>
                         <point>-0.941459 0.830853 -0.0791264</point>
                         <point>-0.941459 0.830853 -0.00860452</point>
                         <point>-0.94146 0.830854 0.0619173</point>
@@ -1368,12 +1368,12 @@
                         <point>-0.94146 0.830854 0.20296</point>
                         <point>-0.94146 0.8221 0.273482</point>
                         <point>-1.01146 0.86975 0.344003</point>
-                        <point> -0.941461 0.830855 0.414525 </point>
+                        <point>-0.941461 0.830855 0.414525</point>
                         <point>-1.12147 1.00149 0.485046</point>
                         <point>-1.12146 0.861883 0.555568</point>
                         <point>-0.941462 0.830856 0.62609</point>
-                        <point> -0.941462 0.821808 0.696611 </point>
-                        <point> -0.941462 0.821809 0.767133 </point>
+                        <point>-0.941462 0.821808 0.696611</point>
+                        <point>-0.941462 0.821809 0.767133</point>
                         <point>-1.00146 0.869753 0.837655</point>
                         <point>-1.02146 0.834745 0.908176</point>
                         <point>-1.02146 0.834752 0.978698</point>
@@ -1400,27 +1400,27 @@
                </sourceCollisionHullPoints>
             </left>
             <right>
-               <segmentsCount> 76 </segmentsCount>
+               <segmentsCount>76</segmentsCount>
                <segmentsOuterThickness>0.06</segmentsOuterThickness>
                <segmentsInnerThickness>-0.09</segmentsInnerThickness>
                <segmentsPlaneOffset>1.00181</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.141963 </back>
-                     <top> 0.124463 </top>
-                     <front> 0.131944 </front>
-                     <bottom> 0.122179 </bottom>
+                     <back>0.141963</back>
+                     <top>0.124463</top>
+                     <front>0.131944</front>
+                     <bottom>0.122179</bottom>
                   </backwardMovement>
                   <forwardMovement>
-                     <back> 0.131249 </back>
-                     <top> 0.139122 </top>
-                     <front> 0.140604 </front>
-                     <bottom> 0.122179 </bottom>
+                     <back>0.131249</back>
+                     <top>0.139122</top>
+                     <front>0.140604</front>
+                     <bottom>0.122179</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/american/A24_T2_med/track/A24_T2_med.model</model>
-                  <length> 0.141041 </length>
+                  <length>0.141041</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -1469,35 +1469,35 @@
                      <wheelName>WD_R0</wheelName>
                      <basePos>2.22969 0.717541</basePos>
                      <shiftVec>0.312192 0.0963323</shiftVec>
-                     <jointIdx> 10 </jointIdx>
+                     <jointIdx>10</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R5</wheelName>
                      <basePos>-1.8784 0.636447</basePos>
-                     <shiftVec> -0.337972 0.100249 </shiftVec>
-                     <jointIdx> 46 </jointIdx>
+                     <shiftVec>-0.337972 0.100249</shiftVec>
+                     <jointIdx>46</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R11</wheelName>
                      <basePos>-1.49169 0.151523</basePos>
                      <shiftVec>0.0070914 -0.104542</shiftVec>
-                     <jointIdx> 54 </jointIdx>
+                     <jointIdx>54</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>1.51771 0.151516</basePos>
                      <shiftVec>0.0112064 -0.10394</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_R5</name>
-                     <radius> 0.351396 </radius>
+                     <radius>0.351396</radius>
                   </wheel>
                   <wheel>
                      <name>WD_R0</name>
-                     <radius> 0.325496 </radius>
+                     <radius>0.325496</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -1506,12 +1506,12 @@
                   <sync>
                      <name>WD_R5</name>
                      <startAngle>-21.7036</startAngle>
-                     <teethCount> 14 </teethCount>
+                     <teethCount>14</teethCount>
                   </sync>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-25.0252</startAngle>
-                     <teethCount> 14 </teethCount>
+                     <teethCount>14</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -1588,30 +1588,30 @@
                         <point>1.11152 0.998077 -1.137</point>
                         <point>1.12153 0.839324 -1.06647</point>
                         <point>0.941528 0.83092 -0.995954</point>
-                        <point> 0.941528 0.823781 -0.925433 </point>
-                        <point> 0.941528 0.823686 -0.854912 </point>
-                        <point> 0.941528 0.823591 -0.784392 </point>
-                        <point> 0.981526 0.869821 -0.713871 </point>
+                        <point>0.941528 0.823781 -0.925433</point>
+                        <point>0.941528 0.823686 -0.854912</point>
+                        <point>0.941528 0.823591 -0.784392</point>
+                        <point>0.981526 0.869821 -0.713871</point>
                         <point>0.941527 0.823402 -0.64335</point>
-                        <point> 0.941527 0.830922 -0.572829 </point>
+                        <point>0.941527 0.830922 -0.572829</point>
                         <point>1.12153 0.85087 -0.502308</point>
                         <point>1.11152 0.999689 -0.431788</point>
                         <point>1.11152 0.967762 -0.361267</point>
-                        <point> 0.941526 0.822928 -0.290746 </point>
+                        <point>0.941526 0.822928 -0.290746</point>
                         <point>1.00152 0.85966 -0.220225</point>
-                        <point> 0.941525 0.822739 -0.149705 </point>
+                        <point>0.941525 0.822739 -0.149705</point>
                         <point>0.941525 0.830924 -0.0791843</point>
                         <point>0.941525 0.830924 -0.00866341</point>
                         <point>0.941524 0.830925 0.0618575</point>
-                        <point> 0.941524 0.830925 0.132378 </point>
-                        <point> 0.941524 0.830925 0.202899 </point>
+                        <point>0.941524 0.830925 0.132378</point>
+                        <point>0.941524 0.830925 0.202899</point>
                         <point>0.941524 0.822171 0.27342</point>
-                        <point> 0.991522 0.869826 0.343941 </point>
-                        <point> 0.941523 0.830926 0.414461 </point>
+                        <point>0.991522 0.869826 0.343941</point>
+                        <point>0.941523 0.830926 0.414461</point>
                         <point>1.11152 1.0016 0.484982</point>
                         <point>1.12152 0.862155 0.555503</point>
-                        <point> 0.941522 0.830927 0.626023 </point>
-                        <point> 0.941523 0.821879 0.696544 </point>
+                        <point>0.941522 0.830927 0.626023</point>
+                        <point>0.941523 0.821879 0.696544</point>
                         <point>0.941522 0.82188 0.767065</point>
                         <point>1.00152 0.869828 0.837586</point>
                         <point>1.02152 0.834822 0.908106</point>
@@ -1648,15 +1648,15 @@
          <customizationSlots>
             <slot>
                <slotType>style</slotType>
-               <slotId> 29000 </slotId>
+               <slotId>29000</slotId>
                <anchorPosition>0.000890523 2.66604 -0.601182</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 21000 </slotId>
+               <slotId>21000</slotId>
                <anchorPosition>-1.18783 0.55365 0.16305</anchorPosition>
-               <anchorDirection> -0.899444 0.419233 0.123464 </anchorDirection>
+               <anchorDirection>-0.899444 0.419233 0.123464</anchorDirection>
             </slot>
          </customizationSlots>
       </T2E4>
@@ -1665,32 +1665,32 @@
       <T2T1>
          <userString>#usa_vehicles:T2T1</userString>
          <tags></tags>
-         <level> 1 </level>
-         <price> 500 </price>
+         <level>1</level>
+         <price>500</price>
          <armor>
-            <armor_1> 0 </armor_1>
-            <armor_2> 22 </armor_2>
-            <armor_3> 22 </armor_3>
-            <armor_4> 22 </armor_4>
-            <armor_5> 22 </armor_5>
-            <armor_6> 6 </armor_6>
-            <armor_7> 10 </armor_7>
-            <armor_8> 0 </armor_8>
-            <armor_9> 10 </armor_9>
+            <armor_1>0</armor_1>
+            <armor_2>22</armor_2>
+            <armor_3>22</armor_3>
+            <armor_4>22</armor_4>
+            <armor_5>22</armor_5>
+            <armor_6>6</armor_6>
+            <armor_7>10</armor_7>
+            <armor_8>0</armor_8>
+            <armor_9>10</armor_9>
          </armor>
          <primaryArmor>armor_2 armor_3 armor_4</primaryArmor>
-         <weight> 860 </weight>
-         <maxHealth> 31 </maxHealth>
-         <rotationSpeed> 34 </rotationSpeed>
+         <weight>860</weight>
+         <maxHealth>31</maxHealth>
+         <rotationSpeed>34</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 60 </maxHealth>
-            <maxRegenHealth> 30 </maxRegenHealth>
+            <maxHealth>60</maxHealth>
+            <maxRegenHealth>30</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 300 </circularVisionRadius>
+         <circularVisionRadius>300</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 40 </maxHealth>
-            <maxRegenHealth> 20 </maxRegenHealth>
+            <maxHealth>40</maxHealth>
+            <maxRegenHealth>20</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
@@ -1703,11 +1703,11 @@
                <unlocks>
                   <turret>
                      T2T2
-                     <cost> 115 </cost>
+                     <cost>115</cost>
                   </turret>
                   <gun>
                      _20mm_Hispano_Suiza_Birgikt_gun
-                     <cost> 140 </cost>
+                     <cost>140</cost>
                   </gun>
                </unlocks>
                <armor>
@@ -1723,9 +1723,9 @@
                      0
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_3>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
-               <maxAmmo> 110 </maxAmmo>
+               <maxAmmo>110</maxAmmo>
                <reloadTime>5.7</reloadTime>
                <aimingTime>1.7</aimingTime>
                <shotDispersionFactors>
@@ -1753,24 +1753,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.00299421 0.00583139 0.592356</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.00300262 0.00609493 0.809084</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.196505 0.196506 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.196505 0.196506</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1785,7 +1785,7 @@
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 10 1 10</maxPitch>
                </pitchLimits>
-               <maxAmmo> 1200 </maxAmmo>
+               <maxAmmo>1200</maxAmmo>
                <armor>
                   <armor_1>
                      22
@@ -1795,7 +1795,7 @@
                      0
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_3>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <reloadTime>7.3</reloadTime>
                <shotDispersionFactors>
@@ -1824,24 +1824,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.00238605 0.00684401 0.952125</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.00238605 0.00684401 0.952125</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.196506 0.196506 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.196506 0.196506</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1860,7 +1860,7 @@
             <collisionModelServer>vehicles/american/A24_T2_med/collision/Turret_01.model</collisionModelServer>
             <collisionModelClient>vehicles/american/A24_T2_med/collision_client/Turret_01.model</collisionModelClient>
          </hitTester>
-         <gunPosition> -0.000676999 0.360255 0.766947 </gunPosition>
+         <gunPosition>-0.000677 0.360255 0.766947</gunPosition>
          <showEmblemsOnGun> false </showEmblemsOnGun>
          <physicsShape>0.910 -0.085 1.000 0.000 0.529 0.060 0.580 0.398 0.591 0.500 0.000 0.500 0.000 0.100 0.000</physicsShape>
          <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
@@ -1873,9 +1873,9 @@
          <customizationSlots>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
-               <rayStart> 0.599014 0.228467 0.480647 </rayStart>
-               <rayEnd> 0.450896 0.228466 0.346258 </rayEnd>
+               <slotId>33000</slotId>
+               <rayStart>0.599014 0.228467 0.480647</rayStart>
+               <rayEnd>0.450896 0.228466 0.346258</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <isMirrored> true </isMirrored>
                <size>0.3</size>
@@ -1884,14 +1884,14 @@
             </slot>
             <slot>
                <slotType>camouflage</slotType>
-               <slotId> 32000 </slotId>
-               <anchorPosition> 0 0.920944 0 </anchorPosition>
+               <slotId>32000</slotId>
+               <anchorPosition>0 0.920944 0</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 31000 </slotId>
-               <anchorPosition> 0 0.920944 0 </anchorPosition>
+               <slotId>31000</slotId>
+               <anchorPosition>0 0.920944 0</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
          </customizationSlots>
@@ -1904,37 +1904,37 @@
       <T2T2>
          <userString>#usa_vehicles:T2T2</userString>
          <tags></tags>
-         <level> 2 </level>
-         <price> 700 </price>
+         <level>2</level>
+         <price>700</price>
          <unlocks>
             <gun>
                _37mm_M-5
-               <cost> 90 </cost>
+               <cost>90</cost>
             </gun>
          </unlocks>
          <armor>
-            <armor_1> 25 </armor_1>
-            <armor_2> 0 </armor_2>
-            <armor_3> 25 </armor_3>
-            <armor_4> 25 </armor_4>
-            <armor_5> 25 </armor_5>
-            <armor_6> 6 </armor_6>
-            <armor_7> 0 </armor_7>
-            <armor_8> 25 </armor_8>
+            <armor_1>25</armor_1>
+            <armor_2>0</armor_2>
+            <armor_3>25</armor_3>
+            <armor_4>25</armor_4>
+            <armor_5>25</armor_5>
+            <armor_6>6</armor_6>
+            <armor_7>0</armor_7>
+            <armor_8>25</armor_8>
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-         <weight> 950 </weight>
-         <maxHealth> 46 </maxHealth>
-         <rotationSpeed> 36 </rotationSpeed>
+         <weight>950</weight>
+         <maxHealth>46</maxHealth>
+         <rotationSpeed>36</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 60 </maxHealth>
-            <maxRegenHealth> 30 </maxRegenHealth>
+            <maxHealth>60</maxHealth>
+            <maxRegenHealth>30</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 320 </circularVisionRadius>
+         <circularVisionRadius>320</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 40 </maxHealth>
-            <maxRegenHealth> 20 </maxRegenHealth>
+            <maxHealth>40</maxHealth>
+            <maxRegenHealth>20</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
@@ -1957,9 +1957,9 @@
                      0
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_3>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
-               <maxAmmo> 110 </maxAmmo>
+               <maxAmmo>110</maxAmmo>
                <reloadTime>5.7</reloadTime>
                <shotDispersionFactors>
                   <turretRotation>0.1</turretRotation>
@@ -1987,24 +1987,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.00227651 0.0234331 0.570576</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.00228483 0.0237584 0.839803</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.140845 0.140845 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.140845 0.140845</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2022,7 +2022,7 @@
                <unlocks>
                   <vehicle>
                      A25_M2_med
-                     <cost> 1140 </cost>
+                     <cost>1140</cost>
                   </vehicle>
                </unlocks>
                <armor>
@@ -2038,7 +2038,7 @@
                      0
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_3>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <reloadTime>2.3</reloadTime>
                <aimingTime>1.7</aimingTime>
@@ -2067,24 +2067,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>-0.000703379 0.0110463 0.642152</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>-0.000698285 0.0113051 0.85753</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.139947 0.139947 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.139947 0.139947</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2099,7 +2099,7 @@
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 8 1 8</maxPitch>
                </pitchLimits>
-               <maxAmmo> 1200 </maxAmmo>
+               <maxAmmo>1200</maxAmmo>
                <armor>
                   <armor_1>
                      22
@@ -2113,7 +2113,7 @@
                      0
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_3>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <reloadTime>7.3</reloadTime>
                <shotDispersionFactors>
@@ -2142,24 +2142,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>-0.000371114 0.0240263 0.92698</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>-0.000371114 0.0240263 0.92698</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.139913 0.139912 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.139913 0.139912</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2178,7 +2178,7 @@
             <collisionModelServer>vehicles/american/A24_T2_med/collision/Turret_02.model</collisionModelServer>
             <collisionModelClient>vehicles/american/A24_T2_med/collision_client/Turret_02.model</collisionModelClient>
          </hitTester>
-         <gunPosition> 0.014523 0.251155 0.650847 </gunPosition>
+         <gunPosition>0.014523 0.251155 0.650847</gunPosition>
          <showEmblemsOnGun> false </showEmblemsOnGun>
          <physicsShape>1.000 -0.024 1.000 0.000 0.654 0.231 0.594 0.433 0.500 0.500 0.000 0.500 0.114 0.100 0.158</physicsShape>
          <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
@@ -2191,7 +2191,7 @@
          <customizationSlots>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
+               <slotId>33000</slotId>
                <rayStart>-0.0185869 0.693937 0.365948</rayStart>
                <rayEnd>-0.0185869 0.497798 0.32684</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -2201,13 +2201,13 @@
             </slot>
             <slot>
                <slotType>camouflage</slotType>
-               <slotId> 32000 </slotId>
+               <slotId>32000</slotId>
                <anchorPosition>0.000000 0.65003 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 31000 </slotId>
+               <slotId>31000</slotId>
                <anchorPosition>0.000000 0.65003 0.000000</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
@@ -2225,7 +2225,7 @@
          <unlocks>
             <engine>
                Wright_Continental_R-975C2
-               <cost> 350 </cost>
+               <cost>350</cost>
             </engine>
          </unlocks>
       </Liberty>
@@ -2242,11 +2242,11 @@
          <engines>
             <Liberty>
                <smplEnginePower>348.9028</smplEnginePower>
-               <smplFwMaxSpeed> 40 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>40</smplFwMaxSpeed>
             </Liberty>
             <Wright_Continental_R-975C2>
                <smplEnginePower>359.4756</smplEnginePower>
-               <smplFwMaxSpeed> 40 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>40</smplFwMaxSpeed>
             </Wright_Continental_R-975C2>
          </engines>
          <chassis>
@@ -2329,7 +2329,7 @@
       <damagedStateGroup>small</damagedStateGroup>
    </effects>
    <emblems>
-      <default> 15503 </default>
+      <default>15503</default>
       <lodDist>MEDIUM</lodDist>
       <alpha>0.82</alpha>
    </emblems>

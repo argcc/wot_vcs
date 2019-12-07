@@ -9,13 +9,13 @@
 pass
          </scripts>
          <bonus>
-            <credits> 50000 </credits>
-            <freeXP> 750 </freeXP>
+            <credits>50000</credits>
+            <freeXP>750</freeXP>
             <token>
                <id>token:pt:final:s2:t5:main</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -28,19 +28,19 @@ pass
                <account>
                   <token>
                      <id>pm2_5_4_11_main_award_list</id>
-                     <equal> 1 </equal>
+                     <equal>1</equal>
                   </token>
                </account>
             </preBattle>
          </conditions>
          <bonus>
-            <credits> 50000 </credits>
-            <freeXP> 750 </freeXP>
+            <credits>50000</credits>
+            <freeXP>750</freeXP>
             <token>
                <id>token:pt:final:s2:t5:main</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -50,24 +50,24 @@ pass
          <serverOnly> true </serverOnly>
          <conditions></conditions>
          <scripts>
-QUEST_EVENT_TYPE = globals().get(&apos;QUEST_EVENT_TYPE&apos;)
-&quot;&quot;&quot;:type: quest_definitions.QUEST_EVENT_TYPE&quot;&quot;&quot;
+QUEST_EVENT_TYPE = globals().get(&#39;QUEST_EVENT_TYPE&#39;)
+&#34;&#34;&#34;:type: quest_definitions.QUEST_EVENT_TYPE&#34;&#34;&#34;
 
-quest_progress = globals().get(&apos;quest_progress&apos;)
-&quot;&quot;&quot;:type: quest_progress&quot;&quot;&quot;
+quest_progress = globals().get(&#39;quest_progress&#39;)
+&#34;&#34;&#34;:type: quest_progress&#34;&#34;&#34;
 
-server_constants = globals().get(&apos;server_constants&apos;)
-&quot;&quot;&quot;:type: server_constants&quot;&quot;&quot;
+server_constants = globals().get(&#39;server_constants&#39;)
+&#34;&#34;&#34;:type: server_constants&#34;&#34;&#34;
 
-items = globals().get(&apos;items&apos;)
-&quot;&quot;&quot;:type: items&quot;&quot;&quot;
+items = globals().get(&#39;items&#39;)
+&#34;&#34;&#34;:type: items&#34;&#34;&#34;
 
-filter = globals().get(&apos;BattleResults&apos;)
-&quot;&quot;&quot;:type: battle_result_filters&quot;&quot;&quot;
+filter = globals().get(&#39;BattleResults&#39;)
+&#34;&#34;&#34;:type: battle_result_filters&#34;&#34;&#34;
 
-MAIN_PROGRESS_ID = &apos;kills&apos;
-ADD_PROGRESS_ID = &apos;damageInBattle&apos;
-ADD_SERIES_PROGRESS_ID = &apos;damageInBattleSeries&apos;
+MAIN_PROGRESS_ID = &#39;kills&#39;
+ADD_PROGRESS_ID = &#39;damageInBattle&#39;
+ADD_SERIES_PROGRESS_ID = &#39;damageInBattleSeries&#39;
 
 def onInit(eventType, eventData, quest, processor):
     for event in events.iterkeys():
@@ -83,10 +83,10 @@ def onFinishBattle(eventType, eventData, quest, processor):
     if questProgress.isCompleted(ADD_PROGRESS_ID):
         questProgress.increaseUntilComplete(ADD_SERIES_PROGRESS_ID, 1)
     mainCondition = len(brfilter.filterDamageTo(
-        result=[&apos;killed&apos;], vehType=questProgress.getProgress(MAIN_PROGRESS_ID).getParam(&apos;targetClasses&apos;)))
+        result=[&#39;killed&#39;], vehType=questProgress.getProgress(MAIN_PROGRESS_ID).getParam(&#39;targetClasses&#39;)))
     questProgress.increaseUntilComplete(MAIN_PROGRESS_ID, mainCondition)
 
-    eventData[&apos;results&apos;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=ADD_SERIES_PROGRESS_ID))
+    eventData[&#39;results&#39;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=ADD_SERIES_PROGRESS_ID))
 
     processor.setQuestProgress(quest.progressID, questProgress.save())
 
@@ -96,16 +96,16 @@ events = {
 }
 
 def quest(eventType, eventData, quest, processor):
-    LOG(&apos;QUEST EVENT:&apos;, eventType, quest.id)
+    LOG(&#39;QUEST EVENT:&#39;, eventType, quest.id)
     return events.get(eventType, lambda *args: False)(eventType, eventData, quest, processor)
          </scripts>
          <bonus>
-            <freeXP> 750 </freeXP>
+            <freeXP>750</freeXP>
             <token>
                <id>token:pt:final:s2:t5:add</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -118,7 +118,7 @@ def quest(eventType, eventData, quest, processor):
                <account>
                   <token>
                      <id>pm2_5_4_11_main_award_list</id>
-                     <greaterOrEqual> 1 </greaterOrEqual>
+                     <greaterOrEqual>1</greaterOrEqual>
                      <consume>
                         100
                         <force></force>
@@ -130,7 +130,7 @@ def quest(eventType, eventData, quest, processor):
                <and>
                   <results>
                      <key>addQuestCompleted</key>
-                     <greaterOrEqual> 1 </greaterOrEqual>
+                     <greaterOrEqual>1</greaterOrEqual>
                   </results>
                </and>
             </postBattle>
@@ -139,7 +139,7 @@ def quest(eventType, eventData, quest, processor):
             <token>
                <id>free_award_list_2</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
+               <count>1</count>
             </token>
          </bonus>
       </potapovQuest>

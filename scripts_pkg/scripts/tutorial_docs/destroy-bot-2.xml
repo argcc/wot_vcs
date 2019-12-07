@@ -11,11 +11,11 @@
             <run-trigger>Bot2OnArenaTrigger</run-trigger>
             <run-trigger>Bot3OnArenaTrigger</run-trigger>
             <run-trigger>GlobalEventsDispatcher</run-trigger>
-            <run-trigger> VehicleNoAmmoTrigger </run-trigger>
+            <run-trigger>VehicleNoAmmoTrigger</run-trigger>
             <teleport>
                TeleportMarker
                <condition>
-                  <active> TeleportToPoint5 </active>
+                  <active>TeleportToPoint5</active>
                </condition>
             </teleport>
          </post-effects>
@@ -23,9 +23,9 @@
             <show-marker>
                MarkerForPoint5
                <condition>
-                  <inactive> InPoint5 </inactive>
-                  <inactive> InPoint6 </inactive>
-                  <inactive> ShotNoDamage </inactive>
+                  <inactive>InPoint5</inactive>
+                  <inactive>InPoint6</inactive>
+                  <inactive>ShotNoDamage</inactive>
                   <inactive>ShotDamage</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
@@ -33,9 +33,9 @@
             <next-task>
                MoveToPoint5Task
                <condition>
-                  <inactive> InPoint5 </inactive>
-                  <inactive> InPoint6 </inactive>
-                  <inactive> ShotNoDamage </inactive>
+                  <inactive>InPoint5</inactive>
+                  <inactive>InPoint6</inactive>
+                  <inactive>ShotNoDamage</inactive>
                   <inactive>ShotDamage</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
@@ -43,9 +43,9 @@
             <show-hint>
                MoveToPoint5Hint
                <condition>
-                  <inactive> InPoint5 </inactive>
-                  <inactive> InPoint6 </inactive>
-                  <inactive> ShotNoDamage </inactive>
+                  <inactive>InPoint5</inactive>
+                  <inactive>InPoint6</inactive>
+                  <inactive>ShotNoDamage</inactive>
                   <inactive>ShotDamage</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
@@ -53,9 +53,9 @@
             <next-task>
                TryToDestroyBot2Task
                <condition>
-                  <active> InPoint5 </active>
-                  <inactive> InPoint6 </inactive>
-                  <inactive> ShotNoDamage </inactive>
+                  <active>InPoint5</active>
+                  <inactive>InPoint6</inactive>
+                  <inactive>ShotNoDamage</inactive>
                   <inactive>ShotDamage</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
@@ -63,9 +63,9 @@
             <show-hint>
                TryToDestroyBot2Hint
                <condition>
-                  <active> InPoint5 </active>
-                  <inactive> InPoint6 </inactive>
-                  <inactive> ShotNoDamage </inactive>
+                  <active>InPoint5</active>
+                  <inactive>InPoint6</inactive>
+                  <inactive>ShotNoDamage</inactive>
                   <inactive>ShotDamage</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
@@ -73,35 +73,35 @@
             <show-marker>
                MarkerForPoint6
                <condition>
-                  <active> ShotNoDamage </active>
+                  <active>ShotNoDamage</active>
                   <inactive>ShotDamage</inactive>
-                  <inactive> InPoint6 </inactive>
+                  <inactive>InPoint6</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
             </show-marker>
             <next-task>
                MoveToPoint6Task
                <condition>
-                  <active> ShotNoDamage </active>
+                  <active>ShotNoDamage</active>
                   <inactive>ShotDamage</inactive>
-                  <inactive> InPoint6 </inactive>
+                  <inactive>InPoint6</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
             </next-task>
             <show-hint>
                MoveToPoint6Hint
                <condition>
-                  <active> ShotNoDamage </active>
+                  <active>ShotNoDamage</active>
                   <inactive>ShotDamage</inactive>
-                  <inactive> InPoint6 </inactive>
+                  <inactive>InPoint6</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
             </show-hint>
             <next-task>
                ShotDamageTask
                <condition>
-                  <active> ShotNoDamage </active>
-                  <active> InPoint6 </active>
+                  <active>ShotNoDamage</active>
+                  <active>InPoint6</active>
                   <inactive>ShotDamage</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
@@ -109,8 +109,8 @@
             <show-hint>
                ShotDamageHint
                <condition>
-                  <active> ShotNoDamage </active>
-                  <active> InPoint6 </active>
+                  <active>ShotNoDamage</active>
+                  <active>InPoint6</active>
                   <inactive>ShotDamage</inactive>
                   <inactive>Bot2Destroyed</inactive>
                </condition>
@@ -190,9 +190,9 @@
    <has-id>
       <exit>
          DestroyBot2Done
-         <is-speak-over> True </is-speak-over>
-         <next-delay> 3 </next-delay>
-         <finish-delay> 2 </finish-delay>
+         <is-speak-over>True</is-speak-over>
+         <next-delay>3</next-delay>
+         <finish-delay>2</finish-delay>
          <chapter-id></chapter-id>
       </exit>
       <progress>
@@ -201,7 +201,7 @@
             <condition>
                Step7InProgress
                <either>
-                  <active> ShotNoDamage </active>
+                  <active>ShotNoDamage</active>
                   <active>ShotDamage</active>
                   <active>Bot2Destroyed</active>
                </either>
@@ -254,7 +254,7 @@
          <text>_(#battle_tutorial:hints/move-to-point-5/text)</text>
          <image-ref>BattleHintImage08</image-ref>
          <speak>/tutorial_voice/tutorial_voice/position</speak>
-         <wwspeak> position </wwspeak>
+         <wwspeak>position</wwspeak>
       </hint>
       <hint>
          MoveToPoint6Hint
@@ -275,21 +275,21 @@
          <text>_(#battle_tutorial:hints/shot-damage/text)</text>
          <image-ref>BattleHintImage11</image-ref>
          <speak>/tutorial_voice/tutorial_voice/forehead</speak>
-         <wwspeak> forehead </wwspeak>
+         <wwspeak>forehead</wwspeak>
       </hint>
       <hint>
          AutoAimAtBot2Hint
          <text>_(#battle_tutorial:hints/auto-aim-at-bot-2/text)</text>
          <image-ref>BattleHintImage12</image-ref>
          <speak>/tutorial_voice/tutorial_voice/movement</speak>
-         <wwspeak> movement </wwspeak>
+         <wwspeak>movement</wwspeak>
       </hint>
       <hint>
          DestroyBot2Hint
          <text>_(#battle_tutorial:hints/destroy-bot-2/text)</text>
          <image-ref>BattleHintImage13</image-ref>
          <speak>/tutorial_voice/tutorial_voice/auto</speak>
-         <wwspeak> auto </wwspeak>
+         <wwspeak>auto</wwspeak>
       </hint>
       <hint>
          DestroyBot2DoneHint
@@ -314,14 +314,14 @@
                RequestToReplenishAmmo
                <effects>
                   <activate>ReplenishAmmoDialogClosed</activate>
-                  <invoke-player-cmd> ReplenishAmmoCmd </invoke-player-cmd>
+                  <invoke-player-cmd>ReplenishAmmoCmd</invoke-player-cmd>
                </effects>
             </click>
          </actions>
       </dialog>
       <marker>
          MarkerForPoint5
-         <type> area </type>
+         <type>area</type>
          <var-ref>Point5Name</var-ref>
          <model>
             <path>content/Interface/Arrow/normal/lod0/arrow.model</path>
@@ -335,14 +335,14 @@
          </ground>
          <world>
             <shape>arrow</shape>
-            <min-distance> 50 </min-distance>
-            <max-distance> 60 </max-distance>
+            <min-distance>50</min-distance>
+            <max-distance>60</max-distance>
             <offset>0 9 0</offset>
          </world>
       </marker>
       <marker>
          TeleportMarker
-         <type> teleport </type>
+         <type>teleport</type>
          <var-ref>Point5Name</var-ref>
          <world>
             <offset>0 0 0</offset>
@@ -351,7 +351,7 @@
       </marker>
       <marker>
          MarkerForPoint6
-         <type> area </type>
+         <type>area</type>
          <var-ref>Point6Name</var-ref>
          <model>
             <path>content/Interface/Arrow/normal/lod0/arrow.model</path>
@@ -365,8 +365,8 @@
          </ground>
          <world>
             <shape>arrow</shape>
-            <min-distance> 50 </min-distance>
-            <max-distance> 60 </max-distance>
+            <min-distance>50</min-distance>
+            <max-distance>60</max-distance>
             <offset>0 9 0</offset>
          </world>
       </marker>
@@ -374,7 +374,7 @@
          AttackBot2Marker
          <type>vehicle</type>
          <var-ref>Bot2VehicleID</var-ref>
-         <period> 5 </period>
+         <period>5</period>
       </marker>
       <player-cmd>
          ReplenishAmmoCmd
@@ -415,7 +415,7 @@
       <trigger>
          Bot1OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot1Name </validate-var>
+         <validate-var>Bot1Name</validate-var>
          <set-var>Bot1VehicleID</set-var>
          <on-effects>
             <activate>Bot1OnArena</activate>
@@ -427,7 +427,7 @@
       <trigger>
          Bot2OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot2Name </validate-var>
+         <validate-var>Bot2Name</validate-var>
          <set-var>Bot2VehicleID</set-var>
          <on-effects>
             <activate>Bot2OnArena</activate>
@@ -439,7 +439,7 @@
       <trigger>
          Bot3OnArenaTrigger
          <type>vehOnArena</type>
-         <validate-var> Bot3Name </validate-var>
+         <validate-var>Bot3Name</validate-var>
          <set-var>Bot3VehicleID</set-var>
          <on-effects>
             <activate>Bot3OnArena</activate>
@@ -462,11 +462,11 @@
       </trigger>
       <trigger>
          Point5Trigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>Point5Name</validate-var>
          <on-effects>
             <activate>Task7Continue</activate>
-            <activate> InPoint5 </activate>
+            <activate>InPoint5</activate>
             <remove-marker>MarkerForPoint5</remove-marker>
             <show-marker>
                AttackBot2Marker
@@ -478,7 +478,7 @@
          </on-effects>
          <off-effects>
             <inactivate>Task7Continue</inactivate>
-            <inactivate> InPoint5 </inactivate>
+            <inactivate>InPoint5</inactivate>
             <remove-marker>
                AttackBot2Marker
                <condition>
@@ -490,11 +490,11 @@
       </trigger>
       <trigger>
          Point6Trigger
-         <type> area </type>
+         <type>area</type>
          <validate-var>Point6Name</validate-var>
          <on-effects>
             <activate>Task8Continue</activate>
-            <activate> InPoint6 </activate>
+            <activate>InPoint6</activate>
             <remove-marker>MarkerForPoint6</remove-marker>
             <show-marker>
                AttackBot2Marker
@@ -506,7 +506,7 @@
          </on-effects>
          <off-effects>
             <inactivate>Task8Continue</inactivate>
-            <inactivate> InPoint6 </inactivate>
+            <inactivate>InPoint6</inactivate>
             <remove-marker>
                AttackBot2Marker
                <condition>
@@ -519,7 +519,7 @@
       </trigger>
       <trigger>
          Bot1DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot1VehicleID</validate-var>
          <on-effects>
             <activate>Bot1Destroyed</activate>
@@ -530,11 +530,11 @@
       </trigger>
       <trigger>
          Bot2DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot2VehicleID</validate-var>
          <on-effects>
             <activate>Bot2Destroyed</activate>
-            <remove-marker> AttackBot2Marker </remove-marker>
+            <remove-marker>AttackBot2Marker</remove-marker>
          </on-effects>
          <off-effects>
             <inactivate>Bot2Destroyed</inactivate>
@@ -542,7 +542,7 @@
       </trigger>
       <trigger>
          Bot3DestroyedTrigger
-         <type> vehDestroyed </type>
+         <type>vehDestroyed</type>
          <validate-var>Bot3VehicleID</validate-var>
          <on-effects>
             <activate>Bot3Destroyed</activate>
@@ -555,9 +555,9 @@
          ShotNoDamageTrigger
          <type>shotNoDmg</type>
          <validate-var>Bot2VehicleID</validate-var>
-         <max-count> 2 </max-count>
+         <max-count>2</max-count>
          <on-effects>
-            <activate> ShotNoDamage </activate>
+            <activate>ShotNoDamage</activate>
             <remove-marker>
                AttackBot2Marker
                <condition>
@@ -568,14 +568,14 @@
             <remove-marker>MarkerForPoint5</remove-marker>
          </on-effects>
          <off-effects>
-            <inactivate> ShotNoDamage </inactivate>
+            <inactivate>ShotNoDamage</inactivate>
          </off-effects>
       </trigger>
       <trigger>
          ShotDamageTrigger
          <type>shotDmg</type>
          <validate-var>Bot2VehicleID</validate-var>
-         <max-count> 2 </max-count>
+         <max-count>2</max-count>
          <on-effects>
             <activate>ShotDamage</activate>
             <remove-marker>
@@ -628,10 +628,10 @@
             <trigger>Point6Trigger</trigger>
             <trigger>ShotNoDamageTrigger</trigger>
             <trigger>ShotDamageTrigger</trigger>
-            <trigger> AutoAimAtBot2Trigger </trigger>
-            <trigger> Bot1DestroyedTrigger </trigger>
-            <trigger> Bot2DestroyedTrigger </trigger>
-            <trigger> Bot3DestroyedTrigger </trigger>
+            <trigger>AutoAimAtBot2Trigger</trigger>
+            <trigger>Bot1DestroyedTrigger</trigger>
+            <trigger>Bot2DestroyedTrigger</trigger>
+            <trigger>Bot3DestroyedTrigger</trigger>
          </includes>
       </trigger>
    </triggers>
@@ -639,9 +639,9 @@
       <var-set-ref>Point5Name</var-set-ref>
       <var-set-ref>Point6Name</var-set-ref>
       <var-set-ref>Point7Name</var-set-ref>
-      <var-set-ref> Bot1Name </var-set-ref>
-      <var-set-ref> Bot2Name </var-set-ref>
-      <var-set-ref> Bot3Name </var-set-ref>
+      <var-set-ref>Bot1Name</var-set-ref>
+      <var-set-ref>Bot2Name</var-set-ref>
+      <var-set-ref>Bot3Name</var-set-ref>
       <var-set-ref>ImagePath</var-set-ref>
       <var-set-ref>DefaultVehicleInImages</var-set-ref>
    </vars>

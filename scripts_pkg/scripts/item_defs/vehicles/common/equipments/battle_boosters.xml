@@ -1,6 +1,6 @@
 <battle_boosters.xml>
    <toolboxBattleBooster>
-      <id> 103 </id>
+      <id>103</id>
       <userString>#artefacts:toolboxBattleBooster/name</userString>
       <description>#artefacts:toolboxBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:toolboxBattleBooster/short_special</shortDescriptionSpecial>
@@ -42,7 +42,7 @@
       </kpi>
    </toolboxBattleBooster>
    <improvedVentilationBattleBooster>
-      <id> 104 </id>
+      <id>104</id>
       <userString>#artefacts:improvedVentilationBattleBooster/name</userString>
       <description>#artefacts:improvedVentilationBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:improvedVentilationBattleBooster/short_special</shortDescriptionSpecial>
@@ -91,7 +91,7 @@
       </kpi>
    </improvedVentilationBattleBooster>
    <rammerBattleBooster>
-      <id> 105 </id>
+      <id>105</id>
       <userString>#artefacts:rammerBattleBooster/name</userString>
       <description>#artefacts:rammerBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:rammerBattleBooster/short_special</shortDescriptionSpecial>
@@ -134,13 +134,13 @@
       </script>
       <kpi>
          <mul>
-            <name> vehicleGunReloadTime </name>
+            <name>vehicleGunReloadTime</name>
             <value>0.975</value>
          </mul>
       </kpi>
    </rammerBattleBooster>
    <coatedOpticsBattleBooster>
-      <id> 106 </id>
+      <id>106</id>
       <userString>#artefacts:coatedOpticsBattleBooster/name</userString>
       <description>#artefacts:coatedOpticsBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:coatedOpticsBattleBooster/short_special</shortDescriptionSpecial>
@@ -157,11 +157,11 @@
          <level>
             <deviceFilter>
                <tags>
-                  <required> coatedOptics </required>
+                  <required>coatedOptics</required>
                   <incompatible>deluxe</incompatible>
                </tags>
             </deviceFilter>
-            <attribute> circularVisionRadius </attribute>
+            <attribute>circularVisionRadius</attribute>
             <factor>1.023</factor>
          </level>
          <level>
@@ -170,7 +170,7 @@
                   <required>coatedOptics deluxe</required>
                </tags>
             </deviceFilter>
-            <attribute> circularVisionRadius </attribute>
+            <attribute>circularVisionRadius</attribute>
             <factor>1.022</factor>
          </level>
       </script>
@@ -182,7 +182,7 @@
       </kpi>
    </coatedOpticsBattleBooster>
    <aimingStabilizerBattleBooster>
-      <id> 107 </id>
+      <id>107</id>
       <userString>#artefacts:aimingStabilizerBattleBooster/name</userString>
       <description>#artefacts:aimingStabilizerBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:aimingStabilizerBattleBooster/short_special</shortDescriptionSpecial>
@@ -206,11 +206,11 @@
          <level>
             <deviceFilter>
                <tags>
-                  <required> aimingStabilizer </required>
+                  <required>aimingStabilizer</required>
                   <incompatible>deluxe</incompatible>
                </tags>
             </deviceFilter>
-            <attribute> additiveShotDispersionFactor </attribute>
+            <attribute>additiveShotDispersionFactor</attribute>
             <factor>0.938</factor>
          </level>
          <level>
@@ -219,19 +219,19 @@
                   <required>aimingStabilizer deluxe</required>
                </tags>
             </deviceFilter>
-            <attribute> additiveShotDispersionFactor </attribute>
+            <attribute>additiveShotDispersionFactor</attribute>
             <factor>0.933</factor>
          </level>
       </script>
       <kpi>
          <mul>
-            <name> vehicleGunShotDispersion </name>
+            <name>vehicleGunShotDispersion</name>
             <value>0.95</value>
          </mul>
       </kpi>
    </aimingStabilizerBattleBooster>
    <enhancedAimDrivesBattleBooster>
-      <id> 108 </id>
+      <id>108</id>
       <userString>#artefacts:enhancedAimDrivesBattleBooster/name</userString>
       <description>#artefacts:enhancedAimDrivesBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:enhancedAimDrivesBattleBooster/short_special</shortDescriptionSpecial>
@@ -273,7 +273,7 @@
       </kpi>
    </enhancedAimDrivesBattleBooster>
    <camouflageBattleBooster>
-      <id> 109 </id>
+      <id>109</id>
       <userString>#artefacts:camouflageBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:camouflageBattleBooster/short_special</shortDescriptionSpecial>
@@ -294,7 +294,7 @@
          <oneOf>
             <boostSkill>
                <name>crewSkillCamouflage</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <mul>
                <name>vehicleCamouflage</name>
@@ -304,7 +304,7 @@
       </kpi>
    </camouflageBattleBooster>
    <smoothTurretBattleBooster>
-      <id> 110 </id>
+      <id>110</id>
       <userString>#artefacts:smoothTurretBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:smoothTurretBattleBooster/short_special</shortDescriptionSpecial>
@@ -319,24 +319,24 @@
       <script>
          FactorPerLevelBattleBooster
          <skillName>gunner_smoothTurret</skillName>
-         <factorName> shotDispersionFactorPerLevel </factorName>
+         <factorName>shotDispersionFactorPerLevel</factorName>
          <factorPerLevel>0.0015</factorPerLevel>
       </script>
       <kpi>
          <oneOf>
             <boostSkill>
                <name>crewSkillSmoothTurret</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <mul>
                <name>crewSkillSmoothTurret</name>
-               <value> 2 </value>
+               <value>2</value>
             </mul>
          </oneOf>
       </kpi>
    </smoothTurretBattleBooster>
    <virtuosoBattleBooster>
-      <id> 111 </id>
+      <id>111</id>
       <userString>#artefacts:virtuosoBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:virtuosoBattleBooster/short_special</shortDescriptionSpecial>
@@ -358,17 +358,17 @@
          <oneOf>
             <boostSkill>
                <name>crewSkillVirtuoso</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <mul>
                <name>crewSkillVirtuoso</name>
-               <value> 2 </value>
+               <value>2</value>
             </mul>
          </oneOf>
       </kpi>
    </virtuosoBattleBooster>
    <smoothDrivingBattleBooster>
-      <id> 112 </id>
+      <id>112</id>
       <userString>#artefacts:smoothDrivingBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:smoothDrivingBattleBooster/short_special</shortDescriptionSpecial>
@@ -383,24 +383,24 @@
       <script>
          FactorPerLevelBattleBooster
          <skillName>driver_smoothDriving</skillName>
-         <factorName> shotDispersionFactorPerLevel </factorName>
+         <factorName>shotDispersionFactorPerLevel</factorName>
          <factorPerLevel>0.0008</factorPerLevel>
       </script>
       <kpi>
          <oneOf>
             <boostSkill>
                <name>crewSkillSmoothRiding</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <mul>
                <name>crewSkillSmoothRiding</name>
-               <value> 2 </value>
+               <value>2</value>
             </mul>
          </oneOf>
       </kpi>
    </smoothDrivingBattleBooster>
    <fireFightingBattleBooster>
-      <id> 113 </id>
+      <id>113</id>
       <userString>#artefacts:fireFightingBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:fireFightingBattleBooster/short_special</shortDescriptionSpecial>
@@ -414,14 +414,14 @@
       <tags>notForSale crewSkillBattleBooster armor</tags>
       <script>
          FactorSkillBattleBooster
-         <skillName> fireFighting </skillName>
+         <skillName>fireFighting</skillName>
          <efficiencyFactor>1.5</efficiencyFactor>
       </script>
       <kpi>
          <oneOf>
             <boostSkill>
                <name>crewSkillFireFighting</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <mul>
                <name>crewSkillFireFighting</name>
@@ -431,7 +431,7 @@
       </kpi>
    </fireFightingBattleBooster>
    <sixthSenseBattleBooster>
-      <id> 114 </id>
+      <id>114</id>
       <userString>#artefacts:sixthSenseBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:sixthSenseBattleBooster/short_special</shortDescriptionSpecial>
@@ -445,23 +445,23 @@
       <tags>notForSale crewSkillBattleBooster armor</tags>
       <script>
          SixthSenseBattleBooster
-         <delay> 2 </delay>
+         <delay>2</delay>
       </script>
       <kpi>
          <oneOf>
             <boostSkill>
                <name>crewSkillSixthSense</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <add>
-               <name> crewSkillSixthSenseDelay </name>
-               <value> 255 </value>
+               <name>crewSkillSixthSenseDelay</name>
+               <value>255</value>
             </add>
          </oneOf>
       </kpi>
    </sixthSenseBattleBooster>
    <rancorousBattleBooster>
-      <id> 115 </id>
+      <id>115</id>
       <userString>#artefacts:rancorousBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:rancorousBattleBooster/short_special</shortDescriptionSpecial>
@@ -475,24 +475,24 @@
       <tags>notForSale crewSkillBattleBooster reconnaissance</tags>
       <script>
          RancorousBattleBooster
-         <duration> 4 </duration>
-         <sectorHalfAngle> 5 </sectorHalfAngle>
+         <duration>4</duration>
+         <sectorHalfAngle>5</sectorHalfAngle>
       </script>
       <kpi>
          <oneOf>
             <boostSkill>
                <name>crewSkillRancorous</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <add>
                <name>crewSkillRancorousDuration</name>
-               <value> 2 </value>
+               <value>2</value>
             </add>
          </oneOf>
       </kpi>
    </rancorousBattleBooster>
    <pedantBattleBooster>
-      <id> 116 </id>
+      <id>116</id>
       <userString>#artefacts:pedantBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:pedantBattleBooster/short_special</shortDescriptionSpecial>
@@ -512,7 +512,7 @@
          <oneOf>
             <boostSkill>
                <name>crewSkillPedant</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <mul>
                <name>vehicleAmmoBayStrength</name>
@@ -522,7 +522,7 @@
       </kpi>
    </pedantBattleBooster>
    <lastEffortBattleBooster>
-      <id> 117 </id>
+      <id>117</id>
       <userString>#artefacts:lastEffortBattleBooster/name</userString>
       <description>#artefacts:crewBattleBooster/descr</description>
       <shortDescriptionSpecial>#artefacts:lastEffortBattleBooster/short_special</shortDescriptionSpecial>
@@ -536,17 +536,17 @@
       <tags>notForSale crewSkillBattleBooster reconnaissance</tags>
       <script>
          LastEffortBattleBooster
-         <duration> 5 </duration>
+         <duration>5</duration>
       </script>
       <kpi>
          <oneOf>
             <boostSkill>
                <name>crewSkillLastEffort</name>
-               <value> 1 </value>
+               <value>1</value>
             </boostSkill>
             <add>
                <name>crewSkillLastEffortDuration</name>
-               <value> 3 </value>
+               <value>3</value>
             </add>
          </oneOf>
       </kpi>

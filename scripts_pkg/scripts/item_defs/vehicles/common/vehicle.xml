@@ -1,18 +1,18 @@
 <vehicle.xml>
    <lodLevels>
-      <NEAR> 30 </NEAR>
-      <SPLINE_TRACK> 50 </SPLINE_TRACK>
-      <MEDIUM_TRACK> 90 </MEDIUM_TRACK>
-      <MEDIUM> 70 </MEDIUM>
-      <FAR> 120 </FAR>
-      <LEVERED_SUSPENSION> 200 </LEVERED_SUSPENSION>
+      <NEAR>30</NEAR>
+      <SPLINE_TRACK>50</SPLINE_TRACK>
+      <MEDIUM_TRACK>90</MEDIUM_TRACK>
+      <MEDIUM>70</MEDIUM>
+      <FAR>120</FAR>
+      <LEVERED_SUSPENSION>200</LEVERED_SUSPENSION>
    </lodLevels>
    <miscParams>
       <damageStickerAlpha>0.3</damageStickerAlpha>
       <damageStickersLodDist>MEDIUM</damageStickersLodDist>
       <projectileSpeedFactor>0.8</projectileSpeedFactor>
       <allowMortarShooting>False</allowMortarShooting>
-      <minFireStartingDamage> 21 </minFireStartingDamage>
+      <minFireStartingDamage>21</minFireStartingDamage>
       <explosionDamageFactor>0.5</explosionDamageFactor>
       <explosionDamageAbsorptionFactor>1.3</explosionDamageAbsorptionFactor>
       <explosionEdgeDamageFactor>0.05</explosionEdgeDamageFactor>
@@ -35,8 +35,8 @@
       <collisionVehicleHeavy1>collisionHeavy1</collisionVehicleHeavy1>
       <collisionVehicleHeavy2>collisionHeavy2</collisionVehicleHeavy2>
       <collisionVehicleHeavy3>collisionHeavy3</collisionVehicleHeavy3>
-      <groundCollisionLight> groundCollisionLight </groundCollisionLight>
-      <groundCollisionHeavy> groundCollisionHeavy </groundCollisionHeavy>
+      <groundCollisionLight>groundCollisionLight</groundCollisionLight>
+      <groundCollisionHeavy>groundCollisionHeavy</groundCollisionHeavy>
       <sandCollisionLight>sandCollisionLight</sandCollisionLight>
       <sandCollisionHeavy>sandCollisionHeavy</sandCollisionHeavy>
       <snowCollisionLight>snowCollisionLight</snowCollisionLight>
@@ -51,12 +51,12 @@
       <waterCollisionHeavy>waterCollisionHeavy</waterCollisionHeavy>
       <rammingCollisionLight>rammingCollisionLight</rammingCollisionLight>
       <rammingCollisionHeavy>rammingCollisionHeavy</rammingCollisionHeavy>
-      <explosionCandle1> explosionCandle1 </explosionCandle1>
-      <explosionCandle2> explosionCandle2 </explosionCandle2>
-      <explosionCandle3> explosionCandle3 </explosionCandle3>
-      <explosionCandle4> explosionCandle4 </explosionCandle4>
+      <explosionCandle1>explosionCandle1</explosionCandle1>
+      <explosionCandle2>explosionCandle2</explosionCandle2>
+      <explosionCandle3>explosionCandle3</explosionCandle3>
+      <explosionCandle4>explosionCandle4</explosionCandle4>
       <fullDestruction>fullDestruction</fullDestruction>
-      <dynamicCollision> dynamicCollision </dynamicCollision>
+      <dynamicCollision>dynamicCollision</dynamicCollision>
    </defaultVehicleEffects>
    <defaultTurretDetachmentEffects>
       <flight>turret_flying_medium</flight>
@@ -236,7 +236,7 @@
       <commanderHealth>
          DamageMarker : TankmanHealth
          <tankmanRole>commander</tankmanRole>
-         <indexInRole> 1 </indexInRole>
+         <indexInRole>1</indexInRole>
          <sounds>
             <critical>commander_killed</critical>
             <destroyed>commander_killed</destroyed>
@@ -246,7 +246,7 @@
       <driverHealth>
          DamageMarker : TankmanHealth
          <tankmanRole>driver</tankmanRole>
-         <indexInRole> 1 </indexInRole>
+         <indexInRole>1</indexInRole>
          <sounds>
             <critical>driver_killed</critical>
             <destroyed>driver_killed</destroyed>
@@ -255,8 +255,8 @@
       </driverHealth>
       <radioman1Health>
          DamageMarker : TankmanHealth
-         <tankmanRole> radioman </tankmanRole>
-         <indexInRole> 1 </indexInRole>
+         <tankmanRole>radioman</tankmanRole>
+         <indexInRole>1</indexInRole>
          <sounds>
             <critical>radioman_killed</critical>
             <destroyed>radioman_killed</destroyed>
@@ -265,8 +265,8 @@
       </radioman1Health>
       <radioman2Health>
          DamageMarker : TankmanHealth
-         <tankmanRole> radioman </tankmanRole>
-         <indexInRole> 2 </indexInRole>
+         <tankmanRole>radioman</tankmanRole>
+         <indexInRole>2</indexInRole>
          <sounds>
             <critical>radioman_killed</critical>
             <destroyed>radioman_killed</destroyed>
@@ -276,7 +276,7 @@
       <gunner1Health>
          DamageMarker : TankmanHealth
          <tankmanRole>gunner</tankmanRole>
-         <indexInRole> 1 </indexInRole>
+         <indexInRole>1</indexInRole>
          <sounds>
             <critical>gunner_killed</critical>
             <destroyed>gunner_killed</destroyed>
@@ -286,7 +286,7 @@
       <gunner2Health>
          DamageMarker : TankmanHealth
          <tankmanRole>gunner</tankmanRole>
-         <indexInRole> 2 </indexInRole>
+         <indexInRole>2</indexInRole>
          <sounds>
             <critical>gunner_killed</critical>
             <destroyed>gunner_killed</destroyed>
@@ -296,7 +296,7 @@
       <loader1Health>
          DamageMarker : TankmanHealth
          <tankmanRole>loader</tankmanRole>
-         <indexInRole> 1 </indexInRole>
+         <indexInRole>1</indexInRole>
          <sounds>
             <critical>loader_killed</critical>
             <destroyed>loader_killed</destroyed>
@@ -306,7 +306,7 @@
       <loader2Health>
          DamageMarker : TankmanHealth
          <tankmanRole>loader</tankmanRole>
-         <indexInRole> 2 </indexInRole>
+         <indexInRole>2</indexInRole>
          <sounds>
             <critical>loader_killed</critical>
             <destroyed>loader_killed</destroyed>
@@ -321,7 +321,7 @@
       <devices>
          <engineHealth>engine</engineHealth>
          <ammoBayHealth>ammoBay</ammoBayHealth>
-         <fuelTankHealth> fuelTank </fuelTankHealth>
+         <fuelTankHealth>fuelTank</fuelTankHealth>
          <radioHealth>radio</radioHealth>
          <leftTrackHealth>track</leftTrackHealth>
          <rightTrackHealth>track</rightTrackHealth>
@@ -332,8 +332,8 @@
       <tankmen>
          <commanderHealth>commander</commanderHealth>
          <driverHealth>driver</driverHealth>
-         <radioman1Health> radioman </radioman1Health>
-         <radioman2Health> radioman </radioman2Health>
+         <radioman1Health>radioman</radioman1Health>
+         <radioman2Health>radioman</radioman2Health>
          <gunner1Health>gunner</gunner1Health>
          <gunner2Health>gunner</gunner2Health>
          <loader1Health>loader</loader1Health>
@@ -662,7 +662,7 @@
          <checkCaliberForHitAngleNorm> true </checkCaliberForHitAngleNorm>
       </armor_32>
       <engine>
-         <extra> engineHealth </extra>
+         <extra>engineHealth</extra>
          <vehicleDamageFactor>1.0</vehicleDamageFactor>
          <useArmorHomogenization> false </useArmorHomogenization>
          <useHitAngle> false </useHitAngle>
@@ -677,7 +677,7 @@
          <continueTraceIfNoHit> false </continueTraceIfNoHit>
       </engine>
       <transmission>
-         <extra> engineHealth </extra>
+         <extra>engineHealth</extra>
          <vehicleDamageFactor>1.0</vehicleDamageFactor>
          <useArmorHomogenization> false </useArmorHomogenization>
          <useHitAngle> false </useHitAngle>
@@ -746,13 +746,13 @@
          <collideOnceOnly> true </collideOnceOnly>
          <checkCaliberForRichet> false </checkCaliberForRichet>
          <checkCaliberForHitAngleNorm> false </checkCaliberForHitAngleNorm>
-         <damageKind> auto </damageKind>
+         <damageKind>auto</damageKind>
          <chanceToHitByProjectile>1.0</chanceToHitByProjectile>
          <chanceToHitByExplosion>1.0</chanceToHitByExplosion>
          <continueTraceIfNoHit> false </continueTraceIfNoHit>
       </leftTrack>
       <rightTrack>
-         <extra> rightTrackHealth </extra>
+         <extra>rightTrackHealth</extra>
          <vehicleDamageFactor>0.0</vehicleDamageFactor>
          <useArmorHomogenization> false </useArmorHomogenization>
          <useHitAngle> false </useHitAngle>
@@ -761,7 +761,7 @@
          <collideOnceOnly> true </collideOnceOnly>
          <checkCaliberForRichet> false </checkCaliberForRichet>
          <checkCaliberForHitAngleNorm> false </checkCaliberForHitAngleNorm>
-         <damageKind> auto </damageKind>
+         <damageKind>auto</damageKind>
          <chanceToHitByProjectile>1.0</chanceToHitByProjectile>
          <chanceToHitByExplosion>1.0</chanceToHitByExplosion>
          <continueTraceIfNoHit> false </continueTraceIfNoHit>
@@ -777,7 +777,7 @@
          <collideOnceOnly> true </collideOnceOnly>
          <checkCaliberForRichet> false </checkCaliberForRichet>
          <checkCaliberForHitAngleNorm> false </checkCaliberForHitAngleNorm>
-         <damageKind> auto </damageKind>
+         <damageKind>auto</damageKind>
          <chanceToHitByProjectile>1.0</chanceToHitByProjectile>
          <chanceToHitByExplosion>1.0</chanceToHitByExplosion>
          <continueTraceIfNoHit> false </continueTraceIfNoHit>
@@ -858,7 +858,7 @@
          <continueTraceIfNoHit> true </continueTraceIfNoHit>
       </commander>
       <driver>
-         <extra> driverHealth </extra>
+         <extra>driverHealth</extra>
          <vehicleDamageFactor>0.0</vehicleDamageFactor>
          <useArmorHomogenization> false </useArmorHomogenization>
          <useHitAngle> false </useHitAngle>

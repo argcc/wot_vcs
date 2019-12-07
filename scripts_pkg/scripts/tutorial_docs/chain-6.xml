@@ -1,5 +1,5 @@
 <chain-6.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
@@ -18,7 +18,7 @@
                SimpleDialogSecondButton
                <on-scene-effects>
                   <activate>SimpleDialogSecondButtonOnScene</activate>
-                  <remove-action> TankCarouselClickOutSide </remove-action>
+                  <remove-action>TankCarouselClickOutSide</remove-action>
                </on-scene-effects>
                <not-on-scene-effects>
                   <inactivate>SimpleDialogSecondButtonOnScene</inactivate>
@@ -30,14 +30,14 @@
             <inactivate>FreeSlotBought</inactivate>
             <run-trigger>FreeSlotTrigger</run-trigger>
             <run-trigger>SimpleDialogTrigger</run-trigger>
-            <run-trigger> BonusTrigger </run-trigger>
+            <run-trigger>BonusTrigger</run-trigger>
          </post-effects>
          <runtime-effects>
             <show-hint>
                TankCarouselHint
                <condition>
                   <active>TankCarouselOnScene</active>
-                  <effect-not-triggered> TankCarouselHint </effect-not-triggered>
+                  <effect-not-triggered>TankCarouselHint</effect-not-triggered>
                </condition>
             </show-hint>
             <refuse-training>
@@ -59,25 +59,25 @@
    <has-id>
       <click-outside-action>
          TankCarouselClickOutSide
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <effects>
             <refuse-training></refuse-training>
          </effects>
       </click-outside-action>
       <hint>
          TankCarouselHint
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <text>_(#tutorial:chain6/hint/buyFreeSlot)</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                TankCarousel
                <effects>
-                  <close-hint> TankCarouselHint </close-hint>
-                  <set-action> TankCarouselClickOutSide </set-action>
+                  <close-hint>TankCarouselHint</close-hint>
+                  <set-action>TankCarouselClickOutSide</set-action>
                </effects>
             </click>
             <click-outside>
@@ -114,7 +114,7 @@
       </trigger>
       <trigger>
          FreeSlotTrigger
-         <type> freeSlot </type>
+         <type>freeSlot</type>
          <on-effects>
             <show-award-window>
                CongratulationWindow
@@ -132,7 +132,7 @@
       </trigger>
       <trigger>
          SimpleDialogTrigger
-         <type> simpleDialog </type>
+         <type>simpleDialog</type>
          <on-effects></on-effects>
          <off-effects>
             <refuse-training></refuse-training>

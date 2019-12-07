@@ -1,6 +1,6 @@
 <bootcamp-lobby-4.xml>
-   <default-scene> DefaultScene </default-scene>
-   <initial-scene> DefaultScene </initial-scene>
+   <default-scene>DefaultScene</default-scene>
+   <initial-scene>DefaultScene</initial-scene>
    <scenes>
       <scene>
          DefaultScene
@@ -14,7 +14,7 @@
          <runtime-effects>
             <effects-group>
                <condition>
-                  <active> WrongVehicle </active>
+                  <active>WrongVehicle</active>
                </condition>
                <effects>
                   <set-visible>
@@ -31,27 +31,27 @@
                   </set-visible>
                   <close-view>
                      <type>window</type>
-                     <alias> technicalMaintenance </alias>
+                     <alias>technicalMaintenance</alias>
                   </close-view>
                </effects>
             </effects-group>
             <effects-group>
                <condition>
-                  <inactive> WrongVehicle </inactive>
+                  <inactive>WrongVehicle</inactive>
                   <active>IntroFinished</active>
                </condition>
                <effects>
                   <set-visible>
                      HangarEquipment1
-                     <val> True </val>
+                     <val>True</val>
                   </set-visible>
                   <set-visible>
                      HangarEquipment2
-                     <val> True </val>
+                     <val>True</val>
                   </set-visible>
                   <set-visible>
                      HangarEquipment3
-                     <val> True </val>
+                     <val>True</val>
                   </set-visible>
                </effects>
             </effects-group>
@@ -62,7 +62,7 @@
                <effects>
                   <effects-group>
                      <condition>
-                        <active> WrongVehicle </active>
+                        <active>WrongVehicle</active>
                      </condition>
                      <effects>
                         <set-visible>
@@ -81,20 +81,20 @@
                   </effects-group>
                   <effects-group>
                      <condition>
-                        <inactive> WrongVehicle </inactive>
+                        <inactive>WrongVehicle</inactive>
                      </condition>
                      <effects>
                         <set-visible>
                            OptionalDevice1DropDown
-                           <val> True </val>
+                           <val>True</val>
                         </set-visible>
                         <set-visible>
                            OptionalDevice2DropDown
-                           <val> True </val>
+                           <val>True</val>
                         </set-visible>
                         <set-visible>
                            OptionalDevice3DropDown
-                           <val> True </val>
+                           <val>True</val>
                         </set-visible>
                      </effects>
                   </effects-group>
@@ -110,13 +110,13 @@
                OptionalDevice1DropDown
                <condition>
                   <checkpoint-reached>EquipmentSelectedCheckpoint</checkpoint-reached>
-                  <checkpoint-not-reached> OptionalDeviceSelectedCheckpoint </checkpoint-not-reached>
+                  <checkpoint-not-reached>OptionalDeviceSelectedCheckpoint</checkpoint-not-reached>
                </condition>
             </request-exclusive-hint>
             <request-exclusive-hint>
                CommonQuestsButton
                <condition>
-                  <checkpoint-reached> OptionalDeviceSelectedCheckpoint </checkpoint-reached>
+                  <checkpoint-reached>OptionalDeviceSelectedCheckpoint</checkpoint-reached>
                   <checkpoint-not-reached>QuestsOpenedCheckpoint</checkpoint-not-reached>
                </condition>
             </request-exclusive-hint>
@@ -140,13 +140,13 @@
             <request-exclusive-hint>
                OptionalDevice2Renderer
                <condition>
-                  <checkpoint-not-reached> OptionalDeviceSelectedCheckpoint </checkpoint-not-reached>
+                  <checkpoint-not-reached>OptionalDeviceSelectedCheckpoint</checkpoint-not-reached>
                </condition>
             </request-exclusive-hint>
             <request-exclusive-hint>
                SecondTank
                <condition>
-                  <active> WrongVehicle </active>
+                  <active>WrongVehicle</active>
                </condition>
             </request-exclusive-hint>
          </runtime-effects>
@@ -169,15 +169,15 @@
                         <set-gui-item-criteria>EquipmentItem3Criteria</set-gui-item-criteria>
                         <set-action>OnTechnicalMaintenanceApplyEnable</set-action>
                         <set-action>OnTechnicalMaintenanceApplyDisable</set-action>
-                        <set-action> OnTechnicalMaintenanceApplyClick </set-action>
-                        <show-dialog> EquipmentIntroDialog </show-dialog>
+                        <set-action>OnTechnicalMaintenanceApplyClick</set-action>
+                        <show-dialog>EquipmentIntroDialog</show-dialog>
                      </effects>
                   </effects-group>
                </on-scene-effects>
                <not-on-scene-effects>
                   <remove-action>OnTechnicalMaintenanceApplyEnable</remove-action>
                   <remove-action>OnTechnicalMaintenanceApplyDisable</remove-action>
-                  <remove-action> OnTechnicalMaintenanceApplyClick </remove-action>
+                  <remove-action>OnTechnicalMaintenanceApplyClick</remove-action>
                   <inactivate>EquipmentItemSelected</inactivate>
                </not-on-scene-effects>
             </gui-item>
@@ -210,7 +210,7 @@
                <on-scene-effects>
                   <effects-group>
                      <condition>
-                        <checkpoint-not-reached> OptionalDeviceSelectedCheckpoint </checkpoint-not-reached>
+                        <checkpoint-not-reached>OptionalDeviceSelectedCheckpoint</checkpoint-not-reached>
                      </condition>
                      <effects>
                         <set-gui-item-criteria>OptionalDeviceCriteria</set-gui-item-criteria>
@@ -252,8 +252,8 @@
          <effects-group>
             <condition>
                <inactive>WatchingBattleMode</inactive>
-               <inactive> RandomBattleSelected </inactive>
-               <component-on-scene> RandomBattleMode </component-on-scene>
+               <inactive>RandomBattleSelected</inactive>
+               <component-on-scene>RandomBattleMode</component-on-scene>
             </condition>
             <effects>
                <set-action>RandomBattleClick</set-action>
@@ -263,7 +263,7 @@
          <effects-group>
             <condition>
                <active>WatchingBattleMode</active>
-               <component-not-on-scene> RandomBattleMode </component-not-on-scene>
+               <component-not-on-scene>RandomBattleMode</component-not-on-scene>
             </condition>
             <effects>
                <remove-action>RandomBattleClick</remove-action>
@@ -276,7 +276,7 @@
             </condition>
             <effects>
                <set-action>OnFightButtonEnable</set-action>
-               <set-action> OnFightButtonDisable </set-action>
+               <set-action>OnFightButtonDisable</set-action>
             </effects>
          </effects-group>
          <effects-group>
@@ -287,7 +287,7 @@
                </game-item>
             </condition>
             <effects>
-               <activate> WrongVehicle </activate>
+               <activate>WrongVehicle</activate>
                <set-allowed-to-fight>
                   <value>False</value>
                </set-allowed-to-fight>
@@ -302,9 +302,9 @@
                </game-item>
             </condition>
             <effects>
-               <inactivate> WrongVehicle </inactivate>
+               <inactivate>WrongVehicle</inactivate>
                <set-allowed-to-fight>
-                  <value> True </value>
+                  <value>True</value>
                   <condition>
                      <checkpoint-reached>EndCheckpoint</checkpoint-reached>
                   </condition>
@@ -321,7 +321,7 @@
             FightButton
             <condition>
                <checkpoint-reached>EndCheckpoint</checkpoint-reached>
-               <inactive> WrongVehicle </inactive>
+               <inactive>WrongVehicle</inactive>
                <inactive>FightButtonDisabled</inactive>
             </condition>
          </request-exclusive-hint>
@@ -330,12 +330,12 @@
             <condition>
                <checkpoint-reached>QuestsOpenedCheckpoint</checkpoint-reached>
                <not-on-scene>VehiclePreview</not-on-scene>
-               <inactive> WrongVehicle </inactive>
+               <inactive>WrongVehicle</inactive>
             </condition>
             <args>
                <arg>
                   EnabledHeaderMenuButtons_Final
-                  <name> buttonsListVarID </name>
+                  <name>buttonsListVarID</name>
                </arg>
             </args>
          </invoke-gui-cmd>
@@ -351,16 +351,16 @@
                   BattleSelectorBar
                   <condition>
                      <not-on-scene>VehiclePreview</not-on-scene>
-                     <inactive> WrongVehicle </inactive>
+                     <inactive>WrongVehicle</inactive>
                   </condition>
                </request-exclusive-hint>
-               <request-exclusive-hint> RandomBattleMode </request-exclusive-hint>
+               <request-exclusive-hint>RandomBattleMode</request-exclusive-hint>
             </effects>
          </effects-group>
          <update-exclusive-hints>
             <condition>
                <either>
-                  <inactive> TechnicalMaintenanceApplyClicked </inactive>
+                  <inactive>TechnicalMaintenanceApplyClicked</inactive>
                   <checkpoint-reached>EquipmentSelectedCheckpoint</checkpoint-reached>
                </either>
             </condition>
@@ -370,9 +370,9 @@
    <has-id>
       <click-action>
          RandomBattleClick
-         <item-id> RandomBattleMode </item-id>
+         <item-id>RandomBattleMode</item-id>
          <effects>
-            <activate> RandomBattleSelected </activate>
+            <activate>RandomBattleSelected</activate>
          </effects>
       </click-action>
       <enable-action>
@@ -437,7 +437,7 @@
          <sequence>
             <message>
                <data>
-                  <preset> BLUE </preset>
+                  <preset>BLUE</preset>
                   <icon>../maps/icons/bootcamp/lines/bcConsum.png</icon>
                   <label>#bootcamp:message/consumables/label</label>
                   <text>#bootcamp:message/consumables/text</text>
@@ -481,7 +481,7 @@
          <sequence>
             <message>
                <data>
-                  <preset> BLUE </preset>
+                  <preset>BLUE</preset>
                   <icon>../maps/icons/bootcamp/lines/bcEquipment.png</icon>
                   <label>#bootcamp:message/equipment/label</label>
                   <text>#bootcamp:message/equipment/text</text>
@@ -507,70 +507,70 @@
          <effects>
             <set-var>SecondVehicleSetter</set-var>
             <set-var>EquipmentItemSetter</set-var>
-            <set-var> OptionalDeviceSetter </set-var>
+            <set-var>OptionalDeviceSetter</set-var>
             <select-in-hangar>SecondVehicleCD</select-in-hangar>
             <invoke-gui-cmd>OverrideHangarMenuButtons</invoke-gui-cmd>
             <set-visible>
                VehicleResearchPanel
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                VehicleResearchPanelBG
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                VehicleResearchButton
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarParams
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleGun
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleTurret
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleEngine
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleChassis
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarModuleRadio
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <update-layout>AmmunitionPanel</update-layout>
             <set-visible>
                TankCarouselContainer
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                TankCarouselContainerBG
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                CrewPanel
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <show-dialog>IntroDialog</show-dialog>
             <set-visible>
                HangarEquipment1
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarEquipment2
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                HangarEquipment3
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <play-animation>
                HangarEquipment1
@@ -585,7 +585,7 @@
             <play-animation>
                HangarEquipment3
                <type>tween</type>
-               <wait_for_finish> True </wait_for_finish>
+               <wait_for_finish>True</wait_for_finish>
             </play-animation>
             <activate>IntroFinished</activate>
          </effects>
@@ -601,15 +601,15 @@
          <effects>
             <set-visible>
                OptionalDevice1DropDown
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                OptionalDevice2DropDown
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <set-visible>
                OptionalDevice3DropDown
-               <val> True </val>
+               <val>True</val>
             </set-visible>
             <play-animation>
                OptionalDevice1DropDown
@@ -624,7 +624,7 @@
             <play-animation>
                OptionalDevice3DropDown
                <type>tween</type>
-               <wait_for_finish> True </wait_for_finish>
+               <wait_for_finish>True</wait_for_finish>
             </play-animation>
          </effects>
       </checkpoint>
@@ -645,7 +645,7 @@
             <play-animation>
                CommonQuestsButton
                <type>tween</type>
-               <wait_for_finish> True </wait_for_finish>
+               <wait_for_finish>True</wait_for_finish>
             </play-animation>
          </effects>
       </checkpoint>
@@ -663,21 +663,21 @@
                <args>
                   <arg>
                      EnabledHeaderMenuButtons_Final
-                     <name> buttonsListVarID </name>
+                     <name>buttonsListVarID</name>
                   </arg>
                </args>
             </invoke-gui-cmd>
             <invoke-gui-cmd>BootcampOverrideBattleSelectorHint</invoke-gui-cmd>
             <play-sound>
                vo_bc_hangar_random_battle
-               <event> SPEAKING </event>
+               <event>SPEAKING</event>
             </play-sound>
          </effects>
       </checkpoint>
       <checkpoint>
          EndCheckpoint
          <condition>
-            <active> RandomBattleSelected </active>
+            <active>RandomBattleSelected</active>
          </condition>
          <effects>
             <invoke-gui-cmd>BootcampRestoreBattleSelectorHint</invoke-gui-cmd>
@@ -697,23 +697,23 @@
       </game-attribute>
       <game-attribute>
          OptionalDeviceSetter
-         <var-ref> OptionalDeviceID </var-ref>
+         <var-ref>OptionalDeviceID</var-ref>
          <name>BootcampNationDataField</name>
          <args>equipment</args>
       </game-attribute>
       <gui-item-criteria>
          EquipmentItem1Criteria
-         <item-id> EquipmentItem1ID </item-id>
+         <item-id>EquipmentItem1ID</item-id>
          <value>id=$EquipmentItemID$</value>
       </gui-item-criteria>
       <gui-item-criteria>
          EquipmentItem2Criteria
-         <item-id> EquipmentItem2ID </item-id>
+         <item-id>EquipmentItem2ID</item-id>
          <value>id=$EquipmentItemID$</value>
       </gui-item-criteria>
       <gui-item-criteria>
          EquipmentItem3Criteria
-         <item-id> EquipmentItem3ID </item-id>
+         <item-id>EquipmentItem3ID</item-id>
          <value>id=$EquipmentItemID$</value>
       </gui-item-criteria>
       <gui-item-criteria>
@@ -727,14 +727,14 @@
          EnabledHangarMenuButtons
          <asList>
             <asString>hangar</asString>
-            <asString> techtree </asString>
+            <asString>techtree</asString>
             <asString>credits</asString>
          </asList>
       </var-set>
       <var-set>
          EnabledHeaderMenuButtons_Final
          <asList>
-            <asString> settings </asString>
+            <asString>settings</asString>
             <asString>account</asString>
             <asString>battleSelector</asString>
             <asString>credits</asString>
@@ -749,7 +749,7 @@
          <sequence>
             <checkpoint>StartCheckpoint</checkpoint>
             <checkpoint>EquipmentSelectedCheckpoint</checkpoint>
-            <checkpoint> OptionalDeviceSelectedCheckpoint </checkpoint>
+            <checkpoint>OptionalDeviceSelectedCheckpoint</checkpoint>
             <checkpoint>QuestsOpenedCheckpoint</checkpoint>
             <checkpoint>EndCheckpoint</checkpoint>
          </sequence>

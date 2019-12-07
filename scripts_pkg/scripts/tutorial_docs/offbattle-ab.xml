@@ -1,18 +1,18 @@
 <offbattle-ab.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
          Hangar
          <post-effects>
-            <inactivate> ExitFromQueueClicked </inactivate>
+            <inactivate>ExitFromQueueClicked</inactivate>
             <inactivate>EnteringToQueue</inactivate>
             <inactivate>FinalWindowClosed</inactivate>
             <inactivate>NoResultsWindowClosed</inactivate>
             <inactivate>RestartTraining</inactivate>
             <inactivate>ShowMessageLocked</inactivate>
             <run-trigger>BonusesTrigger</run-trigger>
-            <run-trigger> QueueTrigger </run-trigger>
+            <run-trigger>QueueTrigger</run-trigger>
             <run-trigger>ModeTrigger</run-trigger>
             <request-all-bonuses>
                AllBonuses
@@ -140,8 +140,8 @@
          <battle-hints>
             <text>_(#battle_tutorial:windows/result/labels/battle-hints/first)</text>
             <video-link>_(#battle_tutorial:buttons/watch)</video-link>
-            <text>_(#battle_tutorial:windows/result/labels/battle-hints/second1) &lt;font face=&quot;$TitleFont&quot; color=&quot;#FFA759&quot;&gt;_(#battle_tutorial:windows/result/labels/battle-hints/second2)&lt;/font&gt; _(#battle_tutorial:windows/result/labels/battle-hints/second3)</text>
-            <text>_(#battle_tutorial:windows/result/labels/battle-hints/third1) &lt;font face=&quot;$TitleFont&quot; color=&quot;#FFA759&quot;&gt;_(#battle_tutorial:windows/result/labels/battle-hints/third2)&lt;/font&gt;_(#battle_tutorial:windows/result/labels/battle-hints/third3)</text>
+            <text>_(#battle_tutorial:windows/result/labels/battle-hints/second1) &lt;font face=&#34;$TitleFont&#34; color=&#34;#FFA759&#34;&gt;_(#battle_tutorial:windows/result/labels/battle-hints/second2)&lt;/font&gt; _(#battle_tutorial:windows/result/labels/battle-hints/second3)</text>
+            <text>_(#battle_tutorial:windows/result/labels/battle-hints/third1) &lt;font face=&#34;$TitleFont&#34; color=&#34;#FFA759&#34;&gt;_(#battle_tutorial:windows/result/labels/battle-hints/third2)&lt;/font&gt;_(#battle_tutorial:windows/result/labels/battle-hints/third3)</text>
          </battle-hints>
          <restart-hint>_(#battle_tutorial:windows/result/labels/restart-hint)</restart-hint>
          <buttons>
@@ -201,19 +201,19 @@
          <type>queue</type>
          <var-ref>AvgWaitingTime</var-ref>
          <title>_(#battle_tutorial:dialogs/queue/title)</title>
-         <text>&lt;font color=&quot;#FF0000&quot;&gt;_(#battle_tutorial:dialogs/queue/server-overloaded/text)&lt;/font&gt;&lt;br/&gt;_(#battle_tutorial:dialogs/queue/wait/text)&lt;br/&gt;&lt;br/&gt;</text>
+         <text>&lt;font color=&#34;#FF0000&#34;&gt;_(#battle_tutorial:dialogs/queue/server-overloaded/text)&lt;/font&gt;&lt;br/&gt;_(#battle_tutorial:dialogs/queue/wait/text)&lt;br/&gt;&lt;br/&gt;</text>
          <player-time-text>
             <start>_(#battle_tutorial:labels/player-waiting-time) &lt;b&gt;</start>
             <end>&lt;/b&gt;&lt;br/&gt;</end>
          </player-time-text>
          <avg-time-text>&lt;i&gt;_(#battle_tutorial:labels/avg-waiting-time)&lt;/i&gt;</avg-time-text>
          <time-pointcuts>
-            <pointcut> 1 </pointcut>
-            <pointcut> 3 </pointcut>
-            <pointcut> 5 </pointcut>
-            <pointcut> 10 </pointcut>
-            <pointcut> 15 </pointcut>
-            <pointcut> 30 </pointcut>
+            <pointcut>1</pointcut>
+            <pointcut>3</pointcut>
+            <pointcut>5</pointcut>
+            <pointcut>10</pointcut>
+            <pointcut>15</pointcut>
+            <pointcut>30</pointcut>
          </time-pointcuts>
          <buttons>
             <submit>ExitFromQueue</submit>
@@ -223,8 +223,8 @@
             <click>
                ExitFromQueue
                <effects>
-                  <activate> ExitFromQueueClicked </activate>
-                  <exit-queue> EnteringToBattle </exit-queue>
+                  <activate>ExitFromQueueClicked</activate>
+                  <exit-queue>EnteringToBattle</exit-queue>
                </effects>
             </click>
          </actions>
@@ -244,7 +244,7 @@
       </trigger>
       <trigger>
          ModeTrigger
-         <type> mode </type>
+         <type>mode</type>
          <on-effects>
             <activate>InMode</activate>
          </on-effects>
@@ -264,7 +264,7 @@
             <inactivate>InQueue</inactivate>
             <refuse-training>
                <condition>
-                  <active> ExitFromQueueClicked </active>
+                  <active>ExitFromQueueClicked</active>
                </condition>
             </refuse-training>
          </off-effects>

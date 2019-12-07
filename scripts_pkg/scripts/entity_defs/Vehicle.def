@@ -6,7 +6,7 @@
       <Interface>RepairBase_Vehicle</Interface>
       <Interface>VehicleObserver</Interface>
       <Interface>BattleFeedback</Interface>
-      <Interface> Harm </Interface>
+      <Interface>Harm</Interface>
       <Interface>Sector_Vehicle</Interface>
       <Interface>ProtectionZone_Vehicle</Interface>
       <Interface>StepRepairPoint_Vehicle</Interface>
@@ -21,17 +21,17 @@
    <LoDLevels>
       <level>
          20
-         <hyst> 4 </hyst>
-         <label> NEAR </label>
+         <hyst>4</hyst>
+         <label>NEAR</label>
       </level>
       <level>
          70
-         <hyst> 10 </hyst>
+         <hyst>10</hyst>
          <label>MEDIUM</label>
       </level>
       <level>
          180
-         <hyst> 20 </hyst>
+         <hyst>20</hyst>
          <label>FAR</label>
       </level>
    </LoDLevels>
@@ -44,7 +44,7 @@
    <IsManualAoI> true </IsManualAoI>
    <Properties>
       <isStrafing>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isStrafing>
       <physicsMode>
@@ -70,14 +70,14 @@
          <Flags>ALL_CLIENTS</Flags>
       </health>
       <isCrewActive>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isCrewActive>
       <engineMode>
          <Type>
             TUPLE
             <of>UINT8</of>
-            <size> 2 </size>
+            <size>2</size>
          </Type>
          <Flags>ALL_CLIENTS</Flags>
       </engineMode>
@@ -104,7 +104,7 @@
          <Flags>ALL_CLIENTS</Flags>
       </stunInfo>
       <status>
-         <Type> INT8 </Type>
+         <Type>INT8</Type>
          <Flags>CELL_PUBLIC</Flags>
       </status>
       <invisibility>
@@ -127,7 +127,7 @@
          <Flags>CELL_PUBLIC</Flags>
       </detectedVehicles>
       <isObservedByEnemy>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>CELL_PUBLIC</Flags>
       </isObservedByEnemy>
       <rammingBonus>
@@ -142,7 +142,7 @@
          <Flags>CELL_PRIVATE</Flags>
       </ammo>
       <isClientConnected>
-         <Type> INT8 </Type>
+         <Type>INT8</Type>
          <Flags>CELL_PRIVATE</Flags>
       </isClientConnected>
       <avatar>
@@ -198,26 +198,26 @@
       </heatmapLoggingFlags>
       <state>
          <Type>UINT8</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </state>
       <arena>
          <Type>MAILBOX</Type>
-         <Flags> BASE </Flags>
+         <Flags>BASE</Flags>
       </arena>
       <inspiringEffect>
          <Type>INSPIRING_EFFECT</Type>
          <Flags>ALL_CLIENTS</Flags>
       </inspiringEffect>
       <inspired>
-         <Type> INSPIRED </Type>
+         <Type>INSPIRED</Type>
          <Flags>ALL_CLIENTS</Flags>
       </inspired>
       <isSpeedCapturing>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isSpeedCapturing>
       <isBlockingCapture>
-         <Type> BOOL </Type>
+         <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isBlockingCapture>
    </Properties>
@@ -281,14 +281,14 @@
          <Arg>VECTOR3</Arg>
          <Arg>UINT8</Arg>
          <Arg>FLOAT32</Arg>
-         <Arg> INT8 </Arg>
+         <Arg>INT8</Arg>
          <Arg>UINT16</Arg>
-         <DetailDistance> 100 </DetailDistance>
+         <DetailDistance>100</DetailDistance>
       </onStaticCollision>
       <showRammingEffect>
          <Arg>FLOAT32</Arg>
          <Arg>VECTOR3</Arg>
-         <DetailDistance> 100 </DetailDistance>
+         <DetailDistance>100</DetailDistance>
       </showRammingEffect>
    </ClientMethods>
    <CellMethods>
@@ -314,7 +314,7 @@
       </stopTrackingWithGun>
       <trackVehicleWithGun>
          <Arg>OBJECT_ID</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </trackVehicleWithGun>
       <changeSetting>
          <Exposed></Exposed>
@@ -351,17 +351,17 @@
       </setAvatar>
       <registerObserver>
          <Arg>MAILBOX</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </registerObserver>
       <sendFinalStats>
          <Arg>PYTHON</Arg>
       </sendFinalStats>
       <onClientConnected>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </onClientConnected>
       <onBattleRunning>
-         <Arg> BOOL </Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
+         <Arg>BOOL</Arg>
       </onBattleRunning>
       <sendStateToOwnClient>
          <Exposed></Exposed>
@@ -383,7 +383,7 @@
       <onObservedByEnemy></onObservedByEnemy>
       <onDetectedByEnemy>
          <Arg>OBJECT_ID</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
          <Arg>UINT8</Arg>
       </onDetectedByEnemy>
       <onConcealedFromEnemy>
@@ -418,7 +418,7 @@
          <Arg>UINT16</Arg>
       </receiveFirstDetectionFromArena>
       <sendPositionsToClient>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </sendPositionsToClient>
       <requestDamagedDevicesFromFor>
          <Arg>OBJECT_ID</Arg>
@@ -447,7 +447,7 @@
          <Arg>UINT16</Arg>
       </onResourceAbsorbed>
       <setInsideResourcePoint>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </setInsideResourcePoint>
       <grantWinPoints>
          <Arg>UINT16</Arg>
@@ -464,15 +464,15 @@
       </startOrUpdateExtraFromOutside>
       <damageByEquipment>
          <Arg>INT32</Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
       </damageByEquipment>
       <updateOwnClientRTT>
          <Arg>FLOAT32</Arg>
       </updateOwnClientRTT>
       <receiveVisibilityUpdate>
          <Arg>OBJECT_ID</Arg>
-         <Arg> BOOL </Arg>
-         <Arg> BOOL </Arg>
+         <Arg>BOOL</Arg>
+         <Arg>BOOL</Arg>
       </receiveVisibilityUpdate>
       <requestVisibilityLists>
          <Arg>MAILBOX</Arg>

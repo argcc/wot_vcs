@@ -1,5 +1,5 @@
 <chain-4.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
@@ -17,10 +17,10 @@
             <gui-item>
                MaintenanceButton
                <on-scene-effects>
-                  <activate> MaintenanceButtonOnScene </activate>
+                  <activate>MaintenanceButtonOnScene</activate>
                </on-scene-effects>
                <not-on-scene-effects>
-                  <inactivate> MaintenanceButtonOnScene </inactivate>
+                  <inactivate>MaintenanceButtonOnScene</inactivate>
                </not-on-scene-effects>
             </gui-item>
             <gui-item>
@@ -32,7 +32,7 @@
                   <inactivate>EquipmentItem1DropDownOnScene</inactivate>
                   <refuse-training>
                      <condition>
-                        <inactive> EquipmentItemDropDownClicked </inactive>
+                        <inactive>EquipmentItemDropDownClicked</inactive>
                      </condition>
                   </refuse-training>
                </not-on-scene-effects>
@@ -73,7 +73,7 @@
                   <inactivate>EquipmentItem1RendererOnScene</inactivate>
                   <refuse-training>
                      <condition>
-                        <inactive> EquipmentItemRendererClicked </inactive>
+                        <inactive>EquipmentItemRendererClicked</inactive>
                      </condition>
                   </refuse-training>
                </not-on-scene-effects>
@@ -114,11 +114,11 @@
          <post-effects>
             <clear-scene></clear-scene>
             <inactivate>EquipmentInstalled</inactivate>
-            <inactivate> MaintenanceButtonClicked </inactivate>
-            <inactivate> EquipmentItemDropDownClicked </inactivate>
-            <inactivate> EquipmentItemRendererClicked </inactivate>
+            <inactivate>MaintenanceButtonClicked</inactivate>
+            <inactivate>EquipmentItemDropDownClicked</inactivate>
+            <inactivate>EquipmentItemRendererClicked</inactivate>
             <inactivate>TechnicalMaintenanceApplyButtonClicked</inactivate>
-            <inactivate> MaintenanceButtonOnScene </inactivate>
+            <inactivate>MaintenanceButtonOnScene</inactivate>
             <inactivate>EquipmentItem1DropDownOnScene</inactivate>
             <inactivate>EquipmentItem2DropDownOnScene</inactivate>
             <inactivate>EquipmentItem3DropDownOnScene</inactivate>
@@ -126,7 +126,7 @@
             <inactivate>EquipmentItem2RendererOnScene</inactivate>
             <inactivate>EquipmentItem3RendererOnScene</inactivate>
             <run-trigger>MaintenanceStateTrigger</run-trigger>
-            <run-trigger> NeedChangeVehicleTrigger </run-trigger>
+            <run-trigger>NeedChangeVehicleTrigger</run-trigger>
             <set-var>SelectedVehicle</set-var>
             <set-var>SelectedEquipment</set-var>
          </post-effects>
@@ -197,8 +197,8 @@
             <show-hint>
                MaintenanceButtonHint
                <condition>
-                  <active> MaintenanceButtonOnScene </active>
-                  <active> MaintenanceIsEnabled </active>
+                  <active>MaintenanceButtonOnScene</active>
+                  <active>MaintenanceIsEnabled</active>
                   <inactive>EquipmentItem1DropDownOnScene</inactive>
                   <var>
                      FindEquipmentID
@@ -219,8 +219,8 @@
                      SelectedVehicleID
                      <is-not-none></is-not-none>
                   </var>
-                  <inactive> MaintenanceIsEnabled </inactive>
-                  <active> NeedChangeCurrentVehicle </active>
+                  <inactive>MaintenanceIsEnabled</inactive>
+                  <active>NeedChangeCurrentVehicle</active>
                   <effect-not-triggered>ChangeVehicleHint</effect-not-triggered>
                </condition>
             </show-hint>
@@ -285,7 +285,7 @@
                EquipmentItem1RendererHint
                <condition>
                   <active>EquipmentItem1RendererOnScene</active>
-                  <active> EquipmentItemDropDownClicked </active>
+                  <active>EquipmentItemDropDownClicked</active>
                   <var>
                      FindEquipmentID
                      <is-not-none></is-not-none>
@@ -305,7 +305,7 @@
                EquipmentItem2RendererHint
                <condition>
                   <active>EquipmentItem2RendererOnScene</active>
-                  <active> EquipmentItemDropDownClicked </active>
+                  <active>EquipmentItemDropDownClicked</active>
                   <var>
                      FindEquipmentID
                      <is-not-none></is-not-none>
@@ -325,7 +325,7 @@
                EquipmentItem3RendererHint
                <condition>
                   <active>EquipmentItem3RendererOnScene</active>
-                  <active> EquipmentItemDropDownClicked </active>
+                  <active>EquipmentItemDropDownClicked</active>
                   <var>
                      FindEquipmentID
                      <is-not-none></is-not-none>
@@ -345,7 +345,7 @@
                TechnicalMaintenanceApplyButtonHint
                <condition>
                   <active>TechnicalMaintenanceApplyButtonOnScene</active>
-                  <active> EquipmentItemRendererClicked </active>
+                  <active>EquipmentItemRendererClicked</active>
                   <var>
                      FindEquipmentID
                      <is-not-none></is-not-none>
@@ -378,36 +378,36 @@
       <game-attribute>
          SelectedVehicle
          <var-ref>SelectedVehicleID</var-ref>
-         <name> CurrentVehicleCD </name>
+         <name>CurrentVehicleCD</name>
       </game-attribute>
       <game-attribute>
          SelectedEquipment
          <var-ref>FindEquipmentID</var-ref>
          <name>EquipmentForCreditsCD</name>
-         <args> SelectedEquipmentTag </args>
+         <args>SelectedEquipmentTag</args>
       </game-attribute>
       <gui-item-criteria>
          EquipmentItem1RendererCriteria
-         <item-id> EquipmentItem1ID </item-id>
+         <item-id>EquipmentItem1ID</item-id>
          <value>id=$FindEquipmentID$</value>
       </gui-item-criteria>
       <gui-item-criteria>
          EquipmentItem2RendererCriteria
-         <item-id> EquipmentItem2ID </item-id>
+         <item-id>EquipmentItem2ID</item-id>
          <value>id=$FindEquipmentID$</value>
       </gui-item-criteria>
       <gui-item-criteria>
          EquipmentItem3RendererCriteria
-         <item-id> EquipmentItem3ID </item-id>
+         <item-id>EquipmentItem3ID</item-id>
          <value>id=$FindEquipmentID$</value>
       </gui-item-criteria>
       <hint>
          ChangeVehicleHint
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <text>ChangeVehicleText</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -416,11 +416,11 @@
                   <set-var>SelectedVehicle</set-var>
                   <set-var>SelectedEquipment</set-var>
                   <run-trigger>MaintenanceStateTrigger</run-trigger>
-                  <run-trigger> NeedChangeVehicleTrigger </run-trigger>
+                  <run-trigger>NeedChangeVehicleTrigger</run-trigger>
                   <close-hint>ChangeVehicleHint</close-hint>
                   <refuse-training>
                      <condition>
-                        <active> NeedChangeCurrentVehicle </active>
+                        <active>NeedChangeCurrentVehicle</active>
                      </condition>
                   </refuse-training>
                </effects>
@@ -441,11 +441,11 @@
       </hint>
       <hint>
          BuyVehicleHint
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <text>BuyVehicleText</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -474,14 +474,14 @@
          <text>_(#tutorial:chain4/hint/openMaintenanceWindow)</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                MaintenanceButton
                <effects>
                   <close-hint>MaintenanceButtonHint</close-hint>
-                  <activate> MaintenanceButtonClicked </activate>
+                  <activate>MaintenanceButtonClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -504,14 +504,14 @@
          <text>_(#tutorial:chain4/hint/openEquipmentDropDown)</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                EquipmentItem1DropDown
                <effects>
                   <close-hint>EquipmentItem1DropDownHint</close-hint>
-                  <activate> EquipmentItemDropDownClicked </activate>
+                  <activate>EquipmentItemDropDownClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -534,14 +534,14 @@
          <text>_(#tutorial:chain4/hint/openEquipmentDropDown)</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                EquipmentItem2DropDown
                <effects>
                   <close-hint>EquipmentItem2DropDownHint</close-hint>
-                  <activate> EquipmentItemDropDownClicked </activate>
+                  <activate>EquipmentItemDropDownClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -564,14 +564,14 @@
          <text>_(#tutorial:chain4/hint/openEquipmentDropDown)</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                EquipmentItem3DropDown
                <effects>
                   <close-hint>EquipmentItem3DropDownHint</close-hint>
-                  <activate> EquipmentItemDropDownClicked </activate>
+                  <activate>EquipmentItemDropDownClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -594,14 +594,14 @@
          <text></text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                EquipmentItem1Renderer
                <effects>
                   <close-hint>EquipmentItem1RendererHint</close-hint>
-                  <activate> EquipmentItemRendererClicked </activate>
+                  <activate>EquipmentItemRendererClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -624,14 +624,14 @@
          <text></text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                EquipmentItem2Renderer
                <effects>
                   <close-hint>EquipmentItem2RendererHint</close-hint>
-                  <activate> EquipmentItemRendererClicked </activate>
+                  <activate>EquipmentItemRendererClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -654,14 +654,14 @@
          <text></text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                EquipmentItem3Renderer
                <effects>
                   <close-hint>EquipmentItem3RendererHint</close-hint>
-                  <activate> EquipmentItemRendererClicked </activate>
+                  <activate>EquipmentItemRendererClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -684,7 +684,7 @@
          <text>_(#tutorial:chain4/hint/applyChanges)</text>
          <arrow>
             <direction>L</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -712,12 +712,12 @@
    <triggers>
       <trigger>
          MaintenanceStateTrigger
-         <type> maintenanceState </type>
+         <type>maintenanceState</type>
          <on-effects>
-            <activate> MaintenanceIsEnabled </activate>
+            <activate>MaintenanceIsEnabled</activate>
          </on-effects>
          <off-effects>
-            <inactivate> MaintenanceIsEnabled </inactivate>
+            <inactivate>MaintenanceIsEnabled</inactivate>
          </off-effects>
       </trigger>
       <trigger>
@@ -734,27 +734,27 @@
       </trigger>
       <trigger>
          NeedChangeVehicleTrigger
-         <type> needChangeCurrentVehicle </type>
+         <type>needChangeCurrentVehicle</type>
          <on-effects>
-            <activate> NeedChangeCurrentVehicle </activate>
+            <activate>NeedChangeCurrentVehicle</activate>
          </on-effects>
          <off-effects>
-            <inactivate> NeedChangeCurrentVehicle </inactivate>
+            <inactivate>NeedChangeCurrentVehicle</inactivate>
          </off-effects>
       </trigger>
    </triggers>
    <vars>
       <var-set>
          FirstSlotIndex
-         <asInt> 1 </asInt>
+         <asInt>1</asInt>
       </var-set>
       <var-set>
          SecondSlotIndex
-         <asInt> 2 </asInt>
+         <asInt>2</asInt>
       </var-set>
       <var-set>
          ThirdSlotIndex
-         <asInt> 3 </asInt>
+         <asInt>3</asInt>
       </var-set>
       <var-set>
          BuyVehicleText

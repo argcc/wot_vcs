@@ -7,8 +7,8 @@
       <loader></loader>
    </crew>
    <speedLimits>
-      <forward> 42 </forward>
-      <backward> 18 </backward>
+      <forward>42</forward>
+      <backward>18</backward>
    </speedLimits>
    <invisibility>
       <moving>0.24</moving>
@@ -25,21 +25,21 @@
    </camouflage>
    <hull>
       <armor>
-         <armor_1> 25 </armor_1>
-         <armor_2> 15 </armor_2>
-         <armor_3> 15 </armor_3>
-         <armor_4> 15 </armor_4>
-         <armor_5> 10 </armor_5>
-         <armor_6> 8 </armor_6>
-         <armor_7> 12 </armor_7>
-         <armor_8> 0 </armor_8>
+         <armor_1>25</armor_1>
+         <armor_2>15</armor_2>
+         <armor_3>15</armor_3>
+         <armor_4>15</armor_4>
+         <armor_5>10</armor_5>
+         <armor_6>8</armor_6>
+         <armor_7>12</armor_7>
+         <armor_8>0</armor_8>
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-      <weight> 4295 </weight>
-      <maxHealth> 144 </maxHealth>
+      <weight>4295</weight>
+      <maxHealth>144</maxHealth>
       <ammoBayHealth>
-         <maxHealth> 100 </maxHealth>
-         <maxRegenHealth> 70 </maxRegenHealth>
+         <maxHealth>100</maxHealth>
+         <maxRegenHealth>70</maxRegenHealth>
          <repairCost>1.0</repairCost>
       </ammoBayHealth>
       <models>
@@ -58,7 +58,7 @@
          <nodes>HP_Track_Exhaus_1</nodes>
       </exhaust>
       <turretPositions>
-         <turret> -1.8e-05 0.507622 0.250942 </turret>
+         <turret>-1.8e-05 0.507622 0.250942</turret>
       </turretPositions>
       <hitTester>
          <collisionModelServer>vehicles/czech/Cz10_LT_vz38/collision/Hull.model</collisionModelServer>
@@ -67,14 +67,14 @@
       <hangarShadowTexture>vehicles/czech/Cz10_LT_vz38/LT_vz38_HangarShadowMap.dds</hangarShadowTexture>
       <customization>
          <customizableVehicleAreas>
-            <paint> HULL </paint>
-            <camouflage> HULL </camouflage>
+            <paint>HULL</paint>
+            <camouflage>HULL</camouflage>
          </customizableVehicleAreas>
       </customization>
       <customizationSlots>
          <slot>
-            <slotType> clan </slotType>
-            <slotId> 10000 </slotId>
+            <slotType>clan</slotType>
+            <slotId>10000</slotId>
             <rayStart>0.00245476 0.136555 1.80402</rayStart>
             <rayEnd>0.00245476 -0.0567771 1.75281</rayEnd>
             <rayUp>0.000000 0.000000 -1</rayUp>
@@ -84,15 +84,15 @@
          </slot>
          <slot>
             <slotType>camouflage</slotType>
-            <slotId> 12000 </slotId>
+            <slotId>12000</slotId>
             <anchorPosition>0.000000 0.416731 -1.49523</anchorPosition>
-            <anchorDirection> 0 0.268474 -0.963287 </anchorDirection>
+            <anchorDirection>0 0.268474 -0.963287</anchorDirection>
          </slot>
          <slot>
             <slotType>paint</slotType>
-            <slotId> 11000 </slotId>
+            <slotId>11000</slotId>
             <anchorPosition>0.000000 0.416731 -1.49523</anchorPosition>
-            <anchorDirection> 0 0.268474 -0.963287 </anchorDirection>
+            <anchorDirection>0 0.268474 -0.963287</anchorDirection>
          </slot>
       </customizationSlots>
       <camouflage>
@@ -105,31 +105,31 @@
       <Chassis_Cz10_LT_vz38>
          <userString>#czech_vehicles:Chassis_Cz10_LT_vz38</userString>
          <tags></tags>
-         <level> 2 </level>
-         <price> 620 </price>
+         <level>2</level>
+         <price>620</price>
          <unlocks>
             <chassis>
                Chassis_Cz10_LT_vz38_2
-               <cost> 300 </cost>
+               <cost>300</cost>
             </chassis>
          </unlocks>
          <armor>
-            <leftTrack> 10 </leftTrack>
-            <rightTrack> 10 </rightTrack>
+            <leftTrack>10</leftTrack>
+            <rightTrack>10</rightTrack>
          </armor>
-         <weight> 3200 </weight>
-         <maxLoad> 10000 </maxLoad>
+         <weight>3200</weight>
+         <maxLoad>10000</maxLoad>
          <terrainResistance>1.2 1.4 2</terrainResistance>
-         <brakeForce> 10000 </brakeForce>
+         <brakeForce>10000</brakeForce>
          <rotationIsAroundCenter> false </rotationIsAroundCenter>
-         <rotationSpeed> 34 </rotationSpeed>
+         <rotationSpeed>34</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.34</vehicleMovement>
             <vehicleRotation>0.34</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 60 </maxHealth>
-         <maxRegenHealth> 45 </maxRegenHealth>
+         <maxHealth>60</maxHealth>
+         <maxRegenHealth>45</maxRegenHealth>
          <repairCost>1.0</repairCost>
          <models>
             <undamaged>vehicles/czech/Cz10_LT_vz38/normal/lod0/Chassis.model</undamaged>
@@ -154,77 +154,77 @@
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R0</name>
-               <radius> 0.337808 </radius>
+               <radius>0.337808</radius>
                <syncAngle>18.947</syncAngle>
             </wheel>
             <group>
                <isLeft> false </isLeft>
                <template>WD_R</template>
-               <radius> 0.104999 </radius>
-               <startIndex> 1 </startIndex>
-               <count> 2 </count>
+               <radius>0.104999</radius>
+               <startIndex>1</startIndex>
+               <count>2</count>
             </group>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R3</name>
-               <radius> 0.264027 </radius>
+               <radius>0.264027</radius>
                <syncAngle>18.947</syncAngle>
             </wheel>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
                <radius>0.3875</radius>
-               <startIndex> 0 </startIndex>
-               <count> 4 </count>
+               <startIndex>0</startIndex>
+               <count>4</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L0</name>
-               <radius> 0.337808 </radius>
+               <radius>0.337808</radius>
                <syncAngle>18.947</syncAngle>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>WD_L</template>
-               <radius> 0.104999 </radius>
-               <startIndex> 1 </startIndex>
-               <count> 2 </count>
+               <radius>0.104999</radius>
+               <startIndex>1</startIndex>
+               <count>2</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L3</name>
-               <radius> 0.264027 </radius>
+               <radius>0.264027</radius>
                <syncAngle>18.947</syncAngle>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>W_L</template>
                <radius>0.3875</radius>
-               <startIndex> 0 </startIndex>
-               <count> 4 </count>
+               <startIndex>0</startIndex>
+               <count>4</count>
             </group>
          </wheels>
          <drivingWheels>WD_L0 WD_L3</drivingWheels>
          <effects>
             <lodDist>MEDIUM</lodDist>
-            <mud> smallTankMud </mud>
+            <mud>smallTankMud</mud>
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-         <hullPosition> 0 0.934288 0 </hullPosition>
+         <hullPosition>0 0.934288 0</hullPosition>
          <hitTester>
             <collisionModelServer>vehicles/czech/Cz10_LT_vz38/collision/Chassis.model</collisionModelServer>
             <collisionModelClient>vehicles/czech/Cz10_LT_vz38/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>0.882833 1.30096</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <AODecals>
             <decal>
-               <transform> 3.01843 -0 0 0 1.32264 0 0 0 5.20934 0 -0 -0 </transform>
+               <transform>3.01843 -0 0 0 1.32264 0 0 0 5.20934 0 -0 -0</transform>
             </decal>
          </AODecals>
          <splineDesc>
@@ -236,8 +236,8 @@
             <segmentOffset>0.098</segmentOffset>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <trackThickness>-0.0052</trackThickness>
@@ -247,8 +247,8 @@
             <maxAmplitude>0.1</maxAmplitude>
             <maxOffset>0.1</maxOffset>
             <gravity>-9.8</gravity>
-            <elasticity> 1000 </elasticity>
-            <damping> 2 </damping>
+            <elasticity>1000</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VT_L0</name>
@@ -347,16 +347,16 @@
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 4 </count>
+               <startIndex>0</startIndex>
+               <count>4</count>
                <isLeft> true </isLeft>
                <minOffset>-0.06</minOffset>
                <maxOffset>0.06</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 4 </count>
+               <startIndex>0</startIndex>
+               <count>4</count>
                <isLeft> false </isLeft>
                <minOffset>-0.06</minOffset>
                <maxOffset>0.06</maxOffset>
@@ -364,13 +364,13 @@
          </groundNodes>
          <physicalTracks>
             <left>
-               <segmentsCount> 99 </segmentsCount>
+               <segmentsCount>99</segmentsCount>
                <segmentsOuterThickness>0.0401572</segmentsOuterThickness>
                <segmentsInnerThickness>-0.00131541</segmentsInnerThickness>
-               <segmentsPlaneOffset> -0.882833 </segmentsPlaneOffset>
+               <segmentsPlaneOffset>-0.882833</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.100151 </back>
+                     <back>0.100151</back>
                      <top>0.0978351</top>
                      <front>0.0903995</front>
                      <bottom>0.0779623</bottom>
@@ -378,20 +378,20 @@
                   <forwardMovement>
                      <back>0.0922277</back>
                      <top>0.0869502</top>
-                     <front> 0.101326 </front>
+                     <front>0.101326</front>
                      <bottom>0.0779623</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/czech/Cz10_LT_vz38/track/Pz38_track.model</model>
-                  <length> 0.118438 </length>
+                  <length>0.118438</length>
                </mainSegment>
                <collisionHull>
                   <bottom></bottom>
                   <top>
                      <part>
                         <xStart>-2.17964</xStart>
-                        <xStep> 0.059219 </xStep>
+                        <xStep>0.059219</xStep>
                         <ySamples>0.935679 0.942355 0.949017 0.955679 0.961322 0.963888 0.966442 0.968578 0.96849 0.968402 0.966295 0.963545 0.961519 0.967446 0.973373 0.978647 0.983651 0.988654 0.997194 0.999724 1.00225 1.00479 1.00732 1.00985 1.01238 1.01491 1.01744 1.01997 1.0225 1.02503 1.02756 1.03011 1.0327 1.03529 1.03788 1.04046 1.04305 1.04564 1.04823 1.05081 1.0534 1.05599 1.05858 1.06116 1.06375 1.06634 1.06893 1.07151 1.0741 1.07669 1.07927 1.08186 1.08445 1.08704 1.08721 1.08893 1.09376 1.09492 1.09716 1.09982 1.10444 1.1069 1.10885 1.11095 1.11304 1.11513 1.11723 1.11725 1.11773 1.12214 1.12632 1.13079 1.12672 1.09895 1.07385</ySamples>
                      </part>
                   </top>
@@ -409,35 +409,35 @@
                      <wheelName>WD_L0</wheelName>
                      <basePos>1.93419 0.752411</basePos>
                      <shiftVec>0.290497 0.0709205</shiftVec>
-                     <jointIdx> 13 </jointIdx>
+                     <jointIdx>13</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L3</wheelName>
                      <basePos>-1.95556 0.567594</basePos>
                      <shiftVec>-0.247405 0.0796804</shiftVec>
-                     <jointIdx> 60 </jointIdx>
+                     <jointIdx>60</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L3</wheelName>
                      <basePos>-1.29427 0.417046</basePos>
                      <shiftVec>-0.0232829 -0.385482</shiftVec>
-                     <jointIdx> 72 </jointIdx>
+                     <jointIdx>72</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>1.30539 0.417066</basePos>
                      <shiftVec>0.0147452 -0.385903</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_L3</name>
-                     <radius> 0.258838 </radius>
+                     <radius>0.258838</radius>
                   </wheel>
                   <wheel>
                      <name>WD_L0</name>
-                     <radius> 0.298089 </radius>
+                     <radius>0.298089</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -446,12 +446,12 @@
                   <sync>
                      <name>WD_L3</name>
                      <startAngle>-430.188</startAngle>
-                     <teethCount> 19 </teethCount>
+                     <teethCount>19</teethCount>
                   </sync>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-433.093</startAngle>
-                     <teethCount> 19 </teethCount>
+                     <teethCount>19</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -539,19 +539,19 @@
                         <point>-0.788389 0.893344 0.0114422</point>
                      </range>
                      <range>
-                        <point> -0.788377 0.954341 0.899728 </point>
+                        <point>-0.788377 0.954341 0.899728</point>
                      </range>
                   </bottom>
                </sourceCollisionHullPoints>
             </left>
             <right>
-               <segmentsCount> 99 </segmentsCount>
+               <segmentsCount>99</segmentsCount>
                <segmentsOuterThickness>0.0401935</segmentsOuterThickness>
-               <segmentsInnerThickness> -0.001311 </segmentsInnerThickness>
-               <segmentsPlaneOffset> 0.882833 </segmentsPlaneOffset>
+               <segmentsInnerThickness>-0.001311</segmentsInnerThickness>
+               <segmentsPlaneOffset>0.882833</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.100151 </back>
+                     <back>0.100151</back>
                      <top>0.0978351</top>
                      <front>0.0903995</front>
                      <bottom>0.0779623</bottom>
@@ -559,13 +559,13 @@
                   <forwardMovement>
                      <back>0.0922277</back>
                      <top>0.0869502</top>
-                     <front> 0.101326 </front>
+                     <front>0.101326</front>
                      <bottom>0.0779623</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/czech/Cz10_LT_vz38/track/Pz38_track.model</model>
-                  <length> 0.117952 </length>
+                  <length>0.117952</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -577,7 +577,7 @@
                      <part>
                         <xStart>-0.0101819</xStart>
                         <xStep>0.0589757</xStep>
-                        <ySamples> 0.711396 0.713045 </ySamples>
+                        <ySamples>0.711396 0.713045</ySamples>
                      </part>
                      <part>
                         <xStart>0.0487938</xStart>
@@ -585,17 +585,17 @@
                         <ySamples>0.713045 0.716207 0.720329 0.725519 0.731939 0.73984 0.749633</ySamples>
                      </part>
                      <part>
-                        <xStart> 0.814455 </xStart>
+                        <xStart>0.814455</xStart>
                         <xStep>0.01</xStep>
                         <ySamples>0.801883 0.793481 0.786658 0.781128 0.776706 0.773272 0.770742</ySamples>
                      </part>
                      <part>
-                        <xStart> 0.874455 </xStart>
+                        <xStart>0.874455</xStart>
                         <xStep>0.0589757</xStep>
-                        <ySamples> 0.770742 0.772504 </ySamples>
+                        <ySamples>0.770742 0.772504</ySamples>
                      </part>
                      <part>
-                        <xStart> 0.933431 </xStart>
+                        <xStart>0.933431</xStart>
                         <xStep>0.01</xStep>
                         <ySamples>0.772504 0.775688 0.779833 0.785049 0.791501 0.79944 0.809285</ySamples>
                      </part>
@@ -621,25 +621,25 @@
                      <wheelName>WD_R0</wheelName>
                      <basePos>1.93419 0.752411</basePos>
                      <shiftVec>0.291724 0.0715035</shiftVec>
-                     <jointIdx> 13 </jointIdx>
+                     <jointIdx>13</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R3</wheelName>
                      <basePos>-1.95556 0.567594</basePos>
                      <shiftVec>-0.247434 0.0795984</shiftVec>
-                     <jointIdx> 60 </jointIdx>
+                     <jointIdx>60</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R3</wheelName>
                      <basePos>-1.29427 0.416997</basePos>
                      <shiftVec>-0.0228362 -0.385513</shiftVec>
-                     <jointIdx> 72 </jointIdx>
+                     <jointIdx>72</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>1.30539 0.417018</basePos>
                      <shiftVec>0.0160574 -0.385855</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
@@ -649,7 +649,7 @@
                   </wheel>
                   <wheel>
                      <name>WD_R0</name>
-                     <radius> 0.299432 </radius>
+                     <radius>0.299432</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -658,12 +658,12 @@
                   <sync>
                      <name>WD_R3</name>
                      <startAngle>-430.188</startAngle>
-                     <teethCount> 19 </teethCount>
+                     <teethCount>19</teethCount>
                   </sync>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-433.425</startAngle>
-                     <teethCount> 19 </teethCount>
+                     <teethCount>19</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -752,8 +752,8 @@
                         <point>0.788499 0.881545 0.0487451</point>
                      </range>
                      <range>
-                        <point> 0.788509 0.943869 0.874407 </point>
-                        <point> 0.788511 0.940838 0.933383 </point>
+                        <point>0.788509 0.943869 0.874407</point>
+                        <point>0.788511 0.940838 0.933383</point>
                      </range>
                   </bottom>
                </sourceCollisionHullPoints>
@@ -768,13 +768,13 @@
          <customizationSlots>
             <slot>
                <slotType>style</slotType>
-               <slotId> 29000 </slotId>
+               <slotId>29000</slotId>
                <anchorPosition>-0.000018 2.24505 0.291313</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 21000 </slotId>
+               <slotId>21000</slotId>
                <anchorPosition>-1.02844 0.548968 0.00749505</anchorPosition>
                <anchorDirection>-0.882168 0.47089 0.00642905</anchorDirection>
             </slot>
@@ -783,25 +783,25 @@
       <Chassis_Cz10_LT_vz38_2>
          <userString>#czech_vehicles:Chassis_Cz10_LT_vz38_2</userString>
          <tags></tags>
-         <level> 3 </level>
-         <price> 1620 </price>
+         <level>3</level>
+         <price>1620</price>
          <armor>
-            <leftTrack> 10 </leftTrack>
-            <rightTrack> 10 </rightTrack>
+            <leftTrack>10</leftTrack>
+            <rightTrack>10</rightTrack>
          </armor>
-         <weight> 3200 </weight>
-         <maxLoad> 13000 </maxLoad>
+         <weight>3200</weight>
+         <maxLoad>13000</maxLoad>
          <terrainResistance>1 1.2 1.8</terrainResistance>
-         <brakeForce> 10000 </brakeForce>
+         <brakeForce>10000</brakeForce>
          <rotationIsAroundCenter> false </rotationIsAroundCenter>
-         <rotationSpeed> 38 </rotationSpeed>
+         <rotationSpeed>38</rotationSpeed>
          <shotDispersionFactors>
             <vehicleMovement>0.32</vehicleMovement>
             <vehicleRotation>0.32</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth> 70 </maxHealth>
-         <maxRegenHealth> 55 </maxRegenHealth>
+         <maxHealth>70</maxHealth>
+         <maxRegenHealth>55</maxRegenHealth>
          <repairCost>1.0</repairCost>
          <models>
             <undamaged>vehicles/czech/Cz10_LT_vz38/normal/lod0/Chassis.model</undamaged>
@@ -826,77 +826,77 @@
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R0</name>
-               <radius> 0.337808 </radius>
+               <radius>0.337808</radius>
                <syncAngle>18.947</syncAngle>
             </wheel>
             <group>
                <isLeft> false </isLeft>
                <template>WD_R</template>
-               <radius> 0.104999 </radius>
-               <startIndex> 1 </startIndex>
-               <count> 2 </count>
+               <radius>0.104999</radius>
+               <startIndex>1</startIndex>
+               <count>2</count>
             </group>
             <wheel>
                <isLeft> false </isLeft>
                <isLeading> true </isLeading>
                <name>WD_R3</name>
-               <radius> 0.264027 </radius>
+               <radius>0.264027</radius>
                <syncAngle>18.947</syncAngle>
             </wheel>
             <group>
                <isLeft> false </isLeft>
                <template>W_R</template>
                <radius>0.3875</radius>
-               <startIndex> 0 </startIndex>
-               <count> 4 </count>
+               <startIndex>0</startIndex>
+               <count>4</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L0</name>
-               <radius> 0.337808 </radius>
+               <radius>0.337808</radius>
                <syncAngle>18.947</syncAngle>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>WD_L</template>
-               <radius> 0.104999 </radius>
-               <startIndex> 1 </startIndex>
-               <count> 2 </count>
+               <radius>0.104999</radius>
+               <startIndex>1</startIndex>
+               <count>2</count>
             </group>
             <wheel>
                <isLeft> true </isLeft>
                <isLeading> true </isLeading>
                <name>WD_L3</name>
-               <radius> 0.264027 </radius>
+               <radius>0.264027</radius>
                <syncAngle>18.947</syncAngle>
             </wheel>
             <group>
                <isLeft> true </isLeft>
                <template>W_L</template>
                <radius>0.3875</radius>
-               <startIndex> 0 </startIndex>
-               <count> 4 </count>
+               <startIndex>0</startIndex>
+               <count>4</count>
             </group>
          </wheels>
          <drivingWheels>WD_L0 WD_L3</drivingWheels>
          <effects>
             <lodDist>MEDIUM</lodDist>
-            <mud> smallTankMud </mud>
+            <mud>smallTankMud</mud>
          </effects>
          <wwsoundPC>treads_type_pc</wwsoundPC>
          <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-         <hullPosition> 0 0.934288 0 </hullPosition>
+         <hullPosition>0 0.934288 0</hullPosition>
          <hitTester>
             <collisionModelServer>vehicles/czech/Cz10_LT_vz38/collision/Chassis.model</collisionModelServer>
             <collisionModelClient>vehicles/czech/Cz10_LT_vz38/collision_client/Chassis.model</collisionModelClient>
          </hitTester>
          <topRightCarryingPoint>0.882833 1.30096</topRightCarryingPoint>
-         <maxClimbAngle> 25 </maxClimbAngle>
+         <maxClimbAngle>25</maxClimbAngle>
          <navmeshGirth>6.0</navmeshGirth>
          <AODecals>
             <decal>
-               <transform> 3.01843 -0 0 0 1.32264 0 0 0 5.20934 0 -0 -0 </transform>
+               <transform>3.01843 -0 0 0 1.32264 0 0 0 5.20934 0 -0 -0</transform>
             </decal>
          </AODecals>
          <splineDesc>
@@ -908,8 +908,8 @@
             <segmentOffset>0.098</segmentOffset>
             <lodDist>SPLINE_TRACK</lodDist>
             <atlas>
-               <UTiles> 1 </UTiles>
-               <VTiles> 1 </VTiles>
+               <UTiles>1</UTiles>
+               <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
          <trackThickness>-0.0052</trackThickness>
@@ -919,8 +919,8 @@
             <maxAmplitude>0.1</maxAmplitude>
             <maxOffset>0.1</maxOffset>
             <gravity>-9.8</gravity>
-            <elasticity> 1000 </elasticity>
-            <damping> 2 </damping>
+            <elasticity>1000</elasticity>
+            <damping>2</damping>
             <node>
                <isLeft> true </isLeft>
                <name>Track_VT_L0</name>
@@ -1019,16 +1019,16 @@
          <groundNodes>
             <group>
                <template>Track_L</template>
-               <startIndex> 0 </startIndex>
-               <count> 4 </count>
+               <startIndex>0</startIndex>
+               <count>4</count>
                <isLeft> true </isLeft>
                <minOffset>-0.06</minOffset>
                <maxOffset>0.06</maxOffset>
             </group>
             <group>
                <template>Track_R</template>
-               <startIndex> 0 </startIndex>
-               <count> 4 </count>
+               <startIndex>0</startIndex>
+               <count>4</count>
                <isLeft> false </isLeft>
                <minOffset>-0.06</minOffset>
                <maxOffset>0.06</maxOffset>
@@ -1036,13 +1036,13 @@
          </groundNodes>
          <physicalTracks>
             <left>
-               <segmentsCount> 99 </segmentsCount>
+               <segmentsCount>99</segmentsCount>
                <segmentsOuterThickness>0.0401572</segmentsOuterThickness>
                <segmentsInnerThickness>-0.00131541</segmentsInnerThickness>
-               <segmentsPlaneOffset> -0.882833 </segmentsPlaneOffset>
+               <segmentsPlaneOffset>-0.882833</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.100151 </back>
+                     <back>0.100151</back>
                      <top>0.0978351</top>
                      <front>0.0903995</front>
                      <bottom>0.0779623</bottom>
@@ -1050,20 +1050,20 @@
                   <forwardMovement>
                      <back>0.0922277</back>
                      <top>0.0869502</top>
-                     <front> 0.101326 </front>
+                     <front>0.101326</front>
                      <bottom>0.0779623</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/czech/Cz10_LT_vz38/track/Pz38_track.model</model>
-                  <length> 0.118438 </length>
+                  <length>0.118438</length>
                </mainSegment>
                <collisionHull>
                   <bottom></bottom>
                   <top>
                      <part>
                         <xStart>-2.17964</xStart>
-                        <xStep> 0.059219 </xStep>
+                        <xStep>0.059219</xStep>
                         <ySamples>0.935679 0.942355 0.949017 0.955679 0.961322 0.963888 0.966442 0.968578 0.96849 0.968402 0.966295 0.963545 0.961519 0.967446 0.973373 0.978647 0.983651 0.988654 0.997194 0.999724 1.00225 1.00479 1.00732 1.00985 1.01238 1.01491 1.01744 1.01997 1.0225 1.02503 1.02756 1.03011 1.0327 1.03529 1.03788 1.04046 1.04305 1.04564 1.04823 1.05081 1.0534 1.05599 1.05858 1.06116 1.06375 1.06634 1.06893 1.07151 1.0741 1.07669 1.07927 1.08186 1.08445 1.08704 1.08721 1.08893 1.09376 1.09492 1.09716 1.09982 1.10444 1.1069 1.10885 1.11095 1.11304 1.11513 1.11723 1.11725 1.11773 1.12214 1.12632 1.13079 1.12672 1.09895 1.07385</ySamples>
                      </part>
                   </top>
@@ -1081,35 +1081,35 @@
                      <wheelName>WD_L0</wheelName>
                      <basePos>1.93419 0.752411</basePos>
                      <shiftVec>0.290497 0.0709205</shiftVec>
-                     <jointIdx> 13 </jointIdx>
+                     <jointIdx>13</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_L3</wheelName>
                      <basePos>-1.95556 0.567594</basePos>
                      <shiftVec>-0.247405 0.0796804</shiftVec>
-                     <jointIdx> 60 </jointIdx>
+                     <jointIdx>60</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_L3</wheelName>
                      <basePos>-1.29427 0.417046</basePos>
                      <shiftVec>-0.0232829 -0.385482</shiftVec>
-                     <jointIdx> 72 </jointIdx>
+                     <jointIdx>72</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_L0</wheelName>
                      <basePos>1.30539 0.417066</basePos>
                      <shiftVec>0.0147452 -0.385903</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
                   <wheel>
                      <name>WD_L3</name>
-                     <radius> 0.258838 </radius>
+                     <radius>0.258838</radius>
                   </wheel>
                   <wheel>
                      <name>WD_L0</name>
-                     <radius> 0.298089 </radius>
+                     <radius>0.298089</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -1118,12 +1118,12 @@
                   <sync>
                      <name>WD_L3</name>
                      <startAngle>-430.188</startAngle>
-                     <teethCount> 19 </teethCount>
+                     <teethCount>19</teethCount>
                   </sync>
                   <sync>
                      <name>WD_L0</name>
                      <startAngle>-433.093</startAngle>
-                     <teethCount> 19 </teethCount>
+                     <teethCount>19</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -1211,19 +1211,19 @@
                         <point>-0.788389 0.893344 0.0114422</point>
                      </range>
                      <range>
-                        <point> -0.788377 0.954341 0.899728 </point>
+                        <point>-0.788377 0.954341 0.899728</point>
                      </range>
                   </bottom>
                </sourceCollisionHullPoints>
             </left>
             <right>
-               <segmentsCount> 99 </segmentsCount>
+               <segmentsCount>99</segmentsCount>
                <segmentsOuterThickness>0.0401935</segmentsOuterThickness>
-               <segmentsInnerThickness> -0.001311 </segmentsInnerThickness>
-               <segmentsPlaneOffset> 0.882833 </segmentsPlaneOffset>
+               <segmentsInnerThickness>-0.001311</segmentsInnerThickness>
+               <segmentsPlaneOffset>0.882833</segmentsPlaneOffset>
                <springsLength>
                   <backwardMovement>
-                     <back> 0.100151 </back>
+                     <back>0.100151</back>
                      <top>0.0978351</top>
                      <front>0.0903995</front>
                      <bottom>0.0779623</bottom>
@@ -1231,13 +1231,13 @@
                   <forwardMovement>
                      <back>0.0922277</back>
                      <top>0.0869502</top>
-                     <front> 0.101326 </front>
+                     <front>0.101326</front>
                      <bottom>0.0779623</bottom>
                   </forwardMovement>
                </springsLength>
                <mainSegment>
                   <model>vehicles/czech/Cz10_LT_vz38/track/Pz38_track.model</model>
-                  <length> 0.117952 </length>
+                  <length>0.117952</length>
                </mainSegment>
                <collisionHull>
                   <bottom>
@@ -1249,7 +1249,7 @@
                      <part>
                         <xStart>-0.0101819</xStart>
                         <xStep>0.0589757</xStep>
-                        <ySamples> 0.711396 0.713045 </ySamples>
+                        <ySamples>0.711396 0.713045</ySamples>
                      </part>
                      <part>
                         <xStart>0.0487938</xStart>
@@ -1257,17 +1257,17 @@
                         <ySamples>0.713045 0.716207 0.720329 0.725519 0.731939 0.73984 0.749633</ySamples>
                      </part>
                      <part>
-                        <xStart> 0.814455 </xStart>
+                        <xStart>0.814455</xStart>
                         <xStep>0.01</xStep>
                         <ySamples>0.801883 0.793481 0.786658 0.781128 0.776706 0.773272 0.770742</ySamples>
                      </part>
                      <part>
-                        <xStart> 0.874455 </xStart>
+                        <xStart>0.874455</xStart>
                         <xStep>0.0589757</xStep>
-                        <ySamples> 0.770742 0.772504 </ySamples>
+                        <ySamples>0.770742 0.772504</ySamples>
                      </part>
                      <part>
-                        <xStart> 0.933431 </xStart>
+                        <xStart>0.933431</xStart>
                         <xStep>0.01</xStep>
                         <ySamples>0.772504 0.775688 0.779833 0.785049 0.791501 0.79944 0.809285</ySamples>
                      </part>
@@ -1293,25 +1293,25 @@
                      <wheelName>WD_R0</wheelName>
                      <basePos>1.93419 0.752411</basePos>
                      <shiftVec>0.291724 0.0715035</shiftVec>
-                     <jointIdx> 13 </jointIdx>
+                     <jointIdx>13</jointIdx>
                   </topFront>
                   <topBack>
                      <wheelName>WD_R3</wheelName>
                      <basePos>-1.95556 0.567594</basePos>
                      <shiftVec>-0.247434 0.0795984</shiftVec>
-                     <jointIdx> 60 </jointIdx>
+                     <jointIdx>60</jointIdx>
                   </topBack>
                   <bottomBack>
                      <wheelName>W_R3</wheelName>
                      <basePos>-1.29427 0.416997</basePos>
                      <shiftVec>-0.0228362 -0.385513</shiftVec>
-                     <jointIdx> 72 </jointIdx>
+                     <jointIdx>72</jointIdx>
                   </bottomBack>
                   <bottomFront>
                      <wheelName>W_R0</wheelName>
                      <basePos>1.30539 0.417018</basePos>
                      <shiftVec>0.0160574 -0.385855</shiftVec>
-                     <jointIdx> 0 </jointIdx>
+                     <jointIdx>0</jointIdx>
                   </bottomFront>
                </snapWheels>
                <radiusOverrides>
@@ -1321,7 +1321,7 @@
                   </wheel>
                   <wheel>
                      <name>WD_R0</name>
-                     <radius> 0.299432 </radius>
+                     <radius>0.299432</radius>
                   </wheel>
                </radiusOverrides>
                <teethSyncs>
@@ -1330,12 +1330,12 @@
                   <sync>
                      <name>WD_R3</name>
                      <startAngle>-430.188</startAngle>
-                     <teethCount> 19 </teethCount>
+                     <teethCount>19</teethCount>
                   </sync>
                   <sync>
                      <name>WD_R0</name>
                      <startAngle>-433.425</startAngle>
-                     <teethCount> 19 </teethCount>
+                     <teethCount>19</teethCount>
                   </sync>
                </teethSyncs>
                <sourceCollisionHullPoints>
@@ -1424,8 +1424,8 @@
                         <point>0.788499 0.881545 0.0487451</point>
                      </range>
                      <range>
-                        <point> 0.788509 0.943869 0.874407 </point>
-                        <point> 0.788511 0.940838 0.933383 </point>
+                        <point>0.788509 0.943869 0.874407</point>
+                        <point>0.788511 0.940838 0.933383</point>
                      </range>
                   </bottom>
                </sourceCollisionHullPoints>
@@ -1440,13 +1440,13 @@
          <customizationSlots>
             <slot>
                <slotType>style</slotType>
-               <slotId> 29000 </slotId>
+               <slotId>29000</slotId>
                <anchorPosition>-0.000018 2.24505 0.291313</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 21000 </slotId>
+               <slotId>21000</slotId>
                <anchorPosition>-1.02844 0.548968 0.00749505</anchorPosition>
                <anchorDirection>-0.882168 0.47089 0.00642905</anchorDirection>
             </slot>
@@ -1457,47 +1457,47 @@
       <Turret_1_Cz10_LT_vz38>
          <userString>#czech_vehicles:Turret_1_Cz10_LT_vz38</userString>
          <tags></tags>
-         <level> 2 </level>
-         <price> 850 </price>
+         <level>2</level>
+         <price>850</price>
          <armor>
-            <armor_1> 25 </armor_1>
-            <armor_2> 15 </armor_2>
-            <armor_3> 15 </armor_3>
-            <armor_4> 15 </armor_4>
-            <armor_5> 8 </armor_5>
-            <armor_6> 8 </armor_6>
+            <armor_1>25</armor_1>
+            <armor_2>15</armor_2>
+            <armor_3>15</armor_3>
+            <armor_4>15</armor_4>
+            <armor_5>8</armor_5>
+            <armor_6>8</armor_6>
             <armor_7>
                10
                <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_7>
-            <armor_8> 0 </armor_8>
-            <armor_9> 15 </armor_9>
-            <armor_10> 15 </armor_10>
-            <armor_11> 25 </armor_11>
+            <armor_8>0</armor_8>
+            <armor_9>15</armor_9>
+            <armor_10>15</armor_10>
+            <armor_11>25</armor_11>
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-         <weight> 1200 </weight>
-         <maxHealth> 36 </maxHealth>
-         <rotationSpeed> 30 </rotationSpeed>
+         <weight>1200</weight>
+         <maxHealth>36</maxHealth>
+         <rotationSpeed>30</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 70 </maxHealth>
-            <maxRegenHealth> 35 </maxRegenHealth>
+            <maxHealth>70</maxHealth>
+            <maxRegenHealth>35</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 310 </circularVisionRadius>
+         <circularVisionRadius>310</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 50 </maxHealth>
-            <maxRegenHealth> 25 </maxRegenHealth>
+            <maxHealth>50</maxHealth>
+            <maxRegenHealth>25</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </surveyingDeviceHealth>
          <guns>
             <_37mm_Skoda_A3>
                shared
-               <maxAmmo> 90 </maxAmmo>
+               <maxAmmo>90</maxAmmo>
                <unlocks>
                   <gun>
                      _37mm_Skoda_A8
-                     <cost> 120 </cost>
+                     <cost>120</cost>
                   </gun>
                </unlocks>
                <armor>
@@ -1529,7 +1529,7 @@
                      0
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_7>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <pitchLimits>
@@ -1557,17 +1557,17 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.000000 -0.0546499 0.662666</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
-                     <anchorPosition> 0 0.125868 0.125867 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41000</slotId>
+                     <anchorPosition>0 0.125868 0.125867</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1578,11 +1578,11 @@
             </_37mm_Skoda_A3>
             <_37mm_Skoda_A8>
                shared
-               <maxAmmo> 90 </maxAmmo>
+               <maxAmmo>90</maxAmmo>
                <unlocks>
                   <gun>
                      _37mm_Skoda_A7
-                     <cost> 130 </cost>
+                     <cost>130</cost>
                   </gun>
                </unlocks>
                <armor>
@@ -1602,7 +1602,7 @@
                      25
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_4>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <pitchLimits>
@@ -1631,24 +1631,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>-0.000066 -0.0146991 0.622435</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>-0.000066 -0.0146991 0.622435</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.147258 0.147257 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.147258 0.147257</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1659,15 +1659,15 @@
             </_37mm_Skoda_A8>
             <_37mm_Skoda_A7>
                shared
-               <maxAmmo> 90 </maxAmmo>
+               <maxAmmo>90</maxAmmo>
                <unlocks>
                   <turret>
                      Turret_2_Cz10_LT_vz38
-                     <cost> 390 </cost>
+                     <cost>390</cost>
                   </turret>
                   <vehicle>
                      Cz11_V_8_H
-                     <cost> 4660 </cost>
+                     <cost>4660</cost>
                   </vehicle>
                </unlocks>
                <armor>
@@ -1687,7 +1687,7 @@
                      25
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_4>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <pitchLimits>
@@ -1716,24 +1716,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.000014 -0.0147383 0.67729</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.000014 -0.0147383 0.67729</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.147258 0.147257 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.147258 0.147257</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1752,7 +1752,7 @@
             <collisionModelServer>vehicles/czech/Cz10_LT_vz38/collision/Turret_01.model</collisionModelServer>
             <collisionModelClient>vehicles/czech/Cz10_LT_vz38/collision_client/Turret_01.model</collisionModelClient>
          </hitTester>
-         <gunPosition> 1.8e-05 0.296262 0.515307 </gunPosition>
+         <gunPosition>1.8e-05 0.296262 0.515307</gunPosition>
          <showEmblemsOnGun> false </showEmblemsOnGun>
          <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
          <physicsShape>0.976 -0.049 1.006 0.000 0.520 0.049 0.820 0.640 0.268 0.500 0.122 0.500 0.125 0.500 0.000</physicsShape>
@@ -1765,7 +1765,7 @@
          <customizationSlots>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
+               <slotId>33000</slotId>
                <rayStart>-0.731681 0.309681 -0.0772088</rayStart>
                <rayEnd>-0.534402 0.278585 -0.0665305</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -1775,9 +1775,9 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34000 </slotId>
-               <rayStart> -0.600505 0.308668 -0.570226 </rayStart>
-               <rayEnd> -0.412469 0.275067 -0.510952 </rayEnd>
+               <slotId>34000</slotId>
+               <rayStart>-0.600505 0.308668 -0.570226</rayStart>
+               <rayEnd>-0.412469 0.275067 -0.510952</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.56</size>
                <hideIfDamaged> false </hideIfDamaged>
@@ -1785,7 +1785,7 @@
             </slot>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33001 </slotId>
+               <slotId>33001</slotId>
                <rayStart>0.731681 0.309681 -0.0772088</rayStart>
                <rayEnd>0.534402 0.278585 -0.0665305</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
@@ -1796,9 +1796,9 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34001 </slotId>
-               <rayStart> 0.600505 0.308668 -0.570226 </rayStart>
-               <rayEnd> 0.412469 0.275067 -0.510952 </rayEnd>
+               <slotId>34001</slotId>
+               <rayStart>0.600505 0.308668 -0.570226</rayStart>
+               <rayEnd>0.412469 0.275067 -0.510952</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.56</size>
                <hideIfDamaged> true </hideIfDamaged>
@@ -1806,14 +1806,14 @@
             </slot>
             <slot>
                <slotType>camouflage</slotType>
-               <slotId> 32000 </slotId>
-               <anchorPosition> 0 0.744242 0 </anchorPosition>
+               <slotId>32000</slotId>
+               <anchorPosition>0 0.744242 0</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 31000 </slotId>
-               <anchorPosition> 0 0.744242 0 </anchorPosition>
+               <slotId>31000</slotId>
+               <anchorPosition>0 0.744242 0</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
          </customizationSlots>
@@ -1826,51 +1826,51 @@
       <Turret_2_Cz10_LT_vz38>
          <userString>#czech_vehicles:Turret_2_Cz10_LT_vz38</userString>
          <tags></tags>
-         <level> 3 </level>
-         <price> 1950 </price>
+         <level>3</level>
+         <price>1950</price>
          <unlocks>
             <gun>
                _37mm_Skoda_A23
-               <cost> 980 </cost>
+               <cost>980</cost>
             </gun>
          </unlocks>
          <armor>
-            <armor_1> 50 </armor_1>
-            <armor_2> 25 </armor_2>
-            <armor_3> 30 </armor_3>
-            <armor_4> 25 </armor_4>
-            <armor_5> 12 </armor_5>
-            <armor_6> 8 </armor_6>
+            <armor_1>50</armor_1>
+            <armor_2>25</armor_2>
+            <armor_3>30</armor_3>
+            <armor_4>25</armor_4>
+            <armor_5>12</armor_5>
+            <armor_6>8</armor_6>
             <armor_7>
                10
                <vehicleDamageFactor>0.0</vehicleDamageFactor>
             </armor_7>
-            <armor_8> 0 </armor_8>
-            <armor_9> 15 </armor_9>
-            <armor_10> 15 </armor_10>
-            <armor_11> 25 </armor_11>
-            <armor_12> 15 </armor_12>
+            <armor_8>0</armor_8>
+            <armor_9>15</armor_9>
+            <armor_10>15</armor_10>
+            <armor_11>25</armor_11>
+            <armor_12>15</armor_12>
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
-         <weight> 1800 </weight>
-         <maxHealth> 76 </maxHealth>
-         <rotationSpeed> 32 </rotationSpeed>
+         <weight>1800</weight>
+         <maxHealth>76</maxHealth>
+         <rotationSpeed>32</rotationSpeed>
          <turretRotatorHealth>
-            <maxHealth> 70 </maxHealth>
-            <maxRegenHealth> 35 </maxRegenHealth>
+            <maxHealth>70</maxHealth>
+            <maxRegenHealth>35</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius> 330 </circularVisionRadius>
+         <circularVisionRadius>330</circularVisionRadius>
          <surveyingDeviceHealth>
-            <maxHealth> 50 </maxHealth>
-            <maxRegenHealth> 25 </maxRegenHealth>
+            <maxHealth>50</maxHealth>
+            <maxRegenHealth>25</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </surveyingDeviceHealth>
          <invisibilityFactor>0.994</invisibilityFactor>
          <guns>
             <_37mm_Skoda_A3>
                shared
-               <maxAmmo> 90 </maxAmmo>
+               <maxAmmo>90</maxAmmo>
                <armor>
                   <armor_1>
                      50
@@ -1900,7 +1900,7 @@
                      0
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_7>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <pitchLimits>
@@ -1908,7 +1908,7 @@
                   <maxPitch>0 10 0.529043 10 0.530462 8.5 0.542823 8 0.573774 9.5 0.575396 10 1 10</maxPitch>
                </pitchLimits>
                <invisibilityFactorAtShot>0.285</invisibilityFactorAtShot>
-               <reloadTime> 3 </reloadTime>
+               <reloadTime>3</reloadTime>
                <shotDispersionFactors>
                   <turretRotation>0.12</turretRotation>
                   <afterShot>4.0</afterShot>
@@ -1933,17 +1933,17 @@
                <customizationSlots>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
-                     <anchorPosition> -0 0.126795 0.126795 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41000</slotId>
+                     <anchorPosition>-0 0.126795 0.126795</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>-0.000000 -0.0568122 0.657806</anchorPosition>
                      <anchorDirection>-0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -1954,7 +1954,7 @@
             </_37mm_Skoda_A3>
             <_37mm_Skoda_A8>
                shared
-               <maxAmmo> 90 </maxAmmo>
+               <maxAmmo>90</maxAmmo>
                <armor>
                   <armor_1>
                      50
@@ -1972,7 +1972,7 @@
                      50
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_4>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <pitchLimits>
@@ -2006,24 +2006,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>-0.000066 -0.0146991 0.622435</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>-0.000066 -0.0146991 0.622435</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.147259 0.147259 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.147259 0.147259</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2034,7 +2034,7 @@
             </_37mm_Skoda_A8>
             <_37mm_Skoda_A7>
                shared
-               <maxAmmo> 90 </maxAmmo>
+               <maxAmmo>90</maxAmmo>
                <armor>
                   <armor_1>
                      50
@@ -2052,7 +2052,7 @@
                      50
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_4>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <pitchLimits>
@@ -2086,24 +2086,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.000014 -0.0147384 0.67729</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.000014 -0.0147384 0.67729</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.147259 0.147259 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.147259 0.147259</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2114,7 +2114,7 @@
             </_37mm_Skoda_A7>
             <_37mm_Skoda_A23>
                shared
-               <maxAmmo> 90 </maxAmmo>
+               <maxAmmo>90</maxAmmo>
                <armor>
                   <armor_1>
                      50
@@ -2132,7 +2132,7 @@
                      50
                      <vehicleDamageFactor>0.0</vehicleDamageFactor>
                   </armor_4>
-                  <gun> 10 </gun>
+                  <gun>10</gun>
                </armor>
                <turretYawLimits>-180 180</turretYawLimits>
                <pitchLimits>
@@ -2141,16 +2141,16 @@
                </pitchLimits>
                <invisibilityFactorAtShot>0.285</invisibilityFactorAtShot>
                <clip>
-                  <count> 3 </count>
-                  <rate> 60 </rate>
+                  <count>3</count>
+                  <rate>60</rate>
                </clip>
                <shotDispersionFactors>
                   <turretRotation>0.1</turretRotation>
-                  <afterShot> 3 </afterShot>
+                  <afterShot>3</afterShot>
                   <whileGunDamaged>2.0</whileGunDamaged>
                </shotDispersionFactors>
                <shotDispersionRadius>0.38</shotDispersionRadius>
-               <reloadTime> 5 </reloadTime>
+               <reloadTime>5</reloadTime>
                <aimingTime>1.7</aimingTime>
                <models>
                   <undamaged>vehicles/czech/Cz10_LT_vz38/normal/lod0/Gun_07.model</undamaged>
@@ -2171,24 +2171,24 @@
                <customizationSlots>
                   <slot>
                      <slotType>camouflage</slotType>
-                     <slotId> 42000 </slotId>
+                     <slotId>42000</slotId>
                      <anchorPosition>0.000018 -0.00906629 0.994363</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41000 </slotId>
+                     <slotId>41000</slotId>
                      <anchorPosition>0.000018 -0.00906629 0.994363</anchorPosition>
                      <anchorDirection>0.000000 0.000000 1</anchorDirection>
-                     <applyTo> 4096 </applyTo>
+                     <applyTo>4096</applyTo>
                   </slot>
                   <slot>
                      <slotType>paint</slotType>
-                     <slotId> 41001 </slotId>
-                     <anchorPosition> 0 0.147259 0.147259 </anchorPosition>
-                     <anchorDirection> 0 0.707107 0.707107 </anchorDirection>
-                     <applyTo> 16384 </applyTo>
+                     <slotId>41001</slotId>
+                     <anchorPosition>0 0.147259 0.147259</anchorPosition>
+                     <anchorDirection>0 0.707107 0.707107</anchorDirection>
+                     <applyTo>16384</applyTo>
                   </slot>
                </customizationSlots>
                <camouflage>
@@ -2207,7 +2207,7 @@
             <collisionModelServer>vehicles/czech/Cz10_LT_vz38/collision/Turret_02.model</collisionModelServer>
             <collisionModelClient>vehicles/czech/Cz10_LT_vz38/collision_client/Turret_02.model</collisionModelClient>
          </hitTester>
-         <gunPosition> 1.8e-05 0.300631 0.558388 </gunPosition>
+         <gunPosition>1.8e-05 0.300631 0.558388</gunPosition>
          <showEmblemsOnGun> false </showEmblemsOnGun>
          <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
          <physicsShape>0.976 -0.049 1.006 0.000 0.520 0.049 0.820 0.640 0.268 0.500 0.122 0.500 0.125 0.500 0.000</physicsShape>
@@ -2220,8 +2220,8 @@
          <customizationSlots>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33000 </slotId>
-               <rayStart> -0.732693 0.323811 -0.124229 </rayStart>
+               <slotId>33000</slotId>
+               <rayStart>-0.732693 0.323811 -0.124229</rayStart>
                <rayEnd>-0.537964 0.292013 -0.0915314</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.22</size>
@@ -2230,8 +2230,8 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34000 </slotId>
-               <rayStart> -0.610688 0.307183 -0.572594 </rayStart>
+               <slotId>34000</slotId>
+               <rayStart>-0.610688 0.307183 -0.572594</rayStart>
                <rayEnd>-0.420658 0.28107 -0.51597</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.56</size>
@@ -2240,8 +2240,8 @@
             </slot>
             <slot>
                <slotType>player</slotType>
-               <slotId> 33001 </slotId>
-               <rayStart> 0.732693 0.323811 -0.124229 </rayStart>
+               <slotId>33001</slotId>
+               <rayStart>0.732693 0.323811 -0.124229</rayStart>
                <rayEnd>0.537964 0.292013 -0.0915314</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <isMirrored> true </isMirrored>
@@ -2251,8 +2251,8 @@
             </slot>
             <slot>
                <slotType>inscription</slotType>
-               <slotId> 34001 </slotId>
-               <rayStart> 0.610688 0.307183 -0.572594 </rayStart>
+               <slotId>34001</slotId>
+               <rayStart>0.610688 0.307183 -0.572594</rayStart>
                <rayEnd>0.420658 0.28107 -0.51597</rayEnd>
                <rayUp>0.000000 1 0.000000</rayUp>
                <size>0.56</size>
@@ -2261,14 +2261,14 @@
             </slot>
             <slot>
                <slotType>camouflage</slotType>
-               <slotId> 32000 </slotId>
-               <anchorPosition> 0 0.749363 0 </anchorPosition>
+               <slotId>32000</slotId>
+               <anchorPosition>0 0.749363 0</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
             <slot>
                <slotType>paint</slotType>
-               <slotId> 31000 </slotId>
-               <anchorPosition> 0 0.749363 0 </anchorPosition>
+               <slotId>31000</slotId>
+               <anchorPosition>0 0.749363 0</anchorPosition>
                <anchorDirection>0.000000 1 0.000000</anchorDirection>
             </slot>
          </customizationSlots>
@@ -2285,7 +2285,7 @@
          <unlocks>
             <engine>
                Praga_TNHPS_II
-               <cost> 130 </cost>
+               <cost>130</cost>
             </engine>
          </unlocks>
       </Praga_TNHPS>
@@ -2294,7 +2294,7 @@
          <unlocks>
             <engine>
                Praga_TNHPS_dvojkarb
-               <cost> 270 </cost>
+               <cost>270</cost>
             </engine>
          </unlocks>
       </Praga_TNHPS_II>
@@ -2309,7 +2309,7 @@
          <unlocks>
             <radio>
                Radiostanice_vz_37
-               <cost> 370 </cost>
+               <cost>370</cost>
             </radio>
          </unlocks>
       </Radiostanice_vz_35>
@@ -2320,15 +2320,15 @@
          <engines>
             <Praga_TNHPS>
                <smplEnginePower>126.8737</smplEnginePower>
-               <smplFwMaxSpeed> 42 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>42</smplFwMaxSpeed>
             </Praga_TNHPS>
             <Praga_TNHPS_II>
                <smplEnginePower>132.1601</smplEnginePower>
-               <smplFwMaxSpeed> 42 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>42</smplFwMaxSpeed>
             </Praga_TNHPS_II>
             <Praga_TNHPS_dvojkarb>
                <smplEnginePower>148.0194</smplEnginePower>
-               <smplFwMaxSpeed> 42 </smplFwMaxSpeed>
+               <smplFwMaxSpeed>42</smplFwMaxSpeed>
             </Praga_TNHPS_dvojkarb>
          </engines>
          <chassis>
@@ -2411,7 +2411,7 @@
       <damagedStateGroup>small</damagedStateGroup>
    </effects>
    <emblems>
-      <default> 15514 </default>
+      <default>15514</default>
       <lodDist>MEDIUM</lodDist>
       <alpha>0.88</alpha>
    </emblems>

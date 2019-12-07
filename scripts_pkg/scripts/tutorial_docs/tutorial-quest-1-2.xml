@@ -1,12 +1,12 @@
 <tutorial-quest-1-2.xml>
-   <default-scene> DefaultScene </default-scene>
-   <initial-scene> DefaultScene </initial-scene>
+   <default-scene>DefaultScene</default-scene>
+   <initial-scene>DefaultScene</initial-scene>
    <scenes>
       <scene>
          DefaultScene
          <post-effects>
             <run-trigger>FightBtnDisableTrigger</run-trigger>
-            <run-trigger> InSandBoxOrRandomPreQueueTrigger </run-trigger>
+            <run-trigger>InSandBoxOrRandomPreQueueTrigger</run-trigger>
          </post-effects>
          <runtime-effects>
             <next-chapter>
@@ -17,27 +17,27 @@
             <activate>
                ShowBattleButtonHint
                <condition>
-                  <global-inactive> BattleButtonHintCooldown </global-inactive>
+                  <global-inactive>BattleButtonHintCooldown</global-inactive>
                   <active>BattleButtonOnScene</active>
                   <bonus-not-received>TutorialQuest_2</bonus-not-received>
                   <inactive>IsInQueue</inactive>
-                  <inactive> LobbyMenuOnScene </inactive>
-                  <inactive> FightBtnDisabled </inactive>
+                  <inactive>LobbyMenuOnScene</inactive>
+                  <inactive>FightBtnDisabled</inactive>
                   <active>InSandboxOrRandom</active>
                </condition>
             </activate>
             <show-hint>
                BattleButtonHint
                <condition>
-                  <active> ShowBattleButtonHint </active>
+                  <active>ShowBattleButtonHint</active>
                </condition>
             </show-hint>
             <run-trigger>
                FightBtnLoopTrigger
                <condition>
                   <either>
-                     <global-active> BattleButtonHintCooldown </global-active>
-                     <active> ShowBattleButtonHint </active>
+                     <global-active>BattleButtonHintCooldown</global-active>
+                     <active>ShowBattleButtonHint</active>
                   </either>
                </condition>
             </run-trigger>

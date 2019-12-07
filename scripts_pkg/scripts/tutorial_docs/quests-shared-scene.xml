@@ -27,43 +27,43 @@
       <show-hint>
          TankAcademyButtonHint
          <condition>
-            <active> TankAcademyButtonOnScene </active>
-            <active> PlayerHasTankmanDiscount </active>
+            <active>TankAcademyButtonOnScene</active>
+            <active>PlayerHasTankmanDiscount</active>
          </condition>
       </show-hint>
       <show-hint>
          QuestsControlHint
          <condition>
-            <active> QuestsControlOnScene </active>
+            <active>QuestsControlOnScene</active>
             <active>ShowQuestsControlHint</active>
-            <inactive> LobbyMenuOnScene </inactive>
+            <inactive>LobbyMenuOnScene</inactive>
          </condition>
       </show-hint>
       <show-hint>
          ResearchHelpButtonHint
          <condition>
-            <active> ShowResearchHint </active>
+            <active>ShowResearchHint</active>
             <active>ResearchHelpButtonOnScene</active>
          </condition>
       </show-hint>
       <show-hint>
          TechTreeHelpButtonHint
          <condition>
-            <active> ShowTechTreeHint </active>
+            <active>ShowTechTreeHint</active>
             <active>TechTreeHelpButtonOnScene</active>
          </condition>
       </show-hint>
       <show-hint>
          PersonalCaseHelpButtonHint
          <condition>
-            <active> ShowPersonalCaseHint </active>
+            <active>ShowPersonalCaseHint</active>
             <active>PersonalCaseHelpButtonOnScene</active>
          </condition>
       </show-hint>
       <show-hint>
          TechnicalMaintenanceHelpButtonHint
          <condition>
-            <active> ShowTechnicalMaintenanceHint </active>
+            <active>ShowTechnicalMaintenanceHint</active>
             <active>TechnicalMaintenanceHelpButtonOnScene</active>
          </condition>
       </show-hint>
@@ -77,14 +77,14 @@
       <show-award-window>
          TutorialAwardWindow5
          <condition>
-            <global-active> SlotDiscountUsed </global-active>
+            <global-active>SlotDiscountUsed</global-active>
             <bonus-not-received>TutorialQuest_5</bonus-not-received>
          </condition>
       </show-award-window>
       <request-bonus>
          TutorialQuest_5
          <condition>
-            <global-active> SlotDiscountUsed </global-active>
+            <global-active>SlotDiscountUsed</global-active>
             <bonus-not-received>TutorialQuest_5</bonus-not-received>
          </condition>
       </request-bonus>
@@ -93,19 +93,19 @@
       <gui-item>
          LobbyMenu
          <on-scene-effects>
-            <activate> LobbyMenuOnScene </activate>
+            <activate>LobbyMenuOnScene</activate>
          </on-scene-effects>
          <not-on-scene-effects>
-            <inactivate> LobbyMenuOnScene </inactivate>
+            <inactivate>LobbyMenuOnScene</inactivate>
          </not-on-scene-effects>
       </gui-item>
       <gui-item>
          QuestsControl
          <on-scene-effects>
-            <activate> QuestsControlOnScene </activate>
+            <activate>QuestsControlOnScene</activate>
          </on-scene-effects>
          <not-on-scene-effects>
-            <inactivate> QuestsControlOnScene </inactivate>
+            <inactivate>QuestsControlOnScene</inactivate>
          </not-on-scene-effects>
       </gui-item>
       <gui-item>
@@ -191,10 +191,10 @@
       <gui-item>
          TankAcademyButton
          <on-scene-effects>
-            <activate> TankAcademyButtonOnScene </activate>
+            <activate>TankAcademyButtonOnScene</activate>
          </on-scene-effects>
          <not-on-scene-effects>
-            <inactivate> TankAcademyButtonOnScene </inactivate>
+            <inactivate>TankAcademyButtonOnScene</inactivate>
          </not-on-scene-effects>
       </gui-item>
       <gui-item>
@@ -227,7 +227,7 @@
             <bonus-not-received>TutorialQuest_1</bonus-not-received>
          </condition>
       </run-trigger>
-      <run-trigger> QueueTrigger </run-trigger>
+      <run-trigger>QueueTrigger</run-trigger>
       <run-trigger>
          RandomBattlesCountTrigger
          <condition>
@@ -324,28 +324,28 @@
             <bonus-not-received>TutorialQuest_14</bonus-not-received>
          </condition>
       </run-trigger>
-      <run-trigger> TankamAcademyDiscountTrigger </run-trigger>
+      <run-trigger>TankamAcademyDiscountTrigger</run-trigger>
       <run-trigger>AwardWindow2ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow2CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow2CloseTrigger</run-trigger>
       <run-trigger>AwardWindow3ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow3CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow3CloseTrigger</run-trigger>
       <run-trigger>AwardWindow3ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow3CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow3CloseTrigger</run-trigger>
       <run-trigger>AwardWindow4ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow4CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow4CloseTrigger</run-trigger>
       <run-trigger>AwardWindow5ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow5CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow5CloseTrigger</run-trigger>
       <run-trigger>AwardWindow5ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow5CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow5CloseTrigger</run-trigger>
       <run-trigger>AwardWindow6ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow6CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow6CloseTrigger</run-trigger>
       <run-trigger>AwardWindow7ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow7CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow7CloseTrigger</run-trigger>
       <run-trigger>AwardWindow8ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow8CloseTrigger </run-trigger>
-      <run-trigger> InSandBoxPreQueueTrigger </run-trigger>
+      <run-trigger>AwardWindow8CloseTrigger</run-trigger>
+      <run-trigger>InSandBoxPreQueueTrigger</run-trigger>
       <run-trigger>AwardWindow9ProcessTrigger</run-trigger>
-      <run-trigger> AwardWindow9CloseTrigger </run-trigger>
+      <run-trigger>AwardWindow9CloseTrigger</run-trigger>
       <run-trigger>AwardWindow10ProcessTrigger</run-trigger>
       <run-trigger>AwardWindow10CloseTrigger</run-trigger>
       <run-trigger>AwardWindow11ProcessTrigger</run-trigger>
@@ -357,7 +357,7 @@
       <run-trigger>AwardWindow14ProcessTrigger</run-trigger>
       <run-trigger>AwardWindow14CloseTrigger</run-trigger>
       <run-trigger>InventoryVehicleTrigger</run-trigger>
-      <run-trigger> PveChainShownTrigger </run-trigger>
+      <run-trigger>PveChainShownTrigger</run-trigger>
       <run-trigger>DefaultQueueTrigger</run-trigger>
       <run-trigger>PermanentOwnVehicleTrigger</run-trigger>
    </post-effects>

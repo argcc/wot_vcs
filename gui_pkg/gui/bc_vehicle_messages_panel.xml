@@ -7,25 +7,25 @@
       <setting>
          <name>maxLinesCount</name>
          <type>int</type>
-         <value> 2 </value>
+         <value>2</value>
       </setting>
       <setting>
-         <name> lifeTime </name>
+         <name>lifeTime</name>
          <type>float</type>
-         <value> 2000 </value>
+         <value>2000</value>
       </setting>
       <setting>
          <name>alphaSpeed</name>
          <type>float</type>
-         <value> 1000 </value>
+         <value>1000</value>
       </setting>
       <setting>
          <name>useHtml</name>
-         <type> bool </type>
-         <value> True </value>
+         <type>bool</type>
+         <value>True</value>
       </setting>
       <setting>
-         <name> poolSettings </name>
+         <name>poolSettings</name>
          <type>seq-pairs</type>
          <value>
             <item>
@@ -50,11 +50,11 @@
    <styles>
       <style>
          <name>entityStyle</name>
-         <type> dict </type>
+         <type>dict</type>
          <value>
             <item>
                14
-               <name> fontSize </name>
+               <name>fontSize</name>
             </item>
             <item>
                #FFFFFF
@@ -62,7 +62,7 @@
             </item>
             <item>
                $FieldFont
-               <name> fontFace </name>
+               <name>fontFace</name>
             </item>
          </value>
       </style>
@@ -70,7 +70,7 @@
    <messages>
       <message>
          <name>SCREENSHOT_CREATED</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#menu:screenshot/save)</item>
             <item>green</item>
@@ -78,7 +78,7 @@
       </message>
       <message>
          <name>insufficient_memory_please_reboot</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#system_messages:memory_critical/insufficient_memory_please_reboot)</item>
             <item>red,purple</item>
@@ -86,15 +86,15 @@
       </message>
       <message>
          <name>tex_was_lowered_to_min</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#system_messages:memory_critical/tex_was_lowered_to_min)</item>
             <item>yellow</item>
          </value>
       </message>
       <message>
-         <name> replayPaused </name>
-         <type> list </type>
+         <name>replayPaused</name>
+         <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/replayPaused)</item>
             <item>green</item>
@@ -102,7 +102,7 @@
       </message>
       <message>
          <name>replayFreeCameraActivated</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/replayFreeCameraActivated)</item>
             <item>green</item>
@@ -110,7 +110,7 @@
       </message>
       <message>
          <name>replaySavedCameraActivated</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/replaySavedCameraActivated)</item>
             <item>green</item>
@@ -118,7 +118,7 @@
       </message>
       <message>
          <name>replaySpeedChange</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/replaySpeedChange)</item>
             <item>green</item>
@@ -126,7 +126,7 @@
       </message>
       <message>
          <name>replayControlsHelp1</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/replayControlsHelp1)</item>
             <item>green</item>
@@ -134,7 +134,7 @@
       </message>
       <message>
          <name>replayControlsHelp2</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/replayControlsHelp2)</item>
             <item>green</item>
@@ -142,7 +142,7 @@
       </message>
       <message>
          <name>replayControlsHelp3</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/replayControlsHelp3)</item>
             <item>green</item>
@@ -150,7 +150,7 @@
       </message>
       <message>
          <name>DRR_SCALE_STEP_UP</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#system_messages:drr_scale/step_up)</item>
             <item>green</item>
@@ -158,7 +158,7 @@
       </message>
       <message>
          <name>DRR_SCALE_STEP_DOWN</name>
-         <type> list </type>
+         <type>list</type>
          <value>
             <item>_(#system_messages:drr_scale/step_down)</item>
             <item>green</item>

@@ -1,13 +1,13 @@
 <tutorial-battle-quests.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Battle</initial-scene>
    <scenes>
       <scene>
          Battle
          <post-effects>
-            <run-trigger> MedkitUseTrigger </run-trigger>
+            <run-trigger>MedkitUseTrigger</run-trigger>
             <run-trigger>RepairKitUseTrigger</run-trigger>
-            <run-trigger> FireExtinguisherInstalledTrigger </run-trigger>
+            <run-trigger>FireExtinguisherInstalledTrigger</run-trigger>
          </post-effects>
          <runtime-effects></runtime-effects>
          <gui-items></gui-items>
@@ -17,17 +17,17 @@
       <tutorial-setting>
          MedKitUsedSetting
          <setting-name>medKitUsed</setting-name>
-         <setting-value> True </setting-value>
+         <setting-value>True</setting-value>
       </tutorial-setting>
       <tutorial-setting>
          RepairKitUsedSetting
          <setting-name>repairKitUsed</setting-name>
-         <setting-value> True </setting-value>
+         <setting-value>True</setting-value>
       </tutorial-setting>
       <tutorial-setting>
          FireExtinguisherWasInBattleSetting
-         <setting-name> fireExtinguisherUsed </setting-name>
-         <setting-value> True </setting-value>
+         <setting-name>fireExtinguisherUsed</setting-name>
+         <setting-value>True</setting-value>
       </tutorial-setting>
    </has-id>
    <vars>
@@ -36,8 +36,8 @@
          <asDict>
             <items>
                <asList>
-                  <asInt> 1019 </asInt>
-                  <asInt> 763 </asInt>
+                  <asInt>1019</asInt>
+                  <asInt>763</asInt>
                </asList>
             </items>
          </asDict>
@@ -47,8 +47,8 @@
          <asDict>
             <items>
                <asList>
-                  <asInt> 1531 </asInt>
-                  <asInt> 1275 </asInt>
+                  <asInt>1531</asInt>
+                  <asInt>1275</asInt>
                </asList>
             </items>
          </asDict>
@@ -58,8 +58,8 @@
          <asDict>
             <items>
                <asList>
-                  <asInt> 507 </asInt>
-                  <asInt> 251 </asInt>
+                  <asInt>507</asInt>
+                  <asInt>251</asInt>
                </asList>
             </items>
          </asDict>
@@ -84,7 +84,7 @@
          <type>useItem</type>
          <validate-var>RepairKitsConditionVar</validate-var>
          <on-effects>
-            <save-setting> RepairKitUsedSetting </save-setting>
+            <save-setting>RepairKitUsedSetting</save-setting>
          </on-effects>
          <off-effects></off-effects>
       </trigger>

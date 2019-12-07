@@ -9,13 +9,13 @@
 pass
          </scripts>
          <bonus>
-            <credits> 50000 </credits>
-            <freeXP> 750 </freeXP>
+            <credits>50000</credits>
+            <freeXP>750</freeXP>
             <token>
                <id>token:pt:final:s2:t5:main</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -28,19 +28,19 @@ pass
                <account>
                   <token>
                      <id>pm2_5_2_14_main_award_list</id>
-                     <equal> 1 </equal>
+                     <equal>1</equal>
                   </token>
                </account>
             </preBattle>
          </conditions>
          <bonus>
-            <credits> 50000 </credits>
-            <freeXP> 750 </freeXP>
+            <credits>50000</credits>
+            <freeXP>750</freeXP>
             <token>
                <id>token:pt:final:s2:t5:main</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -51,62 +51,62 @@ pass
          <conditions>
             <postBattle>
                <results>
-                  <key> damageBlockedByArmor </key>
-                  <max> 1 </max>
+                  <key>damageBlockedByArmor</key>
+                  <max>1</max>
                </results>
             </postBattle>
          </conditions>
          <scripts>
-LOG = globals().get(&apos;LOG&apos;)
-&quot;&quot;&quot;:type: typing.LOG_DEBUG_DEV&quot;&quot;&quot;
+LOG = globals().get(&#39;LOG&#39;)
+&#34;&#34;&#34;:type: typing.LOG_DEBUG_DEV&#34;&#34;&#34;
 
-QUEST_EVENT_TYPE = globals().get(&apos;QUEST_EVENT_TYPE&apos;)
-&quot;&quot;&quot;:type: quest_definitions.QUEST_EVENT_TYPE&quot;&quot;&quot;
+QUEST_EVENT_TYPE = globals().get(&#39;QUEST_EVENT_TYPE&#39;)
+&#34;&#34;&#34;:type: quest_definitions.QUEST_EVENT_TYPE&#34;&#34;&#34;
 
-quest_progress = globals().get(&apos;quest_progress&apos;)
-&quot;&quot;&quot;:type: quest_progress&quot;&quot;&quot;
+quest_progress = globals().get(&#39;quest_progress&#39;)
+&#34;&#34;&#34;:type: quest_progress&#34;&#34;&#34;
 
-server_constants = globals().get(&apos;server_constants&apos;)
-&quot;&quot;&quot;:type: server_constants&quot;&quot;&quot;
+server_constants = globals().get(&#39;server_constants&#39;)
+&#34;&#34;&#34;:type: server_constants&#34;&#34;&#34;
 
-items = globals().get(&apos;items&apos;)
-&quot;&quot;&quot;:type: items&quot;&quot;&quot;
+items = globals().get(&#39;items&#39;)
+&#34;&#34;&#34;:type: items&#34;&#34;&#34;
 
-ATTACK_REASON = globals().get(&apos;ATTACK_REASON&apos;)
-&quot;&quot;&quot;:type: constants.ATTACK_REASON&quot;&quot;&quot;
+ATTACK_REASON = globals().get(&#39;ATTACK_REASON&#39;)
+&#34;&#34;&#34;:type: constants.ATTACK_REASON&#34;&#34;&#34;
 
-filters = globals().get(&apos;filters&apos;)
-&quot;&quot;&quot;:type: battle_result_event_list_helpers&quot;&quot;&quot;
+filters = globals().get(&#39;filters&#39;)
+&#34;&#34;&#34;:type: battle_result_event_list_helpers&#34;&#34;&#34;
 
 
-TOP_BY_BLOCKED_DAMAGE = &apos;topByBlockedDamage&apos;
-TOP_BY_BLOCKED_DAMAGE_SERIES = &apos;topByBlockedDamageSeries&apos;
-BLOCKED_DAMAGE_IN_BATTLE = &apos;blockedDamageInBattle&apos;
-BLOCKED_DAMAGE_IN_BATTLE_SERIES = &apos;blockedDamageInBattleSeries&apos;
+TOP_BY_BLOCKED_DAMAGE = &#39;topByBlockedDamage&#39;
+TOP_BY_BLOCKED_DAMAGE_SERIES = &#39;topByBlockedDamageSeries&#39;
+BLOCKED_DAMAGE_IN_BATTLE = &#39;blockedDamageInBattle&#39;
+BLOCKED_DAMAGE_IN_BATTLE_SERIES = &#39;blockedDamageInBattleSeries&#39;
 
 def onFinishBattle(eventType, eventData, quest, processor):
     questProgress = quest_progress.BaseQuestProgress(quest.config, processor.getQuestProgress(quest.progressID))
 
-    avatarResults = eventData[&apos;avatarResults&apos;]
+    avatarResults = eventData[&#39;avatarResults&#39;]
 
-    blockedDamagePosition = avatarResults[&apos;misc&apos;][&apos;max&apos;][&apos;damageBlockedByArmor&apos;]
+    blockedDamagePosition = avatarResults[&#39;misc&#39;][&#39;max&#39;][&#39;damageBlockedByArmor&#39;]
 
-    if blockedDamagePosition &lt;= questProgress.getProgress(TOP_BY_BLOCKED_DAMAGE).getParam(&apos;desiredPosition&apos;):
+    if blockedDamagePosition &lt;= questProgress.getProgress(TOP_BY_BLOCKED_DAMAGE).getParam(&#39;desiredPosition&#39;):
         questProgress.setCompleted(TOP_BY_BLOCKED_DAMAGE)
         questProgress.increaseUntilComplete(TOP_BY_BLOCKED_DAMAGE_SERIES, 1)
 
-    ownVehCD = next(iter(eventData[&apos;vehCompDescrs&apos;]))
-    accDBID = avatarResults[&apos;accountDBID&apos;]
+    ownVehCD = next(iter(eventData[&#39;vehCompDescrs&#39;]))
+    accDBID = avatarResults[&#39;accountDBID&#39;]
     ownVehicleHP = items.vehicles.VehicleDescr(
-        eventData[&apos;vehPublicResults&apos;][&apos;accountCompDescr&apos;][accDBID][0][1]).maxHealth
+        eventData[&#39;vehPublicResults&#39;][&#39;accountCompDescr&#39;][accDBID][0][1]).maxHealth
     questProgress.getProgress(BLOCKED_DAMAGE_IN_BATTLE).setGoal(ownVehicleHP*2)
 
-    blockedDamage = avatarResults[&apos;damageBlockedByArmor&apos;]
+    blockedDamage = avatarResults[&#39;damageBlockedByArmor&#39;]
 
     if questProgress.increaseUntilComplete(BLOCKED_DAMAGE_IN_BATTLE, blockedDamage):
         questProgress.increaseUntilComplete(BLOCKED_DAMAGE_IN_BATTLE_SERIES, 1)
 
-    eventData[&apos;results&apos;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=TOP_BY_BLOCKED_DAMAGE_SERIES))
+    eventData[&#39;results&#39;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=TOP_BY_BLOCKED_DAMAGE_SERIES))
 
     processor.setQuestProgress(quest.progressID, questProgress.save())
 
@@ -124,16 +124,16 @@ events = {
 
 
 def quest(eventType, eventData, quest, processor):
-    LOG(&apos;QUEST EVENT:&apos;, eventType, quest.id)
+    LOG(&#39;QUEST EVENT:&#39;, eventType, quest.id)
     return events.get(eventType, lambda *args: False)(eventType, eventData, quest, processor)
          </scripts>
          <bonus>
-            <freeXP> 750 </freeXP>
+            <freeXP>750</freeXP>
             <token>
                <id>token:pt:final:s2:t5:add</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -146,7 +146,7 @@ def quest(eventType, eventData, quest, processor):
                <account>
                   <token>
                      <id>pm2_5_2_14_main_award_list</id>
-                     <greaterOrEqual> 1 </greaterOrEqual>
+                     <greaterOrEqual>1</greaterOrEqual>
                      <consume>
                         100
                         <force></force>
@@ -158,7 +158,7 @@ def quest(eventType, eventData, quest, processor):
                <and>
                   <results>
                      <key>addQuestCompleted</key>
-                     <greaterOrEqual> 1 </greaterOrEqual>
+                     <greaterOrEqual>1</greaterOrEqual>
                   </results>
                </and>
             </postBattle>
@@ -167,7 +167,7 @@ def quest(eventType, eventData, quest, processor):
             <token>
                <id>free_award_list_2</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
+               <count>1</count>
             </token>
          </bonus>
       </potapovQuest>

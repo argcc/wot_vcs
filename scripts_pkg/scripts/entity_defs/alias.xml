@@ -435,16 +435,16 @@
             <Type>UINT16</Type>
          </targetTypeCompDescr>
          <targetIsTeamKiller>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </targetIsTeamKiller>
          <targetIsOnTheIgnoredBase>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </targetIsOnTheIgnoredBase>
          <targetIsOnTheCapturableBase>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </targetIsOnTheCapturableBase>
          <targetIsNotSpotted>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </targetIsNotSpotted>
          <targetMaxHealth>
             <Type>UINT16</Type>
@@ -456,7 +456,7 @@
             <Type>UINT8</Type>
          </enemiesNearTarget>
          <isRecoil>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </isRecoil>
          <reason>
             <Type>UINT8</Type>
@@ -486,7 +486,7 @@
             <Type>INT32</Type>
          </allCrits>
          <anyDeviceWasDamaged>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </anyDeviceWasDamaged>
          <damage>
             <Type>INT32</Type>
@@ -531,7 +531,7 @@
             <Type>UINT16</Type>
          </attackerHullDamage>
          <attackerKilledHimself>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </attackerKilledHimself>
          <attackerHealthBeforeDamage>
             <Type>INT16</Type>
@@ -540,13 +540,13 @@
             <Type>FLOAT32</Type>
          </circularVisionRadius>
          <attackerWasInvisible>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </attackerWasInvisible>
          <equipmentID>
             <Type>UINT16</Type>
          </equipmentID>
          <isIronShieldDamage>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </isIronShieldDamage>
          <attackerType>
             <Type>UINT8</Type>
@@ -613,10 +613,10 @@
             <Type>STRING</Type>
          </channelName>
          <isReadOnly>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </isReadOnly>
          <isSecured>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </isSecured>
          <flags>
             <Type>UINT8</Type>
@@ -702,10 +702,10 @@
             <Type>OBJECT_ID</Type>
          </vehicleID>
          <playerName>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </playerName>
          <vehicleType>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </vehicleType>
       </Properties>
    </DISCLOSE_EVENT>
@@ -746,7 +746,7 @@
             <Type>UINT8</Type>
          </marksOnGun>
          <isRent>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </isRent>
          <activeRent>
             <Type>UINT8</Type>
@@ -781,10 +781,10 @@
             <Type>MAILBOX</Type>
          </prebattle>
          <isPrebattleCreator>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </isPrebattleCreator>
          <forbidInBattleInvitations>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </forbidInBattleInvitations>
          <team>
             <Type>UINT8</Type>
@@ -802,7 +802,7 @@
             <Type>FLOAT</Type>
          </globalRating>
          <igrType>
-            <Type> INT8 </Type>
+            <Type>INT8</Type>
          </igrType>
          <potapovQuestIDs>
             <Type>
@@ -826,7 +826,7 @@
             </Type>
          </avatarAmmo>
          <needCheckPenalties>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </needCheckPenalties>
          <fairplayState>
             <Type>PYTHON</Type>
@@ -841,13 +841,13 @@
             <Type>UINT8</Type>
          </group>
          <historicallyAccurate>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </historicallyAccurate>
          <recruiterId>
             <Type>DB_ID</Type>
          </recruiterId>
          <premMask>
-            <Type> INT8 </Type>
+            <Type>INT8</Type>
          </premMask>
       </Properties>
    </ARENA_ADDPLAYER_INFO>
@@ -861,10 +861,10 @@
             <Type>OBJECT_ID</Type>
          </prebattleID>
          <team>
-            <Type> INT8 </Type>
+            <Type>INT8</Type>
          </team>
          <observer>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </observer>
       </Properties>
    </AVATAR_VEHICLE_ROSTER>
@@ -890,13 +890,13 @@
             <Type>INT16</Type>
          </health>
          <noOwner>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </noOwner>
          <attackerInitialSpeed>
             <Type>FLOAT32</Type>
          </attackerInitialSpeed>
          <attackerWasInvisible>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </attackerWasInvisible>
          <attackerTypeCompactDescr>
             <Type>UINT16</Type>
@@ -943,7 +943,7 @@
             <Type>VECTOR3</Type>
          </position>
          <isAlive>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </isAlive>
          <vehClass>
             <Type>STRING</Type>
@@ -963,7 +963,7 @@
    </VEHICLE_SYNC_ATTRS>
    <SpaceToD>
       FIXED_DICT
-      <TypeName> SpaceToD </TypeName>
+      <TypeName>SpaceToD</TypeName>
       <Properties>
          <initialTimeOfDay>
             <Type>FLOAT</Type>
@@ -1041,7 +1041,7 @@
    <BOUNDS2>
       TUPLE
       <of>VECTOR2</of>
-      <size> 2 </size>
+      <size>2</size>
    </BOUNDS2>
    <FRONT_LINE_DATA>
       FIXED_DICT
@@ -1289,7 +1289,7 @@
             <Type>FLOAT32</Type>
          </radius>
          <aliveOnly>
-            <Type> BOOL </Type>
+            <Type>BOOL</Type>
          </aliveOnly>
       </Properties>
    </VEHICLE_DETECTOR_INFO>

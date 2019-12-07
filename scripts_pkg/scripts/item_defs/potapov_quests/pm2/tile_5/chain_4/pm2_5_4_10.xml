@@ -11,21 +11,21 @@ pass
          <bonus>
             <item>
                1531
-               <count> 2 </count>
+               <count>2</count>
             </item>
             <item>
                1019
-               <count> 2 </count>
+               <count>2</count>
             </item>
             <item>
                507
-               <count> 2 </count>
+               <count>2</count>
             </item>
             <token>
                <id>token:pt:final:s2:t5:main</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -38,7 +38,7 @@ pass
                <account>
                   <token>
                      <id>pm2_5_4_10_main_award_list</id>
-                     <equal> 1 </equal>
+                     <equal>1</equal>
                   </token>
                </account>
             </preBattle>
@@ -46,21 +46,21 @@ pass
          <bonus>
             <item>
                1531
-               <count> 2 </count>
+               <count>2</count>
             </item>
             <item>
                1019
-               <count> 2 </count>
+               <count>2</count>
             </item>
             <item>
                507
-               <count> 2 </count>
+               <count>2</count>
             </item>
             <token>
                <id>token:pt:final:s2:t5:main</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -70,21 +70,21 @@ pass
          <serverOnly> true </serverOnly>
          <conditions></conditions>
          <scripts>
-LOG = globals().get(&apos;LOG&apos;)
-&quot;&quot;&quot;:type: typing.LOG_DEBUG_DEV&quot;&quot;&quot;
+LOG = globals().get(&#39;LOG&#39;)
+&#34;&#34;&#34;:type: typing.LOG_DEBUG_DEV&#34;&#34;&#34;
 
-QUEST_EVENT_TYPE = globals().get(&apos;QUEST_EVENT_TYPE&apos;)
-&quot;&quot;&quot;:type: quest_definitions.QUEST_EVENT_TYPE&quot;&quot;&quot;
+QUEST_EVENT_TYPE = globals().get(&#39;QUEST_EVENT_TYPE&#39;)
+&#34;&#34;&#34;:type: quest_definitions.QUEST_EVENT_TYPE&#34;&#34;&#34;
 
-quest_progress = globals().get(&apos;quest_progress&apos;)
-&quot;&quot;&quot;:type: quest_progress&quot;&quot;&quot;
+quest_progress = globals().get(&#39;quest_progress&#39;)
+&#34;&#34;&#34;:type: quest_progress&#34;&#34;&#34;
 
-filter = globals().get(&apos;BattleResults&apos;)
+filter = globals().get(&#39;BattleResults&#39;)
 
-PROGRESS_ID_MAIN = &apos;topByExp&apos;  # take from personal_missions_config
-PROGRESS_ID_MAIN_SERIES = &apos;topByExpSeries&apos;
-PROGRESS_ID_ADD = &quot;alive&quot;
-PROGRESS_SERIES = &apos;aliveSeries&apos;  # take from personal_missions_config
+PROGRESS_ID_MAIN = &#39;topByExp&#39;  # take from personal_missions_config
+PROGRESS_ID_MAIN_SERIES = &#39;topByExpSeries&#39;
+PROGRESS_ID_ADD = &#34;alive&#34;
+PROGRESS_SERIES = &#39;aliveSeries&#39;  # take from personal_missions_config
 
 def onInit(eventType, eventData, quest, processor):
     for event in events.iterkeys():
@@ -101,14 +101,14 @@ def onFinishBattle(eventType, eventData, quest, processor):
         questProgress.setCompleted(PROGRESS_ID_ADD)
     if questProgress.isCompleted(PROGRESS_ID_ADD):
         questProgress.increaseUntilComplete(PROGRESS_SERIES, 1)
-    mainCondition = eventData[&apos;avatarResults&apos;][&apos;misc&apos;][&apos;max&apos;][&apos;xp&apos;] &lt;= 1
+    mainCondition = eventData[&#39;avatarResults&#39;][&#39;misc&#39;][&#39;max&#39;][&#39;xp&#39;] &lt;= 1
     if mainCondition:
         questProgress.setCompleted(PROGRESS_ID_MAIN)
     if questProgress.isCompleted(PROGRESS_ID_MAIN):
         questProgress.increaseUntilComplete(PROGRESS_ID_MAIN_SERIES, 1)
 
 
-    eventData[&apos;results&apos;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=PROGRESS_SERIES))
+    eventData[&#39;results&#39;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=PROGRESS_SERIES))
 
     processor.setQuestProgress(quest.progressID, questProgress.save())
 
@@ -118,16 +118,16 @@ events = {
 }
 
 def quest(eventType, eventData, quest, processor):
-    LOG(&apos;QUEST EVENT:&apos;, eventType, quest.id)
+    LOG(&#39;QUEST EVENT:&#39;, eventType, quest.id)
     return events.get(eventType, lambda *args: False)(eventType, eventData, quest, processor)
          </scripts>
          <bonus>
-            <credits> 75000 </credits>
+            <credits>75000</credits>
             <token>
                <id>token:pt:final:s2:t5:add</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
          </bonus>
       </potapovQuest>
@@ -140,7 +140,7 @@ def quest(eventType, eventData, quest, processor):
                <account>
                   <token>
                      <id>pm2_5_4_10_main_award_list</id>
-                     <greaterOrEqual> 1 </greaterOrEqual>
+                     <greaterOrEqual>1</greaterOrEqual>
                      <consume>
                         100
                         <force></force>
@@ -152,7 +152,7 @@ def quest(eventType, eventData, quest, processor):
                <and>
                   <results>
                      <key>addQuestCompleted</key>
-                     <greaterOrEqual> 1 </greaterOrEqual>
+                     <greaterOrEqual>1</greaterOrEqual>
                   </results>
                </and>
             </postBattle>
@@ -161,7 +161,7 @@ def quest(eventType, eventData, quest, processor):
             <token>
                <id>free_award_list_2</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
+               <count>1</count>
             </token>
          </bonus>
       </potapovQuest>

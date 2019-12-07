@@ -6,7 +6,7 @@
    </setting>
    <setting>
       http://cpm.wargaming.net/fbgtpz3d/?pub_id=loginscreen
-      <name> registrationProxyURL </name>
+      <name>registrationProxyURL</name>
       <type>url</type>
    </setting>
    <setting>
@@ -46,12 +46,12 @@
    </setting>
    <setting>
       https://ru.wargaming.net/id/signin/token/?account_id=$DB_ID&amp;token=$WGNI_TOKEN&amp;continue_on_failure=1&amp;next=$TARGET_URL(https://ru.wargaming.net/league/team/edit/?language=$LANGUAGE_CODE&amp;game=wot)
-      <name> clubSettings </name>
+      <name>clubSettings</name>
       <type>url</type>
    </setting>
    <setting>
       https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/cybersport/
-      <name> clubHelp </name>
+      <name>clubHelp</name>
       <type>url</type>
    </setting>
    <setting>
@@ -61,7 +61,7 @@
    </setting>
    <setting>
       https://ru.wargaming.net/rp/invitation/
-      <name> invitesManagementURL </name>
+      <name>invitesManagementURL</name>
       <type>url</type>
    </setting>
    <setting>
@@ -76,12 +76,12 @@
    </setting>
    <setting>
       https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/hangar_training/firefighting/
-      <name> fireExtinguisherHelp </name>
+      <name>fireExtinguisherHelp</name>
       <type>url</type>
    </setting>
    <setting>
       https://ru.wargaming.net/id/signin/token/?account_id=$DB_ID&amp;token=$WGNI_TOKEN&amp;continue_on_failure=1&amp;next=https://ru.wargaming.net/globalmap/?utm_campaign=wot-client&amp;utm_medium=link&amp;utm_source=clan-summary
-      <name> globalMapSummary </name>
+      <name>globalMapSummary</name>
       <type>url</type>
    </setting>
    <setting>
@@ -91,7 +91,7 @@
    </setting>
    <setting>
       https://ru.wargaming.net/id/signin/token/?account_id=$DB_ID&amp;token=$WGNI_TOKEN&amp;continue_on_failure=1&amp;next=https://ru.wargaming.net/globalmap/?utm_campaign=wot-client&amp;utm_medium=link&amp;utm_source=clan-cap
-      <name> globalMapCap </name>
+      <name>globalMapCap</name>
       <type>url</type>
    </setting>
    <setting>
@@ -111,24 +111,24 @@
    </setting>
    <setting>
       https://ru.wargaming.net/id/signin/token/?account_id=$DB_ID&amp;token=$WGNI_TOKEN&amp;continue_on_failure=1&amp;next=$TARGET_URL($PARAMS(https://ru.wargaming.net/shop/wot/filter/))
-      <name> tokenShopURL </name>
+      <name>tokenShopURL</name>
       <type>url</type>
    </setting>
    <setting>
       https://ru.wargaming.net/shop/api/v2/items?filter[custom_properties]=%s&amp;fields[items]=custom_properties
-      <name> tokenShopAvailabilityURL </name>
+      <name>tokenShopAvailabilityURL</name>
       <type>url</type>
    </setting>
    <setting>
       <name>tokenShopAPIKey</name>
       <type>string</type>
-      <value> 7v9Prend1nNU979RspoM40ulKV9zyZDxodNniJopQM3yrjM5Voknt30R2wNpgTXK </value>
+      <value>7v9Prend1nNU979RspoM40ulKV9zyZDxodNniJopQM3yrjM5Voknt30R2wNpgTXK</value>
    </setting>
    <setting>
       <name>nations_order</name>
-      <type> list </type>
+      <type>list</type>
       <value>
-         <item> ussr </item>
+         <item>ussr</item>
          <item>germany</item>
          <item>usa</item>
          <item>france</item>
@@ -143,58 +143,58 @@
    </setting>
    <setting>
       <name>minimapSize</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
-      <name> goldTransfer </name>
-      <type> bool </type>
+      <name>goldTransfer</name>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
       <name>voiceChat</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>technicalInfo</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>customizationHorns</name>
-      <type> bool </type>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
       <name>showMinimapSuperHeavy</name>
-      <type> bool </type>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
-      <name> showMinimapDeath </name>
-      <type> bool </type>
-      <value> True </value>
+      <name>showMinimapDeath</name>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>permanentMinimapDeath</name>
-      <type> bool </type>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
       <name>markerHitSplashDuration</name>
       <type>int</type>
-      <value> 1000 </value>
+      <value>1000</value>
    </setting>
    <setting>
       <name>sixthSenseDuration</name>
       <type>int</type>
-      <value> 2000 </value>
+      <value>2000</value>
    </setting>
    <setting>
-      <name> minimapDeathDuration </name>
+      <name>minimapDeathDuration</name>
       <type>int</type>
-      <value> 2200 </value>
+      <value>2200</value>
    </setting>
    <setting>
       40 100 100 3.0
@@ -203,43 +203,43 @@
    </setting>
    <setting>
       40 100 100 3.0
-      <name> markerBgSettings </name>
+      <name>markerBgSettings</name>
       <type>vector4</type>
    </setting>
    <setting>
       <name>rememberPassVisible</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>clearLoginValue</name>
-      <type> bool </type>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
-      <name> specPrebatlesVisible </name>
-      <type> bool </type>
-      <value> True </value>
+      <name>specPrebatlesVisible</name>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>igrCredentialsReset</name>
-      <type> bool </type>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
       <name>igrEnabled</name>
-      <type> bool </type>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
       <name>battleEndWarningEnabled</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>spgAlternativeAimingCameraEnabled</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       http://worldoftanks.ru/news/rss/ru/
@@ -253,7 +253,7 @@
    </setting>
    <setting>
       <name>language_bar</name>
-      <type> list </type>
+      <type>list</type>
       <value>
          <item>zh_cn</item>
          <item>zh_sg</item>
@@ -264,32 +264,32 @@
    </setting>
    <setting>
       <name>movingText</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
-            <name> show </name>
-            <type> bool </type>
+            <name>show</name>
+            <type>bool</type>
             <value>False</value>
          </item>
          <item>
             <name>internalBrowser</name>
-            <type> bool </type>
+            <type>bool</type>
             <value>False</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>roaming</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
-      <name> eula </name>
-      <type> dict </type>
+      <name>eula</name>
+      <type>dict</type>
       <value>
          <item>
-            <name> full </name>
-            <type> list </type>
+            <name>full</name>
+            <type>list</type>
             <value>
                <item>ko</item>
             </value>
@@ -303,17 +303,17 @@
    </setting>
    <setting>
       <name>guiEnabled</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>trainingObserverModeEnabled</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
-      <name> loginRssFeed </name>
-      <type> dict </type>
+      <name>loginRssFeed</name>
+      <type>dict</type>
       <value>
          <item>
             https://rss.worldoftanks.ru/$LANGUAGE_CODE
@@ -321,74 +321,74 @@
             <type>url</type>
          </item>
          <item>
-            <name> show </name>
-            <type> bool </type>
-            <value> True </value>
+            <name>show</name>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
             <name>internalBrowser</name>
-            <type> bool </type>
+            <type>bool</type>
             <value>False</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>isPollEnabled</name>
-      <type> bool </type>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
       <name>csisRequestRate</name>
       <type>int</type>
-      <value> 2 </value>
+      <value>2</value>
    </setting>
    <setting>
       <name>showDirectionLine</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>showSectorLines</name>
-      <type> bool </type>
-      <value> True </value>
+      <type>bool</type>
+      <value>True</value>
    </setting>
    <setting>
       <name>isBattleCmdCoolDownVisible</name>
-      <type> bool </type>
+      <type>bool</type>
       <value>False</value>
    </setting>
    <setting>
       <name>cache</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>enabled</name>
-            <type> bool </type>
+            <type>bool</type>
             <value>False</value>
          </item>
          <item>
             <name>forceCache</name>
-            <type> bool </type>
+            <type>bool</type>
             <value>False</value>
          </item>
          <item>
             <name>maxSize</name>
             <type>int</type>
-            <value> 6 </value>
+            <value>6</value>
          </item>
          <item>
             <name>maxIdleDuration</name>
             <type>int</type>
-            <value> 1 </value>
+            <value>1</value>
          </item>
          <item>
             <name>logging</name>
-            <type> bool </type>
-            <value> True </value>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
-            <name> excluded </name>
-            <type> list </type>
+            <name>excluded</name>
+            <type>list</type>
             <value>
                <item>introPage.swf</item>
                <item>barracks.swf</item>
@@ -399,27 +399,27 @@
    </setting>
    <setting>
       <name>imageCache</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>maxSize</name>
             <type>int</type>
-            <value> 8192 </value>
+            <value>8192</value>
          </item>
          <item>
             <name>minSize</name>
             <type>int</type>
-            <value> 1024 </value>
+            <value>1024</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>postBattleExchange</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>enabled</name>
-            <type> bool </type>
+            <type>bool</type>
             <value>False</value>
          </item>
          <item>
@@ -431,46 +431,46 @@
    </setting>
    <setting>
       <name>socialNetworkLogin</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>enabled</name>
-            <type> bool </type>
-            <value> True </value>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
-            <name> encryptToken </name>
-            <type> bool </type>
-            <value> True </value>
+            <name>encryptToken</name>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
-            <name> facebook </name>
-            <type> bool </type>
-            <value> True </value>
+            <name>facebook</name>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
             <name>google</name>
-            <type> bool </type>
-            <value> True </value>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
-            <name> wgni </name>
-            <type> bool </type>
-            <value> True </value>
+            <name>wgni</name>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
             <name>vkontakte</name>
-            <type> bool </type>
-            <value> True </value>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
             <name>yahoo</name>
-            <type> bool </type>
+            <type>bool</type>
             <value>False</value>
          </item>
          <item>
             <name>naver</name>
-            <type> bool </type>
+            <type>bool</type>
             <value>False</value>
          </item>
          <item>
@@ -487,76 +487,76 @@
    </setting>
    <setting>
       <name>miniclient</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             https://webbrg.worldoftanks.ru
-            <name> webBridgeRootURL </name>
+            <name>webBridgeRootURL</name>
             <type>url</type>
          </item>
       </value>
    </setting>
    <setting>
       <name>booster_credits</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>medium</name>
             <type>float</type>
-            <value> 6 </value>
+            <value>6</value>
          </item>
          <item>
             <name>big</name>
             <type>float</type>
-            <value> 15 </value>
+            <value>15</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>booster_xp</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>medium</name>
             <type>float</type>
-            <value> 6 </value>
+            <value>6</value>
          </item>
          <item>
             <name>big</name>
             <type>float</type>
-            <value> 15 </value>
+            <value>15</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>booster_crew_xp</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>medium</name>
             <type>float</type>
-            <value> 26 </value>
+            <value>26</value>
          </item>
          <item>
             <name>big</name>
             <type>float</type>
-            <value> 61 </value>
+            <value>61</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>booster_free_xp</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>medium</name>
             <type>float</type>
-            <value> 51 </value>
+            <value>51</value>
          </item>
          <item>
             <name>big</name>
             <type>float</type>
-            <value> 76 </value>
+            <value>76</value>
          </item>
       </value>
    </setting>
@@ -566,12 +566,12 @@
       <value>0.75</value>
    </setting>
    <setting>
-      <name> encyclopedia </name>
-      <type> dict </type>
+      <name>encyclopedia</name>
+      <type>dict</type>
       <value>
          <item>
             <name>languages</name>
-            <type> list </type>
+            <type>list</type>
             <value>
                <item>ru</item>
                <item>be</item>
@@ -589,36 +589,36 @@
    <setting>
       <name>actionComeToEnd</name>
       <type>int</type>
-      <value> 1200 </value>
+      <value>1200</value>
    </setting>
    <setting>
-      <name> guiScale </name>
-      <type> dict </type>
+      <name>guiScale</name>
+      <type>dict</type>
       <value>
          <item>
             <name>scale</name>
             <type>int</type>
-            <value> 2 </value>
+            <value>2</value>
          </item>
          <item>
             <name>minNonScaledWidth</name>
             <type>int</type>
-            <value> 1920 </value>
+            <value>1920</value>
          </item>
          <item>
             <name>minNonScaledHeight</name>
             <type>int</type>
-            <value> 768 </value>
+            <value>768</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>allowedNotSupportedGraphicSettings</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>MAX</name>
-            <type> list </type>
+            <type>list</type>
             <value>
                <item>TEXTURE_QUALITY</item>
             </value>
@@ -628,11 +628,11 @@
    <setting>
       <name>goldFishActionShowCooldown</name>
       <type>int</type>
-      <value> 1209600 </value>
+      <value>1209600</value>
    </setting>
    <setting>
       https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promoscreens/
-      <name> promoscreens </name>
+      <name>promoscreens</name>
       <type>url</type>
    </setting>
    <setting>
@@ -647,40 +647,40 @@
       <value>
          <item>
             <name>CN</name>
-            <type> bool </type>
+            <type>bool</type>
             <value>False</value>
          </item>
          <item>
             <name>default</name>
-            <type> bool </type>
-            <value> True </value>
+            <type>bool</type>
+            <value>True</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>compulsoryIntroVideos</name>
-      <type> list </type>
+      <type>list</type>
       <value></value>
    </setting>
    <setting>
       <name>StrongholdsPopupWebWindowSize</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>width</name>
             <type>int</type>
-            <value> 1006 </value>
+            <value>1006</value>
          </item>
          <item>
             <name>height</name>
             <type>int</type>
-            <value> 630 </value>
+            <value>630</value>
          </item>
       </value>
    </setting>
    <setting>
       <name>StrongholdsTimerColors</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>regular</name>
@@ -696,7 +696,7 @@
    </setting>
    <setting>
       <name>stronghold</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             /auth/entry?spa_id=$DB_ID&amp;periphery_id=$PERIPHERY_ID
@@ -719,9 +719,9 @@
             <type>url</type>
          </item>
          <item>
-            <name> isClansTabReplaceStrongholds </name>
-            <type> bool </type>
-            <value> True </value>
+            <name>isClansTabReplaceStrongholds</name>
+            <type>bool</type>
+            <value>True</value>
          </item>
       </value>
    </setting>
@@ -732,7 +732,7 @@
    </setting>
    <setting>
       <name>hallOfFame</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             /hofbro/$LANGUAGE_CODE/achievements
@@ -741,7 +741,7 @@
          </item>
          <item>
             /hofbro/$LANGUAGE_CODE/achievements/#session
-            <name> achievementsStatisticUrl </name>
+            <name>achievementsStatisticUrl</name>
             <type>url</type>
          </item>
          <item>
@@ -751,23 +751,23 @@
          </item>
          <item>
             /hofbro/$LANGUAGE_CODE/vehicles/#session
-            <name> vehiclesStatisticUrl </name>
+            <name>vehiclesStatisticUrl</name>
             <type>url</type>
          </item>
       </value>
    </setting>
    <setting>
-      <name> personalMissions </name>
-      <type> dict </type>
+      <name>personalMissions</name>
+      <type>dict</type>
       <value>
          <item>
-            <name> welcomeVideo </name>
-            <type> dict </type>
+            <name>welcomeVideo</name>
+            <type>dict</type>
             <value>
                <item>
                   <name>isEnabled</name>
-                  <type> bool </type>
-                  <value> True </value>
+                  <type>bool</type>
+                  <value>True</value>
                </item>
                <item>
                   https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/lbz20/
@@ -780,16 +780,16 @@
    </setting>
    <setting>
       <name>epicWelcomeBack</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
-            <name> welcomeVideo </name>
-            <type> dict </type>
+            <name>welcomeVideo</name>
+            <type>dict</type>
             <value>
                <item>
                   <name>isEnabled</name>
-                  <type> bool </type>
-                  <value> True </value>
+                  <type>bool</type>
+                  <value>True</value>
                </item>
                <item>
                   https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promoscreens/campaign_tutorial/
@@ -802,7 +802,7 @@
    </setting>
    <setting>
       <name>referralProgram</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             https://wotrp-ru.wgcdn.co
@@ -818,7 +818,7 @@
    </setting>
    <setting>
       <name>ingameshop</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             $PARAMS(/recommended-packs)
@@ -847,7 +847,7 @@
          </item>
          <item>
             $PARAMS(/service/equipment)
-            <name> buyEquipment </name>
+            <name>buyEquipment</name>
             <type>url</type>
          </item>
          <item>
@@ -884,11 +884,11 @@
    </setting>
    <setting>
       <name>ingameshopBackend</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             $PARAMS(/auth/login)
-            <name> loginUrl </name>
+            <name>loginUrl</name>
             <type>url</type>
          </item>
          <item>
@@ -900,16 +900,16 @@
    </setting>
    <setting>
       <name>easterEgg</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             <name>enabled</name>
-            <type> bool </type>
-            <value> True </value>
+            <type>bool</type>
+            <value>True</value>
          </item>
          <item>
             <name>ruLangGroup</name>
-            <type> list </type>
+            <type>list</type>
             <value>
                <item>ru</item>
                <item>be</item>
@@ -921,7 +921,7 @@
    </setting>
    <setting>
       <name>adventCalendar</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             https://calendar.worldoftanks.ru/igb/$LANGUAGE_CODE/
@@ -929,20 +929,20 @@
             <type>url</type>
          </item>
          <item>
-            <name> popupIntervalInHours </name>
+            <name>popupIntervalInHours</name>
             <type>int</type>
-            <value> 24 </value>
+            <value>24</value>
          </item>
       </value>
    </setting>
    <setting>
-      <name> checkPromoFrequencyInBattles </name>
+      <name>checkPromoFrequencyInBattles</name>
       <type>int</type>
-      <value> 5 </value>
+      <value>5</value>
    </setting>
    <setting>
       <name>premiumInfo</name>
-      <type> dict </type>
+      <type>dict</type>
       <value>
          <item>
             https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/wot_premium/

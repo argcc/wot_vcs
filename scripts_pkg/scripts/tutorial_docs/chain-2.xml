@@ -1,5 +1,5 @@
 <chain-2.xml>
-   <default-scene> DefaultScene </default-scene>
+   <default-scene>DefaultScene</default-scene>
    <initial-scene>Hangar</initial-scene>
    <scenes>
       <scene>
@@ -12,7 +12,7 @@
             <show-hint>
                ResearchButtonHint
                <condition>
-                  <active> VehicleResearchButtonOnScene </active>
+                  <active>VehicleResearchButtonOnScene</active>
                   <var>
                      SelectedVehicleID
                      <is-not-none></is-not-none>
@@ -46,10 +46,10 @@
             <gui-item>
                VehicleResearchButton
                <on-scene-effects>
-                  <activate> VehicleResearchButtonOnScene </activate>
+                  <activate>VehicleResearchButtonOnScene</activate>
                </on-scene-effects>
                <not-on-scene-effects>
-                  <inactivate> VehicleResearchButtonOnScene </inactivate>
+                  <inactivate>VehicleResearchButtonOnScene</inactivate>
                </not-on-scene-effects>
             </gui-item>
             <gui-item>
@@ -89,12 +89,12 @@
             <inactivate>ResearchItemNodeOnScene</inactivate>
             <inactivate>UnlockItemClicked</inactivate>
             <inactivate>BuyItemClicked</inactivate>
-            <inactivate> ItemUnlocked </inactivate>
+            <inactivate>ItemUnlocked</inactivate>
             <inactivate>ItemIsInstalled</inactivate>
             <inactivate>ShowCongratulation</inactivate>
             <run-trigger>ItemUnlockedTrigger</run-trigger>
-            <run-trigger> ItemInstalledTrigger </run-trigger>
-            <run-trigger> BonusTrigger </run-trigger>
+            <run-trigger>ItemInstalledTrigger</run-trigger>
+            <run-trigger>BonusTrigger</run-trigger>
          </post-effects>
          <runtime-effects>
             <set-var>
@@ -244,17 +244,17 @@
       <game-attribute>
          SelectedVehicle
          <var-ref>SelectedVehicleID</var-ref>
-         <name> CurrentVehicleCD </name>
+         <name>CurrentVehicleCD</name>
       </game-attribute>
       <game-attribute>
          NextToUnlockItemCD
-         <var-ref> NextToFindItemID </var-ref>
+         <var-ref>NextToFindItemID</var-ref>
          <name>NextToUnlockItemCD</name>
          <args>SelectedVehicleID</args>
       </game-attribute>
       <game-attribute>
          NextToBuyItemCD
-         <var-ref> NextToFindItemID </var-ref>
+         <var-ref>NextToFindItemID</var-ref>
          <name>NextToBuyItemCD</name>
          <args>SelectedVehicleID</args>
       </game-attribute>
@@ -270,11 +270,11 @@
       </gui-item-criteria>
       <hint>
          BuyVehicleHint
-         <item-id> TankCarousel </item-id>
+         <item-id>TankCarousel</item-id>
          <text>BuyVehicleText</text>
          <arrow>
             <direction>T</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -303,13 +303,13 @@
          <text>_(#tutorial:chain2/hint/goToResearch)</text>
          <arrow>
             <direction>L</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
                VehicleResearchButton
                <effects>
-                  <activate> VehicleResearchButtonClicked </activate>
+                  <activate>VehicleResearchButtonClicked</activate>
                </effects>
             </click>
             <click-outside>
@@ -328,11 +328,11 @@
       </hint>
       <hint>
          UnlockItemHint
-         <item-id> ResearchItemNode </item-id>
+         <item-id>ResearchItemNode</item-id>
          <text>_(#tutorial:chain2/hint/unlockItem)</text>
          <arrow>
             <direction>L</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -358,11 +358,11 @@
       </hint>
       <hint>
          BuyItemHint
-         <item-id> ResearchItemNode </item-id>
+         <item-id>ResearchItemNode</item-id>
          <text>_(#tutorial:chain2/hint/buyItem)</text>
          <arrow>
             <direction>L</direction>
-            <loop> True </loop>
+            <loop>True</loop>
          </arrow>
          <actions>
             <click>
@@ -388,13 +388,13 @@
       </hint>
       <hint>
          NoItemToBuyHint
-         <item-id> ResearchRootNode </item-id>
+         <item-id>ResearchRootNode</item-id>
          <text>_(#tutorial:chain2/hint/noItemsToBuy)</text>
          <padding>
-            <left> 175 </left>
-            <top> -212 </top>
-            <right> -518 </right>
-            <bottom> -234 </bottom>
+            <left>175</left>
+            <top>-212</top>
+            <right>-518</right>
+            <bottom>-234</bottom>
          </padding>
          <actions>
             <click>
@@ -419,13 +419,13 @@
       </hint>
       <hint>
          PremiumVehicleHint
-         <item-id> ResearchRootNode </item-id>
+         <item-id>ResearchRootNode</item-id>
          <text>_(#tutorial:chain2/hint/noItemsToUnlock)</text>
          <padding>
-            <left> 175 </left>
-            <top> -212 </top>
-            <right> -518 </right>
-            <bottom> -234 </bottom>
+            <left>175</left>
+            <top>-212</top>
+            <right>-518</right>
+            <bottom>-234</bottom>
          </padding>
          <actions>
             <click>
@@ -458,7 +458,7 @@
    <triggers>
       <trigger>
          SimpleDialogTrigger
-         <type> simpleDialog </type>
+         <type>simpleDialog</type>
          <on-effects></on-effects>
          <off-effects>
             <refuse-training></refuse-training>
@@ -466,11 +466,11 @@
       </trigger>
       <trigger>
          ItemUnlockedTrigger
-         <type> unlocked </type>
-         <validate-var> NextToFindItemID </validate-var>
+         <type>unlocked</type>
+         <validate-var>NextToFindItemID</validate-var>
          <validate-update-only></validate-update-only>
          <on-effects>
-            <activate> ItemUnlocked </activate>
+            <activate>ItemUnlocked</activate>
          </on-effects>
          <off-effects>
             <refuse-training></refuse-training>
@@ -479,7 +479,7 @@
       <trigger>
          ItemInstalledTrigger
          <type>installed</type>
-         <validate-var> NextToFindItemID </validate-var>
+         <validate-var>NextToFindItemID</validate-var>
          <validate-update-only></validate-update-only>
          <vehicle-var>SelectedVehicleID</vehicle-var>
          <on-effects>

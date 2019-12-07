@@ -1,31 +1,31 @@
 <PatrolNode.def>
-   <Domain> CELL </Domain>
+   <Domain>CELL</Domain>
    <Properties>
       <patrolLinks>
          <Type>
             ARRAY
             <of>UDO_REF</of>
          </Type>
-         <Editable> True </Editable>
+         <Editable>True</Editable>
       </patrolLinks>
       <departureSpeed>
          <Type>FLOAT32</Type>
          <Default>2.0</Default>
-         <Editable> True </Editable>
+         <Editable>True</Editable>
       </departureSpeed>
       <importance>
          <Type>UINT8</Type>
-         <Default> 1 </Default>
-         <Editable> True </Editable>
+         <Default>1</Default>
+         <Editable>True</Editable>
       </importance>
       <backtrackChance>
          <Type>FLOAT</Type>
          <Default>0.0</Default>
-         <Editable> True </Editable>
+         <Editable>True</Editable>
       </backtrackChance>
       <waitSecs>
          <Type>FLOAT32</Type>
-         <Editable> True </Editable>
+         <Editable>True</Editable>
       </waitSecs>
       <radius>
          <Type>FLOAT</Type>

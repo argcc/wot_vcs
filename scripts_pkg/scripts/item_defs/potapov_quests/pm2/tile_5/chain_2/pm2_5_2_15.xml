@@ -12,35 +12,35 @@ pass
             <token>
                <id>token:pt:final:s2:t5:main</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
             <token>
                <id>token:pt:final:s2:t5</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 5 </limit>
+               <count>1</count>
+               <limit>5</limit>
             </token>
          </bonus>
          <bonusDelayed>
             <dossier>
                <name>achievements:tankwomenProgress</name>
-               <value> 1 </value>
+               <value>1</value>
                <type>add</type>
             </dossier>
-            <berths> 1 </berths>
+            <berths>1</berths>
             <tankmen>
                <tman>
                   <isPremium> true </isPremium>
                   <isFemale> true </isFemale>
                   <role>commander</role>
-                  <roleLevel> 100 </roleLevel>
-                  <freeXP> 210063 </freeXP>
-                  <fnGroupID> 1 </fnGroupID>
-                  <lnGroupID> 1 </lnGroupID>
-                  <iGroupID> 1 </iGroupID>
-                  <nationID> 0 </nationID>
-                  <vehicleTypeID> 0 </vehicleTypeID>
+                  <roleLevel>100</roleLevel>
+                  <freeXP>210063</freeXP>
+                  <fnGroupID>1</fnGroupID>
+                  <lnGroupID>1</lnGroupID>
+                  <iGroupID>1</iGroupID>
+                  <nationID>0</nationID>
+                  <vehicleTypeID>0</vehicleTypeID>
                   <freeSkills>brotherhood</freeSkills>
                </tman>
             </tankmen>
@@ -55,7 +55,7 @@ pass
                <account>
                   <token>
                      <id>pm2_5_2_15_main_award_list</id>
-                     <equal> 1 </equal>
+                     <equal>1</equal>
                   </token>
                </account>
             </preBattle>
@@ -64,35 +64,35 @@ pass
             <token>
                <id>token:pt:final:s2:t5:main</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
             <token>
                <id>token:pt:final:s2:t5</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 5 </limit>
+               <count>1</count>
+               <limit>5</limit>
             </token>
          </bonus>
          <bonusDelayed>
             <dossier>
                <name>achievements:tankwomenProgress</name>
-               <value> 1 </value>
+               <value>1</value>
                <type>add</type>
             </dossier>
-            <berths> 1 </berths>
+            <berths>1</berths>
             <tankmen>
                <tman>
                   <isPremium> true </isPremium>
                   <isFemale> true </isFemale>
                   <role>commander</role>
-                  <roleLevel> 100 </roleLevel>
-                  <freeXP> 210063 </freeXP>
-                  <fnGroupID> 1 </fnGroupID>
-                  <lnGroupID> 1 </lnGroupID>
-                  <iGroupID> 1 </iGroupID>
-                  <nationID> 0 </nationID>
-                  <vehicleTypeID> 0 </vehicleTypeID>
+                  <roleLevel>100</roleLevel>
+                  <freeXP>210063</freeXP>
+                  <fnGroupID>1</fnGroupID>
+                  <lnGroupID>1</lnGroupID>
+                  <iGroupID>1</iGroupID>
+                  <nationID>0</nationID>
+                  <vehicleTypeID>0</vehicleTypeID>
                   <freeSkills>brotherhood</freeSkills>
                </tman>
             </tankmen>
@@ -104,49 +104,49 @@ pass
          <serverOnly> true </serverOnly>
          <conditions></conditions>
          <scripts>
-LOG = globals().get(&apos;LOG&apos;)
-&quot;&quot;&quot;:type: typing.LOG_DEBUG_DEV&quot;&quot;&quot;
+LOG = globals().get(&#39;LOG&#39;)
+&#34;&#34;&#34;:type: typing.LOG_DEBUG_DEV&#34;&#34;&#34;
 
-QUEST_EVENT_TYPE = globals().get(&apos;QUEST_EVENT_TYPE&apos;)
-&quot;&quot;&quot;:type: quest_definitions.QUEST_EVENT_TYPE&quot;&quot;&quot;
+QUEST_EVENT_TYPE = globals().get(&#39;QUEST_EVENT_TYPE&#39;)
+&#34;&#34;&#34;:type: quest_definitions.QUEST_EVENT_TYPE&#34;&#34;&#34;
 
-quest_progress = globals().get(&apos;quest_progress&apos;)
-&quot;&quot;&quot;:type: quest_progress&quot;&quot;&quot;
+quest_progress = globals().get(&#39;quest_progress&#39;)
+&#34;&#34;&#34;:type: quest_progress&#34;&#34;&#34;
 
-server_constants = globals().get(&apos;server_constants&apos;)
-&quot;&quot;&quot;:type: server_constants&quot;&quot;&quot;
+server_constants = globals().get(&#39;server_constants&#39;)
+&#34;&#34;&#34;:type: server_constants&#34;&#34;&#34;
 
-items = globals().get(&apos;items&apos;)
-&quot;&quot;&quot;:type: items&quot;&quot;&quot;
+items = globals().get(&#39;items&#39;)
+&#34;&#34;&#34;:type: items&#34;&#34;&#34;
 
-ATTACK_REASON = globals().get(&apos;ATTACK_REASON&apos;)
-&quot;&quot;&quot;:type: constants.ATTACK_REASON&quot;&quot;&quot;
+ATTACK_REASON = globals().get(&#39;ATTACK_REASON&#39;)
+&#34;&#34;&#34;:type: constants.ATTACK_REASON&#34;&#34;&#34;
 
-filters = globals().get(&apos;filters&apos;)
-&quot;&quot;&quot;:type: battle_result_event_list_helpers&quot;&quot;&quot;
+filters = globals().get(&#39;filters&#39;)
+&#34;&#34;&#34;:type: battle_result_event_list_helpers&#34;&#34;&#34;
 
-records = globals().get(&apos;records&apos;)
-&quot;&quot;&quot;:type: dossiers2.custom.records&quot;&quot;&quot;
+records = globals().get(&#39;records&#39;)
+&#34;&#34;&#34;:type: dossiers2.custom.records&#34;&#34;&#34;
 
 
-BATTLE_HERO_MEDALS = &apos;battleHeroMedals&apos;
-BATTLE_HERO_MEDALS_IN_BATTLE = &apos;battleHeroMedalsInBattle&apos;
-BATTLE_HERO_MEDALS_IN_BATTLE_SERIES = &apos;battleHeroMedalsInBattleSeries&apos;
+BATTLE_HERO_MEDALS = &#39;battleHeroMedals&#39;
+BATTLE_HERO_MEDALS_IN_BATTLE = &#39;battleHeroMedalsInBattle&#39;
+BATTLE_HERO_MEDALS_IN_BATTLE_SERIES = &#39;battleHeroMedalsInBattleSeries&#39;
 
 def onFinishBattle(eventType, eventData, quest, processor):
     questProgress = quest_progress.BaseQuestProgress(quest.config, processor.getQuestProgress(quest.progressID))
 
-    avatarResults = eventData[&apos;avatarResults&apos;]
+    avatarResults = eventData[&#39;avatarResults&#39;]
 
     medalSet = records.BATTLE_HERO_MEDAL_SET | records.EPIC_MEDAL_SET
-    medalsCount = sum(1 for medal in avatarResults[&apos;achievements&apos;] if medal in medalSet)
+    medalsCount = sum(1 for medal in avatarResults[&#39;achievements&#39;] if medal in medalSet)
 
     if questProgress.increaseUntilComplete(BATTLE_HERO_MEDALS_IN_BATTLE, medalsCount):
         questProgress.increaseUntilComplete(BATTLE_HERO_MEDALS_IN_BATTLE_SERIES, 1)
 
     questProgress.increaseUntilComplete(BATTLE_HERO_MEDALS, medalsCount)
 
-    eventData[&apos;results&apos;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=BATTLE_HERO_MEDALS_IN_BATTLE_SERIES))
+    eventData[&#39;results&#39;].update(processor.checkComplete(questProgress, quest.progressID, additionalProgressID=BATTLE_HERO_MEDALS_IN_BATTLE_SERIES))
 
     processor.setQuestProgress(quest.progressID, questProgress.save())
 
@@ -164,22 +164,22 @@ events = {
 
 
 def quest(eventType, eventData, quest, processor):
-    LOG(&apos;QUEST EVENT:&apos;, eventType, quest.id)
+    LOG(&#39;QUEST EVENT:&#39;, eventType, quest.id)
     return events.get(eventType, lambda *args: False)(eventType, eventData, quest, processor)
 
 </scripts>
          <bonus>
-            <credits> 100000 </credits>
+            <credits>100000</credits>
             <token>
                <id>token:pt:final:s2:t5:add</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
-               <limit> 75 </limit>
+               <count>1</count>
+               <limit>75</limit>
             </token>
             <token>
                <id>free_award_list_2</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 1 </count>
+               <count>1</count>
             </token>
          </bonus>
       </potapovQuest>
@@ -192,7 +192,7 @@ def quest(eventType, eventData, quest, processor):
                <account>
                   <token>
                      <id>pm2_5_2_15_main_award_list</id>
-                     <greaterOrEqual> 1 </greaterOrEqual>
+                     <greaterOrEqual>1</greaterOrEqual>
                      <consume>
                         100
                         <force></force>
@@ -204,7 +204,7 @@ def quest(eventType, eventData, quest, processor):
                <and>
                   <results>
                      <key>addQuestCompleted</key>
-                     <greaterOrEqual> 1 </greaterOrEqual>
+                     <greaterOrEqual>1</greaterOrEqual>
                   </results>
                </and>
             </postBattle>
@@ -213,7 +213,7 @@ def quest(eventType, eventData, quest, processor):
             <token>
                <id>free_award_list_2</id>
                <expires>28.01.2100 00:01</expires>
-               <count> 3 </count>
+               <count>3</count>
             </token>
          </bonus>
       </potapovQuest>

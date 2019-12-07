@@ -1,6 +1,6 @@
 <bootcamp-lobby-1.xml>
-   <default-scene> DefaultScene </default-scene>
-   <initial-scene> DefaultScene </initial-scene>
+   <default-scene>DefaultScene</default-scene>
+   <initial-scene>DefaultScene</initial-scene>
    <scenes>
       <scene>
          DefaultScene
@@ -50,8 +50,8 @@
                   </game-item>
                </condition>
                <effects>
-                  <show-dialog> FirstTankIntroDialog </show-dialog>
-                  <set-bootcamp-nation> SelectedNationID </set-bootcamp-nation>
+                  <show-dialog>FirstTankIntroDialog</show-dialog>
+                  <set-bootcamp-nation>SelectedNationID</set-bootcamp-nation>
                   <set-var>FirstVehicleSetter</set-var>
                </effects>
             </effects-group>
@@ -71,7 +71,7 @@
                   <value>
                      <item>
                         <name>hintRotateLobby</name>
-                        <type> dict </type>
+                        <type>dict</type>
                         <value>
                            <item>
                               <name>time_completed</name>
@@ -104,7 +104,7 @@
                </hints>
             </start-assistant>
             <set-allowed-to-fight>
-               <value> True </value>
+               <value>True</value>
             </set-allowed-to-fight>
          </effects>
       </checkpoint>
@@ -117,7 +117,7 @@
                   <data>
                      <nation_id>usa</nation_id>
                      <icon>../maps/icons/bootcamp/lines/bcT2MediumTank.png</icon>
-                     <preset> BLUE </preset>
+                     <preset>BLUE</preset>
                      <label>#bootcamp:message/vehicle/awarded/label</label>
                      <text>#bootcamp:message/vehicle/awarded/text</text>
                      <voiceover>vo_bc_hangar_first_tank_received</voiceover>
@@ -132,7 +132,7 @@
                   <data>
                      <nation_id>germany</nation_id>
                      <icon>../maps/icons/bootcamp/lines/bcPzKpfw35t.png</icon>
-                     <preset> BLUE </preset>
+                     <preset>BLUE</preset>
                      <label>#bootcamp:message/vehicle/awarded/label</label>
                      <text>#bootcamp:message/vehicle/awarded/text</text>
                      <voiceover>vo_bc_hangar_first_tank_received</voiceover>
@@ -145,9 +145,9 @@
                      </bottom>
                   </data>
                   <data>
-                     <nation_id> ussr </nation_id>
+                     <nation_id>ussr</nation_id>
                      <icon>../maps/icons/bootcamp/lines/bcT26.png</icon>
-                     <preset> BLUE </preset>
+                     <preset>BLUE</preset>
                      <label>#bootcamp:message/vehicle/awarded/label</label>
                      <text>#bootcamp:message/vehicle/awarded/text</text>
                      <voiceover>vo_bc_hangar_first_tank_received</voiceover>
@@ -163,8 +163,8 @@
             </message>
          </sequence>
          <buttons>
-            <submit> ConfirmDefaultNation </submit>
-            <cancel> ConfirmDefaultNation </cancel>
+            <submit>ConfirmDefaultNation</submit>
+            <cancel>ConfirmDefaultNation</cancel>
             <custom>SelectOtherNation</custom>
          </buttons>
          <actions>
@@ -184,8 +184,8 @@
       </dialog>
       <dialog>
          SelectNationDialog
-         <type> bootcampSelectNation </type>
-         <result-var> SelectedNationID </result-var>
+         <type>bootcampSelectNation</type>
+         <result-var>SelectedNationID</result-var>
          <buttons>
             <cancel>Cancel</cancel>
          </buttons>
@@ -193,15 +193,15 @@
             <click>
                Cancel
                <effects>
-                  <show-dialog> FirstTankIntroDialog </show-dialog>
+                  <show-dialog>FirstTankIntroDialog</show-dialog>
                </effects>
             </click>
          </actions>
       </dialog>
       <game-attribute>
          DefaultNationSetter
-         <var-ref> SelectedNationID </var-ref>
-         <name> BootcampNationID </name>
+         <var-ref>SelectedNationID</var-ref>
+         <name>BootcampNationID</name>
       </game-attribute>
       <game-attribute>
          FirstVehicleSetter
@@ -214,7 +214,7 @@
       <var-set>
          EnabledHeaderMenuButtons
          <asList>
-            <asString> settings </asString>
+            <asString>settings</asString>
             <asString>account</asString>
          </asList>
       </var-set>
