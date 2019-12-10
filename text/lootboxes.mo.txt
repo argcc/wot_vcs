@@ -8,50 +8,61 @@ MIME-Version: 1.0
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: 8bit
 }
-[autoOpenView/bottomLabel]::{Мы открыли все ваши новогодние коробки}
 [autoOpenView/congratsLabel]::{Поздравляем!}
-[autoOpenView/okBtnLabel]::{Так точно!}
+[autoOpenView/descriptionLabel]::{Мы открыли за вас коробки}
+[autoOpenView/okBtnLabel]::{Это прекрасно!}
 [buttonLabel/back]::{Вернуться в Ангар}
 [buttonLabel/buy]::{Купить}
 [buttonLabel/buyMore]::{Купить коробки}
 [buttonLabel/close]::{Закрыть}
 [buttonLabel/open]::{Открыть}
 [buttonLabel/openBox]::{Открыть коробку}
+[buttonLabel/openBoxes]::{Открыть несколько}
 [buttonLabel/quest]::{К задачам}
 [buttonLabel/videoOff]::{ПОКАЗЫВАТЬ АНИМАЦИЮ}
 [buttonLabel/videoOn]::{НЕ ПОКАЗЫВАТЬ АНИМАЦИЮ}
 [compensationTooltip/after/header]::{Компенсация:}
-[compensationTooltip/before/header]::{Дубликат (x{count}):}
+[compensationTooltip/before/header]::{Машина:}
 [compensationTooltip/crewSkin/header]::{Компенсация за облик, который уже есть в наличии}
 [compensationTooltip/vehicle/bottomText]::{Награда, которая является компенсацией за машину.}
 [compensationTooltip/vehicle/header]::{Компенсация за машину, которая уже есть в Ангаре.}
+[entryDesc/boxEmplty]::{Коробки закончились}
 [entryDesc/boxesCount]::{x{count}}
 [entryDesc/buySlot]::{Большие коробки можно купить в Премиум магазине}
-[entryDesc/newYear_premium]::{Большие коробки}
-[entryDesc/newYear_usual]::{Малые коробки}
-[entryDesc/questSlot]::{Малые коробки можно заработать, выполняя задачи}
+[entryDesc/newYear_premium/descr]::{Покупаются во внутриигровом и Премиум магазинах. Содержат золото и украшения, могут содержать трёхмерные стили и премиум технику.}
+[entryDesc/newYear_premium/title]::{Большие коробки}
+[entryDesc/newYear_usual/descr]::{За боевые задачи. В них вы найдёте украшения, а также кредиты или снаряжение.}
+[entryDesc/newYear_usual/title]::{Малые коробки}
 [entryDesc/restrictedMode]::{Функциональность временно недоступна. Попробуйте позже.}
 [entryPoint/header]::{Коробки}
-[entryTooltip/body/h1]::{Где купить большие коробки:}
-[entryTooltip/body/h2]::{Как получить малые коробки:}
-[entryTooltip/body/p1]::{Покупайте коробки с новогодними украшениями для себя и своих друзей в Премиум магазине.}
-[entryTooltip/body/p2]::{Выдаются за выполнение новогодних боевых задач.}
+[entryTooltip/body/h1]::{Большие}
+[entryTooltip/body/h2]::{Малые}
+[entryTooltip/body/p1]::{Покупаются во внутриигровом и Премиум магазинах. Содержат золото и украшения, могут содержать трёхмерные стили и премиум технику.}
+[entryTooltip/body/p2]::{Выдаются за выполнение боевых задач. Могут содержать украшения, а также кредиты или снаряжение.}
 [entryTooltip/header]::{Коробки}
 [entryView/boxesCount]::{ещё коробок: {count}}
-[entryView/buyLabel]::{ДОКУПИТЬ КОРОБКИ}
-[entryView/ended/newYear_premium]::{Большие коробки на Складе закончились,
-можете купить их в Премиум магазине.}
-[entryView/ended/newYear_usual]::{Малые коробки закончились,
-можете заработать их в бою.}
+[entryView/buyLabel]::{ДОКУПИТЬ}
+[entryView/ended/newYear_premium]::{%(categoryType)s закончились,
+вы можете купить их во внутриигровом или Премиум магазине.}
+[entryView/ended/newYear_usual]::{Малые коробки закончились.
+Заработайте их, выполняя боевые задачи.}
 [entryView/lootboxesCount]::{x{count}}
-[entryView/title]::{Новогоднее наступление {year}}
-[entryView/year]::{2019}
+[entryView/openBoxes/openSeveral]::{Открывать по несколько коробок одновременно.}
+[entryView/title/Christmas]::{Рождественские коробки}
+[entryView/title/Fairytale]::{Волшебные коробки}
+[entryView/title/NewYear]::{Новогодние коробки}
+[entryView/title/Oriental]::{Восточные коробки}
+[entryView/title/newYear_usual]::{Малые коробки}
+[entryView/type/newYear_premium]::{БОЛЬШИЕ КОРОБКИ}
+[entryView/type/newYear_usual]::{МАЛЫЕ КОРОБКИ}
 [multiOpenView/applyLabel]::{Так точно!}
 [multiOpenView/boxesInStorage]::{Коробок в наличии: {count}}
 [multiOpenView/boxesNotAvailable]::{Коробки закончились}
-[multiOpenView/openBoxesLabel]::{Открыть следующие {count} коробок}
+[multiOpenView/openBoxesLabel]::{Открыть ещё {count} шт.}
 [multiOpenView/openedCount]::{x{count}}
-[multiOpenView/title]::{Поздравляем!}
+[multiOpenView/pauseLabel]::{Остановить ({count})}
+[multiOpenView/title]::{Вот что внутри}
+[multiOpenView/unpauseLabel]::{Автооткрытие ({count})}
 [notification/header]::{Поздравляем!}
 [notification/ny19man]::{Уникальный член экипажа: %(count)s}
 [notification/rewards]::{Вам присвоены следующие награды:}
@@ -59,22 +70,17 @@ Content-Transfer-Encoding: 8bit
 [restrictedMessage/header]::{Внимание:}
 [rewardView/boxesCount]::{Коробок в наличии: {count}}
 [rewardView/closeBtnLabel]::{Закрыть}
-[rewardView/congratsBtnLabel/style]::{Рассмотреть стиль}
-[rewardView/congratsBtnLabel/tankman]::{Рекрутировать}
-[rewardView/congratsBtnLabel/vehicle]::{Посмотреть в Ангаре}
-[rewardView/congratsLabel/style]::{Уникальный стиль для}
-[rewardView/congratsLabel/tankman]::{Уникальный член экипажа}
-[rewardView/congratsLabel/usual]::{Поздравляем!}
-[rewardView/congratsLabel/vehicle]::{ВНЕЗАПНО!}
+[rewardView/congratsBtnLabel/StyleLootBoxCongrats]::{Рассмотреть стиль}
+[rewardView/congratsBtnLabel/TankmanLootBoxCongrats]::{Рекрутировать}
+[rewardView/congratsBtnLabel/VehicleLootBoxCongrats]::{Посмотреть в Ангаре}
 [rewardView/nextOpenBtnLabel]::{Открыть следующую}
 [rewardView/okOpenBtnLabel]::{Так точно!}
 [rewardView/openBtnLabel]::{Так точно!}
-[rewardView/rerollBtnLabel]::{Переоткрыть}
 [rewardView/zeroBoxes]::{Коробки закончились}
+[specialReward/StyleLootBoxCongrats/goToBtn]::{Рассмотреть стиль}
+[specialReward/StyleLootBoxCongrats/title]::{Уникальный трёхмерный стиль для}
+[specialReward/VehicleLootBoxCongrats/goToBtn]::{Посмотреть в Ангаре}
 [specialReward/continueBtn]::{Продолжить}
-[specialReward/style/goToBtn]::{Рассмотреть стиль}
-[specialReward/style/title]::{Уникальный (реально!) стиль для}
-[specialReward/vehicle/goToBtn]::{Посмотреть в Ангаре}
 [tooltip/category/header/Christmas]::{Рождественские коробки}
 [tooltip/category/header/Fairytale]::{Волшебные коробки}
 [tooltip/category/header/NewYear]::{Новогодние коробки}
@@ -85,8 +91,7 @@ Content-Transfer-Encoding: 8bit
 [tooltip/category/rewards/Oriental]::{Восточной коллекции}
 [tooltip/category/rewards/description]::{В коробках находятся украшения из {category} и другие ценные награды.}
 [tooltip/category/rewards/header]::{Награды:}
-[tooltip/entryView/buyBoxes]::{Купить дополнительные коробки в Премиум магазине.}
-[tooltip/entryView/openBoxes]::{Открывать по несколько коробок одновременно.}
+[tooltip/entryView/buyBoxes]::{Купить дополнительные большие коробки.}
 [tooltip/restrictedMode]::{Операция временно недоступна. Попробуйте позже.}
-[type/newYear_premium]::{БОЛЬШИЕ КОРОБКИ}
-[type/newYear_usual]::{МАЛЫЕ КОРОБКИ}
+[type/newYear_premium]::{Большая коробка}
+[type/newYear_usual]::{Малая коробка}

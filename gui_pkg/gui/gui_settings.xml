@@ -120,6 +120,11 @@
       <type>url</type>
    </setting>
    <setting>
+      https://ru.wargaming.net/id/signin/token/?account_id=$DB_ID&amp;token=$WGNI_TOKEN&amp;continue_on_failure=1&amp;next=$TARGET_URL(https://ru.wargaming.net/shop/gifts)
+      <name>lootBoxGiftURL</name>
+      <type>url</type>
+   </setting>
+   <setting>
       <name>tokenShopAPIKey</name>
       <type>string</type>
       <value>7v9Prend1nNU979RspoM40ulKV9zyZDxodNniJopQM3yrjM5Voknt30R2wNpgTXK</value>
@@ -566,27 +571,6 @@
       <value>0.75</value>
    </setting>
    <setting>
-      <name>encyclopedia</name>
-      <type>dict</type>
-      <value>
-         <item>
-            <name>languages</name>
-            <type>list</type>
-            <value>
-               <item>ru</item>
-               <item>be</item>
-               <item>uk</item>
-               <item>kk</item>
-            </value>
-         </item>
-         <item>
-            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/encyclopedia/?spa_id=$DB_ID
-            <name>url</name>
-            <type>url</type>
-         </item>
-      </value>
-   </setting>
-   <setting>
       <name>actionComeToEnd</name>
       <type>int</type>
       <value>1200</value>
@@ -779,28 +763,6 @@
       </value>
    </setting>
    <setting>
-      <name>epicWelcomeBack</name>
-      <type>dict</type>
-      <value>
-         <item>
-            <name>welcomeVideo</name>
-            <type>dict</type>
-            <value>
-               <item>
-                  <name>isEnabled</name>
-                  <type>bool</type>
-                  <value>True</value>
-               </item>
-               <item>
-                  https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promoscreens/campaign_tutorial/
-                  <name>url</name>
-                  <type>url</type>
-               </item>
-            </value>
-         </item>
-      </value>
-   </setting>
-   <setting>
       <name>referralProgram</name>
       <type>dict</type>
       <value>
@@ -841,8 +803,13 @@
             <type>url</type>
          </item>
          <item>
+            $PARAMS(/service/prebattle_instructions)
+            <name>buyCreditsBattleBoosters</name>
+            <type>url</type>
+         </item>
+         <item>
             $PARAMS(/bons/prebattle_instructions)
-            <name>buyBattleBoosters</name>
+            <name>buyBonBattleBoosters</name>
             <type>url</type>
          </item>
          <item>
@@ -946,6 +913,17 @@
       <value>
          <item>
             https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/wot_premium/
+            <name>baseURL</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
+      <name>newYearInfo</name>
+      <type>dict</type>
+      <value>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/ny20video/
             <name>baseURL</name>
             <type>url</type>
          </item>

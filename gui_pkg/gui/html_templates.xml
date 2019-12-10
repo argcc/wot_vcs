@@ -13,6 +13,16 @@
          <name>&lt;img src=&#34;img://gui/maps/icons/library/premium_igr_ico.png&#34; width=&#39;10&#39; height=&#39;10&#39;/&gt;%(vehicle)s</name>
       </premium-vehicle>
    </igr>
+   <loading>
+      <game-info-age>&lt;font color=&#34;#03953f&#34;&gt;_(#menu:loading/gameInfo/age)&lt;/font&gt;</game-info-age>
+   </loading>
+   <login>
+      <server-state>
+         <overload>&lt;font color=&#34;#ff0000&#34;&gt;%(message)s&lt;/font&gt;</overload>
+         <another_periphery>&lt;font color=&#34;#ff0000&#34;&gt;%(message)s&lt;/font&gt;</another_periphery>
+         <checkout_error>&lt;font color=&#34;#ff0000&#34;&gt;%(message)s&lt;/font&gt;</checkout_error>
+      </server-state>
+   </login>
    <lobby>
       <header>
          <premium-timeLabel>&lt;font color=&#34;#cbac77&#34; size=&#34;16&#34;&gt;%(time).0f &lt;/font&gt;&lt;font color=&#34;#cbac77&#34; size=&#34;12&#34;&gt;%(metric)s&lt;/font&gt;</premium-timeLabel>
@@ -37,6 +47,7 @@
          <piercingPower>&lt;h1&gt;_(#menu:tank_params/piercingPower)&lt;p&gt;_(#menu:tank_params/mm)&lt;/p&gt;&lt;/h1&gt;</piercingPower>
          <damage>&lt;h1&gt;_(#menu:tank_params/damage)&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;</damage>
          <avgDamage>&lt;h1&gt;_(#menu:tank_params/avgDamage)&lt;p&gt;_(#menu:tank_params/val)&lt;/p&gt;&lt;/h1&gt;</avgDamage>
+         <chargeTime>&lt;h1&gt;_(#menu:tank_params/chargeTime)&lt;p&gt;_(#menu:tank_params/s)&lt;/p&gt;&lt;/h1&gt;</chargeTime>
          <avgDamagePerMinute>&lt;h1&gt;_(#menu:tank_params/avgDamagePerMinute)&lt;p&gt;_(#menu:tank_params/vpm)&lt;/p&gt;&lt;/h1&gt;</avgDamagePerMinute>
          <turretRotationSpeed>&lt;h1&gt;_(#menu:tank_params/turretRotationSpeed)&lt;p&gt;_(#menu:tank_params/gps)&lt;/p&gt;&lt;/h1&gt;</turretRotationSpeed>
          <circularVisionRadius>&lt;h1&gt;_(#menu:tank_params/circularVisionRadius)&lt;p&gt;_(#menu:tank_params/m)&lt;/p&gt;&lt;/h1&gt;</circularVisionRadius>
@@ -416,6 +427,12 @@
             </context>
             <text>_(#dialogs:applyDiscount/message)</text>
          </confirmApplyDiscount>
+         <confirmationNotRemovable>&lt;font color=&#34;#FF0000&#34;&gt;%(message)s&lt;/font&gt;</confirmationNotRemovable>
+         <minimapAlphaNotification>&lt;font color=&#34;#EE7000&#34;&gt;%(message)s&lt;/font&gt;</minimapAlphaNotification>
+         <incompatibleReason>&lt;font color=&#34;#FF0000&#34;&gt;%(message)s&lt;/font&gt;</incompatibleReason>
+         <graphicsAlert>&lt;font color=&#34;#FF0000&#34;&gt;%(message)s&lt;/font&gt;</graphicsAlert>
+         <questsDialogAlert>&lt;font color=&#34;#D39337&#34;&gt;%(message)s&lt;/font&gt;</questsDialogAlert>
+         <leaveEventWarning>&lt;font color=&#34;#FF0000&#34;&gt;%(message)s&lt;/font&gt;</leaveEventWarning>
       </dialogs>
       <popovers>
          <optionalDevice>
@@ -470,11 +487,14 @@
             </context>
             <text>&lt;br/&gt;_(#invites:invites/text/creatorName)</text>
          </inviteTitleCreatorName>
+         <inviteWarning>
+            <text>&lt;br/&gt;&lt;br/&gt;&lt;font color=&#34;#EE7000&#34;&gt;%(warning)s&lt;/font&gt;</text>
+         </inviteWarning>
          <inviteComment>
             <text>&lt;br/&gt;&lt;br/&gt;&lt;font color=&#34;#969687&#34;&gt;%(comment)s&lt;/font&gt;</text>
          </inviteComment>
          <inviteNote>
-            <text>&lt;br/&gt;&lt;br/&gt;&lt;font color=&#34;#EE7001&#34;&gt;%(note)s&lt;/font&gt;</text>
+            <text>&lt;br/&gt;&lt;br/&gt;&lt;font color=&#34;#EE7000&#34;&gt;%(note)s&lt;/font&gt;</text>
          </inviteNote>
          <inviteState>
             <text>&lt;br/&gt;&lt;br/&gt;&lt;font color=&#34;#595950&#34;&gt;%(state)s&lt;/font&gt;</text>
@@ -709,6 +729,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
             <vehicleBlueprints>_(#quests:bonusName/blueprints/vehicle) &lt;font color=&#39;#CED9D9&#39;&gt;%(value)s&lt;/font&gt;</vehicleBlueprints>
             <nationBlueprints>_(#quests:bonusName/blueprints/nation) &lt;font color=&#39;#CED9D9&#39;&gt;%(value)s&lt;/font&gt;</nationBlueprints>
             <universalBlueprints>_(#quests:bonusName/blueprints/universal) &lt;font color=&#39;#CED9D9&#39;&gt;%(value)s&lt;/font&gt;</universalBlueprints>
+            <freeTalisman>&lt;img src=&#39;img://gui/maps/icons/quests/bonuses/small/freeTalisman.png&#39; width=&#39;32&#39; height=&#39;32&#39; vspace=&#39;-14&#39; /&gt; &lt;font color=&#39;#CED9D9&#39;&gt;x%(value)s&lt;/font&gt;</freeTalisman>
          </bonuses>
          <carouselBonuses>
             <credits>&lt;font face=&#39;$FieldFont&#39; size=&#39;22&#39; color=&#39;#CED9D9&#39;&gt;&lt;b&gt;%(value)s &lt;/b&gt;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/CreditsIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; /&gt;</credits>
@@ -918,6 +939,15 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          </tooltips>
          <link>&lt;a href=&#39;event:%(linkType)s&#39;&gt;%(text)s&lt;/a&gt;</link>
          <battleResult>&lt;img src=&#39;img://gui/maps/icons/library/BattleResultIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; hspace=&#39;0&#39;/&gt; %(result)s&lt;/font&gt;</battleResult>
+         <introView>
+            <fortBattles>&lt;font color=&#34;#8c8c7c&#34;&gt;%(text)s&lt;/font&gt;</fortBattles>
+         </introView>
+         <strongholdBuilds>
+            <mapName>&lt;font color=&#34;#FCF4CC&#34;&gt;%(text)s&lt;/font&gt;</mapName>
+         </strongholdBuilds>
+         <strongholdReserve>
+            <inStorage>&lt;font color=&#34;#C9C9BE&#34;&gt;%(text)s&lt;/font&gt;</inStorage>
+         </strongholdReserve>
       </fortifications>
       <inPremiumIgrOnly>
          <context>
@@ -978,7 +1008,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <promoSubTitle>&lt;font face=&#39;$FieldFont&#39; size=&#39;24&#39; color=&#39;#FEFEEC&#39;&gt;%(message)s&lt;/font&gt;</promoSubTitle>
          <highTitle>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#E9E2BF&#39;&gt;%(message)s&lt;/font&gt;</highTitle>
          <highTitleAccented>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#CBAC77&#39;&gt;%(message)s&lt;/font&gt;</highTitleAccented>
-         <highTitleDisabled>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#595950&#39;&gt;%(message)s&lt;/font&gt;</highTitleDisabled>
+         <highTitleDisabled>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#8C8C7E&#39;&gt;%(message)s&lt;/font&gt;</highTitleDisabled>
          <middleTitle>&lt;font face=&#39;$TitleFont&#39; size=&#39;15&#39; color=&#39;#E9E2BF&#39;&gt;%(message)s&lt;/font&gt;</middleTitle>
          <middleTitleLocked>&lt;font face=&#39;$TitleFont&#39; size=&#39;15&#39; color=&#39;#FF0000&#39;&gt;%(message)s&lt;/font&gt;</middleTitleLocked>
          <middleBonusTitle>&lt;font face=&#39;$TitleFont&#39; size=&#39;15&#39; color=&#39;#80d43a&#39;&gt;%(message)s&lt;/font&gt;</middleBonusTitle>
@@ -1001,6 +1031,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <successText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#497212&#39;&gt;%(message)s&lt;/font&gt;</successText>
          <statsIncrease>&lt;font face=&#39;$FieldFont&#39; size=&#39;16&#39; color=&#39;#80D43A&#39;&gt;%(message)s&lt;/font&gt;</statsIncrease>
          <alertText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#EE7000&#39;&gt;%(message)s&lt;/font&gt;</alertText>
+         <alertBigText>&lt;font face=&#39;$FieldFont&#39; size=&#39;16&#39; color=&#39;#EE7000&#39;&gt;%(message)s&lt;/font&gt;</alertBigText>
          <errorText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#ff2717&#39;&gt;%(message)s&lt;/font&gt;</errorText>
          <statsDecrease>&lt;font face=&#39;$FieldFont&#39; size=&#39;16&#39; color=&#39;#ff2717&#39;&gt;%(message)s&lt;/font&gt;</statsDecrease>
          <neutralText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#CBAC77&#39;&gt;%(message)s&lt;/font&gt;</neutralText>
@@ -1045,6 +1076,9 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <missionStatusUnavailable>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#ff2717&#39;&gt;%(message)s&lt;/font&gt;</missionStatusUnavailable>
          <missionStatusAvailable>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#7ab300&#39;&gt;%(message)s&lt;/font&gt;</missionStatusAvailable>
          <failedStatusText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#B70000&#39;&gt;%(message)s&lt;/font&gt;</failedStatusText>
+         <middleTitleNY>&lt;font face=&#39;$TitleFont&#39; size=&#39;15&#39; color=&#39;#d2e3f7&#39;&gt;%(message)s&lt;/font&gt;</middleTitleNY>
+         <mainTextNY>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#6f8fa1&#39;&gt;%(message)s&lt;/font&gt;</mainTextNY>
+         <vehicleNameNY>&lt;font face=&#39;$FieldFont&#39; size=&#39;15&#39; color=&#39;#bcf2ff&#39;&gt;%(message)s&lt;/font&gt;</vehicleNameNY>
       </textStyle>
       <profileStatistics>
          <marksOfMasteryText>%(marksOfMastery)s&lt;font size=&#39;14&#39; color=&#39;#939188&#39;&gt;/%(totalVehicles)s&lt;/font&gt;</marksOfMasteryText>

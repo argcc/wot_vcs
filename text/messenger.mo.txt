@@ -65,6 +65,8 @@ Content-Transfer-Encoding: 8bit
 [client/dynSquad/inviteAccepted/myself/withoutVOIP]::{Вы присоединились ко взводу %(squadNum)s. Доступен взводный чат.}
 [client/dynSquad/inviteAccepted/user]::{%(receiver)s присоединился ко взводу %(squadNum)s.}
 [client/dynSquad/inviteReceived]::{%(creator)s пригласил вас во взвод.}
+[client/dynSquad/inviteReceived/anonymized]::{%(creator)s пригласил вас во взвод.
+Внимание! Совзводные будут видеть ваше настоящее игровое имя и тег клана.}
 [client/dynSquad/inviteSent]::{%(receiver)s приглашён во взвод.}
 [client/error/broadcastInCooldown]::{Отправка сообщений заморожена на %s с.}
 [client/error/commandInCooldown/limited]::{Команда «%s» заморожена на %s с.}
@@ -309,6 +311,7 @@ Content-Transfer-Encoding: 8bit
 [dialogs/squadChannel/messege/noPremium]::{Пригласить во взвод третьего
 игрока возможно только при
 действующем премиум аккаунте.}
+[dialogs/squadChannel/simpleChatAlert/anonymizer]::{Если игрок примет приглашение, то ему на время боя станет видно ваше настоящее игровое имя и тег клана.}
 [dialogs/squadChannel/simpleChatName]::{Канал связи}
 [dialogs/squadChannel/tooltips/status/afk]::{Статус: Ушёл на перерыв}
 [dialogs/squadChannel/tooltips/status/inBattle]::{Статус: В бою}
@@ -482,6 +485,7 @@ Content-Transfer-Encoding: 8bit
 [server/errors/notAllowed/title]::{Ошибка чата}
 [server/errors/passwordRequired/message]::{Для присоединения к защищённому каналу введите пароль.}
 [server/errors/passwordRequired/title]::{Ошибка присоединения к каналу}
+[server/errors/settingError/changeUnavailable/message]::{Изменение данной настройки в настоящее время недоступно.}
 [server/errors/sqlError/message]::{Ошибка обращения к БД.}
 [server/errors/sqlError/title]::{Ошибка}
 [server/errors/userIgnoredError/message]::{Пользователь добавил вас в «Чёрный список».}
@@ -500,15 +504,15 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/actionBegin]::{Акция}
 [serviceChannelMessages/actionEnd]::{Акция завершена.}
 [serviceChannelMessages/autoBoosterErrorNoWallet]::{Не удалось пополнить снаряжение на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[serviceChannelMessages/autoEquipBoosterDisabledOption]::{Не удалось пополнить снаряжение на %s. Купите снаряжение за золото.}
+[serviceChannelMessages/autoEquipBoosterDisabledOption]::{Не удалось пополнить инструкции для %s. Операция временно недоступна: ведутся технические работы.}
 [serviceChannelMessages/autoEquipBoosterError]::{Не удалось пополнить предбоевую инструкцию на %s. Недостаточно средств.}
 [serviceChannelMessages/autoEquipBoosterSkipped]::{Не выполнено автоматическое пополнение предбоевой инструкции на %s. Установите предбоевую инструкцию вручную.}
-[serviceChannelMessages/autoEquipBoosterSuccess]::{Снаряжение на %s пополнено успешно. Потрачено }
+[serviceChannelMessages/autoEquipBoosterSuccess]::{Инструкция для %s пополнена успешно. Потрачено }
 [serviceChannelMessages/autoEquipDisabledOption]::{Не удалось пополнить снаряжение на %s. Купите снаряжение за золото.}
 [serviceChannelMessages/autoEquipError]::{Не удалось пополнить снаряжение на %s. Недостаточно средств.}
 [serviceChannelMessages/autoEquipErrorNoWallet]::{Не удалось пополнить снаряжение на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [serviceChannelMessages/autoEquipSkipped]::{Не выполнено автоматическое пополнение снаряжения на %s. Загрузите снаряжение вручную.}
-[serviceChannelMessages/autoEquipSuccess]::{Снаряжение на %s пополнено успешно. Потрачено }
+[serviceChannelMessages/autoEquipSuccess]::{Снаряжение для %s пополнено успешно. Потрачено }
 [serviceChannelMessages/autoLoadDisabledOption]::{Не удалось пополнить боекомплект на %s. Купите снаряды за золото.}
 [serviceChannelMessages/autoLoadError]::{Не удалось пополнить боекомплект на %s. Недостаточно средств.}
 [serviceChannelMessages/autoLoadErrorNoWallet]::{Не удалось пополнить боекомплект на %s. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
@@ -567,7 +571,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/personalMissions/both]::{Поздравляем!
 За успешное выполнение личных боевых задач обеих кампаний вам присвоены следующие награды}
 [serviceChannelMessages/battleResults/piggyBank]::{В хранилище поступило}
-[serviceChannelMessages/battleResults/quests]::{Боевая задача выполнена! Награда}
+[serviceChannelMessages/battleResults/quests]::{Условия выполнены! Награда}
 [serviceChannelMessages/battleResults/quests/achievements]::{Достижения}
 [serviceChannelMessages/battleResults/quests/berths]::{Добавлено коек в Казарму}
 [serviceChannelMessages/battleResults/quests/credits]::{Добавлено кредитов}
@@ -576,6 +580,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/quests/gold]::{Добавлено золота}
 [serviceChannelMessages/battleResults/quests/items]::{Добавлено}
 [serviceChannelMessages/battleResults/quests/items/name]::{%(name)s (x%(count)s)}
+[serviceChannelMessages/battleResults/quests/nyBoxes]::{Добавлена малая коробка (x%(count)s)}
 [serviceChannelMessages/battleResults/quests/premium]::{Добавлено дней Общего премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/premium_plus]::{Добавлено дней Танкового премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/vehicleSlots]::{Добавлено слотов}
@@ -753,6 +758,12 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/itemsInstalled]::{Установлено на технику}
 [serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued]::{Начислено фрагментов чертежей на технику %(nationName)s}
 [serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited]::{Списано фрагментов чертежей на технику %(nationName)s}
+[serviceChannelMessages/invoiceReceived/nyFillersAccrued]::{Начислено зарядов: }
+[serviceChannelMessages/invoiceReceived/nyFillersDebited]::{Списано зарядов: }
+[serviceChannelMessages/invoiceReceived/nyFragmentsAccrued]::{Начислено осколков: }
+[serviceChannelMessages/invoiceReceived/nyFragmentsDebited]::{Списано осколков: }
+[serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived]::{Начислены украшения: }
+[serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived]::{Списаны украшения: }
 [serviceChannelMessages/invoiceReceived/pieces]::{шт.}
 [serviceChannelMessages/invoiceReceived/premiumAccrued]::{Добавлено дней Общего премиум аккаунта}
 [serviceChannelMessages/invoiceReceived/premiumDebited]::{Списано дней Общего премиум аккаунта}
@@ -766,6 +777,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/tankmen]::{Новобранцы}
 [serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued]::{Начислено нераспределённого опыта членам экипажа}
 [serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited]::{Списано нераспределённого опыта с членов экипажа}
+[serviceChannelMessages/invoiceReceived/toyTypeWrapper]::{«%(name)s» (x%(count)s)}
 [serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued]::{Начислено фрагментов чертежей на %(vehicleName)s}
 [serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited]::{Списано фрагментов чертежей с %(vehicleName)s}
 [serviceChannelMessages/invoiceReceived/vehiclesAccrued]::{Добавлена техника}
@@ -773,7 +785,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/vehiclesRented]::{Добавлена арендованная техника}
 [serviceChannelMessages/invoiceReceived/vehiclesRented/bonus]::{Внимание! Последующее продление аренды обойдётся дешевле.}
 [serviceChannelMessages/itemReceivedAsGift]::{От администрации получено снаряжение: %(typeName)s "%(itemName)s" – %(amount)d шт.}
-[serviceChannelMessages/lootBoxes/button]::{К коробкам}
+[serviceChannelMessages/lootBoxes/button]::{Получить}
 [serviceChannelMessages/lootBoxes/footer]::{Нажмите кнопку, чтобы перейти к содержимому.}
 [serviceChannelMessages/lootBoxes/header]::{Вам посылка:}
 [serviceChannelMessages/lootBoxes/item/name]::{«%(name)s» %(colorTagOpen)sx%(count)s%(colorTagClose)s}
@@ -781,6 +793,10 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/lootBoxesAutoOpen/counter]::{x%(count)s}
 [serviceChannelMessages/lootBoxesAutoOpen/header]::{Получены награды}
 [serviceChannelMessages/lootBoxesAutoOpen/text]::{Мы открыли за вас коробки и начиcлили награды за «Новогоднее наступление»}
+[serviceChannelMessages/lootBoxesGift/body]::{Нажмите кнопку, чтобы перейти к содержимому.}
+[serviceChannelMessages/lootBoxesGift/button]::{Получить}
+[serviceChannelMessages/lootBoxesGift/header]::{Вам посылка:}
+[serviceChannelMessages/newYearTalisman/button]::{К снегурочкам}
 [serviceChannelMessages/notrecruitedTankman/button]::{В Казарму}
 [serviceChannelMessages/notrecruitedTankman/removedTankmen]::{Списано членов экипажа: %(count)s}
 [serviceChannelMessages/piggyBank/continueAfterSmashed]::{Начался новый цикл накопления.}
@@ -818,7 +834,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/progressiveRewardNotification/header]::{Довольствие}
 [serviceChannelMessages/progressiveRewardNotification/text]::{Играйте и получайте довольствие. Чем выше эффективность игры, тем ближе выдача довольствия.}
 [serviceChannelMessages/recruitGift/header]::{В вашем полку прибыло!}
-[serviceChannelMessages/recruitGift/text]::{Вам начислен экипаж за %(event)s.}
+[serviceChannelMessages/recruitGift/text]::{Вам начислен экипаж за %(event)s.}
 [serviceChannelMessages/recruitReminder/text]::{У вас остались нерекрутированные члены экипажа: %(count)s. Ближайший срок списания %(date)s!}
 [serviceChannelMessages/recruitReminderTermless/text]::{У вас остались нерекрутированные члены экипажа: %(count)s}
 [serviceChannelMessages/removedBadgeAchievement]::{Списано нашивок}

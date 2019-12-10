@@ -62,6 +62,21 @@
             <step>184</step>
          </horizontal>
       </grid>
+      <grid>
+         grid_3
+         <root>
+            <start>47 40</start>
+            <step>57</step>
+         </root>
+         <vertical>
+            <start>40</start>
+            <step>54</step>
+         </vertical>
+         <horizontal>
+            <start>231</start>
+            <step>184</step>
+         </horizontal>
+      </grid>
    </grids>
    <available-nations>
       <nation>ussr</nation>
@@ -240,66 +255,25 @@
       <inPin>LM</inPin>
    </default-line>
    <overrides>
-      <height_less_768>
+      <height_less_850>
          <grids>
             <grid>
-               grid_1
+               grid_3
                <root>
-                  <start>16 67</start>
-                  <step>60</step>
+                  <start>47 26</start>
+                  <step>57</step>
                </root>
                <vertical>
-                  <start>50</start>
-                  <step>47</step>
+                  <start>26</start>
+                  <step>51</step>
                </vertical>
                <horizontal>
-                  <start>200</start>
+                  <start>231</start>
                   <step>184</step>
                </horizontal>
             </grid>
          </grids>
-         <lines>
-            <H_DU_H>
-               <outPin>
-                  <RM>126 15</RM>
-               </outPin>
-               <inPin>
-                  <LM>-3 15</LM>
-               </inPin>
-               <viaPin>
-                  <RM>
-                     <LM>
-                        <pin>148 15</pin>
-                        <pin>197 -32</pin>
-                     </LM>
-                  </RM>
-               </viaPin>
-               <default>
-                  <outPin>RM</outPin>
-                  <inPin>LM</inPin>
-               </default>
-            </H_DU_H>
-            <H_UD_H>
-               <outPin>
-                  <RM>126 15</RM>
-               </outPin>
-               <inPin>
-                  <LM>-3 15</LM>
-               </inPin>
-               <viaPin>
-                  <RM>
-                     <LM>
-                        <pin>148 15</pin>
-                        <pin>197 62</pin>
-                     </LM>
-                  </RM>
-               </viaPin>
-               <default>
-                  <outPin>RM</outPin>
-                  <inPin>LM</inPin>
-               </default>
-            </H_UD_H>
-         </lines>
-      </height_less_768>
+         <lines></lines>
+      </height_less_850>
    </overrides>
 </tree-shared.xml>

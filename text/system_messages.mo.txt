@@ -88,19 +88,24 @@ Content-Transfer-Encoding: 8bit
 [badges/select/server_error]::{Ошибка сервера}
 [badges/select/server_error/COOLDOWN]::{Действие недоступно. Дождитесь завершения текущей операции.}
 [battle/request/SEND_INVITES]::{Отправка приглашений}
+[battleBooster_buy/credits_error]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно кредитов.}
+[battleBooster_buy/crystal_error]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно бон.}
 [battleBooster_buy/error_not_for_this_vehicle_type]::{%(kind)s «%(name)s» не подходит для этой машины.}
 [battleBooster_buy/error_too_heavy]::{%(kind)s «%(name)s» не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
+[battleBooster_buy/gold_error]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно золота.}
 [battleBooster_buy/invalid_module]::{Покупка %(kind)s «%(name)s» не удалась. Неправильный модуль.}
 [battleBooster_buy/invalid_vehicle]::{Неправильная машина. Покупка и установка %(kind)s «%(name)s» не удалась.}
 [battleBooster_buy/not_enough_credits]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно кредитов.}
 [battleBooster_buy/not_enough_crystal]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно бон.}
 [battleBooster_buy/not_enough_gold]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно золота.}
-[battleBooster_buy/server_error]::{Покупка %(kind)s «%(name)s» не удалась. Попробуйте позже.}
+[battleBooster_buy/server_error]::{Операции с инструкциями временно недоступны: ведутся технические работы.}
 [battleBooster_buy/server_error_centerDown]::{Покупка %(kind)s «%(name)s» не удалась. Сервис покупки модулей временно недоступен.}
 [battleBooster_buy/success]::{%(kind)s «%(name)s» успешно приобретена (%(count)s шт.). Потрачено %(money)s.}
 [battleBooster_buy/vehicle_locked]::{Машина заблокирована. Покупка и установка %(kind)s «%(name)s» не удалась.}
 [battleBooster_buy/vehicle_need_repair]::{Покупка и установка %(kind)s «%(name)s» не удалась. Отремонтируйте машину и повторите операцию.}
 [battleBooster_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
+[battleBooster_sell/server_error]::{Операции с инструкциями временно недоступны: ведутся технические работы.}
+[battleBooster_sell/success]::{%(kind)s «%(name)s» продана (%(count)s шт.). Получено %(money)s.}
 [battleResults/sharing/success]::{Ссылка скопирована в буфер обмена. Вы можете её вставить с помощью Ctrl+V в игровой чат или использовать вне клиента игры.}
 [battleSession/kickedFromQueue]::{Невозможно подобрать соперников для данного Специального боя. Попробуйте переформировать команду.}
 [battleSession/memberJoined]::{%s присоединился к команде.}
@@ -555,9 +560,9 @@ Content-Transfer-Encoding: 8bit
 [login_to_other_game_wotg]::{текущая игровая сессия прервана. Ваш Wargaming.net&nbsp;ID был использован для входа в World&nbsp;of&nbsp;Tanks&nbsp;Generals}
 [login_to_other_game_wowp]::{текущая игровая сессия прервана. Ваш Wargaming.net&nbsp;ID был использован для входа в World&nbsp;of&nbsp;Warplanes}
 [login_to_other_game_wows]::{текущая игровая сессия прервана. Ваш Wargaming.net&nbsp;ID был использован для входа в World&nbsp;of&nbsp;Warships}
-[lootboxes/open/server_error]::{Ошибка получения подарка: серверный сбой.}
-[lootboxes/open/server_error/COOLDOWN]::{Ошибка получения подарка: дождитесь завершения предыдущей операции.}
-[lootboxes/open/server_error/DISABLED]::{Операция временно недоступна. Попробуйте позже.}
+[lootboxes/open/server_error]::{Ошибка открытия коробки: серверный сбой.}
+[lootboxes/open/server_error/COOLDOWN]::{Ошибка открытия коробки: дождитесь завершения предыдущей операции.}
+[lootboxes/open/server_error/DISABLED]::{Ошибка открытия коробки: серверный сбой.}
 [maps_black_list/select/server_error]::{Ошибка сервера}
 [maps_black_list/select/server_error/COOLDOWN]::{Действие недоступно. Дождитесь завершения текущей операции.}
 [maps_black_list/select/success]::{Карта «%(mapName)s» исключена из Случайных боёв (для типа «Стандартный бой»). Изменить свой выбор можно будет через %(time)s.}
@@ -619,6 +624,20 @@ Content-Transfer-Encoding: 8bit
 [nation_change/WRONG_ARG_VALUE]::{Ошибка смены комплектации}
 [nation_change/error]::{Ошибка смены комплектации}
 [nation_change/success]::{%(veh_name)s: Национальная комплектация изменена}
+[newYear/addTalisman/server_error]::{Ошибка выбора снегурочки: серверный сбой.}
+[newYear/applyVehicleDiscount/server_error]::{Ошибка активации скидки на технику: серверный сбой.}
+[newYear/applyVehicleDiscount/server_error/alreadyActive]::{Ошибка активации скидки: скидка на данную машину уже активирована.}
+[newYear/applyVehicleDiscount/server_error/alreadyBought]::{Ошибка активации скидки на технику: машина уже куплена.}
+[newYear/applyVehicleDiscount/server_error/noDiscountForVehicle]::{Ошибка активации скидки: скидка на данную машину не найдена.}
+[newYear/applyVehicleDiscount/server_error/noDiscounts]::{Ошибка активации скидки на технику: скидок не найдено.}
+[newYear/applyVehicleDiscount/success]::{Вы активировали %(discount)s%% скидку на %(vehName)s}
+[newYear/breakToys/server_error]::{Ошибка разбития украшений: серверный сбой.}
+[newYear/buyCollection/server_error]::{Ошибка покупки коллекции: серверный сбой.}
+[newYear/buyToy/server_error]::{Ошибка создания украшения: серверный сбой.}
+[newYear/craftToy/server_error]::{Ошибка создания украшения: серверный сбой.}
+[newYear/getTalismanToy/server_error]::{Ошибка получения подарка от снегурочки: серверный сбой.}
+[newYear/hangToy/server_error]::{Ошибка размещения украшения: серверный сбой.}
+[newYear/setVehicleBranch/server_error]::{Ошибка установки в слот: серверный сбой.}
 [notrecruit_window/success]::{Член экипажа успешно рекрутирован.
 %(colorTagOpen)s%(rank)s %(fullName)s
 (%(role)s, %(vehicleName)s, %(roleLevel)d%%)%(colorTagClose)s}
@@ -741,7 +760,6 @@ Content-Transfer-Encoding: 8bit
 [premium_quests/switch_off/title]::{Премиум задачи временно недоступны}
 [premium_quests/switch_on/body]::{Технические проблемы решены. Приносим извинения за неудобства.}
 [premium_quests/switch_on/title]::{Премиум задачи снова доступны}
-[prmp/notification/newEncyclopediaRecommendation]::{В Учебном центре доступны новые материалы.}
 [progressiveReward/error]::{В данный момент операция невозможна. Попробуйте позже.}
 [progressiveReward/switch_off]::{Довольствие: по техническим причинам данная функциональность временно отключена. Приносим свои извинения.}
 [progressiveReward/switch_on]::{Возможность получать довольствие снова доступна}
@@ -894,6 +912,7 @@ Content-Transfer-Encoding: 8bit
 [squad/memberReady]::{%s готов!}
 [squad/notSetReadyStatus]::{Не удалось выйти в бой в составе взвода.}
 [squad/notValidDeleted]::{Машина %(vehName)s исключена из состава взвода из-за несоответствия уровню машины командира взвода. Выберите машину такого же уровня.}
+[squad/notValidDeletedFilter]::{Машина %(vehName)s исключена из состава взвода из-за изменений требований командира.}
 [squad/notValidMaxSpgDeleted]::{Машина %(vehName)s исключена из состава взвода из-за ограничения по количеству САУ во взводе. Выберите машину другого типа.}
 [squad_bonus/switch_off/body]::{По техническим причинам данная функциональность временно недоступна.
 Приносим свои извинения.}
@@ -1064,6 +1083,7 @@ Content-Transfer-Encoding: 8bit
 [vehicle_buy/server_error_centerDown]::{Покупка '%(vehName)s' не удалась. Сервис покупки техники временно недоступен.}
 [vehicle_buy/success]::{'%(vehName)s' успешно приобретён. Потрачено %(price)s.}
 [vehicle_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
+[vehicle_remove/disabledService]::{Удаление %(vehName)s не удалось. Попробуйте позже.}
 [vehicle_remove/invalid_vehicle]::{Удаление '%(vehName)s' не удалось. Неправильная машина.}
 [vehicle_remove/not_enough_credits]::{Удаление '%(vehName)s' не удалось. Недостаточно кредитов.}
 [vehicle_remove/not_enough_gold]::{Удаление '%(vehName)s' не удалось. Недостаточно золота.}
@@ -1097,6 +1117,7 @@ Content-Transfer-Encoding: 8bit
 [vehicle_restore/server_error_centerDown]::{Не удалось восстановить '%(vehName)s'. Сервис аренды техники временно недоступен.}
 [vehicle_restore/success]::{Машина '%(vehName)s' восстановлена. Потрачено %(price)s.}
 [vehicle_restore/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
+[vehicle_sell/disabledService]::{Продажа %(vehName)s не удалась. Попробуйте позже.}
 [vehicle_sell/invalid_vehicle]::{Продажа '%(vehName)s' не удалась. Неправильная машина.}
 [vehicle_sell/not_enough_credits]::{Продажа '%(vehName)s' не удалась. Недостаточно кредитов.}
 [vehicle_sell/not_enough_gold]::{Продажа '%(vehName)s' не удалась. Недостаточно золота.}

@@ -1,0 +1,67 @@
+<ny20.xml>
+   <quests>
+      <NTQuest>
+         <id>ny20battle</id>
+         <enabled> true </enabled>
+         <serverOnly> true </serverOnly>
+         <conditions>
+            <preBattle></preBattle>
+            <postBattle></postBattle>
+         </conditions>
+         <scripts>
+QUEST_EVENT_TYPE = globals().get(&#39;QUEST_EVENT_TYPE&#39;)
+ARENA_BONUS_TYPE = globals().get(&#39;ARENA_BONUS_TYPE&#39;)
+
+def onInit(eventType, eventData, quest, processor):
+    LOG(&#39;QUEST EVENT:onInit&#39;, eventType, quest.id)
+    for event in events.iterkeys():
+        processor.subscribe(event, quest)
+    return True
+
+def onFinishBattle(eventType, eventData, quest, processor):
+    from soft_exception import SoftException
+    from debug_utils import LOG_CURRENT_EXCEPTION
+    LOG(&#39;QUEST EVENT:onFinishBattle&#39;, eventType, quest.id)
+
+    try:
+        account = eventData.get(&#39;account&#39;)
+        if account is None:
+            return
+
+        bonusType = eventData.get(&#39;avatarResults&#39;, {}).get(&#39;bonusType&#39;, None)
+        if bonusType not in ARENA_BONUS_TYPE.RANDOM_RANGE:
+            LOG(&#39;QUEST EVENT:onFinishBattle, quest.id = {}: unsuitable bonusType = {}&#39;.format(quest.id, bonusType))
+            return
+
+        gameParamsRev = eventData.get(&#39;gameParamsRev&#39;, None)
+
+        ny = account._newYear
+        vehTypeCompDescr = eventData.get(&#39;vehCompDescrs&#39;, [None])[0]
+        bonusData = ny.getQuestBonusDataForTag(&#39;ny20&#39;, vehTypeCompDescr, gameParamsRev)
+
+        eventData[&#39;results&#39;][quest.id] = {
+            &#39;bonusCnt&#39;: 1,
+            &#39;progress&#39;: {&#39;bonusCount&#39;: -1}
+        }
+
+        eventData[&#39;results&#39;][quest.id].update({
+            &#39;bonus&#39;: bonusData,
+        })
+        LOG(&#39;QUEST EVENT:onFinishBattle, quest.id = {}: bonusData = {}&#39;.format(quest.id, bonusData))
+    except SoftException as err:
+        LOG_CURRENT_EXCEPTION()
+        return
+        
+events = {
+    QUEST_EVENT_TYPE.INIT: onInit,
+    QUEST_EVENT_TYPE.FINISH_BATTLE_NT_QUEST: onFinishBattle,
+}
+
+def quest(eventType, eventData, quest, processor):
+    LOG(&#39;QUEST EVENT:quest&#39;, eventType, quest.id)
+    return events.get(eventType, lambda *args: False)(eventType, eventData, quest, processor)
+         </scripts>
+         <bonus></bonus>
+      </NTQuest>
+   </quests>
+</ny20.xml>

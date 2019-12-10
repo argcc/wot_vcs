@@ -242,6 +242,7 @@ Content-Transfer-Encoding: 8bit
 [advanced/stereoscope]::{Увеличивает дальность обзора машины через короткое время после остановки. Выключается при движении машины вперёд, назад или при поворотах корпуса. Шведские высокоуровневые ПТ-САУ могут поворачивать корпус не убирая трубы.}
 [advanced/toolbox]::{Увеличивает общую скорость ремонта выведенных из строя модулей в бою.}
 [advanced/vehicleChassis]::{Модуль, влияющий на скорость поворота машины, а также на её проходимость по различным грунтам. Также влияет на грузоподъёмность.}
+[advanced/vehicleDualGun]::{При быстром щелчке кнопкой выстрела орудие ведёт привычный одиночный огонь. При удержании кнопки залпа оба заряженных орудия начинают готовиться к залпу. Назначенную кнопку можно поменять в настройках. Выстрел залпом приведёт к временной блокировке перезарядки.}
 [advanced/vehicleEngine]::{Модуль, определяющий динамические характеристики машины. С некоторой вероятностью может загореться при попадании.}
 [advanced/vehicleGun]::{Основное вооружение машины. Характеризуется определённой точностью, скоростью перезарядки и сведением. Для каждого орудия, как правило, используются несколько типов снарядов.}
 [advanced/vehicleRadio]::{Обеспечивает передачу данных между союзными машинами о положении противника, что позволяет наводиться на цели вне зоны видимости.}
@@ -251,6 +252,32 @@ Content-Transfer-Encoding: 8bit
 [ammo/auto/body]::{При необходимости боекомплект будет пополняться
 автоматически после выхода машины из боя.}
 [ammo/auto/header]::{Пополнять автоматически}
+[anonymizer/battle/teamList/clan]::{Ваше имя на время боя изменено на %(fakeName)s.
+Настоящее игровое имя и тег клана не видны другим игрокам в бою, кроме ваших совзводных.}
+[anonymizer/battle/teamList/noClan]::{Ваше имя на время боя изменено на %(fakeName)s.
+Настоящее игровое имя не видно другим игрокам в бою, кроме ваших совзводных.}
+[anonymizer/body/clan]::{Ваше игровое имя будет изменено на анонимное, а тег клана скрыт в списке игроков во время боя в следующих режимах:
+
+• Случайный бой (все типы);
+• Ранговый бой;
+• Линия фронта;
+• некоторые сезонные режимы и события.
+
+Настоящее имя и тег клана будут по-прежнему отображаться для участников вашего взвода, в том числе динамического. После боя ваше имя и тег клана смогут увидеть все игроки.}
+[anonymizer/body/noClan]::{Ваше игровое имя будет изменено на анонимное в списке игроков во время боя в следующих режимах:
+
+• Случайный бой (все типы);
+• Ранговый бой;
+• Линия фронта;
+• некоторые сезонные режимы и события.
+
+Настоящее имя будет по-прежнему отображаться для участников вашего взвода, в том числе динамического. После боя ваше имя смогут увидеть все игроки.}
+[anonymizer/bodyFooter/default]::{Настройка активируется со следующего боя.}
+[anonymizer/bodyFooter/inBattle]::{Изменение данной настройки недоступно во время боя.}
+[anonymizer/bodyFooter/restricted]::{Для данного аккаунта опция отключена в связи с нарушением Правил игры.}
+[anonymizer/header]::{Скрытие имени во время боя}
+[anonymizer/teamStats/body]::{Настоящее игровое имя и тег клана не видны другим игрокам в бою.}
+[anonymizer/teamStats/header]::{Имя игрока было скрыто: %(name)s}
 [awardItem/battleToken/description]::{Доступ к нескольким задачам.}
 [awardItem/battleToken/one/body]::{Открывает доступ к задаче «%(name)s»}
 [awardItem/battleToken/one/header]::{Доступ к боевой задаче}
@@ -340,6 +367,8 @@ Content-Transfer-Encoding: 8bit
 [awardItem/freeXPFactor/header]::{Коэффициент свободного опыта}
 [awardItem/gold/body]::{Ценная игровая валюта, которую можно потратить на широкий спектр целей: Танковый премиум аккаунт, технику, перевод опыта и т. д.}
 [awardItem/gold/header]::{Золото}
+[awardItem/ny20Fillers/body]::{Заряды нужны для работы антиповторителя. Они выдаются в ограниченном количестве за каждый уровень атмосферы праздника, поэтому расходуйте их мудро.}
+[awardItem/ny20Fillers/header]::{Заряды}
 [awardItem/oneof/body]::{Количество наград и их ценность зависят от позиции в ладдере.}
 [awardItem/oneof/header]::{Контейнер с наградой}
 [awardItem/oneof/rankedCycle/body]::{Присваивается в конце этапа и содержит различные награды.
@@ -393,6 +422,8 @@ Content-Transfer-Encoding: 8bit
 [barracks/tankmen/recruit/header]::{Рекрутировать члена экипажа}
 [barracks/tankmen/unload/body]::{Данный член экипажа будет высажен в Казарму.}
 [barracks/tankmen/unload/header]::{Высадить члена экипажа}
+[battleBooster/buy/useless/lower_description]::{требуется установка соответствующего оборудования.}
+[battleBooster/buy/useless/upper_description]::{Инструкции <span>работать не будут</span>:}
 [battleBooster/crew]::{Предбоевые инструкции}
 [battleBooster/inventoryCount]::{На хранении}
 [battleBooster/optionalDevice]::{Предбоевые инструкции}
@@ -677,6 +708,13 @@ Content-Transfer-Encoding: 8bit
 [crewBooks/storage/filters/personalBook/title]::{Персональное учебное пособие}
 [crewBooks/storage/filters/universalBook/title]::{Учебное пособие}
 [crewBooks/tankman/skill/lowGainedXp]::{Округлено до сотых процента.}
+[crewBundle/bonus/anyAdditionalSkill]::{Достаточно опыта для изучения дополнительного умения или навыка.}
+[crewBundle/bonus/basicRoleBoost_100]::{Полностью изученная основная специальность.}
+[crewBundle/bonus/sameBloodZeroSkill]::{«Нулевой» изученный навык «Одной крови».}
+[crewBundle/bonuses]::{Преимущества:}
+[crewBundle/header/offspring]::{Экипаж из музыкантов The Offspring}
+[crewBundle/howToGet]::{Как получить:}
+[crewBundle/howToGet/offspring]::{Идёт в наборе «Pretty Fly»}
 [crewCustom/body]::{С машиной идёт уникальный экипаж}
 [crewSkins/allUsedDescr]::{Чтобы применить этот облик, снимите его с другого члена экипажа.}
 [crewSkins/allUsedHeader]::{Нет свободных обликов этого типа}
@@ -730,7 +768,7 @@ Content-Transfer-Encoding: 8bit
 [customization/filter/counter/close/header]::{Сбросить фильтр}
 [customization/filter/counter/header]::{Фильтр элементов}
 [customization/filterPopover/refresh/body]::{Нажмите, чтобы сбросить настройки фильтра
-элементов внешнего вида на стандартные.}
+элементов внешнего вида на стандартные.}
 [customization/filterPopover/refresh/header]::{Установить по умолчанию}
 [customization/headerCloseBtn/body]::{Неоплаченные или взятые со Склада элементы внешнего вида сохранены не будут.}
 [customization/headerCloseBtn/header]::{Вернуться в Ангар}
@@ -1556,8 +1594,6 @@ Content-Transfer-Encoding: 8bit
 • за получение некоторых наград.}
 [header/buttons/crystal/header]::{Боны}
 [header/buttons/crystal/title]::{Боны}
-[header/buttons/encyclopedia/body]::{Перейти к обучающим материалам.}
-[header/buttons/encyclopedia/header]::{Учебный центр}
 [header/buttons/forts/body]::{Перейти к информации о своём клане.}
 [header/buttons/forts/header]::{Клан}
 [header/buttons/forts/sandbox/turnedOff/body]::{Режим станет доступен после завершения загрузки}
@@ -1723,7 +1759,6 @@ Content-Transfer-Encoding: 8bit
 [login/soundButton/on/body]::{Включить звук.}
 [login/soundButton/on/header]::{?empty?}
 [marathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике Х уровня, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите уникальную премиум ПТ-САУ VIII уровня бесплатно.}
-[marathon/body/completed]::{После активной фазы вы ещё некоторое время сможете купить уникальный премиум танк VIII уровня с учётом персональной скидки в Премиум магазине.}
 [marathon/body/extra]::{%(day)s до завершения продаж уникального премиум танка VIII уровня с учётом персональной скидки.}
 [marathon/date]::{%(day)s %(month)s %(hour)s:%(minutes)s}
 [marathon/error/battle_type]::{Доступно только в Случайных боях}
@@ -1732,7 +1767,7 @@ Content-Transfer-Encoding: 8bit
 [marathon/extra_state/discount]::{Ваша скидка: %(discount)s%%}
 [marathon/extra_state/steps]::{Пройдено этапов: %(currentStep)s / %(allStep)s}
 [marathon/header]::{Зимняя охота}
-[marathon/off/body]::{В данный момент событие недоступно по техническим причинам. Попробуйте позже.}
+[marathon/off/body]::{В настоящий момент событие недоступно по техническим причинам. Попробуйте позже.}
 [marathon/off/header]::{Событие недоступно}
 [marathon/state/complete]::{Завершено}
 [marathon/state/end]::{До завершения: %(value)s}
@@ -1766,6 +1801,7 @@ Content-Transfer-Encoding: 8bit
 [moduleFits/already_installed/header]::{Установлено на:}
 [moduleFits/credits_error/header]::{Недостаточно кредитов}
 [moduleFits/credits_error/text]::{Заработайте их в бою, продайте излишки со Склада или обменяйте золото.}
+[moduleFits/dismantling]::{Сейчас установлено: %(moduleName)s. Демонтаж оборудования вызовет следующие изменения:}
 [moduleFits/duplicated/header]::{Установка невозможна}
 [moduleFits/duplicated/note]::{На машину уже установлено оборудование с аналогичным эффектом.}
 [moduleFits/gold_error/header]::{Недостаточно золота}
@@ -1781,7 +1817,7 @@ Content-Transfer-Encoding: 8bit
 [moduleFits/remove_too_heavy/header]::{Недостаточно грузоподъёмности для демонтажа модуля.}
 [moduleFits/remove_too_heavy/text]::{Установите
 ходовую с большей грузоподъёмностью.}
-[moduleFits/replace]::{Сейчас установлено: «{moduleName}». Замена оборудования вызовет следующие изменения:}
+[moduleFits/replace]::{Сейчас установлено: %(moduleName)s. Замена оборудования вызовет следующие изменения:}
 [moduleFits/too_heavy/header]::{Недостаточно грузоподъёмности для установки модуля.}
 [moduleFits/too_heavy/text]::{Установите ходовую с большей грузоподъёмностью.}
 [moduleFits/too_heavy_chassi/header]::{Недостаточно грузоподъёмности шасси.}
@@ -1795,6 +1831,7 @@ Content-Transfer-Encoding: 8bit
 [notificationsView/tab/invites/body]::{Приглашения в формирования и запросы на добавление в друзья}
 [notificationsView/tab/offers/body]::{Персональные уведомления}
 [notrecruitedtankman/base/desc]::{Уникальный член экипажа}
+[notrecruitedtankman/base/event]::{уникальное событие}
 [notrecruitedtankman/base/label]::{Уникальный член экипажа}
 [notrecruitedtankman/buffon/desc]::{Выдавался за выполнение определённых условий в футбольном режиме 2018 года. Легендарный итальянский вратарь Джанлуиджи Буффон — командир экипажа с уникальной озвучкой и изученными навыками.}
 [notrecruitedtankman/buffon/label]::{Футбольный режим}
@@ -1803,6 +1840,7 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/commander_patrick/desc]::{Раз, два — тыква разберёт тебя. Три, четыре — нет врага страшнее в мире. Пять, шесть — вам летит дурная весть. Семь, восемь — Патрик к вам придёт без спроса. Девять, де…}
 [notrecruitedtankman/commander_patrick/label]::{Уникальный член экипажа}
 [notrecruitedtankman/czech_woman/desc]::{Выдавалась в награду за определённые игровые события. Девушка-танкист наделена изученным навыком «Боевое братство», а также дополнительным умением или навыком на выбор.}
+[notrecruitedtankman/czech_woman/event]::{событие «Чешские каникулы»}
 [notrecruitedtankman/czech_woman/label]::{Уникальный член экипажа}
 [notrecruitedtankman/expireTitle]::{Рекрутирование}
 [notrecruitedtankman/howToGet]::{Как получить:}
@@ -1810,6 +1848,20 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/ny19men/label]::{Новогоднее наступление 2019}
 [notrecruitedtankman/ny19woman/desc]::{Выдавалась в награду за достижение определённого уровня атмосферы праздника в рамках события «Новогоднее наступление 2019». У девушки изучено «Боевое братство», а также достаточно опыта на дополнительный навык или умение на выбор.}
 [notrecruitedtankman/ny19woman/label]::{Новогоднее наступление 2019}
+[notrecruitedtankman/ny20defaultGirl/additionalAlert]::{Рекрутирование становится возможным после активации снегурочки}
+[notrecruitedtankman/ny20defaultGirl/desc]::{Девушка-танкист выдаётся за активацию снегурочки. У неё изучен навык «Боевое братство» и достаточно опыта для изучения ещё одного навыка или умения на выбор.}
+[notrecruitedtankman/ny20defaultGirl/howToGetInfo]::{Достичь определённого уровня атмосферы праздника и активировать снегурочку.}
+[notrecruitedtankman/ny20defaultGirl/label]::{Новогоднее наступление 2020}
+[notrecruitedtankman/ny20men/additionalAlert]::{?empty?}
+[notrecruitedtankman/ny20men/desc]::{Уникальный член экипажа, выданный в подарок во время «Новогоднего наступления 2020».}
+[notrecruitedtankman/ny20men/howToGetInfo]::{?empty?}
+[notrecruitedtankman/ny20men/label]::{Новогоднее наступление 2020}
+[notrecruitedtankman/ny20snowmen/additionalAlert]::{?empty?}
+[notrecruitedtankman/ny20snowmen/desc]::{«...И совершу над вами великое поздравление подарками ценными, над теми, кто в прошлом году вёл себя как подобает. И узнаете вы, что имя моё — Праздник, когда поздравление моё дойдёт до вас».}
+[notrecruitedtankman/ny20snowmen/howToGetInfo]::{?empty?}
+[notrecruitedtankman/ny20snowmen/label]::{Новогоднее наступление 2020}
+[notrecruitedtankman/ny20woman/desc]::{Выдавалась в награду при активации снегурочки в рамках события «Новогоднее наступление 2020». У девушки изучено «Боевое братство», а также достаточно опыта на дополнительный навык или умение на выбор.}
+[notrecruitedtankman/ny20woman/label]::{Новогоднее наступление 2020}
 [notrecruitedtankman/offspring_commander/desc]::{Неутомимый и харизматичный вокалист, талантливый гитарист и просто отличный парень, задающий настроение как всему экипажу, так и миллионам фанатов по всему миру. Кроме того, у него учёная степень в области молекулярной биологии, о чём он регулярно напоминает экипажу, хотя никто не знает, как это может помочь в напряжённом танковом бою.}
 [notrecruitedtankman/offspring_driver/desc]::{Барабанщик группы. И пусть вас не смущает размеренный стук его метронома — так даже лучше: тик-тик-тик — выстрел! Тик-тик-тик — следующий! При езде никогда не делает резких движений и рывков, поскольку любое нарушение ритма — дурной тон для барабанщика.}
 [notrecruitedtankman/offspring_gunner/desc]::{Гитарист и бэк-вокалист, наполняющий каждый свой гитарный рифф неповторимым духом солнечной Калифорнии. Как и подобает отличному наводчику и гитаристу, никогда не промахивается ни в стрельбе, ни в постановке сложных аккордов.}
@@ -1839,7 +1891,7 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/twitch5/label]::{Прямой эфир}
 [notrecruitedtankman/twitch6/desc]::{Как и подобает настоящему наёмнику, Alex «The Hunter» Duke — отличный боец и универсальный командир, способный извлечь выгоду из любой ситуации.}
 [notrecruitedtankman/twitch6/label]::{Прямой эфир}
-[notrecruitedtankman/twitch7/desc]::{Богатый международный опыт ведения боёв превратил Харламова в опытнейшего командира, способного возглавить любой экипаж.}
+[notrecruitedtankman/twitch7/desc]::{Богатый международный опыт ведения боёв превратил Харламова в опытнейшего командира, способного возглавить любой экипаж.}
 [notrecruitedtankman/twitch7/label]::{Уникальный член экипажа}
 [notrecruitedtankman/useBefore]::{Доступно до: %(date)s}
 [parameter/weight]::{Масса: }
@@ -2089,6 +2141,10 @@ Content-Transfer-Encoding: 8bit
 [quests/awards/vehicleRent/rentLeft/rentBattles]::{боёв в аренду: %(count)s}
 [quests/awards/vehicleRent/rentLeft/rentDays]::{дней аренды: %(count)s}
 [quests/awards/vehicleRent/rentLeft/rentWins]::{побед в аренду: %(count)s}
+[quests/bonuses/freeTalismanToken/header]::{Снегурочка}
+[quests/bonuses/lootBoxToken/body]::{В коробке содержится несколько украшений случайного уровня и дополнительная награда.}
+[quests/bonuses/talismanBonusToken/body]::{Возможность получить в пять раз больше опыта за бой, начиная со второго боя в день на любой машине.}
+[quests/bonuses/talismanBonusToken/header]::{Новогодняя задача на x5 опыта за бой}
 [quests/bonuses/token/battle_bonus_x5/body]::{Возможность получить в пять раз больше опыта за бой, начиная со второго боя в день на любой машине.}
 [quests/bonuses/token/battle_bonus_x5/header]::{Задача на x5 к опыту за бой}
 [quests/bonuses/token/body]::{Данная марка — наградной элемент, необходимый для выполнения определённой боевой задачи.}
@@ -2110,7 +2166,7 @@ Content-Transfer-Encoding: 8bit
 [quests/condition/achievement/header]::{Награды}
 [quests/condition/achievement/pattern]::{%(achievement)s}
 [quests/condition/achievements/descr]::{Заслужите одну из наград:}
-[quests/condition/achievements/others]::{...и ещё наград: %(count)s}
+[quests/condition/achievements/others]::{... и ещё наград: %(count)s}
 [quests/counter/label]::{Количество выполнений боевой задачи}
 [quests/disableLinkBtn/task]::{Для возможности перехода к боевой задаче, снимите флажок «Скрывать выполненные».}
 [quests/igr]::{Боевая задача доступна только в премиум IGR}
@@ -2150,7 +2206,7 @@ Content-Transfer-Encoding: 8bit
 [quests/unavailable/vehicle/header]::{Нет подходящей техники}
 [quests/vehicleSeasonAward/aboutBtn/body]::{Нажмите, чтобы открыть окно информации и изучить ТТХ, историю создания и особенности данной машины.}
 [quests/vehicleSeasonAward/aboutBtn/header]::{Подробно о машине}
-[quests/vehicles/bottom]::{...и ещё машин: %(count)d}
+[quests/vehicles/bottom]::{... и ещё машин: %(count)d}
 [quests/vehicles/description]::{Список техники удовлетворяющий условиям боевой задачи:}
 [quests/vehicles/header]::{Подходящая техника}
 [quests/vehiclesBonus/title]::{Награды}
@@ -2257,7 +2313,7 @@ Content-Transfer-Encoding: 8bit
 [researchPage/vehicle/status/parentModuleIsLocked/text]::{Исследуйте модули предыдущей машины, необходимые для доступа к этой машине.}
 [selectedVehicle/header]::{Выбранная машина}
 [seniorityAwards/additional/tooltip/header]::{Вы также получите:}
-[seniorityAwards/hangarEntryPoint/tooltip/body]::{Ящики с заслуженной наградой — в подарок за выслугу лет! Открывайте и забирайте содержимое.}
+[seniorityAwards/hangarEntryPoint/tooltip/body]::{Ящики с заслуженной наградой — в подарок за выслугу лет! Открывайте и забирайте содержимое.}
 [seniorityAwards/hangarEntryPoint/tooltip/header]::{Заслуженная награда}
 [seniorityAwards/hangarSlot/tooltip/header]::{Слот в Ангаре}
 [server/notRecomended]::{%(icon)s Сервер %(server)s доступен для игры,
@@ -2283,6 +2339,8 @@ Content-Transfer-Encoding: 8bit
 %(enemy)s и нажмите выбранную клавишу.}
 [settings/key/target/ally]::{союзника}
 [settings/key/target/enemy]::{противника}
+[settings/keyChargeFire/defaultKey]::{Клавиша, при удержании которой активируется залповый огонь. Если на одиночный выстрел и залповый огонь назначена одна и та же клавиша, одиночный выстрел производится, когда вы отпускаете эту клавишу.}
+[settings/keyChargeFire/title]::{Залп}
 [settings/keyFollowMe/title]::{Сообщения в игровом чате}
 [settings/keyMovement/title]::{Фиксация корпуса / смена режима}
 [settings/minimapCircles/drawRange/body]::{Показывает максимальное расстояние, на котором будет отображаться техника союзников и противника.}
@@ -2467,7 +2525,7 @@ Content-Transfer-Encoding: 8bit
 [storage/mainMenu/in_hangar/header]::{Техника в Ангаре}
 [storage/mainMenu/personal_reserves/body]::{Содержит личные резервы, позволяющие на время получить прибавку к заработку опыта или кредитов в боях.}
 [storage/mainMenu/personal_reserves/header]::{Личные резервы}
-[storage/mainMenu/storage/body]::{Содержит модули, снаряды, оборудование и снаряжение, не установленные на имеющуюся технику.}
+[storage/mainMenu/storage/body]::{Содержит оборудование, снаряжение, предбоевые инструкции, модули и снаряды, не установленные на имеющуюся технику, а также учебные материалы для экипажа.}
 [storage/mainMenu/storage/header]::{Запасы}
 [stronghold/prebattle/noClanMembers]::{Отряд расформирован. Вы автоматически исключены из состава.}
 [strongholds/timer/WaitingForData]::{Идёт загрузка данных...}
@@ -2495,6 +2553,8 @@ Content-Transfer-Encoding: 8bit
 [tankCarusel/lock/header]::{Машина заблокирована}
 [tankCarusel/lock/rotation]::{Проведите ещё боёв: %(battlesToUnlock)s на технике из групп: %(unlockedBy)s.}
 [tankCarusel/lock/rotation/header]::{Машина группы %(groupNum)s недоступна}
+[tankCarusel/newYearSlot/body]::{Нажмите, чтобы перейти на экран управления новогодней техникой.}
+[tankCarusel/newYearSlot/header]::{Новогодняя техника}
 [tankCaruselTooltip/vehicleType/elite/AT-SPG]::{Элитная ПТ-САУ}
 [tankCaruselTooltip/vehicleType/elite/SPG]::{Элитная САУ}
 [tankCaruselTooltip/vehicleType/elite/heavyTank]::{Элитный тяжёлый танк}
@@ -2514,9 +2574,10 @@ Content-Transfer-Encoding: 8bit
 [tank_params/desc/avgDamage]::{Средний урон, наносимый базовым снарядом за один выстрел при пробитии брони.}
 [tank_params/desc/avgDamagePerMinute]::{Количество урона, потенциально наносимого противнику за 1 минуту при постоянном пробитии брони.}
 [tank_params/desc/avgPiercingPower]::{Средняя толщина брони, пробиваемая базовым снарядом с учётом его нормализации.}
+[tank_params/desc/chargeTime]::{Время подготовки к выстрелу из обоих орудий одновременно. / Время блокировки перезарядки орудий после залпа.}
 [tank_params/desc/chassisRotationSpeed]::{Скорость вращения корпуса машины вокруг своей оси, а также скорость смены курса при движении (манёвренность).}
 [tank_params/desc/circularVisionRadius]::{Текущий обзор машины. Противник не может быть обнаружен вами на дистанции свыше 445 метров. Увеличение показателя облегчает обнаружение вами любого противника в радиусе 445 метров.}
-[tank_params/desc/clipFireRate]::{Время между выстрелом последнего снаряда и заряжанием нового магазина. / Время между выстрелом снаряда и заряжанием следующего снаряда в том же магазине. / Количество снарядов в одном магазине.}
+[tank_params/desc/clipFireRate]::{Время между полной разрядкой магазина (или орудий) и полным заряжанием. / Время между выстрелом и переходом к следующему заряженному снаряду (или орудию). / Количество снарядов в магазине (или орудий).}
 [tank_params/desc/damage]::{Урон, наносимый базовым снарядом за один выстрел при пробитии брони.}
 [tank_params/desc/enginePower]::{Параметр отвечает за максимальную скорость, динамику разгона и скорость поворота корпуса машины.}
 [tank_params/desc/enginePowerPerTon]::{Параметр отвечает за динамику разгона и проходимость машины на разных типах грунта.}
@@ -2536,7 +2597,7 @@ Content-Transfer-Encoding: 8bit
 [tank_params/desc/relativePower]::{Комплекс параметров, отвечающих за эффективность уничтожения противника.}
 [tank_params/desc/relativeVisibility]::{Комплекс параметров, отвечающих за эффективное обнаружение местоположения противника и передачу союзникам разведданных о нём.}
 [tank_params/desc/reloadTime]::{Количество выстрелов в минуту.}
-[tank_params/desc/reloadTimeSecs]::{Время, за которое орудие будет готово к очередному выстрелу.}
+[tank_params/desc/reloadTimeSecs]::{Время, за которое орудие (или оба орудия, если у машины спаренная орудийная установка) будет готово к очередному выстрелу.}
 [tank_params/desc/shotDispersionAngle]::{Показывает, на сколько метров снаряд может отклониться от точки прицеливания за каждые 100 метров расстояния до цели.}
 [tank_params/desc/speedLimits]::{Паспортная скорость машины.}
 [tank_params/desc/stunMaxDuration]::{Показывает максимальное время оглушения, причиняемого экипажу противника, если ваш ОФ-снаряд пробил броню, нанёс максимальный урон, а противник при этом не имел оборудования и снаряжения, снижающего время оглушения.}
@@ -2798,6 +2859,8 @@ Content-Transfer-Encoding: 8bit
 [vehiclePreview/buyButton/parentModuleIsLocked/header]::{Исследование недоступно}
 [vehiclePreview/buyButton/parentVehicleIsLocked/body]::{Сначала исследуйте саму машину и предыдущие модули.}
 [vehiclePreview/buyButton/parentVehicleIsLocked/header]::{Исследование недоступно}
+[vehiclePreview/buyButton/restoreRequested/body]::{Вы уже подали заявку на восстановление танка.}
+[vehiclePreview/buyButton/restoreRequested/header]::{Восстановление}
 [vehiclePreview/crew/additionalRoles]::{По совместительству: %(roles)s}
 [vehiclePreview/crew/commander]::{Влияет на дальность обнаружения противника (%(paramName)s).
 Усиливает экипаж. За каждые %(commanderPercents)s своего основного навыка командир добавляет по %(crewPercents)s к основному умению всем членам экипажа, кроме самого себя.}
@@ -2930,22 +2993,5 @@ Content-Transfer-Encoding: 8bit
 [windowHelp/body]::{Наведите курсор на такую иконку, чтобы получить
 дополнительную информацию об элементе.}
 [windowHelp/header]::{Подсказка}
-[winterMarathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике IX–X уровней, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите американский тяжёлый премиум танк VIII уровня M54 Renegade бесплатно!}
-[winterMarathon/body/completed]::{После активной фазы вы ещё некоторое время сможете купить американский тяжёлый премиум танк VIII уровня M54 Renegade с учётом персональной скидки в Премиум магазине.}
-[winterMarathon/body/extra]::{%(hours)s до завершения активной фазы события «Охота на ренегата». После активной фазы вы ещё некоторое время сможете купить американский тяжёлый премиум танк VIII уровня M54 Renegade с учётом персональной скидки в Премиум магазине.}
-[winterMarathon/date]::{%(day)s %(month)s %(hour)s:%(minutes)s}
-[winterMarathon/error/battle_type]::{Доступно только в Случайных боях}
-[winterMarathon/error/veh_type]::{Доступно только на технике VI уровня и выше}
-[winterMarathon/extra_state/completed]::{Танк получен}
-[winterMarathon/extra_state/discount]::{Ваша скидка: %(discount)s%%}
-[winterMarathon/extra_state/steps]::{Пройдено этапов: %(currentStep)s / %(allStep)s}
-[winterMarathon/header]::{Охота на ренегата}
-[winterMarathon/off/body]::{В данный момент событие недоступно по техническим причинам. Попробуйте позже.}
-[winterMarathon/off/header]::{Событие недоступно}
-[winterMarathon/progress]::{День %(value)s из 50}
-[winterMarathon/state/complete]::{Завершено}
-[winterMarathon/state/end]::{До завершения: %(value)s}
-[winterMarathon/state/start]::{До начала: %(value)s}
-[winterMarathon/subtitle]::{Событие проводится с %(startDate)s по %(finishDate)s}
 [xpExchangewindow/gold/goldAfterExchange/body]::{Актуальное количество золота будет отображаться только после его докупки.}
 [xpExchangewindow/gold/goldAfterExchange/header]::{Золото после перевода}

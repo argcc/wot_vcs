@@ -64,6 +64,10 @@ Content-Transfer-Encoding: 8bit
 [bootcampCenterUnavailable/cancel]::{Закрыть}
 [bootcampCenterUnavailable/message]::{К сожалению, из-за технических работ Учебный полигон недоступен. Пожалуйста, попробуйте позже.}
 [bootcampCenterUnavailable/title]::{Учебный полигон недоступен}
+[breakDecorations/cancel]::{Отменить}
+[breakDecorations/message]::{Разбить украшения и получить %(price)s?}
+[breakDecorations/submit]::{Подтвердить}
+[breakDecorations/title]::{Предупреждение операции}
 [buyConfirmation/cancel]::{Отменить}
 [buyConfirmation/message]::{Купить %(product)s за %(price)s?}
 [buyConfirmation/messageCombine]::{Купить «{%name}» {%count} шт.?}
@@ -127,12 +131,8 @@ Content-Transfer-Encoding: 8bit
 [buyVehicleWindow/tradein/title]::{Обмен %(vehiclename)s}
 [buyVehicleWindow/tradein/warning]::{Нажав «Обменять», вы теряете возможность получить компенсацию за приобретённое оборудование и снаряжение в золоте. Пожалуйста, проверьте всё внимательно.}
 [buyVehicleWindow/warning]::{Нажав «Купить», вы теряете возможность получить компенсацию за приобретённое оборудование и снаряжение в золоте. Пожалуйста, проверьте всё внимательно.}
-[changeConfirmationNotRemovable/cancel]::{Отменить}
-[changeConfirmationNotRemovable/messageCombine]::{<font color="#FF0000">Сложное</font> оборудование "%(oldName)s". В случае обычного демонтажа (например, замены на другое оборудование) будет <font color="#FF0000">УНИЧТОЖЕНО</font>. Может быть безопасно демонтировано и помещено на Склад за золото. Подтверждаете замену?}
-[changeConfirmationNotRemovable/submit]::{Заменить}
-[changeConfirmationNotRemovable/title]::{Подтверждение покупки}
 [changeGraphics/cancel]::{Отменить}
-[changeGraphics/message]::{<font color='#ff0000'>Внимание!</font> В данном обновлении графика была существенно переработана. Вы можете автоопределить настройки графики или же отменить автоопределение и поменять их вручную.}
+[changeGraphics/message]::{%(alert)s В данном обновлении графика была существенно переработана. Вы можете автоопределить настройки графики или же отменить автоопределение и поменять их вручную.}
 [changeGraphics/submit]::{Автоопределить}
 [changeGraphics/title]::{Автоопределение настроек графики}
 [changePeriphery/cancel]::{Отменить}
@@ -234,6 +234,8 @@ Content-Transfer-Encoding: 8bit
 [confirmUnlock/submit]::{Да}
 [confirmUnlock/title]::{Подтверждение исследования}
 [confirmUnlock/vehicle/message]::{Исследовать %(userString)s за %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (из них %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?}
+[confirmationNotRemovable/message/complex]::{Сложное}
+[confirmationNotRemovable/message/destroy]::{УНИЧТОЖЕНО}
 [controlsWrongNotification/cancel]::{Отменить}
 [controlsWrongNotification/message]::{Некоторым действиям не назначены клавиши. Сохранить настройки управления?}
 [controlsWrongNotification/submit]::{Сохранить}
@@ -339,7 +341,7 @@ Content-Transfer-Encoding: 8bit
 [dropSkill/submit]::{Сбросить}
 [dropSkill/title]::{Подтверждение сброса}
 [elenDisabled/cancel]::{Закрыть}
-[elenDisabled/message]::{<font color="#8C8C7C">Соревнования временно недоступны: ведутся профилактические работы.</font>}
+[elenDisabled/message]::{Соревнования временно недоступны: ведутся профилактические работы.}
 [elenDisabled/title]::{Внимание!}
 [elite/cancel]::{ОК}
 [elite/header]::{%(name)s получил статус «Элитный»}
@@ -373,7 +375,7 @@ Content-Transfer-Encoding: 8bit
 [finance_dialog/results/wrong]::{Пароль должен содержать не менее 6 символов, символы латинского алфавита, цифры и знак подчеркивания.}
 [finance_dialog/submitBtn]::{Подтвердить}
 [fortDisabled/cancel]::{Закрыть}
-[fortDisabled/message]::{<font color="#8C8C7C">Информация о кланах временно недоступна. Ведутся профилактические работы.</font>}
+[fortDisabled/message]::{Информация о кланах временно недоступна. Ведутся профилактические работы.}
 [fortDisabled/title]::{Внимание!}
 [fortTurnedOff/cancel]::{ОК}
 [fortTurnedOff/message]::{Укрепрайон временно недоступен. Повторите попытку позже.}
@@ -436,6 +438,7 @@ Content-Transfer-Encoding: 8bit
 [gatheringXPForm/tooltips/checkboxCrewUnselected]::{Ускоренное обучение экипажа не включено.}
 [gatheringXPForm/totalLabel]::{К оплате:}
 [gatheringXPForm/totalXP]::{Всего:}
+[graphics/message/alert]::{Внимание!}
 [graphicsChangeConfirmation/cancel]::{Отменить}
 [graphicsChangeConfirmation/message]::{Режим экрана изменён. Возврат к предыдущим настройкам через %(time)s секунд. Сохранить выбранные настройки?}
 [graphicsChangeConfirmation/submit]::{Сохранить}
@@ -474,11 +477,11 @@ Content-Transfer-Encoding: 8bit
 [ingameShopDisabled/message]::{Магазин временно недоступен. Повторите попытку позже.}
 [ingameShopDisabled/title]::{Внимание!}
 [installConfirmationNotRemovable_crystal/cancel]::{Отменить}
-[installConfirmationNotRemovable_crystal/message]::{<font color="#FF0000">Сложное</font> оборудование «%(name)s». В случае обычного демонтажа (например, замены на другое оборудование) будет <font color="#FF0000">УНИЧТОЖЕНО</font>. Может быть безопасно демонтировано и помещено на Склад за боны. Продолжить установку?}
+[installConfirmationNotRemovable_crystal/message]::{%(complex)s оборудование «%(name)s». В случае обычного демонтажа (например, замены на другое оборудование) будет %(destroy)s. Может быть безопасно демонтировано за боны и помещено на Склад. Продолжить установку?}
 [installConfirmationNotRemovable_crystal/submit]::{Установить}
 [installConfirmationNotRemovable_crystal/title]::{Подтверждение установки}
 [installConfirmationNotRemovable_gold/cancel]::{Отменить}
-[installConfirmationNotRemovable_gold/message]::{<font color="#FF0000">Сложное</font> оборудование «%(name)s». В случае обычного демонтажа (например, замены на другое оборудование) будет <font color="#FF0000">УНИЧТОЖЕНО</font>. Может быть безопасно демонтировано и помещено на Склад за золото. Продолжить установку?}
+[installConfirmationNotRemovable_gold/message]::{%(complex)s оборудование «%(name)s». В случае обычного демонтажа (например, замены на другое оборудование) будет %(destroy)s. Может быть безопасно демонтировано за золото и помещено на Склад. Продолжить установку?}
 [installConfirmationNotRemovable_gold/submit]::{Установить}
 [installConfirmationNotRemovable_gold/title]::{Подтверждение установки}
 [interviewQuit/cancel]::{Назад}
@@ -496,13 +499,14 @@ Content-Transfer-Encoding: 8bit
 [leaveEvent/cancel]::{Отменить}
 [leaveEvent/message]::{Результаты ваших боёв в соревновании будут аннулированы после обновления рейтингов. Вы не сможете попасть в рейтинг и получить награду.
 
-Покинув соревнование <font color='#ff0000'>ВЫ НЕ СМОЖЕТЕ ВОЗОБНОВИТЬ УЧАСТИЕ.</font>}
+Покинув соревнование, %(warning)s}
+[leaveEvent/message/warning]::{ВЫ НЕ СМОЖЕТЕ ВОЗОБНОВИТЬ УЧАСТИЕ.}
 [leaveEvent/submit]::{Покинуть соревнование}
 [leaveEvent/title]::{Покинуть соревнование}
 [leaveStartedEvent/cancel]::{Отменить}
-[leaveStartedEvent/message]::{Результаты ваших боёв не станут учитываться в этом соревновании. Вы не сможете попасть в рейтинг и получить награду.
+[leaveStartedEvent/message]::{Результаты ваших боёв не будут учитываться в этом соревновании. Вы не сможете попасть в рейтинг и получить награду.
 
-Покинув соревнование <font color='#ff0000'>ВЫ НЕ СМОЖЕТЕ ВОЗОБНОВИТЬ УЧАСТИЕ.</font>}
+Покинув соревнование, %(warning)s}
 [leaveStartedEvent/submit]::{Покинуть соревнование}
 [leaveStartedEvent/title]::{Покинуть соревнование}
 [leftPrebattleAndAcceptInvite/cancel]::{Отменить}
@@ -539,7 +543,8 @@ Content-Transfer-Encoding: 8bit
 [messenger/userInfoNotAvailable/submit]::{ОК}
 [messenger/userInfoNotAvailable/title]::{Информация временно недоступна}
 [minimapAlphaNotification/cancel]::{Отменить}
-[minimapAlphaNotification/message]::{<img src='img://gui/maps/icons/library/alertIcon.png' width='16' height='16' vspace='-4' hspace='0'/><font color='#EE7000'>Внимание!</font> Включение этой настройки снизит производительность в бою.}
+[minimapAlphaNotification/message]::{%(icon)s%(alert)s Включение этой настройки ухудшит производительность в бою.}
+[minimapAlphaNotification/message/alert]::{Внимание!}
 [minimapAlphaNotification/submit]::{Включить}
 [minimapAlphaNotification/title]::{Прозрачность миникарты}
 [moneyTransfer/cancelBtn]::{Отменить}
@@ -551,7 +556,6 @@ Content-Transfer-Encoding: 8bit
 [moneyTransfer/labelNormal]::{Обычный:}
 [moneyTransfer/labelNormalCredits]::{кредиты}
 [moneyTransfer/labelNormalGold]::{золото}
-[moneyTransfer/labelNotification]::{За перевод взимается комиссия в размере <font color='#D39337'>%s%%</font>, но не менее 1 <img src='icon_gold' />}
 [moneyTransfer/labelTo]::{Кому:}
 [moneyTransfer/labelTotalPrice]::{Итого:}
 [moneyTransfer/not_a_clan]::{(вне клана)}
@@ -567,6 +571,10 @@ Content-Transfer-Encoding: 8bit
 [moneyTransferRestriction/message_expiry]::{Срок действия: %s.}
 [moneyTransferRestriction/submit]::{ОК}
 [moneyTransferRestriction/title]::{Перевод золота запрещён.}
+[newYear/buyToy/cancel]::{Отменить}
+[newYear/buyToy/message]::{Купить украшение за %(price)s?}
+[newYear/buyToy/submit]::{Купить}
+[newYear/buyToy/title]::{Подтверждение операции}
 [nextBattleOptionConfirmation/cancel]::{Нет}
 [nextBattleOptionConfirmation/message]::{Изменения некоторых настроек вступят в силу со следующего боя. Продолжить?}
 [nextBattleOptionConfirmation/submit]::{Да}
@@ -617,17 +625,20 @@ Content-Transfer-Encoding: 8bit
 [questsConfirmDialog/title]::{Подтверждение выбора задачи}
 [questsConfirmDiscardDialog/cancel]::{Отменить}
 [questsConfirmDiscardDialog/message]::{Весь прогресс по боевой задаче «%(curQuest)s» будет сброшен.
-<font color="#D39337">Внимание! Текущий прогресс по боевой задаче будет утерян.</font>}
+%(alert)s}
+[questsConfirmDiscardDialog/message/alert]::{Внимание! Весь прогресс по текущей боевой задаче будет утерян.}
 [questsConfirmDiscardDialog/submit]::{Подтвердить}
 [questsConfirmDiscardDialog/title]::{Сброс прогресса}
 [questsConfirmProgressDialog/cancel]::{Отменить}
 [questsConfirmProgressDialog/message]::{При выборе боевой задачи «%(newQuest)s» прогресс по задаче «%(oldQuest)s» будет сброшен.
-<font color="#D39337">Внимание! Весь прогресс по текущей боевой задаче будет утерян</font>}
+%(alert)s}
+[questsConfirmProgressDialog/message/alert]::{Внимание! Весь прогресс по текущей боевой задаче будет утерян.}
 [questsConfirmProgressDialog/submit]::{Подтвердить}
 [questsConfirmProgressDialog/title]::{Подтверждение выбора задачи}
 [questsDismissProgressDialog/cancel]::{Отменить}
 [questsDismissProgressDialog/message]::{Боевая задача «%(quest)s» будет отменена.
-<font color="#D39337">Внимание! Весь прогресс по текущей боевой задаче будет утерян</font>}
+%(alert)s}
+[questsDismissProgressDialog/message/alert]::{Внимание! Весь прогресс по текущей боевой задаче будет утерян.}
 [questsDismissProgressDialog/submit]::{Подтвердить}
 [questsDismissProgressDialog/title]::{Подтверждение отказа от задачи}
 [quit/cancel]::{Остаться}
@@ -723,7 +734,7 @@ Content-Transfer-Encoding: 8bit
 [refuseTraining/submit]::{Да}
 [refuseTraining/title]::{Подтверждение}
 [removeConfirmationNotRemovable/cancel]::{Отменить}
-[removeConfirmationNotRemovable/message]::{При демонтаже оборудование «%(name)s» будет <font color="#FF0000">УНИЧТОЖЕНО</font>. Продолжить?}
+[removeConfirmationNotRemovable/message]::{При демонтаже оборудование «%(name)s» будет %(destroy)s. Продолжить?}
 [removeConfirmationNotRemovable/submit]::{Уничтожить}
 [removeConfirmationNotRemovable/title]::{Подтверждение демонтажа}
 [removeConfirmationNotRemovableMoney/cancel]::{Отменить}
@@ -732,7 +743,8 @@ Content-Transfer-Encoding: 8bit
 [removeConfirmationNotRemovableMoney/submit]::{Демонтировать}
 [removeConfirmationNotRemovableMoney/title]::{Подтверждение демонтажа}
 [removeIncompatibleEqs/cancel]::{Отменить}
-[removeIncompatibleEqs/message]::{Снаряжение "%(name)s" будет отправлено на Склад в связи с <font color="#FF0000">несовместимостью</font> с устанавливаемым модулем.}
+[removeIncompatibleEqs/message]::{Снаряжение «%(name)s» будет отправлено на Склад в связи с %(reason)s с устанавливаемым модулем.}
+[removeIncompatibleEqs/message/reason]::{несовместимостью}
 [removeIncompatibleEqs/submit]::{Демонтировать}
 [removeIncompatibleEqs/title]::{Подтверждение снятия}
 [rentConfirmation/cancel]::{Отменить}
@@ -764,7 +776,7 @@ Content-Transfer-Encoding: 8bit
 [reportBug/submit]::{Продолжить}
 [reportBug/title]::{Переход на форум игры}
 [resetGraphics/cancel]::{Продолжить}
-[resetGraphics/message]::{<font color='#ff0000'>Внимание!</font> Автоматически установлены графические настройки, которые обеспечивают оптимальное качество изображения.
+[resetGraphics/message]::{%(alert)s Автоматически установлены графические настройки, которые обеспечивают оптимальное качество изображения.
 Если нужно увеличить быстродействие, выберите более низкое качество графики в «Настройках».}
 [resetGraphics/submit]::{Настройки}
 [resetGraphics/title]::{Изменение графических настроек}
@@ -815,8 +827,9 @@ Content-Transfer-Encoding: 8bit
 [sellModuleConfirmation/title]::{Подтверждение продажи}
 [sendInvites/common/title]::{Пригласить в формирование}
 [sessionStats/confirmReset/cancel]::{Отменить}
-[sessionStats/confirmReset/message]::{До автоматического обнуления сессионной статистики осталось: {} ч {} мин}
+[sessionStats/confirmReset/message]::{До автоматического обнуления сессионной статистики осталось{}}
 [sessionStats/confirmReset/submit]::{Сбросить}
+[sessionStats/confirmReset/time]::{: %(hours)s ч %(minutes)s мин}
 [sessionStats/confirmReset/title]::{Сбросить сессионную статистику?}
 [shopSyncError/cancel]::{Продолжить}
 [shopSyncError/message]::{Обновите клиент. В случае повторной ошибки обновите сервер.}

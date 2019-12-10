@@ -158,14 +158,20 @@ Content-Transfer-Encoding: 8bit
 [devices/wheel]::{колесо}
 [distance/meters]::{%(meters)d м}
 [dynamicSquad/ally/add]::{Нажмите, чтобы отправить приглашение во взвод,
-принять которое игрок сможет во время боя или после него.}
+принять которое игрок сможет во время боя или после него.%(text)s}
+[dynamicSquad/ally/anonymized/clan]::{ 
+
+Внимание! Совзводные будут видеть ваше настоящее игровое имя и тег клана.}
+[dynamicSquad/ally/anonymized/noClan]::{ 
+
+Внимание! Совзводные будут видеть ваше настоящее игровое имя.}
 [dynamicSquad/ally/disabled]::{Данного союзника нельзя пригласить во взвод.}
 [dynamicSquad/ally/received]::{Нажмите, чтобы принять приглашение во взвод,
 который сформируется во время боя.}
 [dynamicSquad/ally/wasSent]::{Игроку отправлено приглашение, приняв которое он
 присоединится к вашему взводу во время боя или после него.}
 [dynamicSquad/enemy/add]::{Нажмите, чтобы отправить приглашение во взвод,
-принять которое игрок сможет только после боя.}
+принять которое игрок сможет только после боя.%(text)s}
 [dynamicSquad/enemy/disabled]::{Противника нельзя пригласить во взвод.}
 [dynamicSquad/enemy/received]::{Нажмите, чтобы принять приглашение во взвод,
 который сформируется только посе боя.}
@@ -511,8 +517,8 @@ Home/End — перемотка в начало/конец
 [rewardWindow/lootbox/btnLabel]::{Перейти к коробкам}
 [rewardWindow/lootbox/descText]::{Вам начислены большие коробки с ценной наградой.}
 [rewardWindow/lootbox/headerText]::{Получены коробки!}
-[rewardWindow/lootbox/isFreeDescText]::{За выполнение боевых задач вы получаете малые коробки с ценной наградой.}
-[rewardWindow/lootbox/winHeaderText]::{Время вскрывать посылки!}
+[rewardWindow/lootbox/isFreeDescText]::{За выполнение новогодних боевых задач вы получаете малые коробки с ценной наградой.}
+[rewardWindow/lootbox/winHeaderText]::{Время вскрывать коробки!}
 [rewardWindow/piggyBank/btnLabel]::{Так точно!}
 [rewardWindow/piggyBank/descText]::{Накопление кредитов приостановлено. Продлите премиум аккаунт, чтобы продолжить пополнение хранилища.}
 [rewardWindow/piggyBank/headerText]::{Кредиты получены}

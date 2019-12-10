@@ -136,7 +136,7 @@ Content-Transfer-Encoding: 8bit
 [action/discount/discountText]::{Скидка}
 [action/discount/discountUpToText]::{Скидка до}
 [action/discount/modifier]::{Бонус x%(count)s}
-[action/discount/more]::{...и ещё %(deviceName)s: %(count)s}
+[action/discount/more]::{... и ещё %(deviceName)s: %(count)s}
 [action/discount/percent]::{%(value)s%%}
 [action/discount/tradeInLabelText]::{Зачёт}
 [action/discount/xp]::{%(count)s опыта}
@@ -381,12 +381,13 @@ Content-Transfer-Encoding: 8bit
 [bonusName/gold]::{Золото}
 [bonusName/inscription]::{Надпись}
 [bonusName/modification]::{Эффект}
+[bonusName/ny20Fillers]::{Заряды}
 [bonusName/paint]::{Краска}
 [bonusName/personalNumber]::{Трёхзначный номер}
 [bonusName/premium]::{Дней Общего премиум аккаунта}
 [bonusName/premium_plus]::{Дней Танкового премиум аккаунта}
 [bonusName/projectionDecal]::{Декаль}
-[bonusName/slots]::{Слотов в Ангаре}
+[bonusName/slots]::{Слот в Ангаре}
 [bonusName/style]::{Стиль}
 [bonusName/tankmen/no_skills]::{Экипаж}
 [bonusName/tankmen/with_skills]::{Укомплектованный экипаж}
@@ -753,6 +754,7 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/results/single/bothTeams/range/not]::{Не попасть на %(high)d-%(low)d место среди обеих команд по: %(param)s}
 [details/conditions/results/single/bothTeams/top]::{Попасть в топ-%(count)d обеих команд по: %(param)s}
 [details/conditions/results/single/bothTeams/top/not]::{Не попасть в топ-%(count)d обеих команд по: %(param)s}
+[details/conditions/results/single/bothTeams/top1]::{Занять первое место в обеих командах по: %(param)s}
 [details/conditions/results/single/halfTeam/position]::{Занять %(position)d место в вашей команде по: %(param)s}
 [details/conditions/results/single/halfTeam/position/not]::{Не занять %(position)d место в вашей команде по: %(param)s}
 [details/conditions/results/single/halfTeam/range]::{Попасть на %(high)d-%(low)d место в вашей команде по: %(param)s}
@@ -1375,7 +1377,7 @@ Content-Transfer-Encoding: 8bit
 [missions/filter/popover/hideDone]::{Скрыть выполненные}
 [missions/filter/popover/hideUnavailable]::{Скрыть недоступные}
 [missions/filter/popover/title]::{Фильтр задач}
-[missions/filterCounter/closeButton/body]::{Нажмите, чтобы сбросить настройки фильтра на стандартные.}
+[missions/filterCounter/closeButton/body]::{Нажмите, чтобы сбросить настройки фильтра на состояние по умолчанию.}
 [missions/filterCounter/closeButton/header]::{Установить по умолчанию}
 [missions/filterCounter/label]::{Показано задач:}
 [missions/group/motive/label]::{Боевые задачи выбранной категории}
@@ -1405,7 +1407,6 @@ Content-Transfer-Encoding: 8bit
 [missions/tab/label/kursk]::{Курская битва}
 [missions/tab/label/marathons]::{События}
 [missions/tab/label/missions]::{Учебные задачи}
-[missions/tab/label/winterMarathon]::{Охота на ренегата}
 [missions/tab/marathons/body]::{Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.}
 [missions/tab/marathons/header]::{События}
 [missions/tab/marathons/header/award]::{Награда:}
@@ -1416,8 +1417,6 @@ Content-Transfer-Encoding: 8bit
 [missions/tab/marathons/header/title/action]::{АКЦИЯ}
 [missions/tab/missions/body]::{Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.}
 [missions/tab/missions/header]::{Учебные задачи}
-[missions/tab/winterMarathon/body]::{Игровое событие, в рамках которого вы можете получить американский тяжёлый премиум танк VIII уровня M54 Renegade совершенно бесплатно.}
-[missions/tab/winterMarathon/header]::{Охота на ренегата}
 [missions/tokenPopover/buyBtn/label]::{Купить марку}
 [missions/tokenPopover/descr]::{Список боевых задач, в которых можно получить марку %(name)s}
 [missions/tokenPopover/descr/shop]::{Марку %(name)s можно купить только в Премиум магазине.}
@@ -1427,6 +1426,8 @@ Content-Transfer-Encoding: 8bit
 [missions/tokenPopover/quest/descr/ready]::{Выполнено}
 [missions/tokenPopover/quest/header]::{Марафон %(questName)s}
 [missions/vehicleSelector/status/list]::{Список техники}
+[missions/vehicleSelector/status/noItems]::{Подходящая техника отсутствует, попробуйте
+изменить параметры фильтрации.}
 [missions/vehicleSelector/status/notAvailable]::{Нет подходящей техники}
 [missions/vehicleSelector/status/select]::{Выбрать машину}
 [missions/vehicleSelector/status/selected]::{Выбрано в Ангаре}

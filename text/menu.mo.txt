@@ -271,7 +271,9 @@ Content-Transfer-Encoding: 8bit
 [boosterBuyWindow/buyCount]::{Количество боёв}
 [boosterBuyWindow/cancelButtonLabel]::{Отменить}
 [boosterBuyWindow/inHangarCount]::{На хранении}
+[boosterBuyWindow/pricePerItem]::{Стоимость покупки 1 шт.:}
 [boosterBuyWindow/rearmCheckboxLabel]::{Включить автопополнение инструкций}
+[boosterBuyWindow/title]::{Купить инструкции «{name}»?}
 [boosterBuyWindow/totalLabel]::{ИТОГО:}
 [boosterBuyWindow/totalPrice]::{Докупить}
 [boosterBuyWindow/windowTitle]::{Покупка инструкций}
@@ -286,6 +288,8 @@ Content-Transfer-Encoding: 8bit
 [boosterSelectPopover/tabs/forCrew]::{Для экипажа}
 [boosterSelectPopover/tabs/forEquipment]::{К оборудованию}
 [boosterSelectPopover/title]::{Предбоевые инструкции}
+[boosterSellWindow/pricePerItem]::{Стоимость продажи 1 шт.:}
+[boosterSellWindow/title]::{Продать инструкции «{name}»?}
 [boosters/common/effect_time]::{Время действия}
 [boosters/common/effect_value]::{Размер бонуса}
 [boosters/common/name]::{Личный резерв}
@@ -865,9 +869,8 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/btnLabel/premium]::{Премиум}
 [headerButtons/clan]::{Клан}
 [headerButtons/clans]::{Кланы}
-[headerButtons/defaultCounter]::{!}
+[headerButtons/defaultCounter]::{1}
 [headerButtons/doLabel/premium]::{Продлить}
-[headerButtons/encyclopedia]::{Учебный центр}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/body]::{Выбранная машина подходит только для режима «Линия фронта».}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicLevelRequired/bodyEnd]::{технике %(level)s уровня}
@@ -1064,7 +1067,8 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/desc/8]::{ }
 [loading/battleTypes/desc/9]::{ }
 [loading/game]::{Пожалуйста, подождите, игра загружается...}
-[loading/gameInfo]::{Данная игра одобрена для <font color='#03953f'>всех</font> возрастов.}
+[loading/gameInfo]::{Данная игра одобрена для %(age)s возрастов.}
+[loading/gameInfo/age]::{всех}
 [loading/helpTip]::{Для вызова экрана помощи в бою нажмите клавишу F1.}
 [loading/team1]::{Союзники}
 [loading/team2]::{Противник}
@@ -1107,7 +1111,7 @@ Content-Transfer-Encoding: 8bit
 [login/status/DNS_LOOKUP_FAILED]::{Не удаётся установить соединение с сервером.
 Возможно, сервер недоступен или требуется проверка настроек сетевого подключения.}
 [login/status/LOGIN_BAD_PROTOCOL_VERSION]::{Требуется обновление клиентского приложения.}
-[login/status/LOGIN_CUSTOM_DEFINED_ERROR]::{Сервер недоступен. Причина: %(reason)s}
+[login/status/LOGIN_CUSTOM_DEFINED_ERROR]::{Сервер недоступен. Причина: %(reason)s.}
 [login/status/LOGIN_MALFORMED_REQUEST]::{Ошибка авторизации на сервере. Возможно, ваше приложение устарело либо повреждено.}
 [login/status/LOGIN_REJECTED_ACTIVATING]::{Создание аккаунта...}
 [login/status/LOGIN_REJECTED_ALREADY_LOGGED_IN]::{Пользователь с таким именем уже вошёл в игру.}
@@ -1204,6 +1208,7 @@ Content-Transfer-Encoding: 8bit
 [moduleInfo/compatible/turrets]::{Устанавливается в башни:}
 [moduleInfo/compatible/uniChargedVehicles]::{Работает как однозарядное на технике:}
 [moduleInfo/compatible/vehicles]::{Устанавливается на технику:}
+[moduleInfo/dualGunLabel]::{Спаренная орудийная установка}
 [moduleInfo/hydraulicAutoSiegeChassisLabel]::{Гидропневматическая подвеска:
 позволяет изменять угол наклона корпуса}
 [moduleInfo/hydraulicChassisLabel]::{Гидропневматическая подвеска:
@@ -1225,6 +1230,7 @@ Content-Transfer-Encoding: 8bit
 [moduleInfo/params/bombDamage]::{Урон одной авиабомбы }
 [moduleInfo/params/bombsNumberRange]::{Количество бомб за вылет }
 [moduleInfo/params/caliber]::{Калибр }
+[moduleInfo/params/chargeTime]::{Время залпа }
 [moduleInfo/params/circularVisionRadius]::{Обзор }
 [moduleInfo/params/cooldownSeconds]::{Время подготовки }
 [moduleInfo/params/damage]::{Урон }
@@ -1244,8 +1250,10 @@ Content-Transfer-Encoding: 8bit
 [moduleInfo/params/piercingDistanceHeader]::{Средняя бронепробиваемость (мм) — Расстояние}
 [moduleInfo/params/piercingPower]::{Бронепробиваемость }
 [moduleInfo/params/radioDistance]::{Дальность связи }
+[moduleInfo/params/rateTime]::{Время между выстрелом и переходом к заряженному орудию }
 [moduleInfo/params/reloadMagazineTime]::{Время полной перезарядки }
 [moduleInfo/params/reloadTime]::{Скорострельность }
+[moduleInfo/params/reloadTimeSecs]::{Заряжание орудия }
 [moduleInfo/params/rotationSpeed]::{Скорость поворота }
 [moduleInfo/params/shellReloadingTime]::{Время перезарядки между выстрелами }
 [moduleInfo/params/shellsCount]::{Снарядов в магазине }
@@ -1675,6 +1683,9 @@ Content-Transfer-Encoding: 8bit
 [tankCarousel/vehicleStates/inPremiumIgrOnly]::{Доступно только в %(icon)s}
 [tankCarousel/vehicleStates/locked]::{?empty?}
 [tankCarousel/vehicleStates/notpresent]::{Нет в Ангаре}
+[tankCarousel/vehicleStates/nyTank]::{Новогодняя техника}
+[tankCarousel/vehicleStates/nyTankEmptyCount]::{Свободных слотов: %(count)d}
+[tankCarousel/vehicleStates/nyTankSlotsFull]::{Все слоты заняты}
 [tankCarousel/vehicleStates/rentable]::{Доступна аренда машины}
 [tankCarousel/vehicleStates/rentable/epic]::{Только для режима «Линия фронта»}
 [tankCarousel/vehicleStates/rentable/hover]::{Арендовать}
@@ -1699,10 +1710,11 @@ Content-Transfer-Encoding: 8bit
 [tank_params/avgDamage]::{Средний урон за выстрел}
 [tank_params/avgDamagePerMinute]::{Средний урон в минуту}
 [tank_params/avgPiercingPower]::{Средняя бронепробиваемость}
+[tank_params/chargeTime]::{Время залпа}
 [tank_params/chassisRotationSpeed]::{Скорость поворота шасси}
 [tank_params/circularVisionRadius]::{Обзор}
 [tank_params/clipFireRate]::{Перезарядка}
-[tank_params/clipSec]::{(магазина/снаряда/кол-во)}
+[tank_params/clipSec]::{(полная/между/кол-во)}
 [tank_params/cnt]::{(шт)}
 [tank_params/damage]::{Урон базовым снарядом}
 [tank_params/enginePower]::{Мощность двигателя}
@@ -1736,8 +1748,9 @@ Content-Transfer-Encoding: 8bit
 [tank_params/relativePower]::{Огневая мощь}
 [tank_params/relativeVisibility]::{Наблюдение}
 [tank_params/reloadTime]::{Скорострельность орудия}
-[tank_params/reloadTimeSecs]::{Перезарядка орудия}
+[tank_params/reloadTimeSecs]::{Заряжание орудия}
 [tank_params/s]::{(с)}
+[tank_params/s_s]::{(с/с)}
 [tank_params/shotDispersionAngle]::{Разброс на 100 м}
 [tank_params/speedLimits]::{Макс. скорость / задний ход}
 [tank_params/spm]::{(выстр/мин)}
@@ -1957,9 +1970,10 @@ Content-Transfer-Encoding: 8bit
 [vehicleInfo/params/avgDamage]::{Средний урон за выстрел}
 [vehicleInfo/params/avgDamagePerMinute]::{Средний урон в минуту}
 [vehicleInfo/params/avgPiercingPower]::{Средняя бронепробиваемость}
+[vehicleInfo/params/chargeTime]::{Время залпа (с)}
 [vehicleInfo/params/chassisRotationSpeed]::{Скорость поворота (град/с)}
 [vehicleInfo/params/circularVisionRadius]::{Обзор (м)}
-[vehicleInfo/params/clipFireRate]::{Перезарядка (магазина/снаряда/кол-во)}
+[vehicleInfo/params/clipFireRate]::{Перезарядка (полная/между/кол-во)}
 [vehicleInfo/params/enginePower]::{Мощность двигателя (л.с.)}
 [vehicleInfo/params/enginePowerPerTon]::{Удельная мощность (л.с./т)}
 [vehicleInfo/params/gunYawLimits]::{Углы горизонтальной наводки (град)}
@@ -1972,8 +1986,9 @@ Content-Transfer-Encoding: 8bit
 [vehicleInfo/params/piercingPower]::{Средняя бронепробиваемость (мм)}
 [vehicleInfo/params/pitchLimits]::{Углы вертикальной наводки (град)}
 [vehicleInfo/params/radioDistance]::{Дальность связи (м)}
+[vehicleInfo/params/rateTime]::{Время между выстрелом и переходом к заряженному орудию (с)}
 [vehicleInfo/params/reloadTime]::{Скорострельность орудия (выстр/мин)}
-[vehicleInfo/params/reloadTimeSecs]::{Перезарядка орудия (с)}
+[vehicleInfo/params/reloadTimeSecs]::{Заряжание орудия (с)}
 [vehicleInfo/params/shotDispersionAngle]::{Разброс на 100 м (м)}
 [vehicleInfo/params/speedLimits]::{Макс. скорость / задний ход (км/ч)}
 [vehicleInfo/params/stunMaxDuration]::{Максимальное время оглушения (c)}

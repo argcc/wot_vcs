@@ -429,6 +429,7 @@
       <userString>#vehicle_customization:styles/main_styles</userString>
       <season>ALL</season>
       <historical> true </historical>
+      <priceGroup>styles 700g</priceGroup>
       <vehicleFilter>
          <include>
             <nations>germany</nations>
@@ -442,7 +443,6 @@
          <texture>gui/maps/vehicles/styles/generic_custom_look_2_germany.png</texture>
          <description>#vehicle_customization:main_style/generic_custom_look_2_germany_desc</description>
          <userString>#vehicle_customization:main_style/generic_custom_look_2_germany</userString>
-         <priceGroup>styles 700g</priceGroup>
          <outfits>
             <outfit>
                <season>winter</season>
@@ -673,6 +673,7 @@
       <userString>#vehicle_customization:styles/main_styles</userString>
       <season>ALL</season>
       <historical> true </historical>
+      <priceGroup>styles 700g</priceGroup>
       <vehicleFilter>
          <include>
             <nations>germany</nations>
@@ -686,7 +687,6 @@
          <texture>gui/maps/vehicles/styles/generic_custom_look_3_germany.png</texture>
          <description>#vehicle_customization:main_style/generic_custom_look_3_germany_desc</description>
          <userString>#vehicle_customization:main_style/generic_custom_look_3_germany</userString>
-         <priceGroup>styles 700g</priceGroup>
          <outfits>
             <outfit>
                <season>winter</season>
@@ -741,6 +741,84 @@
             </outfit>
             <outfit>
                <season>event</season>
+            </outfit>
+         </outfits>
+      </style>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:styles/unique_styles</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>styles 6000g notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <vehicles>germany:G56_E-100</vehicles>
+         </include>
+      </vehicleFilter>
+      <style>
+         <id>100</id>
+         <texture>gui/maps/vehicles/styles/G56_E-100_3Dst.png</texture>
+         <description>#vehicle_customization:unique_style/G56_E-100_3Dst_desc</description>
+         <longDescriptionSpecial>#vehicle_customization:unique_style/G56_E-100_3Dst_desc/long</longDescriptionSpecial>
+         <modelsSet>G56_E-100_3Dst</modelsSet>
+         <maxNumber>1</maxNumber>
+         <userString>#vehicle_customization:unique_style/G56_E-100_3Dst</userString>
+         <tags>NY2020_style</tags>
+         <outfits>
+            <outfit>
+               <season>ALL</season>
+               <camouflages>
+                  <item>
+                     <id>1</id>
+                     <appliedTo>4368</appliedTo>
+                     <patternSize>1</patternSize>
+                     <palette>0</palette>
+                  </item>
+               </camouflages>
+               <decals>
+                  <item>
+                     <id>0</id>
+                     <appliedTo>13104</appliedTo>
+                  </item>
+                  <item>
+                     <id>0</id>
+                     <appliedTo>52416</appliedTo>
+                  </item>
+               </decals>
+            </outfit>
+         </outfits>
+      </style>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:styles/unique_styles</userString>
+      <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>styles 6000g notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <vehicles>germany:G72_JagdPz_E100</vehicles>
+         </include>
+      </vehicleFilter>
+      <style>
+         <id>112</id>
+         <texture>gui/maps/vehicles/styles/G72_JagdPz_E100_3Dst.png</texture>
+         <description>#vehicle_customization:unique_style/G72_JagdPz_E100_3Dst_desc</description>
+         <longDescriptionSpecial>#vehicle_customization:unique_style/G72_JagdPz_E100_3Dst_desc/long</longDescriptionSpecial>
+         <modelsSet>G72_JagdPz_E100_3Dst</modelsSet>
+         <maxNumber>1</maxNumber>
+         <userString>#vehicle_customization:unique_style/G72_JagdPz_E100_3Dst</userString>
+         <tags>NY2020_style</tags>
+         <outfits>
+            <outfit>
+               <season>ALL</season>
+               <camouflages>
+                  <item>
+                     <id>1</id>
+                     <appliedTo>4368</appliedTo>
+                     <patternSize>1</patternSize>
+                     <palette>0</palette>
+                  </item>
+               </camouflages>
             </outfit>
          </outfits>
       </style>
