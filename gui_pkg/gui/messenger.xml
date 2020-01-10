@@ -576,6 +576,8 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <crystalCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/crystal) %(amount)s</crystalCompensationInvoiceReceived>
       <tankmenInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/tankmen): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(tankman)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</tankmenInvoiceReceived>
       <boostersInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/boosters): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(boosters)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</boostersInvoiceReceived>
+      <enhancementsAccruedInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/enhancementsAccrued): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</enhancementsAccruedInvoiceReceived>
+      <enhancementsDebitedInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/enhancementsDebited): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</enhancementsDebitedInvoiceReceived>
       <discountsInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/discounts): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(discounts)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</discountsInvoiceReceived>
       <slotsAccruedInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/slotsAccrued): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</slotsAccruedInvoiceReceived>
       <slotsDebitedInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/slotsDebited): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</slotsDebitedInvoiceReceived>
@@ -1731,6 +1733,18 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 &lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/flExchange/quests/points): %(points)s&lt;/font&gt;
 &lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/flExchange/quests/reward): &lt;font color=&#39;#FFC363&#39;&gt;%(gold)s&lt;/font&gt;, &lt;font color=&#39;#C9C9B6&#39;&gt;%(crystal)s&lt;/font&gt;&lt;/font&gt;</message>
       </FlExchangeMessage>
+      <EnhancementRemovedMessage>
+         <type>grey</type>
+         <priority>medium</priority>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </EnhancementRemovedMessage>
+      <EnhancementsWipedMessage>
+         <type>grey</type>
+         <priority>medium</priority>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </EnhancementsWipedMessage>
       <LootBoxesSysMessage>
          <type>grey</type>
          <icon>MessageIcon</icon>
