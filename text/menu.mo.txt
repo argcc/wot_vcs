@@ -228,6 +228,7 @@ Content-Transfer-Encoding: 8bit
 [bonusType/21]::{Наступление}
 [bonusType/22]::{Ранговый бой}
 [bonusType/24]::{Генеральное сражение}
+[bonusType/32]::{Битва блогеров}
 [bonusType/4]::{Специальный бой}
 [bonusType/5]::{Специальный бой}
 [bonusType/6]::{Боевое обучение}
@@ -439,7 +440,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/vehicleUncheck]::{Снять отметку «основной»}
 [contextMenu/viewClanProfile]::{Профиль клана}
 [contextMenu/withdrawInvitationToSquad]::{Отозвать приглашение во взвод}
-[copy]::{© 2009–2019 Wargaming.net. Все права защищены.}
+[copy]::{© 2009–2020 Wargaming.net. Все права защищены.}
 [counter/newCounter]::{НОВОЕ}
 [crystals/promoWindow/closebtn]::{Закрыть}
 [crystals/promoWindow/header]::{Боны: как получить и для чего нужны}
@@ -551,6 +552,7 @@ Content-Transfer-Encoding: 8bit
 [dateTime/months/short/7]::{Июл}
 [dateTime/months/short/8]::{Авг}
 [dateTime/months/short/9]::{Сен}
+[dateTime/order]::{%(day)s %(month)s %(year)s}
 [dateTime/shortDateFormatWithoutYear]::{%(weekDay)s, %(month)s, %(monthDay)d-е число}
 [dateTime/unlimited]::{не определено.}
 [dateTime/weekDays/full/1]::{Понедельник}
@@ -584,6 +586,8 @@ Content-Transfer-Encoding: 8bit
 [descriptions/vehicleGun]::{%(reloadTime)s выстр/мин; Средний урон: %(avgDamageList)s
 Средняя пробиваемость: %(avgPiercingPower)s мм}
 [descriptions/vehicleGun/autoReload]::{Перезарядка %(autoReloadTime)s с; Средний урон: %(avgDamageList)s
+Средняя пробиваемость: %(avgPiercingPower)s мм}
+[descriptions/vehicleGun/dualGun]::{Заряжание орудия: %(reloadTimeSecs)s с; Средний урон: %(avgDamageList)s
 Средняя пробиваемость: %(avgPiercingPower)s мм}
 [descriptions/vehicleRadio]::{Дальность связи: до %(radioDistance)s м}
 [descriptions/vehicleTurret]::{Броня: %(armor)s мм; Поворот: %(rotationSpeed)s град/с
@@ -797,6 +801,9 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/menu/unit]::{Командный бой}
 [headerButtons/battle/types/battleTeaching]::{Учебный бой}
 [headerButtons/battle/types/battleTutorial]::{Боевое обучение}
+[headerButtons/battle/types/bob]::{Битва блогеров}
+[headerButtons/battle/types/bob/descr]::{За вододела и двор стреляю в упор}
+[headerButtons/battle/types/bobSquad]::{Взвод Битвы блогеров}
 [headerButtons/battle/types/epic]::{«Линия фронта»}
 [headerButtons/battle/types/epic/descr]::{Режим с автоматическим подбором союзников для игры против случайных противников.}
 [headerButtons/battle/types/epic/extra/currentCycle]::{Сезон %(season)s, эпизод %(cycle)s}
@@ -838,6 +845,7 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/spec/descr]::{Участие в чемпионатах, турнирах и «Мировой войне».}
 [headerButtons/battle/types/specLeave]::{Специальный бой}
 [headerButtons/battle/types/squad]::{Взвод}
+[headerButtons/battle/types/squad/bob]::{: Битва блогеров}
 [headerButtons/battle/types/squad/descr]::{Формирование из 2-3 игроков для совместной игры в Случайных боях.}
 [headerButtons/battle/types/squad/epic]::{: Линия фронта}
 [headerButtons/battle/types/squad/event]::{+++: событие+++}
@@ -871,6 +879,8 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/clans]::{Кланы}
 [headerButtons/defaultCounter]::{1}
 [headerButtons/doLabel/premium]::{Продлить}
+[headerButtons/fightBtn/tooltip/bobOnly/body]::{Выбранная машина подходит только для режима «Битва блогеров».}
+[headerButtons/fightBtn/tooltip/bobOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/body]::{Выбранная машина подходит только для режима «Линия фронта».}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicLevelRequired/bodyEnd]::{технике %(level)s уровня}
@@ -1036,6 +1046,7 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/20]::{Тренировочный бой}
 [loading/battleTypes/21]::{«Линия фронта»}
 [loading/battleTypes/22]::{«Линия фронта»}
+[loading/battleTypes/23]::{Битва блогеров}
 [loading/battleTypes/4]::{Боевое обучение}
 [loading/battleTypes/5]::{Командный бой}
 [loading/battleTypes/6]::{Исторический бой}
@@ -1060,6 +1071,7 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/desc/20]::{ }
 [loading/battleTypes/desc/21]::{ }
 [loading/battleTypes/desc/22]::{ }
+[loading/battleTypes/desc/23]::{ }
 [loading/battleTypes/desc/4]::{ }
 [loading/battleTypes/desc/5]::{ }
 [loading/battleTypes/desc/6]::{ }
@@ -1179,6 +1191,7 @@ Content-Transfer-Encoding: 8bit
 [moduleFits/crystal_error]::{?empty?}
 [moduleFits/destroyDescr]::{Уничтожить оборудование и освободить слот
 для нового оборудования.}
+[moduleFits/destroyEquipment]::{Уничтожить оборудование «%(equipment)s»?}
 [moduleFits/destroyName]::{Уничтожить}
 [moduleFits/destroyToolTip]::{ }
 [moduleFits/gold_error]::{?empty?}
@@ -1683,9 +1696,6 @@ Content-Transfer-Encoding: 8bit
 [tankCarousel/vehicleStates/inPremiumIgrOnly]::{Доступно только в %(icon)s}
 [tankCarousel/vehicleStates/locked]::{?empty?}
 [tankCarousel/vehicleStates/notpresent]::{Нет в Ангаре}
-[tankCarousel/vehicleStates/nyTank]::{Новогодняя техника}
-[tankCarousel/vehicleStates/nyTankEmptyCount]::{Свободных слотов: %(count)d}
-[tankCarousel/vehicleStates/nyTankSlotsFull]::{Все слоты заняты}
 [tankCarousel/vehicleStates/rentable]::{Доступна аренда машины}
 [tankCarousel/vehicleStates/rentable/epic]::{Только для режима «Линия фронта»}
 [tankCarousel/vehicleStates/rentable/hover]::{Арендовать}

@@ -166,6 +166,7 @@ Content-Transfer-Encoding: 8bit
 [advanced/battleTeaching]::{Бой против ботов для закрепления полученных на Учебном полигоне навыков.}
 [advanced/brotherhood]::{Повышает уровень владения основной специальностью и всеми умениями всех членов экипажа. Работает только при изучении всеми членами экипажа на 100%.}
 [advanced/camouflage]::{Повышает незаметность машины.}
+[advanced/camouflageBattleBooster]::{Увеличивает незаметность машины.}
 [advanced/camouflageNet]::{Уменьшает заметность машины через короткое время после остановки. Выключается при движении машины вперёд, назад или при поворотах корпуса. Шведские высокоуровневые ПТ-САУ могут поворачивать корпус не сбрасывая сеть.}
 [advanced/carbonDioxide]::{При попадании в бак машина может загореться. Данное оборудование увеличивает прочность топливных баков.}
 [advanced/coatedOptics]::{Увеличивает дальность обзора машины, что позволяет обнаружить технику противника раньше.}
@@ -175,6 +176,7 @@ Content-Transfer-Encoding: 8bit
 [advanced/commander_sixthSense]::{Позволяет командиру определять, обнаружена ли его машина противником.}
 [advanced/commander_tutor]::{Предоставляет дополнительный опыт всем членам экипажа, кроме командира.}
 [advanced/commander_universalist]::{Позволяет командиру овладеть всеми специальностями и заменить выведенных из строя членов экипажа.}
+[advanced/demountKit/common]::{Позволяет демонтировать сложное оборудование без финансовых затрат.}
 [advanced/driver]::{Влияет на динамические характеристики машины.}
 [advanced/driver_badRoadsKing]::{Снижает сопротивление вязких и средних грунтов при движении машины.}
 [advanced/driver_rammingMaster]::{Уменьшает повреждения собственной машины и увеличивает повреждения машины противника при таране.}
@@ -367,8 +369,6 @@ Content-Transfer-Encoding: 8bit
 [awardItem/freeXPFactor/header]::{Коэффициент свободного опыта}
 [awardItem/gold/body]::{Ценная игровая валюта, которую можно потратить на широкий спектр целей: Танковый премиум аккаунт, технику, перевод опыта и т. д.}
 [awardItem/gold/header]::{Золото}
-[awardItem/ny20Fillers/body]::{Заряды нужны для работы антиповторителя. Они выдаются в ограниченном количестве за каждый уровень атмосферы праздника, поэтому расходуйте их мудро.}
-[awardItem/ny20Fillers/header]::{Заряды}
 [awardItem/oneof/body]::{Количество наград и их ценность зависят от позиции в ладдере.}
 [awardItem/oneof/header]::{Контейнер с наградой}
 [awardItem/oneof/rankedCycle/body]::{Присваивается в конце этапа и содержит различные награды.
@@ -706,7 +706,7 @@ Content-Transfer-Encoding: 8bit
 [crewBooks/storage/filters/crewBook/title]::{Учебное пособие}
 [crewBooks/storage/filters/guide/title]::{Учебное руководство}
 [crewBooks/storage/filters/personalBook/title]::{Персональное учебное пособие}
-[crewBooks/storage/filters/universalBook/title]::{Учебное пособие}
+[crewBooks/storage/filters/universalBook/title]::{Универсальное пособие}
 [crewBooks/tankman/skill/lowGainedXp]::{Округлено до сотых процента.}
 [crewBundle/bonus/anyAdditionalSkill]::{Достаточно опыта для изучения дополнительного умения или навыка.}
 [crewBundle/bonus/basicRoleBoost_100]::{Полностью изученная основная специальность.}
@@ -1571,6 +1571,9 @@ Content-Transfer-Encoding: 8bit
 [header/accountPopover/unavailable]::{Функциональность временно недоступна. Пожалуйста, попробуйте позже.}
 [header/battleType/body]::{Нажмите, чтобы открыть список доступных режимов боёв.}
 [header/battleType/header]::{Выбор режима боя}
+[header/bobSquad/body]::{Создание формирования из 2-3 игроков для совместной игры.
+• Режимы боёв: «Битва блогеров».}
+[header/bobSquad/header]::{Взвод}
 [header/buttons/available]::{В наличии}
 [header/buttons/barracks/body]::{Рекрутировать и демобилизовать членов экипажа.}
 [header/buttons/barracks/header]::{Казарма}
@@ -1612,6 +1615,7 @@ Content-Transfer-Encoding: 8bit
 [header/buttons/gold/clickDesc]::{Нажмите, чтобы перейти на страницу покупки игрового золота.}
 [header/buttons/gold/header]::{Золото}
 [header/buttons/gold/title]::{Золото}
+[header/buttons/goldAlternative/clickDesc]::{Ценная игровая валюта, которую можно потратить на широкий спектр целей: Танковый премиум аккаунт, технику, перевод опыта и т. д.}
 [header/buttons/hangar/body]::{Выбрать технику и выйти в бой.}
 [header/buttons/hangar/header]::{Ангар}
 [header/buttons/inventory/body]::{Продать технику, модули, оборудование и снаряжение.}
@@ -1767,7 +1771,7 @@ Content-Transfer-Encoding: 8bit
 [marathon/extra_state/discount]::{Ваша скидка: %(discount)s%%}
 [marathon/extra_state/steps]::{Пройдено этапов: %(currentStep)s / %(allStep)s}
 [marathon/header]::{Зимняя охота}
-[marathon/off/body]::{В настоящий момент событие недоступно по техническим причинам. Попробуйте позже.}
+[marathon/off/body]::{В данный момент событие недоступно по техническим причинам. Попробуйте позже.}
 [marathon/off/header]::{Событие недоступно}
 [marathon/state/complete]::{Завершено}
 [marathon/state/end]::{До завершения: %(value)s}
@@ -1833,6 +1837,30 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/base/desc]::{Уникальный член экипажа}
 [notrecruitedtankman/base/event]::{уникальное событие}
 [notrecruitedtankman/base/label]::{Уникальный член экипажа}
+[notrecruitedtankman/bob20_commander1_asia/desc]::{?empty?}
+[notrecruitedtankman/bob20_commander1_asia/label]::{?empty?}
+[notrecruitedtankman/bob20_commander1_eu/desc]::{?empty?}
+[notrecruitedtankman/bob20_commander1_eu/label]::{?empty?}
+[notrecruitedtankman/bob20_commander1_na/desc]::{?empty?}
+[notrecruitedtankman/bob20_commander1_na/label]::{?empty?}
+[notrecruitedtankman/bob20_commander1_ru/desc]::{Выдавался в награду во время события «Битва блогеров — 2020». У командира изучен «нулевой» навык «Шестое чувство» и может быть достаточно опыта для изучения дополнительных навыков или умений на выбор. Количество опыта зависит от места его команды по итогам события.}
+[notrecruitedtankman/bob20_commander1_ru/label]::{Битва блогеров — 2020}
+[notrecruitedtankman/bob20_commander2_asia/desc]::{?empty?}
+[notrecruitedtankman/bob20_commander2_asia/label]::{?empty?}
+[notrecruitedtankman/bob20_commander2_eu/desc]::{?empty?}
+[notrecruitedtankman/bob20_commander2_eu/label]::{?empty?}
+[notrecruitedtankman/bob20_commander2_na/desc]::{?empty?}
+[notrecruitedtankman/bob20_commander2_na/label]::{?empty?}
+[notrecruitedtankman/bob20_commander2_ru/desc]::{Выдавался в награду во время события «Битва блогеров — 2020». У командира изучен «нулевой» навык «Шестое чувство» и может быть достаточно опыта для изучения дополнительных навыков или умений на выбор. Количество опыта зависит от места его команды по итогам события.}
+[notrecruitedtankman/bob20_commander2_ru/label]::{Битва блогеров — 2020}
+[notrecruitedtankman/bob20_commander3_eu/desc]::{?empty?}
+[notrecruitedtankman/bob20_commander3_eu/label]::{?empty?}
+[notrecruitedtankman/bob20_commander3_ru/desc]::{Выдавался в награду во время события «Битва блогеров — 2020». У командира изучен «нулевой» навык «Шестое чувство» и может быть достаточно опыта для изучения дополнительных навыков или умений на выбор. Количество опыта зависит от места его команды по итогам события.}
+[notrecruitedtankman/bob20_commander3_ru/label]::{Битва блогеров — 2020}
+[notrecruitedtankman/bob20_commander4_eu/desc]::{?empty?}
+[notrecruitedtankman/bob20_commander4_eu/label]::{?empty?}
+[notrecruitedtankman/bob20_commander4_ru/desc]::{Выдавался в награду во время события «Битва блогеров — 2020». У командира изучен «нулевой» навык «Шестое чувство» и может быть достаточно опыта для изучения дополнительных навыков или умений на выбор. Количество опыта зависит от места его команды по итогам события.}
+[notrecruitedtankman/bob20_commander4_ru/label]::{Битва блогеров — 2020}
 [notrecruitedtankman/buffon/desc]::{Выдавался за выполнение определённых условий в футбольном режиме 2018 года. Легендарный итальянский вратарь Джанлуиджи Буффон — командир экипажа с уникальной озвучкой и изученными навыками.}
 [notrecruitedtankman/buffon/label]::{Футбольный режим}
 [notrecruitedtankman/commander_marina/desc]::{Нет такой машины, управление которой не смогла бы освоить эта смелая француженка. Определённо не позавидуешь тем, кто встанет на пути её экипажа, готового на любой риск.}
@@ -1895,6 +1923,8 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/twitch7/label]::{Уникальный член экипажа}
 [notrecruitedtankman/twitch8/desc]::{Если вы хотите наполнить бой духом новогодних праздников, экипаж под командованием этой темпераментной итальянки позаботится о хлопушках и фейерверках.}
 [notrecruitedtankman/twitch8/label]::{Уникальный член экипажа}
+[notrecruitedtankman/twitch9/desc]::{Главная цель тактической бороды Анри — поддерживать моральный дух экипажа и приносить победу. Мода, характерная для подводного флота, добралась-таки до бронетанковых войск.}
+[notrecruitedtankman/twitch9/label]::{Уникальный член экипажа}
 [notrecruitedtankman/useBefore]::{Доступно до: %(date)s}
 [parameter/weight]::{Масса: }
 [parameter/weightUnits]::{ кг}
@@ -2143,10 +2173,6 @@ Content-Transfer-Encoding: 8bit
 [quests/awards/vehicleRent/rentLeft/rentBattles]::{боёв в аренду: %(count)s}
 [quests/awards/vehicleRent/rentLeft/rentDays]::{дней аренды: %(count)s}
 [quests/awards/vehicleRent/rentLeft/rentWins]::{побед в аренду: %(count)s}
-[quests/bonuses/freeTalismanToken/header]::{Снегурочка}
-[quests/bonuses/lootBoxToken/body]::{В коробке содержится несколько украшений случайного уровня и дополнительная награда.}
-[quests/bonuses/talismanBonusToken/body]::{Возможность получить в пять раз больше опыта за бой, начиная со второго боя в день на любой машине.}
-[quests/bonuses/talismanBonusToken/header]::{Новогодняя задача на x5 опыта за бой}
 [quests/bonuses/token/battle_bonus_x5/body]::{Возможность получить в пять раз больше опыта за бой, начиная со второго боя в день на любой машине.}
 [quests/bonuses/token/battle_bonus_x5/header]::{Задача на x5 к опыту за бой}
 [quests/bonuses/token/body]::{Данная марка — наградной элемент, необходимый для выполнения определённой боевой задачи.}
@@ -2527,7 +2553,7 @@ Content-Transfer-Encoding: 8bit
 [storage/mainMenu/in_hangar/header]::{Техника в Ангаре}
 [storage/mainMenu/personal_reserves/body]::{Содержит личные резервы, позволяющие на время получить прибавку к заработку опыта или кредитов в боях.}
 [storage/mainMenu/personal_reserves/header]::{Личные резервы}
-[storage/mainMenu/storage/body]::{Содержит оборудование, снаряжение, предбоевые инструкции, модули и снаряды, не установленные на имеющуюся технику, а также учебные материалы для экипажа.}
+[storage/mainMenu/storage/body]::{Содержит оборудование, снаряжение, предбоевые инструкции, демонтажные наборы, модули и снаряды, не установленные на имеющуюся технику, а также учебные материалы для экипажа.}
 [storage/mainMenu/storage/header]::{Запасы}
 [stronghold/prebattle/noClanMembers]::{Отряд расформирован. Вы автоматически исключены из состава.}
 [strongholds/timer/WaitingForData]::{Идёт загрузка данных...}
@@ -2555,8 +2581,6 @@ Content-Transfer-Encoding: 8bit
 [tankCarusel/lock/header]::{Машина заблокирована}
 [tankCarusel/lock/rotation]::{Проведите ещё боёв: %(battlesToUnlock)s на технике из групп: %(unlockedBy)s.}
 [tankCarusel/lock/rotation/header]::{Машина группы %(groupNum)s недоступна}
-[tankCarusel/newYearSlot/body]::{Нажмите, чтобы перейти на экран управления новогодней техникой.}
-[tankCarusel/newYearSlot/header]::{Новогодняя техника}
 [tankCaruselTooltip/vehicleType/elite/AT-SPG]::{Элитная ПТ-САУ}
 [tankCaruselTooltip/vehicleType/elite/SPG]::{Элитная САУ}
 [tankCaruselTooltip/vehicleType/elite/heavyTank]::{Элитный тяжёлый танк}
@@ -2748,6 +2772,7 @@ Content-Transfer-Encoding: 8bit
 [vehicle/crew_award]::{Экипаж (%d%%)}
 [vehicle/dailyXPFactor]::{Опыт за первую победу в день}
 [vehicle/damage]::{<h1>Урон</h1> <h2>(hp)</h2>}
+[vehicle/deal/bob/main]::{Машина для события «Битва блогеров»}
 [vehicle/deal/epic/main]::{Машина для режима «Линия фронта»}
 [vehicle/deal/telecom/main/Twitchprime]::{Машина доступна игрокам с активной подпиской на Twitch Prime.}
 [vehicle/deal/telecom/main/default]::{Машина доступна абонентам тарифного плана «%(tariff)s» от %(provider)s.}
@@ -2835,12 +2860,15 @@ Content-Transfer-Encoding: 8bit
 [vehicleParams/title/valueTemplate]::{%(value)s}
 [vehicleParams/turretArmor]::{Бронирование башни (лоб/борт/корма в мм)}
 [vehicleParams/valueChange/template]::{(%(value)s)}
+[vehiclePreview/boxTooltip/battleBooster/header]::{%(value)s}
 [vehiclePreview/boxTooltip/body]::{Нажмите, чтобы посмотреть информацию о товарах, которые входят в состав набора.}
 [vehiclePreview/boxTooltip/camouflage/header]::{Камуфляж «%(value)s»}
 [vehiclePreview/boxTooltip/emblem/header]::{Эмблема «%(value)s»}
+[vehiclePreview/boxTooltip/equipment/header]::{Снаряжение «%(value)s»}
 [vehiclePreview/boxTooltip/header]::{Сопутствующие товары}
 [vehiclePreview/boxTooltip/inscription/header]::{Надпись «%(value)s»}
 [vehiclePreview/boxTooltip/modification/header]::{Эффект «%(value)s»}
+[vehiclePreview/boxTooltip/optionalDevice/header]::{Оборудование «%(value)s»}
 [vehiclePreview/boxTooltip/paint/header]::{Краска «%(value)s»}
 [vehiclePreview/boxTooltip/personalNumber/header]::{%(group)s «%(value)s»}
 [vehiclePreview/boxTooltip/projectionDecal/header]::{Декаль «%(value)s»}
@@ -2861,8 +2889,6 @@ Content-Transfer-Encoding: 8bit
 [vehiclePreview/buyButton/parentModuleIsLocked/header]::{Исследование недоступно}
 [vehiclePreview/buyButton/parentVehicleIsLocked/body]::{Сначала исследуйте саму машину и предыдущие модули.}
 [vehiclePreview/buyButton/parentVehicleIsLocked/header]::{Исследование недоступно}
-[vehiclePreview/buyButton/restoreRequested/body]::{Вы уже подали заявку на восстановление танка.}
-[vehiclePreview/buyButton/restoreRequested/header]::{Восстановление}
 [vehiclePreview/crew/additionalRoles]::{По совместительству: %(roles)s}
 [vehiclePreview/crew/commander]::{Влияет на дальность обнаружения противника (%(paramName)s).
 Усиливает экипаж. За каждые %(commanderPercents)s своего основного навыка командир добавляет по %(crewPercents)s к основному умению всем членам экипажа, кроме самого себя.}
@@ -2930,10 +2956,10 @@ Content-Transfer-Encoding: 8bit
 [vehicleSelector/sorting/vehType/header]::{Тип}
 [vehicleSellDialog/crew/alertIcon/recovery/body]::{Буфер демобилизованных вмещает %(maxVal)s членов экипажа. Сейчас в буфере %(curVal)s человек, демобилизуемый %(sourceName)s заменит %(targetInfo)s.}
 [vehicleSellDialog/crew/alertIcon/recovery/header]::{Буфер демобилизованных заполнен}
-[vehicleSellDialog/renderer/alertIconCrystal/body]::{Сложное усовершенствованное оборудование может быть демонтировано для повторного использования только за боны.}
-[vehicleSellDialog/renderer/alertIconCrystal/header]::{Выгрузить на Склад возможно только за боны}
-[vehicleSellDialog/renderer/alertIconGold/body]::{Сложное штатное оборудование может быть демонтировано для повторного использования только за золото.}
-[vehicleSellDialog/renderer/alertIconGold/header]::{Выгрузить на Склад возможно только за золото}
+[vehicleSellDialog/renderer/alertIconCrystal/body]::{Сложное усовершенствованное оборудование может быть демонтировано для повторного использования за боны.}
+[vehicleSellDialog/renderer/alertIconCrystal/header]::{Выгрузка на Склад}
+[vehicleSellDialog/renderer/alertIconGold/body]::{Сложное штатное оборудование может быть демонтировано для повторного использования за золото или с помощью демонтажного набора.}
+[vehicleSellDialog/renderer/alertIconGold/header]::{Выгрузка на Склад}
 [vehicleStatus/ammoNotFull/header]::{Неполный боекомплект}
 [vehicleStatus/ammoNotFullEvents/header]::{Неполный боекомплект}
 [vehicleStatus/battle/header]::{В бою}

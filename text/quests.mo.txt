@@ -381,13 +381,12 @@ Content-Transfer-Encoding: 8bit
 [bonusName/gold]::{Золото}
 [bonusName/inscription]::{Надпись}
 [bonusName/modification]::{Эффект}
-[bonusName/ny20Fillers]::{Заряды}
 [bonusName/paint]::{Краска}
 [bonusName/personalNumber]::{Трёхзначный номер}
 [bonusName/premium]::{Дней Общего премиум аккаунта}
 [bonusName/premium_plus]::{Дней Танкового премиум аккаунта}
 [bonusName/projectionDecal]::{Декаль}
-[bonusName/slots]::{Слот в Ангаре}
+[bonusName/slots]::{Слотов в Ангаре}
 [bonusName/style]::{Стиль}
 [bonusName/tankmen/no_skills]::{Экипаж}
 [bonusName/tankmen/with_skills]::{Укомплектованный экипаж}
@@ -896,6 +895,7 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/22/battlesCount]::{Проведённых Ранговых боёв}
 [details/dossier/24/battlesCount]::{Проведённых Генеральных сражений}
 [details/dossier/27/battlesCount]::{Проведённых Генеральных сражений}
+[details/dossier/32/battlesCount]::{Проведённых битв за блогера}
 [details/dossier/4/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/5/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/6/battlesCount]::{Пройденных Боевых обучений}
@@ -906,6 +906,27 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/battleCitizen]::{Операция «Ностальгия»}
 [details/dossier/battlesCount]::{Проведённых боёв}
 [details/dossier/beasthunter]::{«Зверобой»}
+[details/dossier/bob/battlesCount]::{Боёв в режиме «Битва блогеров»}
+[details/dossier/bob/capturePoints]::{Очков захвата базы в режиме «Битва блогеров»}
+[details/dossier/bob/damageAssistedRadio]::{Урон по вашим разведданным в режиме «Битва блогеров»}
+[details/dossier/bob/damageAssistedTrack]::{Урон, нанесённый союзниками после попадания, сбившего гусеницу в режиме «Битва блогеров»}
+[details/dossier/bob/damageBlockedByArmor]::{Заблокированного бронёй урона в режиме «Битва блогеров»}
+[details/dossier/bob/damageDealt]::{Нанесённый урон в режиме «Битва блогеров»}
+[details/dossier/bob/damageReceived]::{Полученный урон в режиме «Битва блогеров»}
+[details/dossier/bob/directHits]::{Попаданий в режиме «Битва блогеров»}
+[details/dossier/bob/droppedCapturePoints]::{Очков защиты базы в режиме «Битва блогеров»}
+[details/dossier/bob/frags]::{Уничтоженных машин противника в режиме «Битва блогеров»}
+[details/dossier/bob/losses]::{Поражений в режиме «Битва блогеров»}
+[details/dossier/bob/maxDamage]::{Максимальный урон в режиме «Битва блогеров»}
+[details/dossier/bob/noDamageDirectHitsReceived]::{Полученных попаданий без урона в режиме «Битва блогеров»}
+[details/dossier/bob/originalXP]::{«Чистый» опыт в режиме «Битва блогеров»}
+[details/dossier/bob/piercings]::{Пробитий в режиме «Битва блогеров»}
+[details/dossier/bob/piercingsReceived]::{Полученных пробитий в режиме «Битва блогеров»}
+[details/dossier/bob/potentialDamageReceived]::{Полученного урона от любых попаданий, кроме осколочно-фугасных, в режиме «Битва блогеров»}
+[details/dossier/bob/spotted]::{Обнаруженных машин противника в режиме «Битва блогеров»}
+[details/dossier/bob/survivedBattles]::{Боёв в режиме «Битва блогеров», в которых машина игрока не была уничтожена}
+[details/dossier/bob/wins]::{Побед в режиме «Битва блогеров»}
+[details/dossier/bob/xp]::{Заработанный опыт в режиме «Битва блогеров»}
 [details/dossier/bombardier]::{«Бомбардир»}
 [details/dossier/clan/battlesCount]::{Боёв в «Мировой войне»}
 [details/dossier/clan/capturePoints]::{Очков захвата базы в «Мировой войне»}
@@ -1377,7 +1398,7 @@ Content-Transfer-Encoding: 8bit
 [missions/filter/popover/hideDone]::{Скрыть выполненные}
 [missions/filter/popover/hideUnavailable]::{Скрыть недоступные}
 [missions/filter/popover/title]::{Фильтр задач}
-[missions/filterCounter/closeButton/body]::{Нажмите, чтобы сбросить настройки фильтра на состояние по умолчанию.}
+[missions/filterCounter/closeButton/body]::{Нажмите, чтобы сбросить настройки фильтра на стандартные.}
 [missions/filterCounter/closeButton/header]::{Установить по умолчанию}
 [missions/filterCounter/label]::{Показано задач:}
 [missions/group/motive/label]::{Боевые задачи выбранной категории}
@@ -1389,6 +1410,10 @@ Content-Transfer-Encoding: 8bit
 [missions/noTasksMarathon/dummy/text]::{В настоящий момент игровые события отсутствуют.
 Вы можете выбрать боевую задачу при наличии таковых
 в соответствующем разделе «Боевые задачи».}
+[missions/tab/battleOfBloggers/body]::{Уникальное игровое событие «Битва блогеров»}
+[missions/tab/battleOfBloggers/header]::{Битва блогеров}
+[missions/tab/battleOfBloggers/naasia/body]::{Уникальное игровое событие Dynasty Wars 2020}
+[missions/tab/battleOfBloggers/naasia/header]::{Dynasty Wars 2020}
 [missions/tab/categories/body]::{Различные боевые задачи разового или многоразового выполнения.}
 [missions/tab/categories/header]::{Боевые задачи}
 [missions/tab/category/header/performedTasks]::{Выполнено задач:}
@@ -1401,6 +1426,8 @@ Content-Transfer-Encoding: 8bit
 [missions/tab/eventBoards/header]::{Соревнования}
 [missions/tab/kursk/body]::{Ежедневные боевые задачи, приуроченные к годовщине Курcкой битвы.}
 [missions/tab/kursk/header]::{Курская битва}
+[missions/tab/label/battleOfBloggers]::{Битва блогеров}
+[missions/tab/label/battleOfBloggers/naasia]::{Dynasty Wars 2020}
 [missions/tab/label/categories]::{Боевые задачи}
 [missions/tab/label/currentVehicle]::{Для %(vehName)s}
 [missions/tab/label/eventBoards]::{Соревнования}

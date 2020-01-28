@@ -120,11 +120,6 @@
       <type>url</type>
    </setting>
    <setting>
-      https://ru.wargaming.net/id/signin/token/?account_id=$DB_ID&amp;token=$WGNI_TOKEN&amp;continue_on_failure=1&amp;next=$TARGET_URL(https://ru.wargaming.net/shop/gifts)
-      <name>lootBoxGiftURL</name>
-      <type>url</type>
-   </setting>
-   <setting>
       <name>tokenShopAPIKey</name>
       <type>string</type>
       <value>7v9Prend1nNU979RspoM40ulKV9zyZDxodNniJopQM3yrjM5Voknt30R2wNpgTXK</value>
@@ -620,28 +615,6 @@
       <type>url</type>
    </setting>
    <setting>
-      https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/patchnotes/
-      <name>currentVersionPromo</name>
-      <type>url</type>
-   </setting>
-   <setting>
-      <name>isPatchPromoEnabled</name>
-      <type>macros</type>
-      <macros>AUTH_REALM</macros>
-      <value>
-         <item>
-            <name>CN</name>
-            <type>bool</type>
-            <value>False</value>
-         </item>
-         <item>
-            <name>default</name>
-            <type>bool</type>
-            <value>True</value>
-         </item>
-      </value>
-   </setting>
-   <setting>
       <name>compulsoryIntroVideos</name>
       <type>list</type>
       <value></value>
@@ -919,12 +892,12 @@
       </value>
    </setting>
    <setting>
-      <name>newYearInfo</name>
+      <name>bobEvent</name>
       <type>dict</type>
       <value>
          <item>
-            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/ny20video/
-            <name>baseURL</name>
+            $PARAMS(/skills)
+            <name>skillsUrl</name>
             <type>url</type>
          </item>
       </value>

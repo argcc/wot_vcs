@@ -69,11 +69,13 @@ Content-Transfer-Encoding: 8bit
 [artefact_buy/vehicle_locked]::{Машина заблокирована. Покупка и установка %(kind)s '%(name)s' не удалась.}
 [artefact_buy/vehicle_need_repair]::{Покупка и установка %(kind)s '%(name)s' не удалась. Отремонтируйте машину и повторите операцию.}
 [artefact_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
+[artefact_demount/error_not_enough_resources]::{Оборудование «%(equipment)s» не демонтировано. Недостаточно средств.}
 [artefact_destroy/invalid_vehicle]::{Неправильная машина. %(kind)s '%(name)s' не уничтожено.}
 [artefact_destroy/server_error]::{Произошла серверная ошибка уничтожения %(kind)s '%(name)s'. Попробуйте повторить операцию позже.}
 [artefact_destroy/success]::{%(kind)s '%(name)s' уничтожено при демонтаже.}
 [artefact_destroy/vehicle_locked]::{Машина заблокирована. %(kind)s '%(name)s' не уничтожено.}
 [artefact_destroy/vehicle_need_repair]::{Машина повреждена. %(kind)s '%(name)s' не уничтожено. Отремонтируйте машину и повторите операцию.}
+[artefact_remove/demount_kit_success]::{%(kind)s «%(name)s» снято с машины. Использован демонтажный набор.}
 [artefact_remove/error_too_heavy]::{%(kind)s '%(name)s' нельзя демонтировать. Попробуйте заменить ходовую часть или облегчить машину.}
 [artefact_remove/incompatibleEqs]::{Снаряжение '%s' отправлено на Склад в связи с несовместимостью с устанавливаемым модулем.}
 [artefact_remove/invalid_vehicle]::{Неправильная машина. %(kind)s '%(name)s' не демонтировано.}
@@ -335,6 +337,8 @@ Content-Transfer-Encoding: 8bit
 [daily_xp_bonus/switch_off/title]::{Управляемый бонус к опыту временно недоступен}
 [daily_xp_bonus/switch_on/body]::{Технические проблемы решены. Приносим извинения за неудобства.}
 [daily_xp_bonus/switch_on/title]::{Управляемый бонус к опыту снова доступен}
+[demountKit_failed/switchedOff]::{Операции с демонтажными наборами временно недоступны: ведутся технические работы.}
+[demountKit_restored/switchedOn]::{Операции с демонтажными наборами возобновлены. Приносим извинения за причинённые неудобства.}
 [denunciation/success]::{Жалоба на %(name)s «%(topic)s» принята.}
 [disconnected]::{Клиент отключён от сервера.}
 [dismiss_tankman/FORBIDDEN]::{Невозможно демобилизовать члена экипажа: у танка уникальный постоянный экипаж.}
@@ -508,10 +512,10 @@ Content-Transfer-Encoding: 8bit
 [frontline_buy_vehicle/buy]::{Дата: %(date)s
 Списано очков доблести: %(count)s}
 [frontline_buy_vehicle/server_error]::{Покупка %(veh_name)s не была совершена}
-[gameSessionControl/korea/midnightNotification]::{Для предотвращения возникновения игровой зависимости у несовершеннолетних пользователей выход в бой после %(preBlockTime)s запрещён. В %(blockTime)s вы будете отключены от сервера.}
+[gameSessionControl/korea/midnightNotification]::{Для предотвращения возникновения игровой зависимости у несовершеннолетних пользователей выход в бой будет запрещён. В %(blockTime)s вы будете отключены от сервера.}
 [gameSessionControl/korea/note]::{Чрезмерное нахождение в игре может навредить вашей повседневной жизни.}
 [gameSessionControl/korea/playTimeLeft]::{Игрового времени осталось: %(timeLeft)s}
-[gameSessionControl/korea/playTimeNotification]::{Ваше игровое время заканчивается. Нельзя начать новый бой. В %s вы будете отключены от сервера.}
+[gameSessionControl/korea/playTimeNotification]::{Ваше игровое время заканчивается. Выйти в новый бой невозможно. В %s вы будете отключены от сервера.}
 [gameSessionControl/korea/sessionTime]::{Время игры: %(sessionTime)s}
 [gameSessionControl/korea/timeTillMidnight]::{До полуночи осталось: %(timeLeft)s}
 [graficsOptionsFail]::{Невозможно применить графические настройки: %s. Данные настройки несовместимы с вашей видеокартой.}
@@ -560,9 +564,9 @@ Content-Transfer-Encoding: 8bit
 [login_to_other_game_wotg]::{текущая игровая сессия прервана. Ваш Wargaming.net&nbsp;ID был использован для входа в World&nbsp;of&nbsp;Tanks&nbsp;Generals}
 [login_to_other_game_wowp]::{текущая игровая сессия прервана. Ваш Wargaming.net&nbsp;ID был использован для входа в World&nbsp;of&nbsp;Warplanes}
 [login_to_other_game_wows]::{текущая игровая сессия прервана. Ваш Wargaming.net&nbsp;ID был использован для входа в World&nbsp;of&nbsp;Warships}
-[lootboxes/open/server_error]::{Ошибка открытия коробки: серверный сбой.}
-[lootboxes/open/server_error/COOLDOWN]::{Ошибка открытия коробки: дождитесь завершения предыдущей операции.}
-[lootboxes/open/server_error/DISABLED]::{Ошибка открытия коробки: серверный сбой.}
+[lootboxes/open/server_error]::{Ошибка получения подарка: серверный сбой.}
+[lootboxes/open/server_error/COOLDOWN]::{Ошибка получения подарка: дождитесь завершения предыдущей операции.}
+[lootboxes/open/server_error/DISABLED]::{Операция временно недоступна. Попробуйте позже.}
 [maps_black_list/select/server_error]::{Ошибка сервера}
 [maps_black_list/select/server_error/COOLDOWN]::{Действие недоступно. Дождитесь завершения текущей операции.}
 [maps_black_list/select/success]::{Карта «%(mapName)s» исключена из Случайных боёв (для типа «Стандартный бой»). Изменить свой выбор можно будет через %(time)s.}
@@ -624,20 +628,6 @@ Content-Transfer-Encoding: 8bit
 [nation_change/WRONG_ARG_VALUE]::{Ошибка смены комплектации}
 [nation_change/error]::{Ошибка смены комплектации}
 [nation_change/success]::{%(veh_name)s: Национальная комплектация изменена}
-[newYear/addTalisman/server_error]::{Ошибка выбора снегурочки: серверный сбой.}
-[newYear/applyVehicleDiscount/server_error]::{Ошибка активации скидки на технику: серверный сбой.}
-[newYear/applyVehicleDiscount/server_error/alreadyActive]::{Ошибка активации скидки: скидка на данную машину уже активирована.}
-[newYear/applyVehicleDiscount/server_error/alreadyBought]::{Ошибка активации скидки на технику: машина уже куплена.}
-[newYear/applyVehicleDiscount/server_error/noDiscountForVehicle]::{Ошибка активации скидки: скидка на данную машину не найдена.}
-[newYear/applyVehicleDiscount/server_error/noDiscounts]::{Ошибка активации скидки на технику: скидок не найдено.}
-[newYear/applyVehicleDiscount/success]::{Вы активировали %(discount)s%% скидку на %(vehName)s}
-[newYear/breakToys/server_error]::{Ошибка разбития украшений: серверный сбой.}
-[newYear/buyCollection/server_error]::{Ошибка покупки коллекции: серверный сбой.}
-[newYear/buyToy/server_error]::{Ошибка создания украшения: серверный сбой.}
-[newYear/craftToy/server_error]::{Ошибка создания украшения: серверный сбой.}
-[newYear/getTalismanToy/server_error]::{Ошибка получения подарка от снегурочки: серверный сбой.}
-[newYear/hangToy/server_error]::{Ошибка размещения украшения: серверный сбой.}
-[newYear/setVehicleBranch/server_error]::{Ошибка установки в слот: серверный сбой.}
 [notrecruit_window/success]::{Член экипажа успешно рекрутирован.
 %(colorTagOpen)s%(rank)s %(fullName)s
 (%(role)s, %(vehicleName)s, %(roleLevel)d%%)%(colorTagClose)s}
@@ -729,6 +719,7 @@ Content-Transfer-Encoding: 8bit
 [prebattle/teamInvalid/limits/level]::{К бою допускается только техника в диапазоне уровней от %(minLevel)d до %(maxLevel)d.}
 [prebattle/teamInvalid/limits/vehicles]::{Выбранная машина не подходит для данного боя.}
 [prebattle/teamInvalid/observers]::{Команда не может состоять только из наблюдателей.}
+[prebattle/vehicleInvalid/bobOnly]::{Выбранная машина подходит только для режима «Битва блогеров».}
 [prebattle/vehicleInvalid/epicOnly]::{Выбранная машина подходит только для режима «Линия фронта».}
 [prebattle/vehicleInvalid/falloutOnly]::{Выбранная машина подходит только для режима «Бой до последнего».}
 [prebattle/vehicleInvalid/limits/ammo]::{На выбранную машину загружены снаряды или снаряжение, не удовлетворяющие условиям боя.}
@@ -1083,14 +1074,16 @@ Content-Transfer-Encoding: 8bit
 [vehicle_buy/server_error_centerDown]::{Покупка '%(vehName)s' не удалась. Сервис покупки техники временно недоступен.}
 [vehicle_buy/success]::{'%(vehName)s' успешно приобретён. Потрачено %(price)s.}
 [vehicle_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[vehicle_remove/disabledService]::{Удаление %(vehName)s не удалось. Попробуйте позже.}
+[vehicle_remove/demount_kit_disabled]::{Удаление %(vehName)s не удалось. Попробуйте позже.}
 [vehicle_remove/invalid_vehicle]::{Удаление '%(vehName)s' не удалось. Неправильная машина.}
 [vehicle_remove/not_enough_credits]::{Удаление '%(vehName)s' не удалось. Недостаточно кредитов.}
 [vehicle_remove/not_enough_gold]::{Удаление '%(vehName)s' не удалось. Недостаточно золота.}
 [vehicle_remove/not_enough_space]::{Удаление '%(vehName)s' не удалось. Недостаточно места в Казарме.}
 [vehicle_remove/server_error]::{Удаление '%(vehName)s' не удалось. Убедитесь, что машина не состоит в формировании, или попробуйте позже.}
-[vehicle_remove/success]::{'%(vehName)s' успешно удалён. Получено %(money)s.}
-[vehicle_remove/success_dismantling]::{'%(vehName)s' успешно удалён. Получено %(gainMoney)s. Потрачено %(spendMoney)s.}
+[vehicle_remove/success]::{Машина %(vehName)s успешно удалена. Получено %(money)s.}
+[vehicle_remove/success/with_demount_kit]::{Машина %(vehName)s успешно удалена. Получено %(money)s. Использован демонтажный набор (х%(countDK)s).}
+[vehicle_remove/success_dismantling]::{Машина %(vehName)s успешно удалена. Получено %(gainMoney)s. Потрачено %(spendMoney)s.}
+[vehicle_remove/success_dismantling/with_demount_kit]::{Машина %(vehName)s успешно удалена. Получено %(gainMoney)s. Использован демонтажный набор (х%(countDK)s). Потрачено %(spendMoney)s.}
 [vehicle_remove/vehicle_cannot_be_sold]::{Удаление '%(vehName)s' не удалось. Машина будет списана автоматически.}
 [vehicle_remove/vehicle_locked]::{Удаление '%(vehName)s' не удалось. Машина заблокирована.}
 [vehicle_remove/vehicle_need_repair]::{Удаление '%(vehName)s' не удалось. Машине необходим ремонт.}
@@ -1117,14 +1110,17 @@ Content-Transfer-Encoding: 8bit
 [vehicle_restore/server_error_centerDown]::{Не удалось восстановить '%(vehName)s'. Сервис аренды техники временно недоступен.}
 [vehicle_restore/success]::{Машина '%(vehName)s' восстановлена. Потрачено %(price)s.}
 [vehicle_restore/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
+[vehicle_sell/demount_kit_disabled]::{Продажа %(vehName)s не удалась. Попробуйте позже.}
 [vehicle_sell/disabledService]::{Продажа %(vehName)s не удалась. Попробуйте позже.}
 [vehicle_sell/invalid_vehicle]::{Продажа '%(vehName)s' не удалась. Неправильная машина.}
 [vehicle_sell/not_enough_credits]::{Продажа '%(vehName)s' не удалась. Недостаточно кредитов.}
 [vehicle_sell/not_enough_gold]::{Продажа '%(vehName)s' не удалась. Недостаточно золота.}
 [vehicle_sell/not_enough_space]::{Продажа '%(vehName)s' не удалась. Недостаточно места в Казарме.}
 [vehicle_sell/server_error]::{Продажа '%(vehName)s' не удалась. Убедитесь, что машина не состоит в формировании, или попробуйте позже.}
-[vehicle_sell/success]::{'%(vehName)s' успешно продан. Получено %(money)s. %(restoreInfo)s}
-[vehicle_sell/success_dismantling]::{'%(vehName)s' успешно продан. Получено %(gainMoney)s. Потрачено %(spendMoney)s. %(restoreInfo)s}
+[vehicle_sell/success]::{Машина %(vehName)s успешно продана. Получено %(money)s. %(restoreInfo)s}
+[vehicle_sell/success/with_demount_kit]::{Машина %(vehName)s успешно продана. Получено %(money)s. Использован демонтажный набор (х%(countDK)s). %(restoreInfo)s}
+[vehicle_sell/success_dismantling]::{Машина %(vehName)s успешно продана. Получено %(gainMoney)s. Потрачено %(spendMoney)s. %(restoreInfo)s}
+[vehicle_sell/success_dismantling/with_demount_kit]::{Машина %(vehName)s успешно продана. Получено %(gainMoney)s. Использован демонтажный набор (х%(countDK)s). Потрачено %(spendMoney)s. %(restoreInfo)s}
 [vehicle_sell/vehicle_cannot_be_sold]::{Продажа '%(vehName)s' не удалась. Машина будет списана автоматически.}
 [vehicle_sell/vehicle_locked]::{Продажа '%(vehName)s' не удалась. Машина заблокирована.}
 [vehicle_sell/vehicle_need_repair]::{Продажа '%(vehName)s' не удалась. Машине необходим ремонт.}
