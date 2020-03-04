@@ -683,11 +683,6 @@
       </value>
    </setting>
    <setting>
-      https://frontline.worldoftanks.ru/$LANGUAGE_CODE/
-      <name>frontline</name>
-      <type>url</type>
-   </setting>
-   <setting>
       <name>hallOfFame</name>
       <type>dict</type>
       <value>
@@ -892,13 +887,24 @@
       </value>
    </setting>
    <setting>
-      <name>bobEvent</name>
+      <name>battlePass</name>
       <type>dict</type>
       <value>
          <item>
-            $PARAMS(/skills)
-            <name>skillsUrl</name>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/battlepass/
+            <name>infoPage</name>
             <type>url</type>
+         </item>
+         <item>
+            <name>introVideo</name>
+            <type>url</type>
+         </item>
+         <item>
+            <name>extrasVideoPage</name>
+            <type>url</type>
+         </item>
+         <item>
+            <name>webApiUrl</name>
          </item>
       </value>
    </setting>

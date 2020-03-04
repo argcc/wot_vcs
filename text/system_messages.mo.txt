@@ -48,14 +48,14 @@ Content-Transfer-Encoding: 8bit
 [arena_start_errors/kick/UNKNOWN_FAILURE]::{Ошибка подключения к бою (UNKNOWN_FAILURE)}
 [arena_start_errors/kick/VEHICLE_CREATION_FAILURE]::{Ошибка подключения к бою (VEHICLE_CREATION_FAILURE)}
 [arena_start_errors/prb/kick/timeout]::{Время ожидания в очереди на бой истекло, попробуйте сменить машину или зайти позже.}
-[artefact_apply/error_not_for_this_vehicle_type]::{%(kind)s '%(name)s' не подходит для этой машины.}
-[artefact_apply/error_too_heavy]::{%(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
-[artefact_apply/invalid_vehicle]::{Неправильная машина. %(kind)s '%(name)s' не установлено.}
-[artefact_apply/money_success]::{%(kind)s '%(name)s' снято с машины. Потрачено %(money)s.}
-[artefact_apply/server_error]::{Произошла серверная ошибка установки %(kind)s '%(name)s'. Попробуйте повторить операцию позже.}
-[artefact_apply/success]::{%(kind)s '%(name)s' установлено на машину.}
-[artefact_apply/vehicle_locked]::{Машина заблокирована. %(kind)s '%(name)s' не установлено.}
-[artefact_apply/vehicle_need_repair]::{Машина повреждена. %(kind)s '%(name)s' не установлено. Отремонтируйте машину и повторите операцию.}
+[artefact_apply/error_not_for_this_vehicle_type]::{%(kind)s «%(name)s» не подходит для этой машины.}
+[artefact_apply/error_too_heavy]::{%(kind)s «%(name)s» не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
+[artefact_apply/invalid_vehicle]::{Неправильная машина. %(kind)s «%(name)s» не установлено.}
+[artefact_apply/money_success]::{%(kind)s «%(name)s» снято с машины. Потрачено %(money)s.}
+[artefact_apply/server_error]::{Произошла серверная ошибка установки %(kind)s «%(name)s». Попробуйте повторить операцию позже.}
+[artefact_apply/success]::{%(kind)s «%(name)s» установлено на машину.}
+[artefact_apply/vehicle_locked]::{Машина заблокирована. %(kind)s «%(name)s» не установлено.}
+[artefact_apply/vehicle_need_repair]::{Машина повреждена. %(kind)s «%(name)s» не установлено. Отремонтируйте машину и повторите операцию.}
 [artefact_buy/error_not_for_this_vehicle_type]::{%(kind)s '%(name)s' не подходит для этой машины.}
 [artefact_buy/error_too_heavy]::{%(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
 [artefact_buy/invalid_module]::{Покупка %(kind)s '%(name)s' не удалась. Неправильный модуль.}
@@ -70,23 +70,26 @@ Content-Transfer-Encoding: 8bit
 [artefact_buy/vehicle_need_repair]::{Покупка и установка %(kind)s '%(name)s' не удалась. Отремонтируйте машину и повторите операцию.}
 [artefact_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [artefact_demount/error_not_enough_resources]::{Оборудование «%(equipment)s» не демонтировано. Недостаточно средств.}
-[artefact_destroy/invalid_vehicle]::{Неправильная машина. %(kind)s '%(name)s' не уничтожено.}
-[artefact_destroy/server_error]::{Произошла серверная ошибка уничтожения %(kind)s '%(name)s'. Попробуйте повторить операцию позже.}
-[artefact_destroy/success]::{%(kind)s '%(name)s' уничтожено при демонтаже.}
-[artefact_destroy/vehicle_locked]::{Машина заблокирована. %(kind)s '%(name)s' не уничтожено.}
-[artefact_destroy/vehicle_need_repair]::{Машина повреждена. %(kind)s '%(name)s' не уничтожено. Отремонтируйте машину и повторите операцию.}
+[artefact_destroy/invalid_vehicle]::{Неправильная машина. %(kind)s «%(name)s» не уничтожено.}
+[artefact_destroy/server_error]::{Произошла серверная ошибка уничтожения %(kind)s «%(name)s». Попробуйте повторить операцию позже.}
+[artefact_destroy/success]::{%(kind)s «%(name)s» уничтожено при демонтаже.}
+[artefact_destroy/vehicle_locked]::{Машина заблокирована. %(kind)s «%(name)s» не уничтожено.}
+[artefact_destroy/vehicle_need_repair]::{Машина повреждена. %(kind)s «%(name)s» не уничтожено. Отремонтируйте машину и повторите операцию.}
 [artefact_remove/demount_kit_success]::{%(kind)s «%(name)s» снято с машины. Использован демонтажный набор.}
-[artefact_remove/error_too_heavy]::{%(kind)s '%(name)s' нельзя демонтировать. Попробуйте заменить ходовую часть или облегчить машину.}
-[artefact_remove/incompatibleEqs]::{Снаряжение '%s' отправлено на Склад в связи с несовместимостью с устанавливаемым модулем.}
-[artefact_remove/invalid_vehicle]::{Неправильная машина. %(kind)s '%(name)s' не демонтировано.}
-[artefact_remove/money_success]::{%(kind)s '%(name)s' снято с машины. Потрачено %(money)s.}
-[artefact_remove/server_error]::{Произошла серверная ошибка демонтажа %(kind)s '%(name)s'. Попробуйте повторить операцию позже.}
-[artefact_remove/success]::{%(kind)s '%(name)s' снято с машины.}
-[artefact_remove/vehicle_locked]::{Машина заблокирована. %(kind)s '%(name)s' не демонтировано.}
-[artefact_remove/vehicle_need_repair]::{Машина повреждена. %(kind)s '%(name)s' не демонтировано. Отремонтируйте машину и повторите операцию.}
+[artefact_remove/error_too_heavy]::{%(kind)s «%(name)s» нельзя демонтировать. Попробуйте заменить ходовую часть или облегчить машину.}
+[artefact_remove/incompatibleEqs]::{Снаряжение «%s» отправлено на Склад в связи с несовместимостью с устанавливаемым модулем.}
+[artefact_remove/invalid_vehicle]::{Неправильная машина. %(kind)s «%(name)s» не демонтировано.}
+[artefact_remove/money_success]::{%(kind)s «%(name)s» снято с машины. Потрачено %(money)s.}
+[artefact_remove/server_error]::{Произошла серверная ошибка демонтажа %(kind)s «%(name)s». Попробуйте повторить операцию позже.}
+[artefact_remove/success]::{%(kind)s «%(name)s» снято с машины.}
+[artefact_remove/vehicle_locked]::{Машина заблокирована. %(kind)s «%(name)s» не демонтировано.}
+[artefact_remove/vehicle_need_repair]::{Машина повреждена. %(kind)s «%(name)s» не демонтировано. Отремонтируйте машину и повторите операцию.}
 [artefact_sell/invalid_module]::{Продажа %(kind)s '%(name)s' не удалась. Неправильный модуль.}
 [artefact_sell/server_error]::{Продажа %(kind)s '%(name)s' не удалась. Попробуйте позже.}
 [artefact_sell/success]::{%(kind)s '%(name)s' (%(count)s шт.). Получено %(money)s.}
+[artefact_upgrade/server_error]::{Ошибка наладки оборудования. Попробуйте позже.}
+[artefact_upgrade/success]::{%(kind)s «%(name)s» успешно прошло наладку, характеристики улучшены. Потрачено %(money)s.}
+[artefact_upgrade/vehicle_need_repair]::{Машина повреждена. %(kind)s «%(name)s» не налажено. Отремонтируйте машину и повторите операцию.}
 [badges/select/server_error]::{Ошибка сервера}
 [badges/select/server_error/COOLDOWN]::{Действие недоступно. Дождитесь завершения текущей операции.}
 [battle/request/SEND_INVITES]::{Отправка приглашений}
@@ -108,6 +111,16 @@ Content-Transfer-Encoding: 8bit
 [battleBooster_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [battleBooster_sell/server_error]::{Операции с инструкциями временно недоступны: ведутся технические работы.}
 [battleBooster_sell/success]::{%(kind)s «%(name)s» продана (%(count)s шт.). Получено %(money)s.}
+[battlePass/badgeRemoved/text]::{Нашивка %(badgeName)s списана в связи с окончанием сезона Боевого пропуска.}
+[battlePass/switch_disable/body]::{Сезон завершился, но мы обязательно встретимся в следующем!}
+[battlePass/switch_disable/title]::{Боевой пропуск, cезон 1.}
+[battlePass/switch_enabled/body]::{Работа Боевого пропуска возобновлена. Приносим извинения за причинённые неудобства.
+Сезон продлён до %(expiryTime)s.}
+[battlePass/switch_pause/body]::{Функционирование Боевого пропуска временно приостановлено. Ведутся технические работы.}
+[battlePass/switch_started/body]::{Бойцы! Время отправляться в погоню за уникальной наградой Боевого пропуска: трёхмерными стилями, эксклюзивными командирами и многим другим!}
+[battlePass/switch_started/title]::{Боевой пропуск, cезон 1.}
+[battlePassLevels_buy/server_error]::{Произошла ошибка при покупке этапов основной части прогрессии. Пожалуйста, попробуйте ещё раз.}
+[battlePass_buy/server_error]::{Произошла ошибка при покупке улучшенного пропуска. Пожалуйста, попробуйте ещё раз.}
 [battleResults/sharing/success]::{Ссылка скопирована в буфер обмена. Вы можете её вставить с помощью Ctrl+V в игровой чат или использовать вне клиента игры.}
 [battleSession/kickedFromQueue]::{Невозможно подобрать соперников для данного Специального боя. Попробуйте переформировать команду.}
 [battleSession/memberJoined]::{%s присоединился к команде.}
@@ -190,6 +203,7 @@ Content-Transfer-Encoding: 8bit
 [charge/success]::{Боекомплект загружен.}
 [charge/success_save]::{Боекомплект сохранён.}
 [checkout_error]::{Ошибка сервера при получении информации об игроке. Попробуйте войти ещё раз.}
+[choose_battlePass_reward/server_error]::{Произошла ошибка при выборе награды. Повторите попытку позже.}
 [clans/isClanProfileDisabled]::{Действие недоступно. Попробуйте позже.}
 [clans/notifications/accept]::{Принять}
 [clans/notifications/decline]::{Отклонить}
@@ -332,6 +346,16 @@ Content-Transfer-Encoding: 8bit
 [customization/vehicle_destroyed]::{Изменение внешнего вида невозможно. Машина разбита — необходим ремонт.}
 [customization/vehicle_exploded]::{Изменение внешнего вида невозможно. Машина взорвана — необходим ремонт.}
 [customization/vehicle_locked]::{Изменение внешнего вида невозможно. Машина заблокирована.}
+[daily_quests/reroll/quest_is_already_completed]::{Замена стандартной задачи недоступна: задача уже выполнена.}
+[daily_quests/reroll/reroll_disabled]::{Замена стандартной задачи недоступна: операция заблокирована.}
+[daily_quests/reroll/reroll_in_cooldown]::{Замена стандартной задачи недоступна: операция заморожена.}
+[daily_quests/reroll/success]::{Замена стандартной задачи выполнена успешно.}
+[daily_quests/reroll/unknown_error]::{Замена стандартной задачи недоступна. Повторите попытку позже.}
+[daily_quests/switch_off/body]::{По техническим причинам данная функциональность временно недоступна.
+Приносим свои извинения.}
+[daily_quests/switch_off/title]::{Стандартные задачи временно недоступны}
+[daily_quests/switch_on/body]::{Технические проблемы решены. Приносим извинения за неудобства.}
+[daily_quests/switch_on/title]::{Стандартные задачи снова доступны}
 [daily_xp_bonus/switch_off/body]::{По техническим причинам данная функциональность временно недоступна.
 Приносим свои извинения.}
 [daily_xp_bonus/switch_off/title]::{Управляемый бонус к опыту временно недоступен}
@@ -363,6 +387,9 @@ Content-Transfer-Encoding: 8bit
 [equip_tankman/success]::{Пересадка члена экипажа выполнена успешно.}
 [equip_tankman/vehicle_locked]::{Ошибка перемещения члена экипажа на машину. Машина заблокирована.}
 [equip_tankman/vehicle_need_repair]::{Ошибка перемещения члена экипажа на машину. Необходим ремонт.}
+[event_progression_buy_vehicle/buy]::{Дата: %(date)s
+Списано жетонов: %(count)s}
+[event_progression_buy_vehicle/server_error]::{Покупка %(veh_name)s не была совершена}
 [exchange/not_enough_gold]::{Недостаточно золота для обмена.}
 [exchange/server_error]::{Ошибка обмена %(gold)s золота. Попробуйте позже.}
 [exchange/success]::{Обмен %(gold)s золота успешно завершён. Получено %(credits)s.}
@@ -509,9 +536,6 @@ Content-Transfer-Encoding: 8bit
 [free_xp_to_tman_skill/error/WRONG_ARGS_TYPE]::{Ошибка при обучении члена экипажа. Попробуйте позже.}
 [free_xp_to_tman_skill/server_error]::{Не удалось обучить члена экипажа. Попробуйте позже.}
 [free_xp_to_tman_skill/success]::{Член экипажа успешно обучен. Потрачено свободного опыта: %(freeXP)s.}
-[frontline_buy_vehicle/buy]::{Дата: %(date)s
-Списано очков доблести: %(count)s}
-[frontline_buy_vehicle/server_error]::{Покупка %(veh_name)s не была совершена}
 [gameSessionControl/korea/midnightNotification]::{Для предотвращения возникновения игровой зависимости у несовершеннолетних пользователей выход в бой будет запрещён. В %(blockTime)s вы будете отключены от сервера.}
 [gameSessionControl/korea/note]::{Чрезмерное нахождение в игре может навредить вашей повседневной жизни.}
 [gameSessionControl/korea/playTimeLeft]::{Игрового времени осталось: %(timeLeft)s}
@@ -719,7 +743,6 @@ Content-Transfer-Encoding: 8bit
 [prebattle/teamInvalid/limits/level]::{К бою допускается только техника в диапазоне уровней от %(minLevel)d до %(maxLevel)d.}
 [prebattle/teamInvalid/limits/vehicles]::{Выбранная машина не подходит для данного боя.}
 [prebattle/teamInvalid/observers]::{Команда не может состоять только из наблюдателей.}
-[prebattle/vehicleInvalid/bobOnly]::{Выбранная машина подходит только для режима «Битва блогеров».}
 [prebattle/vehicleInvalid/epicOnly]::{Выбранная машина подходит только для режима «Линия фронта».}
 [prebattle/vehicleInvalid/falloutOnly]::{Выбранная машина подходит только для режима «Бой до последнего».}
 [prebattle/vehicleInvalid/limits/ammo]::{На выбранную машину загружены снаряды или снаряжение, не удовлетворяющие условиям боя.}
@@ -760,7 +783,8 @@ Content-Transfer-Encoding: 8bit
 Выйти из режима невозможно. Вы в основном составе и готовы к бою.}
 [ranked/notification/available]::{Режим прекращения огня окончен: Ранговые бои снова доступны.}
 [ranked/notification/congratulations]::{Поздравляем!}
-[ranked/notification/notAvailable]::{Режим «Ранговый бой» недоступен. Следите за информацией на портале игры.}
+[ranked/notification/notAvailable]::{Ранговые бои недоступны. Следите за новостями на портале игры.}
+[ranked/notification/notSet]::{На выбранном сервере режим недоступен.}
 [ranked/notification/primeTime]::{Ранговые бои недоступны до окончания режима прекращения огня.}
 [ranked/notifications/bonusName/badge]::{Получена нашивка:}
 [ranked/notifications/bonusName/badges]::{Получены нашивки:}
@@ -1046,6 +1070,8 @@ Content-Transfer-Encoding: 8bit
 [unlocks/vehicle/unlock_success]::{%(userString)s исследован. Потрачено нераспределённого опыта %(vehXP)s, свободного опыта %(freeXP)s.}
 [upgradeTankman/server_error]::{Ошибка обучения члена экипажа. Попробуйте позже.}
 [upgradeTankman/success]::{Обучение выполнено успешно.}
+[upgradeTrophyDevice/switch_off/body]::{По техническим причинам наладка трофейного оборудования временно недоступна. Повторите попытку позже.}
+[upgradeTrophyDevice/switch_on/body]::{Наладка трофейного оборудования снова доступна. Приносим извинения за неудобства.}
 [vehicle/restore/finished]::{Машина %(vehicleName)s недоступна для восстановления: закончился отведённый на операцию срок.}
 [vehicle/restoreDuration/days]::{Машина будет доступна для восстановления в Магазине ещё %(time)s д.}
 [vehicle/restoreDuration/hours]::{Машина будет доступна для восстановления в Магазине ещё %(time)s ч.}

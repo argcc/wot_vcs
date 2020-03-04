@@ -10,6 +10,8 @@ Content-Transfer-Encoding: 8bit
 }
 [label/assist]::{Среднее содействие}
 [label/averageDamage]::{Средний урон}
+[label/averageFrags]::{Ср. кол-во уничтоженной техники}
+[label/averageVehiclesLevel]::{Средний уровень техники}
 [label/averageXP]::{Средний опыт}
 [label/battleEfficiency]::{Боевая эффективность}
 [label/blockedDamage]::{Средний заблок. урон}
@@ -18,30 +20,43 @@ Content-Transfer-Encoding: 8bit
 [label/freeXp]::{Свободный опыт}
 [label/gamingXp]::{Боевой опыт}
 [label/playBattle]::{Проведите бой}
+[label/spotted]::{Ср. кол-во обнаруженной техники}
+[label/survivedRate]::{Выживаемость}
 [label/tabBattle]::{По боям}
 [label/tabVehicle]::{По технике}
 [label/totalCredits]::{Итог по кредитам}
 [label/totalCrystal]::{Итог по бонам}
 [label/victory]::{Победы}
+[label/winRate]::{Процент побед}
 [label/wtr]::{Рейтинг WTR}
 [moreBtn/label]::{В Зал славы}
 [propertyInfo/current]::{За сессию}
 [propertyInfo/dynamic]::{Динамика}
 [propertyInfo/prop/descr/averageDamage]::{Отношение общего количества нанесённого урона к количеству проведённых за сессию боёв. Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
+[propertyInfo/prop/descr/averageFrags]::{Отношение количества уничтоженных машин к количеству проведённых боёв.}
+[propertyInfo/prop/descr/averageVehiclesLevel]::{Средний уровень машин, на которых вы играли в течение игровой сессии.}
 [propertyInfo/prop/descr/averageXp]::{Отношение общего количества заработанного опыта к количеству проведённых боёв. Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
 [propertyInfo/prop/descr/blockedDamage]::{Отношение общего количества заблокированного бронёй урона к количеству проведённых за сессию боёв. Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
 [propertyInfo/prop/descr/helpDamage]::{Отношение урона по вашим разведданным и урона, нанесённого союзниками после вашего попадания, сбившего гусеницу или оглушившего цель, к количеству проведённых за сессию боёв. Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
 [propertyInfo/prop/descr/ratioDamage]::{Результат деления показателей «Нанесено урона» на «Получено урона». Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
 [propertyInfo/prop/descr/ratioKill]::{Результат деления показателей «Уничтожил» на «Был уничтожен». Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
-[propertyInfo/prop/descr/winRatio]::{Количество побед в Случайных боях в течение сессии. Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
+[propertyInfo/prop/descr/spotted]::{Отношение количества обнаруженных машин противника к количеству боёв за сессию.}
+[propertyInfo/prop/descr/survivedRate]::{Процент от количества боёв, в которых машина игрока не была уничтожена.}
+[propertyInfo/prop/descr/winRate]::{Процент побед в Случайных боях в течение сессии. Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
+[propertyInfo/prop/descr/wins]::{Количество побед в Случайных боях в течение сессии. Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
 [propertyInfo/prop/descr/wtr]::{WTR по средним показателям за всю сессию. Дельта отображает влияние текущей игровой сессии на параметр за всё время.}
 [propertyInfo/prop/label/averageDamage]::{Средний урон}
+[propertyInfo/prop/label/averageFrags]::{Среднее количество уничтоженной техники}
+[propertyInfo/prop/label/averageVehiclesLevel]::{Средний уровень техники}
 [propertyInfo/prop/label/averageXp]::{Средний опыт}
 [propertyInfo/prop/label/blockedDamage]::{Средний заблокированный урон}
 [propertyInfo/prop/label/helpDamage]::{Среднее содействие}
-[propertyInfo/prop/label/ratioDamage]::{Коэффициент урона}
-[propertyInfo/prop/label/ratioKill]::{Коэффициент уничтожения}
-[propertyInfo/prop/label/winRatio]::{Победы}
+[propertyInfo/prop/label/ratioDamage]::{Нанесено/получено урона}
+[propertyInfo/prop/label/ratioKill]::{Уничтожил/был уничтожен}
+[propertyInfo/prop/label/spotted]::{Среднее количество обнаруженной техники}
+[propertyInfo/prop/label/survivedRate]::{Выживаемость}
+[propertyInfo/prop/label/winRate]::{Процент побед}
+[propertyInfo/prop/label/wins]::{Победы}
 [propertyInfo/prop/label/wtr]::{Рейтинг WTR}
 [propertyInfo/total]::{За всё время}
 [propertyInfo/total/descr]::{Отображаются только те параметры, значения которых есть в наличии.}
@@ -66,6 +81,18 @@ Content-Transfer-Encoding: 8bit
 [propertyInfo/total/total]::{Итог}
 [ratio/inverse]::{%(open)s%(numerator)s%(close)s / %(denominator)s}
 [ratio/normal]::{%(numerator)s / %(open)s%(denominator)s%(close)s}
+[settings/commonSettings/header]::{Общие настройки}
+[settings/commonSettings/isNotNeededResetStatsEveryDay]::{Не сбрасывать статистику ежедневно}
+[settings/commonSettings/saveCurrentTab]::{Сохранять выбранную вкладку}
+[settings/controls/applyBtn]::{Применить}
+[settings/controls/backBtn]::{Назад}
+[settings/economicBlock/header]::{Экономические показатели}
+[settings/economicBlock/withSpending]::{С учётом надбавок и расходов}
+[settings/economicBlock/withoutSpending]::{С учётом надбавок}
+[settings/efficiencyBlock/error]::{Максимум %(max)s параметров}
+[settings/efficiencyBlock/header]::{Боевая эффективность}
+[settings/efficiencyBlock/subheader]::{Показывать %(selected)s / %(max)s}
+[settings/header]::{Настройки}
 [tankInfo/battleEfficiency/title]::{Боевая эффективность}
 [tankInfo/level]::{Уровень}
 [tankInfo/main]::{Основной}
@@ -73,13 +100,16 @@ Content-Transfer-Encoding: 8bit
 [tankInfo/markOnGun/warning]::{Отличительных отметок нет: %(progress)s}
 [tankInfo/status/total]::{Боёв за сессию: %(total)s}
 [tankInfo/status/warning]::{Проведите бой}
-[tooltip/battleType/hasBattles/body]::{Проведено боёв: %(value)s. Статистика обновляется после каждого боя. Значения будут автоматически обнулены по окончании суток. Тип боя «Генеральное сражение» не учитывается в сессионной статистике.}
+[tooltip/battleType/hasBattles/body]::{Проведено боёв: %(value)s. Статистика обновляется после каждого боя и не обнуляется автоматически. Генеральные сражения не учитываются в сессионной статистике.}
+[tooltip/battleType/hasBattles/daily/body]::{Проведено боёв: %(value)s. Статистика обновляется после каждого боя. Значения будут автоматически обнулены по окончании суток. Генеральные сражения не учитываются в сессионной статистике.}
 [tooltip/battleType/header]::{Сессионная статистика в режиме «%(battleType)s»}
-[tooltip/battleType/noBattles/body]::{Статистика появляется после первого проведённого боя и обновляется после каждого последующего. Значения будут автоматически обнулены по окончании суток. Тип боя «Генеральное сражение» не учитывается в сессионной статистике.}
-[tooltip/dropSkillsButton/available/body]::{Нажмите, чтобы сбросить текущие значения сессионной статистики. До автоматического обнуления сессионной статистики осталось%(time)s}
-[tooltip/dropSkillsButton/available/time]::{: %(hours)s ч %(minutes)s мин}
-[tooltip/dropSkillsButton/header]::{Сбросить}
-[tooltip/dropSkillsButton/unavailable/body]::{В данный момент сброс статистики недоступен. Значения будут автоматически обнулены по окончании суток.}
+[tooltip/battleType/noBattles/body]::{Для отображения статистики проведите бой. Статистика обновляется после каждого боя и не обнуляется автоматически. Последнее можно изменить в настройках. Также статистику можно сбросить вручную. Генеральные сражения не учитываются в сессионной статистике.}
+[tooltip/battleType/noBattles/daily/body]::{Статистика появляется после первого проведённого боя и обновляется после каждого последующего. Значения будут автоматически обнулены по окончании суток. Генеральные сражения не учитываются в сессионной статистике.}
+[tooltip/clearButton/available/body]::{Нажмите, чтобы сбросить текущие значения сессионной статистики.}
+[tooltip/clearButton/available/daily/body]::{Нажмите, чтобы сбросить текущие значения сессионной статистики. До автоматического обнуления сессионной статистики осталось%(time)s}
+[tooltip/clearButton/header]::{Сбросить}
+[tooltip/clearButton/unavailable/body]::{В настоящий момент сброс статистики невозможен.}
+[tooltip/clearButton/unavailable/daily/body]::{В данный момент сброс статистики недоступен. Значения будут автоматически обнулены по окончании суток.}
 [tooltip/header/avgDamage]::{Средний урон}
 [tooltip/header/battleCount]::{Количество боёв}
 [tooltip/header/wtr]::{World of Tanks Rating}
@@ -89,6 +119,12 @@ Content-Transfer-Encoding: 8bit
 [tooltip/moreBtn/available/body]::{Нажмите, чтобы перейти к сессионной статистике в Зале славы.}
 [tooltip/moreBtn/header]::{В Зал славы}
 [tooltip/moreBtn/unavailable/body]::{В данный момент Зал славы недоступен, переход невозможен. Повторите попытку позже.}
+[tooltip/settings/commonSettings/isNotNeededResetStatsEveryDay/body]::{При включении данной настройки статистика перестаёт автоматически обнуляться раз в сутки и сохраняет все данные до сброса вручную. Учтите, что при включении настройки накопленная статистика за период более суток не будет совпадать со статистикой из Зала славы.}
+[tooltip/settings/commonSettings/saveCurrentTab/body]::{При включении данной настройки сессионная статистика будет открываться на той вкладке, которую вы просматривали в прошлый раз.}
+[tooltip/settings/resetBtn/body]::{Нажмите, чтобы сбросить настройки сессионной статистики на стандартные.}
+[tooltip/settings/resetBtn/header]::{Сброс настроек сессионной статистики}
+[tooltip/settingsBtn/body]::{Выбор параметров для отображения в сессионной статистике.}
+[tooltip/settingsBtn/header]::{Настройки}
 [tooltip/statValue/credits/body]::{Общее количество заработанных за сессию кредитов: %(total)s}
 [tooltip/statValue/crystals/body]::{Общее количество заработанных за сессию бон: %(total)s}
 [tooltip/statValue/freeXp/body]::{Общее количество заработанного за сессию свободного опыта: %(total)s}

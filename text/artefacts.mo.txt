@@ -209,14 +209,14 @@ Content-Transfer-Encoding: 8bit
 [fireFightingBattleBooster/short_special]::{Даёт умение «Пожаротушение» или усиливает его}
 [gasoline100/always]::{+5% к мощности двигателя и к скорости вращения башни. Расходуется за один бой.}
 [gasoline100/descr]::{{colorTagOpen}+5%{colorTagClose} к мощности двигателя и к скорости вращения башни.}
-[gasoline100/long_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя и к скорости поворота башни на один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для немецких, американских, французских и британских машин с бензиновыми двигателями.}
+[gasoline100/long_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя и скорости вращения башни на один бой. Расходуется за один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит для техники с бензиновыми двигателями.}
 [gasoline100/name]::{100-октановый бензин}
 [gasoline100/onUse]::{?empty?}
 [gasoline100/restriction]::{Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Италии, Польши.}
 [gasoline100/short_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя и к скорости вращения башни}
 [gasoline105/always]::{+10% к мощности двигателя и к скорости вращения башни. Расходуется за один бой.}
 [gasoline105/descr]::{{colorTagOpen}+10%{colorTagClose} к мощности двигателя и к скорости вращения башни.}
-[gasoline105/long_special]::{Добавляет {colorTagOpen}10%{colorTagClose} к мощности двигателя и к скорости поворота башни на один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для немецких, американских, французских и британских машин.}
+[gasoline105/long_special]::{Добавляет {colorTagOpen}10%{colorTagClose} к мощности двигателя и скорости вращения башни на один бой. Расходуется за один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит для техники с бензиновыми двигателями.}
 [gasoline105/name]::{105-октановый бензин}
 [gasoline105/onUse]::{?empty?}
 [gasoline105/restriction]::{Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Италии, Польши.}
@@ -266,7 +266,7 @@ Content-Transfer-Encoding: 8bit
 [largeMedkit/onUse]::{Лечение всех раненых членов экипажа. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.}
 [largeMedkit/removingStun/onUse]::{Лечение всех раненых членов экипажа и снятие эффекта оглушения. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.}
 [largeMedkit/restriction]::{?empty?}
-[largeMedkit/short_special]::{Лечит всех членов экипажа}
+[largeMedkit/short_special]::{Лечит всех раненых членов экипажа и снимает оглушение}
 [largeMedkit/stunDisabled/descr]::{Лечение всех раненых членов экипажа.}
 [largeRepairkit/always]::{+10% к скорости ремонта модулей.}
 [largeRepairkit/descr]::{Починка всех повреждённых модулей.}
@@ -438,6 +438,16 @@ Content-Transfer-Encoding: 8bit
 [toolboxBattleBooster/long_special]::{Расходуется за один бой. Усиливает эффект оборудования «Ящик с инструментами» или «Расширенный набор ЗИП». Для установки инструкции данное оборудование должно быть на технике.}
 [toolboxBattleBooster/name]::{Предбоевое ТО}
 [toolboxBattleBooster/short_special]::{Усиливает эффект от ящика с инструментами}
+[trophyBasicAimDrives/descr]::{{colorTagOpen}+12,5%{colorTagClose} к скорости сведения}
+[trophyBasicAimDrives/name]::{Трофейные приводы наводки}
+[trophyBasicTankRammer/descr]::{{colorTagOpen}-12,5%{colorTagClose} от скорости заряжания}
+[trophyBasicTankRammer/name]::{Трофейный досылатель}
+[trophyOptics/descr]::{{colorTagOpen}+10%{colorTagClose} {arrow} к радиусу обзора, но не более 445 м}
+[trophyOptics/name]::{Трофейная оптика}
+[trophyUpgradedAimDrives/descr]::{{colorTagOpen}+12,5%{colorTagClose} к скорости сведения}
+[trophyUpgradedAimDrives/name]::{Трофейные приводы наводки}
+[trophyUpgradedTankRammer/descr]::{{colorTagOpen}-12,5%{colorTagClose} от скорости заряжания}
+[trophyUpgradedTankRammer/name]::{Трофейный досылатель}
 [virtuosoBattleBooster/action/boost]::{Удваивает эффект от умения «Виртуоз»}
 [virtuosoBattleBooster/action/perk]::{Даёт 100% умение «Виртуоз»}
 [virtuosoBattleBooster/long_special]::{Умение «Виртуоз» ускоряет поворот машины как на месте, так и в движении. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.}

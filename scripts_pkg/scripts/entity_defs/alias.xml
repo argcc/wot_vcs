@@ -569,10 +569,7 @@
             <Type>STRING</Type>
          </creator>
          <creatorBadges>
-            <Type>
-               ARRAY
-               <of>UINT32</of>
-            </Type>
+            <Type>PYTHON</Type>
          </creatorBadges>
          <creatorDBID>
             <Type>DB_ID</Type>
@@ -838,7 +835,10 @@
             <Type>UINT32</Type>
          </battlesNum>
          <ranked>
-            <Type>PYTHON</Type>
+            <Type>
+               TUPLE
+               <of>INT8</of>
+            </Type>
          </ranked>
          <group>
             <Type>UINT8</Type>
@@ -858,9 +858,12 @@
          <wtr>
             <Type>INT16</Type>
          </wtr>
-         <bobInfo>
+         <badges>
             <Type>PYTHON</Type>
-         </bobInfo>
+         </badges>
+         <overriddenBadge>
+            <Type>UINT8</Type>
+         </overriddenBadge>
       </Properties>
    </ARENA_ADDPLAYER_INFO>
    <AVATAR_VEHICLE_ROSTER>
@@ -1160,6 +1163,21 @@
          </endOfCooldownPiT>
       </Properties>
    </RESPAWN_COOLDOWN_ITEM>
+   <RESPAWN_ZONE>
+      FIXED_DICT
+      <Properties>
+         <position>
+            <Type>VECTOR3</Type>
+         </position>
+         <isEnemyNear>
+            <Type>BOOL</Type>
+         </isEnemyNear>
+      </Properties>
+   </RESPAWN_ZONE>
+   <LIST_OF_RESPAWN_ZONE>
+      ARRAY
+      <of>RESPAWN_ZONE</of>
+   </LIST_OF_RESPAWN_ZONE>
    <RESPAWN_INFO>
       FIXED_DICT
       <Properties>
@@ -1175,6 +1193,12 @@
          <manualRespawnPiT>
             <Type>FLOAT32</Type>
          </manualRespawnPiT>
+         <respawnZones>
+            <Type>LIST_OF_RESPAWN_ZONE</Type>
+         </respawnZones>
+         <chosenRespawnZone>
+            <Type>VECTOR3</Type>
+         </chosenRespawnZone>
       </Properties>
    </RESPAWN_INFO>
    <RESPAWN_LIMITED_VEHICLES>
@@ -1395,9 +1419,26 @@
          <wtr>
             <Type>INT16</Type>
          </wtr>
-         <bobInfo>
+         <badges>
             <Type>PYTHON</Type>
-         </bobInfo>
+         </badges>
+         <overriddenBadge>
+            <Type>UINT8</Type>
+         </overriddenBadge>
       </Properties>
    </CLIENT_VEHICLE_PUBLIC_INFO>
+   <PLAY_LIMITS>
+      FIXED_DICT
+      <Properties>
+         <curfew>
+            <Type>INT32</Type>
+         </curfew>
+         <weeklyPlayLimit>
+            <Type>INT32</Type>
+         </weeklyPlayLimit>
+         <dailyPlayLimit>
+            <Type>INT32</Type>
+         </dailyPlayLimit>
+      </Properties>
+   </PLAY_LIMITS>
 </alias.xml>

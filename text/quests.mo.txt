@@ -332,9 +332,12 @@ Content-Transfer-Encoding: 8bit
 [battleProgress/position/left]::{%(formattedProgress)s Осталось: %(left)s Место: %(position)s}
 [battleProgress/position/short]::{%(formattedProgress)s Место: %(position)s}
 [bonusName/berths]::{Мест в Казарме}
+[bonusName/blueprints/any]::{Фрагменты чертежей:}
 [bonusName/blueprints/nation]::{Фрагментов чертежей на нацию %(nationName)s:}
+[bonusName/blueprints/nation/any]::{Национальные фрагменты чертежей:}
 [bonusName/blueprints/universal]::{Универсальных фрагментов чертежей:}
 [bonusName/blueprints/vehicle]::{Фрагментов чертежей на технику %(vehicleName)s:}
+[bonusName/blueprints/vehicle/any]::{Фрагменты чертежей техники:}
 [bonusName/camouflage]::{Камуфляж}
 [bonusName/completionTokens]::{Компоненты}
 [bonusName/completionTokens_1_1]::{Силовая установка StuG IV}
@@ -398,14 +401,18 @@ Content-Transfer-Encoding: 8bit
 [bonuses/compensation/body]::{Данная награда является компенсацией за уже имеющееся игровое имущество.}
 [bonuses/compensation/header]::{Компенсация}
 [bonuses/credits/description]::{%(value)s кредитов}
+[bonuses/crewBook/text]::{%(name)s (x%(value)d)}
+[bonuses/crewSkin/text]::{Облик экипажа: %(firstName)s %(lastName)s (x%(value)d)}
 [bonuses/crystal/description]::{%(value)s бон}
 [bonuses/customization/value]::{x%(count)s}
 [bonuses/discount/name]::{%(name)s %(targetName)s в размере %(effectValue)s (x%(count)s)}
+[bonuses/dossier/achive]::{Медаль: %(name)s}
+[bonuses/dossier/badge]::{Нашивка: %(name)s}
 [bonuses/gold/description]::{%(value)s золота}
 [bonuses/item/additionBonus]::{За выполнение дополнительных условий:}
 [bonuses/item/berths]::{Мест в Казарме:}
 [bonuses/item/creditsFactor]::{коэффициент кредитов}
-[bonuses/item/crewSkin]::{Обликов членов экипажа:}
+[bonuses/item/crewSkin]::{Облик экипажа:}
 [bonuses/item/freeXPFactor]::{коэффициент свободного опыта}
 [bonuses/item/premium]::{Дней Общего премиум аккаунта:}
 [bonuses/item/premiumPlus]::{Дней Танкового премиум аккаунта:}
@@ -434,6 +441,62 @@ Content-Transfer-Encoding: 8bit
 [classes/small/heavyTank]::{ТТ}
 [classes/small/lightTank]::{ЛТ}
 [classes/small/mediumTank]::{СТ}
+[dailyQuests/body/reroll]::{Замена задачи}
+[dailyQuests/bonus/tooltipDescription]::{Выполните 3 стандартные задачи, чтобы получить бонусную.}
+[dailyQuests/bonus/tooltipTitle]::{Бонусная задача}
+[dailyQuests/bonusQuest/countDown_hrs]::{Истекает через %H ч %M мин}
+[dailyQuests/bonusQuest/countDown_minSec]::{Истекает через %MM:%SS}
+[dailyQuests/condition/destroyModule_few]::{Совершить %(value)d критических попадания в бою}
+[dailyQuests/condition/destroyModule_few_accum]::{Совершить %(value)d критических попадания}
+[dailyQuests/condition/destroyModule_plural]::{Совершить %(value)d критических попаданий в бою}
+[dailyQuests/condition/destroyModule_plural_accum]::{Совершить %(value)d критических попаданий}
+[dailyQuests/condition/destroyVeh_few]::{Уничтожить %(value)d ед. техники за бой}
+[dailyQuests/condition/destroyVeh_few_accum]::{Уничтожить %(value)d ед. техники}
+[dailyQuests/condition/destroyVeh_plural]::{Уничтожить %(value)d ед. техники за бой}
+[dailyQuests/condition/destroyVeh_plural_accum]::{Уничтожить %(value)d ед. техники}
+[dailyQuests/condition/destroyVeh_singular]::{Уничтожить %(value)d ед. техники за бой}
+[dailyQuests/condition/dmgTop]::{Попасть в топ-%(value)d по урону в своей команде}
+[dailyQuests/condition/dmgTop_first]::{Занять первое место по урону в своей команде	}
+[dailyQuests/condition/doDamage]::{Нанести %(value)d ед. урона за бой}
+[dailyQuests/condition/doDamageVeh]::{Нанести урон %(value)d ед. техники за бой}
+[dailyQuests/condition/doDamageVeh_accum]::{Нанести урон %(value)d ед. техники}
+[dailyQuests/condition/doDamage_accum]::{Нанести %(value)d ед. урона}
+[dailyQuests/condition/earnExp]::{Заработать %(value)d «чистого» опыта за бой}
+[dailyQuests/condition/earnExp_accum]::{Заработать %(value)d «чистого» опыта}
+[dailyQuests/condition/expTop]::{Попасть в топ-%(value)d по опыту в своей команде}
+[dailyQuests/condition/expTop_first]::{Занять первое место по опыту в своей команде}
+[dailyQuests/condition/spotVeh_few]::{Обнаружить %(value)d ед. техники за бой}
+[dailyQuests/condition/winBattle]::{Победить в бою}
+[dailyQuests/condition/winBattle_accum]::{Победить в %(value)d боях}
+[dailyQuests/countDown/remainingText]::{до следующих доступных стандартных задач}
+[dailyQuests/countDown/title]::{Вы выполнили все стандартные задачи на сегодня}
+[dailyQuests/footer/paragraph]::{Каждая выполненная стандартная, премиум или бонусная задача приближает вас к награде.}
+[dailyQuests/footer/title]::{Выполненных задач:}
+[dailyQuests/header/aboutInfo]::{О ЕЖЕДНЕВНЫХ ЗАДАЧАХ}
+[dailyQuests/header/aboutTooltip/body]::{Перейдите по ссылке, чтобы получить дополнительную информацию.}
+[dailyQuests/header/aboutTooltip/header]::{О ежедневных задачах}
+[dailyQuests/header/title]::{ЕЖЕДНЕВНЫЕ ЗАДАЧИ}
+[dailyQuests/info/bonusMission]::{Выполнение трёх стандартных задач открывает доступ к бонусной, за выполнение которой вы получите ещё более ценные награды. Вы должны успеть выполнить бонусную задачу до конца дня, иначе она пропадёт.}
+[dailyQuests/info/bonusMissionTitle]::{Бонусная задача}
+[dailyQuests/info/dailyMissionTitle]::{Стандартные задачи}
+[dailyQuests/info/dailyMissions]::{Стандартные задачи состоят из случайных условий, и выполнять их можно ежедневно. Как и в личных боевых задачах, прогресс выполнения стандартных задач обновляется после каждого боя. Эти задачи не имеют ограничений по времени и могут быть выполнены в любой момент.}
+[dailyQuests/info/missionSwitchTitle]::{Замена задачи}
+[dailyQuests/info/missionSwitch_hrs]::{Нежелательная стандартная задача может быть заменена на другую случайную. После замены данная опция станет недоступна на %H ч. Замена задачи приведёт к потере прогресса, если в этот момент одна или несколько ваших машин находятся в бою.}
+[dailyQuests/info/missionSwitch_min]::{Нежелательная стандартная задача может быть заменена на другую случайную. После замены данная опция станет недоступна на %H ч и %MM мин. Замена задачи приведёт к потере прогресса, если в этот момент одна или несколько ваших машин находятся в бою.}
+[dailyQuests/missionSwitch/tooltip/body/available]::{Доступно через:}
+[dailyQuests/missionSwitch/tooltip/body/desc]::{у вас появляется возможность заменить нежелательную задачу на другую случайную.}
+[dailyQuests/missionSwitch/tooltip/body/desc_hrs]::{Каждые %H ч}
+[dailyQuests/missionSwitch/tooltip/body/desc_hrs_min]::{Каждые %H ч и %M мин}
+[dailyQuests/missionSwitch/tooltip/body/desc_min_only]::{Каждые %M мин}
+[dailyQuests/missionSwitch/tooltip/header]::{Замена задачи недоступна}
+[dailyQuests/postBattle/and]::{и}
+[dailyQuests/postBattle/genericAmpersand]::{и}
+[dailyQuests/postBattle/genericTitle_bonus]::{Бонусная задача}
+[dailyQuests/postBattle/genericTitle_easy]::{Первая ежедневная задача}
+[dailyQuests/postBattle/genericTitle_epic]::{Особая награда}
+[dailyQuests/postBattle/genericTitle_hard]::{Третья ежедневная задача}
+[dailyQuests/postBattle/genericTitle_medium]::{Вторая ежедневная задача}
+[dailyQuests/tab/label]::{Стандартные}
 [details/conditions/achievements]::{Получить одну из наград:}
 [details/conditions/achievements/not]::{Не получить следующие награды:}
 [details/conditions/achievements/title]::{Заслужить}
@@ -564,6 +627,7 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/cumulative/piercingsReceived]::{Полученные пробития}
 [details/conditions/cumulative/potentialDamageDealt]::{Нанесённый потенциальный урон}
 [details/conditions/cumulative/potentialDamageReceived]::{Полученный потенциальный урон}
+[details/conditions/cumulative/rankChange]::{Получить звание}
 [details/conditions/cumulative/shots]::{Выстрелы}
 [details/conditions/cumulative/single]::{%(param)s}
 [details/conditions/cumulative/sniperDamageDealt]::{Урон с расстояния не менее 300 метров}
@@ -895,7 +959,6 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/22/battlesCount]::{Проведённых Ранговых боёв}
 [details/dossier/24/battlesCount]::{Проведённых Генеральных сражений}
 [details/dossier/27/battlesCount]::{Проведённых Генеральных сражений}
-[details/dossier/32/battlesCount]::{Проведённых битв за блогера}
 [details/dossier/4/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/5/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/6/battlesCount]::{Пройденных Боевых обучений}
@@ -906,27 +969,6 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/battleCitizen]::{Операция «Ностальгия»}
 [details/dossier/battlesCount]::{Проведённых боёв}
 [details/dossier/beasthunter]::{«Зверобой»}
-[details/dossier/bob/battlesCount]::{Боёв в режиме «Битва блогеров»}
-[details/dossier/bob/capturePoints]::{Очков захвата базы в режиме «Битва блогеров»}
-[details/dossier/bob/damageAssistedRadio]::{Урон по вашим разведданным в режиме «Битва блогеров»}
-[details/dossier/bob/damageAssistedTrack]::{Урон, нанесённый союзниками после попадания, сбившего гусеницу в режиме «Битва блогеров»}
-[details/dossier/bob/damageBlockedByArmor]::{Заблокированного бронёй урона в режиме «Битва блогеров»}
-[details/dossier/bob/damageDealt]::{Нанесённый урон в режиме «Битва блогеров»}
-[details/dossier/bob/damageReceived]::{Полученный урон в режиме «Битва блогеров»}
-[details/dossier/bob/directHits]::{Попаданий в режиме «Битва блогеров»}
-[details/dossier/bob/droppedCapturePoints]::{Очков защиты базы в режиме «Битва блогеров»}
-[details/dossier/bob/frags]::{Уничтоженных машин противника в режиме «Битва блогеров»}
-[details/dossier/bob/losses]::{Поражений в режиме «Битва блогеров»}
-[details/dossier/bob/maxDamage]::{Максимальный урон в режиме «Битва блогеров»}
-[details/dossier/bob/noDamageDirectHitsReceived]::{Полученных попаданий без урона в режиме «Битва блогеров»}
-[details/dossier/bob/originalXP]::{«Чистый» опыт в режиме «Битва блогеров»}
-[details/dossier/bob/piercings]::{Пробитий в режиме «Битва блогеров»}
-[details/dossier/bob/piercingsReceived]::{Полученных пробитий в режиме «Битва блогеров»}
-[details/dossier/bob/potentialDamageReceived]::{Полученного урона от любых попаданий, кроме осколочно-фугасных, в режиме «Битва блогеров»}
-[details/dossier/bob/spotted]::{Обнаруженных машин противника в режиме «Битва блогеров»}
-[details/dossier/bob/survivedBattles]::{Боёв в режиме «Битва блогеров», в которых машина игрока не была уничтожена}
-[details/dossier/bob/wins]::{Побед в режиме «Битва блогеров»}
-[details/dossier/bob/xp]::{Заработанный опыт в режиме «Битва блогеров»}
 [details/dossier/bombardier]::{«Бомбардир»}
 [details/dossier/clan/battlesCount]::{Боёв в «Мировой войне»}
 [details/dossier/clan/capturePoints]::{Очков захвата базы в «Мировой войне»}
@@ -1296,6 +1338,18 @@ Content-Transfer-Encoding: 8bit
 [details/tasks/requirements/vehicleLabel/suitable]::{подходит}
 [details/tasks/strategic]::{Часть боевой задачи}
 [details/tasks/subTask]::{Боевая задача}
+[general/countdown/text/timer_hrs]::{Замена доступна через %H ч %M мин}
+[general/countdown/text/timer_hrs_only]::{Замена доступна через %H ч}
+[general/countdown/text/timer_min]::{Замена доступна через %MM:%SS}
+[general/countdown/text/timer_min_only]::{Замена доступна через %M мин}
+[general/countdown/text/timer_sec]::{Замена доступна через %S с}
+[general/countdown/timer_hrs]::{%H ч %M мин}
+[general/countdown/timer_hrs_only]::{%H ч}
+[general/countdown/timer_min]::{%MM:%SS}
+[general/countdown/timer_min_only]::{%M мин}
+[general/countdown/timer_sec]::{%S с}
+[general/info/back/goto]::{К ЗАДАЧАМ}
+[general/info/back/title]::{НАЗАД}
 [igr/tooltip/battlesLabel]::{Боёв}
 [igr/tooltip/winsLabel]::{Побед}
 [item/timer/tillFinish]::{До окончания}
@@ -1410,15 +1464,15 @@ Content-Transfer-Encoding: 8bit
 [missions/noTasksMarathon/dummy/text]::{В настоящий момент игровые события отсутствуют.
 Вы можете выбрать боевую задачу при наличии таковых
 в соответствующем разделе «Боевые задачи».}
-[missions/tab/battleOfBloggers/body]::{Уникальное игровое событие «Битва блогеров»}
-[missions/tab/battleOfBloggers/header]::{Битва блогеров}
-[missions/tab/battleOfBloggers/naasia/body]::{Уникальное игровое событие Dynasty Wars 2020}
-[missions/tab/battleOfBloggers/naasia/header]::{Dynasty Wars 2020}
+[missions/tab/battle_pass/body]::{Играйте в Случайных боях и получайте дополнительные награды.}
+[missions/tab/battle_pass/header]::{Боевой пропуск}
 [missions/tab/categories/body]::{Различные боевые задачи разового или многоразового выполнения.}
 [missions/tab/categories/header]::{Боевые задачи}
 [missions/tab/category/header/performedTasks]::{Выполнено задач:}
 [missions/tab/currentVehicle/body]::{Боевые задачи, доступные для выполнения на выбранной в Ангаре машине.}
 [missions/tab/currentVehicle/header]::{Для выбранной машины}
+[missions/tab/daily/body]::{Случайные условия, которые обновляются ежедневно после выполнения.}
+[missions/tab/daily/header]::{Ежедневные задачи}
 [missions/tab/eventBoards/body]::{Нажмите, чтобы перейти к соревнованиям.}
 [missions/tab/eventBoards/disabled]::{Соревнования}
 [missions/tab/eventBoards/disabled/body]::{Соревнования временно недоступны: ведутся профилактические работы.}
@@ -1426,15 +1480,13 @@ Content-Transfer-Encoding: 8bit
 [missions/tab/eventBoards/header]::{Соревнования}
 [missions/tab/kursk/body]::{Ежедневные боевые задачи, приуроченные к годовщине Курcкой битвы.}
 [missions/tab/kursk/header]::{Курская битва}
-[missions/tab/label/battleOfBloggers]::{Битва блогеров}
-[missions/tab/label/battleOfBloggers/naasia]::{Dynasty Wars 2020}
 [missions/tab/label/categories]::{Боевые задачи}
 [missions/tab/label/currentVehicle]::{Для %(vehName)s}
+[missions/tab/label/daily]::{Ежедневные}
 [missions/tab/label/eventBoards]::{Соревнования}
 [missions/tab/label/kursk]::{Курская битва}
 [missions/tab/label/marathons]::{События}
 [missions/tab/label/missions]::{Учебные задачи}
-[missions/tab/label/springMarathon]::{Погоня за ураганом}
 [missions/tab/marathons/body]::{Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.}
 [missions/tab/marathons/header]::{События}
 [missions/tab/marathons/header/award]::{Награда:}
@@ -1445,8 +1497,6 @@ Content-Transfer-Encoding: 8bit
 [missions/tab/marathons/header/title/action]::{АКЦИЯ}
 [missions/tab/missions/body]::{Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.}
 [missions/tab/missions/header]::{Учебные задачи}
-[missions/tab/springMarathon/body]::{Игровое событие, в рамках которого вы можете получить французский премиум танк VIII уровня Bat.-Châtillon Bourrasque совершенно бесплатно.}
-[missions/tab/springMarathon/header]::{Погоня за ураганом}
 [missions/tokenPopover/buyBtn/label]::{Купить марку}
 [missions/tokenPopover/descr]::{Список боевых задач, в которых можно получить марку %(name)s}
 [missions/tokenPopover/descr/shop]::{Марку %(name)s можно купить только в Премиум магазине.}
@@ -1504,16 +1554,38 @@ Content-Transfer-Encoding: 8bit
 [personalMission/status/onlyMainDone]::{Выполнено основное условие}
 [personalMission/status/sheetRecoveryInProgress]::{Возврат бланка приказа: выполните основное и дополнительное условия}
 [postBattle/progressReset]::{Одно из условий не выполнено, прогресс обнулён}
-[premiumQuest/body/buttonDetails]::{Подробнее}
-[premiumQuest/body/complete]::{Все премиум задачи выполнены! Повторное выполнение станет доступно через %(time)s.}
-[premiumQuest/body/description]::{Получайте ценные награды, ежедневно выполняя три последовательные задачи.}
-[premiumQuest/body/title]::{Дополнительные кредиты, опыт и боны}
-[premiumQuest/detailedQuests/requirements/premiumAccount]::{Необходим Танковый премиум аккаунт}
-[premiumQuest/detailedQuests/requirements/token]::{Предыдущая задача не выполнена}
-[premiumQuest/header/title]::{Премиум задачи}
-[premiumQuest/quests/prem_acc_q01/title]::{Пришёл...}
-[premiumQuest/quests/prem_acc_q02/title]::{...Увидел...}
-[premiumQuest/quests/prem_acc_q03/title]::{...Победил}
+[premiumQuests/body/buttonDetails]::{Подробнее}
+[premiumQuests/body/complete]::{Все премиум задачи выполнены! Повторное выполнение станет доступно через %(time)s.}
+[premiumQuests/body/description]::{Выполняйте три последовательные задачи каждый день и получайте ценные награды.}
+[premiumQuests/body/title]::{Дополнительные кредиты, опыт и боны}
+[premiumQuests/condition/dmgTop_5]::{Попасть в топ-5 игроков по урону}
+[premiumQuests/condition/win/winLong]::{Победить в бою}
+[premiumQuests/countDown/remainingText]::{до следующих доступных премиум задач}
+[premiumQuests/countDown/title]::{Вы выполнили все премиум задачи на сегодня}
+[premiumQuests/detailedQuests/requirements/premiumAccount]::{Необходим Танковый премиум аккаунт}
+[premiumQuests/detailedQuests/requirements/token]::{Предыдущая задача ещё не выполнена}
+[premiumQuests/header/aboutInfo]::{О ЕЖЕДНЕВНЫХ ЗАДАЧАХ}
+[premiumQuests/header/aboutTooltip/body]::{Перейдите по ссылке, чтобы получить дополнительную информацию.}
+[premiumQuests/header/aboutTooltip/header]::{О ежедневных задачах}
+[premiumQuests/header/title]::{ПРЕМИУМ ЗАДАЧИ}
+[premiumQuests/info/conditions]::{Некоторые задачи необходимо выполнить за один бой, в то время как накопительные задачи можно выполнять за любое количество боёв. Для накопительных задач предусмотрена шкала прогресса. Задачи доступны для выполнения в Случайных боях (в т. ч. в Генеральном сражении).}
+[premiumQuests/info/conditionsTitle]::{Условия}
+[premiumQuests/info/epicRewards]::{Для получения особой награды необходимо выполнить цепочку задач, выстроенную по принципу марафона: в зачёт идёт каждая выполненная стандартная, премиум или бонусная задача. По завершении последней задачи цикл начинается заново. Данные задачи цикла не имеют ограничений по времени и могут быть выполнены в любой момент.}
+[premiumQuests/info/epicRewardsTitle]::{Особая награда}
+[premiumQuests/info/premiumMissions]::{Танковый премиум аккаунт открывает доступ к цепочке из трёх премиум задач, которые необходимо выполнить последовательно. Все задачи доступны для выполнения в Случайных боях. Прогресс выполнения премиум задач обновляется после каждого боя.}
+[premiumQuests/info/premiumMissionsTitle]::{Премиум задачи}
+[premiumQuests/notPremiumAccount/button]::{Купить премиум}
+[premiumQuests/notPremiumAccount/paragraph]::{Танковый премиум аккаунт открывает доступ к цепочке из трёх премиум задач, а также даёт другие преимущества: +50% к заработку опыта и кредитов, резервное хранилище, дополнительный слот для исключения карт и управляемый бонус к опыту.}
+[premiumQuests/notPremiumAccount/title]::{Чтобы получить доступ к премиум задачам, необходим Танковый премиум аккаунт.}
+[premiumQuests/postBattle/genericTitle_easy]::{Первая премиум задача}
+[premiumQuests/postBattle/genericTitle_hard]::{Третья премиум задача}
+[premiumQuests/postBattle/genericTitle_medium]::{Вторая премиум задача}
+[premiumQuests/quests/prem_acc_q01/title]::{Первая премиум задача}
+[premiumQuests/quests/prem_acc_q02/title]::{Вторая премиум задача}
+[premiumQuests/quests/prem_acc_q03/title]::{Третья премиум задача}
+[premiumQuests/tab/label]::{Премиум}
+[premiumQuests/tooltips/locked/body]::{Выполните предыдущую премиум задачу для доступа к следующей.}
+[premiumQuests/tooltips/locked/header]::{Задача недоступна}
 [quest/chain/hint/holdAwardSheet]::{ВЫПОЛНИТЬ ЗАДАЧУ ЗА БЛАНК ПРИКАЗА}
 [quest/chain/hint/pause]::{ПОСТАВИТЬ НА ПАУЗУ}
 [quest/condition/dot]::{• }

@@ -537,6 +537,37 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/autoRepairSkipped]::{Не выполнен автоматический ремонт %s. Отремонтируйте машину вручную.}
 [serviceChannelMessages/autoRepairSuccess]::{Ремонт %s выполнен успешно. Потрачено }
 [serviceChannelMessages/badgeAchievement]::{Добавлено нашивок}
+[serviceChannelMessages/battlePass/badges/header/remove]::{Списана нашивка}
+[serviceChannelMessages/battlePass/badges/text/remove]::{Нашивка %(badgeName)s списана в связи с окончанием сезона Боевого пропуска.}
+[serviceChannelMessages/battlePass/reachedCap/header]::{Достигнут лимит очков}
+[serviceChannelMessages/battlePass/reachedCap/text]::{Заработано максимальное количество очков на %(vehName)s.
+Награда за достижение лимита: %(bonusPoints)s.
+Чтобы продолжить зарабатывать очки, смените машину.}
+[serviceChannelMessages/battlePassReward/battle/base/text]::{Вы завершили %(newLevel)s этап основной части прогрессии.
+Получена награда:}
+[serviceChannelMessages/battlePassReward/battle/final/additionalText]::{Ждём вас в следующем сезоне Боевого пропуска.}
+[serviceChannelMessages/battlePassReward/battle/final/text]::{Вы завершили последний этап элитной прогрессии!
+Получена награда:}
+[serviceChannelMessages/battlePassReward/battle/finalBase/additionalText]::{Кроме того, теперь вам доступна элитная часть прогрессии.}
+[serviceChannelMessages/battlePassReward/battle/finalBase/text]::{Вы завершили основную часть прогрессии. Время собирать камни!}
+[serviceChannelMessages/battlePassReward/battle/post/text]::{Вы завершили %(newLevel)s этап элитной части прогрессии.
+Получена награда:}
+[serviceChannelMessages/battlePassReward/button]::{Подробнее}
+[serviceChannelMessages/battlePassReward/buy/gold]::{Потрачено золота:}
+[serviceChannelMessages/battlePassReward/buyProgress/postText]::{Добавлено этапов: %(countLevels)s
+Вы продвинулись до %(currentLevel)s этапа элитной прогрессии.
+Получены награды:}
+[serviceChannelMessages/battlePassReward/buyProgress/text]::{Добавлено этапов: %(countLevels)s
+Вы продвинулись до %(currentLevel)s этапа.
+Получены награды:}
+[serviceChannelMessages/battlePassReward/buyWithRewards/text]::{Получены улучшенные награды за ранее пройденные этапы Боевого пропуска:}
+[serviceChannelMessages/battlePassReward/buyWithoutRewards/text]::{Теперь вы будете получать награды из базовой и улучшенной линеек одновременно.}
+[serviceChannelMessages/battlePassReward/header/buyBP]::{Улучшенный пропуск куплен}
+[serviceChannelMessages/battlePassReward/header/buyProgress]::{Этапы куплены}
+[serviceChannelMessages/battlePassReward/header/default]::{Поздравляем!}
+[serviceChannelMessages/battlePassReward/header/voted]::{Начислена награда}
+[serviceChannelMessages/battlePassReward/tman]::{Командир}
+[serviceChannelMessages/battlePassReward/voting/text]::{За завершение последнего этапа основной прогрессии вам начислено:}
 [serviceChannelMessages/battleResults/achieves]::{Достижения в бою}
 [serviceChannelMessages/battleResults/action]::{Получено %s за акцию «%s»}
 [serviceChannelMessages/battleResults/actions]::{Получено %s за акции «%s»}
@@ -545,6 +576,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/actionsResultsFreeXP]::{%s свободного опыта}
 [serviceChannelMessages/battleResults/actionsResultsGold]::{%s золота}
 [serviceChannelMessages/battleResults/battle]::{Бой}
+[serviceChannelMessages/battleResults/battlePass]::{Получено очков прогрессии: %(pointsDiff)s}
 [serviceChannelMessages/battleResults/button]::{Подробнее}
 [serviceChannelMessages/battleResults/contributionForDamageAllies]::{компенсация за урон от союзников: %s}
 [serviceChannelMessages/battleResults/credits]::{Получено кредитов}
@@ -556,6 +588,8 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/doubleXpFactor]::{x%d за первую победу в день}
 [serviceChannelMessages/battleResults/drawGame]::{Ничья}
 [serviceChannelMessages/battleResults/ended]::{Бой окончен}
+[serviceChannelMessages/battleResults/epicAbilityPoints]::{Очки боевых резервов}
+[serviceChannelMessages/battleResults/epicRewardPoints]::{Жетоны}
 [serviceChannelMessages/battleResults/experience]::{Получено опыта}
 [serviceChannelMessages/battleResults/fort/clan]::{Наступление}
 [serviceChannelMessages/battleResults/fortBuilding]::{Строение}
@@ -647,7 +681,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/creditsReceivedAsGift]::{От администрации получено кредитов: %(credits)s.}
 [serviceChannelMessages/crewBooksCount]::{%(label)s x%(count)s}
 [serviceChannelMessages/crewSkinsCount]::{%(label)s x%(count)s}
-[serviceChannelMessages/currencyUpdate/auction]::{Аукцион}
 [serviceChannelMessages/currencyUpdate/date]::{Дата}
 [serviceChannelMessages/currencyUpdate/debited/credits]::{Списано кредитов}
 [serviceChannelMessages/currencyUpdate/debited/crystal]::{Списано бон}
@@ -656,8 +689,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/currencyUpdate/received/credits]::{Получено кредитов}
 [serviceChannelMessages/currencyUpdate/received/crystal]::{Получено бон}
 [serviceChannelMessages/currencyUpdate/received/gold]::{Получено золота}
-[serviceChannelMessages/currencyUpdate/restored/credits]::{Возвращено кредитов}
-[serviceChannelMessages/currencyUpdate/restored/gold]::{Возвращено золота}
 [serviceChannelMessages/demountKitDisabled]::{Операции с демонтажными наборами временно недоступны: ведутся технические работы.}
 [serviceChannelMessages/demountKitEnabled]::{Операции с демонтажными наборами возобновлены. Приносим извинения за причинённые неудобства.}
 [serviceChannelMessages/durationOfPremiumAccountExpires]::{Срок действия Общего премиум аккаунта истекает %(expiryTime)s.}
@@ -834,6 +865,15 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/progressiveRewardNotification/button]::{Подробнее}
 [serviceChannelMessages/progressiveRewardNotification/header]::{Довольствие}
 [serviceChannelMessages/progressiveRewardNotification/text]::{Играйте и получайте довольствие. Чем выше эффективность игры, тем ближе выдача довольствия.}
+[serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle]::{Получена повышенная награда:}
+[serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel]::{Подробнее}
+[serviceChannelMessages/rankedFinaleAwardsNotification/compensation]::{%(surplusPoints)s шт. ранговых жетонов переведено в %(count)s бон.}
+[serviceChannelMessages/rankedFinaleAwardsNotification/congratulation]::{Поздравляем!}
+[serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle]::{Получена максимальная награда:}
+[serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle]::{Получена стандартная награда:}
+[serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle]::{Получена поощрительная награда:}
+[serviceChannelMessages/rankedFinaleAwardsNotification/text]::{Вы набрали %(points)s шт. ранговых жетонов в 2019–2020 гг.}
+[serviceChannelMessages/rankedFinaleAwardsNotification/title]::{Годовая награда}
 [serviceChannelMessages/recruitGift/header]::{В вашем полку прибыло!}
 [serviceChannelMessages/recruitGift/text]::{Вам начислен экипаж за %(event)s.}
 [serviceChannelMessages/recruitReminder/text]::{У вас остались нерекрутированные члены экипажа: %(count)s. Ближайший срок списания %(date)s!}
@@ -853,6 +893,10 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/serverDowntimeCompensation/rentals]::{аренды}
 [serviceChannelMessages/serverReboot]::{Игровой сервер будет отключён %(date)s.}
 [serviceChannelMessages/serverRebootCancelled]::{Отключение игрового сервера, запланированное %(date)s, отменено.}
+[serviceChannelMessages/specialReward/intelligenceBlueprints]::{Универсальный фрагмент (x%(fragmentsCount)s)}
+[serviceChannelMessages/specialReward/nationalBlueprints]::{Национальный фрагмент (%(nationName)s) (x%(fragmentsCount)s)}
+[serviceChannelMessages/specialReward/title]::{Специальная награда}
+[serviceChannelMessages/specialReward/vehicleBlueprints]::{Фрагмент чертежа для %(vehicleName)s (x%(fragmentsCount)s)}
 [serviceChannelMessages/sysMsg/converter/camouflages]::{Изменён камуфляж}
 [serviceChannelMessages/sysMsg/converter/creditsReceived]::{Начислено кредитов: %(credits)s}
 [serviceChannelMessages/sysMsg/converter/creditsWithdrawn]::{Списано кредитов: %(credits)s}
@@ -880,7 +924,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/customizations/sell]::{%(itemType)s «%(itemName)s», %(count)s шт. Получено %(money)s}
 [serviceChannelMessages/sysMsg/openCustomization/button]::{К внешнему виду}
 [serviceChannelMessages/sysMsg/removeCustomizations]::{Из-за смены модулей следующие элементы внешнего вида были сняты с %(vehicle)s.}
-[serviceChannelMessages/sysMsg/titles/bobBattlesAvailable]::{Бои Битвы блогеров доступны}
 [serviceChannelMessages/sysMsg/titles/customization]::{Изменение внешнего вида:}
 [serviceChannelMessages/sysMsg/titles/dismantling]::{Демонтировано:}
 [serviceChannelMessages/sysMsg/titles/error]::{Ошибка:}
@@ -892,10 +935,12 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/titles/primeTime]::{Режим прекращения огня}
 [serviceChannelMessages/sysMsg/titles/purchase]::{Куплено:}
 [serviceChannelMessages/sysMsg/titles/rankedBattlesAvailable]::{Ранговые бои доступны}
+[serviceChannelMessages/sysMsg/titles/rankedBattlesNotSet]::{Ранговые бои недоступны}
 [serviceChannelMessages/sysMsg/titles/remove]::{Удаление из Ангара:}
 [serviceChannelMessages/sysMsg/titles/repair]::{Ремонт:}
 [serviceChannelMessages/sysMsg/titles/restore]::{Восстановлено:}
 [serviceChannelMessages/sysMsg/titles/selling]::{Продано:}
+[serviceChannelMessages/sysMsg/titles/upgrade]::{Наладка оборудования}
 [serviceChannelMessages/tankPremiumReceivedAsGift]::{От администрации получен Танковый премиум аккаунт на %(days)d д.}
 [serviceChannelMessages/vehCamouflageTimedOut]::{Срок действия камуфляжа на %(vehicleName)s истёк.}
 [serviceChannelMessages/vehEmblemTimedOut]::{Срок действия эмблемы на %(vehicleName)s истёк.}

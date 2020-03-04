@@ -11,6 +11,10 @@ Content-Transfer-Encoding: 8bit
 [PromoPremiumIgrWindow/text]::{Играя в %(iconIgr)s вы получаете возможность арендовать множество машин и выходить на них в бой, не совершая покупку. После завершения акции начисленная техника не исчезает, и вы имеете возможность разоружить её, не беспокоясь о сохранности оборудования, снаряжения и экипажа.}
 [PromoPremiumIgrWindow/title]::{Уникальная акция!}
 [PromoPremiumIgrWindow/windowTitle]::{Специальная техника в IGR}
+[Time/timeLeftShort/days]::{%(day)s д}
+[Time/timeLeftShort/hours]::{%(hour)s ч}
+[Time/timeLeftShort/lessMin]::{менее минуты}
+[Time/timeLeftShort/min]::{%(min)s мин}
 [Time/timeValue/days]::{%(day)s д %(hour)s ч %(min)s мин}
 [Time/timeValue/hours]::{%(hour)s ч %(min)s мин}
 [Time/timeValue/lessMin]::{минуту}
@@ -228,7 +232,7 @@ Content-Transfer-Encoding: 8bit
 [bonusType/21]::{Наступление}
 [bonusType/22]::{Ранговый бой}
 [bonusType/24]::{Генеральное сражение}
-[bonusType/32]::{Битва блогеров}
+[bonusType/27]::{Линия фронта}
 [bonusType/4]::{Специальный бой}
 [bonusType/5]::{Специальный бой}
 [bonusType/6]::{Боевое обучение}
@@ -447,7 +451,7 @@ Content-Transfer-Encoding: 8bit
 [crystals/promoWindow/openShopBtnLabel]::{Купить в Магазине}
 [crystals/promoWindow/subDescr0]::{За Генеральные сражения, Ранговые и Случайные бои, где участвует техника только Х уровня, а также за получение некоторых наград.}
 [crystals/promoWindow/subDescr1]::{Если у вас есть машина Х уровня — выберите желаемый режим или тип боя для заработка бон.}
-[crystals/promoWindow/subDescr2]::{Заработанные боны обмениваются на усовершенствованное оборудование и предбоевые инструкции.}
+[crystals/promoWindow/subDescr2]::{Покупайте усовершенствованное оборудование, инструкции и особую технику.}
 [crystals/promoWindow/subTitle0]::{Несколько способов получения}
 [crystals/promoWindow/subTitle1]::{Свобода выбора}
 [crystals/promoWindow/subTitle2]::{Уникальные товары}
@@ -480,6 +484,7 @@ Content-Transfer-Encoding: 8bit
 [cst_item_ctx_menu/showInHangar]::{Показать в Ангаре}
 [cst_item_ctx_menu/showVehicleStatistics]::{К статистике}
 [cst_item_ctx_menu/styleInfo]::{Информация о стиле}
+[cst_item_ctx_menu/upgrade]::{Наладить}
 [currentVehicleStatus/ammoNotFull]::{Неполный боекомплект}
 [currentVehicleStatus/ammoNotFullEvents]::{Неполный боекомплект}
 [currentVehicleStatus/battle]::{В бою}
@@ -647,6 +652,9 @@ Content-Transfer-Encoding: 8bit
 [fittingSelectPopover/descText/crystal]::{боны}
 [fittingSelectPopover/okBtnLabel]::{Показать оборудование}
 [fittingSelectPopover/titleText]::{Усовершенствованное оборудование}
+[fittingSelectPopover/trophyOverlay/descText]::{Трофейное оборудование — это новая линейка предметов, которая обладает параметрами штатного оборудования, но может быть улучшена до показателей усовершенствованного. Трофейное оборудование невозможно приобрести за игровую валюту, но можно получить в качестве награды в игровых событиях.}
+[fittingSelectPopover/trophyOverlay/okBtnLabel]::{Так точно!}
+[fittingSelectPopover/trophyOverlay/titleText]::{Трофейное оборудование}
 [fortification/installName]::{Установлен}
 [fortification/unloadName]::{Выгрузить}
 [fortificationCtx/assignedPlayers]::{Закреплённые игроки}
@@ -801,19 +809,18 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/menu/unit]::{Командный бой}
 [headerButtons/battle/types/battleTeaching]::{Учебный бой}
 [headerButtons/battle/types/battleTutorial]::{Боевое обучение}
-[headerButtons/battle/types/bob]::{Битва блогеров}
-[headerButtons/battle/types/bob/descr]::{За вододела и двор стреляю в упор}
-[headerButtons/battle/types/bobSquad]::{Взвод Битвы блогеров}
 [headerButtons/battle/types/epic]::{«Линия фронта»}
 [headerButtons/battle/types/epic/descr]::{Режим с автоматическим подбором союзников для игры против случайных противников.}
-[headerButtons/battle/types/epic/extra/currentCycle]::{Сезон %(season)s, эпизод %(cycle)s}
+[headerButtons/battle/types/epic/extra/currentCycle]::{Сезон %(season)s. Этап %(cycle)s}
 [headerButtons/battle/types/epic/extra/currentSeason]::{Сезон %(season)s}
-[headerButtons/battle/types/epic/extra/frozen]::{Режим временно отключён}
+[headerButtons/battle/types/epic/extra/frozen]::{Режим отключён}
 [headerButtons/battle/types/epic/extra/startsAt]::{С %(time)s}
 [headerButtons/battle/types/epicBattle]::{Режим ожидания Линии фронта}
 [headerButtons/battle/types/epicBattle/descr]::{Войти в режим ожидания Линии фронта}
 [headerButtons/battle/types/epicTraining]::{Тренировочный бой}
 [headerButtons/battle/types/epicTraining/descr]::{Линия фронта}
+[headerButtons/battle/types/eventProgression]::{Экспедиция}
+[headerButtons/battle/types/eventProgression/about]::{Ожидайте следующий этап Экспедиции.}
 [headerButtons/battle/types/eventSquad]::{+++Лунный взвод+++}
 [headerButtons/battle/types/fallout]::{«Бой до последнего»}
 [headerButtons/battle/types/fort]::{Укрепрайон: сражения}
@@ -834,8 +841,9 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/ranked/availability/hours]::{%(hour)s ч}
 [headerButtons/battle/types/ranked/availability/lessMin]::{менее минуты}
 [headerButtons/battle/types/ranked/availability/min]::{%(min)s мин}
+[headerButtons/battle/types/ranked/availability/notSet]::{Бои недоступны}
 [headerButtons/battle/types/ranked/availability/season]::{Сезон %(season)s}
-[headerButtons/battle/types/ranked/availability/until]::{C %(time)s.}
+[headerButtons/battle/types/ranked/availability/until]::{C %(date)s %(time)s.}
 [headerButtons/battle/types/ranked/descr]::{Бой за продвижение вверх по ладдерной таблице с получением рангов и ценных наград.
 • Тип боёв: Стандартный бой.
 • Допустимая техника: только Х уровень.}
@@ -845,7 +853,6 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/spec/descr]::{Участие в чемпионатах, турнирах и «Мировой войне».}
 [headerButtons/battle/types/specLeave]::{Специальный бой}
 [headerButtons/battle/types/squad]::{Взвод}
-[headerButtons/battle/types/squad/bob]::{: Битва блогеров}
 [headerButtons/battle/types/squad/descr]::{Формирование из 2-3 игроков для совместной игры в Случайных боях.}
 [headerButtons/battle/types/squad/epic]::{: Линия фронта}
 [headerButtons/battle/types/squad/event]::{+++: событие+++}
@@ -879,8 +886,6 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/clans]::{Кланы}
 [headerButtons/defaultCounter]::{1}
 [headerButtons/doLabel/premium]::{Продлить}
-[headerButtons/fightBtn/tooltip/bobOnly/body]::{Выбранная машина подходит только для режима «Битва блогеров».}
-[headerButtons/fightBtn/tooltip/bobOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/body]::{Выбранная машина подходит только для режима «Линия фронта».}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicLevelRequired/bodyEnd]::{технике %(level)s уровня}
@@ -898,8 +903,10 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/fightBtn/tooltip/falloutVehLevelRequired/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/falloutVehMin/body]::{Выберите машину %(level)s уровня.}
 [headerButtons/fightBtn/tooltip/falloutVehMin/header]::{Выход в бой недоступен}
-[headerButtons/fightBtn/tooltip/rankedDisabled/body]::{На этом сервере комендантский час. Попробуйте перейти на другой сервер.}
+[headerButtons/fightBtn/tooltip/rankedDisabled/body]::{На этом сервере комендантский час.}
 [headerButtons/fightBtn/tooltip/rankedDisabled/header]::{Выход в бой недоступен}
+[headerButtons/fightBtn/tooltip/rankedNotSet/body]::{На выбранном сервере режим недоступен.}
+[headerButtons/fightBtn/tooltip/rankedNotSet/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/rankedVehLevelRequired/body]::{Выберите машину %(level)s уровня.}
 [headerButtons/fightBtn/tooltip/rankedVehLevelRequired/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/sandbox/invalid/header]::{Выход в бой недоступен}
@@ -1046,7 +1053,6 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/20]::{Тренировочный бой}
 [loading/battleTypes/21]::{«Линия фронта»}
 [loading/battleTypes/22]::{«Линия фронта»}
-[loading/battleTypes/23]::{Битва блогеров}
 [loading/battleTypes/4]::{Боевое обучение}
 [loading/battleTypes/5]::{Командный бой}
 [loading/battleTypes/6]::{Исторический бой}
@@ -1071,7 +1077,6 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/desc/20]::{ }
 [loading/battleTypes/desc/21]::{ }
 [loading/battleTypes/desc/22]::{ }
-[loading/battleTypes/desc/23]::{ }
 [loading/battleTypes/desc/4]::{ }
 [loading/battleTypes/desc/5]::{ }
 [loading/battleTypes/desc/6]::{ }
@@ -1189,11 +1194,11 @@ Content-Transfer-Encoding: 8bit
 [moduleFits/center_unavailable]::{Временно недоступен}
 [moduleFits/credits_error]::{?empty?}
 [moduleFits/crystal_error]::{?empty?}
+[moduleFits/destroyBtn/tooltip/body]::{Уничтожить оборудование}
+[moduleFits/destroyBtn/tooltip/header]::{?empty?}
 [moduleFits/destroyDescr]::{Уничтожить оборудование и освободить слот
 для нового оборудования.}
 [moduleFits/destroyEquipment]::{Уничтожить оборудование «%(equipment)s»?}
-[moduleFits/destroyName]::{Уничтожить}
-[moduleFits/destroyToolTip]::{ }
 [moduleFits/gold_error]::{?empty?}
 [moduleFits/need_gun]::{Несовместимое орудие}
 [moduleFits/need_turret]::{Несовместимая башня}
@@ -1209,6 +1214,9 @@ Content-Transfer-Encoding: 8bit
 [moduleFits/too_heavy]::{Недостаточно грузоподъёмности}
 [moduleFits/too_heavy_chassis]::{Слишком тяжёлые модули}
 [moduleFits/unlock_error]::{Не исследован}
+[moduleFits/upgradeBtn/label]::{Наладить}
+[moduleFits/upgradeBtn/tooltip/body]::{Наладка работы оборудования улучшает его характеристики.}
+[moduleFits/upgradeBtn/tooltip/header]::{?empty?}
 [moduleFits/wrong_slot]::{?empty?}
 [moduleInfo/additionalInfo]::{Характеристики снаряда могут отличаться в зависимости от орудия.}
 [moduleInfo/autoReloadGunLabel]::{Система дозарядки магазина}
@@ -1584,7 +1592,7 @@ Content-Transfer-Encoding: 8bit
 [shop/menu/vehicle/obtainingType/tradeInVehicle/name]::{Обмен техники}
 [shop/menu/vehicle/obtainingType/vehicle/name]::{Покупка}
 [shop/menu/vehicle/rent/available]::{Доступно для аренды от %(price)s.}
-[shop/menu/vehicle/rent/cycle]::{Эпизод %(cycle)d из %(seasonType)d}
+[shop/menu/vehicle/rent/cycle]::{Этап %(cycle)d из %(seasonType)d}
 [shop/menu/vehicle/rent/days]::{на дней: %(days)d}
 [shop/menu/vehicle/rent/discount]::{Скидки до %(discount)s}
 [shop/menu/vehicle/rent/forever]::{бессрочно}
@@ -1663,7 +1671,7 @@ Content-Transfer-Encoding: 8bit
 [store/vehicleStates/rentableAgain/epic]::{Продлить аренду}
 [store/vehicleStates/rentableAgain/ranked]::{Продлить аренду}
 [store/vehicleStates/rentalIsOver]::{Аренда завершена}
-[store/vehicleStates/rented/epic]::{Аренда на эпизод %(cycles)s}
+[store/vehicleStates/rented/epic]::{Аренда на этап %(cycles)s}
 [store/vehicleStates/rotationGroupLocked]::{Недоступно}
 [store/vehicleStates/serverRestriction]::{Серверное ограничение}
 [store/vehicleStates/undamaged]::{?empty?}
@@ -1956,8 +1964,8 @@ Content-Transfer-Encoding: 8bit
 [vehicle/igrRentLeft/hours]::{часов: %(hours)s}
 [vehicle/rentLeft/battles]::{Боёв доступно: %(battles)s}
 [vehicle/rentLeft/days]::{Дней аренды: %(days)s}
-[vehicle/rentLeft/epic/cycle]::{Аренда на эпизод %(cycle)s}
-[vehicle/rentLeft/epic/cycles]::{Аренда на эпизоды %(cycles)s}
+[vehicle/rentLeft/epic/cycle]::{Аренда на этап %(cycle)s}
+[vehicle/rentLeft/epic/cycles]::{Аренда на этапы %(cycles)s}
 [vehicle/rentLeft/epic/days]::{Аренда на %(days)s д}
 [vehicle/rentLeft/epic/season]::{Сезон %(season)s}
 [vehicle/rentLeft/hours]::{Часов аренды: %(hours)s}

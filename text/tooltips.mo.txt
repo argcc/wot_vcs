@@ -176,7 +176,7 @@ Content-Transfer-Encoding: 8bit
 [advanced/commander_sixthSense]::{Позволяет командиру определять, обнаружена ли его машина противником.}
 [advanced/commander_tutor]::{Предоставляет дополнительный опыт всем членам экипажа, кроме командира.}
 [advanced/commander_universalist]::{Позволяет командиру овладеть всеми специальностями и заменить выведенных из строя членов экипажа.}
-[advanced/demountKit/common]::{Позволяет демонтировать сложное оборудование без финансовых затрат.}
+[advanced/demountKit/common]::{Позволяет демонтировать сложное или трофейное оборудование без финансовых затрат.}
 [advanced/driver]::{Влияет на динамические характеристики машины.}
 [advanced/driver_badRoadsKing]::{Снижает сопротивление вязких и средних грунтов при движении машины.}
 [advanced/driver_rammingMaster]::{Уменьшает повреждения собственной машины и увеличивает повреждения машины противника при таране.}
@@ -369,6 +369,8 @@ Content-Transfer-Encoding: 8bit
 [awardItem/freeXPFactor/header]::{Коэффициент свободного опыта}
 [awardItem/gold/body]::{Ценная игровая валюта, которую можно потратить на широкий спектр целей: Танковый премиум аккаунт, технику, перевод опыта и т. д.}
 [awardItem/gold/header]::{Золото}
+[awardItem/groups/body]::{Дополнительная награда.}
+[awardItem/groups/header]::{Награда}
 [awardItem/oneof/body]::{Количество наград и их ценность зависят от позиции в ладдере.}
 [awardItem/oneof/header]::{Контейнер с наградой}
 [awardItem/oneof/rankedCycle/body]::{Присваивается в конце этапа и содержит различные награды.
@@ -385,6 +387,8 @@ Content-Transfer-Encoding: 8bit
 больше опыта и кредитов, а также предоставляющий
 дополнительные возможности.}
 [awardItem/premium_plus/header]::{Танковый премиум аккаунт}
+[awardItem/randomBooklet/body]::{Вы получите учебную брошюру для случайной нации. Применяется ко всему экипажу. Изучение даёт по 20 000 опыта каждому члену экипажа.}
+[awardItem/randomBooklet/header]::{Случайная учебная брошюра}
 [awardItem/slots/body]::{Дополнительный свободный слот для новой машины в Ангаре.}
 [awardItem/slots/header]::{Расширение Ангара}
 [awardItem/tankman/body]::{Член экипажа с возможностью выбора нации и специальности для желаемой машины.}
@@ -591,6 +595,11 @@ Content-Transfer-Encoding: 8bit
 [blueprint/BlueprintFragmentTooltip/intelFragment]::{Универсальный фрагмент}
 [blueprint/BlueprintFragmentTooltip/nationalDescription]::{Используется для создания фрагментов чертежей техники %(nation)s.}
 [blueprint/BlueprintFragmentTooltip/nationalFragment]::{Национальный фрагмент}
+[blueprint/BlueprintFragmentTooltip/random/description]::{Вы получите фрагмент чертежа для случайной исследуемой машины.}
+[blueprint/BlueprintFragmentTooltip/random/discount]::{Каждый заполненный фрагментом слот чертежа даёт скидку на исследование машины.}
+[blueprint/BlueprintFragmentTooltip/random/header]::{Случайный фрагмент}
+[blueprint/BlueprintFragmentTooltip/randomNational/description]::{Вы получите фрагмент чертежа для техники любой нации.}
+[blueprint/BlueprintFragmentTooltip/randomNational/header]::{Случайный национальный фрагмент}
 [blueprint/BlueprintScreen/createMaxFragments/body]::{Будет создано фрагментов: {amount}}
 [blueprint/BlueprintScreen/createMaxFragments/header]::{Создать максимум фрагментов этого чертежа, используя все доступные национальные и универсальные фрагменты.}
 [blueprint/BlueprintScreen/researchImpossible/body]::{Не исследована предыдущая машина и/или её модули.}
@@ -604,7 +613,7 @@ Content-Transfer-Encoding: 8bit
 [blueprint/VehicleBlueprintTooltip/fragmentsAcquired]::{Собрано:}
 [blueprint/VehicleBlueprintTooltip/fragmentsConvert]::{Следующие фрагменты этого чертежа будут автоматически конвертироваться:}
 [blueprint/VehicleBlueprintTooltip/freeUnlock]::{Исследование без затрат опыта}
-[blueprint/VehicleBlueprintTooltip/gatherDescription1]::{Получать довольствие. В каждом может быть фрагмент чертежа.}
+[blueprint/VehicleBlueprintTooltip/gatherDescription1]::{Выполнять задачи. Наградой может стать фрагмент чертежа.}
 [blueprint/VehicleBlueprintTooltip/gatherDescription2]::{Фрагмент
 чертежа}
 [blueprint/VehicleBlueprintTooltip/gatherHeader]::{Как собрать:}
@@ -617,7 +626,7 @@ Content-Transfer-Encoding: 8bit
 [blueprint/VehicleBlueprintTooltip/researchDiscount]::{Скидка на исследование:}
 [blueprint/VehicleBlueprintTooltip/unlockedStatus]::{Чертёж собран, машина исследована}
 [booster/activeBtn/disabled/body]::{Вместо активного личного резерва можно активировать резерв того же типа, но лучшего качества.}
-[booster/activeBtn/notAvailable/body]::{Использование резерва доступно только при активном эпизоде Линии фронта. Дату начала очередного эпизода можно найти на экране режима «Линия фронта».}
+[booster/activeBtn/notAvailable/body]::{Использование резерва доступно только при активном этапе Линии фронта. Дату начала очередного этапа можно найти на экране режима «Линия фронта».}
 [booster/filters/qualityBig/body]::{Большой личный резерв.}
 [booster/filters/qualityMedium/body]::{Средний личный резерв.}
 [booster/filters/qualitySmall/body]::{Малый личный резерв.}
@@ -1242,7 +1251,7 @@ Content-Transfer-Encoding: 8bit
 [epicBattleWidget/desc/maxPrestige]::{Доблесть %(prestige)s из %(maxPrestige)s}
 [epicBattleWidget/desc/noPrestige]::{Степень доблести не получена. Уровень %(level)s}
 [epicBattleWidget/desc/normal]::{Доблесть %(prestige)s из %(maxPrestige)s. Уровень %(level)s}
-[epicBattleWidget/header]::{Линия фронта. Эпизод %(season)s}
+[epicBattleWidget/header]::{Линия фронта. Этап %(season)s}
 [epicBattleWidget/info/maxLevel]::{Вы достигли максимального уровня. Для продолжения прогресса и получения наград повысьте степень доблести на главном экране «Линии фронта».}
 [epicBattleWidget/info/maxPrestige]::{Достигнута максимальная степень доблести в сезоне 2019 года}
 [epicBattleWidget/info/maxPrestigeInSeason]::{%(prestigeStr)s — максимально возможная в эпизоде %(season)s. Дальнейший прогресс будет доступен в эпизоде %(nextSeason)s.}
@@ -1269,6 +1278,17 @@ Content-Transfer-Encoding: 8bit
 [equipment/restriction]::{Ограничение:}
 [event/squad/disable/body]::{Для высадки на тёмной стороне Луны выберите %(tankName)s}
 [event/squad/disable/header]::{Внимание!}
+[eventProgression/allSeasonsAreOver]::{Все этапы завершены.}
+[eventProgression/currency]::{Жетоны:}
+[eventProgression/description]::{Участвуйте в Экспедиции и получайте уникальную технику за жетоны: %(vehicles)s или %(vehicle)s.}
+[eventProgression/disabled]::{Режим отключён}
+[eventProgression/frontLine]::{Линия фронта}
+[eventProgression/header]::{Экспедиция}
+[eventProgression/level]::{Уровень %(level)s}
+[eventProgression/season]::{Линия фронта. Этап %(season)s}
+[eventProgression/timeToLeft]::{До конца этапа: %(value)s}
+[eventProgression/timeToStart]::{До начала этапа: %(value)s}
+[eventProgression/unlockedDailyMissions]::{Стали доступны ежедневные задачи.}
 [falloutBattleSelectorWindow/btnDisabled/body]::{Вы находитесь в очереди на вход в бой.}
 [falloutBattleSelectorWindow/btnDisabled/header]::{Переход недоступен}
 [falloutBattleSelectorWindow/btnInSquadDisabled/body]::{Невозможно перейти в данный режим: вы не командир взвода.}
@@ -1571,9 +1591,6 @@ Content-Transfer-Encoding: 8bit
 [header/accountPopover/unavailable]::{Функциональность временно недоступна. Пожалуйста, попробуйте позже.}
 [header/battleType/body]::{Нажмите, чтобы открыть список доступных режимов боёв.}
 [header/battleType/header]::{Выбор режима боя}
-[header/bobSquad/body]::{Создание формирования из 2-3 игроков для совместной игры.
-• Режимы боёв: «Битва блогеров».}
-[header/bobSquad/header]::{Взвод}
 [header/buttons/available]::{В наличии}
 [header/buttons/barracks/body]::{Рекрутировать и демобилизовать членов экипажа.}
 [header/buttons/barracks/header]::{Казарма}
@@ -1762,16 +1779,15 @@ Content-Transfer-Encoding: 8bit
 [login/soundButton/off/header]::{?empty?}
 [login/soundButton/on/body]::{Включить звук.}
 [login/soundButton/on/header]::{?empty?}
-[marathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике X уровня, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите французский средний премиум танк VIII уровня Bat.-Châtillon Bourrasque бесплатно!}
-[marathon/body/extra]::{%(hours)s до завершения активной фазы события «Погоня за ураганом». После активной фазы вы ещё некоторое время сможете купить французский средний премиум танк VIII уровня Bat.-Châtillon Bourrasque с учётом персональной скидки в Премиум магазине.}
-[marathon/body/extra_smart]::{После активной фазы вы ещё некоторое время сможете купить французский средний премиум танк VIII уровня Bat.-Châtillon Bourrasque с учётом персональной скидки в Премиум магазине.}
+[marathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике Х уровня, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите уникальную премиум ПТ-САУ VIII уровня бесплатно.}
+[marathon/body/extra]::{%(day)s до завершения продаж уникального премиум танка VIII уровня с учётом персональной скидки.}
 [marathon/date]::{%(day)s %(month)s %(hour)s:%(minutes)s}
 [marathon/error/battle_type]::{Доступно только в Случайных боях}
-[marathon/error/veh_type]::{Доступно только на технике VI уровня и выше}
+[marathon/error/veh_type]::{Доступно только на технике VIII и X уровней}
 [marathon/extra_state/completed]::{Танк получен}
 [marathon/extra_state/discount]::{Ваша скидка: %(discount)s%%}
 [marathon/extra_state/steps]::{Пройдено этапов: %(currentStep)s / %(allStep)s}
-[marathon/header]::{Погоня за ураганом}
+[marathon/header]::{Зимняя охота}
 [marathon/off/body]::{В данный момент событие недоступно по техническим причинам. Попробуйте позже.}
 [marathon/off/header]::{Событие недоступно}
 [marathon/state/complete]::{Завершено}
@@ -1827,8 +1843,13 @@ Content-Transfer-Encoding: 8bit
 [moduleFits/too_heavy/text]::{Установите ходовую с большей грузоподъёмностью.}
 [moduleFits/too_heavy_chassi/header]::{Недостаточно грузоподъёмности шасси.}
 [moduleFits/too_heavy_chassi/text]::{Замените модули на более лёгкие.}
+[moduleFits/trophyEquipment/basic/description]::{Характеристики трофейного оборудования можно улучшить за игровую валюту. Этот тип оборудования можно получить в качестве награды за игровые события.}
+[moduleFits/trophyEquipment/basic/header]::{Работу трофейного оборудования можно наладить}
+[moduleFits/trophyEquipment/upgraded/description]::{Этот тип оборудования можно получить в качестве награды за игровые события.}
+[moduleFits/trophyEquipment/upgraded/header]::{Работа трофейного оборудования налажена}
 [moduleFits/unlock_error/header]::{Модуль не исследован.}
 [moduleFits/unlock_error/text]::{Исследуйте его в окне исследований текущей машины.}
+[moduleFits/upgradable/price]::{Наладка}
 [moduleFits/wrong_slot/body]::{Модуль уже установлен в другом слоте.}
 [multiselection/alert/body]::{Выберите технику: выйти в бой можно только полностью укомплектовав группу.}
 [multiselection/alert/header]::{Техника не выбрана}
@@ -1864,6 +1885,12 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/bob20_commander4_ru/label]::{Битва блогеров — 2020}
 [notrecruitedtankman/buffon/desc]::{Выдавался за выполнение определённых условий в футбольном режиме 2018 года. Легендарный итальянский вратарь Джанлуиджи Буффон — командир экипажа с уникальной озвучкой и изученными навыками.}
 [notrecruitedtankman/buffon/label]::{Футбольный режим}
+[notrecruitedtankman/commander_bp1/desc]::{Исключительно темпераментный военный со сложным импульсивным характером, который фактически родился и вырос в танковой части. Несмотря на средние теоретические знания, прекрасно чувствует себя в любой боевой ситуации за счёт звериного чутья и хорошо развитой интуиции. Отличается нестандартным тактическим мышлением, что зачастую играет ему на руку в бою.}
+[notrecruitedtankman/commander_bp1/howToGetInfo]::{?empty?}
+[notrecruitedtankman/commander_bp1/label]::{Боевой пропуск, первый сезон}
+[notrecruitedtankman/commander_bp2/desc]::{Выпускник Королевской танковой школы, лучший курсант своего выпуска. Отличный стрелок, установил рекорд школы по уничтожению движущихся целей на большом расстоянии. Технически подкован, знает ТТХ и особенности большинства современной техники, умело использует эти знания в бою. Характер спокойный, уравновешенный. Дисциплинарных взысканий не имеет.}
+[notrecruitedtankman/commander_bp2/howToGetInfo]::{?empty?}
+[notrecruitedtankman/commander_bp2/label]::{Боевой пропуск, первый сезон}
 [notrecruitedtankman/commander_marina/desc]::{Нет такой машины, управление которой не смогла бы освоить эта смелая француженка. Определённо не позавидуешь тем, кто встанет на пути её экипажа, готового на любой риск.}
 [notrecruitedtankman/commander_marina/label]::{Уникальный член экипажа}
 [notrecruitedtankman/commander_patrick/desc]::{Раз, два — тыква разберёт тебя. Три, четыре — нет врага страшнее в мире. Пять, шесть — вам летит дурная весть. Семь, восемь — Патрик к вам придёт без спроса. Девять, де…}
@@ -2054,27 +2081,27 @@ Content-Transfer-Encoding: 8bit
 [personal_case/skills/dropSkillsButton/noSkill/header]::{Нет умений/навыков}
 [personal_case/skills/new/body]::{Перейти в окно навыков и умений}
 [personal_case/skills/new/header]::{Изучить новое умение или навык}
-[personal_case/training/at_spg_btn/body]::{Показать исследованные ПТ-САУ.}
+[personal_case/training/at_spg_btn/body]::{Показать ПТ-САУ этой нации.}
 [personal_case/training/at_spg_btn/header]::{ПТ-САУ}
-[personal_case/training/at_spg_btn_disabled/body]::{Нет исследованных ПТ-САУ.}
+[personal_case/training/at_spg_btn_disabled/body]::{У этой нации нет ПТ-САУ.}
 [personal_case/training/at_spg_btn_disabled/header]::{ПТ-САУ}
 [personal_case/training/current_tank/body]::{Выбрать машину, на которой в данный момент находится член экипажа.}
 [personal_case/training/current_tank/header]::{Текущая машина}
-[personal_case/training/heavy_tank_btn/body]::{Показать исследованные тяжёлые танки.}
+[personal_case/training/heavy_tank_btn/body]::{Показать тяжёлые танки этой нации.}
 [personal_case/training/heavy_tank_btn/header]::{Тяжёлые танки}
-[personal_case/training/heavy_tank_btn_disabled/body]::{Нет исследованных тяжёлых танков.}
+[personal_case/training/heavy_tank_btn_disabled/body]::{У этой нации нет тяжёлых танков.}
 [personal_case/training/heavy_tank_btn_disabled/header]::{Тяжёлые танки}
-[personal_case/training/light_tank_btn/body]::{Показать исследованные лёгкие танки.}
+[personal_case/training/light_tank_btn/body]::{Показать лёгкие танки этой нации.}
 [personal_case/training/light_tank_btn/header]::{Лёгкие танки}
-[personal_case/training/light_tank_btn_disabled/body]::{Нет исследованных лёгких танков.}
+[personal_case/training/light_tank_btn_disabled/body]::{У этой нации нет лёгких танков.}
 [personal_case/training/light_tank_btn_disabled/header]::{Лёгкие танки}
-[personal_case/training/medium_tank_btn/body]::{Показать исследованные средние танки.}
+[personal_case/training/medium_tank_btn/body]::{Показать средние танки этой нации.}
 [personal_case/training/medium_tank_btn/header]::{Средние танки}
-[personal_case/training/medium_tank_btn_disabled/body]::{Нет исследованных средних танков.}
+[personal_case/training/medium_tank_btn_disabled/body]::{У этой нации нет средних танков.}
 [personal_case/training/medium_tank_btn_disabled/header]::{Средние танки}
-[personal_case/training/spg_btn/body]::{Показать исследованные САУ.}
+[personal_case/training/spg_btn/body]::{Показать САУ этой нации.}
 [personal_case/training/spg_btn/header]::{САУ}
-[personal_case/training/spg_btn_disabled/body]::{Нет исследованных САУ.}
+[personal_case/training/spg_btn_disabled/body]::{У этой нации нет САУ.}
 [personal_case/training/spg_btn_disabled/header]::{САУ}
 [personal_case/training/tank/body]::{Техника, на которую будет производиться обучение.}
 [personal_case/training/tank/header]::{Машина}
@@ -2199,6 +2226,7 @@ Content-Transfer-Encoding: 8bit
 [quests/counter/label]::{Количество выполнений боевой задачи}
 [quests/disableLinkBtn/task]::{Для возможности перехода к боевой задаче, снимите флажок «Скрывать выполненные».}
 [quests/igr]::{Боевая задача доступна только в премиум IGR}
+[quests/linkBtn/battlePass]::{К прогрессии Боевого пропуска}
 [quests/linkBtn/task]::{Перейти к данной боевой задаче}
 [quests/newLabel/action]::{Новая акция}
 [quests/newLabel/task]::{Новая боевая задача}
@@ -2253,6 +2281,10 @@ Content-Transfer-Encoding: 8bit
 [ranked/widget/position/title]::{Позиция в рейтинге}
 [ranked/widget/position/unavailableLabel]::{Идёт расчёт позиции. Результат скоро будет известен.}
 [ranked/widget/position/updateLabel]::{Пересчёт рейтинговых позиций происходит раз в 15 мин.}
+[rankedBattleView/rewardsView/tabs/year/scorePoint/body/exchangeText]::{ 
+После начисления награды оставшиеся жетоны компенсируются бонами по курсу %(points)s %(rankedImg)s к %(crystal)s %(crystalImg)s}
+[rankedBattleView/rewardsView/tabs/year/scorePoint/body/mainText]::{Начисляются за прохождение каждого дивизиона и попадание в Золотую лигу. Чем больше жетонов вы заработаете, тем более ценную награду получите по итогам года.}
+[rankedBattleView/rewardsView/tabs/year/scorePoint/header]::{Ранговые жетоны}
 [rankedBattleView/scorePoint/body]::{Начисляются за прохождение дивизионов и попадание в Золотую лигу. Нужны для получения годовой награды в конце трёх сезонов. На странице с наградами можно ознакомиться с количеством необходимых очков и призами.}
 [rankedBattleView/scorePoint/header]::{Ранговые жетоны}
 [rankedBattleView/scorePoint/short/header]::{Ранговый жетон}
@@ -2360,6 +2392,12 @@ Content-Transfer-Encoding: 8bit
 • от 11 до 30% — средний;
 • свыше 31% — большой.}
 [settings/feedback/indicators/dynamicWidth/header]::{Динамические индикаторы}
+[settings/feedback/indicators/showAllies/body]::{Индикатор попадания снаряда от союзников по вашей машине.
+
+Независимо от этой настройки, будет проигрываться специальный звук попадания по вашей машине и будет отображаться декаль непробития.
+
+Настройка распространяется только на режимы, в которых нанесение союзникам урона выстрелом невозможно.}
+[settings/feedback/indicators/showAllies/header]::{Дружественный огонь}
 [settings/followMe/subtitle]::{Следуй за мной!}
 [settings/helpMe/subtitle]::{Помоги!}
 [settings/key/ally/body]::{Наведите свой прицел на технику
@@ -2699,6 +2737,8 @@ Content-Transfer-Encoding: 8bit
 [template/hours/short]::{%(value)s ч}
 [template/minutes/short]::{%(value)s мин}
 [template/time/lessThenMinute]::{менее минуты}
+[tooltips/battlePass/entryPoint/disabled/body]::{Идут технические работы}
+[tooltips/battlePass/entryPoint/disabled/header]::{Боевой пропуск}
 [trade/body]::{Премиум машину можно обменять на другую премиум машину
 текущего уровня или выше.
 
@@ -2773,7 +2813,6 @@ Content-Transfer-Encoding: 8bit
 [vehicle/crew_award]::{Экипаж (%d%%)}
 [vehicle/dailyXPFactor]::{Опыт за первую победу в день}
 [vehicle/damage]::{<h1>Урон</h1> <h2>(hp)</h2>}
-[vehicle/deal/bob/main]::{Машина для события «Битва блогеров»}
 [vehicle/deal/epic/main]::{Машина для режима «Линия фронта»}
 [vehicle/deal/telecom/main/Twitchprime]::{Машина доступна игрокам с активной подпиской на Twitch Prime.}
 [vehicle/deal/telecom/main/default]::{Машина доступна абонентам тарифного плана «%(tariff)s» от %(provider)s.}
@@ -2802,8 +2841,8 @@ Content-Transfer-Encoding: 8bit
 [vehicle/rentAvailable]::{Доступна аренда машины}
 [vehicle/rentLeft/battles]::{Осталось боёв до завершения аренды}
 [vehicle/rentLeft/days]::{Дней аренды осталось}
-[vehicle/rentLeft/epic/cycle]::{Аренда на эпизод %(cycle)s}
-[vehicle/rentLeft/epic/cycles]::{Аренда на эпизоды %(cycles)s}
+[vehicle/rentLeft/epic/cycle]::{Аренда на этап %(cycle)s}
+[vehicle/rentLeft/epic/cycles]::{Аренда на этапы %(cycles)s}
 [vehicle/rentLeft/epic/daysLeft]::{%(timeNum)s д}
 [vehicle/rentLeft/epic/hoursLeft]::{%(timeNum)s ч}
 [vehicle/rentLeft/epic/minsLeft]::{%(timeNum)s мин}
@@ -2881,15 +2920,15 @@ Content-Transfer-Encoding: 8bit
 [vehiclePreview/buyButton/notEnoughCredits/header]::{Недостаточно кредитов}
 [vehiclePreview/buyButton/notEnoughGold/body]::{Пополните счёт.}
 [vehiclePreview/buyButton/notEnoughGold/header]::{Недостаточно золота}
-[vehiclePreview/buyButton/notEnoughPrestigeLevel/header]::{Для покупки необходима 10 степень доблести.}
-[vehiclePreview/buyButton/notEnoughPrestigeLevelAndPoints/header]::{Для покупки необходима 10 степень доблести и очков доблести: %(points)d}
-[vehiclePreview/buyButton/notEnoughPrestigePoints/header]::{Недостаточно очков доблести для покупки.}
+[vehiclePreview/buyButton/notEnoughPrestigePoints/header]::{Для покупки недостаточно жетонов.}
 [vehiclePreview/buyButton/notEnoughXp/body]::{Заработайте его в бою или переведите опыт, полученный на элитной технике.}
 [vehiclePreview/buyButton/notEnoughXp/header]::{Недостаточно опыта}
 [vehiclePreview/buyButton/parentModuleIsLocked/body]::{Исследуйте модули предыдущей машины, необходимые для доступа к данной машине.}
 [vehiclePreview/buyButton/parentModuleIsLocked/header]::{Исследование недоступно}
 [vehiclePreview/buyButton/parentVehicleIsLocked/body]::{Сначала исследуйте саму машину и предыдущие модули.}
 [vehiclePreview/buyButton/parentVehicleIsLocked/header]::{Исследование недоступно}
+[vehiclePreview/buyingPanel/eventProgression/price/body]::{Экспедиция 2020 года разбита на несколько этапов. Всего их запланировано восемь. За каждый этап вы можете заработать определённое количество жетонов Экспедиции (до 3 шт. за этап) и обменять их на наградные машины IX уровня. Помните, что максимального количества жетонов хватит только на две машины из трёх. Распоряжайтесь жетонами мудро.}
+[vehiclePreview/buyingPanel/eventProgression/price/header]::{Жетоны Экспедиции}
 [vehiclePreview/crew/additionalRoles]::{По совместительству: %(roles)s}
 [vehiclePreview/crew/commander]::{Влияет на дальность обнаружения противника (%(paramName)s).
 Усиливает экипаж. За каждые %(commanderPercents)s своего основного навыка командир добавляет по %(crewPercents)s к основному умению всем членам экипажа, кроме самого себя.}
@@ -2959,7 +2998,7 @@ Content-Transfer-Encoding: 8bit
 [vehicleSellDialog/crew/alertIcon/recovery/header]::{Буфер демобилизованных заполнен}
 [vehicleSellDialog/renderer/alertIconCrystal/body]::{Сложное усовершенствованное оборудование может быть демонтировано для повторного использования за боны.}
 [vehicleSellDialog/renderer/alertIconCrystal/header]::{Выгрузка на Склад}
-[vehicleSellDialog/renderer/alertIconGold/body]::{Сложное штатное оборудование может быть демонтировано для повторного использования за золото или с помощью демонтажного набора.}
+[vehicleSellDialog/renderer/alertIconGold/body]::{Сложное штатное и трофейное оборудование может быть демонтировано для повторного использования за золото или с помощью демонтажного набора.}
 [vehicleSellDialog/renderer/alertIconGold/header]::{Выгрузка на Склад}
 [vehicleStatus/ammoNotFull/header]::{Неполный боекомплект}
 [vehicleStatus/ammoNotFullEvents/header]::{Неполный боекомплект}

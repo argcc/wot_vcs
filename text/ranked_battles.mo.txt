@@ -10,9 +10,10 @@ Content-Transfer-Encoding: 8bit
 }
 [alertMessage/allPeripheriesHalt]::{Комендантский час на всех серверах. Бои начнутся через %(time)s.}
 [alertMessage/button]::{Сменить сервер}
-[alertMessage/seasonFinished]::{Сезон завершён}
+[alertMessage/seasonFinished]::{Сезон %(seasonName)s завершён}
 [alertMessage/singleModeHalt]::{Комендантский час на сервере. Бои начнутся через %(time)s.}
-[alertMessage/somePeripheriesHalt]::{Комендантский час на %(serverName)s}
+[alertMessage/somePeripheriesHalt]::{Комендантский час на сервере %(serverName)s}
+[alertMessage/unsuitablePeriphery]::{Режим недоступен на сервере %(serverName)s}
 [awards/bonusBattles/body]::{За эффективность в предыдущем дивизионе (или в квалификации): %(divisionAmount)s
 За количество шевронов в квалификации: %(qualAmount)s}
 [awards/bonusBattles/header]::{Начислено призовых боёв:}
@@ -90,7 +91,7 @@ Content-Transfer-Encoding: 8bit
 [battleresult/status/stageSaved]::{Шеврон защищён}
 [battleresult/status/stagesEarned]::{Получены шевроны}
 [calendarDay/serverName]::{%(server)s}
-[calendarDay/time]::{%(start)s - %(end)s}
+[calendarDay/time]::{%(start)s–%(end)s}
 [calendarDay/title]::{Расписание}
 [calendarStepsTooltip/title]::{Расписание этапов}
 [division/bronze]::{Третий дивизион}
@@ -125,7 +126,7 @@ Content-Transfer-Encoding: 8bit
 [intoPage/blocks/block1/title]::{Техника Х уровня}
 [intoPage/blocks/block2/description]::{На пути к победе необходимо пройти через квалификацию и 3 дивизиона, а после — попасть в одну из лиг, сражаясь с равным по силе противником.}
 [intoPage/blocks/block2/title]::{3 дивизиона}
-[intoPage/blocks/block3/description]::{Преодолев весь этап, вы сможете получить уникальный стиль для техники X уровня, а в конце сезона 2019 — ценные награды и уникальный танк IX уровня.}
+[intoPage/blocks/block3/description]::{Пройдя весь сезон, вы сможете получить специальный стиль для техники X уровня, а в конце сезона 2019–2020 гг. — ценные награды и уникальный танк IX уровня.}
 [intoPage/blocks/block3/title]::{Уникальные награды}
 [intoPage/btns/accept]::{Так точно!}
 [intoPage/btns/detailed]::{Подробнее о режиме}
@@ -341,10 +342,12 @@ Content-Transfer-Encoding: 8bit
 [rewardsView/tabs/leagues/league3]::{Бронзовая лига}
 [rewardsView/tabs/ranks]::{Награды за ранги}
 [rewardsView/tabs/year]::{Годовые награды}
+[rewardsView/tabs/year/compensation/extraPoints]::{За %(points)s %(rankedImg)s получена компенсация в %(crystal)s %(crystalImg)s}
+[rewardsView/tabs/year/compensation/notEnough]::{Получена компенсация в %(crystal)s %(crystalImg)s}
 [rewardsView/tabs/year/current]::{Претендуете на награду}
-[rewardsView/tabs/year/scorePoint/tooltip/body]::{Начисляются за прохождение каждого дивизиона и попадание в Золотую лигу. Чем больше жетонов вы заработаете, тем ценнее награду получите по итогам года.}
-[rewardsView/tabs/year/scorePoint/tooltip/header]::{Ранговые жетоны}
-[rewardsView/tabs/year/title]::{Ранговые жетоны: %(points)s}
+[rewardsView/tabs/year/currentFinal]::{Награда получена}
+[rewardsView/tabs/year/title/awarded]::{Всего ранговых жетонов получено: %(points)s}
+[rewardsView/tabs/year/title/notAwarded]::{Ранговые жетоны: %(points)s}
 [seasonComplete/bestRank]::{Ваш наивысший заслуженный ранг}
 [seasonComplete/bigTitle]::{Итоги сезона %(season)s}
 [seasonComplete/division/tooltip/header]::{%(rank)s ранг (%(division)s)}
@@ -367,7 +370,7 @@ Content-Transfer-Encoding: 8bit
 [statistic/vehicleRank]::{Заработанные ранговые жетоны}
 [status/timeLeft/days]::{%(day)s д}
 [status/timeLeft/hours]::{%(hour)s ч}
-[status/timeLeft/lessMin]::{менее минуты}
+[status/timeLeft/lessMin]::{минуту}
 [status/timeLeft/min]::{%(min)s мин}
 [tooltip/closeButton/body]::{Награда будет начислена автоматически.}
 [tooltip/closeButton/header]::{Вернуться в Ангар}
@@ -410,41 +413,33 @@ Content-Transfer-Encoding: 8bit
 [welcomeScreen/rightRuleTooltip/body]::{Чем выше ранг вы заслужите, тем более существенные награды получите.}
 [welcomeScreen/rightRuleTooltip/header]::{Ценные награды}
 [welcomeScreen/rulesDelimeter]::{или}
+[yearRewards/box/big/title]::{Повышенная награда}
+[yearRewards/box/large/title]::{Максимальная награда}
+[yearRewards/box/medium/title]::{Стандартная награда}
+[yearRewards/box/small/title]::{Поощрительная награда}
+[yearRewards/tooltip/any/description/note/2]::{Выдаётся только по завершении двух сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
+[yearRewards/tooltip/any/description/note/3]::{Выдаётся только по завершении трёх сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
 [yearRewards/tooltip/any/description/title]::{Описание:}
-[yearRewards/tooltip/big/description/note/2]::{Содержит большое количество ценного игрового имущества, а также %(vehicle)s.
-
-Выдаётся только по завершении двух сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
-[yearRewards/tooltip/big/description/note/3]::{Содержит большое количество ценного игрового имущества, а также %(vehicle)s.
-
-Выдаётся только по завершении трёх сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
+[yearRewards/tooltip/any/reward/title]::{Награда:}
 [yearRewards/tooltip/box/big/title]::{Повышенная награда}
 [yearRewards/tooltip/box/large/title]::{Максимальная награда}
 [yearRewards/tooltip/box/medium/title]::{Стандартная награда}
 [yearRewards/tooltip/box/small/title]::{Поощрительная награда}
 [yearRewards/tooltip/box/subTitle]::{Награда по итогам года}
-[yearRewards/tooltip/large/description/note/2]::{Содержит максимальное количество ценного игрового имущества, а также %(vehicle)s.
-
-Выдаётся только по завершении двух сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
-[yearRewards/tooltip/large/description/note/3]::{Содержит максимальное количество ценного игрового имущества, а также %(vehicle)s.
-
-Выдаётся только по завершении трёх сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
-[yearRewards/tooltip/medium/description/note/2]::{Содержит стандартное количество ценного игрового имущества.
-
-Выдаётся только по завершении двух сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
-[yearRewards/tooltip/medium/description/note/3]::{Содержит стандартное количество ценного игрового имущества.
-
-Выдаётся только по завершении трёх сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
 [yearRewards/tooltip/needPoints]::{Необходимо ранговых жетонов}
-[yearRewards/tooltip/reward/vehicle]::{уникальную машину IX уровня}
-[yearRewards/tooltip/small/description/note/2]::{Содержит небольшое количество ценного игрового имущества.
-
-Выдаётся только по завершении двух сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
-[yearRewards/tooltip/small/description/note/3]::{Содержит небольшое количество ценного игрового имущества.
-
-Выдаётся только по завершении трёх сезонов Ранговых боёв, если игрок заработал нужное количество ранговых жетонов.}
 [yearRewards/tooltip/status/current/description]::{Вы претендуете на данную награду, так как заработали необходимое количество ранговых жетонов.}
 [yearRewards/tooltip/status/current/title]::{Ваша текущая награда}
+[yearRewards/tooltip/status/currentFinal/description]::{Вы получили данную награду, так как заработали необходимое количество ранговых жетонов.}
+[yearRewards/tooltip/status/currentFinal/title]::{Ваша текущая награда}
 [yearRewards/tooltip/status/locked/description]::{Зарабатывайте их в Ранговых боях, продвигаясь по дивизионам и играя в лигах.}
 [yearRewards/tooltip/status/locked/title]::{Недостаточно ранговых жетонов}
-[yearRewards/tooltip/status/passed/description]::{Вы уже претендуете на более ценную годовую награду}
+[yearRewards/tooltip/status/lockedFinal/description]::{Вам не хватило жетонов для этой награды. Удачи в следующем году!}
+[yearRewards/tooltip/status/lockedFinal/title]::{Недостаточно ранговых жетонов}
+[yearRewards/tooltip/status/passed/description]::{Вы уже претендуете на более ценную годовую награду.}
 [yearRewards/tooltip/status/passed/title]::{Награда недоступна}
+[yearRewards/tooltip/status/passedFinal/description]::{Вы уже получили более ценную годовую награду.}
+[yearRewards/tooltip/status/passedFinal/title]::{Награда недоступна}
+[year_award/acceptButton/acceptLabel]::{Так точно!}
+[year_award/acceptButton/hangarLabel]::{Показать в Ангаре}
+[year_award/compensationLabel]::{Вы заработали {total} {pointsIcon}. Из них за {compensated} {pointsIcon} получена компенсация в {crystals} {crystalIcon}.}
+[year_award/rankedLabel]::{Ранговый бой}

@@ -35,11 +35,9 @@
 [battleResults/damage]::{Урон}
 [battleResults/kill]::{Уничтожено}
 [battleResults/spotting]::{Обнаружено}
-[buyConfirm/backLabel]::{Отменить}
-[buyConfirm/buyLabel]::{Подтвердить}
-[buyConfirm/content]::{Доступно получение не более двух машин в сезоне 2019 года.
-Вы уверены, что хотите получить именно %(level)s %(name)s?}
-[buyConfirm/title]::{Подтвердите покупку %(level)s %(name)s}
+[booster/description/bonusValueTime/booster_crew_xp]::{х1 личный резерв: %(effectValue)s опыта экипажа на %(effectTime)s}
+[booster/description/bonusValueTime/booster_free_xp]::{х1 личный резерв: %(effectValue)s свободного опыта на %(effectTime)s}
+[booster/description/bonusValueTime/booster_xp]::{х1 личный резерв: %(effectValue)s боевого опыта на %(effectTime)s}
 [chat_shortcuts/attention_to_base_atk]::{Захватите %(strArg1)s}
 [chat_shortcuts/attention_to_base_def]::{Защищайте %(strArg1)s}
 [chat_shortcuts/attention_to_objective_atk]::{Атакуйте цель %(int32Arg1)s}
@@ -47,10 +45,11 @@
 [chat_shortcuts/attention_to_position]::{Внимание на позицию!}
 [command_shortcut/title]::{Команды}
 [deploymentMap/lanePlayerLimitReached]::{Направление заблокировано — достигнут максимум игроков}
+[deploymentMap/respawnWarning]::{Повышенный риск}
 [deploymentMap/spgLimitReached]::{Направление заблокировано — достигнут максимум по типам техники}
 [destroy_timers/airstrike_txt]::{Покиньте зону!}
-[epicBattleItem/rewardPoints/description]::{Начисляются с получением доблести. На странице с наградами можно ознакомиться с количеством очков, начисляемых за определённую доблесть. За очки доблести можно получить две из четырёх призовых машин «Линии фронта».}
-[epicBattleItem/rewardPoints/header]::{Очки доблести}
+[epicBattleItem/rewardPoints/description]::{Экспедиция 2020 года разбита на несколько этапов. Всего их запланировано восемь. За каждый этап вы можете заработать определённое количество жетонов Экспедиции (до 3 шт. за этап) и обменять их на наградные машины IX уровня. Помните, что максимального количества жетонов хватит только на две машины из трёх. Распоряжайтесь жетонами мудро.}
+[epicBattleItem/rewardPoints/header]::{Жетоны Экспедиции}
 [epicBattleItem/supplyPoints/description]::{Накопив необходимое количество очков боевых резервов, вы сможете улучшать боевые резервы для «Линии фронта».}
 [epicBattleItem/supplyPoints/header]::{Очки боевых резервов}
 [epicBattlesCarousel/lockedTooltip/body]::{Выберите машину VIII уровня для участия в режиме «Линия фронта».}
@@ -71,10 +70,10 @@
 [epicBattlesInfoView/ruleBattlePerformanceButton/label]::{Узнать больше}
 [epicBattlesInfoView/ruleRewardsButton/label]::{Обзор наград}
 [epicBattlesInfoView/ruleRewardsPrestigeButton/label]::{Получить награды}
-[epicBattlesOfflineView/calendarDescription]::{Текущий эпизод «Линии фронта» завершён, однако режим возобновит работу в следующем эпизоде. Сражайтесь за новые награды и повышайте свой уровень доблести!}
+[epicBattlesOfflineView/calendarDescription]::{Текущий этап Линии фронта завершён, однако режим возобновит работу на следующем этапе. Сражайтесь за новые награды и повышайте свой уровень!}
 [epicBattlesOfflineView/calendarSubTitle]::{Следующая неделя «Линии фронта»: %(month)s %(dateStart)s–%(dateEnd)s}
 [epicBattlesOfflineView/gameRules]::{О РЕЖИМЕ}
-[epicBattlesOfflineView/title]::{ЭПИЗОД ЛИНИИ ФРОНТА ЗАВЕРШЁН}
+[epicBattlesOfflineView/title]::{ЭТАП ЛИНИИ ФРОНТА ЗАВЕРШЁН}
 [epicBattlesPrestigeView/cancelButtonText]::{Отменить}
 [epicBattlesPrestigeView/congratulations]::{Поздравляем!}
 [epicBattlesPrestigeView/exchange]::{Взамен вы получите следующие награды:}
@@ -95,14 +94,10 @@
 [epic_battle_meta_view/abilities]::{Боевые резервы}
 [epic_battle_meta_view/commander_level]::{Уровень командира}
 [epic_battles_after_battle/Achieved_Rank]::{Получено звание}
-[epic_battles_after_battle/Level_Up_Max_Title]::{Достигнут максимальный уровень}
-[epic_battles_after_battle/Level_Up_Title]::{Достигнут новый уровень}
+[epic_battles_after_battle/Level_Up_Title]::{Получен %(level)s уровень!}
 [epic_battles_after_battle/Title]::{Поздравляем!}
-[epic_battles_after_battle/max_level_info]::{Получен максимальный %(level)s уровень.
-Повысьте доблесть, чтобы получить награды и продолжить прогрессию.}
-[epic_battles_after_battle/max_prestige_in_cycle_info]::{В эпизоде %(currCycle)s достигнута максимальная доблесть %(prestige)s.
-Дальнейший прогресс будет доступен в эпизоде %(nextCycle)s.}
-[epic_battles_after_battle/max_prestige_in_season_info]::{Достигнута максимальная степень доблести в сезоне %(season)s.}
+[epic_battles_after_battle/max_level_info/description]::{Выполняйте задачи и получайте ценные награды.}
+[epic_battles_after_battle/max_level_info/title]::{Доступны ежедневные задачи}
 [epictraining/info/otherLabel]::{Нераспределённых бойцов: %(total)s}
 [epictraining/info/team1LaneLabel]::{Атакующие ( %(lane1)s/%(lane2)s/%(lane3)s )}
 [epictraining/info/team2LaneLabel]::{Защищающиеся ( %(lane1)s/%(lane2)s/%(lane3)s )}
@@ -172,7 +167,7 @@
 [primeTime/applyBtn]::{Перейти}
 [primeTime/cancelBtn]::{Отменить}
 [primeTime/continueBtn]::{Продолжить}
-[primeTime/endOfCycle]::{Эпизод на сервере %(server)s завершился.}
+[primeTime/endOfCycle]::{Этап на сервере %(server)s завершился.}
 [primeTime/manyServersAvailable]::{Доступные для входа серверы:}
 [primeTime/oneServerAvailable]::{Доступный для игры сервер: %(serverPing)s}
 [primeTime/primeIsAvailable]::{Бои на %(server)s будут доступны ещё %(time)s}
@@ -181,7 +176,7 @@
 Бои будут доступны ещё %(time)s}
 [primeTime/serverUnavailableTooltip]::{Бои станут доступны через %(time)s}
 [primeTime/servers]::{Доступные для входа серверы: %(server)s}
-[primeTime/status/cycleFinishedOnThisServer]::{Эпизод %(cycleNo)s на сервере %(server)s завершился}
+[primeTime/status/cycleFinishedOnThisServer]::{Этап %(cycleNo)s на сервере %(server)s завершился.}
 [primeTime/status/disable]::{Вы можете перейти на сервер режима «Линия фронта» и продолжить предбоевую подготовку.}
 [primeTime/status/disabledOnThisServer]::{Режим на сервере %(server)s недоступен}
 [primeTime/status/noPrimeTimeOnThisServer]::{Комендантский час до %(startTime)s на сервере %(server)s}
@@ -197,14 +192,20 @@
 [progress_timers/fully_equipped]::{Машина снаряжена}
 [progress_timers/resupply]::{Зона обслуживания}
 [progress_timers/unavailable]::{Недоступна}
+[questsTooltip/epicBattle/header]::{Задачи Линии фронта}
+[questsTooltip/epicBattle/lessThanDay]::{менее 1 д}
+[questsTooltip/epicBattle/restrict/level]::{получите %(level)s уровень}
+[questsTooltip/epicBattle/startIn]::{Новые задачи появятся через %(time)s}
+[questsTooltip/epicBattle/timeLeft]::{До конца этапа %(cycle)s: %(time)s}
+[questsTooltip/epicBattle/unavailable]::{Недоступно: %(reason)s.}
 [rank/no_name]::{Игрок}
 [rank/promotion]::{получает звание %(rank)s}
-[rank/rank0]::{Рядовой}
-[rank/rank1]::{Сержант}
-[rank/rank2]::{Лейтенант}
-[rank/rank3]::{Капитан}
-[rank/rank4]::{Майор}
-[rank/rank5]::{Генерал}
+[rank/rank1]::{Рядовой}
+[rank/rank2]::{Сержант}
+[rank/rank3]::{Лейтенант}
+[rank/rank4]::{Капитан}
+[rank/rank5]::{Майор}
+[rank/rank6]::{Генерал}
 [recovery/Blocked]::{Временно
 заблокировано}
 [recovery/disabled]::{Восстановление недоступно}
@@ -224,7 +225,11 @@
 [respawn/gold_ammo_not_available]::{Премиум снаряжение нельзя приобрести во время боя.}
 [respawn/shop_title]::{Обслуживание}
 [respawn/tanks_left]::{машин осталось}
-[respawnScreen/headerTitle]::{Выберите направление и технику}
+[respawnScreen/deploymentLane1]::{I}
+[respawnScreen/deploymentLane2]::{II}
+[respawnScreen/deploymentLane3]::{III}
+[respawnScreen/headerTitle]::{Выберите машину и точку высадки}
+[respawnScreen/respawnWarning]::{Высадка в этой точке рискованна.}
 [respawnScreen/secondsTimerText]::{%(seconds)s секунд}
 [retreat_message_txt]::{Отступайте}
 [retreat_mission_txt]::{Отступайте к следующей зоне}
@@ -235,15 +240,15 @@
 [season/202002/name]::{2020}
 [selectorTooltip/epicBattle/attention/assuredLowPerformance/description]::{Производительности вашего компьютера недостаточно для данного режима. Будут наблюдаться проблемы с графикой и перемещением техники, возможно также аварийное закрытие клиента игры.}
 [selectorTooltip/epicBattle/attention/assuredLowPerformance/title]::{Низкая производительность}
-[selectorTooltip/epicBattle/attention/informativeLowPerformance/description]::{Режим требователен к компьютеру. В случае недостаточной производительности попробуйте понизить настройки графики.}
-[selectorTooltip/epicBattle/attention/informativeLowPerformance/title]::{Возможна нестабильная работа}
+[selectorTooltip/epicBattle/attention/informativeLowPerformance/description]::{В случае недостаточной производительности, попробуйте понизить настройки графики.}
+[selectorTooltip/epicBattle/attention/informativeLowPerformance/title]::{Режим требователен к компьютеру}
 [selectorTooltip/epicBattle/attention/possibleLowPerformance/description]::{Режим требователен к компьютеру. Карта может долго загружаться, возможны проблемы с графикой и перемещением техники в бою. В случае недостаточной производительности попробуйте понизить настройки графики.}
 [selectorTooltip/epicBattle/attention/possibleLowPerformance/title]::{Низкая производительность}
 [selectorTooltip/epicBattle/body]::{Бои 30 на 30 на технике VIII уровня. Вас ждут механика возрождения, боевые резервы, а также зоны обслуживания.}
 [selectorTooltip/epicBattle/frozen]::{Режим временно отключён по техническим причинам.}
 [selectorTooltip/epicBattle/header]::{Линия фронта}
-[selectorTooltip/epicBattle/startIn]::{До начала эпизода: }
-[selectorTooltip/epicBattle/timeLeft]::{До конца эпизода: }
+[selectorTooltip/epicBattle/startIn]::{До начала этапа: }
+[selectorTooltip/epicBattle/timeLeft]::{До конца этапа: }
 [selectorTooltip/epicBattle/timeTable/dash]::{—}
 [selectorTooltip/epicBattle/timeTable/title]::{Расписание боёв}
 [selectorTooltip/epicBattle/timeTable/today]::{Сегодня}
@@ -269,13 +274,12 @@
 [team2Name]::{Обороняющиеся}
 [tutorial/hint/epicReservesBtnHint]::{ВЫБОР РЕЗЕРВА}
 [tutorial/hint/epicReservesSlotHint]::{БОЕВЫЕ РЕЗЕРВЫ}
-[vehicle_preview/title]::{Машина за очки доблести. Очков в наличии: }
 [widgetAlertMessageBlock/allPeripheriesHalt]::{Комендантский час на всех серверах. Бои начнутся через %(time)s.}
 [widgetAlertMessageBlock/button]::{Сменить сервер}
-[widgetAlertMessageBlock/noCycleMessage]::{Эпизод %(cycle)s завершён}
+[widgetAlertMessageBlock/noCycleMessage]::{Этап %(cycle)s завершён}
 [widgetAlertMessageBlock/singleModeHalt]::{Комендантский час на сервере. Бои начнутся через %(time)s.}
 [widgetAlertMessageBlock/somePeripheriesHalt]::{Комендантский час на %(serverName)s}
-[widgetAlertMessageBlock/startIn]::{Эпизод %(cycle)s начнётся через %(time)s}
+[widgetAlertMessageBlock/startIn]::{Этап %(cycle)s начнётся через %(time)s}
 [zone/arrived_text]::{прибыло!}
 [zone/capture_text]::{Захватить}
 [zone/captured_text]::{Захвачено}
