@@ -1,9 +1,9 @@
 [battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText]::{Вы получили улучшенную награду за завершённый этап основной части прогрессии. Продолжайте зарабатывать очки, чтобы получить ещё больше наград.}
-[battlePassAwardsView/additionalRewards/bpBuyLevelsAwardsText]::{Поздравляем! Вы получили награды за купленные этапы основной части прогрессии (с {bpStartLevel} по {bpEndLevel}). Продолжайте зарабатывать очки, чтобы получить ещё больше наград.}
-[battlePassAwardsView/additionalRewards/bpLevelsAwardsText]::{Поздравляем! Вы получили все улучшенные награды за ранее завершённые этапы основной части прогрессии (с {bpStartLevel} по {bpEndLevel}). Продолжайте зарабатывать очки, чтобы получить ещё больше наград.}
+[battlePassAwardsView/additionalRewards/bpBuyLevelsAwardsText]::{Поздравляем! Вы получили награды за купленные этапы основной части прогрессии (с {bpStartLevel}-го по {bpEndLevel}-й). Продолжайте зарабатывать очки, чтобы получить ещё больше наград.}
+[battlePassAwardsView/additionalRewards/bpLevelsAwardsText]::{Поздравляем! Вы получили все улучшенные награды за ранее завершённые этапы основной части прогрессии (с {bpStartLevel}-го по {bpEndLevel}-й). Продолжайте зарабатывать очки, чтобы получить ещё больше наград.}
 [battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText]::{Ещё наград: {remainingAwardsCount}}
 [battlePassAwardsView/additionalRewards/button]::{Так точно!}
-[battlePassAwardsView/additionalRewards/buyLevelAwardsText]::{Поздравляем! Вы получили награды за купленный этап основной части прогрессии. Продолжайте зарабатывать очки, чтобы получить ещё больше наград.}
+[battlePassAwardsView/additionalRewards/buyLevelAwardsText]::{Поздравляем! Вы получили награды за купленный этап основной части прогрессии. Продолжайте зарабатывать очки, чтобы получить ещё больше наград.}
 [battlePassAwardsView/additionalRewards/subText]::{Также получена награда:}
 [battlePassAwardsView/footer/bpButtonTitle]::{Купить улучшенный пропуск}
 [battlePassAwardsView/footer/bpInProgressTitle]::{Купите улучшенный пропуск и получите улучшенные награды за уже завершённые этапы, а также возможность получать предстоящие улучшенные награды.}
@@ -62,7 +62,7 @@
 [battlePassVoting/confirm/battlePass/title]::{Забрать оба стиля}
 [battlePassVoting/confirm/descr]::{... и командира {name}}
 [battlePassVoting/confirm/title]::{Выбрать стиль «{name}»}
-[battlePassVoting/failServiceAlertTooltip/descr]::{Попробуйте повторить попытку позже.}
+[battlePassVoting/failServiceAlertTooltip/descr]::{Повторите попытку позже.}
 [battlePassVoting/failServiceAlertTooltip/title]::{Данные не получены}
 [battlePassVoting/info/descr]::{Владельцы улучшенного пропуска получат выбранного командира и оба стиля.}
 [battlePassVoting/info/title]::{Завершив {maxEpisode}-й этап, выбирайте в награду трёхмерный стиль и командира.}
@@ -98,14 +98,14 @@
 [progression/battlePassBuyDescr]::{Улучшенный пропуск разблокирует линейку улучшенных наград.}
 [progression/btnExtras]::{ДОПОЛНИТЕЛЬНЫЕ
 МАТЕРИАЛЫ}
-[progression/btnExtrasTooltip]::{Завершайте этапы, и со временем вам откроются новые материалы. Открыто материалов: {opened} / {total}.}
+[progression/btnExtrasTooltip]::{Завершайте этапы, и со временем вам откроются новые материалы. Открыто материалов: {opened} / {total}.}
 [progression/btnNoExtrasTooltip]::{Завершайте этапы и открывайте новые материалы.}
 [progression/btnVote]::{ФИНАЛЬНАЯ
 НАГРАДА}
 [progression/btnVoteTooltip]::{Здесь можно ознакомиться с финальными наградами текущего сезона Боевого пропуска.}
 [progression/currentStep]::{Текущий этап}
-[progression/currentStepLocked]::{НАГРАДА ЗА ПРОГРЕССИЮ}
-[progression/duration]::{{start} – {end}}
+[progression/currentStepLocked]::{УЛУЧШЕННАЯ НАГРАДА}
+[progression/duration]::{{start} — {end}}
 [progression/episodeBuyBtn]::{Докупить этапы}
 [progression/episodeBuyDescr]::{Вы получаете награды за завершённые этапы.}
 [progression/episodeBuyDisableDescr]::{Докупить любое количество этапов можно через %(day)}
@@ -115,11 +115,11 @@
 [progression/premiumProgressionDescr]::{УЛУЧШЕННЫЕ НАГРАДЫ}
 [progression/seasonEndingDescr]::{До окончания сезона осталось: %(day)}
 [progression/seasonEndingTooltip]::{До окончания: {day}}
-[progression/title]::{Сезон 1: Super Conqueror Vs. Объект 277}
+[progression/title]::{Сезон 1: Super Conqueror vs Объект 277}
 [reward/postBattle/progress]::{Получено очков за попадание в топ по опыту:}
 [reward/postBattle/progress/tooltip]::{Получено очков за попадание в топ по опыту: %(points)d}
-[reward/postBattle/title/base]::{Боевой пропуск. %(level)d этап основной части.}
-[reward/postBattle/title/post]::{Боевой пропуск. %(level)d этап элитной части.}
+[reward/postBattle/title/base]::{Боевой пропуск. %(level)d-й этап основной части.}
+[reward/postBattle/title/post]::{Боевой пропуск. %(level)d-й этап элитной части.}
 [status/timeLeft/days]::{%(day)s д}
 [status/timeLeft/hours]::{%(hour)s ч}
 [status/timeLeft/lessMin]::{1 мин}
@@ -141,15 +141,17 @@
 [tooltips/footerBuyBtn/battlePass/descr]::{Купить улучшенный пропуск можно в любое время. В этом случае вы мгновенно получите все улучшенные награды за пройденные этапы и будете получать базовые и улучшенные награды за каждый последующий этап.}
 [tooltips/footerBuyBtn/episode/descr]::{Докупив этапы, вы мгновенно получите за них базовые и улучшенные награды.}
 [tooltips/iconLock/descr1]::{Вы можете расширить список добычи, единожды купив улучшенный пропуск. С этого момента вы будете получать награды из обеих линеек за достижение каждого последующего этапа.}
-[tooltips/iconLock/descr2]::{Купить улучшенный пропуск можно в любое время. В этом случае вы мгновенно получите все улучшенные награды за пройденные этапы. Улучшить награду можно на основном экране Боевого пропуска, нажав на кнопку «Купить улучшенный пропуск».}
+[tooltips/iconLock/descr2]::{Купить улучшенный пропуск можно в любое время. В этом случае вы мгновенно получите все улучшенные награды за пройденные этапы. Улучшить награду можно на основном экране Боевого пропуска, нажав кнопку «Купить улучшенный пропуск».}
 [tooltips/iconLock/title]::{Улучшенная награда Боевого пропуска}
+[tooltips/inProgress/baseReward]::{Базовая награда}
 [tooltips/inProgress/hurryUp]::{Успейте купить улучшенный пропуск, чтобы получить все улучшенные награды за пройденные этапы.}
+[tooltips/inProgress/improvedReward]::{Улучшенная награда}
 [tooltips/inProgress/level]::{Текущий этап}
 [tooltips/inProgress/nextRewards]::{Следующая награда}
 [tooltips/inProgress/playGame]::{Играя на технике VI–Х уровней в режиме «Случайный бой» (исключая Генеральное сражение), вы будете зарабатывать очки и продвигаться вперёд к новым наградам.}
 [tooltips/inProgress/timeLeft]::{Осталось:}
 [tooltips/inProgress/unlockBattlePass]::{Купите улучшенный пропуск, чтобы получить доступ к линейке улучшенных наград.}
-[tooltips/notStarted/descr]::{{date} стартует сезон Боевого пропуска, который продлится ограниченное время. Чтобы принять участие, достаточно играть в Случайных боях (исключая Генеральное сражение) на любой технике VI–X уровней и зарабатывать очки прогрессии.}
+[tooltips/notStarted/descr]::{{date} стартует сезон Боевого пропуска, который продлится ограниченное время. Чтобы принять участие, достаточно играть в Случайных боях на любой технике VI–X уровней и зарабатывать очки прогрессии.}
 [tooltips/notStarted/subTitle]::{Сезон стартует {date}}
 [tooltips/notStarted/title]::{Боевой пропуск}
 [tooltips/points/footer]::{В одном бою можно выполнить только одно из вышеперечисленных условий. Потерять очки невозможно.}
@@ -165,8 +167,7 @@
 [tooltips/styles/descr]::{Завершив финальный этап, в награду вы сможете выбрать один из стилей.}
 [tooltips/styles/footer]::{Выбрав финальную награду, обладатели улучшенного пропуска получат оба стиля.}
 [tooltips/styles/name]::{Подходит для %(name)}
-[tooltips/styles/style1]::{Стиль «Часовой»}
-[tooltips/styles/style2]::{Стиль «Пушыстик»}
+[tooltips/styles/style]::{Стиль «%(name)»}
 [tooltips/styles/title]::{Один из двух трёхмерных стилей}
 [tooltips/vehiclePoints/award]::{Награда за достижение лимита очков}
 [tooltips/vehiclePoints/continuePlaying]::{Для дальнейшего продвижения по этапам играйте на других машинах.}

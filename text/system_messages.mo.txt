@@ -84,9 +84,9 @@ Content-Transfer-Encoding: 8bit
 [artefact_remove/success]::{%(kind)s «%(name)s» снято с машины.}
 [artefact_remove/vehicle_locked]::{Машина заблокирована. %(kind)s «%(name)s» не демонтировано.}
 [artefact_remove/vehicle_need_repair]::{Машина повреждена. %(kind)s «%(name)s» не демонтировано. Отремонтируйте машину и повторите операцию.}
-[artefact_sell/invalid_module]::{Продажа %(kind)s '%(name)s' не удалась. Неправильный модуль.}
-[artefact_sell/server_error]::{Продажа %(kind)s '%(name)s' не удалась. Попробуйте позже.}
-[artefact_sell/success]::{%(kind)s '%(name)s' (%(count)s шт.). Получено %(money)s.}
+[artefact_sell/invalid_module]::{Продажа %(kind)s «%(name)s» не удалась. Неправильный модуль.}
+[artefact_sell/server_error]::{Продажа %(kind)s «%(name)s» не удалась. Попробуйте позже.}
+[artefact_sell/success]::{%(kind)s «%(name)s» (%(count)s шт.). Получено %(money)s.}
 [artefact_upgrade/server_error]::{Ошибка наладки оборудования. Попробуйте позже.}
 [artefact_upgrade/success]::{%(kind)s «%(name)s» успешно прошло наладку, характеристики улучшены. Потрачено %(money)s.}
 [artefact_upgrade/vehicle_need_repair]::{Машина повреждена. %(kind)s «%(name)s» не налажено. Отремонтируйте машину и повторите операцию.}
@@ -113,12 +113,12 @@ Content-Transfer-Encoding: 8bit
 [battleBooster_sell/success]::{%(kind)s «%(name)s» продана (%(count)s шт.). Получено %(money)s.}
 [battlePass/badgeRemoved/text]::{Нашивка %(badgeName)s списана в связи с окончанием сезона Боевого пропуска.}
 [battlePass/switch_disable/body]::{Сезон завершился, но мы обязательно встретимся в следующем!}
-[battlePass/switch_disable/title]::{Боевой пропуск, cезон 1.}
+[battlePass/switch_disable/title]::{Боевой пропуск, сезон 1.}
 [battlePass/switch_enabled/body]::{Работа Боевого пропуска возобновлена. Приносим извинения за причинённые неудобства.
 Сезон продлён до %(expiryTime)s.}
 [battlePass/switch_pause/body]::{Функционирование Боевого пропуска временно приостановлено. Ведутся технические работы.}
 [battlePass/switch_started/body]::{Бойцы! Время отправляться в погоню за уникальной наградой Боевого пропуска: трёхмерными стилями, эксклюзивными командирами и многим другим!}
-[battlePass/switch_started/title]::{Боевой пропуск, cезон 1.}
+[battlePass/switch_started/title]::{Боевой пропуск, сезон 1.}
 [battlePassLevels_buy/server_error]::{Произошла ошибка при покупке этапов основной части прогрессии. Пожалуйста, попробуйте ещё раз.}
 [battlePass_buy/server_error]::{Произошла ошибка при покупке улучшенного пропуска. Пожалуйста, попробуйте ещё раз.}
 [battleResults/sharing/success]::{Ссылка скопирована в буфер обмена. Вы можете её вставить с помощью Ctrl+V в игровой чат или использовать вне клиента игры.}
@@ -605,24 +605,24 @@ Content-Transfer-Encoding: 8bit
 [memory_critical/tex_was_lowered_to_low]::{Недостаточно памяти. Качество текстур снижено до низкого значения.}
 [memory_critical/tex_was_lowered_to_medium]::{Недостаточно памяти. Качество текстур снижено до среднего значения.}
 [memory_critical/tex_was_lowered_to_min]::{Недостаточно памяти. Настройки графики изменены. Рекомендуем перезапустить игру.}
-[module_apply/error_is_current]::{Модуль %(kind)s '%(name)s' уже установлен.}
-[module_apply/error_need_gun]::{Модуль %(kind)s '%(name)s' не может быть установлен на машину с текущим орудием.}
-[module_apply/error_need_turret]::{%(kind)s '%(name)s' не устанавливается в текущую башню. Замените башню на совместимую.}
-[module_apply/error_no_gun]::{%(kind)s '%(name)s' не установлена. На Складе нет подходящего орудия.}
-[module_apply/error_not_for_current_vehicle]::{%(kind)s '%(name)s' не подходит для данной башни. Замените башню.}
-[module_apply/error_not_for_this_vehicle_type]::{Модуль %(kind)s '%(name)s' не подходит для данной машины.}
-[module_apply/error_not_with_installed_equipment]::{Модуль %(kind)s '%(name)s' несовместим со снаряжением '%s'.}
-[module_apply/error_too_heavy]::{Модуль %(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
-[module_apply/error_too_heavy_chassis]::{Модуль %(kind)s '%(name)s' не подходит по массе. Попробуйте облегчить машину.}
-[module_apply/error_wrong_item_type]::{Модуль %(kind)s '%(name)s' не подходит по типу.}
-[module_apply/error_wrong_nation]::{Модуль %(kind)s '%(name)s' не подходит по нации.}
-[module_apply/incompatibleEqs]::{Снаряжение '%(items)s' отправлено на Склад в связи с несовместимостью с устанавливаемым модулем.}
-[module_apply/invalid_vehicle]::{Неправильная машина. Установка модуля %(kind)s '%(name)s' не удалась.}
-[module_apply/server_error]::{Произошла серверная ошибка установки модуля %(kind)s '%(name)s'. Попробуйте повторить операцию позже.}
-[module_apply/success]::{Модуль %(kind)s '%(name)s' установлен на машину.}
-[module_apply/success_gun_change]::{Модуль %(kind)s '%(name)s' установлен на машину с орудием '%(gun)s'.}
-[module_apply/vehicle_locked]::{Машина заблокирована, установка модуля %(kind)s '%(name)s' не удалась.}
-[module_apply/vehicle_need_repair]::{Машина повреждена. Модуль %(kind)s '%(name)s' не установлен. Отремонтируйте машину и повторите операцию.}
+[module_apply/error_is_current]::{Модуль %(kind)s «%(name)s» уже установлен.}
+[module_apply/error_need_gun]::{Модуль %(kind)s «%(name)s» не может быть установлен на машину с текущим орудием.}
+[module_apply/error_need_turret]::{%(kind)s «%(name)s» не устанавливается в текущую башню. Замените башню на совместимую.}
+[module_apply/error_no_gun]::{%(kind)s «%(name)s» не установлена. На Складе нет подходящего орудия.}
+[module_apply/error_not_for_current_vehicle]::{%(kind)s «%(name)s» не подходит для данной башни. Замените башню.}
+[module_apply/error_not_for_this_vehicle_type]::{Модуль %(kind)s «%(name)s» не подходит для данной машины.}
+[module_apply/error_not_with_installed_equipment]::{Модуль %(kind)s «%(name)s» несовместим со снаряжением «%s».}
+[module_apply/error_too_heavy]::{Модуль %(kind)s «%(name)s» не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
+[module_apply/error_too_heavy_chassis]::{Модуль %(kind)s «%(name)s» не подходит по массе. Попробуйте облегчить машину.}
+[module_apply/error_wrong_item_type]::{Модуль %(kind)s «%(name)s» не подходит по типу.}
+[module_apply/error_wrong_nation]::{Модуль %(kind)s «%(name)s» не подходит по нации.}
+[module_apply/incompatibleEqs]::{Снаряжение «%(items)s» отправлено на Склад в связи с несовместимостью с устанавливаемым модулем.}
+[module_apply/invalid_vehicle]::{Неправильная машина. Установка модуля %(kind)s «%(name)s» не удалась.}
+[module_apply/server_error]::{Произошла серверная ошибка установки модуля %(kind)s «%(name)s». Попробуйте повторить операцию позже.}
+[module_apply/success]::{Модуль %(kind)s «%(name)s» установлен на машину.}
+[module_apply/success_gun_change]::{Модуль %(kind)s «%(name)s» установлен на машину с орудием «%(gun)s».}
+[module_apply/vehicle_locked]::{Машина заблокирована, установка модуля %(kind)s «%(name)s» не удалась.}
+[module_apply/vehicle_need_repair]::{Машина повреждена. Модуль %(kind)s «%(name)s» не установлен. Отремонтируйте машину и повторите операцию.}
 [module_buy/error_is_current]::{Модуль %(kind)s '%(name)s' уже установлен.}
 [module_buy/error_need_gun]::{Модуль %(kind)s '%(name)s' не может быть установлен на машину с текущим орудием.}
 [module_buy/error_need_turret]::{%(kind)s '%(name)s' не устанавливается в текущую башню. Замените башню на совместимую.}
@@ -644,9 +644,9 @@ Content-Transfer-Encoding: 8bit
 [module_buy/vehicle_locked]::{Машина заблокирована. Покупка и установка %(kind)s '%(name)s' не удалась.}
 [module_buy/vehicle_need_repair]::{Покупка и установка %(kind)s '%(name)s' не удалась. Отремонтируйте машину и повторите операцию.}
 [module_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[module_sell/invalid_module]::{Продажа %(kind)s '%(name)s' не удалась. Неправильный модуль.}
-[module_sell/server_error]::{Продажа %(kind)s '%(name)s' не удалась. Попробуйте позже.}
-[module_sell/success]::{Модуль %(kind)s '%(name)s' (%(count)s шт.). Получено %(money)s.}
+[module_sell/invalid_module]::{Продажа %(kind)s «%(name)s» не удалась. Неправильный модуль.}
+[module_sell/server_error]::{Продажа %(kind)s «%(name)s» не удалась. Попробуйте позже.}
+[module_sell/success]::{Модуль %(kind)s «%(name)s» (%(count)s шт.). Получено %(money)s.}
 [multipleSelling/success]::{Получено %(money)s}
 [nation_change/FAILED]::{Ошибка смены комплектации}
 [nation_change/WRONG_ARG_VALUE]::{Ошибка смены комплектации}
@@ -902,9 +902,9 @@ Content-Transfer-Encoding: 8bit
 [shell_buy/server_error_centerDown]::{Покупка %(name)s не удалась. Сервис покупки снарядов временно недоступен.}
 [shell_buy/success]::{Снаряды %(name)s успешно приобретены (%(count)s шт.). Потрачено %(money)s.}
 [shell_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[shell_sell/invalid_module]::{Продажа '%(name)s' не удалась. Неправильный снаряд.}
-[shell_sell/server_error]::{Продажа '%(name)s' не удалась. Попробуйте позже.}
-[shell_sell/success]::{Снаряд '%(name)s' (%(count)s шт.). Получено %(money)s.}
+[shell_sell/invalid_module]::{Продажа «%(name)s» не удалась. Неправильный снаряд.}
+[shell_sell/server_error]::{Продажа «%(name)s» не удалась. Попробуйте позже.}
+[shell_sell/success]::{Снаряд «%(name)s» (%(count)s шт.). Получено %(money)s.}
 [shop/item/buy_and_equip_in_processing]::{Запрос на покупку и установку модуля отправлен, ожидается ответ от сервера.}
 [shop/item/buy_server_error]::{Покупка модуля %(typeString)s '%(userString)s' не удалась. Попробуйте позже.}
 [shop/item/buy_success]::{Модуль %(typeString)s '%(userString)s' успешно приобретён (%(count)d шт.). Потрачено %(price)s.}

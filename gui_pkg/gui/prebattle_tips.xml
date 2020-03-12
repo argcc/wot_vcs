@@ -106,6 +106,10 @@
             <showTimes>5</showTimes>
          </preceding>
       </filter>
+      <filter>
+         <id>battlePass_on</id>
+         <battlePassActiveCheck>True</battlePassActiveCheck>
+      </filter>
    </filters>
    <tips>
       <tip>
@@ -883,6 +887,30 @@
          <status>dualGunVehicles</status>
          <group>tactics</group>
          <filter>only_dualGun_first_5_times</filter>
+      </tip>
+      <tip>
+         <id>tip187</id>
+         <status>battlePass</status>
+         <group>all</group>
+         <filter>battlePass_on</filter>
+      </tip>
+      <tip>
+         <id>tip188</id>
+         <status>trophyDevices</status>
+         <group>all</group>
+         <filter>battlePass_on</filter>
+      </tip>
+      <tip>
+         <id>tip189</id>
+         <status>battlePassPoints</status>
+         <group>all</group>
+         <filter>battlePass_on</filter>
+      </tip>
+      <tip>
+         <id>tip190</id>
+         <status>battlePassVehicles</status>
+         <group>all</group>
+         <filter>battlePass_on</filter>
       </tip>
       <tip>
          <id>epicTip1</id>
