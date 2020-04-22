@@ -103,6 +103,7 @@ Content-Transfer-Encoding: 8bit
 [achievement/params/vehicles]::{Участвующая техника:}
 [achievement/params/vehiclesLeft]::{машин}
 [achievement/params/vehiclesTakePart]::{Участвующая техника:}
+[achievement/params/vehiclesToBuy]::{Осталось купить:}
 [achievement/params/vehiclesToKill]::{Осталось уничтожить:}
 [achievement/params/vehiclesToResearch]::{Осталось изучить:}
 [achievement/params/winPointsLeft]::{очков победы}
@@ -166,7 +167,6 @@ Content-Transfer-Encoding: 8bit
 [advanced/battleTeaching]::{Бой против ботов для закрепления полученных на Учебном полигоне навыков.}
 [advanced/brotherhood]::{Повышает уровень владения основной специальностью и всеми умениями всех членов экипажа. Работает только при изучении всеми членами экипажа на 100%.}
 [advanced/camouflage]::{Повышает незаметность машины.}
-[advanced/camouflageBattleBooster]::{Увеличивает незаметность машины.}
 [advanced/camouflageNet]::{Уменьшает заметность машины через короткое время после остановки. Выключается при движении машины вперёд, назад или при поворотах корпуса. Шведские высокоуровневые ПТ-САУ могут поворачивать корпус не сбрасывая сеть.}
 [advanced/carbonDioxide]::{При попадании в бак машина может загореться. Данное оборудование увеличивает прочность топливных баков.}
 [advanced/coatedOptics]::{Увеличивает дальность обзора машины, что позволяет обнаружить технику противника раньше.}
@@ -222,6 +222,7 @@ Content-Transfer-Encoding: 8bit
 [advanced/loader_desperado]::{Ускоряет перезарядку орудия, если у машины остаётся менее 10% прочности.}
 [advanced/loader_intuition]::{Создаёт вероятность того, что заряжающий мгновенно сменит тип снаряда в уже заряженном орудии или во время перезарядки.}
 [advanced/loader_pedant]::{Увеличивает прочность боеукладки: снаряды уложены в таком порядке, что не касаются друг друга.}
+[advanced/naturalCover]::{Увеличивает незаметность машины.}
 [advanced/radioman]::{Влияет на дальность радиосвязи.}
 [advanced/radioman_finder]::{Увеличивает максимальную дальность обзора.}
 [advanced/radioman_inventor]::{Увеличивает дальность связи радиостанции.}
@@ -361,6 +362,8 @@ Content-Transfer-Encoding: 8bit
 [awardItem/creditsFactor/header]::{Коэффициент кредитов}
 [awardItem/crystal/body]::{Редкая специализированная валюта, за которую покупаются уникальные товары, недоступные за другую валюту.}
 [awardItem/crystal/header]::{Боны}
+[awardItem/eventCoin/body]::{Начисляются за выполнение юбилейных задач во время активной фазы и периода затишья в рамках события «Десятилетие». Также выдаются в подарок за покупку юбилейных наборов в Магазине.}
+[awardItem/eventCoin/header]::{Юбилейные монеты}
 [awardItem/freeTokens/body]::{Уникальный документ. Выдаётся за выполнение завершающей задачи каждой ветки и дополнительного условия к ней.}
 [awardItem/freeTokens/header]::{Бланк приказа}
 [awardItem/freeXP/body]::{Разовая прибавка к дополнительному свободному опыту.}
@@ -681,6 +684,19 @@ Content-Transfer-Encoding: 8bit
 [clanCommonInfo/statRating]::{Общий рейтинг клана}
 [clanCommonInfo/statWinsPercent]::{Победы}
 [clanCommonInfo/yes]::{есть}
+[collectibleVehicleTooltip/description]::{Особая техника, приобретаемая за кредиты в Магазине.
+Она отсутствует в Дереве исследований, но у неё есть исследуемые модули.}
+[collectibleVehicleTooltip/elite]::{Получает «Элитный» статус после исследования всех модулей.}
+[collectibleVehicleTooltip/header]::{Коллекционная техника %(nation)s}
+[collectibleVehicleTooltip/statistics]::{Техника в Ангаре: %(inventory)s / %(common)s}
+[collectibleVehicleTooltip/status/condition]::{Чтобы разблокировать коллекционную машину определённого уровня, исследуйте машину того же уровня в этом Дереве исследований.}
+[collectibleVehicleTooltip/status/level]::{%(level)s уровня}
+[collectibleVehicleTooltip/status/purchaseAvailable]::{Коллекция доступна к покупке}
+[collectibleVehicleTooltip/status/purchaseUnavailable]::{Коллекционная техника недоступна}
+[collectibleVehicleTooltip/status/purchased]::{Вся коллекционная техника куплена}
+[collectibleVehicleTooltip/switchOff/header]::{Коллекционная техника недоступна}
+[collectibleVehicleTooltip/switchOff/text]::{Доступ к коллекционной технике временно приостановлен.
+Ведутся технические работы.}
 [colorFilter/attention]::{Цветокоррекция возможна только при выборе в настройках «Улучшенной» графики.}
 [colorFilter/body]::{Здесь вы можете выбрать один из готовых фильтров или вручную настроить насыщенность цвета, яркость и контрастность изображения.}
 [colorFilter/header]::{Цветокоррекция}
@@ -950,6 +966,8 @@ Content-Transfer-Encoding: 8bit
 [deviceFits/unlock_error/header]::{Модуль не исследован.}
 [deviceFits/unlock_error/text]::{Исследуйте его в окне исследований текущей машины.}
 [deviceFits/wrong_slot/header]::{Модуль уже установлен в другом слоте.}
+[disableCommonChat/body]::{Отключить общий чат}
+[disableCommonChat/header]::{Отключить общий чат}
 [dismissTankmanDialog/bufferIsFull/body]::{Буфер демобилизованных вмещает %(placeCount)s членов экипажа. Сейчас в буфере %(currCount)s человек(а), демобилизуемый %(tankmanNew)s заменит %(tankmanOld)s.}
 [dismissTankmanDialog/bufferIsFull/header]::{Буфер демобилизованных заполнен}
 [dismissTankmanDialog/bufferIsFullMultiple/body]::{Внимание! Буфер демобилизованных вмещает %(maxCount)s членов экипажа. Сейчас в буфере %(currCount)s человек, демобилизуемый экипаж заменит %(deletedStr)s и ещё %(extraCount)s, которые попали в буфер раньше остальных. Подтвердить замену?}
@@ -1258,7 +1276,7 @@ Content-Transfer-Encoding: 8bit
 [epicBattleWidget/info/prestige]::{Доблесть %(prestige)s}
 [epicBattlesWidget/famePoints]::{Фронтовой опыт}
 [epicBattlesWidget/famePointsDescription]::{До %(level)s осталось ещё очков фронтового опыта: %(famePoints)s
-Заработайте очки в боях на «Линии фронта».}
+Заработайте очки в боях на Линии фронта.}
 [epicBattlesWidget/famePointsToLevel]::{%(level)s уровня}
 [epicRandomStandardNotification/attention]::{В данном типе боя может наблюдаться небольшое
 снижение производительности}
@@ -1591,6 +1609,8 @@ Content-Transfer-Encoding: 8bit
 [header/accountPopover/unavailable]::{Функциональность временно недоступна. Пожалуйста, попробуйте позже.}
 [header/battleType/body]::{Нажмите, чтобы открыть список доступных режимов боёв.}
 [header/battleType/header]::{Выбор режима боя}
+[header/bobSquad/body]::{Создание формирования из 2–3 игроков для совместной игры в боях режима «Схватка».}
+[header/bobSquad/header]::{Взвод}
 [header/buttons/available]::{В наличии}
 [header/buttons/barracks/body]::{Рекрутировать и демобилизовать членов экипажа.}
 [header/buttons/barracks/header]::{Казарма}
@@ -1654,6 +1674,7 @@ Content-Transfer-Encoding: 8bit
 [header/buttons/storage/body]::{Обзор и продажа игрового имущества.}
 [header/buttons/storage/header]::{Склад}
 [header/buttons/techtree/body]::{Исследовать и купить технику и модули.}
+[header/buttons/techtree/extended/description]::{Действуют скидки на технику наций:}
 [header/buttons/techtree/header]::{Исследования}
 [header/dominationSquad/body]::{Создание формирования из 2-3 игроков для совместной игры.
 • Режимы боёв: «Бой до последнего».
@@ -1690,8 +1711,8 @@ Content-Transfer-Encoding: 8bit
 [header/rankedSquad/header]::{Создать взвод}
 [header/refill_action/attention]::{При первой покупке вы бесплатно получите
 дополнительное золото.}
-[header/squad/body]::{Создание формирования из 2-3 игроков для совместной игры в Случайных боях.
-• Типы боёв: Стандартный бой, Штурм, Встречный бой, Генеральное сражение, а также «Линия фронта», когда она доступна.}
+[header/squad/body]::{Создание формирования из 2–3 игроков для совместной игры в Случайных боях.
+• Типы боёв: Стандартный бой, Штурм, Встречный бой, Генеральное сражение, а также Линия фронта, когда она доступна.}
 [header/squad/header]::{Взвод}
 [header/squad_member/body]::{Нажмите, чтобы перейти в меню взвода.}
 [header/squad_member/header]::{Взвод}
@@ -1780,7 +1801,8 @@ Content-Transfer-Encoding: 8bit
 [login/soundButton/on/body]::{Включить звук.}
 [login/soundButton/on/header]::{?empty?}
 [marathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике Х уровня, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите уникальную премиум ПТ-САУ VIII уровня бесплатно.}
-[marathon/body/extra]::{%(day)s до завершения продаж уникального премиум танка VIII уровня с учётом персональной скидки.}
+[marathon/body/extra]::{%(hours)s до завершения продаж уникального премиум танка VIII уровня с учётом персональной скидки.}
+[marathon/body/extra_smart]::{После активной фазы вы ещё некоторое время сможете купить уникальный премиум танк VIII уровня с учётом персональной скидки.}
 [marathon/date]::{%(day)s %(month)s %(hour)s:%(minutes)s}
 [marathon/error/battle_type]::{Доступно только в Случайных боях}
 [marathon/error/veh_type]::{Доступно только на технике VIII и X уровней}
@@ -2353,6 +2375,8 @@ Content-Transfer-Encoding: 8bit
 [repair/auto/body]::{Ремонт будет выполняться автоматически, если это необходимо,
 после выхода машины из боя.}
 [repair/auto/header]::{Ремонтировать автоматически}
+[researchPage/collectibleVehicle/vehicleEnabled/body]::{Перейти в Магазин к коллекционной технике %(nation)s}
+[researchPage/collectibleVehicle/vehicleEnabled/header]::{Коллекционная техника}
 [researchPage/module/status/needToBuyTank/header]::{Покупка и установка модуля недоступны}
 [researchPage/module/status/needToBuyTank/text]::{Купите %(vehiclename)s.}
 [researchPage/module/status/notEnoughXP/header]::{Недостаточно опыта}
@@ -2430,6 +2454,8 @@ Content-Transfer-Encoding: 8bit
 [settings/ribbons/receivedDamage/header]::{settings/ribbons/receivedDamage/header}
 [settings/sound/deviceAlert/body]::{Выбранный тип акустики отличается от автоматически определённого игрой. Часть звуков может отсутствовать, поэтому рекомендуем протестировать изменения звучания.}
 [settings/sound/deviceAlert/header]::{Несоответствующий тип акустики}
+[settings/sound/subtitles/body]::{Дублирование голосового оповещения текстом в режиме «Учебный полигон».}
+[settings/sound/subtitles/header]::{Субтитры}
 [settings/stop/subtitle]::{Стой!}
 [settings/support/subtitle]::{Поддержите огнём!}
 [settings/switchMode/body]::{Клавиша либо фиксирует корпус при игре на САУ или ПТ-САУ, либо переключает режим на технике с возможностью смены режима стрельбы/передвижения.}
@@ -2719,6 +2745,13 @@ Content-Transfer-Encoding: 8bit
 [techTreePage/blueprintsSwitchTooltipDisabled/body]::{По техническим причинам данная функциональность выключена.
 Приносим свои извинения.}
 [techTreePage/blueprintsSwitchTooltipDisabled/header]::{?empty?}
+[techTreePage/event/description]::{Действуют скидки на технику %(nation)s}
+[techTreePage/event/name]::{Акция «%(eventName)s»}
+[techTreePage/event/time]::{До конца акции: %(time)s}
+[techTreePage/event/timeLeft/days]::{%(day)s д}
+[techTreePage/event/timeLeft/hours]::{%(hour)s ч %(min)s мин}
+[techTreePage/event/timeLeft/lessMin]::{1 мин}
+[techTreePage/event/timeLeft/min]::{%(min)s мин}
 [techTreePage/nations/china]::{Перейти к технике Китая}
 [techTreePage/nations/czech]::{Перейти к технике Чехословакии}
 [techTreePage/nations/france]::{Перейти к технике Франции}
@@ -2813,6 +2846,7 @@ Content-Transfer-Encoding: 8bit
 [vehicle/crew_award]::{Экипаж (%d%%)}
 [vehicle/dailyXPFactor]::{Опыт за первую победу в день}
 [vehicle/damage]::{<h1>Урон</h1> <h2>(hp)</h2>}
+[vehicle/deal/bob/main]::{Машина для режима «Схватка»}
 [vehicle/deal/epic/main]::{Машина для режима «Линия фронта»}
 [vehicle/deal/telecom/main/Twitchprime]::{Машина доступна игрокам с активной подпиской на Twitch Prime.}
 [vehicle/deal/telecom/main/default]::{Машина доступна абонентам тарифного плана «%(tariff)s» от %(provider)s.}
@@ -2923,6 +2957,9 @@ Content-Transfer-Encoding: 8bit
 [vehiclePreview/buyButton/notEnoughPrestigePoints/header]::{Для покупки недостаточно жетонов.}
 [vehiclePreview/buyButton/notEnoughXp/body]::{Заработайте его в бою или переведите опыт, полученный на элитной технике.}
 [vehiclePreview/buyButton/notEnoughXp/header]::{Недостаточно опыта}
+[vehiclePreview/buyButton/notUnlockedNation/body]::{Исследуйте любую машину %(nation)s %(level)s уровня, чтобы открыть доступ
+к коллекционной машине соответствующего уровня.}
+[vehiclePreview/buyButton/notUnlockedNation/header]::{Покупка недоступна}
 [vehiclePreview/buyButton/parentModuleIsLocked/body]::{Исследуйте модули предыдущей машины, необходимые для доступа к данной машине.}
 [vehiclePreview/buyButton/parentModuleIsLocked/header]::{Исследование недоступно}
 [vehiclePreview/buyButton/parentVehicleIsLocked/body]::{Сначала исследуйте саму машину и предыдущие модули.}

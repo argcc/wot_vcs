@@ -683,6 +683,16 @@
       </value>
    </setting>
    <setting>
+      <name>tournament</name>
+      <type>dict</type>
+      <value>
+         <item>
+            <name>testUrl</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
       <name>hallOfFame</name>
       <type>dict</type>
       <value>
@@ -815,6 +825,16 @@
             <name>tradeOffOverlay</name>
             <type>url</type>
          </item>
+         <item>
+            $PARAMS(/vehicles/vehicles)
+            <name>premiumVehicles</name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/collection_vehicles/collection_vehicles)
+            <name>buyCollectibleVehicle</name>
+            <type>url</type>
+         </item>
       </value>
    </setting>
    <setting>
@@ -906,6 +926,54 @@
          </item>
          <item>
             <name>webApiUrl</name>
+         </item>
+      </value>
+   </setting>
+   <setting>
+      <name>techTreeUpdateNewsURL</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
+      <value>
+         <item>
+            https://worldoftanks.com/news/updates/tech-trees-update/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://worldoftanks.eu/news/general-news/tech-trees-update/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://worldoftanks.asia/news/general-news/tech-trees-update/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://worldoftanks.ru/$LANGUAGE_CODE/news/updates/tech-trees-update/
+            <name>default</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
+      <name>techTreeIntroStartDate</name>
+      <type>dict</type>
+      <value>
+         <item>
+            21
+            <name>day</name>
+            <type>int</type>
+         </item>
+         <item>
+            4
+            <name>month</name>
+            <type>int</type>
+         </item>
+         <item>
+            2020
+            <name>year</name>
+            <type>int</type>
          </item>
       </value>
    </setting>

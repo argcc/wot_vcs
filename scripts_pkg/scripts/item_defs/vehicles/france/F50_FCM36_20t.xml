@@ -17,7 +17,7 @@
       <camouflageNetBonus>0.1</camouflageNetBonus>
       <firePenalty>0.363</firePenalty>
    </invisibility>
-   <repairCost>3.0</repairCost>
+   <repairCost>1.5</repairCost>
    <crewXpFactor>1.0</crewXpFactor>
    <camouflage>
       <priceFactor>0.4</priceFactor>
@@ -53,7 +53,7 @@
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
       <weight>7662</weight>
-      <maxHealth>112</maxHealth>
+      <maxHealth>224</maxHealth>
       <ammoBayHealth>
          <maxHealth>80</maxHealth>
          <maxRegenHealth>55</maxRegenHealth>
@@ -1846,7 +1846,7 @@
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
          <weight>1187</weight>
-         <maxHealth>28</maxHealth>
+         <maxHealth>56</maxHealth>
          <rotationSpeed>24</rotationSpeed>
          <turretRotatorHealth>
             <maxHealth>60</maxHealth>
@@ -1862,7 +1862,7 @@
          <guns>
             <_37mm_APX_SA18>
                shared
-               <maxAmmo>102</maxAmmo>
+               <maxAmmo>235</maxAmmo>
                <unlocks>
                   <gun>
                      _37mm_SA38
@@ -1946,7 +1946,7 @@
             </_37mm_APX_SA18>
             <_25mm_Canon_Raccourci_Mle.1934>
                shared
-               <maxAmmo>150</maxAmmo>
+               <maxAmmo>300</maxAmmo>
                <armor>
                   <armor_1>
                      8
@@ -2018,7 +2018,7 @@
             </_25mm_Canon_Raccourci_Mle.1934>
             <_37mm_SA38>
                shared
-               <maxAmmo>102</maxAmmo>
+               <maxAmmo>205</maxAmmo>
                <unlocks>
                   <vehicle>
                      F13_AMX38
@@ -2167,7 +2167,15 @@
             </engine>
          </unlocks>
       </Berliet_MDPA>
-      <Berliet_Ricardo>shared</Berliet_Ricardo>
+      <Berliet_Ricardo>
+         shared
+         <unlocks>
+            <vehicle>
+               F44_Somua_S35
+               <cost>1360</cost>
+            </vehicle>
+         </unlocks>
+      </Berliet_Ricardo>
    </engines>
    <fuelTanks>
       <Small>shared</Small>

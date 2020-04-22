@@ -30,7 +30,7 @@ Content-Transfer-Encoding: 8bit
 [arena_start_errors/join/WRONG_ARENA_STATE]::{Ошибка присоединения к арене.}
 [arena_start_errors/join/WRONG_ARGS]::{Ошибка присоединения, WRONG_ARGS.}
 [arena_start_errors/join/WRONG_BATTLE_ID]::{Ошибка присоединения. Выбранный Исторический бой недоступен.}
-[arena_start_errors/join/WRONG_PERIPHERY_KNOWN]::{Ошибка присоединения. Требуется перейти на сервер '%s'.}
+[arena_start_errors/join/WRONG_PERIPHERY_KNOWN]::{Ошибка присоединения. Требуется перейти на сервер %s.}
 [arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN]::{Ошибка присоединения. Требуется перейти на другой сервер.}
 [arena_start_errors/join/WRONG_VEHICLE]::{Ошибка присоединения. Текущая машина не готова.}
 [arena_start_errors/join/WRONG_VEHICLE_LVL]::{Ошибка: техника этого уровня не может участвовать в режиме.}
@@ -56,18 +56,19 @@ Content-Transfer-Encoding: 8bit
 [artefact_apply/success]::{%(kind)s «%(name)s» установлено на машину.}
 [artefact_apply/vehicle_locked]::{Машина заблокирована. %(kind)s «%(name)s» не установлено.}
 [artefact_apply/vehicle_need_repair]::{Машина повреждена. %(kind)s «%(name)s» не установлено. Отремонтируйте машину и повторите операцию.}
-[artefact_buy/error_not_for_this_vehicle_type]::{%(kind)s '%(name)s' не подходит для этой машины.}
-[artefact_buy/error_too_heavy]::{%(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
-[artefact_buy/invalid_module]::{Покупка %(kind)s '%(name)s' не удалась. Неправильный модуль.}
-[artefact_buy/invalid_vehicle]::{Неправильная машина. Покупка и установка %(kind)s '%(name)s' не удалась.}
-[artefact_buy/not_enough_credits]::{Покупка %(kind)s '%(name)s' не удалась. Недостаточно кредитов.}
-[artefact_buy/not_enough_crystal]::{Покупка %(kind)s '%(name)s' не удалась. Недостаточно бон.}
-[artefact_buy/not_enough_gold]::{Покупка %(kind)s '%(name)s' не удалась. Недостаточно золота.}
-[artefact_buy/server_error]::{Покупка %(kind)s '%(name)s' не удалась. Попробуйте позже.}
-[artefact_buy/server_error_centerDown]::{Покупка %(kind)s '%(name)s' не удалась. Сервис покупки модулей временно недоступен.}
-[artefact_buy/success]::{%(kind)s '%(name)s' успешно приобретено (%(count)s шт.). Потрачено %(money)s.}
-[artefact_buy/vehicle_locked]::{Машина заблокирована. Покупка и установка %(kind)s '%(name)s' не удалась.}
-[artefact_buy/vehicle_need_repair]::{Покупка и установка %(kind)s '%(name)s' не удалась. Отремонтируйте машину и повторите операцию.}
+[artefact_buy/error_not_for_this_vehicle_type]::{%(kind)s «%(name)s» не подходит для этой машины.}
+[artefact_buy/error_too_heavy]::{%(kind)s «%(name)s» не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
+[artefact_buy/invalid_module]::{Покупка %(kind)s «%(name)s» не удалась. Неправильный модуль.}
+[artefact_buy/invalid_vehicle]::{Неправильная машина. Покупка и установка %(kind)s «%(name)s» не удалась.}
+[artefact_buy/not_enough_credits]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно кредитов.}
+[artefact_buy/not_enough_crystal]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно бон.}
+[artefact_buy/not_enough_eventCoin]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно юбилейных монет.}
+[artefact_buy/not_enough_gold]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно золота.}
+[artefact_buy/server_error]::{Покупка %(kind)s «%(name)s» не удалась. Попробуйте позже.}
+[artefact_buy/server_error_centerDown]::{Покупка %(kind)s «%(name)s» не удалась. Сервис покупки модулей временно недоступен.}
+[artefact_buy/success]::{%(kind)s «%(name)s» успешно приобретено (%(count)s шт.). Потрачено %(money)s.}
+[artefact_buy/vehicle_locked]::{Машина заблокирована. Покупка и установка %(kind)s «%(name)s» не удалась.}
+[artefact_buy/vehicle_need_repair]::{Покупка и установка %(kind)s «%(name)s» не удалась. Отремонтируйте машину и повторите операцию.}
 [artefact_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [artefact_demount/error_not_enough_resources]::{Оборудование «%(equipment)s» не демонтировано. Недостаточно средств.}
 [artefact_destroy/invalid_vehicle]::{Неправильная машина. %(kind)s «%(name)s» не уничтожено.}
@@ -97,11 +98,13 @@ Content-Transfer-Encoding: 8bit
 [battleBooster_buy/crystal_error]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно бон.}
 [battleBooster_buy/error_not_for_this_vehicle_type]::{%(kind)s «%(name)s» не подходит для этой машины.}
 [battleBooster_buy/error_too_heavy]::{%(kind)s «%(name)s» не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
+[battleBooster_buy/eventCoin_error]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно юбилейных монет.}
 [battleBooster_buy/gold_error]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно золота.}
 [battleBooster_buy/invalid_module]::{Покупка %(kind)s «%(name)s» не удалась. Неправильный модуль.}
 [battleBooster_buy/invalid_vehicle]::{Неправильная машина. Покупка и установка %(kind)s «%(name)s» не удалась.}
 [battleBooster_buy/not_enough_credits]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно кредитов.}
 [battleBooster_buy/not_enough_crystal]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно бон.}
+[battleBooster_buy/not_enough_eventCoin]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно юбилейных монет.}
 [battleBooster_buy/not_enough_gold]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно золота.}
 [battleBooster_buy/server_error]::{Операции с инструкциями временно недоступны: ведутся технические работы.}
 [battleBooster_buy/server_error_centerDown]::{Покупка %(kind)s «%(name)s» не удалась. Сервис покупки модулей временно недоступен.}
@@ -180,8 +183,8 @@ Content-Transfer-Encoding: 8bit
 [buy_tankmen_berths/server_error]::{Ошибка расширения Казармы. Попробуйте позже.}
 [buy_tankmen_berths/success]::{Казарма расширена. Потрачено %(money)s.}
 [buy_tankmen_berths/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[buy_vehicle_slot_error]::{Не удалось купить '%s' . Нет свободных слотов в Ангаре. Продайте одну из машин или купите новый слот.}
-[buy_vehicle_slot_error2]::{Не удалось купить '%s' . Нет свободных слотов в Ангаре. Пожалуйста, освободите слот.}
+[buy_vehicle_slot_error]::{Не удалось купить «%s». Нет свободных слотов в Ангаре. Продайте одну из машин или купите новый слот.}
+[buy_vehicle_slot_error2]::{Не удалось купить «%s». Нет свободных слотов в Ангаре. Пожалуйста, освободите слот.}
 [change_tankman_role/FORBIDDEN]::{Невозможно сменить специальность члену экипажа: у танка уникальный постоянный экипаж.}
 [change_tankman_role/installed]::{Переученный член экипажа посажен в %(vehicle)s}
 [change_tankman_role/invalid_role]::{Не удалось сменить специальность. Попробуйте позже.}
@@ -235,7 +238,7 @@ Content-Transfer-Encoding: 8bit
 [clans/notifications/requests/watchRequests]::{Просмотреть заявки}
 [clans/request/errors/Account already invited]::{%(userName)s уже приглашён в ваш клан.}
 [clans/request/errors/Account does not meet requirements]::{Действие недоступно. Игрок не удовлетворяет условиям набора.}
-[clans/request/errors/Account in cooldown]::{Двухдневный штраф после выхода из предыдущего клана ещё не истёк.}
+[clans/request/errors/Account in cooldown]::{Однодневный штраф после выхода из предыдущего клана ещё не истёк.}
 [clans/request/errors/Account in unknown]::{Действие недоступно. Некорректный аккаунт.}
 [clans/request/errors/Account is banned]::{Действие недоступно. Аккаунт забанен.}
 [clans/request/errors/Account is in clan already]::{Игрок уже состоит в клане.}
@@ -267,17 +270,21 @@ Content-Transfer-Encoding: 8bit
 [clans/request/errors/WGCCFE error was occurred]::{Действие недоступно. Попробуйте позже.}
 [clans/request/errors/Wgrs error was occurred]::{Действие недоступно. Попробуйте позже.}
 [clans/request/errors/user is in clan already]::{%(userName)s уже состоит в клане.}
-[clientInstallError_not_for_this_vehicle_type]::{Модуль %s '%s' не подходит для этой машины.}
-[clientInstallError_too_heavy]::{Модуль %s '%s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
-[clientInstallError_vehicleGun_not_for_current_vehicle]::{%s '%s' не подходит для данной башни. Замените башню.}
-[clientInstallError_wrong_item_type]::{Модуль %s '%s' не подходит по типу.}
-[clientInstallError_wrong_nation]::{Модуль %s '%s' не подходит по нации.}
-[clientRemoveError_not_in_list]::{Модуль %s '%s' не подходит для данной машины.}
-[clientRemoveError_too_heavy]::{Модуль %s '%s' не подходит по массе. Попробуйте облегчить машину.}
-[clientRemoveError_wrong_item_type]::{Модуль %s '%s' не подходит по типу.}
-[clientRemoveError_wrong_nation]::{Модуль %s '%s' не подходит по нации.}
+[clientInstallError_not_for_this_vehicle_type]::{Модуль %s «%s» не подходит для этой машины.}
+[clientInstallError_too_heavy]::{Модуль %s «%s» не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
+[clientInstallError_vehicleGun_not_for_current_vehicle]::{%s «%s» не подходит для данной башни. Замените башню.}
+[clientInstallError_wrong_item_type]::{Модуль %s «%s» не подходит по типу.}
+[clientInstallError_wrong_nation]::{Модуль %s «%s» не подходит по нации.}
+[clientRemoveError_not_in_list]::{Модуль %s «%s» не подходит для данной машины.}
+[clientRemoveError_too_heavy]::{Модуль %s «%s» не подходит по массе. Попробуйте облегчить машину.}
+[clientRemoveError_wrong_item_type]::{Модуль %s «%s» не подходит по типу.}
+[clientRemoveError_wrong_nation]::{Модуль %s «%s» не подходит по нации.}
 [client_inactive]::{Неактивность клиента}
-[connected]::{Добро пожаловать на сервер '%s' World of Tanks!}
+[collectorVehicle/switch_off/body]::{Функционирование коллекций временно приостановлено. Ведутся технические работы.}
+[collectorVehicle/switch_off/title]::{Коллекции недоступны}
+[collectorVehicle/switch_on/body]::{Работа коллекций налажена. Приносим извинения за причинённые неудобства.}
+[collectorVehicle/switch_on/title]::{Коллекции вновь доступны}
+[connected]::{Добро пожаловать на сервер %s World of Tanks!}
 [crewBooks/failed]::{Возникла ошибка при изучение учебного материала.}
 [crewBooksNotification/bookUsed]::{Использовано: %(name)s}
 [crewBooks_buy/server_error]::{Покупка учебного материала не удалась. Ошибка сервера, повторите операцию позже.}
@@ -288,7 +295,7 @@ Content-Transfer-Encoding: 8bit
 Получено кредитов: %(compensation)s}
 [crewSkinsNotification/SkinChanged]::{Изменён облик члена экипажа.}
 [crewSkinsNotification/SkinGain]::{Начислено обликов экипажа: %(count)s}
-[current_vehicle_changed]::{Текущая машина изменена на '%s'.}
+[current_vehicle_changed]::{Текущая машина изменена на %s.}
 [customization/added/camouflage]::{Добавлен камуфляж «%s»}
 [customization/added/camouflageValue]::{Добавлен камуфляж «%s» (x%s)}
 [customization/added/decal]::{Добавлена декаль «%s»}
@@ -388,6 +395,7 @@ Content-Transfer-Encoding: 8bit
 [equip_tankman/vehicle_locked]::{Ошибка перемещения члена экипажа на машину. Машина заблокирована.}
 [equip_tankman/vehicle_need_repair]::{Ошибка перемещения члена экипажа на машину. Необходим ремонт.}
 [event_progression_buy_vehicle/buy]::{Дата: %(date)s
+%(veh_name)s, 100%% экипаж и слот успешно приобретены.
 Списано жетонов: %(count)s}
 [event_progression_buy_vehicle/server_error]::{Покупка %(veh_name)s не была совершена}
 [exchange/not_enough_gold]::{Недостаточно золота для обмена.}
@@ -547,39 +555,39 @@ Content-Transfer-Encoding: 8bit
 [igr/customization/begin]::{В %(igrIcon)s вам доступны бесплатные виды камуфляжа, надписи и эмблемы.}
 [igr/customization/end]::{Срок действия %(igrIcon)s истёк. Используемый бесплатный камуфляж, надписи и эмблемы будут сняты с машины.}
 [info/noAvailable]::{Подробная информация недоступна.}
-[install_component]::{Модуль %s '%s' установлен на машину.}
-[install_vehicle_broken]::{Машина повреждена. Модуль %s '%s' не установлен. Отремонтируйте машину и повторите операцию.}
-[install_vehicle_locked]::{Машина заблокирована, установка модуля %s '%s' не удалась.}
-[inventory/item/already_exists]::{Модуль %(typeString)s '%(userString)s' уже имеется в наличии на Складе.}
+[install_component]::{Модуль %s «%s» установлен на машину.}
+[install_vehicle_broken]::{Машина повреждена. Модуль %s «%s» не установлен. Отремонтируйте машину и повторите операцию.}
+[install_vehicle_locked]::{Машина заблокирована, установка модуля %s «%s» не удалась.}
+[inventory/item/already_exists]::{Модуль %(typeString)s «%(userString)s» уже имеется в наличии на Складе.}
 [inventory/item/equip_in_processing]::{Запрос на установку модуля отправлен, ожидается ответ от сервера.}
-[inventory/item/not_found]::{Модуль %(typeString)s '%(userString)s' на Складе не найден.}
+[inventory/item/not_found]::{Модуль %(typeString)s «%(userString)s» на Складе не найден.}
 [inventory/vehicle/already_exists]::{%(userString)s уже имеется в наличии на Складе.}
 [inventory/vehicle/not_found]::{%(userString)s на Складе не найден.}
 [invite/status/LEGIONARIES_NOT_ALLOWED]::{Приглашение легионеру %(name)s не может быть отправлено.}
 [invite/status/WRONG_CLAN]::{Приглашение игроку %(name)s не может быть отправлено: неправильный клан.}
-[layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED]::{Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.}
-[layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED]::{Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.}
-[layout_apply/Cannot equip equipment]::{Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.}
-[layout_apply/Cannot equip shells]::{Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряды. Попробуйте позже.}
-[layout_apply/Cannot equip shells (maxAmmo limit exceeded)]::{Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряды. Максимальное количество снарядов загружено.}
-[layout_apply/Component is not in shop]::{Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.}
-[layout_apply/EQS_NO_CREDITS]::{Ошибка при обслуживании '%(vehName)s'. Недостаточно кредитов для покупки снаряжения.}
-[layout_apply/EQS_NO_CRYSTAL]::{Ошибка при обслуживании '%(vehName)s'. Недостаточно бон для покупки снаряжения.}
-[layout_apply/EQS_NO_GOLD]::{Ошибка при обслуживании '%(vehName)s'. Недостаточно золота для покупки снаряжения.}
+[layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED]::{Ошибка при обслуживании «%(vehName)s». Невозможно пополнить снаряжение. Попробуйте позже.}
+[layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED]::{Ошибка при обслуживании «%(vehName)s». Невозможно пополнить снаряжение. Попробуйте позже.}
+[layout_apply/Cannot equip equipment]::{Ошибка при обслуживании «%(vehName)s». Невозможно пополнить снаряжение. Попробуйте позже.}
+[layout_apply/Cannot equip shells]::{Ошибка при обслуживании «%(vehName)s». Невозможно пополнить снаряды. Попробуйте позже.}
+[layout_apply/Cannot equip shells (maxAmmo limit exceeded)]::{Ошибка при обслуживании «%(vehName)s». Невозможно пополнить снаряды. Максимальное количество снарядов уже загружено.}
+[layout_apply/Component is not in shop]::{Ошибка при обслуживании «%(vehName)s». Невозможно пополнить снаряжение. Попробуйте позже.}
+[layout_apply/EQS_NO_CREDITS]::{Ошибка при обслуживании «%(vehName)s». Недостаточно кредитов для покупки снаряжения.}
+[layout_apply/EQS_NO_CRYSTAL]::{Ошибка при обслуживании «%(vehName)s». Недостаточно бон для покупки снаряжения.}
+[layout_apply/EQS_NO_GOLD]::{Ошибка при обслуживании «%(vehName)s». Недостаточно золота для покупки снаряжения.}
 [layout_apply/EQS_NO_WALLET_SESSION]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[layout_apply/NOT_RESEARCHED_ITEM]::{Ошибка при обслуживании '%(vehName)s'. Невозможно пополнить снаряжение. Попробуйте позже.}
-[layout_apply/No vehicle with given id]::{Ошибка при обслуживании '%(vehName)s'. Неправильная машина.}
-[layout_apply/SHELLS_NO_CREDITS]::{Ошибка при обслуживании '%(vehName)s'. Недостаточно кредитов для покупки снарядов.}
-[layout_apply/SHELLS_NO_GOLD]::{Ошибка при обслуживании '%(vehName)s'. Недостаточно золота для покупки снарядов.}
+[layout_apply/NOT_RESEARCHED_ITEM]::{Ошибка при обслуживании «%(vehName)s». Невозможно пополнить снаряжение. Попробуйте позже.}
+[layout_apply/No vehicle with given id]::{Ошибка при обслуживании «%(vehName)s». Неправильная машина.}
+[layout_apply/SHELLS_NO_CREDITS]::{Ошибка при обслуживании «%(vehName)s». Недостаточно кредитов для покупки снарядов.}
+[layout_apply/SHELLS_NO_GOLD]::{Ошибка при обслуживании «%(vehName)s». Недостаточно золота для покупки снарядов.}
 [layout_apply/SHELLS_NO_WALLET_SESSION]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[layout_apply/SHOP_DESYNC]::{Ошибка при обслуживании '%(vehName)s'. Попробуйте позже.}
-[layout_apply/Vehicle is locked]::{Ошибка при обслуживании '%(vehName)s'. Машина заблокирована.}
-[layout_apply/WRONG_ARGS_TYPE]::{Ошибка при обслуживании '%(vehName)s'. Попробуйте позже.}
-[layout_apply/WRONG_ARG_VALUE]::{Ошибка при обслуживании '%(vehName)s'. Попробуйте позже.}
-[layout_apply/invalid_vehicle]::{Ошибка при обслуживании '%(vehName)s'. Неправильная машина.}
-[layout_apply/server_error]::{Ошибка при обслуживании '%(vehName)s'. Попробуйте позже.}
+[layout_apply/SHOP_DESYNC]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
+[layout_apply/Vehicle is locked]::{Ошибка при обслуживании «%(vehName)s». Машина заблокирована.}
+[layout_apply/WRONG_ARGS_TYPE]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
+[layout_apply/WRONG_ARG_VALUE]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
+[layout_apply/invalid_vehicle]::{Ошибка при обслуживании «%(vehName)s». Неправильная машина.}
+[layout_apply/server_error]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
 [layout_apply/success_money_spent]::{Всего на пополнение боекомплекта потрачено %(money)s.}
-[layout_apply/vehicle_locked]::{Ошибка при обслуживании '%(vehName)s'. Машина заблокирована.}
+[layout_apply/vehicle_locked]::{Ошибка при обслуживании «%(vehName)s». Машина заблокирована.}
 [layout_apply/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [login_to_other_game_unknown]::{текущая игровая сессия прервана. Ваш Wargaming.net&nbsp;ID был использован для входа в другую игру}
 [login_to_other_game_web]::{текущая игровая сессия прервана. Вы отключены от сервера через портал игры}
@@ -623,26 +631,26 @@ Content-Transfer-Encoding: 8bit
 [module_apply/success_gun_change]::{Модуль %(kind)s «%(name)s» установлен на машину с орудием «%(gun)s».}
 [module_apply/vehicle_locked]::{Машина заблокирована, установка модуля %(kind)s «%(name)s» не удалась.}
 [module_apply/vehicle_need_repair]::{Машина повреждена. Модуль %(kind)s «%(name)s» не установлен. Отремонтируйте машину и повторите операцию.}
-[module_buy/error_is_current]::{Модуль %(kind)s '%(name)s' уже установлен.}
-[module_buy/error_need_gun]::{Модуль %(kind)s '%(name)s' не может быть установлен на машину с текущим орудием.}
-[module_buy/error_need_turret]::{%(kind)s '%(name)s' не устанавливается в текущую башню. Замените башню на совместимую.}
-[module_buy/error_no_gun]::{%(kind)s '%(name)s' не установлена. На Складе нет подходящего орудия.}
-[module_buy/error_not_for_current_vehicle]::{%(kind)s '%(name)s' не подходит для данной башни. Замените башню.}
-[module_buy/error_not_for_this_vehicle_type]::{Модуль %(kind)s '%(name)s' не подходит для данной машины.}
-[module_buy/error_not_with_installed_equipment]::{Модуль %(kind)s '%(name)s' несовместим со снаряжением '%s'.}
-[module_buy/error_too_heavy]::{Модуль %(kind)s '%(name)s' не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
-[module_buy/error_too_heavy_chassis]::{Модуль %(kind)s '%(name)s' не подходит по массе. Попробуйте облегчить машину.}
-[module_buy/error_wrong_item_type]::{Модуль %(kind)s '%(name)s' не подходит по типу.}
-[module_buy/error_wrong_nation]::{Модуль %(kind)s '%(name)s' не подходит по нации.}
-[module_buy/invalid_module]::{Покупка %(kind)s '%(name)s' не удалась. Неправильный модуль.}
-[module_buy/invalid_vehicle]::{Неправильная машина. Покупка и установка %(kind)s '%(name)s' не удалась.}
-[module_buy/not_enough_credits]::{Покупка %(kind)s '%(name)s' не удалась. Недостаточно кредитов.}
-[module_buy/not_enough_gold]::{Покупка %(kind)s '%(name)s' не удалась. Недостаточно золота.}
-[module_buy/server_error]::{Покупка %(kind)s '%(name)s' не удалась. Попробуйте позже.}
-[module_buy/server_error_centerDown]::{Покупка %(kind)s '%(name)s' не удалась. Сервис покупки модулей временно недоступен.}
-[module_buy/success]::{Модуль %(kind)s '%(name)s' успешно приобретён (%(count)s шт.). Потрачено %(money)s.}
-[module_buy/vehicle_locked]::{Машина заблокирована. Покупка и установка %(kind)s '%(name)s' не удалась.}
-[module_buy/vehicle_need_repair]::{Покупка и установка %(kind)s '%(name)s' не удалась. Отремонтируйте машину и повторите операцию.}
+[module_buy/error_is_current]::{Модуль %(kind)s «%(name)s» уже установлен.}
+[module_buy/error_need_gun]::{Модуль %(kind)s «%(name)s» не может быть установлен на машину с текущим орудием.}
+[module_buy/error_need_turret]::{%(kind)s «%(name)s» не устанавливается в текущую башню. Замените башню на совместимую.}
+[module_buy/error_no_gun]::{%(kind)s «%(name)s» не установлена. На Складе нет подходящего орудия.}
+[module_buy/error_not_for_current_vehicle]::{%(kind)s «%(name)s» не подходит для данной башни. Замените башню.}
+[module_buy/error_not_for_this_vehicle_type]::{Модуль %(kind)s «%(name)s» не подходит для данной машины.}
+[module_buy/error_not_with_installed_equipment]::{Модуль %(kind)s «%(name)s» несовместим со снаряжением «%s».}
+[module_buy/error_too_heavy]::{Модуль %(kind)s «%(name)s» не подходит по массе. Попробуйте заменить ходовую часть или облегчить машину.}
+[module_buy/error_too_heavy_chassis]::{Модуль %(kind)s «%(name)s» не подходит по массе. Попробуйте облегчить машину.}
+[module_buy/error_wrong_item_type]::{Модуль %(kind)s «%(name)s» не подходит по типу.}
+[module_buy/error_wrong_nation]::{Модуль %(kind)s «%(name)s» не подходит по нации.}
+[module_buy/invalid_module]::{Покупка %(kind)s «%(name)s» не удалась. Неправильный модуль.}
+[module_buy/invalid_vehicle]::{Неправильная машина. Покупка и установка %(kind)s «%(name)s» не удалась.}
+[module_buy/not_enough_credits]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно кредитов.}
+[module_buy/not_enough_gold]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно золота.}
+[module_buy/server_error]::{Покупка %(kind)s «%(name)s» не удалась. Попробуйте позже.}
+[module_buy/server_error_centerDown]::{Покупка %(kind)s «%(name)s» не удалась. Сервис покупки модулей временно недоступен.}
+[module_buy/success]::{Модуль %(kind)s «%(name)s» успешно приобретён (%(count)s шт.). Потрачено %(money)s.}
+[module_buy/vehicle_locked]::{Машина заблокирована. Покупка и установка %(kind)s «%(name)s» не удалась.}
+[module_buy/vehicle_need_repair]::{Покупка и установка %(kind)s «%(name)s» не удалась. Отремонтируйте машину и повторите операцию.}
 [module_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [module_sell/invalid_module]::{Продажа %(kind)s «%(name)s» не удалась. Неправильный модуль.}
 [module_sell/server_error]::{Продажа %(kind)s «%(name)s» не удалась. Попробуйте позже.}
@@ -743,6 +751,7 @@ Content-Transfer-Encoding: 8bit
 [prebattle/teamInvalid/limits/level]::{К бою допускается только техника в диапазоне уровней от %(minLevel)d до %(maxLevel)d.}
 [prebattle/teamInvalid/limits/vehicles]::{Выбранная машина не подходит для данного боя.}
 [prebattle/teamInvalid/observers]::{Команда не может состоять только из наблюдателей.}
+[prebattle/vehicleInvalid/bobOnly]::{Выбранная машина подходит только для режима «Схватка».}
 [prebattle/vehicleInvalid/epicOnly]::{Выбранная машина подходит только для режима «Линия фронта».}
 [prebattle/vehicleInvalid/falloutOnly]::{Выбранная машина подходит только для режима «Бой до последнего».}
 [prebattle/vehicleInvalid/limits/ammo]::{На выбранную машину загружены снаряды или снаряжение, не удовлетворяющие условиям боя.}
@@ -790,6 +799,7 @@ Content-Transfer-Encoding: 8bit
 [ranked/notifications/bonusName/badges]::{Получены нашивки:}
 [ranked/notifications/bonusName/credits]::{Получено кредитов:}
 [ranked/notifications/bonusName/crystal]::{Получено бон:}
+[ranked/notifications/bonusName/eventCoin]::{Получено юбилейных монет:}
 [ranked/notifications/bonusName/gold]::{Получено золота:}
 [ranked/notifications/bonusName/style]::{Получен стиль:}
 [ranked/notifications/bonusName/styles]::{Получены стили:}
@@ -829,12 +839,12 @@ Content-Transfer-Encoding: 8bit
 [reequip_tankman/success]::{Замена члена экипажа выполнена успешно.}
 [reequip_tankman/vehicle_locked]::{Ошибка замены члена экипажа. Машина заблокирована.}
 [reequip_tankman/vehicle_need_repair]::{Ошибка замены члена экипажа. Необходим ремонт.}
-[remove_component]::{Модуль %s '%s' снят с машины.}
-[remove_vehicle_broken]::{Машина повреждена. Не удалось удалить %s '%s'. Отремонтируйте машину и повторите операцию.}
-[remove_vehicle_locked]::{Машина заблокирована. Нельзя удалить %s '%s'.}
+[remove_component]::{Модуль %s «%s» снят с машины.}
+[remove_vehicle_broken]::{Машина повреждена. Не удалось удалить %s «%s». Отремонтируйте машину и повторите операцию.}
+[remove_vehicle_locked]::{Машина заблокирована. Нельзя удалить %s «%s».}
 [repair/credits_error]::{Не хватает %s кредитов на ремонт %s.}
-[repair/server_error]::{Ошибка ремонта '%s'. Попробуйте позже.}
-[repair/success]::{Машина '%s' отремонтирована. Потрачено %s.}
+[repair/server_error]::{Ошибка ремонта «%s». Попробуйте позже.}
+[repair/success]::{Машина «%s» отремонтирована. Потрачено %s.}
 [replace_tankman/FORBIDDEN]::{Невозможно сменить документы члену экипажа: у танка уникальный постоянный экипаж.}
 [replace_tankman/invalid_vehicle]::{Ошибка смены документов члена экипажа. Неправильная машина.}
 [replace_tankman/not_enough_money]::{Ошибка смены документов члена экипажа. Недостаточно средств.}
@@ -889,10 +899,10 @@ Content-Transfer-Encoding: 8bit
 [securityMessage/no_question]::{Уважаемый пользователь! Рекомендуем указать в Личном кабинете секретный вопрос для восстановления пароля. %(link)s}
 [securityMessage/old_pass]::{Уважаемый пользователь! Вы не меняли пароль уже 30 дней. Рекомендуем сменить пароль для обеспечения безопасности. %(link)s}
 [securityMessage/poor_pass]::{Уважаемый пользователь! Сложность вашего пароля, указанного при создании аккаунта, слишком низкая. Рекомендуем сменить пароль. %(link)s}
-[sell_vehicle_broken]::{Машина повреждена. Не удалось продать '%s'. Отремонтируйте машину и повторите операцию.}
-[sell_vehicle_locked]::{Машина заблокирована. Нельзя продать '%s'.}
-[serverInstallError]::{Произошла серверная ошибка установки модуля %s '%s'. Попробуйте повторить операцию позже.}
-[serverRemoveError]::{Произошла серверная ошибка удаления модуля %s '%s'. Попробуйте повторить операцию позже.}
+[sell_vehicle_broken]::{Машина повреждена. Не удалось продать «%s». Отремонтируйте машину и повторите операцию.}
+[sell_vehicle_locked]::{Машина заблокирована. Нельзя продать «%s».}
+[serverInstallError]::{Произошла серверная ошибка установки модуля %s «%s». Попробуйте повторить операцию позже.}
+[serverRemoveError]::{Произошла серверная ошибка удаления модуля %s «%s». Попробуйте повторить операцию позже.}
 [server_shut_down]::{Перезагрузка игрового сервера}
 [session_tracker_kick]::{Ваш Wargaming.net&nbsp;ID использован для входа в другую игру, текущая игровая сессия прервана}
 [shell_buy/invalid_module]::{Покупка %(name)s не удалась. Неправильный снаряд.}
@@ -906,11 +916,11 @@ Content-Transfer-Encoding: 8bit
 [shell_sell/server_error]::{Продажа «%(name)s» не удалась. Попробуйте позже.}
 [shell_sell/success]::{Снаряд «%(name)s» (%(count)s шт.). Получено %(money)s.}
 [shop/item/buy_and_equip_in_processing]::{Запрос на покупку и установку модуля отправлен, ожидается ответ от сервера.}
-[shop/item/buy_server_error]::{Покупка модуля %(typeString)s '%(userString)s' не удалась. Попробуйте позже.}
-[shop/item/buy_success]::{Модуль %(typeString)s '%(userString)s' успешно приобретён (%(count)d шт.). Потрачено %(price)s.}
+[shop/item/buy_server_error]::{Покупка модуля %(typeString)s «%(userString)s» не удалась. Попробуйте позже.}
+[shop/item/buy_success]::{Модуль %(typeString)s «%(userString)s» успешно приобретён (%(count)d шт.). Потрачено %(price)s.}
 [shop/item/common_rent_or_buy_error]::{В данный момент операция невозможна.}
-[shop/item/not_enough_money]::{Для покупки %(typeString)s '%(userString)s' не хватает %(price)s.}
-[shop/item/not_found]::{Модуль %(typeString)s '%(userString)s' в Магазине не найден. Попробуйте позже.}
+[shop/item/not_enough_money]::{Для покупки %(typeString)s «%(userString)s» не хватает %(price)s.}
+[shop/item/not_found]::{Модуль %(typeString)s «%(userString)s» в Магазине не найден. Попробуйте позже.}
 [shop/vehicle/common_rent_or_buy_error]::{В данный момент операция невозможна.}
 [shop/vehicle/not_enough_money]::{Для покупки %(userString)s не хватает %(price)s.}
 [shop/vehicle/not_enough_money_for_rent]::{Для аренды %(userString)s не хватает %(price)s.}
@@ -934,6 +944,9 @@ Content-Transfer-Encoding: 8bit
 [squad_bonus/switch_off/title]::{Взводный бонус временно недоступен}
 [squad_bonus/switch_on/body]::{Технические проблемы решены. Приносим извинения за неудобства.}
 [squad_bonus/switch_on/title]::{Взводный бонус снова доступен}
+[techtree/action/expireTime]::{%(days)s д}
+[techtree/action/header]::{Акция «%(actionName)s»}
+[techtree/action/text]::{До конца акции: }
 [telecom/notifications/vehicleBlocked/comment/default]::{%(vehicles)s}
 [telecom/notifications/vehicleBlocked/subcomment/Twitchprime]::{Причина: не выполнены условия акции «Прямой эфир». Проверьте статус подписки на Twitch Prime.}
 [telecom/notifications/vehicleBlocked/subcomment/default]::{Причина: блокировка услуги провайдером. Проверьте статус услуги в личном кабинете %(provider)s.}
@@ -1060,10 +1073,10 @@ Content-Transfer-Encoding: 8bit
 [unload_tankman/vehicle_locked]::{Ошибка высадки члена экипажа в Казарму. Машина заблокирована.}
 [unload_tankman/vehicle_need_repair]::{Ошибка высадки члена экипажа в Казарму. Машине необходим ремонт.}
 [unlocks/drawFailed]::{Невозможно отобразить Дерево исследований из-за неправильных настроек.}
-[unlocks/item/already_unlocked]::{Модуль %(typeString)s '%(userString)s' исследован.}
+[unlocks/item/already_unlocked]::{Модуль %(typeString)s «%(userString)s» исследован.}
 [unlocks/item/in_processing]::{Запрос на исследование отправлен, ожидается ответ от сервера.}
-[unlocks/item/server_error]::{Произошла серверная ошибка исследования модуля %(typeString)s '%(userString)s'. Попробуйте повторить операцию позже.}
-[unlocks/item/unlock_success]::{Модуль %(typeString)s '%(userString)s' исследован. Потрачено нераспределённого опыта %(vehXP)s, свободного опыта %(freeXP)s.}
+[unlocks/item/server_error]::{Произошла серверная ошибка исследования модуля %(typeString)s «%(userString)s». Попробуйте повторить операцию позже.}
+[unlocks/item/unlock_success]::{Модуль %(typeString)s «%(userString)s» исследован. Потрачено нераспределённого опыта: %(vehXP)s. Потрачено свободного опыта: %(freeXP)s.}
 [unlocks/vehicle/already_unlocked]::{%(userString)s исследован.}
 [unlocks/vehicle/in_processing]::{Запрос на исследование отправлен, ожидается ответ от сервера.}
 [unlocks/vehicle/server_error]::{Серверная ошибка исследования %(userString)s. Попробуйте повторить операцию позже.}
@@ -1078,14 +1091,14 @@ Content-Transfer-Encoding: 8bit
 [vehicleCompare/disabled]::{Операция временно недоступна. Попробуйте позже.}
 [vehicleCompare/previewNotAllowed]::{Предпросмотр %(vehicle)s доступен только в полной версии клиента игры.}
 [vehicleComponents/equip_in_processing]::{Запрос на установку модуля отправлен, ожидается ответ от сервера.}
-[vehicleComponents/module_buy_server_error]::{Покупка модуля %(typeString)s '%(userString)s' не удалась. Попробуйте позже.}
-[vehicleComponents/module_buy_success]::{Модуль %(typeString)s '%(userString)s' успешно приобретён (%(count)d шт.). Потрачено %(price)s.}
-[vehicleComponents/module_has_in_inventory]::{Модуль %(typeString)s '%(userString)s' уже имеется в наличии на Складе.}
-[vehicleComponents/module_is_already_unlocked]::{Модуль %(typeString)s '%(userString)s' исследован.}
-[vehicleComponents/module_not_enough_money]::{Для покупки %(typeString)s '%(userString)s' не хватает %(price)s.}
-[vehicleComponents/module_not_found_in_inventory]::{Модуль %(typeString)s '%(userString)s' на Складе не найден.}
-[vehicleComponents/module_not_found_in_shop]::{Модуль %(typeString)s '%(userString)s' в Магазине не найден. Попробуйте позже.}
-[vehicleComponents/module_unlock_success]::{Модуль %(typeString)s '%(userString)s' исследован. Потрачено нераспределённого опыта %(unspentXP)s, свободного опыта %(freeXP)s.}
+[vehicleComponents/module_buy_server_error]::{Покупка модуля %(typeString)s «%(userString)s» не удалась. Попробуйте позже.}
+[vehicleComponents/module_buy_success]::{Модуль %(typeString)s «%(userString)s» успешно приобретён (%(count)d шт.). Потрачено %(price)s.}
+[vehicleComponents/module_has_in_inventory]::{Модуль %(typeString)s «%(userString)s» уже имеется в наличии на Складе.}
+[vehicleComponents/module_is_already_unlocked]::{Модуль %(typeString)s «%(userString)s» исследован.}
+[vehicleComponents/module_not_enough_money]::{Для покупки %(typeString)s «%(userString)s» не хватает %(price)s.}
+[vehicleComponents/module_not_found_in_inventory]::{Модуль %(typeString)s «%(userString)s» на Складе не найден.}
+[vehicleComponents/module_not_found_in_shop]::{Модуль %(typeString)s «%(userString)s» в Магазине не найден. Попробуйте позже.}
+[vehicleComponents/module_unlock_success]::{Модуль %(typeString)s «%(userString)s» исследован. Потрачено нераспределённого опыта: %(unspentXP)s. Потрачено свободного опыта: %(freeXP)s.}
 [vehicleComponents/unlock_in_processing]::{Запрос на исследование отправлен, ожидается ответ от сервера.}
 [vehicleComponents/vehicle_has_in_inventory]::{%(userString)s уже имеется в наличии на Складе.}
 [vehicleComponents/vehicle_is_already_unlocked]::{%(userString)s исследован.}
@@ -1093,88 +1106,89 @@ Content-Transfer-Encoding: 8bit
 [vehicleComponents/vehicle_not_found_in_inventory]::{%(userString)s на Складе не найден.}
 [vehicleComponents/vehicle_not_found_in_shop]::{%(userString)s в Магазине не найден. Попробуйте позже.}
 [vehicleComponents/vehicle_unlock_success]::{%(userString)s исследован. Потрачено нераспределённого опыта %(unspentXP)s, свободного опыта %(freeXP)s.}
-[vehicle_buy/invalid_vehicle]::{Покупка '%(vehName)s' не удалась. Неправильная машина.}
-[vehicle_buy/not_enough_credits]::{Покупка '%(vehName)s' не удалась. Недостаточно кредитов.}
-[vehicle_buy/not_enough_gold]::{Покупка '%(vehName)s' не удалась. Недостаточно золота.}
-[vehicle_buy/server_error]::{Покупка '%(vehName)s' не удалась. Ошибка сервера, повторите операцию позже.}
-[vehicle_buy/server_error_centerDown]::{Покупка '%(vehName)s' не удалась. Сервис покупки техники временно недоступен.}
-[vehicle_buy/success]::{'%(vehName)s' успешно приобретён. Потрачено %(price)s.}
+[vehicle_buy/invalid_vehicle]::{Покупка «%(vehName)s» не удалась. Неправильная машина.}
+[vehicle_buy/not_enough_credits]::{Покупка «%(vehName)s» не удалась. Недостаточно кредитов.}
+[vehicle_buy/not_enough_gold]::{Покупка «%(vehName)s» не удалась. Недостаточно золота.}
+[vehicle_buy/not_unlocked_nation]::{Операция невозможна. Нация не исследована.}
+[vehicle_buy/server_error]::{Покупка «%(vehName)s» не удалась. Ошибка сервера, повторите операцию позже.}
+[vehicle_buy/server_error_centerDown]::{Покупка «%(vehName)s» не удалась. Сервис покупки техники временно недоступен.}
+[vehicle_buy/success]::{«%(vehName)s» успешно приобретён. Потрачено %(price)s.}
 [vehicle_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[vehicle_remove/demount_kit_disabled]::{Удаление %(vehName)s не удалось. Попробуйте позже.}
-[vehicle_remove/invalid_vehicle]::{Удаление '%(vehName)s' не удалось. Неправильная машина.}
-[vehicle_remove/not_enough_credits]::{Удаление '%(vehName)s' не удалось. Недостаточно кредитов.}
-[vehicle_remove/not_enough_gold]::{Удаление '%(vehName)s' не удалось. Недостаточно золота.}
-[vehicle_remove/not_enough_space]::{Удаление '%(vehName)s' не удалось. Недостаточно места в Казарме.}
-[vehicle_remove/server_error]::{Удаление '%(vehName)s' не удалось. Убедитесь, что машина не состоит в формировании, или попробуйте позже.}
+[vehicle_remove/demount_kit_disabled]::{Удаление «%(vehName)s» не удалось. Попробуйте позже.}
+[vehicle_remove/invalid_vehicle]::{Удаление «%(vehName)s» не удалось. Неправильная машина.}
+[vehicle_remove/not_enough_credits]::{Удаление «%(vehName)s» не удалось. Недостаточно кредитов.}
+[vehicle_remove/not_enough_gold]::{Удаление «%(vehName)s» не удалось. Недостаточно золота.}
+[vehicle_remove/not_enough_space]::{Удаление «%(vehName)s» не удалось. Недостаточно места в Казарме.}
+[vehicle_remove/server_error]::{Удаление «%(vehName)s» не удалось. Убедитесь, что машина не состоит в формировании, или попробуйте позже.}
 [vehicle_remove/success]::{Машина %(vehName)s успешно удалена. Получено %(money)s.}
 [vehicle_remove/success/with_demount_kit]::{Машина %(vehName)s успешно удалена. Получено %(money)s. Использован демонтажный набор (х%(countDK)s).}
 [vehicle_remove/success_dismantling]::{Машина %(vehName)s успешно удалена. Получено %(gainMoney)s. Потрачено %(spendMoney)s.}
 [vehicle_remove/success_dismantling/with_demount_kit]::{Машина %(vehName)s успешно удалена. Получено %(gainMoney)s. Использован демонтажный набор (х%(countDK)s). Потрачено %(spendMoney)s.}
-[vehicle_remove/vehicle_cannot_be_sold]::{Удаление '%(vehName)s' не удалось. Машина будет списана автоматически.}
-[vehicle_remove/vehicle_locked]::{Удаление '%(vehName)s' не удалось. Машина заблокирована.}
-[vehicle_remove/vehicle_need_repair]::{Удаление '%(vehName)s' не удалось. Машине необходим ремонт.}
-[vehicle_remove/vehicle_sell_limit]::{Удаление '%(vehName)s' не удалось. Вы исчерпали лимит продажи техники на сегодняшний день.}
+[vehicle_remove/vehicle_cannot_be_sold]::{Удаление «%(vehName)s» не удалось. Машина будет списана автоматически.}
+[vehicle_remove/vehicle_locked]::{Удаление «%(vehName)s» не удалось. Машина заблокирована.}
+[vehicle_remove/vehicle_need_repair]::{Удаление «%(vehName)s» не удалось. Машине необходим ремонт.}
+[vehicle_remove/vehicle_sell_limit]::{Удаление «%(vehName)s» не удалось. Вы исчерпали лимит продажи техники на сегодняшний день.}
 [vehicle_remove/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [vehicle_rent/buyOption]::{Внимание! Последующая покупка арендованной машины обойдётся дешевле.}
-[vehicle_rent/invalid_vehicle]::{Аренда '%(vehName)s' не удалась. Неправильная машина.}
-[vehicle_rent/not_enough_credits]::{Аренда '%(vehName)s' не удалась. Недостаточно кредитов.}
-[vehicle_rent/not_enough_gold]::{Аренда '%(vehName)s' не удалась. Недостаточно золота.}
-[vehicle_rent/server_error]::{Аренда '%(vehName)s' не удалась. Ошибка сервера, повторите операцию позже.}
-[vehicle_rent/server_error_centerDown]::{Аренда '%(vehName)s' не удалась. Сервис аренды техники временно недоступен.}
-[vehicle_rent/success]::{Машина '%(vehName)s' арендована %(rentPackageName)s. Потрачено %(price)s. %(buyOption)s}
+[vehicle_rent/invalid_vehicle]::{Аренда «%(vehName)s» не удалась. Неправильная машина.}
+[vehicle_rent/not_enough_credits]::{Аренда «%(vehName)s» не удалась. Недостаточно кредитов.}
+[vehicle_rent/not_enough_gold]::{Аренда «%(vehName)s» не удалась. Недостаточно золота.}
+[vehicle_rent/server_error]::{Аренда «%(vehName)s» не удалась. Ошибка сервера, повторите операцию позже.}
+[vehicle_rent/server_error_centerDown]::{Аренда «%(vehName)s» не удалась. Сервис аренды техники временно недоступен.}
+[vehicle_rent/success]::{Машина «%(vehName)s» арендована %(rentPackageName)s. Потрачено %(price)s. %(buyOption)s}
 [vehicle_rent/timeRent]::{на %(days)d д}
 [vehicle_rent/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[vehicle_repair/not_enough_credits]::{Не хватает %(needed)s на ремонт '%(vehName)s'.}
-[vehicle_repair/server_error]::{Ошибка ремонта '%(vehName)s'. Попробуйте позже.}
-[vehicle_repair/success]::{'%(vehName)s' отремонтирован. Потрачено %(money)s.}
+[vehicle_repair/not_enough_credits]::{Не хватает %(needed)s на ремонт «%(vehName)s».}
+[vehicle_repair/server_error]::{Ошибка ремонта «%(vehName)s». Попробуйте позже.}
+[vehicle_repair/success]::{«%(vehName)s» отремонтирован. Потрачено %(money)s.}
 [vehicle_restore/DISABLED]::{Восстановление техники временно недоступно. Повторите попытку позже.}
-[vehicle_restore/disconnected_from_center]::{Не удалось восстановить '%(vehName)s'. Сервис восстановления техники временно недоступен.}
-[vehicle_restore/invalid_vehicle]::{Не удалось восстановить '%(vehName)s'. Неправильная машина.}
-[vehicle_restore/not_enough_credits]::{Не удалось восстановить '%(vehName)s'. Недостаточно кредитов.}
-[vehicle_restore/not_enough_gold]::{Не удалось восстановить '%(vehName)s'. Недостаточно золота.}
-[vehicle_restore/server_error]::{Не удалось восстановить '%(vehName)s'. Ошибка сервера, повторите операцию позже.}
-[vehicle_restore/server_error_centerDown]::{Не удалось восстановить '%(vehName)s'. Сервис аренды техники временно недоступен.}
-[vehicle_restore/success]::{Машина '%(vehName)s' восстановлена. Потрачено %(price)s.}
+[vehicle_restore/disconnected_from_center]::{Не удалось восстановить «%(vehName)s». Сервис восстановления техники временно недоступен.}
+[vehicle_restore/invalid_vehicle]::{Не удалось восстановить «%(vehName)s». Неправильная машина.}
+[vehicle_restore/not_enough_credits]::{Не удалось восстановить «%(vehName)s». Недостаточно кредитов.}
+[vehicle_restore/not_enough_gold]::{Не удалось восстановить «%(vehName)s». Недостаточно золота.}
+[vehicle_restore/server_error]::{Не удалось восстановить «%(vehName)s». Ошибка сервера, повторите операцию позже.}
+[vehicle_restore/server_error_centerDown]::{Не удалось восстановить «%(vehName)s». Сервис аренды техники временно недоступен.}
+[vehicle_restore/success]::{Машина «%(vehName)s» восстановлена. Потрачено %(price)s.}
 [vehicle_restore/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[vehicle_sell/demount_kit_disabled]::{Продажа %(vehName)s не удалась. Попробуйте позже.}
-[vehicle_sell/disabledService]::{Продажа %(vehName)s не удалась. Попробуйте позже.}
-[vehicle_sell/invalid_vehicle]::{Продажа '%(vehName)s' не удалась. Неправильная машина.}
-[vehicle_sell/not_enough_credits]::{Продажа '%(vehName)s' не удалась. Недостаточно кредитов.}
-[vehicle_sell/not_enough_gold]::{Продажа '%(vehName)s' не удалась. Недостаточно золота.}
-[vehicle_sell/not_enough_space]::{Продажа '%(vehName)s' не удалась. Недостаточно места в Казарме.}
-[vehicle_sell/server_error]::{Продажа '%(vehName)s' не удалась. Убедитесь, что машина не состоит в формировании, или попробуйте позже.}
+[vehicle_sell/demount_kit_disabled]::{Продажа «%(vehName)s» не удалась. Попробуйте позже.}
+[vehicle_sell/disabledService]::{Продажа «%(vehName)s» не удалась. Попробуйте позже.}
+[vehicle_sell/invalid_vehicle]::{Продажа «%(vehName)s» не удалась. Неправильная машина.}
+[vehicle_sell/not_enough_credits]::{Продажа «%(vehName)s» не удалась. Недостаточно кредитов.}
+[vehicle_sell/not_enough_gold]::{Продажа «%(vehName)s» не удалась. Недостаточно золота.}
+[vehicle_sell/not_enough_space]::{Продажа «%(vehName)s» не удалась. Недостаточно места в Казарме.}
+[vehicle_sell/server_error]::{Продажа «%(vehName)s» не удалась. Убедитесь, что машина не состоит в формировании, или попробуйте позже.}
 [vehicle_sell/success]::{Машина %(vehName)s успешно продана. Получено %(money)s. %(restoreInfo)s}
 [vehicle_sell/success/with_demount_kit]::{Машина %(vehName)s успешно продана. Получено %(money)s. Использован демонтажный набор (х%(countDK)s). %(restoreInfo)s}
 [vehicle_sell/success_dismantling]::{Машина %(vehName)s успешно продана. Получено %(gainMoney)s. Потрачено %(spendMoney)s. %(restoreInfo)s}
 [vehicle_sell/success_dismantling/with_demount_kit]::{Машина %(vehName)s успешно продана. Получено %(gainMoney)s. Использован демонтажный набор (х%(countDK)s). Потрачено %(spendMoney)s. %(restoreInfo)s}
-[vehicle_sell/vehicle_cannot_be_sold]::{Продажа '%(vehName)s' не удалась. Машина будет списана автоматически.}
-[vehicle_sell/vehicle_locked]::{Продажа '%(vehName)s' не удалась. Машина заблокирована.}
-[vehicle_sell/vehicle_need_repair]::{Продажа '%(vehName)s' не удалась. Машине необходим ремонт.}
-[vehicle_sell/vehicle_sell_limit]::{Продажа '%(vehName)s' не удалась. Вы исчерпали лимит продажи техники на сегодняшний день.}
+[vehicle_sell/vehicle_cannot_be_sold]::{Продажа «%(vehName)s» не удалась. Машина будет списана автоматически.}
+[vehicle_sell/vehicle_locked]::{Продажа «%(vehName)s» не удалась. Машина заблокирована.}
+[vehicle_sell/vehicle_need_repair]::{Продажа «%(vehName)s» не удалась. Машине необходим ремонт.}
+[vehicle_sell/vehicle_sell_limit]::{Продажа «%(vehName)s» не удалась. Вы исчерпали лимит продажи техники на сегодняшний день.}
 [vehicle_sell/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [vehicle_slot_buy/not_enough_gold]::{Ошибка покупки слота. Недостаточно золота.}
 [vehicle_slot_buy/server_error]::{Ошибка покупки слота. Попробуйте позже.}
 [vehicle_slot_buy/success]::{Куплен дополнительный слот в Ангаре. Потрачено %(money)s.}
 [vehicle_slot_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[vehicle_tmenxp_accelerator/invalid_vehicle]::{Ошибка изменения ускоренного обучения экипажа '%(vehName)s'. Неправильная машина.}
-[vehicle_tmenxp_accelerator/server_error]::{Ошибка изменения ускоренного обучения экипажа '%(vehName)s'. Попробуйте позже.}
-[vehicle_tmenxp_accelerator/successFalse]::{Ускоренное обучение экипажа '%(vehName)s' выключено.}
-[vehicle_tmenxp_accelerator/successTrue]::{Ускоренное обучение экипажа '%(vehName)s' включено.}
-[vehicle_tmenxp_accelerator/vehicle_locked]::{Ошибка изменения ускоренного обучения экипажа '%(vehName)s'. Машина заблокирована.}
-[vehicle_tmenxp_accelerator/vehicle_need_repair]::{Ошибка изменения ускоренного обучения экипажа '%(vehName)s'. Машине необходим ремонт.}
+[vehicle_tmenxp_accelerator/invalid_vehicle]::{Ошибка изменения ускоренного обучения экипажа «%(vehName)s». Неправильная машина.}
+[vehicle_tmenxp_accelerator/server_error]::{Ошибка изменения ускоренного обучения экипажа «%(vehName)s». Попробуйте позже.}
+[vehicle_tmenxp_accelerator/successFalse]::{Ускоренное обучение экипажа «%(vehName)s» выключено.}
+[vehicle_tmenxp_accelerator/successTrue]::{Ускоренное обучение экипажа «%(vehName)s» включено.}
+[vehicle_tmenxp_accelerator/vehicle_locked]::{Ошибка изменения ускоренного обучения экипажа «%(vehName)s». Машина заблокирована.}
+[vehicle_tmenxp_accelerator/vehicle_need_repair]::{Ошибка изменения ускоренного обучения экипажа «%(vehName)s». Машине необходим ремонт.}
 [vehicle_trade_in/invalid_vehicle]::{Обмен на «%(vehName)s» не удался. Выбрана неправильная машина.}
-[vehicle_trade_in/not_enough_credits]::{Обмен на '%(vehName)s' не удался. Недостаточно кредитов.}
-[vehicle_trade_in/not_enough_gold]::{Обмен на '%(vehName)s' не удался. Недостаточно золота.}
-[vehicle_trade_in/not_enough_space]::{Обменять '%(tradeOffVehName)s' не удалось. Недостаточно места в Казарме.}
+[vehicle_trade_in/not_enough_credits]::{Обмен на «%(vehName)s» не удался. Недостаточно кредитов.}
+[vehicle_trade_in/not_enough_gold]::{Обмен на «%(vehName)s» не удался. Недостаточно золота.}
+[vehicle_trade_in/not_enough_space]::{Обменять «%(tradeOffVehName)s» не удалось. Недостаточно места в Казарме.}
 [vehicle_trade_in/server_error]::{Обмен на «%(vehName)s» не удался. Ошибка сервера, повторите операцию позже.}
 [vehicle_trade_in/server_error_centerDown]::{Обмен на «%(vehName)s» не удался. Сервис покупки/обмена техники временно недоступен.}
-[vehicle_trade_in/success]::{Машина '%(tradeOffVehName)s' списана. Новая машина '%(vehName)s' куплена, потрачено %(price)s.}
+[vehicle_trade_in/success]::{Машина «%(tradeOffVehName)s» списана. Новая машина «%(vehName)s» куплена, потрачено %(price)s.}
 [vehicle_trade_in/vehicle_cannot_be_sold]::{Обменять «%(tradeOffVehName)s» не удалось. Машина будет списана автоматически.}
 [vehicle_trade_in/vehicle_cannot_trade_in]::{Обменять «%(vehName)s» не удалось. Машина не подлежит получению по обмену.}
-[vehicle_trade_in/vehicle_cannot_trade_off]::{Обменять '%(tradeOffVehName)s' не удалось. Машина не подлежит обмену.}
-[vehicle_trade_in/vehicle_locked]::{Обменять '%(tradeOffVehName)s' не удалось. Машина заблокирована.}
-[vehicle_trade_in/vehicle_need_repair]::{Обменять '%(tradeOffVehName)s' не удалось. Машине необходим ремонт.}
-[vehicle_trade_in/vehicle_not_found_in_inventory]::{Обменять «%(tradeOffVehName)s» не удалось. Машины нет в Ангаре.}
+[vehicle_trade_in/vehicle_cannot_trade_off]::{Обменять «%(tradeOffVehName)s» не удалось. Машина не подлежит обмену.}
+[vehicle_trade_in/vehicle_locked]::{Обменять «%(tradeOffVehName)s» не удалось. Машина заблокирована.}
+[vehicle_trade_in/vehicle_need_repair]::{Обменять «%(tradeOffVehName)s» не удалось. Машине необходим ремонт.}
+[vehicle_trade_in/vehicle_not_found_in_inventory]::{Обменять «%(tradeOffVehName)s» не удалось. Машины нет на Складе.}
 [vehicle_trade_in/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [video/error]::{Ошибка воспроизведения видео. Код ошибки: %(code)s.}
 [wallet/available]::{Синхронизация Единого кошелька прошла успешно. Всё ваше золото, боны, кредиты и свободный опыт стали доступны.}
@@ -1184,4 +1198,4 @@ Content-Transfer-Encoding: 8bit
 [wallet/not_available_freexp]::{Идёт получение данных о балансе. Весь ваш свободный опыт станет доступен в ближайшее время.}
 [wallet/not_available_gold]::{Идёт получение данных о балансе. Всё ваше золото станет доступно в ближайшее время.}
 [window/buttons/close]::{Закрыть}
-[wrong_slot]::{Модуль %s '%s' не подходит для слота %s.}
+[wrong_slot]::{Модуль %s «%s» не подходит для слота %s.}

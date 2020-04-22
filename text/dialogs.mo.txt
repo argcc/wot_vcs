@@ -73,9 +73,9 @@ Content-Transfer-Encoding: 8bit
 [buyInstallConfirmation/cancel]::{Отменить}
 [buyInstallConfirmation/conflictedMessage/highlightenText]::{несовместимостью}
 [buyInstallConfirmation/conflictedMessage/postfix]::{ с устанавливаемым модулем.}
-[buyInstallConfirmation/conflictedMessage/prefix]::{Снаряжение '%(conflicted)s' будет отправлено на склад в связи с }
-[buyInstallConfirmation/message]::{Купить и установить %(kind)s "%(name)s" на текущую машину за %(price)s%(creditsIcon)s? %(conflict)s}
-[buyInstallConfirmation/messageCombine]::{Купить и установить %(kind)s "%(name)s" на текущую машину за %(price)s кредитов?}
+[buyInstallConfirmation/conflictedMessage/prefix]::{Снаряжение «%(conflicted)s» будет отправлено на Склад в связи с }
+[buyInstallConfirmation/message]::{Купить и установить %(kind)s «%(name)s» на текущую машину за %(price)s%(creditsIcon)s? %(conflict)s}
+[buyInstallConfirmation/messageCombine]::{Купить и установить %(kind)s «%(name)s» на текущую машину за %(price)s кредитов?}
 [buyInstallConfirmation/notEnoughWeight]::{{red_Open}Недостаточно грузоподъёмности{red_Close},
 оборудование будет помещено на Склад.}
 [buyInstallConfirmation/submit]::{Купить}
@@ -245,8 +245,6 @@ Content-Transfer-Encoding: 8bit
 [confirmUnlock/submit]::{Да}
 [confirmUnlock/title]::{Подтверждение исследования}
 [confirmUnlock/vehicle/message]::{Исследовать %(userString)s за %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (из них %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?}
-[confirmationNotRemovable/message/complex]::{Сложное}
-[confirmationNotRemovable/message/destroy]::{УНИЧТОЖЕНО}
 [controlsWrongNotification/cancel]::{Отменить}
 [controlsWrongNotification/message]::{Некоторым действиям не назначены клавиши. Сохранить настройки управления?}
 [controlsWrongNotification/submit]::{Сохранить}
@@ -510,14 +508,6 @@ Content-Transfer-Encoding: 8bit
 [ingameShopDisabled/cancel]::{Закрыть}
 [ingameShopDisabled/message]::{Магазин временно недоступен. Повторите попытку позже.}
 [ingameShopDisabled/title]::{Внимание!}
-[installConfirmationNotRemovable_crystal/cancel]::{Отменить}
-[installConfirmationNotRemovable_crystal/message]::{%(complex)s оборудование «%(name)s». В случае обычного демонтажа (например, замены на другое оборудование) будет %(destroy)s. Может быть безопасно демонтировано за боны и помещено на Склад. Продолжить установку?}
-[installConfirmationNotRemovable_crystal/submit]::{Установить}
-[installConfirmationNotRemovable_crystal/title]::{Подтверждение установки}
-[installConfirmationNotRemovable_gold/cancel]::{Отменить}
-[installConfirmationNotRemovable_gold/message]::{%(complex)s оборудование «%(name)s». В случае обычного демонтажа (например, замены на другое оборудование) будет %(destroy)s. Может быть безопасно демонтировано за золото и помещено на Склад. Продолжить установку?}
-[installConfirmationNotRemovable_gold/submit]::{Установить}
-[installConfirmationNotRemovable_gold/title]::{Подтверждение установки}
 [interviewQuit/cancel]::{Назад}
 [interviewQuit/message]::{Сейчас вы можете отказаться от участия в опросе и пройти его позже, открыв сообщение с приглашением в Центре уведомлений. Сообщение активно в рамках текущей игровой сессии.}
 [interviewQuit/submit]::{Отказаться}
@@ -622,7 +612,7 @@ Content-Transfer-Encoding: 8bit
 [premiumContinueConfirmation/message]::{Продлить премиум аккаунт на %(days)s д за %(gold)s?}
 [premiumContinueConfirmation/submit]::{Продлить}
 [premiumContinueConfirmation/title]::{Подтверждение продления}
-[protectedDismissTankman/additionalMessage]::{Для совершения операции введите уровень %(skillType)s "%(skillName)s" (%(roleLevel)s)}
+[protectedDismissTankman/additionalMessage]::{Для совершения операции введите уровень %(skillType)s «%(skillName)s» (%(roleLevel)s)}
 [protectedDismissTankman/additionalMessage/isAbillity]::{умения}
 [protectedDismissTankman/additionalMessage/isPerk]::{навыка}
 [protectedDismissTankman/alert]::{Без возможности восстановления}
@@ -764,15 +754,7 @@ Content-Transfer-Encoding: 8bit
 [refuseTraining/message]::{Прервать обучение?}
 [refuseTraining/submit]::{Да}
 [refuseTraining/title]::{Подтверждение}
-[removeConfirmationNotRemovable/cancel]::{Отменить}
-[removeConfirmationNotRemovable/message]::{При демонтаже оборудование «%(name)s» будет %(destroy)s. Продолжить?}
 [removeConfirmationNotRemovable/submit]::{Уничтожить}
-[removeConfirmationNotRemovable/title]::{Подтверждение демонтажа}
-[removeConfirmationNotRemovableMoney/cancel]::{Отменить}
-[removeConfirmationNotRemovableMoney/message]::{Демонтировать оборудование «%(name)s» и поместить его на Склад?}
-[removeConfirmationNotRemovableMoney/messagePrice]::{Стоимость операции:}
-[removeConfirmationNotRemovableMoney/submit]::{Демонтировать}
-[removeConfirmationNotRemovableMoney/title]::{Подтверждение демонтажа}
 [removeIncompatibleEqs/cancel]::{Отменить}
 [removeIncompatibleEqs/message]::{Снаряжение «%(name)s» будет отправлено на Склад в связи с %(reason)s с устанавливаемым модулем.}
 [removeIncompatibleEqs/message/reason]::{несовместимостью}
@@ -845,14 +827,7 @@ Content-Transfer-Encoding: 8bit
 [sandBox/submit]::{Да}
 [sandBox/title]::{Песочница}
 [sellConfirmation/cancel]::{Отменить}
-[sellConfirmation/message]::{Продать «%s» %d шт.?}
-[sellConfirmation/messageCombine]::{Продать «{%name}» {%count} шт.?}
-[sellConfirmation/messageCombineDevices]::{Оборудование установлено: %s шт.}
-[sellConfirmation/messageCombineEquipment]::{Снаряжение установлено: %s шт.}
-[sellConfirmation/messageCombineQuestion]::{Продать машину за %s %s?}
-[sellConfirmation/messageCombineTankmen]::{Экипаж: %s.}
 [sellConfirmation/submit]::{Продать}
-[sellConfirmation/title]::{Продажа: %s}
 [sellModuleConfirmation/cancel]::{Отменить}
 [sellModuleConfirmation/submit]::{Продать}
 [sellModuleConfirmation/title]::{Подтверждение продажи}

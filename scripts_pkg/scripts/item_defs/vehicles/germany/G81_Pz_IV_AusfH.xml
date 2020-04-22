@@ -18,7 +18,7 @@
       <camouflageNetBonus>0.1</camouflageNetBonus>
       <firePenalty>0.393</firePenalty>
    </invisibility>
-   <repairCost>5.50</repairCost>
+   <repairCost>4.19</repairCost>
    <crewXpFactor>1.0</crewXpFactor>
    <camouflage>
       <priceFactor>1.0</priceFactor>
@@ -48,7 +48,7 @@
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
       <weight>11270</weight>
-      <maxHealth>352</maxHealth>
+      <maxHealth>504</maxHealth>
       <ammoBayHealth>
          <maxHealth>150</maxHealth>
          <maxRegenHealth>90</maxRegenHealth>
@@ -1587,7 +1587,7 @@
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
          <weight>3200</weight>
-         <maxHealth>88</maxHealth>
+         <maxHealth>96</maxHealth>
          <rotationSpeed>44</rotationSpeed>
          <turretRotatorHealth>
             <maxHealth>100</maxHealth>
@@ -1609,6 +1609,7 @@
                      <cost>3400</cost>
                   </gun>
                </unlocks>
+               <maxAmmo>130</maxAmmo>
                <armor>
                   <armor_1>
                      50
@@ -1711,6 +1712,7 @@
                      <cost>26235</cost>
                   </vehicle>
                </unlocks>
+               <maxAmmo>105</maxAmmo>
                <armor>
                   <armor_1>
                      50
@@ -1890,7 +1892,7 @@
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
          <weight>3600</weight>
-         <maxHealth>128</maxHealth>
+         <maxHealth>126</maxHealth>
          <rotationSpeed>44</rotationSpeed>
          <turretRotatorHealth>
             <maxHealth>100</maxHealth>
@@ -1912,6 +1914,7 @@
                   <afterShot>4.0</afterShot>
                   <whileGunDamaged>2.0</whileGunDamaged>
                </shotDispersionFactors>
+               <maxAmmo>130</maxAmmo>
                <armor>
                   <armor_1>
                      50
@@ -2004,6 +2007,7 @@
                   <afterShot>4.0</afterShot>
                   <whileGunDamaged>2.0</whileGunDamaged>
                </shotDispersionFactors>
+               <maxAmmo>105</maxAmmo>
                <armor>
                   <armor_1>
                      50
@@ -2090,12 +2094,6 @@
             </_75mm_KwK_40_L48>
             <_105mm_StuH42_L28Pz>
                shared
-               <unlocks>
-                  <vehicle>
-                     G15_VK3601H
-                     <cost>23200</cost>
-                  </vehicle>
-               </unlocks>
                <armor>
                   <armor_1>
                      50
@@ -2126,7 +2124,7 @@
                   <maxPitch>0 10 1 10</maxPitch>
                </pitchLimits>
                <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
-               <maxAmmo>59</maxAmmo>
+               <maxAmmo>70</maxAmmo>
                <models>
                   <undamaged>vehicles/german/G81_Pz_IV_AusfH/normal/lod0/Gun_08.model</undamaged>
                   <destroyed>vehicles/german/G81_Pz_IV_AusfH/crash/lod0/Gun_08.model</destroyed>

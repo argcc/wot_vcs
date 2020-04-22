@@ -22,10 +22,10 @@ Content-Transfer-Encoding: 8bit
 [clan/personal/invites/title]::{%(titleStartTag)sПриглашений в кланы: %(appsCount)s %(titleEndTag)s}
 [clans/state/app/accepted]::{Игрок принят в клан.}
 [clans/state/app/declined]::{Заявка отклонена.}
-[clans/state/app/error/inClanEnterCooldown]::{Ещё не истёк двухдневный штраф после выхода игрока из предыдущего клана.}
+[clans/state/app/error/inClanEnterCooldown]::{Ещё не истёк однодневный штраф после выхода игрока из предыдущего клана.}
 [clans/state/invite/accepted]::{Вы были приняты в клан.}
 [clans/state/invite/declined]::{Приглашение отклонено.}
-[clans/state/invite/error/inClanEnterCooldown]::{Двухдневный штраф после выхода из предыдущего клана ещё не истёк.}
+[clans/state/invite/error/inClanEnterCooldown]::{Однодневный штраф после выхода из предыдущего клана ещё не истёк.}
 [errors/creationNotAllowed]::{У вас недостаточно прав для создания приглашения.}
 [errors/invalid]::{Приглашение недействительно.}
 [errors/inviteNotSupported]::{Данный тип приглашения на текущий момент не поддерживается. Попробуйте позже.}
@@ -53,12 +53,12 @@ Content-Transfer-Encoding: 8bit
 [gui/titles/invite]::{Приглашение}
 [gui/titles/receivedInvites]::{Приглашения}
 [invites/comment]::{«%(comment)s»}
+[invites/note/change_and_leave/BOB]::{Приняв приглашение, вы покинете режим «Схватка» и будете перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/CLAN]::{Приняв приглашение, вы будете автоматически исключены из списка участников боя на глобальной карте и перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/EPIC]::{После принятия приглашения вы будете автоматически перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/EPIC_TRAINING]::{После принятия приглашения вы будете автоматически исключены из списка участников командной тренировки режима «Линия фронта» и перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/EVENT]::{Приняв приглашение, вы покинете режим «+++Event battle+++» и будете перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/EVENT_BATTLES]::{Вы будете автоматически перемещены на сервер %(host)s.}
-[invites/note/change_and_leave/EXTERNAL]::{Приняв приглашение, вы покинете текущий отряд и будете перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/E_SPORT_COMMON]::{Приняв приглашение, вы покинете режим «Командный бой» и будете перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/FALLOUT]::{Приняв приглашение, вы будете автоматически исключены из состава взвода и перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/FORT_BATTLE]::{Приняв приглашение, вы покинете «Укрепрайон: сражения» и будете перемещены на сервер %(host)s.}
@@ -68,13 +68,14 @@ Content-Transfer-Encoding: 8bit
 [invites/note/change_and_leave/SANDBOX]::{Приняв приглашение, вы покинете режим «Учебный бой» и будете перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/SORTIE]::{Приняв приглашение, вы покинете «Укрепрайон: сражения» и будете перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/SQUAD]::{Приняв приглашение, вы будете автоматически исключены из состава взвода и перемещены на сервер %(host)s.}
+[invites/note/change_and_leave/STRONGHOLD]::{Приняв приглашение, вы покинете текущий отряд и будете перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/TOURNAMENT]::{Приняв приглашение, вы будете автоматически исключены из списка участников турнира и перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/TRAINING]::{Приняв приглашение, вы будете автоматически исключены из списка участников командной тренировки и перемещены на сервер %(host)s.}
 [invites/note/change_and_leave/UNIT]::{Приняв приглашение, вы покинете режим «Командный бой» и будете перемещены на сервер %(host)s.}
+[invites/note/leave/BOB]::{Приняв приглашение, вы покинете режим «Схватка».}
 [invites/note/leave/CLAN]::{Приняв приглашение, вы будете автоматически исключены из списка участников боя на Глобальной карте.}
 [invites/note/leave/EPIC]::{Вас пригласили вступить во взвод для боёв на Линии фронта.}
 [invites/note/leave/EPIC_TRAINING]::{После принятия приглашения вы будете автоматически исключены из списка участников командной тренировки режима «Линия фронта».}
-[invites/note/leave/EXTERNAL]::{Приняв приглашение, вы покинете текущий отряд.}
 [invites/note/leave/E_SPORT_COMMON]::{Приняв приглашение, вы покинете режим «Командный бой».}
 [invites/note/leave/FALLOUT]::{Приняв приглашение, вы будете автоматически исключены из состава взвода.}
 [invites/note/leave/FORT_BATTLE]::{Приняв приглашение, вы покинете «Укрепрайон: сражения».}
@@ -83,11 +84,12 @@ Content-Transfer-Encoding: 8bit
 [invites/note/leave/SANDBOX]::{Приняв приглашение, вы покинете режим «Учебный бой».}
 [invites/note/leave/SORTIE]::{Приняв приглашение, вы покинете «Укрепрайон: сражения».}
 [invites/note/leave/SQUAD]::{Приняв приглашение, вы будете автоматически исключены из состава взвода.}
+[invites/note/leave/STRONGHOLD]::{Приняв приглашение, вы покинете текущий отряд.}
 [invites/note/leave/TOURNAMENT]::{Приняв приглашение, вы будете автоматически исключены из списка участников турнира.}
 [invites/note/leave/TRAINING]::{Приняв приглашение, вы будете автоматически исключены из списка участников командной тренировки.}
 [invites/note/leave/UNIT]::{Приняв приглашение, вы покинете режим «Командный бой».}
 [invites/note/server_change]::{Вы будете автоматически перемещены на сервер %(host)s.}
-[invites/prebattle/acceptNotAllowed/otherPeriphery]::{Вы не можете принять приглашение. Чтобы принять приглашение, перейдите на сервер '%(host)s'.}
+[invites/prebattle/acceptNotAllowed/otherPeriphery]::{Вы не можете принять приглашение. Чтобы принять приглашение, перейдите на сервер %(host)s.}
 [invites/prebattle/acceptNotAllowed/undefinedPeriphery]::{Вы не можете принять приглашение. Чтобы принять приглашение, перейдите на другой сервер.}
 [invites/prebattle/alreadyJoined/CLAN]::{Вы уже присоединились к этому бою на Глобальной карте.}
 [invites/prebattle/alreadyJoined/EPIC_TRAINING]::{Вы уже присоединились к этой командной тренировке.}
@@ -102,16 +104,17 @@ Content-Transfer-Encoding: 8bit
 [invites/state/ERROR]::{Приглашение недействительно.}
 [invites/state/EXPIRED]::{Приглашение недействительно.}
 [invites/state/REVOKED]::{Приглашение отозвано.}
+[invites/text/BOB]::{%(titleStartTag)sПриглашение войти в состав взвода для Схватки%(titleEndTag)s}
 [invites/text/EPIC]::{%(titleStartTag)sПриглашение присоединиться ко взводу на Линию фронта%(titleEndTag)s}
 [invites/text/EPIC_TRAINING]::{%(titleStartTag)sПриглашение поучаствовать в командной тренировке режима «Линия фронта»%(titleEndTag)s}
 [invites/text/EVENT]::{++%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s++}
-[invites/text/EXTERNAL]::{%(titleStartTag)sПриглашение в отряд%(titleEndTag)s}
 [invites/text/FALLOUT]::{%(titleStartTag)sПриглашение войти в состав взвода %(battleType)s%(titleEndTag)s}
 [invites/text/FALLOUT/FALLOUT_CLASSIC]::{«Превосходство»}
 [invites/text/FALLOUT/FALLOUT_MULTITEAM]::{«Стальная охота»}
 [invites/text/FORT_BATTLE]::{%(titleStartTag)sПриглашение в битву%(titleEndTag)s}
 [invites/text/SORTIE]::{%(titleStartTag)sПриглашение в отряд%(titleEndTag)s}
 [invites/text/SQUAD]::{%(titleStartTag)sПриглашение войти в состав взвода%(titleEndTag)s}
+[invites/text/STRONGHOLD]::{%(titleStartTag)sПриглашение в отряд%(titleEndTag)s}
 [invites/text/TRAINING]::{%(titleStartTag)sПриглашение поучаствовать в командной тренировке%(titleEndTag)s}
 [invites/text/UNIT]::{%(titleStartTag)sПриглашение войти в состав команды%(titleEndTag)s}
 [invites/text/creatorName]::{от %(nameStartTag)s%(name)s%(nameEndTag)s}

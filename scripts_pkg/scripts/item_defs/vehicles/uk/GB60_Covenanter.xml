@@ -17,10 +17,10 @@
       <camouflageNetBonus>0.1</camouflageNetBonus>
       <firePenalty>0.441</firePenalty>
    </invisibility>
-   <repairCost>4.17</repairCost>
+   <repairCost>4.0</repairCost>
    <crewXpFactor>1.0</crewXpFactor>
    <camouflage>
-      <priceFactor>0.8</priceFactor>
+      <priceFactor>1.0</priceFactor>
       <tiling>1 1 0 0</tiling>
       <exclusionMask></exclusionMask>
    </camouflage>
@@ -43,7 +43,7 @@
       </armor>
       <primaryArmor>armor_9 armor_3 armor_4</primaryArmor>
       <weight>9510</weight>
-      <maxHealth>248</maxHealth>
+      <maxHealth>400</maxHealth>
       <ammoBayHealth>
          <maxHealth>140</maxHealth>
          <maxRegenHealth>90</maxRegenHealth>
@@ -112,12 +112,12 @@
       <Chassis_GB60_Covenanter>
          <userString>#gb_vehicles:Chassis_GB60_Covenanter</userString>
          <tags></tags>
-         <level>3</level>
-         <price>1500</price>
+         <level>4</level>
+         <price>3000</price>
          <unlocks>
             <chassis>
                Chassis_GB60_Covenanter_2
-               <cost>1200</cost>
+               <cost>1900</cost>
             </chassis>
          </unlocks>
          <armor>
@@ -131,12 +131,12 @@
          <rotationIsAroundCenter> false </rotationIsAroundCenter>
          <rotationSpeed>38</rotationSpeed>
          <shotDispersionFactors>
-            <vehicleMovement>0.28</vehicleMovement>
-            <vehicleRotation>0.28</vehicleRotation>
+            <vehicleMovement>0.26</vehicleMovement>
+            <vehicleRotation>0.26</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth>70</maxHealth>
-         <maxRegenHealth>55</maxRegenHealth>
+         <maxHealth>90</maxHealth>
+         <maxRegenHealth>70</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/british/GB60_Covenanter/normal/lod0/Chassis.model</undamaged>
@@ -969,8 +969,8 @@
       <Chassis_GB60_Covenanter_2>
          <userString>#gb_vehicles:Chassis_GB60_Covenanter_2</userString>
          <tags></tags>
-         <level>4</level>
-         <price>4200</price>
+         <level>5</level>
+         <price>8400</price>
          <armor>
             <leftTrack>15</leftTrack>
             <rightTrack>15</rightTrack>
@@ -982,12 +982,12 @@
          <rotationIsAroundCenter> false </rotationIsAroundCenter>
          <rotationSpeed>40</rotationSpeed>
          <shotDispersionFactors>
-            <vehicleMovement>0.26</vehicleMovement>
-            <vehicleRotation>0.26</vehicleRotation>
+            <vehicleMovement>0.24</vehicleMovement>
+            <vehicleRotation>0.24</vehicleRotation>
          </shotDispersionFactors>
          <bulkHealthFactor>3.0</bulkHealthFactor>
-         <maxHealth>80</maxHealth>
-         <maxRegenHealth>60</maxRegenHealth>
+         <maxHealth>100</maxHealth>
+         <maxRegenHealth>75</maxRegenHealth>
          <repairCost>5.0</repairCost>
          <models>
             <undamaged>vehicles/british/GB60_Covenanter/normal/lod0/Chassis.model</undamaged>
@@ -1822,12 +1822,12 @@
       <Turret_1_GB60_Covenanter>
          <userString>#gb_vehicles:Turret_1_GB60_Covenanter</userString>
          <tags></tags>
-         <level>3</level>
-         <price>1890</price>
+         <level>4</level>
+         <price>3780</price>
          <unlocks>
             <turret>
                Turret_2_GB60_Covenanter
-               <cost>1100</cost>
+               <cost>2400</cost>
             </turret>
          </unlocks>
          <armor>
@@ -1843,7 +1843,7 @@
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
          <weight>3000</weight>
-         <maxHealth>62</maxHealth>
+         <maxHealth>75</maxHealth>
          <rotationSpeed>48</rotationSpeed>
          <turretRotatorHealth>
             <maxHealth>80</maxHealth>
@@ -1859,7 +1859,7 @@
          <guns>
             <_2pdr_Gun_Mk_X>
                shared
-               <maxAmmo>130</maxAmmo>
+               <maxAmmo>260</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -25 1 -25</minPitch>
                   <maxPitch>0 12 0.125 12 0.188662 15 0.339116 15 0.402778 10 0.597222 10 0.660884 15 0.811338 15 0.875 12 1 12</maxPitch>
@@ -1936,7 +1936,7 @@
             </_2pdr_Gun_Mk_X>
             <_40mm_Pom_Pom>
                shared
-               <maxAmmo>200</maxAmmo>
+               <maxAmmo>360</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -25 1 -25</minPitch>
                   <maxPitch>0 10 0.125 10 0.188662 15 0.311338 15 0.375 8 0.625 8 0.688662 15 0.811338 15 0.875 10 1 10</maxPitch>
@@ -2011,7 +2011,7 @@
             </_40mm_Pom_Pom>
             <_76mm_Howitzer_MkI>
                shared
-               <maxAmmo>74</maxAmmo>
+               <maxAmmo>88</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -25 1 -25</minPitch>
                   <maxPitch>0 12 0.125 12 0.188662 15 0.325227 15 0.388889 10 0.611111 10 0.674773 15 0.811338 15 0.875 12 1 12</maxPitch>
@@ -2150,8 +2150,8 @@
       <Turret_2_GB60_Covenanter>
          <userString>#gb_vehicles:Turret_2_GB60_Covenanter</userString>
          <tags></tags>
-         <level>4</level>
-         <price>5500</price>
+         <level>5</level>
+         <price>11000</price>
          <unlocks>
             <gun>
                _40mm_Bofors_MkI
@@ -2159,7 +2159,7 @@
             </gun>
             <vehicle>
                GB20_Crusader
-               <cost>15000</cost>
+               <cost>25000</cost>
             </vehicle>
          </unlocks>
          <armor>
@@ -2177,14 +2177,14 @@
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
          <weight>3000</weight>
-         <maxHealth>92</maxHealth>
+         <maxHealth>100</maxHealth>
          <rotationSpeed>48</rotationSpeed>
          <turretRotatorHealth>
             <maxHealth>80</maxHealth>
             <maxRegenHealth>40</maxRegenHealth>
             <repairCost>1.0</repairCost>
          </turretRotatorHealth>
-         <circularVisionRadius>340</circularVisionRadius>
+         <circularVisionRadius>350</circularVisionRadius>
          <surveyingDeviceHealth>
             <maxHealth>60</maxHealth>
             <maxRegenHealth>30</maxRegenHealth>
@@ -2193,7 +2193,7 @@
          <guns>
             <_2pdr_Gun_Mk_X>
                shared
-               <maxAmmo>130</maxAmmo>
+               <maxAmmo>260</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 13 0.125 13 0.188662 15 0.339116 15 0.402778 10 0.597222 10 0.660884 15 0.811338 15 0.875 13 1 13</maxPitch>
@@ -2260,7 +2260,7 @@
             </_2pdr_Gun_Mk_X>
             <_40mm_Pom_Pom>
                shared
-               <maxAmmo>200</maxAmmo>
+               <maxAmmo>360</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 11 0.125 11 0.188662 15 0.311338 15 0.375 8 0.625 8 0.688662 15 0.811338 15 0.875 11 1 11</maxPitch>
@@ -2335,7 +2335,7 @@
             </_40mm_Pom_Pom>
             <_76mm_Howitzer_MkI>
                shared
-               <maxAmmo>74</maxAmmo>
+               <maxAmmo>88</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 12 0.125 12 0.188662 15 0.325227 15 0.388889 10 0.611111 10 0.674773 15 0.811338 15 0.875 12 1 12</maxPitch>
@@ -2402,7 +2402,7 @@
             </_76mm_Howitzer_MkI>
             <_40mm_Bofors_MkI>
                shared
-               <maxAmmo>120</maxAmmo>
+               <maxAmmo>240</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 13 0.125 13 0.188662 15 0.339116 15 0.402778 10 0.597222 10 0.660884 15 0.811338 15 0.875 13 1 13</maxPitch>

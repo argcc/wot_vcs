@@ -756,6 +756,17 @@
          </enhancements>
       </Properties>
    </ARENA_VEH_INFO>
+   <USER_EXTRA_SETTINGS>
+      FIXED_DICT
+      <Properties>
+         <hideNonHistoric>
+            <Type>BOOL</Type>
+         </hideNonHistoric>
+         <disableEventCommonChat>
+            <Type>BOOL</Type>
+         </disableEventCommonChat>
+      </Properties>
+   </USER_EXTRA_SETTINGS>
    <ARENA_ADDPLAYER_INFO>
       FIXED_DICT
       <Properties>
@@ -843,9 +854,6 @@
          <group>
             <Type>UINT8</Type>
          </group>
-         <historicallyAccurate>
-            <Type>BOOL</Type>
-         </historicallyAccurate>
          <recruiterId>
             <Type>DB_ID</Type>
          </recruiterId>
@@ -864,6 +872,9 @@
          <overriddenBadge>
             <Type>UINT8</Type>
          </overriddenBadge>
+         <userExtraSettings>
+            <Type>USER_EXTRA_SETTINGS</Type>
+         </userExtraSettings>
       </Properties>
    </ARENA_ADDPLAYER_INFO>
    <AVATAR_VEHICLE_ROSTER>

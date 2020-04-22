@@ -17,7 +17,7 @@
       <camouflageNetBonus>0.15</camouflageNetBonus>
       <firePenalty>0.42</firePenalty>
    </invisibility>
-   <repairCost>5.2</repairCost>
+   <repairCost>2.6</repairCost>
    <crewXpFactor>1.0</crewXpFactor>
    <camouflage>
       <priceFactor>0.4</priceFactor>
@@ -49,7 +49,7 @@
       </armor>
       <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
       <weight>5936</weight>
-      <maxHealth>92</maxHealth>
+      <maxHealth>176</maxHealth>
       <ammoBayHealth>
          <maxHealth>85</maxHealth>
          <maxRegenHealth>55</maxRegenHealth>
@@ -1565,7 +1565,7 @@
          </armor>
          <primaryArmor>armor_1 armor_2 armor_3</primaryArmor>
          <weight>100</weight>
-         <maxHealth>18</maxHealth>
+         <maxHealth>44</maxHealth>
          <rotationSpeed>50</rotationSpeed>
          <turretRotatorHealth>
             <maxHealth>100</maxHealth>
@@ -1581,7 +1581,7 @@
          <guns>
             <_37mm_M-3_antitank_gun>
                shared
-               <maxAmmo>124</maxAmmo>
+               <maxAmmo>250</maxAmmo>
                <unlocks>
                   <gun>
                      Ordnance_QF_2pdr_AT_Gun_Mk.X
@@ -1599,7 +1599,6 @@
                   <afterShot>4</afterShot>
                   <whileGunDamaged>2.0</whileGunDamaged>
                </shotDispersionFactors>
-               <invisibilityFactorAtShot>0.255</invisibilityFactorAtShot>
                <turretYawLimits>-11.72 15</turretYawLimits>
                <pitchLimits>
                   <minPitch>0 -20.53 1 -20.53</minPitch>
@@ -1695,7 +1694,7 @@
          </armor>
          <primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
          <weight>100</weight>
-         <maxHealth>18</maxHealth>
+         <maxHealth>44</maxHealth>
          <rotationSpeed>50</rotationSpeed>
          <turretRotatorHealth>
             <maxHealth>100</maxHealth>
@@ -1711,7 +1710,7 @@
          <guns>
             <_75mm_Howitzer_M1A1>
                shared
-               <maxAmmo>61</maxAmmo>
+               <maxAmmo>120</maxAmmo>
                <armor>
                   <armor_1>
                      15.9
@@ -1831,7 +1830,7 @@
          </armor>
          <primaryArmor>armor_1 armor_2 armor_3</primaryArmor>
          <weight>100</weight>
-         <maxHealth>18</maxHealth>
+         <maxHealth>44</maxHealth>
          <rotationSpeed>50</rotationSpeed>
          <turretRotatorHealth>
             <maxHealth>100</maxHealth>
@@ -1847,16 +1846,12 @@
          <guns>
             <Ordnance_QF_2pdr_AT_Gun_Mk.X>
                shared
-               <maxAmmo>114</maxAmmo>
+               <maxAmmo>230</maxAmmo>
                <unlocks>
                   <gun>
                      _75mm_Howitzer_M1A1
                      <cost>660</cost>
                   </gun>
-                  <vehicle>
-                     A109_T56_GMC
-                     <cost>1050</cost>
-                  </vehicle>
                </unlocks>
                <armor>
                   <gun>10</gun>
@@ -1870,7 +1865,6 @@
                   <afterShot>4</afterShot>
                   <whileGunDamaged>2.0</whileGunDamaged>
                </shotDispersionFactors>
-               <invisibilityFactorAtShot>0.255</invisibilityFactorAtShot>
                <turretYawLimits>-11.72 13</turretYawLimits>
                <pitchLimits>
                   <minPitch>0 -20.53 1 -20.53</minPitch>

@@ -378,6 +378,7 @@ Content-Transfer-Encoding: 8bit
 [bonusName/dailyXPFactor]::{Коэффициент боевого опыта}
 [bonusName/decal]::{Декаль}
 [bonusName/emblem]::{Эмблемa}
+[bonusName/eventCoin]::{Особая валюта события}
 [bonusName/freeTokens]::{Бланк приказа}
 [bonusName/freeXP]::{Свободный опыт}
 [bonusName/freeXPFactor]::{Коэффициент свободного опыта}
@@ -408,6 +409,7 @@ Content-Transfer-Encoding: 8bit
 [bonuses/discount/name]::{%(name)s %(targetName)s в размере %(effectValue)s (x%(count)s)}
 [bonuses/dossier/achive]::{Медаль: %(name)s}
 [bonuses/dossier/badge]::{Нашивка: %(name)s}
+[bonuses/eventCoin/description]::{%(value)s юбилейных монет}
 [bonuses/gold/description]::{%(value)s золота}
 [bonuses/item/additionBonus]::{За выполнение дополнительных условий:}
 [bonuses/item/berths]::{Мест в Казарме:}
@@ -959,6 +961,7 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/22/battlesCount]::{Проведённых Ранговых боёв}
 [details/dossier/24/battlesCount]::{Проведённых Генеральных сражений}
 [details/dossier/27/battlesCount]::{Проведённых Генеральных сражений}
+[details/dossier/32/battlesCount]::{Проведённых боёв в режиме «Схватка»}
 [details/dossier/4/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/5/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/6/battlesCount]::{Пройденных Боевых обучений}
@@ -969,6 +972,27 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/battleCitizen]::{Операция «Ностальгия»}
 [details/dossier/battlesCount]::{Проведённых боёв}
 [details/dossier/beasthunter]::{«Зверобой»}
+[details/dossier/bob/battlesCount]::{Боёв в режиме «Схватка»}
+[details/dossier/bob/capturePoints]::{Очков захвата базы в режиме «Схватка»}
+[details/dossier/bob/damageAssistedRadio]::{Урон по вашим разведданным в режиме «Схватка»}
+[details/dossier/bob/damageAssistedTrack]::{Урон, нанесённый союзниками после попадания, сбившего гусеницу в режиме «Схватка»}
+[details/dossier/bob/damageBlockedByArmor]::{Заблокированный бронёй урон в режиме «Схватка»}
+[details/dossier/bob/damageDealt]::{Нанесённый урон в режиме «Схватка»}
+[details/dossier/bob/damageReceived]::{Полученный урон в режиме «Схватка»}
+[details/dossier/bob/directHits]::{Попаданий в режиме «Схватка»}
+[details/dossier/bob/droppedCapturePoints]::{Очков защиты базы в режиме «Схватка»}
+[details/dossier/bob/frags]::{Уничтоженных машин противника в режиме «Схватка»}
+[details/dossier/bob/losses]::{Поражений в режиме «Схватка»}
+[details/dossier/bob/maxDamage]::{Максимальный урон в режиме «Схватка»}
+[details/dossier/bob/noDamageDirectHitsReceived]::{Полученных попаданий без урона в режиме «Схватка»}
+[details/dossier/bob/originalXP]::{«Чистый» опыт в режиме «Схватка»}
+[details/dossier/bob/piercings]::{Пробитий в режиме «Схватка»}
+[details/dossier/bob/piercingsReceived]::{Полученных пробитий в режиме «Схватка»}
+[details/dossier/bob/potentialDamageReceived]::{Полученный урон от любых попаданий, кроме осколочно-фугасных, в режиме «Схватка»}
+[details/dossier/bob/spotted]::{Обнаруженных машин противника в режиме «Схватка»}
+[details/dossier/bob/survivedBattles]::{Боёв в режиме «Схватка», в которых машина игрока не была уничтожена}
+[details/dossier/bob/wins]::{Побед в режиме «Схватка»}
+[details/dossier/bob/xp]::{Заработанный опыт в режиме «Схватка»}
 [details/dossier/bombardier]::{«Бомбардир»}
 [details/dossier/clan/battlesCount]::{Боёв в «Мировой войне»}
 [details/dossier/clan/capturePoints]::{Очков захвата базы в «Мировой войне»}
@@ -1220,6 +1244,7 @@ Content-Transfer-Encoding: 8bit
 [details/modifiers/equipment/creditsPriceMultiplier]::{На покупку снаряжения за кредиты до:}
 [details/modifiers/equipment/crystal]::{На покупку снаряжения %(eqName)s за боны}
 [details/modifiers/equipment/crystalPriceMultiplier]::{На покупку снаряжения за боны до:}
+[details/modifiers/equipment/eventCoin]::{На покупку снаряжения %(eqName)s за юбилейные монеты}
 [details/modifiers/equipment/gold]::{На покупку снаряжения %(eqName)s за золото}
 [details/modifiers/equipment/goldPriceMultiplier]::{На покупку снаряжения за золото до:}
 [details/modifiers/optDevice]::{На покупку оборудования %(devName)s}
@@ -1434,10 +1459,10 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/vehicle/conditions/level/all]::{Любой уровень}
 [missionDetails/vehicle/conditions/nations]::{Нация:}
 [missionDetails/vehicle/conditions/nations/all]::{Любая нация}
-[missionDetails/vehicle/conditions/nations/tooltip]::{Нация: «%(nation)s»}
+[missionDetails/vehicle/conditions/nations/tooltip]::{Нация: %(nation)s}
 [missionDetails/vehicle/conditions/type]::{Тип:}
 [missionDetails/vehicle/conditions/type/all]::{Любой тип}
-[missionDetails/vehicle/conditions/type/tooltip]::{Тип техники: «%(type)s»}
+[missionDetails/vehicle/conditions/type/tooltip]::{Тип техники: %(type)s}
 [missionDetails/vehiclesAvailable]::{В наличии: %(count)s}
 [missionDetails/vehiclesSelect]::{Выбрать технику}
 [missions/awards/merged]::{И ещё: %(count)s}

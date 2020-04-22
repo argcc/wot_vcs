@@ -145,6 +145,7 @@
             </request-exclusive-hint>
             <request-exclusive-hint>
                SecondTank
+               <sound></sound>
                <condition>
                   <active>WrongVehicle</active>
                </condition>
@@ -170,7 +171,6 @@
                         <set-action>OnTechnicalMaintenanceApplyEnable</set-action>
                         <set-action>OnTechnicalMaintenanceApplyDisable</set-action>
                         <set-action>OnTechnicalMaintenanceApplyClick</set-action>
-                        <show-dialog>EquipmentIntroDialog</show-dialog>
                      </effects>
                   </effects-group>
                </on-scene-effects>
@@ -214,7 +214,6 @@
                      </condition>
                      <effects>
                         <set-gui-item-criteria>OptionalDeviceCriteria</set-gui-item-criteria>
-                        <show-dialog>OptionalDeviceIntroDialog</show-dialog>
                      </effects>
                   </effects-group>
                </on-scene-effects>
@@ -415,32 +414,63 @@
             <activate>FightButtonDisabled</activate>
          </effects>
       </disable-action>
-      <dialog>
+      <window>
          IntroDialog
-         <type>bootcampMessage</type>
+         <type>bootcampSubtitle</type>
          <sequence>
             <message>
                <data>
-                  <preset>INTRO</preset>
-                  <icon>../maps/icons/bootcamp/lines/logo.png</icon>
-                  <label>#bootcamp:message/intro/lesson/iv/label</label>
+                  <subtitle>#bootcamp:subtitles/vo_bc_hangar_equipment_and_kit</subtitle>
                   <voiceover>vo_bc_hangar_equipment_and_kit</voiceover>
                </data>
             </message>
          </sequence>
-         <buttons></buttons>
-         <actions></actions>
-      </dialog>
+         <buttons>
+            <close>NoResultsWindowCloseButton</close>
+         </buttons>
+         <actions>
+            <click>
+               NoResultsWindowCloseButton
+               <effects>
+                  <activate>NoResultsWindowClosed</activate>
+               </effects>
+            </click>
+         </actions>
+      </window>
+      <window>
+         SubtitleKit
+         <type>bootcampSubtitle</type>
+         <sequence>
+            <message>
+               <data>
+                  <subtitle>#bootcamp:subtitles/vo_bc_hangar_kit</subtitle>
+                  <voiceover>vo_bc_hangar_kit</voiceover>
+               </data>
+            </message>
+         </sequence>
+         <buttons>
+            <close>NoResultsWindowCloseButton</close>
+         </buttons>
+         <actions>
+            <click>
+               NoResultsWindowCloseButton
+               <effects>
+                  <activate>NoResultsWindowClosed</activate>
+               </effects>
+            </click>
+         </actions>
+      </window>
       <dialog>
          EquipmentIntroDialog
          <type>bootcampMessage</type>
          <sequence>
             <message>
                <data>
-                  <preset>BLUE</preset>
+                  <preset>ORANGE</preset>
                   <icon>../maps/icons/bootcamp/lines/bcConsum.png</icon>
                   <label>#bootcamp:message/consumables/label</label>
                   <text>#bootcamp:message/consumables/text</text>
+                  <subtitle>SubtitleKit</subtitle>
                   <voiceover>vo_bc_hangar_kit</voiceover>
                   <bottom_renderer>rewards</bottom_renderer>
                   <bottom>
@@ -449,7 +479,7 @@
                         <labelTooltip>#bootcamp:message/repair/kit/label</labelTooltip>
                         <iconTooltip>../maps/icons/bootcamp/rewards/tooltips/bcRemBig.png</iconTooltip>
                         <description>#artefacts:largeRepairkit/onUse</description>
-                        <label>{0}</label>
+                        <label>#bootcamp:message/missionBonusCount</label>
                         <label_format>getRepairKits</label_format>
                      </data>
                      <data>
@@ -457,7 +487,7 @@
                         <labelTooltip>#bootcamp:message/first/aid/kit/label</labelTooltip>
                         <iconTooltip>../maps/icons/bootcamp/rewards/tooltips/bcMedBig.png</iconTooltip>
                         <description>#artefacts:largeMedkit/onUse</description>
-                        <label>{0}</label>
+                        <label>#bootcamp:message/missionBonusCount</label>
                         <label_format>getFirstAid</label_format>
                      </data>
                      <data>
@@ -465,7 +495,7 @@
                         <labelTooltip>#bootcamp:message/fire/extinguisher/label</labelTooltip>
                         <iconTooltip>../maps/icons/bootcamp/rewards/tooltips/bcFireEx.png</iconTooltip>
                         <description>#artefacts:handExtinguishers/onUse</description>
-                        <label>{0}</label>
+                        <label>#bootcamp:message/missionBonusCount</label>
                         <label_format>getFireExtinguisher</label_format>
                      </data>
                   </bottom>
@@ -475,16 +505,40 @@
          <buttons></buttons>
          <actions></actions>
       </dialog>
+      <window>
+         SubtitleEquipment
+         <type>bootcampSubtitle</type>
+         <sequence>
+            <message>
+               <data>
+                  <subtitle>#bootcamp:subtitles/vo_bc_hangar_equipment</subtitle>
+                  <voiceover>vo_bc_hangar_equipment</voiceover>
+               </data>
+            </message>
+         </sequence>
+         <buttons>
+            <close>NoResultsWindowCloseButton</close>
+         </buttons>
+         <actions>
+            <click>
+               NoResultsWindowCloseButton
+               <effects>
+                  <activate>NoResultsWindowClosed</activate>
+               </effects>
+            </click>
+         </actions>
+      </window>
       <dialog>
          OptionalDeviceIntroDialog
          <type>bootcampMessage</type>
          <sequence>
             <message>
                <data>
-                  <preset>BLUE</preset>
+                  <preset>ORANGE</preset>
                   <icon>../maps/icons/bootcamp/lines/bcEquipment.png</icon>
                   <label>#bootcamp:message/equipment/label</label>
                   <text>#bootcamp:message/equipment/text</text>
+                  <subtitle>SubtitleEquipment</subtitle>
                   <voiceover>vo_bc_hangar_equipment</voiceover>
                   <bottom_renderer>rewards</bottom_renderer>
                   <bottom>
@@ -493,6 +547,8 @@
                         <labelTooltip>#bootcamp:message/bonus/equipment/label</labelTooltip>
                         <description>#bootcamp:message/bonus/equipment/text</description>
                         <iconTooltip>../maps/icons/bootcamp/rewards/tooltips/bcTools.png</iconTooltip>
+                        <label>#bootcamp:message/missionBonusCount</label>
+                        <label_format>getToolbox</label_format>
                      </data>
                   </bottom>
                </data>
@@ -501,6 +557,29 @@
          <buttons></buttons>
          <actions></actions>
       </dialog>
+      <window>
+         SubtitleRandomBattle
+         <type>bootcampSubtitle</type>
+         <sequence>
+            <message>
+               <data>
+                  <subtitle>#bootcamp:subtitles/vo_bc_hangar_random_battle</subtitle>
+                  <voiceover>vo_bc_hangar_random_battle</voiceover>
+               </data>
+            </message>
+         </sequence>
+         <buttons>
+            <close>NoResultsWindowCloseButton</close>
+         </buttons>
+         <actions>
+            <click>
+               NoResultsWindowCloseButton
+               <effects>
+                  <activate>NoResultsWindowClosed</activate>
+               </effects>
+            </click>
+         </actions>
+      </window>
       <checkpoint>
          StartCheckpoint
          <condition></condition>
@@ -559,7 +638,12 @@
                CrewPanel
                <val>True</val>
             </set-visible>
-            <show-dialog>IntroDialog</show-dialog>
+            <show-window>
+               IntroDialog
+               <condition>
+                  <checkpoint-not-reached>EquipmentSelectedCheckpoint</checkpoint-not-reached>
+               </condition>
+            </show-window>
             <set-visible>
                HangarEquipment1
                <val>True</val>
@@ -588,6 +672,18 @@
                <wait_for_finish>True</wait_for_finish>
             </play-animation>
             <activate>IntroFinished</activate>
+         </effects>
+      </checkpoint>
+      <checkpoint>
+         EquipmentDialogShownCheckpoint
+         <condition>
+            <view-present>
+               <type>window</type>
+               <alias>technicalMaintenance</alias>
+            </view-present>
+         </condition>
+         <effects>
+            <show-dialog>EquipmentIntroDialog</show-dialog>
          </effects>
       </checkpoint>
       <checkpoint>
@@ -629,6 +725,18 @@
          </effects>
       </checkpoint>
       <checkpoint>
+         OptionalDeviceDialogShownCheckpoint
+         <condition>
+            <view-present>
+               <type>window</type>
+               <alias>optDevicesSelectPopover</alias>
+            </view-present>
+         </condition>
+         <effects>
+            <show-dialog>OptionalDeviceIntroDialog</show-dialog>
+         </effects>
+      </checkpoint>
+      <checkpoint>
          OptionalDeviceSelectedCheckpoint
          <condition>
             <game-item>
@@ -647,6 +755,12 @@
                <type>tween</type>
                <wait_for_finish>True</wait_for_finish>
             </play-animation>
+            <show-window>
+               SubtitleRandomBattle
+               <condition>
+                  <checkpoint-not-reached>EndCheckpoint</checkpoint-not-reached>
+               </condition>
+            </show-window>
          </effects>
       </checkpoint>
       <checkpoint>
@@ -668,10 +782,6 @@
                </args>
             </invoke-gui-cmd>
             <invoke-gui-cmd>BootcampOverrideBattleSelectorHint</invoke-gui-cmd>
-            <play-sound>
-               vo_bc_hangar_random_battle
-               <event>SPEAKING</event>
-            </play-sound>
          </effects>
       </checkpoint>
       <checkpoint>
@@ -748,7 +858,9 @@
          <validate-var></validate-var>
          <sequence>
             <checkpoint>StartCheckpoint</checkpoint>
+            <checkpoint>EquipmentDialogShownCheckpoint</checkpoint>
             <checkpoint>EquipmentSelectedCheckpoint</checkpoint>
+            <checkpoint>OptionalDeviceDialogShownCheckpoint</checkpoint>
             <checkpoint>OptionalDeviceSelectedCheckpoint</checkpoint>
             <checkpoint>QuestsOpenedCheckpoint</checkpoint>
             <checkpoint>EndCheckpoint</checkpoint>

@@ -30,6 +30,7 @@ Content-Transfer-Encoding: 8bit
 [account/profile/emptyBattleList]::{В бою не был}
 [accountInfo/credits]::{Кредиты:}
 [accountInfo/crystal]::{Боны:}
+[accountInfo/eventCoin]::{Юбилейные монеты:}
 [accountInfo/experience]::{Общий опыт:}
 [accountInfo/gold]::{Золото:}
 [accountTypes/base]::{Базовый аккаунт}
@@ -123,7 +124,7 @@ Content-Transfer-Encoding: 8bit
 [awardWindow/specialAchievement/battle/description3]::{Поздравляем с завершением %(battlesCount)s боя в World of Tanks.}
 [awardWindow/specialAchievement/battle/description4]::{За успехи на полях сражений и завершение %(battlesCount)s боя командование выражает благодарность.}
 [awardWindow/specialAchievement/header]::{Так держать, боец!}
-[awardWindow/specialAchievement/pveBattle/description]::{Вы завершили свой %(battlesCount)d бой. Настало время перейти к активным боевым действиям в режиме «Случайный бой».}
+[awardWindow/specialAchievement/pveBattle/description]::{Вы завершили свой %(battlesCount)d-й бой. Настало время перейти к активным боевым действиям — продолжайте сражаться!}
 [awardWindow/specialAchievement/research/description1]::{Командование выражает благодарность и поздравляет с исследованием %(vehiclesCount)d машины.}
 [awardWindow/specialAchievement/research/description2]::{Поздравляем! Вы исследовали %(vehiclesCount)d машин в World of Tanks.}
 [awardWindow/specialAchievement/research/description3]::{Поздравляем с исследованием %(vehiclesCount)d машины в World of Tanks.}
@@ -174,6 +175,14 @@ Content-Transfer-Encoding: 8bit
 [awardWindow/title/specialAchievement]::{Поздравление}
 [awardWindow/title/taskComplete]::{Поздравление с выполнением}
 [awardWindow/title/tokens]::{Представление к награде}
+[awardWindow/vehicleCollector/description]::{Поздравляем! За наличие всей коллекционной техники %(nation)s вы получаете памятную медаль.}
+[awardWindow/vehicleCollector/header]::{Коллекция собрана}
+[awardWindow/vehicleCollector/okButton]::{Так точно!}
+[awardWindow/vehicleCollector/title]::{Коллекционная техника %(nation)s}
+[awardWindow/vehicleCollectorOfEverything/description]::{Поздравляем! За наличие всей коллекционной техники всех наций вы получаете памятную медаль.}
+[awardWindow/vehicleCollectorOfEverything/header]::{Получена награда!}
+[awardWindow/vehicleCollectorOfEverything/okButton]::{Так точно!}
+[awardWindow/vehicleCollectorOfEverything/title]::{Коллекционная техника}
 [badgePage/tutorial/newSuffixBadge]::{ДОСТУПНА НАШИВКА}
 [barracks/barracksRenderer/placesCount]::{Свободных коек:}
 [barracks/btnBuyBerth]::{Расширить Казарму}
@@ -233,6 +242,7 @@ Content-Transfer-Encoding: 8bit
 [bonusType/22]::{Ранговый бой}
 [bonusType/24]::{Генеральное сражение}
 [bonusType/27]::{Линия фронта}
+[bonusType/32]::{Схватка}
 [bonusType/4]::{Специальный бой}
 [bonusType/5]::{Специальный бой}
 [bonusType/6]::{Боевое обучение}
@@ -273,15 +283,10 @@ Content-Transfer-Encoding: 8bit
 [booster/userName/booster_repair]::{Скидка на ремонт техники}
 [booster/userName/booster_xp]::{Дополнительный опыт за бой}
 [boosterBuyWindow/buyButtonLabel]::{Купить}
-[boosterBuyWindow/buyCount]::{Количество боёв}
 [boosterBuyWindow/cancelButtonLabel]::{Отменить}
-[boosterBuyWindow/inHangarCount]::{На хранении}
 [boosterBuyWindow/pricePerItem]::{Стоимость покупки 1 шт.:}
 [boosterBuyWindow/rearmCheckboxLabel]::{Включить автопополнение инструкций}
 [boosterBuyWindow/title]::{Купить инструкции «{name}»?}
-[boosterBuyWindow/totalLabel]::{ИТОГО:}
-[boosterBuyWindow/totalPrice]::{Докупить}
-[boosterBuyWindow/windowTitle]::{Покупка инструкций}
 [boosterFittingRenderer/buyButton]::{Докупить}
 [boosterFittingRenderer/removeButton]::{Убрать}
 [boosterInfo/closeBtn]::{Закрыть}
@@ -370,6 +375,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/compare]::{Добавить к сравнению}
 [contextMenu/copyClanName]::{Скопировать название клана}
 [contextMenu/copyToClipBoard]::{Копировать имя}
+[contextMenu/createBobSquad]::{Создать взвод для Схватки}
 [contextMenu/createContactNote]::{Создать заметку}
 [contextMenu/createEventSquad]::{Создать ++ивентный++ взвод}
 [contextMenu/createPrivateChannel]::{Отправить сообщение}
@@ -385,6 +391,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/giveEquipmentCommander]::{Назначить наводчиком}
 [contextMenu/giveLeadership]::{Передать командование}
 [contextMenu/goToBlueprint]::{Перейти к чертежу}
+[contextMenu/goToCollection]::{Перейти в коллекцию}
 [contextMenu/goToNationTree]::{Дерево исследований}
 [contextMenu/goToNextVehicle]::{Исследовать модули}
 [contextMenu/inSquad]::{Игрок во взводе}
@@ -467,6 +474,7 @@ Content-Transfer-Encoding: 8bit
 [cst_item_ctx_menu/convertBlueprintMax]::{Создать максимум фрагментов}
 [cst_item_ctx_menu/convertBlueprintMaxCount]::{Создать максимум фрагментов (%(count)d)}
 [cst_item_ctx_menu/exchange]::{Обменять}
+[cst_item_ctx_menu/goToCollection]::{Перейти в коллекцию}
 [cst_item_ctx_menu/information]::{Информация}
 [cst_item_ctx_menu/nationChange]::{Сменить нацию}
 [cst_item_ctx_menu/preview]::{Предпросмотр машины}
@@ -809,7 +817,9 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/menu/unit]::{Командный бой}
 [headerButtons/battle/types/battleTeaching]::{Учебный бой}
 [headerButtons/battle/types/battleTutorial]::{Боевое обучение}
-[headerButtons/battle/types/epic]::{«Линия фронта»}
+[headerButtons/battle/types/bob]::{Схватка}
+[headerButtons/battle/types/bob/descr]::{?empty?}
+[headerButtons/battle/types/epic]::{Линия фронта}
 [headerButtons/battle/types/epic/descr]::{Режим с автоматическим подбором союзников для игры против случайных противников.}
 [headerButtons/battle/types/epic/extra/currentCycle]::{Сезон %(season)s. Этап %(cycle)s}
 [headerButtons/battle/types/epic/extra/currentSeason]::{Сезон %(season)s}
@@ -853,6 +863,7 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/spec/descr]::{Участие в чемпионатах, турнирах и «Мировой войне».}
 [headerButtons/battle/types/specLeave]::{Специальный бой}
 [headerButtons/battle/types/squad]::{Взвод}
+[headerButtons/battle/types/squad/bob]::{: Схватка}
 [headerButtons/battle/types/squad/descr]::{Формирование из 2-3 игроков для совместной игры в Случайных боях.}
 [headerButtons/battle/types/squad/epic]::{: Линия фронта}
 [headerButtons/battle/types/squad/event]::{+++: событие+++}
@@ -884,8 +895,10 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/btnLabel/premium]::{Премиум}
 [headerButtons/clan]::{Клан}
 [headerButtons/clans]::{Кланы}
-[headerButtons/defaultCounter]::{1}
+[headerButtons/defaultCounter]::{!}
 [headerButtons/doLabel/premium]::{Продлить}
+[headerButtons/fightBtn/tooltip/bobOnly/body]::{Выбранная машина подходит только для режима «Схватка».}
+[headerButtons/fightBtn/tooltip/bobOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/body]::{Выбранная машина подходит только для режима «Линия фронта».}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicLevelRequired/bodyEnd]::{технике %(level)s уровня}
@@ -1053,8 +1066,9 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/19]::{Случайный бой}
 [loading/battleTypes/2]::{Тренировочный бой}
 [loading/battleTypes/20]::{Тренировочный бой}
-[loading/battleTypes/21]::{«Линия фронта»}
-[loading/battleTypes/22]::{«Линия фронта»}
+[loading/battleTypes/21]::{Линия фронта}
+[loading/battleTypes/22]::{Линия фронта}
+[loading/battleTypes/23]::{Схватка}
 [loading/battleTypes/4]::{Боевое обучение}
 [loading/battleTypes/5]::{Командный бой}
 [loading/battleTypes/6]::{Исторический бой}
@@ -1079,6 +1093,7 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/desc/20]::{ }
 [loading/battleTypes/desc/21]::{ }
 [loading/battleTypes/desc/22]::{ }
+[loading/battleTypes/desc/23]::{ }
 [loading/battleTypes/desc/4]::{ }
 [loading/battleTypes/desc/5]::{ }
 [loading/battleTypes/desc/6]::{ }
@@ -1399,6 +1414,7 @@ Content-Transfer-Encoding: 8bit
 [premium/tariffs/header]::{Выбор срока действия}
 [price/credits]::{кредитов}
 [price/crystal]::{бон}
+[price/eventCoin]::{юбилейных монет}
 [price/gold]::{золота}
 [price/received]::{Получено %s}
 [price/spent]::{Потрачено %s}
@@ -1408,6 +1424,7 @@ Content-Transfer-Encoding: 8bit
 [profile/creationTime]::{Создан:}
 [profile/credits]::{Кредиты:}
 [profile/crystal]::{Боны:}
+[profile/eventCoin]::{Юбилейные монеты:}
 [profile/exchange]::{Обменять}
 [profile/gold]::{Золото:}
 [profile/header/clan/joinDate]::{Дата вступления: %s}
@@ -1503,6 +1520,7 @@ Content-Transfer-Encoding: 8bit
 [research/labels/button/rent]::{Аренда от}
 [research/labels/button/restore]::{Восстановить}
 [research/labels/button/showInHangar]::{Показать в Ангаре}
+[research/labels/button/toCollection]::{К коллекции}
 [research/labels/button/trade-in]::{Обменять}
 [research/labels/button/vehiclePreview]::{Предпросмотр}
 [research/labels/freeXP]::{Свободный опыт}
@@ -1527,7 +1545,8 @@ Content-Transfer-Encoding: 8bit
 [shop/actions/filter/label]::{Показать все предложения со скидкой}
 [shop/errors/centerIsDown]::{Временно недоступен}
 [shop/errors/inHangar]::{В Ангаре}
-[shop/errors/unlockNeeded]::{Не исследован}
+[shop/errors/lockedNation]::{Недоступно}
+[shop/errors/unlockNeeded]::{Не исследовано}
 [shop/header/equipment/myVehicle]::{Снаряжение для %(vehicle)s:}
 [shop/header/equipment/myVehicles]::{Снаряжение для моей техники%(nation)s:}
 [shop/header/equipment/otherVehicles]::{Снаряжение%(nation)s:}
@@ -1887,6 +1906,19 @@ Content-Transfer-Encoding: 8bit
 [teachingSkill/totalPay]::{К оплате:}
 [technicalMaintenance/ammoTitleEx]::{(кассеты по %d шт.)}
 [techtree/Announcement]::{Скоро}
+[techtree/intro/block0/desc]::{На начальных уровнях стало меньше машин, убрано большинство неоднозначных развилок и переходов, структура Дерева облегчена.}
+[techtree/intro/block0/title]::{Наведён порядок}
+[techtree/intro/block1/desc]::{Путь к рекомендуемой машине выделен визуально, а отслеживать своё продвижение по Дереву стало проще. Премиум техника вынесена в отдельный блок.}
+[techtree/intro/block1/title]::{Упрощено взаимодействие}
+[techtree/intro/block2/desc]::{Все исследованные и купленные машины по-прежнему у вас в Ангаре, а остальную технику можно найти в разделе Магазина «Коллекционная техника».}
+[techtree/intro/block2/title]::{Ничего не пропало}
+[techtree/intro/btnYes]::{Так точно!}
+[techtree/intro/compensation/title]::{Получена компенсация за фрагменты чертежей техники, которая отнесена к коллекционной и ещё не исследована полностью:}
+[techtree/intro/footer]::{Подробную информацию обо всех изменениях можно прочитать на}
+[techtree/intro/title]::{Обновлённое Дерево исследований}
+[techtree/premiumPanel/btnLabel]::{Ещё %(count)s в Магазине}
+[techtree/premiumPanel/btnLabel/count]::{%(count)s}
+[techtree/premiumPanel/title]::{ПРЕМИУМ ТЕХНИКА}
 [timeLeft/full/day]::{{day} д {hour} ч}
 [timeLeft/full/hour]::{{hour} ч {min} мин}
 [timeLeft/full/lessMin]::{1 мин}

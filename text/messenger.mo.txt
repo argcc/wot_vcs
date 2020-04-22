@@ -573,6 +573,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/actions]::{Получено %s за акции «%s»}
 [serviceChannelMessages/battleResults/actionsResultsCredits]::{%s кредитов}
 [serviceChannelMessages/battleResults/actionsResultsCrystal]::{%s бон}
+[serviceChannelMessages/battleResults/actionsResultsEventCoin]::{%s юбилейных монет}
 [serviceChannelMessages/battleResults/actionsResultsFreeXP]::{%s свободного опыта}
 [serviceChannelMessages/battleResults/actionsResultsGold]::{%s золота}
 [serviceChannelMessages/battleResults/battle]::{Бой}
@@ -590,6 +591,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/ended]::{Бой окончен}
 [serviceChannelMessages/battleResults/epicAbilityPoints]::{Очки боевых резервов}
 [serviceChannelMessages/battleResults/epicRewardPoints]::{Жетоны}
+[serviceChannelMessages/battleResults/eventCoin]::{Получено юбилейных монет}
 [serviceChannelMessages/battleResults/experience]::{Получено опыта}
 [serviceChannelMessages/battleResults/fort/clan]::{Наступление}
 [serviceChannelMessages/battleResults/fortBuilding]::{Строение}
@@ -613,6 +615,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/quests/berths]::{Добавлено коек в Казарму}
 [serviceChannelMessages/battleResults/quests/credits]::{Добавлено кредитов}
 [serviceChannelMessages/battleResults/quests/crystal]::{Добавлено бон}
+[serviceChannelMessages/battleResults/quests/eventCoin]::{Добавлены юбилейные монеты}
 [serviceChannelMessages/battleResults/quests/freeXP]::{Добавлено свободного опыта}
 [serviceChannelMessages/battleResults/quests/gold]::{Добавлено золота}
 [serviceChannelMessages/battleResults/quests/items]::{Добавлено}
@@ -681,19 +684,23 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/creditsReceivedAsGift]::{От администрации получено кредитов: %(credits)s.}
 [serviceChannelMessages/crewBooksCount]::{%(label)s x%(count)s}
 [serviceChannelMessages/crewSkinsCount]::{%(label)s x%(count)s}
+[serviceChannelMessages/currencyUpdate/auction]::{Аукцион}
 [serviceChannelMessages/currencyUpdate/date]::{Дата}
 [serviceChannelMessages/currencyUpdate/debited/credits]::{Списано кредитов}
 [serviceChannelMessages/currencyUpdate/debited/crystal]::{Списано бон}
+[serviceChannelMessages/currencyUpdate/debited/eventCoin]::{Списано юбилейных монет}
 [serviceChannelMessages/currencyUpdate/debited/gold]::{Списано золота}
 [serviceChannelMessages/currencyUpdate/financial_transaction]::{Финансовая операция}
 [serviceChannelMessages/currencyUpdate/received/credits]::{Получено кредитов}
 [serviceChannelMessages/currencyUpdate/received/crystal]::{Получено бон}
+[serviceChannelMessages/currencyUpdate/received/eventCoin]::{Получено юбилейных монет}
 [serviceChannelMessages/currencyUpdate/received/gold]::{Получено золота}
 [serviceChannelMessages/demountKitDisabled]::{Операции с демонтажными наборами временно недоступны: ведутся технические работы.}
 [serviceChannelMessages/demountKitEnabled]::{Операции с демонтажными наборами возобновлены. Приносим извинения за причинённые неудобства.}
 [serviceChannelMessages/durationOfPremiumAccountExpires]::{Срок действия Общего премиум аккаунта истекает %(expiryTime)s.}
 [serviceChannelMessages/enhancements/removed]::{Экспериментальный модуль использован}
 [serviceChannelMessages/enhancements/wiped]::{Все экспериментальные модули списаны}
+[serviceChannelMessages/eventCoinReceivedAsGift]::{От администрации получено юбилейных монет: %(eventCoin)s.}
 [serviceChannelMessages/failedPersonalMission]::{Прогресс сброшен}
 [serviceChannelMessages/failedPersonalMission/button]::{Перейти к задаче}
 [serviceChannelMessages/failedPersonalMission/message]::{Внимание! Прогресс по задаче «%(missionShortName)s» был сброшен. Выполнение поставленного условия начато заново.}
@@ -760,6 +767,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/compensation/credits]::{кредитами}
 [serviceChannelMessages/invoiceReceived/compensation/crystal]::{бонами}
 [serviceChannelMessages/invoiceReceived/compensation/emblem]::{Эмблему}
+[serviceChannelMessages/invoiceReceived/compensation/eventCoin]::{юбилейными монетами}
 [serviceChannelMessages/invoiceReceived/compensation/gold]::{золотом}
 [serviceChannelMessages/invoiceReceived/compensation/inscription]::{Надпись}
 [serviceChannelMessages/invoiceReceived/compensation/modification]::{Эффект}
@@ -786,6 +794,8 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/dossiersDebited]::{Списаны награды}
 [serviceChannelMessages/invoiceReceived/enhancementsAccrued]::{Начислены экспериментальные модули}
 [serviceChannelMessages/invoiceReceived/enhancementsDebited]::{Списаны экспериментальные модули}
+[serviceChannelMessages/invoiceReceived/eventCoinAccrued]::{Начислено юбилейных монет}
+[serviceChannelMessages/invoiceReceived/eventCoinDebited]::{Списано юбилейных монет}
 [serviceChannelMessages/invoiceReceived/freeAwardListsAccrued]::{Начислено бланков приказа}
 [serviceChannelMessages/invoiceReceived/freeAwardListsDebited]::{Списано бланков приказа}
 [serviceChannelMessages/invoiceReceived/freeXp]::{Свободный опыт}
@@ -820,7 +830,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/vehiclesDebited]::{Списана техника}
 [serviceChannelMessages/invoiceReceived/vehiclesRented]::{Добавлена арендованная техника}
 [serviceChannelMessages/invoiceReceived/vehiclesRented/bonus]::{Внимание! Последующее продление аренды обойдётся дешевле.}
-[serviceChannelMessages/itemReceivedAsGift]::{От администрации получено снаряжение: %(typeName)s "%(itemName)s" – %(amount)d шт.}
+[serviceChannelMessages/itemReceivedAsGift]::{От администрации получено снаряжение: %(typeName)s «%(itemName)s» — %(amount)d шт.}
 [serviceChannelMessages/lootBoxes/button]::{К коробкам}
 [serviceChannelMessages/lootBoxes/footer]::{Нажмите кнопку, чтобы перейти к содержимому.}
 [serviceChannelMessages/lootBoxes/header]::{Вам посылка:}
@@ -897,6 +907,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/specialReward/nationalBlueprints]::{Национальный фрагмент (%(nationName)s) (x%(fragmentsCount)s)}
 [serviceChannelMessages/specialReward/title]::{Специальная награда}
 [serviceChannelMessages/specialReward/vehicleBlueprints]::{Фрагмент чертежа для %(vehicleName)s (x%(fragmentsCount)s)}
+[serviceChannelMessages/sysMsg/converter/blueprintsReceived]::{Получена компенсация за чертежи исследованной техники:}
 [serviceChannelMessages/sysMsg/converter/camouflages]::{Изменён камуфляж}
 [serviceChannelMessages/sysMsg/converter/creditsReceived]::{Начислено кредитов: %(credits)s}
 [serviceChannelMessages/sysMsg/converter/creditsWithdrawn]::{Списано кредитов: %(credits)s}
@@ -905,11 +916,15 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/converter/customizations]::{Изменены элементы внешнего вида.}
 [serviceChannelMessages/sysMsg/converter/customizationsBuy]::{Изменены элементы внешнего вида. Приобретено элементов: %(count)s. Потрачено %(money)s.}
 [serviceChannelMessages/sysMsg/converter/emblems]::{Изменены эмблемы}
+[serviceChannelMessages/sysMsg/converter/eventCoinReceived]::{Начислено юбилейных монет: %(eventCoin)s}
+[serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn]::{Списано юбилейных монет: %(eventCoin)s}
 [serviceChannelMessages/sysMsg/converter/freeXPReceived]::{Начислено свободного опыта: %(freeXP)s}
 [serviceChannelMessages/sysMsg/converter/freeXPWithdrawn]::{Списано свободного опыта: %(freeXP)s}
 [serviceChannelMessages/sysMsg/converter/goldReceived]::{Начислено золота: %(gold)s}
 [serviceChannelMessages/sysMsg/converter/goldWithdrawn]::{Списано золота: %(gold)s}
 [serviceChannelMessages/sysMsg/converter/inscriptions]::{Изменены надписи}
+[serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived]::{Универсальные фрагменты}
+[serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived]::{Национальные фрагменты %(nationName)s}
 [serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted]::{После обновления все декали были сняты с техники и помещены на Cклад в раздел «Внешний вид».}
 [serviceChannelMessages/sysMsg/converter/slotsReceived]::{Добавлено слотов: %(slots)s}
 [serviceChannelMessages/sysMsg/converter/slotsWithdrawn]::{Списано слотов: %(slots)s}
@@ -924,6 +939,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/customizations/sell]::{%(itemType)s «%(itemName)s», %(count)s шт. Получено %(money)s}
 [serviceChannelMessages/sysMsg/openCustomization/button]::{К внешнему виду}
 [serviceChannelMessages/sysMsg/removeCustomizations]::{Из-за смены модулей следующие элементы внешнего вида были сняты с %(vehicle)s.}
+[serviceChannelMessages/sysMsg/titles/bobBattlesAvailable]::{Бои режима «Схватка» доступны.}
 [serviceChannelMessages/sysMsg/titles/customization]::{Изменение внешнего вида:}
 [serviceChannelMessages/sysMsg/titles/dismantling]::{Демонтировано:}
 [serviceChannelMessages/sysMsg/titles/error]::{Ошибка:}
@@ -945,6 +961,9 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/vehCamouflageTimedOut]::{Срок действия камуфляжа на %(vehicleName)s истёк.}
 [serviceChannelMessages/vehEmblemTimedOut]::{Срок действия эмблемы на %(vehicleName)s истёк.}
 [serviceChannelMessages/vehInscriptionTimedOut]::{Срок действия надписи на %(vehicleName)s истёк.}
+[serviceChannelMessages/vehicleCollector/unlockLevel/header]::{Коллекция доступна}
+[serviceChannelMessages/vehicleCollector/unlockLevel/text]::{Поздравляем!
+Вы исследовали машину %(nation)s %(level)s уровня, и теперь в Магазине вам доступна покупка коллекционной техники этого же уровня соответствующей нации.}
 [serviceChannelMessages/vehicleLock]::{Машина уничтожена. %(vehicleName)s недоступен для кланового боя до %(expireTime)s.}
 [serviceChannelMessages/vehicleLockExpired]::{Время блокировки истекло. %(vehicleName)s доступен для кланового боя.}
 [serviceChannelMessages/vehicleReceivedAsGift]::{От администрации получена премиум машина: %(vehicleName)s}
