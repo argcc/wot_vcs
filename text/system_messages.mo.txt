@@ -21,6 +21,7 @@ Content-Transfer-Encoding: 8bit
 [arena_start_errors/join/CANNOT_CREATE]::{Ошибка присоединения. Неправильный номер команды.}
 [arena_start_errors/join/COOLDOWN]::{Ошибка присоединения. Операция временно заморожена. Попробуйте позже.}
 [arena_start_errors/join/EVENT_DISABLED]::{В настоящий момент данное событие недоступно. Следите за новостями на портале игры.}
+[arena_start_errors/join/NOT_ENOUGH_ENERGY]::{Выход в бой недоступен. Попробуйте позже.}
 [arena_start_errors/join/NOT_FOUND]::{Ошибка присоединения. Приглашение устарело.}
 [arena_start_errors/join/PRIVACY]::{Ошибка присоединения. Недостаточно прав.}
 [arena_start_errors/join/QUEUE_FULL]::{Действие недоступно. Очередь на вход в бой переполнена. Попробуйте позже.}
@@ -893,6 +894,40 @@ Content-Transfer-Encoding: 8bit
 [rotation/lock]::{Следующие группы заблокированы и более недоступны для боя: %(groupNum)s.}
 [rotation/unlock]::{Следующие группы разблокированы и теперь доступны для боя: %(groupNum)s.}
 [rotation/vehicleIsLocked]::{Машина заблокирована и недоступна для боя.}
+[se20/buy_general_level_success]::{%(level)d уровень подразделения. Потрачено: %(money)s}
+[se20/commander_level_complete/abilities]::{Боевые способности:}
+[se20/commander_level_complete/body]::{Достигнут %(level)s уровень}
+[se20/commander_level_complete/currentVehicle]::{Доступная техника:}
+[se20/front_level_complete/awards]::{Награда:}
+[se20/front_level_complete/body]::{%(level)s этап завершён}
+[se20/front_level_complete/pieces]::{шт.}
+[se20/front_level_complete/slots]::{Добавлено слотов:}
+[se20/front_level_complete/title]::{Спецзадание}
+[se20/general_orders_draw]::{Использован приказ «На штурм!» %(order)s для подразделения «%(division)s» (%(count)s шт.)}
+[se20/general_orders_receive]::{Начислены приказы «На штурм!» %(order)s для подразделения «%(division)s» (%(count)s шт.)}
+[se20/max_general_level_already_reached]::{Ваше подразделение уже максимального уровня.}
+[se20/server_error]::{Ошибка покупки. Попробуйте позже.}
+[se20_buy_energy/has_energy]::{Ошибка покупки. Машина в порядке.}
+[se20_buy_energy/server_error]::{Ошибка восстановления.
+У вас недостаточно средств, или произошёл технический сбой.}
+[se20_buy_energy/success]::{Потрачено: %(money)s}
+[se20_buy_pack/success]::{Куплено: %(packTitle)s<br/>Потрачено золота: %(money)s}
+[se20_shop_pack/se20_energy_general_0_bundle2_x10]::{Набор мастера}
+[se20_shop_pack/se20_energy_general_0_bundle_x10]::{Набор специалиста}
+[se20_shop_pack/se20_energy_general_0_x10]::{Набор новобранца}
+[se20_shop_pack/se20_energy_general_1_bundle2_x10]::{Набор мастера}
+[se20_shop_pack/se20_energy_general_1_bundle_x10]::{Набор специалиста}
+[se20_shop_pack/se20_energy_general_1_x10]::{Набор новобранца}
+[se20_shop_pack/se20_energy_general_2_bundle2_x10]::{Набор мастера}
+[se20_shop_pack/se20_energy_general_2_bundle_x10]::{Набор специалиста}
+[se20_shop_pack/se20_energy_general_2_x10]::{Набор новобранца}
+[se20_shop_pack/se20_energy_general_3_bundle2_x10]::{Набор мастера}
+[se20_shop_pack/se20_energy_general_3_bundle_x10]::{Набор специалиста}
+[se20_shop_pack/se20_energy_general_3_x10]::{Набор новобранца}
+[se20_shop_pack/se20_energy_general_4_bundle2_x10]::{Набор мастера}
+[se20_shop_pack/se20_energy_general_4_bundle_x10]::{Набор специалиста}
+[se20_shop_pack/se20_energy_general_4_x10]::{Набор новобранца}
+[se20_shop_pack/se20_general_bundle_level_2]::{Набор победителя}
 [securityMessage/bad_email]::{Уважаемый пользователь! Ваш адрес электронной почты зарегистрирован на подозрительном сервере. Просим вас сменить email. %(link)s}
 [securityMessage/change_setings]::{Изменить параметры безопасности}
 [securityMessage/no_phone]::{Уважаемый пользователь! Рекомендуем выполнить привязку вашего аккаунта к телефону для обеспечения безопасности. %(link)s}

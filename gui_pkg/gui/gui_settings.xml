@@ -120,6 +120,70 @@
       <type>url</type>
    </setting>
    <setting>
+      <name>EventHangarNotesURL</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
+      <value>
+         <item>
+            https://igbevents.worldoftanks.ru/halloween/$LANGUAGE_CODE/
+            <name>RU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://igbevents.worldoftanks.asia/halloween/$LANGUAGE_CODE/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://igbevents.worldoftanks.eu/halloween/$LANGUAGE_CODE/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://igbevents.worldoftanks.com/halloween/$LANGUAGE_CODE/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://igbevents-wgt1.wott.iv/halloween/$LANGUAGE_CODE/
+            <name>default</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
+      <name>EventAboutPageURL</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
+      <value>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>RU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.asia/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.eu/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.com/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>default</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
       <name>tokenShopAPIKey</name>
       <type>string</type>
       <value>7v9Prend1nNU979RspoM40ulKV9zyZDxodNniJopQM3yrjM5Voknt30R2wNpgTXK</value>
@@ -974,6 +1038,33 @@
             2020
             <name>year</name>
             <type>int</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
+      <name>secretEvent2020</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
+      <value>
+         <item>
+            https://webbrg.worldoftanks.com/$LANGUAGE_CODE/promocontent/VideoEventMay2020/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.eu/$LANGUAGE_CODE/promocontent/VideoEventMay2020/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.asia/$LANGUAGE_CODE/promocontent/VideoEventMay2020/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/VideoEventMay2020/
+            <name>default</name>
+            <type>url</type>
          </item>
       </value>
    </setting>

@@ -252,7 +252,7 @@ Content-Transfer-Encoding: 8bit
 [dialogs/createChannel/labels/retypePassword]::{Повторите пароль}
 [dialogs/createChannel/labels/usePassword]::{Требовать пароль при подключении}
 [dialogs/createChannel/title]::{Создание канала}
-[dialogs/eventSquad/vehicle]::{Выберите %(vehName)s}
+[dialogs/eventSquad/vehicle]::{Выберите подразделение}
 [dialogs/falloutSquadChannel/vehicleNotify]::{Выберите машину %(level)s уровня}
 [dialogs/falloutSquadChannel/vehicleNotifyMultiteam]::{Выберите технику}
 [dialogs/falloutSquadChannel/vehicleNotifyRange]::{Выберите машину %(level)s уровня}
@@ -304,8 +304,8 @@ Content-Transfer-Encoding: 8bit
 [dialogs/squadChannel/context/kickPlayer]::{Исключить из взвода}
 [dialogs/squadChannel/headerMsg/epicBattleFormationRestriction]::{Режим «Линия фронта» доступен
 только для техники VIII уровня.}
-[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{+++ event +++
-+++ event +++}
+[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{Основная задача — подавить
+силы противника}
 [dialogs/squadChannel/headerMsg/squadFormation]::{Дополнительный опыт за бой
 при игре на технике IV уровня и выше}
 [dialogs/squadChannel/headerMsg/squadFormationRestriction]::{Играйте на технике одного уровня
@@ -619,7 +619,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/quests/freeXP]::{Добавлено свободного опыта}
 [serviceChannelMessages/battleResults/quests/gold]::{Добавлено золота}
 [serviceChannelMessages/battleResults/quests/items]::{Добавлено}
-[serviceChannelMessages/battleResults/quests/items/name]::{%(name)s (x%(count)s)}
+[serviceChannelMessages/battleResults/quests/items/name]::{%(name)s (%(count)s шт.)}
 [serviceChannelMessages/battleResults/quests/premium]::{Добавлено дней Общего премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/premium_plus]::{Добавлено дней Танкового премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/vehicleSlots]::{Добавлено слотов}
@@ -655,6 +655,12 @@ Content-Transfer-Encoding: 8bit
 Потерян шеврон}
 [serviceChannelMessages/battleResults/rankedState/stepsEarned]::{ 
 Получены шевроны}
+[serviceChannelMessages/battleResults/se20/battleGoalsDone]::{Задач в бою выполнено}
+[serviceChannelMessages/battleResults/se20/division]::{Подразделение}
+[serviceChannelMessages/battleResults/se20/divisionPointsGain]::{Опыта подразделения}
+[serviceChannelMessages/battleResults/se20/gameMode]::{Игровое событие}
+[serviceChannelMessages/battleResults/se20/gameModeName]::{Дорога на Берлин}
+[serviceChannelMessages/battleResults/se20/reputationPointsGain]::{Очков победы}
 [serviceChannelMessages/battleResults/tankman]::{Новобранец}
 [serviceChannelMessages/battleResults/tanks]::{Техника}
 [serviceChannelMessages/battleResults/tankwoman]::{Девушка-танкист}
@@ -894,6 +900,9 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/rentCompensation/creditsReceived]::{Начислено кредитов за неиспользованное время аренды %(vehicleName)s}
 [serviceChannelMessages/rentCompensation/goldReceived]::{Начислено золота за неиспользованное время аренды %(vehicleName)s}
 [serviceChannelMessages/rentalsExpired]::{Срок действия аренды %(vehicleName)s истёк.}
+[serviceChannelMessages/se20/buyBundleReward]::{Получена награда за покупку:}
+[serviceChannelMessages/se20/exhangeOrder/desc]::{Обмен жетона успешно завершён.}
+[serviceChannelMessages/se20/exhangeOrder/header]::{Обмен:}
 [serviceChannelMessages/serverDowntimeCompensation/camouflages]::{камуфляжа}
 [serviceChannelMessages/serverDowntimeCompensation/message]::{В связи с проведением технических работ действие %s продлено.}
 [serviceChannelMessages/serverDowntimeCompensation/playerEmblems]::{эмблем}

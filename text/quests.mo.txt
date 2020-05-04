@@ -316,6 +316,8 @@ Content-Transfer-Encoding: 8bit
 [actionCard/title/set_MarathonAnnounce]::{Итальянское испытание}
 [actionCard/title/set_MarathonFinished]::{Итальянское испытание}
 [actionCard/title/set_MarathonInProgress]::{Итальянское испытание}
+[backButton/description]::{К СОБЫТИЮ «ДОРОГА НА БЕРЛИН»}
+[backButton/label]::{НАЗАД}
 [battleCondition/state/completed]::{Завершено}
 [battleCondition/state/completed_perfectly]::{Выполнено с отличием}
 [battleCondition/state/failed]::{Провалено}
@@ -590,6 +592,7 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/cumulative/directTeamHits]::{Попадания по союзникам}
 [details/conditions/cumulative/droppedCapturePoints]::{Очки защиты}
 [details/conditions/cumulative/enemyHits]::{Попадания по противнику}
+[details/conditions/cumulative/environmentID]::{Дойдите до указанной фазы в составе разведотряда}
 [details/conditions/cumulative/explosionEnemyHits]::{Разрывы ОФ-снарядов рядом с противником, нанёсшие урон осколками}
 [details/conditions/cumulative/explosionHits]::{ОФ-попадания}
 [details/conditions/cumulative/explosionHitsReceived]::{Полученные ОФ-попадания}
@@ -1440,12 +1443,17 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/personalQuest/details/complete/left/daily]::{из них в сутки: %(count)s}
 [missionDetails/prevPageBtn/label]::{Предыдущие}
 [missionDetails/requirements/conclusion/available]::{Требования выполнены (%(count)s)}
+[missionDetails/requirements/conclusion/previousIncomplete]::{Выполните задачу «%(quest_name)s».}
 [missionDetails/requirements/conclusion/unavailable]::{Требования не выполнены (%(count)s)}
 [missionDetails/requirements/header/available]::{Задача доступна:}
 [missionDetails/requirements/header/unavailable]::{Задача недоступна:}
 [missionDetails/resetDate]::{Обнуление задачи в %(time)s}
+[missionDetails/status/complete]::{Выполнено}
 [missionDetails/status/completed/daily]::{Следующее доступное выполнение через: %(time)s}
+[missionDetails/status/completed/secretEvent]::{Боевая задача выполнена. Следующее доступное
+выполнение: %(time)s.}
 [missionDetails/status/disabled]::{Задача отключена}
+[missionDetails/status/inProgress]::{Выполняется}
 [missionDetails/status/notAvailable]::{Недоступно}
 [missionDetails/status/notAvailable/in_future]::{станет доступна через %(time)s}
 [missionDetails/status/notAvailable/invalid_time_interval]::{станет доступна через %(time)s}
@@ -1530,6 +1538,10 @@ Content-Transfer-Encoding: 8bit
 [missions/tokenPopover/quest/descr/notAvailable]::{Недоступно}
 [missions/tokenPopover/quest/descr/ready]::{Выполнено}
 [missions/tokenPopover/quest/header]::{Марафон %(questName)s}
+[missions/tokenPopover/secretEvent/buyBtn/label]::{Купить}
+[missions/tokenPopover/secretEvent/descr]::{Боевые задачи, в которых можно получить %(name)s}
+[missions/tokenPopover/secretEvent/descr/shop]::{%(name)s можно купить только в Премиум магазине.}
+[missions/tokenPopover/secretEvent/header]::{%(name)s}
 [missions/vehicleSelector/status/list]::{Список техники}
 [missions/vehicleSelector/status/noItems]::{Подходящая техника отсутствует, попробуйте
 изменить параметры фильтрации.}
@@ -1691,6 +1703,32 @@ Content-Transfer-Encoding: 8bit
 [token/default/penetration]::{«Пробитие»}
 [token/default/poland]::{«Польша»}
 [token/default/ricochet]::{«Рикошет»}
+[token/default/se20_energy_general_0_x10]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_0_x10_premium]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_0_x15]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_0_x5]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_1_x10]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_1_x10_premium]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_1_x15]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_1_x5]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_2_x10]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_2_x10_premium]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_2_x15]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_2_x5]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_3_x10]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_3_x10_premium]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_3_x15]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_3_x5]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_4_x10]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_4_x10_premium]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_4_x15]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_4_x5]::{Приказ «На штурм!»}
+[token/default/se20_energy_general_x15_discount]::{Жетон «Дорога на Берлин»}
+[token/default/se20_general_mark]::{«Марка»}
+[token/default/se20_tank_discount25]::{Скидка на покупку техники 25%}
+[token/default/se20_tank_discount50]::{Скидка на покупку техники 50%}
+[token/default/se20_tank_discount75]::{Скидка на покупку техники 75%}
+[token/default/se_energy]::{«Жетон»}
 [token/default/shell]::{«Снаряд»}
 [token/default/spg]::{«САУ»}
 [token/default/sweden]::{«Швеция»}
@@ -1702,6 +1740,7 @@ Content-Transfer-Encoding: 8bit
 [token/default/ussr]::{«СССР»}
 [token/default/wheel]::{«Каток»}
 [token/default/wot]::{«Танковая печать»}
+[token/token_for]::{ для подразделения }
 [token/undefined]::{«Тайный знак»}
 [tooltip/progress/groupBy/body]::{Показан максимальный результат}
 [tooltip/progress/groupBy/header]::{Прогресс по боевой задаче}

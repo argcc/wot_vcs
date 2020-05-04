@@ -625,6 +625,8 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <battlePassTMan>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battlePassReward/tman) &lt;font color=&#39;#D6D7D4&#39;&gt;%(name)s&lt;/font&gt;&lt;/font&gt;</battlePassTMan>
       <intelligenceBlueprintReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived): &lt;font color=&#39;#D6D7D4&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;</intelligenceBlueprintReceived>
       <nationalBlueprintReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived): &lt;font color=&#39;#D6D7D4&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;</nationalBlueprintReceived>
+      <receiveHE19Money>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#tooltips:quests/bonuses/token/header/he19_money): &lt;font color=&#39;#D6D7D4&#39;&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</receiveHE19Money>
+      <halloweenVehicleRentMoneySpent>&lt;br/&gt;&lt;br/&gt;%(message)s</halloweenVehicleRentMoneySpent>
    </htmlTemplatesSimple>
    <htmlTemplates>
       <serverReboot>
@@ -648,6 +650,94 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>ErrorIcon</icon>
          <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
       </battleCanceled>
+      <se20VictoryResult>
+         <type>battleResult</type>
+         <icon>BattleResultIcon</icon>
+         <bgIcon>
+            BgBattleResultSE20EventVictory
+            <FORT_BATTLE>frtClanBtlBgBattleResult_UR_Victory</FORT_BATTLE>
+         </bgIcon>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
+               <action>showBattleResults</action>
+            </button>
+         </buttonsLayout>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/battleResults/victory)!&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/gameMode): _(#messenger:serviceChannelMessages/battleResults/se20/gameModeName)&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s &lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/division): %(division)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/battleGoalsDone): %(battleGoalsDone)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/reputationPointsGain): %(reputationPointsGain)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/divisionPointsGain): %(divisionPointsGain)s&lt;/font&gt;</message>
+      </se20VictoryResult>
+      <se20DefeatResult>
+         <type>battleResult</type>
+         <icon>BattleResultIcon</icon>
+         <bgIcon>
+            BgBattleResultSE20EventDefeat
+            <FORT_BATTLE>frtClanBtlBgBattleResult_UR_Victory</FORT_BATTLE>
+         </bgIcon>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
+               <action>showBattleResults</action>
+            </button>
+         </buttonsLayout>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/battleResults/ended)&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/gameMode): _(#messenger:serviceChannelMessages/battleResults/se20/gameModeName)&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s &lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/division): %(division)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/battleGoalsDone): %(battleGoalsDone)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/reputationPointsGain): %(reputationPointsGain)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/divisionPointsGain): %(divisionPointsGain)s&lt;/font&gt;</message>
+      </se20DefeatResult>
+      <se20VictoryMaxLevelResult>
+         <type>battleResult</type>
+         <icon>BattleResultIcon</icon>
+         <bgIcon>
+            BgBattleResultSE20EventVictory
+            <FORT_BATTLE>frtClanBtlBgBattleResult_UR_Victory</FORT_BATTLE>
+         </bgIcon>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
+               <action>showBattleResults</action>
+            </button>
+         </buttonsLayout>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/battleResults/victory)!&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/gameMode): _(#messenger:serviceChannelMessages/battleResults/se20/gameModeName)&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s &lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/division): %(division)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/battleGoalsDone): %(battleGoalsDone)s&lt;/font&gt;</message>
+      </se20VictoryMaxLevelResult>
+      <se20DefeatMaxLevelResult>
+         <type>battleResult</type>
+         <icon>BattleResultIcon</icon>
+         <bgIcon>
+            BgBattleResultSE20EventDefeat
+            <FORT_BATTLE>frtClanBtlBgBattleResult_UR_Victory</FORT_BATTLE>
+         </bgIcon>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
+               <action>showBattleResults</action>
+            </button>
+         </buttonsLayout>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/battleResults/ended)!&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/gameMode): _(#messenger:serviceChannelMessages/battleResults/se20/gameModeName)&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s &lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/division): %(division)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/se20/battleGoalsDone): %(battleGoalsDone)s&lt;/font&gt;</message>
+      </se20DefeatMaxLevelResult>
       <battleVictoryResult>
          <type>battleResult</type>
          <icon>BattleResultIcon</icon>
@@ -1199,6 +1289,17 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>InformationIcon</icon>
          <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;&lt;br/&gt;&lt;img src=&#39;img://gui/maps/shop/misc/%(type)s.png&#39; align=&#39;baseline&#39; width=&#39;160&#39; height=&#39;36&#39; vspace=&#39;-54&#39;/&gt;</message>
       </PaymentMethodUnlinkSysMessage>
+      <EventRepairSysMessage>
+         <priority>low</priority>
+         <type>yellow</type>
+         <icon>CreditsIcon</icon>
+         <message>&lt;font  face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/eventRepair)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </EventRepairSysMessage>
+      <EventRestoreSysMessage>
+         <type>yellow</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font  face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/eventRestore)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </EventRestoreSysMessage>
       <AOGASNotify>
          <priority>high</priority>
          <type>yellow</type>
@@ -1280,6 +1381,46 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>InformationIcon</icon>
          <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(bold)s&lt;/font&gt;%(normal)s</message>
       </defaultMessage>
+      <eventGeneralLevelReached>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/eventGeneralLevelReached)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventGeneralLevelReached>
+      <eventGeneralReward>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/eventGeneralReward)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventGeneralReward>
+      <eventGeneralBuyReward>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/se20/buyBundleReward)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventGeneralBuyReward>
+      <eventGeneralBundleBuyReward>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/se20/buyBundleReward)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventGeneralBundleBuyReward>
+      <eventExchangeOrder>
+         <type>grey</type>
+         <icon>ExhangeOrderIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/se20/exhangeOrder/header)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/se20/exhangeOrder/desc)&lt;/font&gt;</message>
+      </eventExchangeOrder>
+      <eventBuyBundleReward>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/se20/buyBundleReward)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventBuyBundleReward>
+      <eventFrontLevelReached>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/eventFrontLevelReached)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventFrontLevelReached>
+      <eventFrontReward>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/eventFrontReward)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </eventFrontReward>
       <invite>
          <type>grey</type>
          <buttonsLayout>
@@ -1867,5 +2008,37 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>TechTreeDiscount</icon>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(header)s&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;&lt;font color=&#39;#FFC363&#39;&gt;%(timeLeft)s&lt;/font&gt;</message>
       </TechTreeActionDiscountMessage>
+      <SE20EnergyDrawMessage>
+         <type>grey</type>
+         <priority>medium</priority>
+         <icon>InformationIcon</icon>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </SE20EnergyDrawMessage>
+      <SE20CommanderLevelCompleted>
+         <type>grey</type>
+         <priority>medium</priority>
+         <icon>SE20CommanderLevelCompletedIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(header)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:se20/commander_level_complete/currentVehicle)&lt;/font&gt; &lt;font color=&#39;#C5CFCF&#39;&gt;%(currentVehicle)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:se20/commander_level_complete/abilities)&lt;/font&gt; &lt;font color=&#39;#C5CFCF&#39;&gt;%(abilities)s&lt;/font&gt;</message>
+      </SE20CommanderLevelCompleted>
+      <SE20FrontLevelCompleted>
+         <type>grey</type>
+         <priority>medium</priority>
+         <icon>SE20FrontLevelCompletedIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(header)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:se20/front_level_complete/awards)&lt;/font&gt; &lt;font color=&#39;#C5CFCF&#39;&gt;%(awards)s&lt;/font&gt;</message>
+      </SE20FrontLevelCompleted>
+      <SE20FrontLevelVehicleCompleted>
+         <type>grey</type>
+         <priority>medium</priority>
+         <icon>SE20FrontLevelCompletedIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(header)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:se20/front_level_complete/awards)&lt;/font&gt; &lt;font color=&#39;#C5CFCF&#39;&gt;%(awards)s&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:se20/front_level_complete/slots)&lt;/font&gt; &lt;font color=&#39;#C5CFCF&#39;&gt;%(slotsCount)s&lt;/font&gt;</message>
+      </SE20FrontLevelVehicleCompleted>
    </htmlTemplates>
 </messenger.xml>

@@ -29,7 +29,7 @@
          <name>DEATH_FROM_FIRE</name>
          <type>list</type>
          <value>
-            <item>&lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;%(color)s&#34;&gt;_(#ingame_gui:postmortem_messages/DEATH_FROM_FIRE)&lt;/font&gt;</item>
+            <item>&lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;%(color)s&#34;&gt;_(#ingame_gui:vehicle_messages/DEATH_FROM_FIRE)&lt;/font&gt;</item>
             <item>#FF2717,#800080</item>
          </value>
       </message>
@@ -42,11 +42,27 @@
          </value>
       </message>
       <message>
+         <name>DEATH_FROM_SHOT_SELF_SUICIDE</name>
+         <type>list</type>
+         <value>
+            <item>&lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;%(color)s&#34;&gt;_(#ingame_gui:postmortem_messages/DEATH_FROM_SHOT)&lt;/font&gt; &lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;#FFE4D5&#34;&gt;%(killer)s&lt;/font&gt;</item>
+            <item>#FF2717,#800080</item>
+         </value>
+      </message>
+      <message>
          <name>DEATH_FROM_TEAM_KILLER</name>
          <type>list</type>
          <value>
             <item>&lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;%(color)s&#34;&gt;_(#ingame_gui:postmortem_messages/DEATH_FROM_SHOT)&lt;/font&gt; &lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;#FFE4D5&#34;&gt;%(killer)s&lt;/font&gt;</item>
             <item>#09E2FF,#800080</item>
+         </value>
+      </message>
+      <message>
+         <name>EVENT_DEATH_FROM_SHOT</name>
+         <type>list</type>
+         <value>
+            <item>&lt;font size=&#34;16&#34; face=&#34;$TitleFont&#34; color=&#34;%(color)s&#34;&gt;_(#ingame_gui:postmortem_messages/DEATH_FROM_SHOT)&lt;/font&gt;</item>
+            <item>#F91A0E,#800080</item>
          </value>
       </message>
       <message>
@@ -222,6 +238,22 @@
          <type>list</type>
          <value>
             <item>&lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;%(color)s&#34;&gt;_(#ingame_gui:postmortem_messages/DEATH_FROM_SHOT_BOMBER)&lt;/font&gt;</item>
+            <item>#FF2717,#800080</item>
+         </value>
+      </message>
+      <message>
+         <name>EVENT_DEATH_ON_PHASE_CHANGE</name>
+         <type>list</type>
+         <value>
+            <item>&lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;%(color)s&#34;&gt;_(#ingame_gui:postmortem_messages/EVENT_DEATH_ON_PHASE_CHANGE)&lt;/font&gt;</item>
+            <item>#FF2717,#800080</item>
+         </value>
+      </message>
+      <message>
+         <name>EVENT_DEATH_ON_PHASE_CHANGE_FULL_SC</name>
+         <type>list</type>
+         <value>
+            <item>&lt;font size=&#34;20&#34; face=&#34;$TitleFont&#34; color=&#34;%(color)s&#34;&gt;_(#ingame_gui:postmortem_messages/EVENT_DEATH_ON_PHASE_CHANGE_FULL_SC)&lt;/font&gt;</item>
             <item>#FF2717,#800080</item>
          </value>
       </message>

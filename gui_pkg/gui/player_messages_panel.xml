@@ -75,6 +75,22 @@
          </value>
       </message>
       <message>
+         <name>DEATH_FROM_SHOT</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT)</item>
+            <item>red,purple</item>
+         </value>
+      </message>
+      <message>
+         <name>DEATH_FROM_SHOT_SELF_SUICIDE</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_SELF_SUICIDE)</item>
+            <item>red,purple</item>
+         </value>
+      </message>
+      <message>
          <name>DEATH_FROM_SHOT_SELF_ALLY</name>
          <type>list</type>
          <value>
@@ -139,6 +155,14 @@
          </value>
       </message>
       <message>
+         <name>DEATH_FROM_SHOT_ENEMY_SELF</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_ENEMY_SELF)</item>
+            <item>red,purple</item>
+         </value>
+      </message>
+      <message>
          <name>DEATH_FROM_SHOT_UNKNOWN_ENEMY</name>
          <type>list</type>
          <value>
@@ -151,6 +175,22 @@
          <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY)</item>
+            <item>red,purple</item>
+         </value>
+      </message>
+      <message>
+         <name>DEATH_FROM_FIRE</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_FIRE)</item>
+            <item>red,purple</item>
+         </value>
+      </message>
+      <message>
+         <name>DEATH_FROM_FIRE_SELF_SUICIDE</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_FIRE_SELF_SUICIDE)</item>
             <item>red,purple</item>
          </value>
       </message>
@@ -416,6 +456,14 @@
          <value>
             <item>_(#ingame_gui:player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY)</item>
             <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>DEATH_FROM_DEATH_ZONE</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_DEATH_ZONE)</item>
+            <item>red,purple</item>
          </value>
       </message>
       <message>
@@ -691,10 +739,58 @@
          </value>
       </message>
       <message>
+         <name>COMBAT_EQUIPMENT_READY_ARTILLERYROCKET</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_READY_ARTILLERYROCKET)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_READY_ARTILLERYMORTAR</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_READY_ARTILLERYMORTAR)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
          <name>COMBAT_EQUIPMENT_READY_BOMBER</name>
          <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_READY_BOMBER)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_READY_BOMBERCAS</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_READY_BOMBERCAS)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_READY_MINEFIELD</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_READY_NITRO</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_READY_NITRO)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_READY_SUPERSHELLFIREBALL</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_READY_SUPERSHELLFIREBALL)</item>
             <item>green</item>
          </value>
       </message>
@@ -731,10 +827,58 @@
          </value>
       </message>
       <message>
+         <name>COMBAT_EQUIPMENT_USED_ARTILLERYROCKET</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_USED_ARTILLERYROCKET)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_USED_ARTILLERYMORTAR</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_USED_ARTILLERYMORTAR)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
          <name>COMBAT_EQUIPMENT_USED_BOMBER</name>
          <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_USED_BOMBER)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_USED_BOMBERCAS</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_USED_BOMBERCAS)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_USED_MINEFIELD</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_USED_NITRO</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_USED_NITRO)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>COMBAT_EQUIPMENT_USED_SUPERSHELLFIREBALL</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/COMBAT_EQUIPMENT_USED_SUPERSHELLFIREBALL)</item>
             <item>green</item>
          </value>
       </message>
@@ -939,10 +1083,42 @@
          </value>
       </message>
       <message>
+         <name>DEATH_FROM_SHOT_SELF_ENEMY_MINEFIELD</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_SELF_ENEMY_MINEFIELD)</item>
+            <item>self</item>
+         </value>
+      </message>
+      <message>
+         <name>DEATH_FROM_SHOT_ALLY_ENEMY_MINEFIELD</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_SELF_ENEMY_MINEFIELD)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
          <name>DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER</name>
          <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER)</item>
+            <item>red,purple</item>
+         </value>
+      </message>
+      <message>
+         <name>DEATH_FROM_SHOT_SELF_SUICIDE_BOMBER</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_SELF_SUICIDE_BOMBER)</item>
+            <item>red,purple</item>
+         </value>
+      </message>
+      <message>
+         <name>DEATH_FROM_SHOT_SELF_SUICIDE_ARTILLERY</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_SELF_SUICIDE_ARTILLERY)</item>
             <item>red,purple</item>
          </value>
       </message>
@@ -1031,6 +1207,22 @@
          <type>list</type>
          <value>
             <item>_(#ingame_gui:player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>EQUIPMENT_USAGE</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/EQUIPMENT_USAGE)</item>
+            <item>green</item>
+         </value>
+      </message>
+      <message>
+         <name>TEAM_EQUIPMENT_USAGE</name>
+         <type>list</type>
+         <value>
+            <item>_(#ingame_gui:player_messages/TEAM_EQUIPMENT_USAGE)</item>
             <item>green</item>
          </value>
       </message>

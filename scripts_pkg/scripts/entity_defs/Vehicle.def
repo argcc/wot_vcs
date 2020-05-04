@@ -17,6 +17,7 @@
       <Interface>SmokeController_Vehicle</Interface>
       <Interface>InspireController_Vehicle</Interface>
       <Interface>Wheels</Interface>
+      <Interface>EventControlPoint_Vehicle</Interface>
    </Implements>
    <LoDLevels>
       <level>
@@ -224,6 +225,13 @@
          <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isBlockingCapture>
+      <buffs>
+         <Type>
+            ARRAY
+            <of>UINT16</of>
+         </Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </buffs>
    </Properties>
    <TempProperties>
       <events></events>
@@ -244,6 +252,7 @@
       <_ProximityManager__data></_ProximityManager__data>
       <_TimerManager__unpersistedTimers></_TimerManager__unpersistedTimers>
       <gameObject></gameObject>
+      <buffContainer></buffContainer>
    </TempProperties>
    <ClientMethods>
       <onHealthChanged>
@@ -481,6 +490,7 @@
       <requestVisibilityLists>
          <Arg>MAILBOX</Arg>
       </requestVisibilityLists>
+      <redrawVehicleOnRespawnAfterReconnect></redrawVehicleOnRespawnAfterReconnect>
    </CellMethods>
    <BaseMethods>
       <createCellNearHere>
@@ -490,6 +500,9 @@
       <receiveFinalStats>
          <Arg>STRING</Arg>
       </receiveFinalStats>
+      <receiveBotFinalStats>
+         <Arg>STRING</Arg>
+      </receiveBotFinalStats>
       <setAvatar>
          <Arg>MAILBOX</Arg>
       </setAvatar>
