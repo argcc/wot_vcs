@@ -92,11 +92,11 @@
          <bonusString>&lt;img src=&#34;%(bonusIcon)s&#34; width=&#34;16&#34; height=&#34;16&#34; vspace=&#34;-3&#34;/&gt;+%(bonusValue)d%%%(isConditional)s</bonusString>
          <PopoverAnchorMapType>_(#vehicle_customization:customization/Popover/mapType)&lt;font color=&#34;#E9E2BF&#34;&gt;%(text)s&lt;/font&gt;</PopoverAnchorMapType>
          <PopoverAnchorItemType>_(#vehicle_customization:customization/Popover/itemType)&lt;font color=&#34;#E9E2BF&#34;&gt;%(text)s&lt;/font&gt;</PopoverAnchorItemType>
-         <PopoverSeasonName>
-            <summer>&lt;TEXTFORMAT INDENT=&#34;0&#34; LEFTMARGIN=&#34;0&#34; RIGHTMARGIN=&#34;0&#34; LEADING=&#34;1&#34;&gt;&lt;P ALIGN=&#34;LEFT&#34;&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;14&#34; COLOR=&#34;#E9E2BF&#34; KERNING=&#34;0&#34;&gt;&lt;IMG SRC=&#34;img://gui/maps/icons/customization/items_popover/summer16x16.png&#34; WIDTH=&#34;16&#34; HEIGHT=&#34;16&#34; VSPACE=&#34;-3&#34; ALIGN=&#34;baseline&#34;&gt; _(#vehicle_customization:propertySheet/map/summer)&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</summer>
-            <winter>&lt;TEXTFORMAT INDENT=&#34;0&#34; LEFTMARGIN=&#34;0&#34; RIGHTMARGIN=&#34;0&#34; LEADING=&#34;1&#34;&gt;&lt;P ALIGN=&#34;LEFT&#34;&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;14&#34; COLOR=&#34;#E9E2BF&#34; KERNING=&#34;0&#34;&gt;&lt;IMG SRC=&#34;img://gui/maps/icons/customization/items_popover/winter16x16.png&#34; WIDTH=&#34;16&#34; HEIGHT=&#34;16&#34; VSPACE=&#34;-3&#34; ALIGN=&#34;baseline&#34;&gt; _(#vehicle_customization:propertySheet/map/winter)&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</winter>
-            <desert>&lt;TEXTFORMAT INDENT=&#34;0&#34; LEFTMARGIN=&#34;0&#34; RIGHTMARGIN=&#34;0&#34; LEADING=&#34;1&#34;&gt;&lt;P ALIGN=&#34;LEFT&#34;&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;14&#34; COLOR=&#34;#E9E2BF&#34; KERNING=&#34;0&#34;&gt;&lt;IMG SRC=&#34;img://gui/maps/icons/customization/items_popover/desert16x16.png&#34; WIDTH=&#34;16&#34; HEIGHT=&#34;16&#34; VSPACE=&#34;-3&#34; ALIGN=&#34;baseline&#34;&gt; _(#vehicle_customization:propertySheet/map/desert)&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</desert>
-         </PopoverSeasonName>
+         <StylePopoverSeasonName>
+            <summer>&lt;TEXTFORMAT INDENT=&#34;0&#34; LEFTMARGIN=&#34;0&#34; RIGHTMARGIN=&#34;0&#34; LEADING=&#34;1&#34;&gt;&lt;P ALIGN=&#34;%(align)s&#34;&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;14&#34; COLOR=&#34;#E9E2BF&#34; KERNING=&#34;0&#34;&gt;&lt;IMG SRC=&#34;img://gui/maps/icons/customization/items_popover/summer16x16.png&#34; WIDTH=&#34;16&#34; HEIGHT=&#34;16&#34; VSPACE=&#34;-3&#34; ALIGN=&#34;baseline&#34;&gt; _(#vehicle_customization:propertySheet/map/summer)&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</summer>
+            <winter>&lt;TEXTFORMAT INDENT=&#34;0&#34; LEFTMARGIN=&#34;0&#34; RIGHTMARGIN=&#34;0&#34; LEADING=&#34;1&#34;&gt;&lt;P ALIGN=&#34;%(align)s&#34;&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;14&#34; COLOR=&#34;#E9E2BF&#34; KERNING=&#34;0&#34;&gt;&lt;IMG SRC=&#34;img://gui/maps/icons/customization/items_popover/winter16x16.png&#34; WIDTH=&#34;16&#34; HEIGHT=&#34;16&#34; VSPACE=&#34;-3&#34; ALIGN=&#34;baseline&#34;&gt; _(#vehicle_customization:propertySheet/map/winter)&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</winter>
+            <desert>&lt;TEXTFORMAT INDENT=&#34;0&#34; LEFTMARGIN=&#34;0&#34; RIGHTMARGIN=&#34;0&#34; LEADING=&#34;1&#34;&gt;&lt;P ALIGN=&#34;%(align)s&#34;&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;14&#34; COLOR=&#34;#E9E2BF&#34; KERNING=&#34;0&#34;&gt;&lt;IMG SRC=&#34;img://gui/maps/icons/customization/items_popover/desert16x16.png&#34; WIDTH=&#34;16&#34; HEIGHT=&#34;16&#34; VSPACE=&#34;-3&#34; ALIGN=&#34;baseline&#34;&gt; _(#vehicle_customization:propertySheet/map/desert)&lt;/FONT&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</desert>
+         </StylePopoverSeasonName>
          <disabledTabTooltip>%(text)s _(#vehicle_customization:disabledTab/body/disabled)&lt;/font&gt;</disabledTabTooltip>
          <rentalStyleTooltip>%(text)s _(#vehicle_customization:disabledTab/body/rentalStyle)&lt;/font&gt;</rentalStyleTooltip>
          <exclude>
@@ -111,7 +111,7 @@
             <text>_(#vehicle_customization:propertySheet/inscriptionController/invalid_inscription)</text>
          </inscription_hint>
          <style_info_bonus>
-            <text>&lt;font size=&#39;14&#39; color=&#34;#8C8C7E&#34; face=&#34;$TitleFont&#34;&gt;&lt;font size=&#39;15&#39; color=&#34;#E9E2BF&#34; face=&#34;$TitleFont&#34;&gt;+%(bonus)s&lt;/font&gt; _(#vehicle_customization:styleInfo/bonus)&lt;/font&gt;</text>
+            <text>&lt;font size=&#39;14&#39; color=&#34;#8C8C7E&#34; face=&#34;$FieldFont&#34;&gt;&lt;font size=&#39;15&#39; color=&#34;#E9E2BF&#34; face=&#34;$TitleFont&#34;&gt;+%(bonus)s&lt;/font&gt; _(#vehicle_customization:styleInfo/bonus)&lt;/font&gt;</text>
          </style_info_bonus>
       </customization>
       <battle_results>
@@ -296,250 +296,6 @@
             <ally_description>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#80D63A&#34;&gt;%s&lt;/font&gt;</ally_description>
          </settings_key_commands>
          <not_enough_money>%(description)s&lt;br/&gt;&lt;br/&gt;_(#storage:blueprints/card/convertRequired) &lt;font color=&#39;#ff2717&#39;&gt;%(value)s&lt;/font&gt; &lt;img src=&#39;%(icon)s&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; /&gt;</not_enough_money>
-         <secret_event_general>
-            <body>
-               <context>
-                  <tank_name_open>&lt;font color=&#34;#ffc363&#34;&gt;</tank_name_open>
-                  <tank_name_close>&lt;/font&gt;</tank_name_close>
-                  <date_open>&lt;font color=&#34;#cbac77&#34;&gt;</date_open>
-                  <date_close>&lt;/font&gt;</date_close>
-               </context>
-               <text>&lt;font face=&#34;$TitleFont&#34; color=&#34;#fdf4ce&#34; size=&#34;18&#34;&gt;_(#tooltips:secret_event/general/title)&lt;/font&gt;&lt;br/&gt;_(#tooltips:secret_event/general/body)&lt;br/&gt;&lt;font size=&#39;6&#39;&gt;&lt;br/&gt;&lt;/font&gt;_(#tooltips:secret_event/general/date)</text>
-            </body>
-            <footer>
-               <context>
-                  <accent_open>&lt;font color=&#34;#e9e2bf&#34;&gt;</accent_open>
-                  <accent_close>&lt;/font&gt;</accent_close>
-                  <info_icon>&lt;img src=&#39;img://gui/maps/icons/library/InformationIcon.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; hspace=&#39;0&#39;/&gt;</info_icon>
-               </context>
-               <text>_(#tooltips:secret_event/general/footer)&lt;br/&gt;&lt;font size=&#39;6&#39;&gt;&lt;br/&gt;&lt;/font&gt;_(#tooltips:secret_event/general/info)</text>
-            </footer>
-         </secret_event_general>
-         <squad_selector>
-            <regular>
-               <context>
-                  <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                  <highlightEnd>&lt;/font&gt;</highlightEnd>
-               </context>
-               <text>_(#tooltips:header/squad/body)</text>
-            </regular>
-            <event>
-               <context>
-                  <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                  <highlightEnd>&lt;/font&gt;</highlightEnd>
-               </context>
-               <text>_(#tooltips:header/eventSquad/body)</text>
-            </event>
-         </squad_selector>
-         <squad_window>
-            <rules>
-               <context>
-                  <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                  <highlightEnd>&lt;/font&gt;</highlightEnd>
-               </context>
-               <text>_(#tooltips:squadWindow/infoIcon/tech/event/body)</text>
-            </rules>
-            <roadToBerlin>
-               <context>
-                  <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                  <highlightEnd>&lt;/font&gt;</highlightEnd>
-               </context>
-               <text>&lt;font face=&#34;$TitleFont&#34; color=&#34;#fdf4ce&#34; size=&#34;18&#34;&gt;_(#tooltips:squadWindow/eventInfo/roadToBerlin/header)&lt;/font&gt;&lt;br/&gt;_(#tooltips:squadWindow/eventInfo/roadToBerlin/body)</text>
-            </roadToBerlin>
-            <Berlin>
-               <context>
-                  <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                  <highlightEnd>&lt;/font&gt;</highlightEnd>
-                  <winnerStart>&lt;font color=&#34;#cbac77&#34;&gt;</winnerStart>
-                  <winnerEnd>&lt;/font&gt;</winnerEnd>
-               </context>
-               <text>&lt;font face=&#34;$TitleFont&#34; color=&#34;#fdf4ce&#34; size=&#34;18&#34;&gt;_(#tooltips:squadWindow/eventInfo/berlin/header)&lt;/font&gt;&lt;br/&gt;_(#tooltips:squadWindow/eventInfo/berlin/body)&lt;br/&gt;&lt;font size=&#39;6&#39;&gt;&lt;br/&gt;&lt;/font&gt;_(#tooltips:squadWindow/eventInfo/berlin/winnerDay)</text>
-            </Berlin>
-            <PlayInfo>
-               <context>
-                  <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                  <highlightEnd>&lt;/font&gt;</highlightEnd>
-               </context>
-               <text>&lt;img src=&#39;img://gui/maps/icons/library/InformationIcon.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; hspace=&#39;0&#39;/&gt;&amp;nbsp;_(#tooltips:squadWindow/eventInfo/playInfo)</text>
-            </PlayInfo>
-         </squad_window>
-         <event>
-            <subdivision_pumping>
-               <header>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                  </context>
-                  <text>&lt;font face=&#34;$TitleFont&#34; color=&#34;#fdf4ce&#34; size=&#34;18&#34;&gt;_(#tooltips:secret_event/subdivision/pumpingInfo/header)&lt;/font&gt;%(indentation)s_(#tooltips:secret_event/subdivision/pumpingInfo/rules)</text>
-               </header>
-               <middle>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <winnerStart>&lt;font color=&#34;#cbac77&#34;&gt;</winnerStart>
-                     <winnerEnd>&lt;/font&gt;</winnerEnd>
-                  </context>
-                  <text>_(#tooltips:secret_event/subdivision/pumpingInfo/berlin)&lt;br/&gt;&lt;font size=&#39;6&#39;&gt;&lt;br/&gt;&lt;/font&gt;_(#tooltips:secret_event/subdivision/pumpingInfo/winnerDay)</text>
-               </middle>
-               <footer>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <tankStart>&lt;font color=&#34;#ffc363&#34;&gt;</tankStart>
-                     <tankEnd>&lt;/font&gt;</tankEnd>
-                     <icon>&lt;img src=&#39;img://gui/maps/icons/secretEvent/markIconSmall.png&#39; width=&#39;15&#39; height=&#39;16&#39; vspace=&#39;-3&#39;&gt;</icon>
-                  </context>
-                  <text>_(#tooltips:secret_event/subdivision/pumpingInfo/prize)</text>
-               </footer>
-            </subdivision_pumping>
-            <banner_info>
-               <header>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                     <icon>&lt;img src=&#39;img://gui/maps/icons/secretEvent/certificate.png&#39; width=&#39;18&#39; height=&#39;16&#39; vspace=&#39;-4&#39;&gt;</icon>
-                  </context>
-                  <text>&lt;font face=&#34;$TitleFont&#34; color=&#34;#fdf4ce&#34; size=&#34;18&#34;&gt;_(#tooltips:secret_event/banner/header)&lt;/font&gt;%(indentation)s_(#tooltips:secret_event/banner/description)</text>
-               </header>
-               <berlin>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <highlightWinnerStart>&lt;font color=&#34;#cbac77&#34;&gt;</highlightWinnerStart>
-                     <highlightWinnerEnd>&lt;/font&gt;</highlightWinnerEnd>
-                     <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                     <icon>&lt;img src=&#39;img://gui/maps/icons/secretEvent/certificate.png&#39; width=&#39;18&#39; height=&#39;16&#39; vspace=&#39;-3&#39;&gt;</icon>
-                  </context>
-                  <text>_(#tooltips:secret_event/banner/berlin)</text>
-               </berlin>
-               <footer>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#cbac77&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                  </context>
-                  <text>_(#tooltips:secret_event/banner/footer)</text>
-               </footer>
-            </banner_info>
-            <herotank_title>
-               <context>
-                  <ffc363_Open>&lt;font color=&#34;#ffc363&#34;&gt;</ffc363_Open>
-                  <ffc363_Close>&lt;/font&gt;</ffc363_Close>
-                  <e9e2bf_Open>&lt;font color=&#34;#e9e2bf&#34;&gt;</e9e2bf_Open>
-                  <e9e2bf_Close>&lt;/font&gt;</e9e2bf_Close>
-                  <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                  <info_icon>&lt;img src=&#39;img://gui/maps/icons/library/InformationIcon.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; hspace=&#39;0&#39;/&gt;</info_icon>
-               </context>
-               <text>&lt;font face=&#34;$TitleFont&#34; color=&#34;#fdf4ce&#34; size=&#34;18&#34;&gt;_(#tooltips:secret_event/herotank/title)&lt;/font&gt;%(indentation)s_(#tooltips:secret_event/herotank/body)%(indentation)s_(#tooltips:secret_event/herotank/footer)</text>
-            </herotank_title>
-            <herotank_discount_header>
-               <context>
-                  <color_tag_open>&lt;font color=&#34;#CBAC77&#34; size=&#34;14&#34; face=&#34;$FieldFont&#34;&gt;</color_tag_open>
-                  <color_tag_close>&lt;/font&gt;</color_tag_close>
-               </context>
-               <text>_(#tooltips:quests/bonuses/token/se20_tank_discount/header)</text>
-            </herotank_discount_header>
-            <herotank_discount_body>
-               <context>
-                  <color_tag_open>&lt;font color=&#34;#ffc363&#34;&gt;</color_tag_open>
-                  <color_tag_close>&lt;/font&gt;</color_tag_close>
-               </context>
-               <text>_(#tooltips:quests/bonuses/token/se20_tank_discount/body)</text>
-            </herotank_discount_body>
-            <berlin>
-               <context>
-                  <highlight_open>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlight_open>
-                  <highlight_close>&lt;/font&gt;</highlight_close>
-                  <color_open>&lt;font color=&#34;#cbac77&#34;&gt;</color_open>
-                  <color_close>&lt;/font&gt;</color_close>
-               </context>
-               <text>_(#tooltips:quests/bonuses/token/se20_front_1_event_points/additionalInfo)</text>
-            </berlin>
-            <squad_general_info>
-               <header>
-                  <context>
-                     <colorTagOpen>&lt;font color=&#34;#e9e2bf&#34; size=&#34;14&#34; face=&#34;$FieldFont&#34;&gt;</colorTagOpen>
-                     <colorTagClose>&lt;/font&gt;</colorTagClose>
-                  </context>
-                  <text>_(#tooltips:secret_event/squadInfo/title)</text>
-               </header>
-               <body>
-                  <context>
-                     <colorTagOpen>&lt;font color=&#34;#e9e2bf&#34; size=&#34;14&#34; face=&#34;$FieldFont&#34;&gt;</colorTagOpen>
-                     <colorTagClose>&lt;/font&gt;</colorTagClose>
-                  </context>
-                  <text>_(#tooltips:secret_event/squadInfo/body)</text>
-               </body>
-               <footer>
-                  <context>
-                     <colorTagOpen>&lt;font color=&#34;#e9e2bf&#34; size=&#34;14&#34; face=&#34;$FieldFont&#34;&gt;</colorTagOpen>
-                     <colorTagClose>&lt;/font&gt;</colorTagClose>
-                  </context>
-                  <text>_(#tooltips:secret_event/squadInfo/footer)</text>
-               </footer>
-            </squad_general_info>
-            <mission_info>
-               <header>
-                  <context>
-                     <highlight_open>&lt;font color=&#34;#e9e2bf&#34; size=&#34;14&#34; face=&#34;$FieldFont&#34;&gt;</highlight_open>
-                     <highlight_close>&lt;/font&gt;</highlight_close>
-                  </context>
-                  <text>_(#tooltips:secret_event/progressionInfo/desc)</text>
-               </header>
-            </mission_info>
-            <event_discount>
-               <top>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                  </context>
-                  <text>_(#tooltips:quests/bonuses/token/body/event_discount)</text>
-               </top>
-            </event_discount>
-            <bonus_info>
-               <top>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                  </context>
-                  <text>_(#tooltips:quests/bonuses/token/body/se_energy)</text>
-               </top>
-               <middlex5>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                  </context>
-                  <text>_(#tooltips:quests/bonuses/token/howToGetVariants/se_energy_x5)</text>
-               </middlex5>
-               <middlex10>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                  </context>
-                  <text>_(#tooltips:quests/bonuses/token/howToGetVariants/se_energy_x10)</text>
-               </middlex10>
-               <middlex15>
-                  <context>
-                     <highlightStart>&lt;font color=&#34;#e9e2bf&#34;&gt;</highlightStart>
-                     <highlightEnd>&lt;/font&gt;</highlightEnd>
-                     <indentation>&lt;br/&gt;&lt;font size=&#39;4&#39;&gt;&lt;br/&gt;&lt;/font&gt;</indentation>
-                  </context>
-                  <text>_(#tooltips:quests/bonuses/token/howToGetVariants/se_energy_x15)</text>
-               </middlex15>
-               <points_footer>
-                  <context>
-                     <highlight_open>&lt;font color=&#34;#f5f0e5&#34; size=&#34;14&#34; face=&#34;$TitleFont&#34;&gt;</highlight_open>
-                     <highlight_close>&lt;/font&gt;</highlight_close>
-                  </context>
-                  <text>_(#tooltips:quests/bonuses/token/se_energy/points)</text>
-               </points_footer>
-            </bonus_info>
-         </event>
       </tooltips>
       <dialogs>
          <premium>
@@ -726,7 +482,6 @@
             <EVENT>_(#invites:invites/text/EVENT) %(sender)s</EVENT>
             <STRONGHOLD>_(#invites:invites/text/STRONGHOLD) %(sender)s</STRONGHOLD>
             <EPIC>_(#invites:invites/text/EPIC) %(sender)s</EPIC>
-            <BOB>_(#invites:invites/text/BOB) %(sender)s</BOB>
          </inviteTitle>
          <inviteTitleCreatorName>
             <context>
@@ -904,27 +659,11 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
       <vehicle_preview>
          <vehicleNamePremium>&lt;font face=&#39;$TitleFont&#39; size=&#39;56&#39; color=&#39;#FFC363&#39;&gt;%(name)s&lt;/font&gt;</vehicleNamePremium>
          <vehicleNameRegular>&lt;font face=&#39;$TitleFont&#39; size=&#39;56&#39; color=&#39;#F5EED5&#39;&gt;%(name)s&lt;/font&gt;</vehicleNameRegular>
-         <vehiclePreviewEpicBattleTitle>&lt;font color=&#34;#F2F2F7&#34; face=&#39;$TitleFont&#39; size=&#34;28&#34;&gt;_(#epic_battle:vehicle_preview/title)&lt;/font&gt;&lt;font color=&#34;#E9E2BF&#34; face=&#39;$TitleFont&#39; size=&#34;28&#34;&gt;%(storedPoints)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/epicBattles/prestigePoints/24x24.png&#39; width=&#39;24&#39; height=&#39;24&#39; vspace=&#34;-3&#34; hspace=&#34;3&#34;/&gt;</vehiclePreviewEpicBattleTitle>
-         <vehiclePreviewEpicBattleZeroBalanceTitle>&lt;font color=&#34;#F2F2F7&#34; face=&#39;$TitleFont&#39; size=&#34;28&#34;&gt;_(#epic_battle:vehicle_preview/title)&lt;/font&gt;&lt;font color=&#34;#ff2717&#34; face=&#39;$TitleFont&#39; size=&#34;28&#34;&gt;%(storedPoints)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/epicBattles/prestigePoints/24x24.png&#39; width=&#39;24&#39; height=&#39;24&#39; vspace=&#34;-3&#34; hspace=&#34;3&#34;/&gt;</vehiclePreviewEpicBattleZeroBalanceTitle>
-         <secretEventValue>&lt;font color=&#34;#FFC363&#34; face=&#39;$TitleFont&#39; size=&#34;24&#34;&gt;%(tokensValue)s&lt;/font&gt;&lt;font color=&#34;#856c3b&#34; face=&#39;$FieldFont&#39; size=&#34;18&#34;&gt;&amp;nbsp;/&amp;nbsp;%(tokensMax)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/secretEvent/tokenIcon.png&#39; width=&#39;27&#39; height=&#39;27&#39; vspace=&#34;-6&#34; hspace=&#34;6&#34;/&gt;&lt;font color=&#34;#F2F2F7&#34; face=&#39;$TitleFont&#39; size=&#34;24&#34;&gt;&amp;nbsp;+&amp;nbsp;%(marksValue)s&lt;/font&gt;&lt;font color=&#34;#969687&#34; face=&#39;$FieldFont&#39; size=&#34;18&#34;&gt;&amp;nbsp;/&amp;nbsp;%(marksMax)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/secretEvent/markIcon.png&#39; width=&#39;24&#39; height=&#39;22&#39; vspace=&#34;-6&#34; hspace=&#34;8&#34;/&gt;</secretEventValue>
-         <secretEventCostGold>&lt;font color=&#34;#FFC363&#34; face=&#39;$TitleFont&#39; size=&#34;22&#34;&gt;&amp;nbsp;%(value)s&amp;nbsp;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/GoldIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#34;-2&#34;/&gt;</secretEventCostGold>
-         <secretEventCostCredits>&lt;font color=&#34;#F2F2F7&#34; face=&#39;$TitleFont&#39; size=&#34;22&#34;&gt;&amp;nbsp;%(value)s&amp;nbsp;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/CreditsIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39;/&gt;</secretEventCostCredits>
-         <secretEventCostGoldNotEnough>&lt;font color=&#34;#ff2717&#34; face=&#39;$TitleFont&#39; size=&#34;22&#34;&gt;&amp;nbsp;%(value)s&amp;nbsp;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/GoldIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#34;-2&#34;/&gt;</secretEventCostGoldNotEnough>
-         <secretEventCostCreditsNotEnough>&lt;font color=&#34;#ff2717&#34; face=&#39;$TitleFont&#39; size=&#34;22&#34;&gt;&amp;nbsp;%(value)s&amp;nbsp;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/CreditsIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39;/&gt;</secretEventCostCreditsNotEnough>
-         <secretEventOldCost>&lt;font color=&#34;#969687&#34; face=&#39;$FieldFont&#39; size=&#34;14&#34;&gt;%(value)s &lt;/font&gt;</secretEventOldCost>
-         <secretEventInfoIcon>&lt;img src=&#39;img://gui/maps/icons/secretEvent/vehicle_preview_info.png&#39; width=&#39;22&#39; height=&#39;22&#39;vspace=&#39;-5&#39;&gt;</secretEventInfoIcon>
-         <secretEventReceivedTank>&lt;img src=&#39;img://gui/maps/icons/secretEvent/check.png&#39; width=&#39;24&#39; height=&#39;24&#39;vspace=&#34;-6&#34;&gt;&lt;font color=&#34;#7ab300&#34; face=&#39;$TitleFont&#39; size=&#34;15&#34;&gt;_(#event:previewWindow/showButton/header)&lt;/font&gt;</secretEventReceivedTank>
-         <secretEventSoldTankRestoreCost>&lt;font color=&#34;#F2F2F7&#34; face=&#39;$TitleFont&#39; size=&#34;24&#34;&gt;%(value)s&amp;nbsp;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/CreditsIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;1&#39;/&gt;</secretEventSoldTankRestoreCost>
-         <secretEventSoldTankRestoreCostError>&lt;font color=&#34;#ff2717&#34; face=&#39;$TitleFont&#39; size=&#34;24&#34;&gt;%(value)s&amp;nbsp;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/CreditsIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;1&#39;/&gt;</secretEventSoldTankRestoreCostError>
       </vehicle_preview>
       <buyConfirm>
          <eventProgression></eventProgression>
          <vehiclePreviewEventProgressionTitle>&lt;font color=&#34;#F2F2F7&#34; face=&#39;$TitleFont&#39; size=&#34;28&#34;&gt;_(#event_progression:buyConfirm/title)&lt;/font&gt;&lt;font color=&#34;#E9E2BF&#34; face=&#39;$TitleFont&#39; size=&#34;28&#34;&gt;%(storedPoints)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/epicBattles/prestigePoints/24x24.png&#39; width=&#39;24&#39; height=&#39;24&#39; vspace=&#34;-3&#34; hspace=&#34;3&#34;/&gt;</vehiclePreviewEventProgressionTitle>
       </buyConfirm>
-      <event_award_window>
-         <level_reached>&lt;img src=&#39;img://gui/maps/icons/secretEvent/check_plain.png&#39; width=&#39;16&#39; height=&#39;17&#39;&gt;&amp;nbsp;&lt;font color=&#34;#9ed038&#34; face=&#39;$TitleFont&#39; size=&#34;22&#34;&gt;_(#event:awardScreen/general/header)&lt;/font&gt;</level_reached>
-         <stage_completed>&lt;img src=&#39;img://gui/maps/icons/secretEvent/check_plain.png&#39; width=&#39;16&#39; height=&#39;17&#39;&gt;&amp;nbsp;&lt;font color=&#34;#9ed038&#34; face=&#39;$TitleFont&#39; size=&#34;22&#34;&gt;_(#event:awardScreen/player/header)&lt;/font&gt;</stage_completed>
-      </event_award_window>
       <processors>
          <system_messages>
             <recruit>
@@ -1001,6 +740,8 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
             <vehicleBlueprints>_(#quests:bonusName/blueprints/vehicle) &lt;font color=&#39;#CED9D9&#39;&gt;%(value)s&lt;/font&gt;</vehicleBlueprints>
             <nationBlueprints>_(#quests:bonusName/blueprints/nation) &lt;font color=&#39;#CED9D9&#39;&gt;%(value)s&lt;/font&gt;</nationBlueprints>
             <universalBlueprints>_(#quests:bonusName/blueprints/universal) &lt;font color=&#39;#CED9D9&#39;&gt;%(value)s&lt;/font&gt;</universalBlueprints>
+            <rankedDailyBattles>&lt;font color=&#39;#95907F&#39;&gt;%(value)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/rankedDailyBattles.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-4&#39; /&gt;</rankedDailyBattles>
+            <rankedBonusBattles>&lt;font color=&#39;#95907F&#39;&gt;%(value)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/rankedBonusBattles.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-4&#39; /&gt;</rankedBonusBattles>
          </bonuses>
          <carouselBonuses>
             <credits>&lt;font face=&#39;$FieldFont&#39; size=&#39;22&#39; color=&#39;#CED9D9&#39;&gt;&lt;b&gt;%(value)s &lt;/b&gt;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/CreditsIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; /&gt;</credits>
@@ -1271,8 +1012,8 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <actionBlueBg>&lt;img src=&#39;img://gui/maps/icons/library/BlueActionBg.png&#39; width=&#39;80&#39; height=&#39;45&#39;&gt;</actionBlueBg>
          <actionRedBg>&lt;img src=&#39;img://gui/maps/icons/library/RedActionBg.png&#39; width=&#39;80&#39; height=&#39;45&#39;&gt;</actionRedBg>
          <demountKit>&lt;img src=&#39;img://gui/maps/icons/demountKit/common_16x16.png&#39; width=&#39;16&#39; height=&#39;16&#39;vspace=&#39;-3&#39;&gt;</demountKit>
+         <starYellow>&lt;img src=&#39;img://gui/maps/icons/library/badges/icon_star_yellow.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;%(vspace)d&#39;&gt;</starYellow>
          <battlePass>&lt;img src=&#39;img://gui/maps/icons/library/BattlePassIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;%(vspace)d&#39; hspace=&#39;0&#39;/&gt;</battlePass>
-         <time_icon>&lt;img src=&#39;img://gui/maps/icons/library/time_icon.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-2&#39; hspace=&#39;0&#39;/&gt;</time_icon>
       </iconText>
       <textStyle>
          <epicTitle>&lt;font face=&#39;$TitleFont&#39; size=&#39;73&#39; color=&#39;#F2F2F7&#39;&gt;%(message)s&lt;/font&gt;</epicTitle>
@@ -1283,7 +1024,6 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <grandTitle>&lt;font face=&#39;$TitleFont&#39; size=&#39;36&#39; color=&#39;#F2F2F7&#39;&gt;%(message)s&lt;/font&gt;</grandTitle>
          <grandTitleYellow>&lt;font face=&#39;$TitleFont&#39; size=&#39;36&#39; color=&#39;#f5eed5&#39;&gt;%(message)s&lt;/font&gt;</grandTitleYellow>
          <grandTitleTK>&lt;font face=&#39;$TitleFont&#39; size=&#39;36&#39; color=&#39;#09e2ff&#39;&gt;%(message)s&lt;/font&gt;</grandTitleTK>
-         <epicText>&lt;font face=&#39;$TitleFont&#39; size=&#39;15&#39; color=&#39;#f2f2f7&#39;&gt;%(message)s&lt;/font&gt;</epicText>
          <superPromoTitle>&lt;font face=&#39;$TitleFont&#39; size=&#39;28&#39; color=&#39;#F2F2F7&#39;&gt;%(message)s&lt;/font&gt;</superPromoTitle>
          <superPromoTitleEm>&lt;font face=&#39;$TitleFont&#39; size=&#39;28&#39; color=&#39;#F5EED5&#39;&gt;%(message)s&lt;/font&gt;</superPromoTitleEm>
          <superPromoTitleErr>&lt;font face=&#39;$TitleFont&#39; size=&#39;28&#39; color=&#39;#B70000&#39;&gt;%(message)s&lt;/font&gt;</superPromoTitleErr>
@@ -1365,8 +1105,6 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <missionStatusUnavailable>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#ff2717&#39;&gt;%(message)s&lt;/font&gt;</missionStatusUnavailable>
          <missionStatusAvailable>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#7ab300&#39;&gt;%(message)s&lt;/font&gt;</missionStatusAvailable>
          <failedStatusText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#B70000&#39;&gt;%(message)s&lt;/font&gt;</failedStatusText>
-         <markerExtraText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#ffffff&#39;&gt;%(message)s&lt;/font&gt;</markerExtraText>
-         <tooltipHaveText>&lt;font face=&#39;$FieldFont&#39; size=&#39;16&#39; color=&#39;#8c8c7c&#39;&gt;%(message)s&lt;/font&gt;</tooltipHaveText>
       </textStyle>
       <profileStatistics>
          <marksOfMasteryText>%(marksOfMastery)s&lt;font size=&#39;14&#39; color=&#39;#939188&#39;&gt;/%(totalVehicles)s&lt;/font&gt;</marksOfMasteryText>
@@ -1467,7 +1205,6 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <other>&lt;font face=&#39;$FieldFont&#39; size=&#39;15&#39; color=&#39;#74C730&#39;&gt;_(#ingame_gui:player_messages/postmortem_caption/other)&lt;/font&gt;</other>
          <player>&lt;font face=&#39;$FieldFont&#39; size=&#39;15&#39; color=&#39;#FF8516&#39;&gt;%(message)s&lt;/font&gt;</player>
          <ally>&lt;font face=&#39;$FieldFont&#39; size=&#39;15&#39; color=&#39;#74C730&#39;&gt;%(message)s&lt;/font&gt;</ally>
-         <lockedLives>&lt;font face=&#39;$TitleFont&#39; size=&#39;16&#39; color=&#39;#EDEDED&#39;&gt;%(text)s&lt;/font&gt;</lockedLives>
       </postmortemMessages>
       <tutorial>
          <chapterDescription>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#ffffff&#39;&gt;%(title)s&lt;/font&gt;&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#DADADA&#39;&gt;%(description)s&lt;/font&gt;</chapterDescription>
@@ -1504,6 +1241,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
       <info>&lt;font color=&#34;#80D43A&#34;&gt;%(message)s&lt;/font&gt;</info>
       <warning>&lt;font color=&#34;#FEAB34&#34;&gt;%(message)s&lt;/font&gt;</warning>
       <critical>&lt;font color=&#34;#ff2717&#34;&gt;%(message)s&lt;/font&gt;</critical>
+      <actionsGroup>&lt;font face=&#34;$FieldFont&#34; size=&#34;16&#34; color=&#34;#e9e2bf&#34;&gt;%(message)s&lt;/font&gt;</actionsGroup>
    </vehicleStatus>
    <bootcamp>
       <battle_results>
@@ -1521,51 +1259,4 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <gray>&lt;font color=&#34;#807F71&#34; size=&#34;15&#34; face=&#34;$TitleFont&#34;&gt;%(text)s&lt;/font&gt;</gray>
       </message>
    </bootcamp>
-   <battleHints>
-      <testMessage>&lt;font color=&#34;#FFFFFF&#34;&gt;_(#event:notification/testMessage)&lt;/font&gt;</testMessage>
-      <testMessageDynamic>&lt;font color=&#34;#FFFFFF&#34;&gt;_(#event:notification/testMessageDynamic)&lt;/font&gt;</testMessageDynamic>
-      <deliverSouls>&lt;font color=&#34;#FFFFFF&#34;&gt;_(#event:notification/deliverSouls)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;56&#34; color=&#34;#FFFFFF&#34;&gt;{soulsCount}&lt;/font&gt;&amp;nbsp;&lt;img src=&#39;img://gui/maps/icons/battleHints/event/iconMatter.png&#39; vspace=&#39;-2&#39;/&gt;</deliverSouls>
-      <collectorEnabled>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/collectorEnabled)&lt;/font&gt;</collectorEnabled>
-      <failedActivateCollector>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/failedActivateCollector)&lt;/font&gt;</failedActivateCollector>
-      <failedRunIntoCollector>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/failedRunIntoCollector)&lt;/font&gt;</failedRunIntoCollector>
-      <world1>&lt;font color=&#34;#FFFFFF&#34; size=&#34;76&#34;&gt;_(#event:notification/world1)&lt;/font&gt;</world1>
-      <destroy_all>&lt;font color=&#34;#FFFFFF&#34; size=&#34;76&#34;&gt;_(#event:notification/destroy_all)&lt;/font&gt;</destroy_all>
-      <bombing>&lt;font color=&#34;#FFFFFF&#34; size=&#34;76&#34;&gt;_(#event:notification/bombing)&lt;/font&gt;</bombing>
-      <defend>&lt;font color=&#34;#FFFFFF&#34; size=&#34;76&#34;&gt;_(#event:notification/defend)&lt;/font&gt;</defend>
-      <world2>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/world2)&lt;/font&gt;</world2>
-      <world3>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/world3)&lt;/font&gt;</world3>
-      <world4>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/world4)&lt;/font&gt;</world4>
-      <world5>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/world5)&lt;/font&gt;</world5>
-      <hunter>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/hunter)&lt;/font&gt;</hunter>
-      <bomber>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/bomber)&lt;/font&gt;</bomber>
-      <turret>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/turret)&lt;/font&gt;</turret>
-      <final_hint>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/final_hint)&lt;/font&gt;</final_hint>
-      <anomaly_power>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/anomaly_power)&lt;/font&gt;</anomaly_power>
-      <anomaly_rage>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/anomaly_rage)&lt;/font&gt;</anomaly_rage>
-      <anomaly_strength>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/anomaly_strength)&lt;/font&gt;</anomaly_strength>
-      <anomaly_accuracy>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/anomaly_accuracy)&lt;/font&gt;</anomaly_accuracy>
-      <defeat>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/defeat)&lt;/font&gt;</defeat>
-   </battleHints>
-   <eventGoals>
-      <title>&lt;font color=&#34;#FFFFFF&#34;&gt;%(message)s&lt;/font&gt;</title>
-      <description>&lt;font color=&#34;#FFFFFF&#34;&gt;%(message)s&lt;/font&gt;</description>
-      <progress>&lt;font color=&#34;#FFFFFF&#34;&gt;%(message)s&lt;/font&gt;</progress>
-      <win>&lt;font color=&#34;#FFFFFF&#34;&gt;%(message)s&lt;/font&gt;</win>
-      <lose>&lt;font color=&#34;#FFFFFF&#34;&gt;%(message)s&lt;/font&gt;</lose>
-   </eventGoals>
-   <eventResult>
-      <tankStatus>&lt;p align=&#39;right&#39;&gt;&lt;font face=&#34;$TitleFont&#34; size=&#34;18&#34; color=&#34;#FFFFFF&#34;&gt;%(name)s%(clanTag)s &lt;font size=&#34;24&#34;&gt;•&lt;/font&gt; %(tank)s&lt;/font&gt;&lt;br/&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;16&#34; color=&#34;#BDBEB3&#34;&gt;%(status)s&lt;/font&gt;&lt;/p&gt;</tankStatus>
-      <tankStatusMin>&lt;p align=&#39;right&#39;&gt;&lt;font face=&#34;$TitleFont&#34; size=&#34;16&#34; color=&#34;#FFFFFF&#34;&gt;%(name)s%(clanTag)s &lt;font size=&#34;22&#34;&gt;•&lt;/font&gt; %(tank)s&lt;/font&gt;&lt;br/&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;14&#34; color=&#34;#BDBEB3&#34;&gt;%(status)s&lt;/font&gt;&lt;/p&gt;</tankStatusMin>
-      <killerName>&lt;font color=&#34;#FFFFFF&#34;&gt;%(text)s&lt;/font&gt;</killerName>
-      <clanTag>&lt;font color=&#34;#BDBEB3&#34;&gt; %(clanTag)s&lt;/font&gt;</clanTag>
-      <battleStatus>&lt;font face=&#34;$TitleFont&#34; size=&#34;18&#34; color=&#34;#FFFFFF&#34;&gt;%(battleName)s &lt;font size=&#34;24&#34;&gt;•&lt;/font&gt; %(mapName)s&lt;/font&gt;&lt;br/&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;16&#34; color=&#34;#BDBEB3&#34;&gt;%(date)s %(time)s&lt;/font&gt;</battleStatus>
-      <battleStatusMin>&lt;font face=&#34;$TitleFont&#34; size=&#34;16&#34; color=&#34;#FFFFFF&#34;&gt;%(battleName)s &lt;font size=&#34;22&#34;&gt;•&lt;/font&gt; %(mapName)s&lt;/font&gt;&lt;br/&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;14&#34; color=&#34;#BDBEB3&#34;&gt;%(date)s %(time)s&lt;/font&gt;</battleStatusMin>
-      <statsHeader>&lt;font face=&#34;$TitleFont&#34; size=&#34;17&#34; color=&#34;#E7E0C7&#34;&gt;%(text)s&lt;/font&gt;</statsHeader>
-      <missionHeader>&lt;font face=&#34;$TitleFont&#34; size=&#34;17&#34; color=&#34;#E9E2BF&#34;&gt;%(text)s&lt;/font&gt;</missionHeader>
-      <missionDescr>&lt;font face=&#34;$FieldFont&#34; size=&#34;15&#34; color=&#34;#7A796D&#34;&gt;%(text)s&lt;/font&gt;</missionDescr>
-      <withoutBonus>&lt;font face=&#34;$FieldFont&#34; size=&#34;15&#34; color=&#34;#FFCCB2&#34;&gt;%(text)s&lt;/font&gt;</withoutBonus>
-      <withoutBonusPoints>&lt;font face=&#34;$TitleFont&#34; size=&#34;18&#34; color=&#34;#FFFFFF&#34;&gt;%(points)s&lt;/font&gt;</withoutBonusPoints>
-      <withoutBonusMin>&lt;font face=&#34;$FieldFont&#34; size=&#34;14&#34; color=&#34;#FFCCB2&#34;&gt;%(text)s&lt;/font&gt;</withoutBonusMin>
-      <withoutBonusPointsMin>&lt;font face=&#34;$TitleFont&#34; size=&#34;16&#34; color=&#34;#FFFFFF&#34;&gt;%(points)s&lt;/font&gt;</withoutBonusPointsMin>
-   </eventResult>
 </html_templates.xml>

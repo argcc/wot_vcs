@@ -1056,7 +1056,7 @@
                <type>int</type>
             </item>
             <item>
-               4.11
+               4.101
                <name>weight</name>
                <type>float</type>
             </item>
@@ -1100,7 +1100,7 @@
                <type>int</type>
             </item>
             <item>
-               4.12
+               4.102
                <name>weight</name>
                <type>float</type>
             </item>
@@ -1345,7 +1345,7 @@
                <type>int</type>
             </item>
             <item>
-               4.13
+               4.103
                <name>weight</name>
                <type>float</type>
             </item>
@@ -1389,7 +1389,7 @@
                <type>int</type>
             </item>
             <item>
-               4.14
+               4.104
                <name>weight</name>
                <type>float</type>
             </item>
@@ -1433,7 +1433,7 @@
                <type>int</type>
             </item>
             <item>
-               4.15
+               4.105
                <name>weight</name>
                <type>float</type>
             </item>
@@ -3174,7 +3174,7 @@
          </value>
       </badge>
       <badge>
-         <name>DawnIndustry</name>
+         <name>global_map_dawn_of_industry</name>
          <type>dict</type>
          <value>
             <item>
@@ -3183,7 +3183,7 @@
                <type>int</type>
             </item>
             <item>
-               4.16
+               4.106
                <name>weight</name>
                <type>float</type>
             </item>
@@ -3201,6 +3201,19 @@
                False
                <name>achievable</name>
                <type>bool</type>
+            </item>
+            <item>
+               <name>realm</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>exclude</name>
+                     <type>list</type>
+                     <value>
+                        <item>CN</item>
+                     </value>
+                  </item>
+               </value>
             </item>
          </value>
       </badge>
@@ -3330,6 +3343,50 @@
                15
                <name>group</name>
                <type>int</type>
+            </item>
+         </value>
+      </badge>
+      <badge>
+         <name>global_map_metal_wars</name>
+         <type>dict</type>
+         <value>
+            <item>
+               93
+               <name>id</name>
+               <type>int</type>
+            </item>
+            <item>
+               4.107
+               <name>weight</name>
+               <type>float</type>
+            </item>
+            <item>
+               13
+               <name>group</name>
+               <type>int</type>
+            </item>
+            <item>
+               gold
+               <name>highlight</name>
+               <type>string</type>
+            </item>
+            <item>
+               False
+               <name>achievable</name>
+               <type>bool</type>
+            </item>
+            <item>
+               <name>realm</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>exclude</name>
+                     <type>list</type>
+                     <value>
+                        <item>CN</item>
+                     </value>
+                  </item>
+               </value>
             </item>
          </value>
       </badge>

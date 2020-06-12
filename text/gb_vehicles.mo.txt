@@ -44,10 +44,6 @@ Content-Transfer-Encoding: 8bit
 [Chassis_GB08_Churchill_I_2]::{Churchill III}
 [Chassis_GB09_Churchill_VII]::{Churchill IV}
 [Chassis_GB09_Churchill_VII_2]::{Churchill VII}
-[Chassis_GB09_Churchill_VII_2_SE20_Gen_5_Lvl_1]::{Churchill VII}
-[Chassis_GB09_Churchill_VII_2_SE20_Gen_5_Lvl_2]::{Churchill VII}
-[Chassis_GB09_Churchill_VII_SE20_Gen_5_Lvl_1]::{Churchill IV}
-[Chassis_GB09_Churchill_VII_SE20_Gen_5_Lvl_2]::{Churchill IV}
 [Chassis_GB100_Manticore]::{Manticore 1955}
 [Chassis_GB101_FV1066_Senlac]::{Senlac Mk1}
 [Chassis_GB102_LHMTV_Mk1]::{LHMTV Mk.I}
@@ -60,8 +56,6 @@ Content-Transfer-Encoding: 8bit
 [Chassis_GB108_A46]::{A46}
 [Chassis_GB10_Black_Prince]::{Black Prince}
 [Chassis_GB10_Black_Prince_2]::{Black Prince Mk. II}
-[Chassis_GB10_Black_Prince_2_SE20_Gen_5_Lvl_3]::{Black Prince Mk. II}
-[Chassis_GB10_Black_Prince_SE20_Gen_5_Lvl_3]::{Black Prince}
 [Chassis_GB11_Caernarvon]::{FV221}
 [Chassis_GB11_Caernarvon_2]::{FV221A}
 [Chassis_GB12_Conqueror]::{Conqueror Mk. I}
@@ -102,6 +96,7 @@ Content-Transfer-Encoding: 8bit
 [Chassis_GB32_Tortoise_2]::{Tortoise Mk. 2}
 [Chassis_GB33_Sentinel_AC_I]::{AC 1 Sentinel}
 [Chassis_GB35_Sentinel_AC_IV]::{AC 4 Experimental}
+[Chassis_GB37_Valliant]::{А38}
 [Chassis_GB39_Universal_CarrierQF2]::{Universal Carrier Mk. I}
 [Chassis_GB39_Universal_CarrierQF2_2]::{Universal Carrier Mk. II}
 [Chassis_GB40_Gun_Carrier_Churchill]::{Churchill Gun Carrier}
@@ -210,14 +205,8 @@ AOI-1195-5A}
 [GB08_Churchill_I_descr]::{Прототип А22 был изготовлен компанией Vauxhall Motors осенью 1940 года. Первая партия серийных машин была выпущена летом 1941 года. Первые машины отличались от последующих модификаций отсутствием надгусеничных полок, формой вентилятора и наличием трёхдюймовой гаубицы в лобовом листе корпуса. Всего было выпущено 300 танков Churchill I.}
 [GB08_Churchill_I_short]::{Churchill I}
 [GB09_Churchill_VII]::{Churchill VII}
-[GB09_Churchill_VII_SE20_Gen_5_Lvl_1]::{Churchill IV}
-[GB09_Churchill_VII_SE20_Gen_5_Lvl_2]::{Churchill VII}
 [GB09_Churchill_VII_descr]::{Модификация танка A22 с усиленной броневой защитой. Первые машины этого типа появились накануне высадки союзников в Нормандии. Послужил базой для создания огнемётного танка Churchill Crocodile.}
-[GB09_Churchill_VII_descr_SE20_Gen_5_Lvl_1]::{Основной британский тяжёлый танк. Использовался в боях в Европе. В Берлинской операции не применялся.}
-[GB09_Churchill_VII_descr_SE20_Gen_5_Lvl_2]::{Модификация тяжёлого танка Churchill с усиленным вооружением. В Берлинской операции не применялся.}
 [GB09_Churchill_VII_short]::{Churchill VII}
-[GB09_Churchill_VII_short_SE20_Gen_5_Lvl_1]::{Churchill IV}
-[GB09_Churchill_VII_short_SE20_Gen_5_Lvl_2]::{Churchill VII}
 [GB100_Manticore]::{Manticore}
 [GB100_Manticore_descr]::{Лёгкий танк с качающейся башней, который по проекту должен был обеспечивать противотанковую оборону позади позиций пехоты. Машина построена не была, далее эскизов разработка не велась.}
 [GB100_Manticore_short]::{Manticore}
@@ -249,11 +238,8 @@ AOI-1195-5A}
 [GB108_A46_short]::{A46}
 [GB108_A46_short_special]::{Эффективный разведчик с хорошей подвижностью}
 [GB10_Black_Prince]::{Black Prince}
-[GB10_Black_Prince_SE20_Gen_5_Lvl_3]::{Churchill Black Prince}
 [GB10_Black_Prince_descr]::{Разработан в 1943–1945 гг. на базе танка Churchill. Корпус машины был расширен и удлинён для установки новой башни с 17-фунтовым орудием. Всего в 1944–1945 гг. было выпущено шесть прототипов Black Prince. Некоторые машины прошли испытания, но в боевых действиях не использовались.}
-[GB10_Black_Prince_descr_SE20_Gen_5_Lvl_3]::{Прототип тяжёлого танка. Проходил испытания, но в боях не применялся, в Берлинской операции не участвовал.}
 [GB10_Black_Prince_short]::{Black Prince}
-[GB10_Black_Prince_short_SE20_Gen_5_Lvl_3]::{Churchill BP}
 [GB11_Caernarvon]::{Caernarvon}
 [GB11_Caernarvon_descr]::{Разрабатывался с 1944 года в рамках создания нового пехотного танка. В 1952 году первый прототип был представлен на испытания. На вооружении не состоял. Из 21 собранной машины некоторые в дальнейшем были переделаны в тяжёлые танки «Conqueror».}
 [GB11_Caernarvon_short]::{Caernarvon}
@@ -320,6 +306,9 @@ AOI-1195-5A}
 [GB35_Sentinel_AC_IV_long_special]::{Средний танк, вооружённый одним из лучших на уровне орудий с великолепной бронепробиваемостью. Кроме того, у машины неплохая маскировка, что поможет вести эффективный и безнаказанный огонь с дальних дистанций.}
 [GB35_Sentinel_AC_IV_short]::{AC 4 Exp.}
 [GB35_Sentinel_AC_IV_short_special]::{Отличная бронепробиваемость, хорошая маскировка}
+[GB37_Valliant]::{Valiant}
+[GB37_Valliant_descr]::{Работы над танком начались в 1943 году. Проект был попыткой дальнейшего развития «Валентайна» в сторону усиления бронирования и огневой мощи. Всего к 1944 году было построено два прототипа, различавшихся двигательной установкой и ходовой частью. В 1944 году все работы по этому проекту были прекращены в связи с близившимся окончанием войны и успешным ходом работ по более современному танку «Центурион».}
+[GB37_Valliant_short]::{Valiant}
 [GB39_Universal_CarrierQF2]::{Universal Carrier 2-pdr}
 [GB39_Universal_CarrierQF2_descr]::{Universal Carrier был основным бронетранспортёром Британского Содружества наций. С 1937 по 1945 было изготовлено 90 тысяч машин этого типа. В 1940 году часть машин была вооружена 40-мм противотанковыми пушками и модифицирована в противотанковые САУ. Также 40-мм орудиями вооружались машины C21UCG, выпущенные в Канаде.}
 [GB39_Universal_CarrierQF2_short]::{UC 2-pdr}
@@ -479,6 +468,7 @@ AOI-1195-5A}
 [GB99_Turtle_Mk1_long_special]::{Машина схожа с исследуемыми британскими ПТ-САУ с неподвижными рубками: такая же компоновка, небольшой разовый урон (относительно других самоходок VIII уровня), хорошее лобовое бронирование, скромная подвижность. Орудие машины обладает отличной точностью и уроном в минуту, а удобные УВН и УГН способствуют комфортной игре на любых позициях. Невысокая подвижность предполагает выбор одного направления и поддержку сил союзников на нём.}
 [GB99_Turtle_Mk1_short]::{Turtle I}
 [GB99_Turtle_Mk1_short_special]::{Отличный урон в минуту, хорошее бронирование}
+[GMC]::{GMC}
 [GMC6_71]::{GMC 6-71}
 [GMC_6-71_Mk10]::{GMC 6004 6-71S}
 [GMC_6-71_Mk11]::{GMC 6004 6-71A}
@@ -503,12 +493,10 @@ AOI-1195-5A}
 [N19Mk2]::{WS No. 19 Mk. II}
 [N19Mk2_Aust]::{WS No. 19 Mk. II (Aust.)}
 [N19Mk3]::{WS No. 19 Mk. III}
-[N19Mk3_SE20_Gen_5_Lvl_1]::{WS No. 19 Mk. III}
-[N19Mk3_SE20_Gen_5_Lvl_2]::{WS No. 19 Mk. III}
+[N19_1]::{N19}
 [N19_S]::{N19 S}
 [N22]::{WS No. 22}
 [N22_LT]::{WS No. 22L}
-[N22_SE20_Gen_5_Lvl_3]::{WS No. 22}
 [N9]::{WS No. 9}
 [Nuffield_liberty_MKII]::{Nuffield Liberty Mk. II}
 [Nuffield_liberty_MKIII]::{Nuffield Liberty Mk. III}
@@ -522,7 +510,6 @@ AOI-1195-5A}
 [OQF_55_pdr_AT_Gun]::{OQF 55-pdr AT Gun}
 [OQF_77mm_AT_Gun_MkII]::{OQF 77 mm AT Gun Mk. II}
 [OQF_77mm_Gun_MkII]::{OQF 77 mm Gun Mk. II}
-[OQF_77mm_Gun_MkII_SE20_Gen_5_Lvl_3]::{OQF 77 mm Gun Mk. II}
 [OQF_77mm_HV_MK_I]::{OQF 77 mm HV Mk. I}
 [Paxman_Ricardo]::{Paxman 12TP}
 [QF_105mm_AP]::{QF 105 mm AP}
@@ -563,7 +550,6 @@ AOI-1195-5A}
 [Rolls_Royse_Meteor_MkV]::{Rolls-Royce Meteor Mk. V}
 [Rolls_Royse_Meteor_MkXI]::{Rolls-Royce Meteor Mk. XI}
 [Rolls_Royse_Meteor_Mk_XI_supercharged]::{Rolls-Royce Meteor Mk. XI SC}
-[Rolls_Royse_Meteor_SE20_Gen_5_Lvl_3]::{Rolls-Royce Meteor}
 [Rolls_Royse_Phantom]::{Rolls-Royce Phantom}
 [Rolls_Royse_Phantom_II]::{2x Rolls-Royce Phantom II}
 [Rover_Meteorite]::{Rover Meteorite}
@@ -578,8 +564,6 @@ AOI-1195-5A}
 [Turret_1_GB07_Matilda]::{Matilda Mk. IIA}
 [Turret_1_GB08_Churchill_I]::{Churchill I}
 [Turret_1_GB09_Churchill_VII]::{Churchill IV}
-[Turret_1_GB09_Churchill_VII_SE20_Gen_5_Lvl_1]::{Churchill IV}
-[Turret_1_GB09_Churchill_VII_SE20_Gen_5_Lvl_2]::{Churchill IV}
 [Turret_1_GB100_Manticore]::{Manticore 1955}
 [Turret_1_GB101_FV1066_Senlac]::{Senlac Mk1}
 [Turret_1_GB102_LHMTV]::{LHMTV Mk.I}
@@ -609,6 +593,7 @@ AOI-1195-5A}
 [Turret_1_GB32_Tortoise]::{Tortoise}
 [Turret_1_GB33_Sentinel_AC_I]::{AC 1 Sentinel}
 [Turret_1_GB35_Sentinel_AC_IV]::{AC 4 Experimental}
+[Turret_1_GB37_Valliant]::{Valiant А 38}
 [Turret_1_GB39_Universal_CarrierQF2]::{Universal Carrier 2-pdr}
 [Turret_1_GB40_Gun_Carrier_Churchill]::{Churchill Gun Carrier}
 [Turret_1_GB41_Challenger]::{Challenger}
@@ -661,13 +646,10 @@ AOI-1195-5A}
 [Turret_2_GB07_Matilda]::{Matilda Mk. IIA*}
 [Turret_2_GB08_Churchill_I]::{Churchill III}
 [Turret_2_GB09_Churchill_VII]::{Churchill VII}
-[Turret_2_GB09_Churchill_VII_SE20_Gen_5_Lvl_1]::{Churchill VII}
-[Turret_2_GB09_Churchill_VII_SE20_Gen_5_Lvl_2]::{Churchill VII}
 [Turret_2_GB102_LHMTV]::{LHMTV Mk.II}
 [Turret_2_GB104_GSR_3301_Setter]::{GSR 3301 Setter Phase II}
 [Turret_2_GB107_Cavalier]::{A24 Vauxhall}
 [Turret_2_GB10_Black_Prince]::{Black Prince}
-[Turret_2_GB10_Black_Prince_SE20_Gen_5_Lvl_3]::{Black Prince}
 [Turret_2_GB11_Caernarvon]::{Centurion 32-pdr}
 [Turret_2_GB12_Conqueror]::{Conqueror Mk. II ABP}
 [Turret_2_GB14_M2]::{M2A4}
@@ -689,8 +671,6 @@ AOI-1195-5A}
 [Turret_2_GB69_Cruiser_Mk_II]::{Cruiser Mk. II}
 [Turret_3_GB17_Grant_I]::{Grant I}
 [Vauxhall_Bedford_Twin_Six]::{Bedford Twin-Six}
-[Vauxhall_Bedford_Twin_Six_SE20_Gen_5_Lvl_1]::{Bedford Twin-Six}
-[Vauxhall_Bedford_Twin_Six_SE20_Gen_5_Lvl_2]::{Bedford Twin-Six}
 [Vickers-Armstrong]::{Armstrong Siddeley V8}
 [Vickers-Armstrong_MkII]::{Armstrong Siddeley V8 SC}
 [Vickers-Armstrong_bot]::{Armstrong Siddeley V8}
@@ -858,8 +838,6 @@ R975 EC2}
 [_75mm_APCR_Mk3]::{APCR Mk. 3}
 [_75mm_APCR_Mk3_L]::{LAPCR Mk.3}
 [_75mm_AP_HV_Mk1]::{AP HV Mk. 1}
-[_75mm_AP_HV_Mk1_SE20_Gen_5_Lvl_1]::{AP HV Mk. 1}
-[_75mm_AP_HV_Mk1_SE20_Gen_5_Lvl_2]::{AP HV Mk. 1}
 [_75mm_AP_Mk1]::{AP Mk. 1}
 [_75mm_AP_Mk1_L]::{LAP Mk.1}
 [_75mm_AT_Gun_Mk_V]::{75 mm AT Gun Mk. V}
@@ -868,9 +846,8 @@ R975 EC2}
 [_75mm_Gun_Mk_V]::{75 mm Gun Mk. V}
 [_75mm_Gun_Mk_VA]::{75 mm Gun Mk. V}
 [_75mm_Gun_Mk_V_LT]::{75 mm LT Gun Mk.V}
+[_75mm_Gun_Mk_V_v]::{75 mm Gun Mk. V}
 [_75mm_Gun_Vickers_HV]::{75 mm Vickers HV}
-[_75mm_Gun_Vickers_HV_SE20_Gen_5_Lvl_1]::{75 mm Vickers HV}
-[_75mm_Gun_Vickers_HV_SE20_Gen_5_Lvl_2]::{75 mm Vickers HV}
 [_75mm_HE_HV_Mk2]::{HE HV Mk. 2}
 [_75mm_HE_Mk2]::{HE Mk. 2}
 [_75mm_HE_Mk2_L]::{LHE Mk.2}
@@ -897,7 +874,6 @@ R975 EC2}
 [_76mm_M62]::{AP M62(M7)}
 [_76mm_M79]::{AP M79(M7)}
 [_77mm_APCBC_Mk8T]::{APCBC 77 mm Mk. 8T}
-[_77mm_APCBC_Mk8T_SE20_Gen_5_Lvl_3]::{APCBC 77 mm Mk. 8T}
 [_77mm_APCBC_Mk8T_T]::{APCBC 77 mm Mk. 8T2}
 [_77mm_APDS_Mk1T]::{APDS 77 mm Mk. 1T}
 [_77mm_APDS_T_Mk1]::{APDS-T 77 mm Mk. 1T}

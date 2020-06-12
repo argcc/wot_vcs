@@ -21,7 +21,6 @@ Content-Transfer-Encoding: 8bit
 [arena_start_errors/join/CANNOT_CREATE]::{Ошибка присоединения. Неправильный номер команды.}
 [arena_start_errors/join/COOLDOWN]::{Ошибка присоединения. Операция временно заморожена. Попробуйте позже.}
 [arena_start_errors/join/EVENT_DISABLED]::{В настоящий момент данное событие недоступно. Следите за новостями на портале игры.}
-[arena_start_errors/join/NOT_ENOUGH_ENERGY]::{Выход в бой недоступен. Попробуйте позже.}
 [arena_start_errors/join/NOT_FOUND]::{Ошибка присоединения. Приглашение устарело.}
 [arena_start_errors/join/PRIVACY]::{Ошибка присоединения. Недостаточно прав.}
 [arena_start_errors/join/QUEUE_FULL]::{Действие недоступно. Очередь на вход в бой переполнена. Попробуйте позже.}
@@ -117,12 +116,12 @@ Content-Transfer-Encoding: 8bit
 [battleBooster_sell/success]::{%(kind)s «%(name)s» продана (%(count)s шт.). Получено %(money)s.}
 [battlePass/badgeRemoved/text]::{Нашивка %(badgeName)s списана в связи с окончанием сезона Боевого пропуска.}
 [battlePass/switch_disable/body]::{Сезон завершился, но мы обязательно встретимся в следующем!}
-[battlePass/switch_disable/title]::{Боевой пропуск, сезон 1.}
+[battlePass/switch_disable/title]::{Боевой пропуск, сезон 2.}
 [battlePass/switch_enabled/body]::{Работа Боевого пропуска возобновлена. Приносим извинения за причинённые неудобства.
 Сезон продлён до %(expiryTime)s.}
 [battlePass/switch_pause/body]::{Функционирование Боевого пропуска временно приостановлено. Ведутся технические работы.}
 [battlePass/switch_started/body]::{Бойцы! Время отправляться в погоню за уникальной наградой Боевого пропуска: трёхмерными стилями, эксклюзивными командирами и многим другим!}
-[battlePass/switch_started/title]::{Боевой пропуск, сезон 1.}
+[battlePass/switch_started/title]::{Боевой пропуск, сезон 2.}
 [battlePassLevels_buy/server_error]::{Произошла ошибка при покупке этапов основной части прогрессии. Пожалуйста, попробуйте ещё раз.}
 [battlePass_buy/server_error]::{Произошла ошибка при покупке улучшенного пропуска. Пожалуйста, попробуйте ещё раз.}
 [battleResults/sharing/success]::{Ссылка скопирована в буфер обмена. Вы можете её вставить с помощью Ctrl+V в игровой чат или использовать вне клиента игры.}
@@ -664,6 +663,9 @@ Content-Transfer-Encoding: 8bit
 [notrecruit_window/success]::{Член экипажа успешно рекрутирован.
 %(colorTagOpen)s%(rank)s %(fullName)s
 (%(role)s, %(vehicleName)s, %(roleLevel)d%%)%(colorTagClose)s}
+[offers/switch_off/body]::{Сервис «Поставки из тыла» временно недоступен.}
+[offers/unavailable_many]::{Потерян доступ к предложениям: %(count)s шт.}
+[offers/unavailable_one]::{Потерян доступ к предложению.}
 [periphery/errors/isNotAvailable]::{Переход недоступен: невозможно определить сервер.}
 [personalMissions/badge]::{Начислена нашивка: %(name)s.}
 [personalMissions/camouflageGiven]::{Начислен уникальный камуфляж для %(vehicleName)s.}
@@ -752,7 +754,6 @@ Content-Transfer-Encoding: 8bit
 [prebattle/teamInvalid/limits/level]::{К бою допускается только техника в диапазоне уровней от %(minLevel)d до %(maxLevel)d.}
 [prebattle/teamInvalid/limits/vehicles]::{Выбранная машина не подходит для данного боя.}
 [prebattle/teamInvalid/observers]::{Команда не может состоять только из наблюдателей.}
-[prebattle/vehicleInvalid/bobOnly]::{Выбранная машина подходит только для режима «Схватка».}
 [prebattle/vehicleInvalid/epicOnly]::{Выбранная машина подходит только для режима «Линия фронта».}
 [prebattle/vehicleInvalid/falloutOnly]::{Выбранная машина подходит только для режима «Бой до последнего».}
 [prebattle/vehicleInvalid/limits/ammo]::{На выбранную машину загружены снаряды или снаряжение, не удовлетворяющие условиям боя.}
@@ -894,40 +895,6 @@ Content-Transfer-Encoding: 8bit
 [rotation/lock]::{Следующие группы заблокированы и более недоступны для боя: %(groupNum)s.}
 [rotation/unlock]::{Следующие группы разблокированы и теперь доступны для боя: %(groupNum)s.}
 [rotation/vehicleIsLocked]::{Машина заблокирована и недоступна для боя.}
-[se20/buy_general_level_success]::{%(level)d уровень подразделения. Потрачено: %(money)s}
-[se20/commander_level_complete/abilities]::{Боевые способности:}
-[se20/commander_level_complete/body]::{Достигнут %(level)s уровень}
-[se20/commander_level_complete/currentVehicle]::{Доступная техника:}
-[se20/front_level_complete/awards]::{Награда:}
-[se20/front_level_complete/body]::{%(level)s этап завершён}
-[se20/front_level_complete/pieces]::{шт.}
-[se20/front_level_complete/slots]::{Добавлено слотов:}
-[se20/front_level_complete/title]::{Спецзадание}
-[se20/general_orders_draw]::{Использован приказ «На штурм!» %(order)s для подразделения «%(division)s» (%(count)s шт.)}
-[se20/general_orders_receive]::{Начислены приказы «На штурм!» %(order)s для подразделения «%(division)s» (%(count)s шт.)}
-[se20/max_general_level_already_reached]::{Ваше подразделение уже максимального уровня.}
-[se20/server_error]::{Ошибка покупки. Попробуйте позже.}
-[se20_buy_energy/has_energy]::{Ошибка покупки. Машина в порядке.}
-[se20_buy_energy/server_error]::{Ошибка восстановления.
-У вас недостаточно средств, или произошёл технический сбой.}
-[se20_buy_energy/success]::{Потрачено: %(money)s}
-[se20_buy_pack/success]::{Куплено: %(packTitle)s<br/>Потрачено золота: %(money)s}
-[se20_shop_pack/se20_energy_general_0_bundle2_x10]::{Набор мастера}
-[se20_shop_pack/se20_energy_general_0_bundle_x10]::{Набор специалиста}
-[se20_shop_pack/se20_energy_general_0_x10]::{Набор новобранца}
-[se20_shop_pack/se20_energy_general_1_bundle2_x10]::{Набор мастера}
-[se20_shop_pack/se20_energy_general_1_bundle_x10]::{Набор специалиста}
-[se20_shop_pack/se20_energy_general_1_x10]::{Набор новобранца}
-[se20_shop_pack/se20_energy_general_2_bundle2_x10]::{Набор мастера}
-[se20_shop_pack/se20_energy_general_2_bundle_x10]::{Набор специалиста}
-[se20_shop_pack/se20_energy_general_2_x10]::{Набор новобранца}
-[se20_shop_pack/se20_energy_general_3_bundle2_x10]::{Набор мастера}
-[se20_shop_pack/se20_energy_general_3_bundle_x10]::{Набор специалиста}
-[se20_shop_pack/se20_energy_general_3_x10]::{Набор новобранца}
-[se20_shop_pack/se20_energy_general_4_bundle2_x10]::{Набор мастера}
-[se20_shop_pack/se20_energy_general_4_bundle_x10]::{Набор специалиста}
-[se20_shop_pack/se20_energy_general_4_x10]::{Набор новобранца}
-[se20_shop_pack/se20_general_bundle_level_2]::{Набор победителя}
 [securityMessage/bad_email]::{Уважаемый пользователь! Ваш адрес электронной почты зарегистрирован на подозрительном сервере. Просим вас сменить email. %(link)s}
 [securityMessage/change_setings]::{Изменить параметры безопасности}
 [securityMessage/no_phone]::{Уважаемый пользователь! Рекомендуем выполнить привязку вашего аккаунта к телефону для обеспечения безопасности. %(link)s}
@@ -982,6 +949,7 @@ Content-Transfer-Encoding: 8bit
 [techtree/action/expireTime]::{%(days)s д}
 [techtree/action/header]::{Акция «%(actionName)s»}
 [techtree/action/text]::{До конца акции: }
+[techtree/action/text/closest]::{До конца ближайшей акции: }
 [telecom/notifications/vehicleBlocked/comment/default]::{%(vehicles)s}
 [telecom/notifications/vehicleBlocked/subcomment/Twitchprime]::{Причина: не выполнены условия акции «Прямой эфир». Проверьте статус подписки на Twitch Prime.}
 [telecom/notifications/vehicleBlocked/subcomment/default]::{Причина: блокировка услуги провайдером. Проверьте статус услуги в личном кабинете %(provider)s.}

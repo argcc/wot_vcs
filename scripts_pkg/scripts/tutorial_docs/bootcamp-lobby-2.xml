@@ -59,6 +59,22 @@
             </effects-group>
          </post-effects>
          <runtime-effects>
+            <effects-group>
+               <condition>
+                  <checkpoint-reached>ModuleUnlockedCheckpoint</checkpoint-reached>
+               </condition>
+               <effects>
+                  <play-sound>
+                     bc_new_ui_element
+                     <event>ANIMATION_STARTED</event>
+                  </play-sound>
+                  <play-animation>
+                     ResearchItemNode
+                     <type>clip</type>
+                     <wait_for_finish>True</wait_for_finish>
+                  </play-animation>
+               </effects>
+            </effects-group>
             <request-exclusive-hint>
                ResearchItemNodeButton
                <condition>
@@ -196,11 +212,6 @@
             </play-animation>
             <play-animation>
                HeaderCenterBg
-               <type>tween</type>
-               <wait_for_finish>False</wait_for_finish>
-            </play-animation>
-            <play-animation>
-               OnlineCounter
                <type>tween</type>
                <wait_for_finish>False</wait_for_finish>
             </play-animation>

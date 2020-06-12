@@ -63,20 +63,6 @@ Content-Transfer-Encoding: 8bit
 [chat_shortcuts/attention_to_objective_def]::{Защищайте цель %(int32Arg1)s}
 [chat_shortcuts/attention_to_position]::{Внимание на позицию!}
 [chat_shortcuts/back_to_base]::{Защищайте базу!}
-[chat_shortcuts/event_chat_1]::{Атакуйте командиров противника!}
-[chat_shortcuts/event_chat_1_ex]::{%(target)s, атакуй командиров противника!}
-[chat_shortcuts/event_chat_2]::{Противник отступает!}
-[chat_shortcuts/event_chat_2_ex]::{%(target)s, противник отступает!}
-[chat_shortcuts/event_chat_3]::{Время заканчивается!}
-[chat_shortcuts/event_chat_3_ex]::{%(target)s, время заканчивается!}
-[chat_shortcuts/event_chat_4]::{Иду в наступление!}
-[chat_shortcuts/event_chat_4_ex]::{%(target)s, иду в наступление!}
-[chat_shortcuts/event_chat_5]::{Не подставляйтесь!}
-[chat_shortcuts/event_chat_5_ex]::{%(target)s, не подставляйся!}
-[chat_shortcuts/event_chat_6]::{Я прикрою!}
-[chat_shortcuts/event_chat_6_ex]::{%(target)s, я прикрою!}
-[chat_shortcuts/event_chat_7]::{Противник атакует!}
-[chat_shortcuts/event_chat_7_ex]::{%(target)s, противник атакует!}
 [chat_shortcuts/follow_me]::{%(target)s, за мной!}
 [chat_shortcuts/global_msg/atk/focus_hq]::{Уничтожайте цели!}
 [chat_shortcuts/global_msg/atk/save_tanks]::{У нас достаточно времени, не теряйте свою технику!}
@@ -203,8 +189,6 @@ Content-Transfer-Encoding: 8bit
 [efficiencyRibbons/capture]::{Очки захвата}
 [efficiencyRibbons/crits]::{Критический урон}
 [efficiencyRibbons/damage]::{Урон выстрелом}
-[efficiencyRibbons/damageByAbility]::{Урон боевой способностью}
-[efficiencyRibbons/damageByDeathZone]::{Урон запретной зоной}
 [efficiencyRibbons/defence]::{Очки защиты}
 [efficiencyRibbons/defenderBonus]::{Зона защищена}
 [efficiencyRibbons/destructibleDamaged]::{Нанесён урон}
@@ -246,7 +230,6 @@ Content-Transfer-Encoding: 8bit
 [helpScreen/hint/description]::{для знакомства с особенностями машины}
 [helpScreen/hint/press]::{Нажмите}
 [hitMarker/blocked]::{Броня не пробита}
-[hitMarker/boss]::{Бессмысленно!}
 [hitMarker/critical]::{Критический урон}
 [hitMarker/ricochet]::{Рикошет}
 [marker/meters]::{м}
@@ -273,28 +256,16 @@ Content-Transfer-Encoding: 8bit
 [player_errors/equipment/repairkit/allDevicesAreNotDamaged]::{Все устройства в отличном состоянии, ремонт не требуется.}
 [player_errors/equipment/repairkit/deviceIsNotDamaged]::{[%(entity)s] в отличном состоянии, ремонт не требуется.}
 [player_messages/ALLY_HIT]::{Попадание в союзника %(entity)s!}
-[player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY]::{Артбатарея развёрнута и готова к залпу}
-[player_messages/COMBAT_EQUIPMENT_READY_ARTILLERYMORTAR]::{Миномёты развёрнуты и готовы к залпу}
-[player_messages/COMBAT_EQUIPMENT_READY_ARTILLERYROCKET]::{«Катюши» готовы к залпу}
-[player_messages/COMBAT_EQUIPMENT_READY_BOMBER]::{Авиация готова к бомбометанию}
-[player_messages/COMBAT_EQUIPMENT_READY_BOMBERCAS]::{Штурмовик готов}
+[player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY]::{Артбатарея развёрнута и готова к залпу.}
+[player_messages/COMBAT_EQUIPMENT_READY_BOMBER]::{Авиация прибыла и готова к бомбометанию.}
 [player_messages/COMBAT_EQUIPMENT_READY_INSPIRE]::{Ваш экипаж готов воодушевить союзников.}
-[player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD]::{Минное поле готово к развёртыванию}
-[player_messages/COMBAT_EQUIPMENT_READY_NITRO]::{Способность «Полный газ» готова к использованию}
 [player_messages/COMBAT_EQUIPMENT_READY_RECON]::{Самолёт прибыл и готов вести разведку.}
 [player_messages/COMBAT_EQUIPMENT_READY_SMOKE]::{Батарея дымопуска готова вести огонь.}
-[player_messages/COMBAT_EQUIPMENT_READY_SUPERSHELLFIREBALL]::{Зажигательные снаряды готовы к использованию}
-[player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY]::{Артбатарея %(player)s произвела залп}
-[player_messages/COMBAT_EQUIPMENT_USED_ARTILLERYMORTAR]::{Миномётная батарея %(player)s произвела залп}
-[player_messages/COMBAT_EQUIPMENT_USED_ARTILLERYROCKET]::{«Катюши» %(player)s произвели залп}
-[player_messages/COMBAT_EQUIPMENT_USED_BOMBER]::{Авиация %(player)s приступила к бомбометанию}
-[player_messages/COMBAT_EQUIPMENT_USED_BOMBERCAS]::{Авиация %(player)s приступила к штурмовке}
+[player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY]::{Артбатарея %(player)s произвела залп.}
+[player_messages/COMBAT_EQUIPMENT_USED_BOMBER]::{Авиация %(player)s приступила к бомбометанию.}
 [player_messages/COMBAT_EQUIPMENT_USED_INSPIRE]::{%(player)s активирует воодушевление.}
-[player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD]::{%(player)s развернул минное поле}
-[player_messages/COMBAT_EQUIPMENT_USED_NITRO]::{%(player)s использует способность «Полный газ»}
 [player_messages/COMBAT_EQUIPMENT_USED_RECON]::{%(player)s вызвал самолёт-разведчик.}
 [player_messages/COMBAT_EQUIPMENT_USED_SMOKE]::{%(player)s поставил дымовую завесу.}
-[player_messages/COMBAT_EQUIPMENT_USED_SUPERSHELLFIREBALL]::{%(player)s заряжает зажигательные снаряды}
 [player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY]::{%(target)s уничтожен огнём артбатареи.}
 [player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY]::{%(target)s уничтожен огнём артбатареи.}
 [player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE]::{%(target)s уничтожен огнём артбатареи.}
@@ -306,15 +277,14 @@ Content-Transfer-Encoding: 8bit
 [player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY]::{%(target)s уничтожен огнём артбатареи.}
 [player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE]::{%(target)s уничтожен авиаударом.}
 [player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE]::{%(target)s уничтожен авиаударом.}
-[player_messages/DEATH_FROM_DEATH_ZONE]::{Машина уничтожена}
 [player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY]::{Союзник %(target)s уничтожен союзником %(attacker)s.}
 [player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY]::{%(attacker)s уничтожил %(target)s.}
 [player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF]::{Машина уничтожена союзником %(attacker)s.}
-[player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE]::{Союзник %(target)s уничтожен запретной зоной}
+[player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE]::{Союзник %(target)s поглощён зоной.}
 [player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY]::{%(attacker)s уничтожил %(target)s.}
 [player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY]::{Противник %(attacker)s уничтожил противника %(target)s.}
 [player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF]::{Машина уничтожена %(attacker)s.}
-[player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE]::{%(target)s уничтожен запретной зоной}
+[player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE]::{%(target)s поглощён зоной.}
 [player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY]::{Союзник %(target)s уничтожен.}
 [player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY]::{%(target)s уничтожен.}
 [player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE]::{Машина уничтожена.}
@@ -331,8 +301,6 @@ Content-Transfer-Encoding: 8bit
 [player_messages/DEATH_FROM_DROWNING_SELF_ALLY]::{Союзник %(target)s потоплен.}
 [player_messages/DEATH_FROM_DROWNING_SELF_ENEMY]::{%(target)s потоплен.}
 [player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE]::{Машина затоплена.}
-[player_messages/DEATH_FROM_FIRE]::{Машина уничтожена пожаром.}
-[player_messages/DEATH_FROM_FIRE_SELF_SUICIDE]::{Машина уничтожена пожаром, вызванным самим игроком}
 [player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY]::{Союзник %(target)s уничтожен союзником %(attacker)s.}
 [player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY]::{%(attacker)s уничтожил %(target)s.}
 [player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF]::{Машина уничтожена союзником %(attacker)s.}
@@ -384,7 +352,6 @@ Content-Transfer-Encoding: 8bit
 [player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN]::{Машина уничтожена огнём артбатареи.}
 [player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY]::{%(target)s уничтожен огнём артбатареи.}
 [player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY]::{%(target)s уничтожен огнём артбатареи.}
-[player_messages/DEATH_FROM_SHOT]::{Машина уничтожена}
 [player_messages/DEATH_FROM_SHOT_ALLY_ALLY]::{Союзник %(attacker)s уничтожил %(target)s.}
 [player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY]::{Союзник %(attacker)s уничтожил %(target)s залпом артбатареи.}
 [player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER]::{Союзник %(attacker)s уничтожил %(target)s бомбометанием.}
@@ -400,7 +367,6 @@ Content-Transfer-Encoding: 8bit
 [player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY]::{Противник %(attacker)s уничтожил противника %(target)s.}
 [player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY]::{Противник %(attacker)s уничтожил противника %(target)s залпом артбатареи.}
 [player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER]::{Противник %(attacker)s уничтожил противника %(target)s бомбометанием.}
-[player_messages/DEATH_FROM_SHOT_ENEMY_SELF]::{Машина уничтожена выстрелом противника}
 [player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE]::{Противник %(target)s самоуничтожился.}
 [player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY]::{Противник %(target)s самоуничтожился залпом артбатареи.}
 [player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER]::{Противник %(target)s самоуничтожился бомбометанием.}
@@ -410,10 +376,6 @@ Content-Transfer-Encoding: 8bit
 [player_messages/DEATH_FROM_SHOT_SELF_ENEMY]::{%(target)s уничтожен.}
 [player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY]::{%(target)s уничтожен залпом артбатареи.}
 [player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER]::{%(target)s уничтожен бомбометанием.}
-[player_messages/DEATH_FROM_SHOT_SELF_ENEMY_MINEFIELD]::{%(target)s уничтожен минным полем}
-[player_messages/DEATH_FROM_SHOT_SELF_SUICIDE]::{Машина уничтожена самим игроком}
-[player_messages/DEATH_FROM_SHOT_SELF_SUICIDE_ARTILLERY]::{Машина уничтожена собственным артобстрелом}
-[player_messages/DEATH_FROM_SHOT_SELF_SUICIDE_BOMBER]::{Машина уничтожена собственным авиаударом}
 [player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY]::{Союзник %(attacker)s разбил союзника %(target)s.}
 [player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY]::{%(attacker)s разбил %(target)s.}
 [player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF]::{Машина разбита союзником %(attacker)s.}
@@ -430,10 +392,8 @@ Content-Transfer-Encoding: 8bit
 [player_messages/DESTRUCTIBLE_DESTROYED_SELF]::{Вы уничтожили цель: %(target)s.}
 [player_messages/DEVICE_CRITICAL_AT_FIRE]::{Устройство [%(device)s] повреждено пожаром.}
 [player_messages/DEVICE_CRITICAL_AT_SHOT]::{Выстрел %(entity)s повредил устройство [%(device)s].}
-[player_messages/DEVICE_CRITICAL_AT_SHOT_IN_PERSONAL_DEATH_ZONE]::{Модуль [%(device)s] повреждён огнём артиллерии противника}
 [player_messages/DEVICE_DESTROYED_AT_FIRE]::{Устройство [%(device)s] разрушено пожаром.}
 [player_messages/DEVICE_DESTROYED_AT_SHOT]::{Устройство [%(device)s] разрушено выстрелом %(entity)s.}
-[player_messages/DEVICE_DESTROYED_AT_SHOT_IN_PERSONAL_DEATH_ZONE]::{Модуль [%(device)s] выведен из строя огнём артиллерии противника}
 [player_messages/DEVICE_REPAIRED]::{Устройство [%(device)s] восстановлено.}
 [player_messages/DEVICE_REPAIRED_TO_CRITICAL]::{Устройство [%(device)s] снова функционирует.}
 [player_messages/DEVICE_STARTED_FIRE_AT_SHOT]::{Устройство [%(device)s] загорелось от выстрела %(entity)s.}
@@ -441,11 +401,9 @@ Content-Transfer-Encoding: 8bit
 [player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM]::{Устройство [%(device)s] повреждено из-за снятого ограничителя оборотов.}
 [player_messages/ENGINE_DESTROYED_AT_BURNOUT]::{Устройство [%(device)s] вышло из строя из-за использования рывка.}
 [player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM]::{Устройство [%(device)s] разрушено из-за снятого ограничителя оборотов.}
-[player_messages/EQUIPMENT_USAGE]::{Активировано снаряжение: %(equipment_name)s}
 [player_messages/FIRE_STOPPED]::{Пожар потушен.}
 [player_messages/TANKMAN_HIT_AT_SHOT]::{[%(device)s] ранен выстрелом %(entity)s.}
 [player_messages/TANKMAN_RESTORED]::{[%(device)s] снова в строю.}
-[player_messages/TEAM_EQUIPMENT_USAGE]::{%(player_name)s активирует снаряжение %(equipment_name)s}
 [player_messages/allied_team_name]::{Союзники}
 [player_messages/ally_base_captured_by_notification]::{Захват нашей базы%s (%d)}
 [player_messages/ally_base_captured_notification]::{Наша база%s захвачена!}
@@ -472,7 +430,6 @@ Home/End — перемотка в начало/конец
 [player_messages/replaySavedCameraActivated]::{Сохранённая камера активирована}
 [player_messages/replaySpeedChange]::{Скорость воспроизведения: %(speed)sx}
 [player_messages/tank_in_fire]::{Машина горит!}
-[players_panel/info/title]::{На всей технике команды}
 [players_panel/state/large/body]::{Показать имя игрока, уничтоженные цели, иконку и название машины}
 [players_panel/state/large/header]::{Длинная}
 [players_panel/state/large/note]::{(Используйте Ctrl + Tab для переключения между режимами)}
@@ -524,7 +481,6 @@ Home/End — перемотка в начало/конец
 [postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF]::{Машина разбита противником}
 [postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE]::{Машина разбита}
 [postmortem_messages/DEATH_UNKNOWN]::{Ваша машина уничтожена}
-[postmortem_messages/EVENT_DEATH_FROM_SHOT]::{Машина уничтожена выстрелом}
 [recovery/cooldown]::{Вы сможете оставить машину через %(cooldown)s сек.}
 [recovery/hint1]::{Удерживайте}
 [recovery/hint2]::{, чтобы оставить машину}
@@ -589,6 +545,10 @@ Home/End — перемотка в начало/конец
 [rewardWindow/twitch12/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вы получаете уникальный стиль и другие ценные награды.}
 [rewardWindow/twitch12/headerText]::{Набор Звёздная ночь}
 [rewardWindow/twitch12/subHeaderText]::{Получены награды}
+[rewardWindow/twitch13/btnLabel]::{Ещё}
+[rewardWindow/twitch13/descText]::{Поздравляем! За участие в специальной акции «Прямой эфир» вы получаете ценные награды.}
+[rewardWindow/twitch13/headerText]::{Набор Июнь}
+[rewardWindow/twitch13/subHeaderText]::{Получены награды}
 [rewardWindow/twitch2/btnLabel]::{Так точно!}
 [rewardWindow/twitch2/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вам вручается щедрая награда.}
 [rewardWindow/twitch2/headerText]::{Набор Чарли}
@@ -621,6 +581,15 @@ Home/End — перемотка в начало/конец
 [rewardWindow/twitch9/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вы получаете уникального командира и другие ценные награды.}
 [rewardWindow/twitch9/headerText]::{Набор Майк}
 [rewardWindow/twitch9/subHeaderText]::{Получены награды}
+[rewardWindow/wgcq_clan_reward/btnLabel]::{Так точно!}
+[rewardWindow/wgcq_clan_reward/descText]::{ }
+[rewardWindow/wgcq_clan_reward/headerText]::{Трофей получен!}
+[rewardWindow/wgcq_clan_reward/subHeaderText]::{ }
+[rewardWindow/wgcq_clan_reward/winHeaderText]::{Боевой поход}
+[rewardWindow/wgcq_player_reward/btnLabel]::{Так точно!}
+[rewardWindow/wgcq_player_reward/headerText]::{Награда получена!}
+[rewardWindow/wgcq_player_reward/subHeaderText]::{ }
+[rewardWindow/wgcq_player_reward/winHeaderText]::{Боевой поход}
 [rewardWindow/winHeaderText]::{Поздравляем!}
 [scorePanel/mySquadLbl]::{Наш взвод}
 [scorePanel/playerScore]::{Личный вклад:}

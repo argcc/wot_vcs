@@ -576,25 +576,6 @@
                <leftSibling>Track_VT_R15</leftSibling>
             </node>
          </trackNodes>
-         <effects>
-            <lodDist>MEDIUM</lodDist>
-            <mud>largeTankMud</mud>
-         </effects>
-         <wwsoundPC>treads_type_pc</wwsoundPC>
-         <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-         <hullPosition>0.000000 1.08405 0.000000</hullPosition>
-         <hitTester>
-            <collisionModelServer>vehicles/german/G04_PzVI_Tiger_I/collision/Chassis.model</collisionModelServer>
-            <collisionModelClient>vehicles/german/G04_PzVI_Tiger_I/collision_client/Chassis.model</collisionModelClient>
-         </hitTester>
-         <topRightCarryingPoint>1.41832 1.82474</topRightCarryingPoint>
-         <maxClimbAngle>25</maxClimbAngle>
-         <navmeshGirth>6.0</navmeshGirth>
-         <AODecals>
-            <decal>
-               <transform>4.95724 -0 -0 -0 1.90657 0 -0 0 7.06861 -0 0 0</transform>
-            </decal>
-         </AODecals>
          <physicalTracks>
             <left>
                <segmentsCount>102</segmentsCount>
@@ -977,6 +958,25 @@
                </sourceCollisionHullPoints>
             </right>
          </physicalTracks>
+         <effects>
+            <lodDist>MEDIUM</lodDist>
+            <mud>largeTankMud</mud>
+         </effects>
+         <wwsoundPC>treads_type_pc</wwsoundPC>
+         <wwsoundNPC>trds_chf_npc</wwsoundNPC>
+         <hullPosition>0.000000 1.08405 0.000000</hullPosition>
+         <hitTester>
+            <collisionModelServer>vehicles/german/G04_PzVI_Tiger_I/collision/Chassis.model</collisionModelServer>
+            <collisionModelClient>vehicles/german/G04_PzVI_Tiger_I/collision_client/Chassis.model</collisionModelClient>
+         </hitTester>
+         <topRightCarryingPoint>1.41832 1.82474</topRightCarryingPoint>
+         <maxClimbAngle>25</maxClimbAngle>
+         <navmeshGirth>6.0</navmeshGirth>
+         <AODecals>
+            <decal>
+               <transform>4.95724 -0 -0 -0 1.90657 0 -0 0 7.06861 -0 0 0</transform>
+            </decal>
+         </AODecals>
          <customization>
             <customizableVehicleAreas>
                <paint></paint>
@@ -1194,36 +1194,15 @@
          <chassis>
             <PzVI_Vetstaerktketten_IGR>
                <grounds>
-                  <ground>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </ground>
-                  <sand>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </sand>
-                  <wood>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </wood>
-                  <snow>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </snow>
-                  <stone>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </stone>
-                  <metal>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </metal>
+                  <soft>
+                     <rollingFriction>0.23345</rollingFriction>
+                  </soft>
+                  <medium>
+                     <rollingFriction>0.1127</rollingFriction>
+                  </medium>
+                  <firm>
+                     <rollingFriction>0.0966</rollingFriction>
+                  </firm>
                </grounds>
             </PzVI_Vetstaerktketten_IGR>
          </chassis>

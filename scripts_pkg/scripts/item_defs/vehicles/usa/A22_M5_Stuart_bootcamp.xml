@@ -325,26 +325,6 @@
                <VTiles>1</VTiles>
             </atlas>
          </splineDesc>
-         <effects>
-            <lodDist>MEDIUM</lodDist>
-            <mud>smallTankMud</mud>
-         </effects>
-         <wwsoundPC>treads_type_pc</wwsoundPC>
-         <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-         <hullPosition>0 0.919951 0</hullPosition>
-         <hitTester>
-            <collisionModelServer>vehicles/american/A22_M5_Stuart/collision/Chassis.model</collisionModelServer>
-            <collisionModelClient>vehicles/american/A22_M5_Stuart/collision_client/Chassis.model</collisionModelClient>
-         </hitTester>
-         <topRightCarryingPoint>0.930498 1.47</topRightCarryingPoint>
-         <maxClimbAngle>25</maxClimbAngle>
-         <navmeshGirth>6.0</navmeshGirth>
-         <AODecals>
-            <decal>
-               <transform>3.03284 -0 0 -0 1.37993 0 -0 -0 5.586 -0 0 0</transform>
-            </decal>
-         </AODecals>
-         <trackThickness>0</trackThickness>
          <physicalTracks>
             <left>
                <segmentsCount>77</segmentsCount>
@@ -685,6 +665,26 @@
                </sourceCollisionHullPoints>
             </right>
          </physicalTracks>
+         <effects>
+            <lodDist>MEDIUM</lodDist>
+            <mud>smallTankMud</mud>
+         </effects>
+         <wwsoundPC>treads_type_pc</wwsoundPC>
+         <wwsoundNPC>trds_chf_npc</wwsoundNPC>
+         <hullPosition>0 0.919951 0</hullPosition>
+         <hitTester>
+            <collisionModelServer>vehicles/american/A22_M5_Stuart/collision/Chassis.model</collisionModelServer>
+            <collisionModelClient>vehicles/american/A22_M5_Stuart/collision_client/Chassis.model</collisionModelClient>
+         </hitTester>
+         <topRightCarryingPoint>0.930498 1.47</topRightCarryingPoint>
+         <maxClimbAngle>25</maxClimbAngle>
+         <navmeshGirth>6.0</navmeshGirth>
+         <AODecals>
+            <decal>
+               <transform>3.03284 -0 0 -0 1.37993 0 -0 -0 5.586 -0 0 0</transform>
+            </decal>
+         </AODecals>
+         <trackThickness>0</trackThickness>
          <customization>
             <customizableVehicleAreas>
                <paint></paint>
@@ -846,36 +846,15 @@
          <chassis>
             <VVSS_T16E3_bootcamp>
                <grounds>
-                  <ground>
-                     <medium>
-                        <rollingFriction>0.08855</rollingFriction>
-                     </medium>
-                  </ground>
-                  <sand>
-                     <medium>
-                        <rollingFriction>0.08855</rollingFriction>
-                     </medium>
-                  </sand>
-                  <wood>
-                     <medium>
-                        <rollingFriction>0.08855</rollingFriction>
-                     </medium>
-                  </wood>
-                  <snow>
-                     <medium>
-                        <rollingFriction>0.08855</rollingFriction>
-                     </medium>
-                  </snow>
-                  <stone>
-                     <medium>
-                        <rollingFriction>0.08855</rollingFriction>
-                     </medium>
-                  </stone>
-                  <metal>
-                     <medium>
-                        <rollingFriction>0.08855</rollingFriction>
-                     </medium>
-                  </metal>
+                  <soft>
+                     <rollingFriction>0.161</rollingFriction>
+                  </soft>
+                  <medium>
+                     <rollingFriction>0.08855</rollingFriction>
+                  </medium>
+                  <firm>
+                     <rollingFriction>0.0805</rollingFriction>
+                  </firm>
                </grounds>
             </VVSS_T16E3_bootcamp>
          </chassis>

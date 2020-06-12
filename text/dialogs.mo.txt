@@ -279,29 +279,25 @@ Content-Transfer-Encoding: 8bit
 [crewSkins/skinWillBeRemoved/submit]::{Снять}
 [crewSkins/skinWillBeRemoved/title]::{Подтверждение снятия}
 [customization/applyProjectionDecalToOtherSeasons/cancel]::{Отменить}
-[customization/applyProjectionDecalToOtherSeasons/message]::{%(message)s}
+[customization/applyProjectionDecalToOtherSeasons/message]::{Все установленные декали {season} картах будут {removed} с машины,
+т. к. данная ячейка недоступна для {this}}
 [customization/applyProjectionDecalToOtherSeasons/submit]::{Подтвердить}
-[customization/applyProjectionDecalToOtherSeasons/title]::{Подтверждение операции}
+[customization/applyProjectionDecalToOtherSeasons/these]::{этих карт.}
+[customization/applyProjectionDecalToOtherSeasons/this]::{этой карты.}
+[customization/applyProjectionDecalToOtherSeasons/title]::{Установить данную декаль в эту ячейку для всех карт?}
+[customization/buy_install_bound/message]::{После покупки элементы будут нанесены на текущую машину, при этом помеченные звёздочкой элементы станут недоступны для другой техники.}
+[customization/buy_install_bound/title]::{Подтверждение покупки элементов}
+[customization/change_install_bound/message]::{После применения элементы будут нанесены на текущую машину, при этом помеченные звёздочкой элементы станут недоступны для другой техники.}
+[customization/change_install_bound/title]::{Подтверждение изменения элементов}
 [customization/close/cancel]::{Отменить}
-[customization/close/message]::{Выйти в Ангар без сохранения изменений?}
 [customization/close/submit]::{Выйти}
-[customization/close/title]::{Выход в Ангар}
+[customization/close/title]::{Выйти в Ангар без сохранения изменений?}
 [customization/filter/cancel]::{Отменить}
 [customization/filter/message]::{Все элементы будут сняты. Продолжить?}
 [customization/filter/submit]::{Снять всё}
 [customization/filter/title]::{Снятие элементов}
-[customization/install_bound/basket/cancel]::{Отменить}
-[customization/install_bound/basket/message]::{После покупки элементы будут нанесены на текущую машину, при этом помеченные звёздочкой элементы станут недоступными для другой техники.}
-[customization/install_bound/basket/submit]::{Продолжить}
-[customization/install_bound/basket/title]::{Особые условия}
-[customization/install_bound/check/cancel]::{Отменить}
-[customization/install_bound/check/message]::{После применения элементы будут нанесены на текущую машину, при этом помеченные звёздочкой элементы станут недоступными для другой техники.}
-[customization/install_bound/check/submit]::{Продолжить}
-[customization/install_bound/check/title]::{Особые условия}
-[customization/install_bound/right_click/cancel]::{Отменить}
-[customization/install_bound/right_click/message]::{После покупки этот элемент станет недоступным для другой техники.}
-[customization/install_bound/right_click/submit]::{Продолжить}
-[customization/install_bound/right_click/title]::{Особые условия}
+[customization/install_bound/cancel]::{Отменить}
+[customization/install_bound/submit]::{Продолжить}
 [customization/install_invoice_item/permanent/cancel]::{Отменить}
 [customization/install_invoice_item/permanent/message]::{Внимание! После нанесения элемента (%(cTypeName)s %(itemName)s) на текущую машину количество доступных нанесений на другую технику станет равно %(numberLeft)s. Нанести элемент?}
 [customization/install_invoice_item/permanent/submit]::{Нанести}
@@ -359,6 +355,12 @@ Content-Transfer-Encoding: 8bit
 [dropSkill/message]::{Сбросить все умения и навыки?}
 [dropSkill/submit]::{Сбросить}
 [dropSkill/title]::{Подтверждение сброса}
+[editableStyles/confirmReset/cancel]::{Отменить}
+[editableStyles/confirmReset/checkboxLabel]::{Больше не спрашивать}
+[editableStyles/confirmReset/formattedPartOfMessage]::{будет сброшен}
+[editableStyles/confirmReset/message]::{При нанесении этого элемента стиль {formatted_message} до вида по умолчанию.}
+[editableStyles/confirmReset/submit]::{Подтвердить}
+[editableStyles/confirmReset/title]::{Нанести стиль {}?}
 [elementType/chassis]::{ходовую}
 [elementType/engine]::{двигатель}
 [elementType/gun]::{орудие}
@@ -370,7 +372,7 @@ Content-Transfer-Encoding: 8bit
 [elite/cancel]::{ОК}
 [elite/header]::{%(name)s получил статус «Элитный»}
 [elite/message]::{Статус «Элитный» присваивается технике, для которой исследованы все доступные модули и ветки развития.
-Боевой опыт, заработанный на элитной технике, может быть переведён в свободный опыт за золото, либо направлен на ускоренное обучение экипажа с помощью опции «Ускорить обучение экипажа».}
+Боевой опыт, заработанный на элитной технике, может быть переведён в свободный опыт за золото либо направлен на ускоренное обучение экипажа с помощью опции «Ускорить обучение экипажа».}
 [elite/title]::{Присвоение статуса «Элитный»}
 [epicBattleConfirmDialog/cancel]::{Отмена}
 [epicBattleConfirmDialog/checkBox]::{Больше не показывать это предупреждение}
@@ -505,9 +507,6 @@ Content-Transfer-Encoding: 8bit
 [hofDisabled/cancel]::{Закрыть}
 [hofDisabled/message]::{Зал славы временно недоступен. Повторите попытку позже.}
 [hofDisabled/title]::{Внимание!}
-[ingameShopDisabled/cancel]::{Закрыть}
-[ingameShopDisabled/message]::{Магазин временно недоступен. Повторите попытку позже.}
-[ingameShopDisabled/title]::{Внимание!}
 [interviewQuit/cancel]::{Назад}
 [interviewQuit/message]::{Сейчас вы можете отказаться от участия в опросе и пройти его позже, открыв сообщение с приглашением в Центре уведомлений. Сообщение активно в рамках текущей игровой сессии.}
 [interviewQuit/submit]::{Отказаться}
@@ -826,18 +825,6 @@ Content-Transfer-Encoding: 8bit
 [sandBox/message]::{Войти в песочницу?}
 [sandBox/submit]::{Да}
 [sandBox/title]::{Песочница}
-[se20ShopBuyBundle/cancel]::{Отменить}
-[se20ShopBuyBundle/message]::{Подтвердить покупку «%(bundleName)s» за %(money)s?}
-[se20ShopBuyBundle/submit]::{Подтвердить}
-[se20ShopBuyBundle/title]::{Подтверждение покупки набора}
-[se20quitBattle/deserter/cancel]::{Отменить}
-[se20quitBattle/deserter/lockedLivesAvailable/cancel]::{Отменить}
-[se20quitBattle/deserter/lockedLivesAvailable/message]::{Если ваша команда %(goal)s, вы вернётесь в бой в начале выполнения следующей задачи в бою. Выход из боя до потери всех машин или окончания боя в режиме «Дорога на Берлин» расценивается как дезертирство и может повлечь применение дисциплинарного взыскания.}
-[se20quitBattle/deserter/lockedLivesAvailable/submit]::{Бежать}
-[se20quitBattle/deserter/lockedLivesAvailable/title]::{Бегство с поля боя}
-[se20quitBattle/deserter/message]::{Выход из боя до уничтожения собственной машины или окончания боя в режиме «Дорога на Берлин» расценивается как дезертирство и может повлечь применение дисциплинарного взыскания.}
-[se20quitBattle/deserter/submit]::{Бежать}
-[se20quitBattle/deserter/title]::{Бегство с поля боя}
 [sellConfirmation/cancel]::{Отменить}
 [sellConfirmation/submit]::{Продать}
 [sellModuleConfirmation/cancel]::{Отменить}
@@ -869,9 +856,6 @@ Content-Transfer-Encoding: 8bit
 [soundSpeakersPresetReset/message]::{Выбранный тип акустики отличается от автоматически определённого игрой. Часть звуков может отсутствовать. Выставить оптимальные настройки звука?}
 [soundSpeakersPresetReset/submit]::{Да}
 [soundSpeakersPresetReset/title]::{Несоответствующий тип акустики}
-[squad/eventDisabled/cancel]::{Так точно!}
-[squad/eventDisabled/message]::{Событие недоступно. Взвод будет расформирован.}
-[squad/eventDisabled/title]::{Событие завершено}
 [squad/goToAnother/cancel]::{Отменить}
 [squad/goToAnother/message]::{Вы состоите во взводе. При переходе в другой режим вы будете исключены из взвода.}
 [squad/goToAnother/submit]::{Перейти}

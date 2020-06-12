@@ -235,6 +235,9 @@
             <gravity>-9.8</gravity>
             <elasticity>1094</elasticity>
             <damping>2</damping>
+            <forwardElastK>1</forwardElastK>
+            <backwardElastK>1</backwardElastK>
+            <offset>0</offset>
             <node>
                <isLeft> false </isLeft>
                <name>Track_VD_R0</name>
@@ -419,25 +422,6 @@
             </node>
          </trackNodes>
          <trackThickness>-0.0288</trackThickness>
-         <effects>
-            <lodDist>MEDIUM</lodDist>
-            <mud>largeTankMud</mud>
-         </effects>
-         <wwsoundPC>treads_type_pc</wwsoundPC>
-         <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-         <hullPosition>0.000000 1.18716 0.000000</hullPosition>
-         <hitTester>
-            <collisionModelServer>vehicles/german/G16_PzVIB_Tiger_II/collision/Chassis.model</collisionModelServer>
-            <collisionModelClient>vehicles/german/G16_PzVIB_Tiger_II/collision_client/Chassis.model</collisionModelClient>
-         </hitTester>
-         <topRightCarryingPoint>1.39764 2.05133</topRightCarryingPoint>
-         <maxClimbAngle>25</maxClimbAngle>
-         <navmeshGirth>6.0</navmeshGirth>
-         <AODecals>
-            <decal>
-               <transform>5.15275 0 -0 -0 1.8159 0 0 0 7.97092 0 -0 -0</transform>
-            </decal>
-         </AODecals>
          <physicalTracks>
             <left>
                <segmentsCount>98</segmentsCount>
@@ -832,6 +816,25 @@
                </sourceCollisionHullPoints>
             </right>
          </physicalTracks>
+         <effects>
+            <lodDist>MEDIUM</lodDist>
+            <mud>largeTankMud</mud>
+         </effects>
+         <wwsoundPC>treads_type_pc</wwsoundPC>
+         <wwsoundNPC>trds_chf_npc</wwsoundNPC>
+         <hullPosition>0.000000 1.18716 0.000000</hullPosition>
+         <hitTester>
+            <collisionModelServer>vehicles/german/G16_PzVIB_Tiger_II/collision/Chassis.model</collisionModelServer>
+            <collisionModelClient>vehicles/german/G16_PzVIB_Tiger_II/collision_client/Chassis.model</collisionModelClient>
+         </hitTester>
+         <topRightCarryingPoint>1.39764 2.05133</topRightCarryingPoint>
+         <maxClimbAngle>25</maxClimbAngle>
+         <navmeshGirth>6.0</navmeshGirth>
+         <AODecals>
+            <decal>
+               <transform>5.15275 0 -0 -0 1.8159 0 0 0 7.97092 0 -0 -0</transform>
+            </decal>
+         </AODecals>
          <customization>
             <customizableVehicleAreas>
                <paint>CHASSIS</paint>
@@ -1028,36 +1031,15 @@
          <chassis>
             <PzVIB_Vetstaerktketten_IGR>
                <grounds>
-                  <ground>
-                     <medium>
-                        <rollingFriction>0.0966</rollingFriction>
-                     </medium>
-                  </ground>
-                  <sand>
-                     <medium>
-                        <rollingFriction>0.0966</rollingFriction>
-                     </medium>
-                  </sand>
-                  <wood>
-                     <medium>
-                        <rollingFriction>0.0966</rollingFriction>
-                     </medium>
-                  </wood>
-                  <snow>
-                     <medium>
-                        <rollingFriction>0.0966</rollingFriction>
-                     </medium>
-                  </snow>
-                  <stone>
-                     <medium>
-                        <rollingFriction>0.0966</rollingFriction>
-                     </medium>
-                  </stone>
-                  <metal>
-                     <medium>
-                        <rollingFriction>0.0966</rollingFriction>
-                     </medium>
-                  </metal>
+                  <soft>
+                     <rollingFriction>0.18515</rollingFriction>
+                  </soft>
+                  <medium>
+                     <rollingFriction>0.0966</rollingFriction>
+                  </medium>
+                  <firm>
+                     <rollingFriction>0.0805</rollingFriction>
+                  </firm>
                </grounds>
             </PzVIB_Vetstaerktketten_IGR>
          </chassis>

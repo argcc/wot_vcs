@@ -252,7 +252,7 @@ Content-Transfer-Encoding: 8bit
 [dialogs/createChannel/labels/retypePassword]::{Повторите пароль}
 [dialogs/createChannel/labels/usePassword]::{Требовать пароль при подключении}
 [dialogs/createChannel/title]::{Создание канала}
-[dialogs/eventSquad/vehicle]::{Выберите подразделение}
+[dialogs/eventSquad/vehicle]::{Выберите %(vehName)s}
 [dialogs/falloutSquadChannel/vehicleNotify]::{Выберите машину %(level)s уровня}
 [dialogs/falloutSquadChannel/vehicleNotifyMultiteam]::{Выберите технику}
 [dialogs/falloutSquadChannel/vehicleNotifyRange]::{Выберите машину %(level)s уровня}
@@ -304,8 +304,8 @@ Content-Transfer-Encoding: 8bit
 [dialogs/squadChannel/context/kickPlayer]::{Исключить из взвода}
 [dialogs/squadChannel/headerMsg/epicBattleFormationRestriction]::{Режим «Линия фронта» доступен
 только для техники VIII уровня.}
-[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{Основная задача — подавить
-силы противника}
+[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{+++ event +++
++++ event +++}
 [dialogs/squadChannel/headerMsg/squadFormation]::{Дополнительный опыт за бой
 при игре на технике IV уровня и выше}
 [dialogs/squadChannel/headerMsg/squadFormationRestriction]::{Играйте на технике одного уровня
@@ -316,6 +316,7 @@ Content-Transfer-Encoding: 8bit
 действующем премиум аккаунте.}
 [dialogs/squadChannel/simpleChatAlert/anonymizer]::{Если игрок примет приглашение, то ему на время боя станет видно ваше настоящее игровое имя и тег клана.}
 [dialogs/squadChannel/simpleChatName]::{Канал связи}
+[dialogs/squadChannel/tooltips/module]::{На технику установлены экспериментальные модули: %(name)s}
 [dialogs/squadChannel/tooltips/status/afk]::{Статус: Ушёл на перерыв}
 [dialogs/squadChannel/tooltips/status/inBattle]::{Статус: В бою}
 [dialogs/squadChannel/tooltips/status/notReady]::{Статус: Не готов}
@@ -615,17 +616,27 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/quests/berths]::{Добавлено коек в Казарму}
 [serviceChannelMessages/battleResults/quests/credits]::{Добавлено кредитов}
 [serviceChannelMessages/battleResults/quests/crystal]::{Добавлено бон}
+[serviceChannelMessages/battleResults/quests/entitlements/multiplier]::{(x%(count)s)}
 [serviceChannelMessages/battleResults/quests/eventCoin]::{Добавлены юбилейные монеты}
 [serviceChannelMessages/battleResults/quests/freeXP]::{Добавлено свободного опыта}
 [serviceChannelMessages/battleResults/quests/gold]::{Добавлено золота}
 [serviceChannelMessages/battleResults/quests/items]::{Добавлено}
-[serviceChannelMessages/battleResults/quests/items/name]::{%(name)s (%(count)s шт.)}
+[serviceChannelMessages/battleResults/quests/items/name]::{%(name)s (x%(count)s)}
 [serviceChannelMessages/battleResults/quests/premium]::{Добавлено дней Общего премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/premium_plus]::{Добавлено дней Танкового премиум аккаунта}
+[serviceChannelMessages/battleResults/quests/rankedBonusBattles]::{Начислено призовых боёв: %(bonusBattles)s}
+[serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily]::{%(count)s ежедневных}
+[serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent]::{%(count)s стандартных}
 [serviceChannelMessages/battleResults/quests/vehicleSlots]::{Добавлено слотов}
 [serviceChannelMessages/battleResults/rankedBonusBattles]::{Начислено призовых боёв}
-[serviceChannelMessages/battleResults/rankedBonusBattles/text]::{За эффективность в предыдущем дивизионе (или в квалификации): %(divisionAmount)s
-За количество шевронов в квалификации: %(qualificationAmount)s}
+[serviceChannelMessages/battleResults/rankedBonusBattles/efficiency]::{ 
+Стандартных, за эффективность в завершённом этапе: %(amount)s}
+[serviceChannelMessages/battleResults/rankedBonusBattles/quests]::{ 
+За выполнение боевых задач: %(bonusBattles)s}
+[serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily]::{ 
+Ежедневных, за количество шевронов в квалификации: %(amount)s}
+[serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent]::{ 
+Стандартных, за количество шевронов в квалификации: %(amount)s}
 [serviceChannelMessages/battleResults/rankedProgress]::{Ранговые изменения}
 [serviceChannelMessages/battleResults/rankedState/bonusStepEarned]::{ 
 Получены шевроны}
@@ -655,12 +666,6 @@ Content-Transfer-Encoding: 8bit
 Потерян шеврон}
 [serviceChannelMessages/battleResults/rankedState/stepsEarned]::{ 
 Получены шевроны}
-[serviceChannelMessages/battleResults/se20/battleGoalsDone]::{Задач в бою выполнено}
-[serviceChannelMessages/battleResults/se20/division]::{Подразделение}
-[serviceChannelMessages/battleResults/se20/divisionPointsGain]::{Опыта подразделения}
-[serviceChannelMessages/battleResults/se20/gameMode]::{Игровое событие}
-[serviceChannelMessages/battleResults/se20/gameModeName]::{Дорога на Берлин}
-[serviceChannelMessages/battleResults/se20/reputationPointsGain]::{Очков победы}
 [serviceChannelMessages/battleResults/tankman]::{Новобранец}
 [serviceChannelMessages/battleResults/tanks]::{Техника}
 [serviceChannelMessages/battleResults/tankwoman]::{Девушка-танкист}
@@ -706,6 +711,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/durationOfPremiumAccountExpires]::{Срок действия Общего премиум аккаунта истекает %(expiryTime)s.}
 [serviceChannelMessages/enhancements/removed]::{Экспериментальный модуль использован}
 [serviceChannelMessages/enhancements/wiped]::{Все экспериментальные модули списаны}
+[serviceChannelMessages/enhancements/wipedOnVehicles]::{Демонтированы экспериментальные модули со следующих машин}
 [serviceChannelMessages/eventCoinReceivedAsGift]::{От администрации получено юбилейных монет: %(eventCoin)s.}
 [serviceChannelMessages/failedPersonalMission]::{Прогресс сброшен}
 [serviceChannelMessages/failedPersonalMission/button]::{Перейти к задаче}
@@ -800,6 +806,8 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/dossiersDebited]::{Списаны награды}
 [serviceChannelMessages/invoiceReceived/enhancementsAccrued]::{Начислены экспериментальные модули}
 [serviceChannelMessages/invoiceReceived/enhancementsDebited]::{Списаны экспериментальные модули}
+[serviceChannelMessages/invoiceReceived/entitlementsAccrued]::{Начислены}
+[serviceChannelMessages/invoiceReceived/entitlementsDebited]::{Списаны}
 [serviceChannelMessages/invoiceReceived/eventCoinAccrued]::{Начислено юбилейных монет}
 [serviceChannelMessages/invoiceReceived/eventCoinDebited]::{Списано юбилейных монет}
 [serviceChannelMessages/invoiceReceived/freeAwardListsAccrued]::{Начислено бланков приказа}
@@ -821,6 +829,8 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/premiumAccrued]::{Добавлено дней Общего премиум аккаунта}
 [serviceChannelMessages/invoiceReceived/premiumDebited]::{Списано дней Общего премиум аккаунта}
 [serviceChannelMessages/invoiceReceived/premium_account]::{Общий премиум аккаунт}
+[serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued]::{Начислены призовые бои}
+[serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited]::{Списаны призовые бои}
 [serviceChannelMessages/invoiceReceived/rentDays]::{дней аренды: }
 [serviceChannelMessages/invoiceReceived/slotsAccrued]::{Добавлены слоты}
 [serviceChannelMessages/invoiceReceived/slotsDebited]::{Списаны слоты}
@@ -900,9 +910,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/rentCompensation/creditsReceived]::{Начислено кредитов за неиспользованное время аренды %(vehicleName)s}
 [serviceChannelMessages/rentCompensation/goldReceived]::{Начислено золота за неиспользованное время аренды %(vehicleName)s}
 [serviceChannelMessages/rentalsExpired]::{Срок действия аренды %(vehicleName)s истёк.}
-[serviceChannelMessages/se20/buyBundleReward]::{Получена награда за покупку:}
-[serviceChannelMessages/se20/exhangeOrder/desc]::{Обмен жетона успешно завершён.}
-[serviceChannelMessages/se20/exhangeOrder/header]::{Обмен:}
 [serviceChannelMessages/serverDowntimeCompensation/camouflages]::{камуфляжа}
 [serviceChannelMessages/serverDowntimeCompensation/message]::{В связи с проведением технических работ действие %s продлено.}
 [serviceChannelMessages/serverDowntimeCompensation/playerEmblems]::{эмблем}
@@ -940,6 +947,23 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/converter/title]::{Внимание!}
 [serviceChannelMessages/sysMsg/converter/vehiclesReceived]::{Добавлена техника: %(vehicles)s}
 [serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn]::{Списана техника: %(vehicles)s}
+[serviceChannelMessages/sysMsg/customization/buyMany]::{Куплены следующие элементы внешнего вида:
+%(items)s
+Потрачено %(money)s.}
+[serviceChannelMessages/sysMsg/customization/buyOne]::{Элемент %(itemType)s «%(itemName)s» успешно куплен.
+Потрачено %(money)s.}
+[serviceChannelMessages/sysMsg/customization/change]::{Изменён внешний вид машины.}
+[serviceChannelMessages/sysMsg/customization/item]::{%(itemType)s «%(itemName)s» (%(count)s шт.)}
+[serviceChannelMessages/sysMsg/customization/remove]::{Элементы внешнего вида сняты с машины.}
+[serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked]::{Поздравляем!
+Получение этапной декали разблокировало возможность редактирования готовых стилей для %(vehicleName)s.}
+[serviceChannelMessages/sysMsg/customizationProgress/itemReceived]::{Поздравляем!
+Получена декаль %(itemName)s I уровня для %(vehicleName)s.}
+[serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound]::{Поздравляем!
+Получена декаль %(itemName)s I уровня.}
+[serviceChannelMessages/sysMsg/customizationProgress/itemUpdated]::{Достигнут %(level)s уровень декали %(itemName)s для %(vehicleName)s.}
+[serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button]::{К внешнему виду}
+[serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound]::{Достигнут %(level)s уровень декали %(itemName)s}
 [serviceChannelMessages/sysMsg/customizations/buy]::{%(itemType)s «%(itemName)s», %(count)s шт. Потрачено %(money)s}
 [serviceChannelMessages/sysMsg/customizations/item]::{%(itemType)s «%(itemName)s» (x%(count)s)}
 [serviceChannelMessages/sysMsg/customizations/map/desert]::{Пустынная карта: }
@@ -948,7 +972,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/customizations/sell]::{%(itemType)s «%(itemName)s», %(count)s шт. Получено %(money)s}
 [serviceChannelMessages/sysMsg/openCustomization/button]::{К внешнему виду}
 [serviceChannelMessages/sysMsg/removeCustomizations]::{Из-за смены модулей следующие элементы внешнего вида были сняты с %(vehicle)s.}
-[serviceChannelMessages/sysMsg/titles/bobBattlesAvailable]::{Бои режима «Схватка» доступны.}
 [serviceChannelMessages/sysMsg/titles/customization]::{Изменение внешнего вида:}
 [serviceChannelMessages/sysMsg/titles/dismantling]::{Демонтировано:}
 [serviceChannelMessages/sysMsg/titles/error]::{Ошибка:}

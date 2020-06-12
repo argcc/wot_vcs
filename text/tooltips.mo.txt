@@ -183,11 +183,11 @@ Content-Transfer-Encoding: 8bit
 [advanced/driver_smoothDriving]::{Уменьшает разброс при стрельбе на ходу.}
 [advanced/driver_tidyPerson]::{Уменьшает вероятность возгорания двигателя, не допуская подтёков масла и горючего в моторном отсеке.}
 [advanced/driver_virtuoso]::{Увеличивает скорость поворота машины.}
-[advanced/economyBonds]::{Редкая специализированная валюта, за которую покупаются уникальные товары, недоступные за другую валюту.}
-[advanced/economyConvertExp]::{Игровой ресурс, который можно потратить на исследование любой техники и модулей.}
+[advanced/economyBonds]::{Редкая специализированная валюта, за которую покупаются уникальные товары.}
+[advanced/economyConvertExp]::{Игровой ресурс, который можно потратить на исследование любой техники и модулей, а также направить на обучение экипажа.}
 [advanced/economyCredits]::{Основная игровая валюта. Зарабатывается в боях или приобретается за золото.}
 [advanced/economyGold]::{Премиум валюта, которую можно потратить на широкий спектр целей.}
-[advanced/economyPremium]::{Позволяет получать на 50% больше опыта и кредитов за бой.}
+[advanced/economyPremium]::{Позволяет получать на 50% больше опыта и кредитов за бой, а также предоставляет дополнительные возможности.}
 [advanced/economyPremium/header]::{Танковый премиум аккаунт}
 [advanced/economyTankExperience]::{Игровой ресурс, зарабатываемый в боях. За опыт можно исследовать модули и технику.}
 [advanced/enhancedAimDrives]::{Увеличивает общую скорость сведения прицела.}
@@ -196,7 +196,7 @@ Content-Transfer-Encoding: 8bit
 [advanced/filterCyclone]::{Увеличивает прочность двигателя, что позволяет ему выдержать больше попаданий.}
 [advanced/fireFighting]::{Ускоряет тушение пожара.}
 [advanced/gamemodeRandom]::{Бой с автоматическим подбором союзников и противника.}
-[advanced/gamemodeSpecial]::{Участие кланами в чемпионатах, турнирах и «Мировой войне».}
+[advanced/gamemodeSpecial]::{Участие в чемпионатах, турнирах и боях на Глобальной карте.}
 [advanced/gamemodeStronghold]::{Бои за промресурс против отрядов противника.}
 [advanced/gamemodeTeam]::{Бой между заранее сформированными и равными по мастерству командами.}
 [advanced/gamemodeTraining]::{Бой с ручным подбором союзников и противника.}
@@ -360,7 +360,7 @@ Content-Transfer-Encoding: 8bit
 [awardItem/credits/header]::{Кредиты}
 [awardItem/creditsFactor/body]::{Увеличенный коэффициент заработка кредитов.}
 [awardItem/creditsFactor/header]::{Коэффициент кредитов}
-[awardItem/crystal/body]::{Редкая специализированная валюта, за которую покупаются уникальные товары, недоступные за другую валюту.}
+[awardItem/crystal/body]::{Редкая специализированная валюта, за которую покупаются уникальные товары.}
 [awardItem/crystal/header]::{Боны}
 [awardItem/eventCoin/body]::{Начисляются за выполнение юбилейных задач во время активной фазы и периода затишья в рамках события «Десятилетие». Также выдаются в подарок за покупку юбилейных наборов в Магазине.}
 [awardItem/eventCoin/header]::{Юбилейные монеты}
@@ -392,6 +392,14 @@ Content-Transfer-Encoding: 8bit
 [awardItem/premium_plus/header]::{Танковый премиум аккаунт}
 [awardItem/randomBooklet/body]::{Вы получите учебную брошюру для случайной нации. Применяется ко всему экипажу. Изучение даёт по 20 000 опыта каждому члену экипажа.}
 [awardItem/randomBooklet/header]::{Случайная учебная брошюра}
+[awardItem/rankedBonusBattles/body]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой машины X уровня. Не тратится, если по результатам боя вы не получили шевроны.
+• Переносится на следующий день.
+• Расходуется после ежедневных призовых боёв.}
+[awardItem/rankedBonusBattles/header]::{Стандартный призовой бой}
+[awardItem/rankedDailyBattles/body]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой машины X уровня. Не тратится, если по результатам боя вы не получили шевроны.
+• Не переносится на следующий день.
+• Расходуется в первую очередь.}
+[awardItem/rankedDailyBattles/header]::{Ежедневный призовой бой}
 [awardItem/slots/body]::{Дополнительный свободный слот для новой машины в Ангаре.}
 [awardItem/slots/header]::{Расширение Ангара}
 [awardItem/tankman/body]::{Член экипажа с возможностью выбора нации и специальности для желаемой машины.}
@@ -404,12 +412,14 @@ Content-Transfer-Encoding: 8bit
 [awardItem/tankmenXPFactor/header]::{Коэффициент опыта экипажа}
 [awardItem/tankwomen/body]::{Член экипажа с возможностью выбора нации и специальности для желаемой машины.}
 [awardItem/tankwomen/header]::{Девушка-танкист}
+[awardItem/testEntitlement/body]::{Тестовый энтайтлемент. Описание.}
+[awardItem/testEntitlement/header]::{Тестовый энтайтлемент. Заголовок.}
 [awardItem/xp/body]::{Разовая прибавка к дополнительному боевому опыту.}
 [awardItem/xp/header]::{Боевой опыт}
 [awardItem/xpFactor/body]::{Увеличенный коэффициент заработка боевого опыта.}
 [awardItem/xpFactor/header]::{Коэффициент боевого опыта}
 [badgeinfo/text]::{Отметка отображается в списке команд при загрузке, на экране команд по Tab и в постбоевой статистике.}
-[badgeinfo/title]::{Отобразить/скрыть отметку тестера}
+[badgeinfo/title]::{Отобразить/скрыть нашивку}
 [barracks/item_buy/body]::{Нажмите, чтобы вызвать окно подтверждения расширения Казармы.}
 [barracks/item_buy/header]::{Расширить Казарму}
 [barracks/item_empty/body]::{Нажмите, чтобы открыть окно рекрутирования члена экипажа.}
@@ -423,7 +433,7 @@ Content-Transfer-Encoding: 8bit
 • за %(price)s — в последующие %(withMoneyLeftValue)s.}
 [barracks/tankmen/recovery/gold/body]::{У вас %(totalLeftValue)s для его возвращения в строй за %(price)s.}
 [barracks/tankmen/recovery/header]::{Член экипажа демобилизован}
-[barracks/tankmen/recovery/newSkill]::{Умения/навыки на выбор}
+[barracks/tankmen/recovery/newSkill]::{Умения/навыки не выбраны}
 [barracks/tankmen/recoveryBtn/header]::{Восстановить члена экипажа}
 [barracks/tankmen/recruit/body]::{Нажмите, чтобы открыть окно рекрутирования члена экипажа.}
 [barracks/tankmen/recruit/header]::{Рекрутировать члена экипажа}
@@ -501,11 +511,6 @@ Content-Transfer-Encoding: 8bit
 • карта для режима «Линия фронта» на выбор;
 • ограничения: VIII уровень техники.}
 [battleTypes/epic_training/header]::{Тренировочный бой на Линии фронта}
-[battleTypes/event/days]::{Осталось: %(day)s д}
-[battleTypes/event/end]::{Осталось: {}}
-[battleTypes/event/hours]::{Осталось: %(hour)s ч}
-[battleTypes/event/lessMin]::{Осталось: менее минуты}
-[battleTypes/event/min]::{Осталось: %(min)s мин}
 [battleTypes/fallout/body]::{Выбор из двух подрежимов, отличающихся по формату и условиям победы.
 • Подрежимы: Превосходство, Стальная охота}
 [battleTypes/fallout/header]::{«Бой до последнего»}
@@ -536,8 +541,12 @@ Content-Transfer-Encoding: 8bit
 [battleTypes/ranked/body/coming]::{Режим станет доступен %(date)s.}
 [battleTypes/ranked/body/disabled]::{Следите за новостями на портале игры, чтобы не пропустить информацию о начале нового сезона.}
 [battleTypes/ranked/body/frozen]::{Режим временно отключён по техническим причинам.}
-[battleTypes/ranked/bonusBattle/count]::{В наличии}
+[battleTypes/ranked/bonusBattle/daily/bodyIncome]::{ • %(income)s начисляется каждый день;}
+[battleTypes/ranked/bonusBattle/daily/bodyOther]::{ • не переносится на следующий день;
+ • расходуется в первую очередь.}
+[battleTypes/ranked/bonusBattle/daily/title]::{Ежедневный}
 [battleTypes/ranked/bonusBattle/description]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой машины Х уровня. Не тратится, если по результатам боя вы не получили шевроны.}
+[battleTypes/ranked/bonusBattle/persistent/title]::{Стандартный}
 [battleTypes/ranked/bonusBattle/title]::{Призовой бой}
 [battleTypes/ranked/haveDisposableShield]::{Ранг защищён. Очки прочности защиты не восстанавливаются, а при полной их потере «щит» разбивается навсегда.}
 [battleTypes/ranked/haveShield]::{Максимальное количество очков прочности — %(hp)s. Если защита не была полностью разбита, то очки прочности полностью восстанавливаются при получении шеврона.}
@@ -573,8 +582,7 @@ Content-Transfer-Encoding: 8bit
 [battleTypes/spec/header]::{Специальный бой}
 [battleTypes/standart/body]::{Бой с автоматическим подбором союзников и противника.
 • Типы боёв: Стандартный бой, Штурм, Встречный бой, Генеральное сражение.
-• Состав команды: 15 игроков
-(30 игроков для Генерального сражения).}
+• Состав команды: 15 игроков (30 игроков для Генерального сражения).}
 [battleTypes/standart/header]::{Случайный бой}
 [battleTypes/strongholds/body]::{Бои за промресурс против отрядов противника.
 Режимы боёв: Вылазка, Наступление.}
@@ -759,7 +767,7 @@ Content-Transfer-Encoding: 8bit
 [crewSkins/soundInfoDescr]::{Применяется, если включена «Командирская» озвучка в настройках звука.}
 [crewSkins/soundWarningDescr1]::{Чтобы слышать эти голосовые уведомления в бою, включите «Командирскую» озвучку в настройках звука.}
 [crewSkins/soundWarningDescr2]::{Чтобы слышать эти голосовые уведомления в бою, примените облик к командиру машины.}
-[crystal/body]::{Редкая специализированная валюта, за которую покупаются уникальные товары, недоступные за другую валюту.}
+[crystal/body]::{Редкая специализированная валюта, за которую покупаются уникальные товары.}
 [crystal/header]::{Боны}
 [csAutoSearchVehicle/conditionsTitle]::{ }
 [csAutoSearchVehicle/header]::{Выбранная техника}
@@ -819,9 +827,18 @@ Content-Transfer-Encoding: 8bit
 [customization/questAward/currentVehicle]::{Наносится на машину, на которой выполняется боевая задача.}
 [customization/questAward/denyVehicle]::{Кроме %(vehicle)s}
 [customization/questAward/exactVehicle]::{Наносится на %(vehicle)s}
+[customization/savedStyles/body]::{Система сохраняет до %(max)s купленных изменённых стилей. При превышении лимита сохранённые изменения одного из стилей будут сброшены до вида по умолчанию.}
+[customization/savedStyles/title]::{%(img)s Изменённые стили: %(current)s/%(max)s}
 [customization/scrollbar/bookmark/header]::{%(bookmark)s}
 [customization/slotRevert/body]::{Нажмите, чтобы вернуть первоначальный элемент внешнего вида.}
 [customization/slotRevert/header]::{Вернуть}
+[customization/storage/filters/camouflage/title]::{Камуфляж}
+[customization/storage/filters/decals/title]::{Декали}
+[customization/storage/filters/effects/title]::{Эффекты}
+[customization/storage/filters/emblems/title]::{Эмблемы}
+[customization/storage/filters/paints/title]::{Краски}
+[customization/storage/filters/style/title]::{Стили}
+[customization/storage/filters/text/title]::{Надписи}
 [customization/tabs/camouflage/body]::{Камуфляж изменяет внешний вид машины и добавляет бонус к маскировке.}
 [customization/tabs/emblem/body]::{Эмблемы наносятся на технику и подчёркивают индивидуальность конкретной машины.}
 [customization/tabs/inRoaming]::{Серверное ограничение из-за роуминга}
@@ -1297,12 +1314,7 @@ Content-Transfer-Encoding: 8bit
 [equipment/empty/header]::{Место для снаряжения}
 [equipment/onUse]::{При использовании:}
 [equipment/restriction]::{Ограничение:}
-[event/commanders/bonuses]::{•  %(coins)s %(icon)s  за %(level)s уровень;}
-[event/commanders/bonusesDescription]::{Опыт идёт на повышение уровней, в награду за которые вы получаете монеты:}
-[event/commanders/description2]::{На особой технике вы зарабатываете больше монет.}
-[event/commanders/header]::{Награды командира танка «{}»}
-[event/commanders/othersBonuses]::{•  %(coins)s %(icon)s  за каждый последующий.}
-[event/squad/disable/body]::{Неизвестная ошибка: выход в бой недоступен.}
+[event/squad/disable/body]::{Для высадки на тёмной стороне Луны выберите %(tankName)s}
 [event/squad/disable/header]::{Внимание!}
 [eventProgression/allSeasonsAreOver]::{Все этапы завершены.}
 [eventProgression/currency]::{Жетоны:}
@@ -1507,6 +1519,8 @@ Content-Transfer-Encoding: 8bit
 [hangar/header/wgmoneyTooltip/purchasedValue]::{Куплено}
 [hangar/header/wgmoneyTooltip/totalValue]::{ИТОГО}
 [hangar/maintenance/body]::{Нажмите, чтобы открыть окно обслуживания машины.}
+[hangar/maintenance/disabled/body]::{Обслуживание выбранной машины невозможно.}
+[hangar/maintenance/disabled/header]::{Недоступно}
 [hangar/maintenance/header]::{Обслуживание}
 [hangar/menu/body]::{Переход в меню игры}
 [hangar/menu/header]::{Меню}
@@ -1617,8 +1631,6 @@ Content-Transfer-Encoding: 8bit
 [header/accountPopover/unavailable]::{Функциональность временно недоступна. Пожалуйста, попробуйте позже.}
 [header/battleType/body]::{Нажмите, чтобы открыть список доступных режимов боёв.}
 [header/battleType/header]::{Выбор режима боя}
-[header/bobSquad/body]::{Создание формирования из 2–3 игроков для совместной игры в боях режима «Схватка».}
-[header/bobSquad/header]::{Взвод}
 [header/buttons/available]::{В наличии}
 [header/buttons/barracks/body]::{Рекрутировать и демобилизовать членов экипажа.}
 [header/buttons/barracks/header]::{Казарма}
@@ -1675,10 +1687,8 @@ Content-Transfer-Encoding: 8bit
 [header/buttons/personalMissionsDisabled/header]::{Личные боевые задачи недоступны}
 [header/buttons/profile/body]::{Посмотреть статистику боёв и полученные награды.}
 [header/buttons/profile/header]::{Достижения}
-[header/buttons/shop/body]::{Купить и продать технику, модули, оборудование и снаряжение.}
+[header/buttons/shop/body]::{Здесь вы можете купить всё необходимое для комфортной игры: золото, премиум технику, товары за боны и т. д.}
 [header/buttons/shop/header]::{Магазин}
-[header/buttons/shop2/body]::{Здесь вы можете купить всё необходимое для комфортной игры: золото, премиум технику, товары за боны и т.д.}
-[header/buttons/shop2/header]::{Магазин}
 [header/buttons/storage/body]::{Обзор и продажа игрового имущества.}
 [header/buttons/storage/header]::{Склад}
 [header/buttons/techtree/body]::{Исследовать и купить технику и модули.}
@@ -1692,9 +1702,9 @@ Content-Transfer-Encoding: 8bit
 Доступен перевод опыта
 и ускоренное обучение экипажа.}
 [header/eliteIcon/header]::{Элитная машина}
-[header/eventSquad/body]::{Создание формирования из %(highlightStart)s2–5%(highlightEnd)s игроков для совместной
-игры в событии «Дорога на Берлин».}
-[header/eventSquad/header]::{Взвод «Дорога на Берлин»}
+[header/eventSquad/body]::{Создание формирования из 2-3 игроков для совместной игры в Случайных боях.
+• Типы боёв: Стандартный бой, Штурм, Встречный бой.}
+[header/eventSquad/header]::{Взвод}
 [header/info/players_online_full/body]::{Общее количество игроков
 на сервере «%(servername)s» / всего игроков на серверах региона.}
 [header/info/players_online_full/header]::{Игроки в сети}
@@ -1719,10 +1729,10 @@ Content-Transfer-Encoding: 8bit
 [header/rankedSquad/header]::{Создать взвод}
 [header/refill_action/attention]::{При первой покупке вы бесплатно получите
 дополнительное золото.}
-[header/squad/body]::{Создание формирования из %(highlightStart)s2-3%(highlightEnd)s игроков для совместной игры в Случайных боях.
-• Типы боёв: Стандартный бой, Штурм, Встречный бой, Генеральное сражение, а также Линия фронта, когда она доступна.}
+[header/squad/body]::{Создание формирования из 2–3 игроков для совместной игры в Случайных боях.
+• Типы боёв: Стандартный бой, Штурм, Встречный бой, Генеральное сражение, а также Линия фронта, когда она доступна.}
 [header/squad/header]::{Взвод}
-[header/squad_member/body]::{Нажмите, чтобы открыть список доступных режимов игры во взводе.}
+[header/squad_member/body]::{Нажмите, чтобы перейти в меню взвода.}
 [header/squad_member/header]::{Взвод}
 [header/versionInfoHint]::{Вы всегда можете попасть в Полевую почту
 из игрового меню в Ангаре.}
@@ -1840,7 +1850,6 @@ Content-Transfer-Encoding: 8bit
 [missions/token/quest]::{• %(name)s}
 [missions/token/quests/multiple]::{Награда за выполнение боевых задач:}
 [missions/token/quests/single]::{Можно получить за выполнение боевой задачи «%(name)s»}
-[missions/token/secretEvent/header]::{%(name)s}
 [missions/tokenPopover/buyBtn/body]::{Нажмите, чтобы перейти в Премиум магазин для покупки марки. Игра будет свёрнута.}
 [missions/tokenPopover/buyBtn/header]::{Купить марку}
 [missions/tokenPopover/quest/body]::{Нажмите, чтобы перейти к описанию задачи и ознакомиться с условиями выполнения.}
@@ -1914,6 +1923,12 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/bob20_commander4_eu/label]::{?empty?}
 [notrecruitedtankman/bob20_commander4_ru/desc]::{Выдавался в награду во время события «Битва блогеров — 2020». У командира изучен «нулевой» навык «Шестое чувство» и может быть достаточно опыта для изучения дополнительных навыков или умений на выбор. Количество опыта зависит от места его команды по итогам события.}
 [notrecruitedtankman/bob20_commander4_ru/label]::{Битва блогеров — 2020}
+[notrecruitedtankman/bp-commander-1_1/desc]::{Целеустремлённая и упрямая. С детства хорошо знакома с особенностями боевого применения танков благодаря своему отцу, однако учиться пошла по стопам матери — в медицину. После завершения Академии некоторое время успешно трудилась в полевых госпиталях, но настояла на переводе в танковую часть, где теперь в полной мере раскрывает свой потенциал командира танка.}
+[notrecruitedtankman/bp-commander-1_1/howToGetInfo]::{?empty?}
+[notrecruitedtankman/bp-commander-1_1/label]::{Боевой пропуск, второй сезон}
+[notrecruitedtankman/bp-commander-1_2/desc]::{Опытный военный, холоден, расчётлив, непреклонен. За 20 лет карьеры прошёл множество конфликтов, заработал безоговорочное уважение сослуживцев. Любит красиво побеждать, чтит устав и правила ведения боя, не терпит грязных приёмов. Благодаря исключительной эффективности о взводе Килмора уже ходят легенды. Заядлый сёрфингист, хранит свою доску как талисман.}
+[notrecruitedtankman/bp-commander-1_2/howToGetInfo]::{?empty?}
+[notrecruitedtankman/bp-commander-1_2/label]::{Боевой пропуск, второй сезон}
 [notrecruitedtankman/buffon/desc]::{Выдавался за выполнение определённых условий в футбольном режиме 2018 года. Легендарный итальянский вратарь Джанлуиджи Буффон — командир экипажа с уникальной озвучкой и изученными навыками.}
 [notrecruitedtankman/buffon/label]::{Футбольный режим}
 [notrecruitedtankman/commander_bp1/desc]::{Исключительно темпераментный военный со сложным импульсивным характером, который фактически родился и вырос в танковой части. Несмотря на средние теоретические знания, прекрасно чувствует себя в любой боевой ситуации за счёт звериного чутья и хорошо развитой интуиции. Отличается нестандартным тактическим мышлением, что зачастую играет ему на руку в бою.}
@@ -2235,54 +2250,9 @@ Content-Transfer-Encoding: 8bit
 [quests/bonuses/token/battle_bonus_x5/body]::{Возможность получить в пять раз больше опыта за бой, начиная со второго боя в день на любой машине.}
 [quests/bonuses/token/battle_bonus_x5/header]::{Задача на x5 к опыту за бой}
 [quests/bonuses/token/body]::{Данная марка — наградной элемент, необходимый для выполнения определённой боевой задачи.}
-[quests/bonuses/token/body/event_discount]::{Особая игровая валюта события «Дорога на Берлин». Жетоны можно обменять на %(highlightStart)sприказы «На штурм!»%(highlightEnd)s, которые позволяют получать увеличенное в %(highlightStart)sx15%(highlightEnd)s раз количество опыта подразделений и очков победы за бой.}
-[quests/bonuses/token/body/se_energy]::{Особые приказы события «Дорога на Берлин», необходимые для получения увеличенного количества опыта подразделений и очков победы за бой.}
 [quests/bonuses/token/header]::{Марка %(userName)s}
-[quests/bonuses/token/header/se20_energy_general_0_x1]::{Приказ «На штурм!» x1 для Зверобоев}
-[quests/bonuses/token/header/se20_energy_general_0_x10]::{Приказ «На штурм!» x10 для Зверобоев}
-[quests/bonuses/token/header/se20_energy_general_0_x10_premium]::{Приказ «На штурм!» x10 для Зверобоев}
-[quests/bonuses/token/header/se20_energy_general_0_x15]::{Приказ «На штурм!» x15 для Зверобоев}
-[quests/bonuses/token/header/se20_energy_general_0_x5]::{Приказ «На штурм!» x5 для Зверобоев}
-[quests/bonuses/token/header/se20_energy_general_1_x1]::{Приказ «На штурм!» x1 для Железной роты}
-[quests/bonuses/token/header/se20_energy_general_1_x10]::{Приказ «На штурм!» x10 для Железной роты}
-[quests/bonuses/token/header/se20_energy_general_1_x10_premium]::{Приказ «На штурм!» x10 для Железной роты}
-[quests/bonuses/token/header/se20_energy_general_1_x15]::{Приказ «На штурм!» x15 для Железной роты}
-[quests/bonuses/token/header/se20_energy_general_1_x5]::{Приказ «На штурм!» x5 для Железной роты}
-[quests/bonuses/token/header/se20_energy_general_2_x1]::{Приказ «На штурм!» x1 для Крылатого отряда}
-[quests/bonuses/token/header/se20_energy_general_2_x10]::{Приказ «На штурм!» x10 для Крылатого отряда}
-[quests/bonuses/token/header/se20_energy_general_2_x10_premium]::{Приказ «На штурм!» x10 для Крылатого отряда}
-[quests/bonuses/token/header/se20_energy_general_2_x15]::{Приказ «На штурм!» x15 для Крылатого отряда}
-[quests/bonuses/token/header/se20_energy_general_2_x5]::{Приказ «На штурм!» x5 для Крылатого отряда}
-[quests/bonuses/token/header/se20_energy_general_3_x1]::{Приказ «На штурм!» x1 для 1-го батальона}
-[quests/bonuses/token/header/se20_energy_general_3_x10]::{Приказ «На штурм!» x10 для 1-го батальона}
-[quests/bonuses/token/header/se20_energy_general_3_x10_premium]::{Приказ «На штурм!» x10 для 1-го батальона}
-[quests/bonuses/token/header/se20_energy_general_3_x15]::{Приказ «На штурм!» x15 для 1-го батальона}
-[quests/bonuses/token/header/se20_energy_general_3_x5]::{Приказ «На штурм!» x5 для 1-го батальона}
-[quests/bonuses/token/header/se20_energy_general_4_x1]::{Приказ «На штурм!» x1 для 48-го полка}
-[quests/bonuses/token/header/se20_energy_general_4_x10]::{Приказ «На штурм!» x10 для 48-го полка}
-[quests/bonuses/token/header/se20_energy_general_4_x10_premium]::{Приказ «На штурм!» x10 для 48-го полка}
-[quests/bonuses/token/header/se20_energy_general_4_x15]::{Приказ «На штурм!» x15 для 48-го полка}
-[quests/bonuses/token/header/se20_energy_general_4_x5]::{Приказ «На штурм!» x5 для 48-го полка}
-[quests/bonuses/token/header/se20_energy_general_x15_discount]::{Жетон «Дорога на Берлин»}
-[quests/bonuses/token/howToGet/se_energy]::{Как получить}
-[quests/bonuses/token/howToGetVariants/se_energy_x10]::{Приказы на %(highlightStart)sx10%(highlightEnd)s очков можно купить в специальных наборах Премиум магазина.}
-[quests/bonuses/token/howToGetVariants/se_energy_x15]::{Приказы на %(highlightStart)sx15%(highlightEnd)s очков выдаются в обмен на жетоны, полученные за выполнение боевых задач в Случайных боях.}
-[quests/bonuses/token/howToGetVariants/se_energy_x5]::{Один приказ на %(highlightStart)sx5%(highlightEnd)s очков начисляется раз в сутки для каждого из подразделений, если приказ, имеющийся в наличии, был использован.}
-[quests/bonuses/token/se20_front_1_event_points/additionalInfo]::{Наибольшее количество очков победы начисляется в боях на карте %(highlight_open)s«Берлин»%(highlight_close)s, доступ к которой открывается<br/>%(color_open)s9 мая%(color_close)s при игре подразделениями %(highlight_open)sIII%(highlight_close)s уровня.}
-[quests/bonuses/token/se20_front_1_event_points/body]::{Особая награда, которую вы получаете за выполнение задач в бою. Чем выше уровень подразделения, которое вы бросаете в бой, тем больше очков победы вы получите в награду.}
-[quests/bonuses/token/se20_front_1_event_points/header]::{Очки победы}
-[quests/bonuses/token/se20_front_1_event_points/howToGet]::{Как получить}
-[quests/bonuses/token/se20_front_1_event_points/howToGetVariants]::{Очки победы начисляются за полезные действия в бою:<br/>• уничтожение противника;<br/>• отражение контрнаступлений;<br/>• уничтожение командиров противника.}
-[quests/bonuses/token/se20_tank_discount/body]::{Скидка на покупку советского тяжёлого премиум танка
-VII уровня %(color_tag_open)sИС-2 экранированный%(color_tag_close)s.}
-[quests/bonuses/token/se20_tank_discount/header]::{Скидка на покупку техники %(color_tag_open)s%(percent)s%%%(color_tag_close)s}
-[quests/bonuses/token/se_energy/applied]::{Бонус применён}
-[quests/bonuses/token/se_energy/ended]::{Бонус не применён,<br/>приказы «На штурм!» закончились}
-[quests/bonuses/token/se_energy/in_storage]::{В наличии}
-[quests/bonuses/token/se_energy/not_in_storage]::{Нет в наличии}
-[quests/bonuses/token/se_energy/points]::{%(highlight_open)s+%(points)s%(highlight_close)s очков за бой с приказом «На штурм!»}
-[quests/bonuses/token/se_energy/specialConditions]::{Обратите внимание!}
-[quests/bonuses/token/se_energy/will_be_applied]::{Приказ будет применён в конце боя}
+[quests/bonuses/token/resource/clan_promoresource/body]::{Ресурс для развития Укрепрайона и подготовки клановых резервов. Заработать промресурс можно в Вылазках, Наступлениях, Случайных боях (на технике X уровня) или в Ранговых боях.}
+[quests/bonuses/token/resource/clan_promoresource/header]::{Промресурс}
 [quests/complete/personal/progressDaily/body]::{Боевая задача выполнена: %(count)s
 Всего осталось выполнений задачи: %(totalCount)s 
 
@@ -2305,6 +2275,8 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [quests/disableLinkBtn/task]::{Для возможности перехода к боевой задаче, снимите флажок «Скрывать выполненные».}
 [quests/igr]::{Боевая задача доступна только в премиум IGR}
 [quests/linkBtn/battlePass]::{К прогрессии Боевого пропуска}
+[quests/linkBtn/customizationProgression/disabled]::{В настоящий момент подробная информация недоступна.}
+[quests/linkBtn/customizationProgression/enabled]::{Нажмите, чтобы перейти к подробной информации.}
 [quests/linkBtn/task]::{Перейти к данной боевой задаче}
 [quests/newLabel/action]::{Новая акция}
 [quests/newLabel/task]::{Новая боевая задача}
@@ -2328,6 +2300,8 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [quests/seasonAward/title]::{%(name)s}
 [quests/seasonAward/tokens/description]::{%(icon)s Наградной лист — уникальный документ.
 Выдаётся за выполнение завершающей задачи каждой ветки и/или дополнительного условия к ней. Автоматически обменивается на награду.}
+[quests/status/customizationProgression/done]::{Достигнут %(level)s уровень декали «%(name)s»}
+[quests/status/customizationProgression/doneFirst]::{Получена декаль «%(name)s»}
 [quests/status/done]::{Боевая задача выполнена}
 [quests/status/notDone]::{Не выполнено}
 [quests/status/notready]::{Боевая задача недоступна}
@@ -2336,7 +2310,7 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [quests/unavailable/disabled/header]::{Недоступно}
 [quests/unavailable/requirement/header]::{Требования}
 [quests/unavailable/time/statusTooltip]::{Задача будет доступна:}
-[quests/unavailable/token]::{Собрать марку %(tokenName)s в количестве %(count)d}
+[quests/unavailable/token]::{Собрать марку «%(tokenName)s» в количестве %(count)d}
 [quests/unavailable/vehicle/body]::{Список подходящей техники можно посмотреть в окне подробного описания боевой задачи.}
 [quests/unavailable/vehicle/header]::{Нет подходящей техники}
 [quests/vehicleSeasonAward/aboutBtn/body]::{Нажмите, чтобы открыть окно информации и изучить ТТХ, историю создания и особенности данной машины.}
@@ -2361,9 +2335,9 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [ranked/widget/position/updateLabel]::{Пересчёт рейтинговых позиций происходит раз в 15 мин.}
 [rankedBattleView/rewardsView/tabs/year/scorePoint/body/exchangeText]::{ 
 После начисления награды оставшиеся жетоны компенсируются бонами по курсу %(points)s %(rankedImg)s к %(crystal)s %(crystalImg)s}
-[rankedBattleView/rewardsView/tabs/year/scorePoint/body/mainText]::{Начисляются за прохождение каждого дивизиона и попадание в Золотую лигу. Чем больше жетонов вы заработаете, тем более ценную награду получите по итогам года.}
+[rankedBattleView/rewardsView/tabs/year/scorePoint/body/mainText]::{Начисляются по завершении квалификации, при переходе из одного дивизиона в другой, а также при попадании в лиги. Чем больше жетонов вы заработаете, тем ценнее награду получите по итогам года.}
 [rankedBattleView/rewardsView/tabs/year/scorePoint/header]::{Ранговые жетоны}
-[rankedBattleView/scorePoint/body]::{Начисляются за прохождение дивизионов и попадание в Золотую лигу. Нужны для получения годовой награды в конце трёх сезонов. На странице с наградами можно ознакомиться с количеством необходимых очков и призами.}
+[rankedBattleView/scorePoint/body]::{Начисляются за прохождение квалификации и дивизионов, а также попадание в одну из лиг. Нужны для получения годовой награды в конце трёх сезонов. На странице с наградами можно ознакомиться с количеством необходимых очков и призами.}
 [rankedBattleView/scorePoint/header]::{Ранговые жетоны}
 [rankedBattleView/scorePoint/short/header]::{Ранговый жетон}
 [rankedBattleView/stats/battlesInLeague/body]::{Количество боёв, которые вы провели в рамках лиг.}
@@ -2452,109 +2426,9 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [researchPage/vehicle/status/parentModuleIsLocked/body]::{Исследуйте модули предыдущей машины, необходимые для доступа к этой машине.}
 [researchPage/vehicle/status/parentModuleIsLocked/header]::{Исследование недоступно}
 [researchPage/vehicle/status/parentModuleIsLocked/text]::{Исследуйте модули предыдущей машины, необходимые для доступа к этой машине.}
-[secret_event/banner/beforeBerlin]::{до штурма Берлина}
-[secret_event/banner/berlin]::{С %(highlightWinnerStart)s9 мая%(highlightWinnerEnd)s, помимо стандартных карт, на которых проводятся бои, при игре подразделениями %(highlightStart)sIII%(highlightEnd)s уровня открывается доступ к новой карте — %(highlightStart)s«Берлин»%(highlightEnd)s.}
-[secret_event/banner/description]::{Игровое событие, приуроченное к Берлинской наступательной операции 16 апреля — 8 мая 1945 года, когда советские войска провели стратегическое наступление, целью которого был разгром основных сил немецких групп, взятие Берлина и выход к реке Эльбе для соединения с войсками союзников.}
-[secret_event/banner/footer]::{Событие продлится до %(date)s.}
-[secret_event/banner/have]::{В наличии}
-[secret_event/banner/header]::{Дорога на Берлин}
-[secret_event/banner/timeLeft/days]::{%(day)s д}
-[secret_event/banner/timeLeft/hours]::{%(hour)s ч %(min)s мин}
-[secret_event/banner/timeLeft/lessMin]::{1 мин}
-[secret_event/banner/timeLeft/min]::{%(min)s мин}
-[secret_event/generalInfoTip/click]::{Нажмите, чтобы перейти к подразделениям.}
-[secret_event/generalInfoTip/description/0]::{Ударная мощь советских противотанковых самоходок. Плюсы: разовый урон и бронепробитие.}
-[secret_event/generalInfoTip/description/1]::{Отряд советских тяжёлых танков. Плюсы: высокая прочность и разовый урон.}
-[secret_event/generalInfoTip/description/2]::{Взвод советских средних танков. Плюсы: мобильность и точность стрельбы.}
-[secret_event/generalInfoTip/description/3]::{Мастера манёвров и атак с флангов. Плюсы: мобильность и скорострельность.}
-[secret_event/generalInfoTip/description/4]::{Штурмовой кулак британских тяжёлых танков. Плюсы: бронирование и скорострельность.}
-[secret_event/generalInfoTip/fastinfo/description]::{%(icon) %(order), доступные в событии «Дорога на Берлин», позволяют увеличить получаемое количество опыта подразделений и очков победы за бой в %(x5), %(x10) и %(x15) раз.}
-[secret_event/generalInfoTip/fastinfo/order]::{Приказы «На штурм!»}
-[secret_event/generalInfoTip/fastinfo/title]::{Как ускорить получение опыта подразделения}
-[secret_event/generalInfoTip/fastinfo/x10]::{x10}
-[secret_event/generalInfoTip/fastinfo/x15]::{x15}
-[secret_event/generalInfoTip/fastinfo/x5]::{x5}
-[secret_event/generalInfoTip/howGet]::{Как получить опыт подразделения}
-[secret_event/generalInfoTip/info/blocking]::{• блокирование урона.}
-[secret_event/generalInfoTip/info/damage]::{• нанесение урона;}
-[secret_event/generalInfoTip/info/desc]::{Подразделение получает больше очков, если вы совершаете %(useful) действия в бою:}
-[secret_event/generalInfoTip/info/help]::{• помощь в уничтожении;}
-[secret_event/generalInfoTip/info/kill]::{• уничтожение противника;}
-[secret_event/generalInfoTip/info/useful]::{полезные для команды}
-[secret_event/generalInfoTip/level]::{уровень подразделения}
-[secret_event/generalInfoTip/lvl]::{%(level)s ур.}
-[secret_event/generalInfoTip/points/title]::{Опыт подразделения:}
-[secret_event/generalInfoTip/skills/info]::{%(info) Повышайте уровень подразделения, чтобы получить доступ к новым боевым способностям.}
-[secret_event/generalInfoTip/skills/title]::{Боевые способности:}
-[secret_event/generalInfoTip/vehicles/info]::{%(info) Повышайте уровень подразделения, чтобы получить более мощные машины.}
-[secret_event/generalInfoTip/vehicles/title]::{Техника:}
-[secret_event/hangar/header/quests/header]::{Задачи события
-«Дорога на Берлин»: %(count)d}
-[secret_event/hangar/interactiveObject/hangarAutomobile1/desc]::{В 1929 году с компанией «Форд» было заключено соглашение об организации массового производства легковых автомобилей типа Ford-А и грузовых автомобилей типа Ford-АА. Фактически, ГАЗ-АА является копией американского грузовика. Первые 72 000 были собраны из американских машинокомплектов. К 1933 производство было полностью освоено, и импортные комплектующие стали не нужны. В 1938 машина прошла модернизацию и получила название ГАЗ-ММ. Прозвище «полуторка» машина получила из-за своей грузоподъемности — 1,5 тонны. К началу Великой Отечественной войны в рядах РККА числилось 151 100 таких машин.}
-[secret_event/hangar/interactiveObject/hangarAutomobile1/phase2/desc]::{Вскоре после начала войны из-за недостатка тонкой холоднокатанной стали и ряда комплектующих, поставлявшихся сторонними предприятиями, ГАЗ вынужден был перейти на выпуск упрощённого военного грузовика ГАЗ-ММ-В. У машины были неоткидные боковые борта, двери заменены треугольными боковыми загородками и сворачиваемыми брезентовыми шторками, крылья выполнены из кровельного железа методом простой гибки, отсутствовали тормоза на передних колёсах. Была оставлена только одна фара головного света. В 1944 году довоенная комплектация была частично восстановлена.}
-[secret_event/hangar/interactiveObject/hangarAutomobile1/phase2/title]::{Полуторка}
-[secret_event/hangar/interactiveObject/hangarAutomobile1/title]::{Полуторка}
-[secret_event/hangar/interactiveObject/hangarBerlinSign/desc]::{Стратегическая наступательная операция войск Красной армии, целью которой было уничтожение Берлинской группировки немецких войск и взятие столицы Германии — Берлина. Проводилась с 16 апреля по 8 мая 1945 года. С советской стороны в ней приняло участие 2,35 миллиона человек, 6250 танков, более 7500 самолётов. Помимо советских войск в операции приняли участие 1-я и 2-я армии Войска Польского. С немецкой стороны участвовало до 1 миллиона человек, 1519 танков и САУ, 2224 самолета. В обороне Берлина принимали участие добровольцы из стран Скандинавии, Бенилюкса и Франции.}
-[secret_event/hangar/interactiveObject/hangarBerlinSign/phase2/desc]::{Первые уличные бои завязались 22 апреля. К 25 апреля город был полностью окружён. Непосредственно в штурме участвовало до полумиллиона советских солдат и офицеров при поддержке более 2000 орудий и 1500 танков. Им противостояли около 150 000 человек берлинского гарнизона и отступивших в город частей с 3000 орудиями и миномётами, а также 50-60 танками и самоходками. В условиях городских боёв советская бронетехника несла тяжёлые потери — до 25% от всей матчасти. Вечером 30 апреля начались бои за здание рейхстага, которое взяли только в ночь на 2-е мая. Берлинский гарнизон сдался в тот же день.}
-[secret_event/hangar/interactiveObject/hangarBerlinSign/phase2/title]::{Штурм Берлина}
-[secret_event/hangar/interactiveObject/hangarBerlinSign/title]::{Берлинская наступательная операция}
-[secret_event/hangar/interactiveObject/hangarCat/desc]::{Несмотря на то, что кошки не «состояли на вооружении» РККА, они тоже внесли свой вклад в победу. Осенью 1941 года началась блокада Ленинграда, противник находился в считанных километрах от центра города. Когда начался голод, жители стали есть и кошек, которые к 1943 году были почти полностью истреблены. Появилась новая проблема – крысы. Они стали терроризировать продовольственные склады и тем самым представляли реальную угрозу обороноспособности города. Из Ярославской области было доставлено 4 вагона с котами и кошками, для этого как отлавливали бездомных животных, так и сдавали домашних.}
-[secret_event/hangar/interactiveObject/hangarCat/phase2/desc]::{Для окончательного устранения проблемы c крысиным нашествием в Ленинграде уже после прорыва блокады в январе 1944 года была проведена очередная «кошачья мобилизация», на этот раз уже в Сибири. Из Тюмени, Омска и Иркутска прибыло более 5000 «истребителей» крыс. В память о хвостатых героях на Малой Садовой улице установили скульптуры кота Елисея и кошки Василисы. Василиса прогуливается по карнизу второго этажа дома №3, а Елисей сидит напротив и наблюдает за прохожими. Считается, что к человеку, который сможет забросить монетку на небольшой постамент к коту, придет удача.}
-[secret_event/hangar/interactiveObject/hangarCat/phase2/title]::{Кошки}
-[secret_event/hangar/interactiveObject/hangarCat/title]::{Кошки}
-[secret_event/hangar/interactiveObject/hangarDog/desc]::{Собаки начали использоваться военными задолго до Второй мировой. В СССР решение о применении собак в военных целях было принято Реввоенсоветом в 1924 году. Использовались они, в основном, для разыскной, санитарной, ездовой, связной и караульной деятельностей, но наиболее необычным стало применение собак для уничтожения танков. В 1931-32 годах были проведены первые испытания, и в 1935 году собаки-истребители танков были «приняты на вооружение» РККА. Боевое применение началось осенью 1941 года. Немцы всерьёз их опасались и старались отстреливать всех собак в прифронтовой полосе.}
-[secret_event/hangar/interactiveObject/hangarDog/phase2/desc]::{Большую роль сыграли собаки при вывозе раненых с поля боя. Во время Демянской наступательной операции 15—28 февраля 1943 года ездовые собаки 53-й армии вывезли 7551 раненных, было подвезено 63 тонны боеприпасов. Они помогали разминировать минные поля и объекты после оставления их противником. Пёс Джульбарс был награждён медалью «За боевые заслуги». Он обнаружил 7468 мин и более 150 снарядов. Кроме этого, Джульбарс участвовал в разминировании дворцов Праги и Вены. За свой вклад служебные собаки были удостоены чести принять участие в Параде Победы на Красной площади 24 июня 1945 года.}
-[secret_event/hangar/interactiveObject/hangarDog/phase2/title]::{Служебные собаки}
-[secret_event/hangar/interactiveObject/hangarDog/title]::{Служебные собаки}
-[secret_event/hangar/interactiveObject/hangarGramophone/desc]::{Нажмите, чтобы остановить или запустить музыку.}
-[secret_event/hangar/interactiveObject/hangarGramophone/title]::{Граммофон}
-[secret_event/hangar/interactiveObject/hangarOfficer1/desc]::{Во все времена офицеры были «сердцем» и «мозгом» любой армии, от их решений зависела не только судьба вверенного им подразделения, но зачастую и исход битвы. Эти люди проходили длительные курсы обучения в специальных военных учреждениях, а знания, которые они черпали, нередко могли спасти жизни подчинённых солдат. Верно и обратное: ошибки командования могли крайне трагично повлиять на результат операции. Так как офицеры являлись ключевыми фигурами на поле боя, они всегда были желанной мишенью для вражеских снайперов.}
-[secret_event/hangar/interactiveObject/hangarOfficer1/phase2/desc]::{Офицеры, прошедшие войну (а некоторые и несколько), зачастую оставались служить и в мирное время, многие из них становились преподавателями знакомого им ремесла в военных академиях, некоторые же шли в науку, применяя полученный в боях опыт и знания на создание или совершенствование разных видов вооружения. Некоторые же навсегда снимали форму и старались перестроить привычный уклад жизни, освоив гражданскую профессию. Многие бывшие военные нашли себя в роли исторических консультантов в киниматографе, литературе и т.д.}
-[secret_event/hangar/interactiveObject/hangarOfficer1/phase2/title]::{Офицер после войны}
-[secret_event/hangar/interactiveObject/hangarOfficer1/title]::{Офицер на войне}
-[secret_event/hangar/interactiveObject/hangarPoster/desc]::{Являлся одним из самых важных жанров советского изобразительного искусства в период Великой Отечественной войны. Плакаты различались как по содержимому, так и по качеству исполнения, которое варьировалось от грубых карикатурных эскизов до настоящих детальных картин. Все они являлись отличным средством агитации и побуждали население к политической, трудовой или боевой деятельности. Текст на плакатах содержал как краткие, но броские призывы, так и целые стихотворения. Данный тип агитационных материалов был популярен во всех странах-участниках войны.}
-[secret_event/hangar/interactiveObject/hangarPoster/title]::{Агитационный плакат}
-[secret_event/hangar/interactiveObject/hangarPostmanBag/desc]::{Важная составляющая жизни военнослужащих, а также их родных, оставшихся в тылу. Зачастую письма были единственной ниточкой, соединявшей судьбы людей в годы войны. И порой это было всем, что оставалось на память о близком человеке. Чтобы понимать объёмы обработанных почтовых отправлений, приведём пример: только через военно-почтовую связь Центрального фронта в июле 1943 года было получено и доставлено из тыла в армию — 10 396 000 писем, 3 196 950 газет и журналов, 6723 посылки; из армии в тыл — 4 127 000 писем, 2885 посылок.}
-[secret_event/hangar/interactiveObject/hangarPostmanBag/phase2/desc]::{Для доставки почты порой использовались все мыслимые и немыслимые способы. Например, в Севастополь письма приходили на подводных лодках. Нередко письма, отправленные на фронт, не сразу находили адресатов: солдат мог быть переведён в другую часть или попасть в госпиталь. В таком случае каждый раз на письме проставляли новый адрес. Некоторые такие переадресованные письма исчезали на долгое время, находя адресата уже через годы после войны.}
-[secret_event/hangar/interactiveObject/hangarPostmanBag/phase2/title]::{Полевая почта}
-[secret_event/hangar/interactiveObject/hangarPostmanBag/title]::{Полевая почта}
-[secret_event/hangar/interactiveObject/hangarRecruit/desc]::{Для поддержания вооружённых сил в боеготовном состоянии, во многих странах мира проводится регулярный призыв молодёжи (или в случае идущей войны — любого боеспособного населения) на воинскую службу. Люди шли служить как по законодательно установленным правилам набора, так и добровольно. Ярким примером тотальной мобилизации является как раз Вторая мировая война, во время которой «под ружьё» встало огромное количество как новобранцев, так и профессиональных военных и резервистов из 57 стран по всему миру.}
-[secret_event/hangar/interactiveObject/hangarRecruit/phase2/desc]::{Во время Второй мировой для привлечения молодёжи на службу использовались разные методы. Одним из самых действенных было производство и тиражирование агитационных плакатов, распостранённых в разной форме у многих стран-участниц. Большой вклад в рекрутирование сыграли набирающие обороты средства массовой информации: газеты и радио, откуда шли призывы к населению исполнить свой гражданский долг. Многим людям это было не нужно: они шли на фронт добровольно.}
-[secret_event/hangar/interactiveObject/hangarRecruit/phase2/title]::{Новобранец}
-[secret_event/hangar/interactiveObject/hangarRecruit/title]::{Новобранец}
-[secret_event/hangar/interactiveObject/hangarSoldier/desc]::{Пехота — основной род сухопутных войск, предназначалась для ведения боевых действий «на своих двоих», в пешем порядке. Позднее на помощь солдатам пришли боевые машины, так появилась моторизированная пехота. С этим нововведением существенно возросла мобильность и свобода манёвра. Во всех армиях мира существует множество тактик применения пехоты, форм построения, а также привлекаемых вспомогательных сил в зависимости от тактической задачи. Во время войны в пехоту мог попасть практически любой, относительно других родов войск пехотинцы имели самую быструю подготовку.}
-[secret_event/hangar/interactiveObject/hangarSoldier/phase2/desc]::{Эта важная должность зародилась ещё при Александре Великом, однако первые военные корреспонденты-профессионалы появились только во время Крымской войны 1853-56 годов. Целью этих людей всегда был сбор информации об обстановке на фронтах, фиксация этих сведений и последующая передача в тыл. Большинству сохранившейся хроники Второй мировой войны мы обязаны как раз этим бесстрашным людям, которые выполняли свой долг на передовой, сменив винтовку на фото- или кинокамеру, а также верный блокнот для пометок. После войны фронтовые корреспонденты нередко посвящали себя кино и литературе.}
-[secret_event/hangar/interactiveObject/hangarSoldier/phase2/title]::{Человек на войне: военкор}
-[secret_event/hangar/interactiveObject/hangarSoldier/title]::{Человек на войне: пехотинец}
-[secret_event/hangar/interactiveObject/hangarTank1/desc]::{«Королевский тигр» не произвёл такого впечатления на РККА, как «Тигр» или «Фердинанд». Да и дебют на Восточном фронте оказался совсем неудачным. Однако на Западном фронте эти танки сумели заметно потрепать войска союзников. В первом же бою в районе Кана машинам 503-го батальона удалось подбить 12 британских «Шерманов», которые заметно проигрывали и по вооружению, и по бронезащите. «Королевские тигры» сражались до самого конца войны, одна из последних уничтоженных в бою машин погибла в Берлине 2 мая 1945 года в районе моста Шпандау.}
-[secret_event/hangar/interactiveObject/hangarTank1/title]::{Королевский тигр}
-[secret_event/hangar/interactiveObject/hangarTank2/desc]::{Считается лучшим немецким истребителем танков периода Второй Мировой войны. Несмотря на то, что «Ягдпантеры» не оказали заметного влияния на ход боевых действий, их мощные вооружение и бронезащита делали эту САУ грозным и очень опасным противником. Впервые эти машины были применены в Нормандии летом 1944. 30 июля 1944 года под Комоном две «Ягдпантеры» из 654-го батальона тяжёлых истребителей танков за несколько минут расстреляли 11 (по другим данным 14) танков «Черчилль» из 6-й Гвардейской танковой бригады. За весь июль батальон уничтожил 25 танков противника, потеряв только 3 своих.}
-[secret_event/hangar/interactiveObject/hangarTank2/title]::{Ягдпантера}
-[secret_event/hangar/interactiveObject/hangarTank3/desc]::{В войска поступило всего 90 этих машин, но они произвели настолько сильное впечатление, что едва ли не любая немецкая самоходка в боевых донесениях, воспоминаниях, художественной литературе или кинематографе стала именоваться «Фердинандом». 88-мм орудие и непревзойденная бронезащита сделала эту машину легендарной. Большие потери самоходок были вызваны в основном неправильным тактическим применением: из 35 безвозвратно потерянных на Курской дуге машин лишь две имели пробития брони. На Восточном фронте было потеряно 43 машины, остальные же прошли модернизацию и отправились на Западный фронт.}
-[secret_event/hangar/interactiveObject/hangarTank3/title]::{Фердинанд}
-[secret_event/hangar/interactiveObject/phonograph/desc]::{%(infoIcon) Нажмите, чтобы сменить или выключить музыку.}
-[secret_event/hangar/interactiveObject/phonograph/title]::{Граммофон}
-[secret_event/herotank/body]::{На протяжении 14 дней участвуйте в игровом событии «Дорога на Берлин» и пройдите как минимум 4 этапа спецзадания из 5, чтобы %(e9e2bf_Open)sбесплатно%(e9e2bf_Close)s получить советский тяжёлый премиум танк VII уровня %(ffc363_Open)sИС-2 экранированный%(ffc363_Close)s.%(indentation)sНе успели пройти все этапы? Машину можно купить %(e9e2bf_Open)sсо скидкой%(e9e2bf_Close)s, которая увеличивается на %(e9e2bf_Open)s25%%%(e9e2bf_Close)s за каждый пройденный этап, вплоть до %(e9e2bf_Open)s100%%%(e9e2bf_Close)s.}
-[secret_event/herotank/footer]::{%(info_icon)s Событие будет доступно до %(date)s.}
-[secret_event/herotank/title]::{ИС-2 экранированный}
-[secret_event/passiveAbility]::{Пассивная особенность}
-[secret_event/progressionInfo/click]::{Нажмите, чтобы перейти к спецзаданию.}
-[secret_event/progressionInfo/desc]::{За выполнение задач в бою вы получаете %(highlight_open)sочки победы%(highlight_close)s. Чем выше уровень подразделения, на котором вы выходите в бой, тем сильнее противник и тем больше очков вы получаете в награду. Наибольшее количество очков победы выдаётся при игре на карте %(highlight_open)s«Берлин»%(highlight_close)s.}
-[secret_event/progressionInfo/info]::{Зарабатывая очки победы в бою, проходите 5 этапов спецзадания и получайте награду по итогам события.}
-[secret_event/progressionInfo/title]::{Спецзадание}
-[secret_event/respawnAbility/body]::{После уничтожения техника возрождается на безопасной территории. Количество возрождений ограничено.}
-[secret_event/respawnAbility/title/body]::{В начале боя у каждого игрока есть три одинаковые машины для возрождения.
-
-Успешное выполнение командой задач в бою увеличивает количество возрождений на одно и возрождает игроков, ожидающих в бою, но исчерпавших все свои возрождения.}
-[secret_event/respawnAbility/title/header]::{Зов долга}
-[secret_event/squadInfo/body]::{Улучшение подразделения будет происходить быстрее, если вы совершаете %(colorTagOpen)sполезные для команды%(colorTagClose)s действия в бою:
-• уничтожение противника;
-• нанесение урона;
-• помощь в уничтожении;
-• блокирование урона.}
-[secret_event/squadInfo/footer]::{Чем выше уровень подразделения, на котором вы выходите в бой, тем сильнее противник, а награда в виде опыта подразделений и очков победы возрастает. Наибольшее количество очков победы выдаётся при игре на карте %(colorTagOpen)s«Берлин»%(colorTagClose)s.}
-[secret_event/squadInfo/newLevel]::{Как получить новый уровень}
-[secret_event/squadInfo/title]::{Соединение из %(colorTagOpen)sтрёх%(colorTagClose)s одинаковых машин, которое вы можете выбрать для выхода в бой. Вы управляете одной машиной, но в случае уничтожения у вас останутся ещё %(colorTagOpen)sдве машины в резерве%(colorTagClose)s.}
+[roleExp/status/footer]::{Успешная реализация ролевого потенциала машины будет отмечаться %(expInfo) в информировании о событиях в бою.}
+[roleExp/status/footerExp]::{иконкой опыта}
+[roleExp/status/roleActions/title]::{Дополнительный опыт за:}
 [selectedVehicle/header]::{Выбранная машина}
 [seniorityAwards/additional/tooltip/header]::{Вы также получите:}
 [seniorityAwards/hangarEntryPoint/tooltip/body]::{Ящики с заслуженной наградой — в подарок за выслугу лет! Открывайте и забирайте содержимое.}
@@ -2659,7 +2533,7 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [skills/brotherhood/header]::{Боевое братство}
 [skills/camouflage/descr]::{Увеличивает незаметность машины. Эффект усиливается при наличии камуфляжа (для соответствующего типа карт), в сочетании с оборудованием «Маскировочная сеть», а также при наличии предбоевой инструкции «Укрытия на местности».}
 [skills/camouflage/header]::{Маскировка}
-[skills/commander_eagleEye/descr]::{Увеличивает максимальную дальность обзора. При неисправных приборах наблюдения эффективность умения выше. Эффект увеличивается в сочетании с умением «Радиоперехват», оборудованием «Просветлённая оптика», «Юстированная оптика» и «Стереотруба».}
+[skills/commander_eagleEye/descr]::{Увеличивает максимальную дальность обзора. При неисправных приборах наблюдения эффективность умения выше. Эффект увеличивается в сочетании с умением «Радиоперехват», оборудованием «Просветлённая оптика», «Юстированная оптика», «Трофейная оптика», а также «Стереотруба».}
 [skills/commander_eagleEye/header]::{Орлиный глаз}
 [skills/driver_badRoadsKing/descr]::{Снижает сопротивление средних и вязких грунтов при движении машины. Умение повышает манёвренность и уменьшает время набора максимальной скорости. Эффект усиливается в сочетании с оборудованием «Дополнительные грунтозацепы».}
 [skills/driver_badRoadsKing/header]::{Король бездорожья}
@@ -2672,7 +2546,7 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [skills/forRole/loader]::{заряжающим}
 [skills/forRole/radioman]::{радистом}
 [skills/newPerk/header]::{Дополнительное умение или навык на выбор}
-[skills/radioman_finder/descr]::{Увеличивает максимальную дальность обзора. Эффект увеличивается в сочетании с умением «Орлиный глаз», оборудованием «Просветлённая оптика», «Юстированная оптика» и «Стереотруба».}
+[skills/radioman_finder/descr]::{Увеличивает максимальную дальность обзора. Эффект увеличивается в сочетании с умением «Орлиный глаз», оборудованием «Просветлённая оптика», «Юстированная оптика», «Трофейная оптика», а также «Стереотруба».}
 [skills/radioman_finder/header]::{Радиоперехват}
 [skills/radioman_inventor/descr]::{Увеличивает дальность связи радиостанции.}
 [skills/radioman_inventor/header]::{Изобретатель}
@@ -2707,8 +2581,8 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [squadWindow/buttons/btnNotReady/header]::{Не готов}
 [squadWindow/buttons/invite/body]::{Нажмите, чтобы пригласить игроков во взвод из вашего списка контактов.}
 [squadWindow/buttons/invite/header]::{Пригласить игроков}
-[squadWindow/buttons/leaveEventSquad/body]::{Нажмите, чтобы выйти из состава взвода.}
-[squadWindow/buttons/leaveEventSquad/header]::{Покинуть взвод}
+[squadWindow/buttons/leaveEventSquad/body]::{Нажмите, чтобы покинуть футбольный взвод.}
+[squadWindow/buttons/leaveEventSquad/header]::{Покинуть футбольный взвод}
 [squadWindow/buttons/leaveSquad/body]::{Нажмите, чтобы выйти из состава взвода.}
 [squadWindow/buttons/leaveSquad/header]::{Покинуть взвод}
 [squadWindow/buttons/recommend/body]::{Нажмите, чтобы рекомендовать игроков во взвод из вашего списка контактов.}
@@ -2721,20 +2595,8 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [squadWindow/domination/vehiclesInfoIcon/header]::{Состав группы}
 [squadWindow/event/domination]::{Взвод в событии «Превосходство: Стальная ярость» состоит из 3 игроков. Вся техника должна быть отремонтирована, иметь укомплектованный экипаж и полный боекомплект.}
 [squadWindow/event/domination/note]::{Машины: %(vehicles)s}
-[squadWindow/eventInfo/berlin/body]::{С %(winnerStart)s9 мая%(winnerEnd)s при игре подразделениями %(highlightStart)sIII%(highlightEnd)s уровня открывается доступ к карте более высокого уровня сложности — %(highlightStart)s«Берлин»%(highlightEnd)s.}
-[squadWindow/eventInfo/berlin/header]::{Берлин}
-[squadWindow/eventInfo/berlin/winnerDay]::{?empty?}
-[squadWindow/eventInfo/playInfo]::{Для игры на карте «Берлин» необходимо, чтобы у %(highlightStart)sкаждого%(highlightEnd)s из игроков взвода было выбрано подразделение %(highlightStart)sIII%(highlightEnd)s уровня.}
-[squadWindow/eventInfo/roadToBerlin/body]::{Бои проходят при участии подразделений %(highlightStart)sI–III%(highlightEnd)s уровней на картах:
-• «Одер»;
-• «Квельбург»;
-• «Западный вал».}
-[squadWindow/eventInfo/roadToBerlin/header]::{Дорога на Берлин}
-[squadWindow/eventVehicle]::{Подтвердите готовность выйти в бой}
+[squadWindow/eventVehicle]::{Для высадки на тёмной стороне Луны выберите %(tankName)s}
 [squadWindow/infoIcon/tech/body]::{Взвод должен состоять из машин одного уровня.}
-[squadWindow/infoIcon/tech/event/body]::{Взвод состоит из %(highlightStart)s2–5%(highlightEnd)s игроков, каждый из которых должен
-выбрать подразделение и подтвердить готовность.}
-[squadWindow/infoIcon/tech/event/header]::{Правила формирования взвода}
 [squadWindow/infoIcon/tech/header]::{Правила формирования взвода}
 [squadWindow/infoIcon/techRestrictions/body0]::{Только при игре на технике одного уровня каждый боец взвода получает дополнительный опыт по итогам боя.}
 [squadWindow/infoIcon/techRestrictions/body1]::{Если разница в уровнях техники не превышает 3, то взвод не получает дополнительный опыт, но и не штрафуется.}
@@ -2781,12 +2643,14 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [storage/filterCounter/closeButton/header]::{Установить по умолчанию}
 [storage/mainMenu/blueprints/body]::{Содержит фрагменты чертежей неисследованной техники, а также универсальные и национальные фрагменты.}
 [storage/mainMenu/blueprints/header]::{Чертежи неисследованной техники}
-[storage/mainMenu/customization/body]::{Содержит стили и камуфляжные схемы, которые не подходят ни к одной машине в Ангаре.}
+[storage/mainMenu/customization/body]::{Содержит стили, камуфляжные схемы и прочие элементы внешнего вида, которые не подходят ни к одной машине в Ангаре.}
 [storage/mainMenu/customization/header]::{Внешний вид}
 [storage/mainMenu/for_sell/body]::{Содержит модули и снаряды, не подходящие к вашей технике.}
 [storage/mainMenu/for_sell/header]::{Модули и снаряды на продажу}
 [storage/mainMenu/in_hangar/body]::{Содержит все машины, находящиеся в Ангаре.}
 [storage/mainMenu/in_hangar/header]::{Техника в Ангаре}
+[storage/mainMenu/offers/body]::{Содержит доступные вам предложения, в рамках которых вы можете выбрать и получить награду.}
+[storage/mainMenu/offers/header]::{Поставки из тыла}
 [storage/mainMenu/personal_reserves/body]::{Содержит личные резервы, позволяющие на время получить прибавку к заработку опыта или кредитов в боях.}
 [storage/mainMenu/personal_reserves/header]::{Личные резервы}
 [storage/mainMenu/storage/body]::{Содержит оборудование, снаряжение, предбоевые инструкции, демонтажные наборы, модули и снаряды, не установленные на имеющуюся технику, а также учебные материалы для экипажа.}
@@ -3017,7 +2881,6 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [vehicle/crew_award]::{Экипаж (%d%%)}
 [vehicle/dailyXPFactor]::{Опыт за первую победу в день}
 [vehicle/damage]::{<h1>Урон</h1> <h2>(hp)</h2>}
-[vehicle/deal/bob/main]::{Машина для режима «Схватка»}
 [vehicle/deal/epic/main]::{Машина для режима «Линия фронта»}
 [vehicle/deal/telecom/main/Twitchprime]::{Машина доступна игрокам с активной подпиской на Twitch Prime.}
 [vehicle/deal/telecom/main/default]::{Машина доступна абонентам тарифного плана «%(tariff)s» от %(provider)s.}
@@ -3076,11 +2939,12 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [vehicleParams/bonus/battleBooster/template]::{Инструкция «%(name)s»}
 [vehicleParams/bonus/extra/camouflageExtras]::{Камуфляж}
 [vehicleParams/bonus/inactiveDescription]::{Не действует без изученного навыка «%(skillName)s»}
+[vehicleParams/bonus/perk/template]::{Навык «%(name)s»}
 [vehicleParams/bonus/possible/isInactive]::{ (не действует)}
 [vehicleParams/bonus/possible/notInstalled]::{ (не установлено)}
 [vehicleParams/bonus/role/template]::{«%(name)s».}
 [vehicleParams/bonus/situational]::{Срабатывает при определённых ситуациях в бою.}
-[vehicleParams/bonus/skill/template]::{Навык «%(name)s»}
+[vehicleParams/bonus/skill/template]::{Умение «%(name)s»}
 [vehicleParams/bonus/tankmanLevel/commander]::{Показатель опытности командира}
 [vehicleParams/bonus/tankmanLevel/driver]::{Показатель опытности механика-водителя}
 [vehicleParams/bonus/tankmanLevel/gunner]::{Показатель опытности наводчика}
@@ -3118,7 +2982,7 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [vehiclePreview/boxTooltip/personalNumber/header]::{%(group)s «%(value)s»}
 [vehiclePreview/boxTooltip/projectionDecal/header]::{Декаль «%(value)s»}
 [vehiclePreview/boxTooltip/shell/header]::{Снаряд «%(value)s»}
-[vehiclePreview/boxTooltip/style/header]::{%(group)s стиль «%(value)s»}
+[vehiclePreview/boxTooltip/style/header]::{Стиль «%(value)s»}
 [vehiclePreview/buyButton/endTime/body]::{Закончился срок действия предложения}
 [vehiclePreview/buyButton/endTime/header]::{Предложение недоступно}
 [vehiclePreview/buyButton/notEnoughCredits/body]::{Заработайте их в бою, продайте излишки со Склада или обменяйте золото.}
@@ -3168,7 +3032,6 @@ VII уровня %(color_tag_open)sИС-2 экранированный%(color_ta
 [vehiclePreview/moduls/header]::{Модули}
 [vehiclePreview/modulsnoModules/body]::{У данной машины нет исследуемых модулей.}
 [vehiclePreview/modulsnoModules/header]::{Модули}
-[vehiclePreview/notEnough]::{Не хватает:}
 [vehiclePreview/shopPack/count]::{x{count}}
 [vehiclePreview/shopPack/dateTimeTooltip/body]::{Набор %(namePack)s доступен для покупки
 до %(date)s.}

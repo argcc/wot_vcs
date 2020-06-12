@@ -9,15 +9,20 @@ Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: 8bit
 }
 [alertMessage/allPeripheriesHalt]::{Комендантский час на всех серверах. Бои начнутся через %(time)s.}
-[alertMessage/button]::{Сменить сервер}
+[alertMessage/button/changeServer]::{Сменить сервер}
+[alertMessage/button/moreInfo]::{Подробнее}
 [alertMessage/seasonFinished]::{Сезон %(seasonName)s завершён}
 [alertMessage/singleModeHalt]::{Комендантский час на сервере. Бои начнутся через %(time)s.}
 [alertMessage/somePeripheriesHalt]::{Комендантский час на сервере %(serverName)s}
 [alertMessage/unsuitablePeriphery]::{Режим недоступен на сервере %(serverName)s}
-[awards/bonusBattles/body]::{За эффективность в предыдущем дивизионе (или в квалификации): %(divisionAmount)s
-За количество шевронов в квалификации: %(qualAmount)s}
+[alertMessage/unsuitableVehicles]::{В Ангаре нет подходящей техники %(levels)s уровня}
+[awards/bonusBattles/efficiency]::{Стандартных, за эффективность в завершённом этапе: %(amount)s}
 [awards/bonusBattles/header]::{Начислено призовых боёв:}
 [awards/bonusBattles/label]::{Начислены призовые бои: %(count)s}
+[awards/bonusBattles/steps/daily]::{ 
+Ежедневных, за количество шевронов в квалификации: %(amount)s}
+[awards/bonusBattles/steps/persistent]::{ 
+Стандартных, за количество шевронов в квалификации: %(amount)s}
 [awards/congratulation]::{Поздравляем!}
 [awards/gotDivision]::{Вы перешли в следующий дивизион}
 [awards/gotLeague]::{Вы достигли уровня лиг}
@@ -32,11 +37,16 @@ Content-Transfer-Encoding: 8bit
 [battleResult/rank/up]::{Получение ранга}
 [battleResult/winners]::{Победители}
 [battleResult/yes]::{Так точно!}
-[battleresult/bonusBattlesEarned]::{Начислено призовых боёв:}
-[battleresult/bonusBattlesEarned/text]::{За эффективность в предыдущем дивизионе (или в квалификации): %(divisionAmount)s
-За количество шевронов в квалификации: %(qualificationAmount)s}
-[battleresult/bonusBattlesUsed]::{. Проведён призовой бой
- }
+[battleresult/bonusBattlesEarned]::{ 
+
+Начислено призовых боёв:}
+[battleresult/bonusBattlesEarned/efficiency]::{ 
+Стандартных, за эффективность в завершённом этапе: %(amount)s}
+[battleresult/bonusBattlesEarned/steps/daily]::{ 
+Ежедневных, за количество шевронов в квалификации: %(amount)s}
+[battleresult/bonusBattlesEarned/steps/persistent]::{ 
+Стандартных, за количество шевронов в квалификации: %(amount)s}
+[battleresult/bonusBattlesUsed]::{. Проведён призовой бой.}
 [battleresult/divisionEarned]::{Новый 
 дивизион}
 [battleresult/first/inTop/lose]::{Вы заняли первое место по опыту среди игроков проигравшей команды}
@@ -94,6 +104,7 @@ Content-Transfer-Encoding: 8bit
 [calendarDay/time]::{%(start)s–%(end)s}
 [calendarDay/title]::{Расписание}
 [calendarStepsTooltip/title]::{Расписание этапов}
+[currentVehicleStatus/unsuitableToQueue]::{Не подходит для режима}
 [division/bronze]::{Третий дивизион}
 [division/classification]::{Квалификация}
 [division/gold]::{Первый дивизион}
@@ -162,6 +173,42 @@ Content-Transfer-Encoding: 8bit
 [primeTime/tooltip/server/unavailable/inTime]::{Бои станут доступны через %(time)s}
 [primeTimeAlertMessageBlock/message]::{Режим прекращения огня. Окончание через: %(time)s}
 [qualificationRewards/description]::{Награды за прохождение квалификации начисляются единожды после завершения последнего квалификационного боя.}
+[quests/detailed/allServersPrime]::{режим прекращения огня}
+[quests/detailed/notInLeagues]::{Сначала дойдите до лиг}
+[quests/detailed/seasonEnd/days]::{до конца сезона %(day)s д}
+[quests/detailed/seasonEnd/default]::{сезон скоро закончится}
+[quests/detailed/seasonEnd/hours]::{до конца сезона %(hour)s ч}
+[quests/detailed/seasonEnd/lessMin]::{до конца сезона менее минуты}
+[quests/detailed/seasonEnd/min]::{до конца сезона %(min)s мин}
+[quests/detailed/unavailableLabel]::{Недоступно:}
+[quests/tooltip/unavailable/body/allServersPrime]::{Задачи будут доступны для выполнения после завершения режима прекращения огня в Ранговых боях.}
+[quests/tooltip/unavailable/body/notInLeagues]::{Сначала дойдите до лиг}
+[quests/tooltip/unavailable/body/seasonEnd/days]::{До конца сезона %(day)s д}
+[quests/tooltip/unavailable/body/seasonEnd/default]::{Сезон скоро закончится}
+[quests/tooltip/unavailable/body/seasonEnd/hours]::{До конца сезона %(hour)s ч}
+[quests/tooltip/unavailable/body/seasonEnd/lessMin]::{До конца сезона менее минуты}
+[quests/tooltip/unavailable/body/seasonEnd/min]::{До конца сезона %(min)s мин}
+[quests/tooltip/unavailable/bottom]::{Выполнение недоступно}
+[quests/tooltip/unavailable/header/allServersPrime]::{Режим прекращения огня}
+[quests/tooltip/unavailable/header/notInLeagues]::{Не в лигах}
+[quests/tooltip/unavailable/header/seasonEnd]::{Завершение сезона}
+[questsTooltip/available]::{До конца сезона %(timeDelta)s}
+[questsTooltip/available/days]::{%(day)s д}
+[questsTooltip/available/hours]::{%(hour)s ч}
+[questsTooltip/available/lessMin]::{менее минуты}
+[questsTooltip/available/min]::{%(min)s мин}
+[questsTooltip/bottom]::{Ещё задач: %(number)d}
+[questsTooltip/cooldown/days]::{Новые задачи появятся через %(day)s д}
+[questsTooltip/cooldown/hours]::{Новые задачи появятся через %(hour)s ч}
+[questsTooltip/cooldown/lessMin]::{Новые задачи появятся через минуту}
+[questsTooltip/cooldown/min]::{Новые задачи появятся через %(min)s мин}
+[questsTooltip/header]::{Задачи Ранговых боёв}
+[questsTooltip/unavailable/allServersPrime]::{Недоступно: режим прекращения огня}
+[questsTooltip/unavailable/notInLeagues]::{Недоступно: сперва дойдите до лиг}
+[questsTooltip/unavailable/seasonEnd/days]::{Недоступно: до конца сезона %(day)s д}
+[questsTooltip/unavailable/seasonEnd/hours]::{Недоступно: до конца сезона %(hour)s ч}
+[questsTooltip/unavailable/seasonEnd/lessMin]::{Недоступно: до конца сезона менее минуты}
+[questsTooltip/unavailable/seasonEnd/min]::{Недоступно: до конца сезона %(min)s мин}
 [rankedAwards/awardsBlock/awardsHeaderTxt]::{Награда за достигнутые ранги}
 [rankedAwards/awardsBlock/crystal]::{Бон}
 [rankedAwards/awardsBlock/description]::{Ваш лучший ранг}
@@ -193,7 +240,7 @@ Content-Transfer-Encoding: 8bit
 [rankedBattleMainView/divisions/currentRank]::{Ваш ранг}
 [rankedBattleMainView/divisions/rank]::{Ранг %(rank)s}
 [rankedBattleMainView/emptyBubble]::{ }
-[rankedBattleMainView/infoPage/header]::{Техника Х уровня, ролевой опыт, призовые бои, прогресс по 3 дивизионам и игра в Лигах.}
+[rankedBattleMainView/infoPage/header]::{Техника Х уровня, ролевой опыт, призовые бои, прогресс по 3 дивизионам и игра в лигах.}
 [rankedBattleMainView/leaguesView/descr]::{Продолжайте зарабатывать шевроны и повышать эффективность игры, чтобы укрепить свою позицию в рейтинге.}
 [rankedBattleMainView/leaguesView/league1]::{Золотая лига}
 [rankedBattleMainView/leaguesView/league2]::{Серебряная лига}
@@ -269,8 +316,13 @@ Content-Transfer-Encoding: 8bit
 [rankedBattleView/statusBlock/statusText]::{Подведение итогов сезона через: }
 [rankedBattleView/title]::{Ранговый бой}
 [rankedBattlesBattleResults/animationCheckBoxLabel]::{Показывать анимацию}
-[rankedBattlesCarousel/lockedTooltip/body]::{Для режима «Ранговый бой» выберите машину X уровня.}
-[rankedBattlesCarousel/lockedTooltip/header]::{Не подходит}
+[rankedBattlesCarousel/lockedTooltip/vehClass/body]::{%(forbiddenClass)s не может участвовать в Ранговых боях.}
+[rankedBattlesCarousel/lockedTooltip/vehClass/header]::{Неподходящий тип техники}
+[rankedBattlesCarousel/lockedTooltip/vehLvl/body]::{Выберите %(levelSubStr)s для участия в Ранговых боях.}
+[rankedBattlesCarousel/lockedTooltip/vehLvl/header]::{Неподходящий уровень техники}
+[rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr]::{машину %(levels)s уровня}
+[rankedBattlesCarousel/lockedTooltip/vehType/body]::{На %(forbiddenType)s нельзя участвовать в Ранговых боях.}
+[rankedBattlesCarousel/lockedTooltip/vehType/header]::{Неподходящая машина}
 [rankedBattlesCyclesView/awardBlock/boxTooltip/body]::{Был получен в конце этапа и содержал ценные награды. Количество наград и их ценность зависели от позиции в ладдере.}
 [rankedBattlesCyclesView/awardBlock/boxTooltip/header]::{Контейнер с наградой}
 [rankedBattlesCyclesView/btnClose]::{ЗАКРЫТЬ}
@@ -304,11 +356,10 @@ Content-Transfer-Encoding: 8bit
 [rankedBattlesUnreachableView/bottom/premium/basic]::{Общий}
 [rankedBattlesUnreachableView/bottom/premium/plus]::{Танковый}
 [rankedBattlesUnreachableView/bottom/reserves]::{Активируйте личные резервы}
-[rankedBattlesUnreachableView/bottomText]::{Как быстрее получить технику {levels} уровня?}
+[rankedBattlesUnreachableView/bottomText]::{Как быстрее получить технику %(levels)s уровня?}
 [rankedBattlesUnreachableView/closeBtnLabel]::{ЗАКРЫТЬ}
 [rankedBattlesUnreachableView/subtitleText]::{Режим недоступен}
-[rankedBattlesUnreachableView/unreachableText]::{Режим недоступен:
-нужна техника {levels} уровня}
+[rankedBattlesUnreachableView/unreachableText]::{Для Ранговых боёв необходимо наличие в Ангаре подходящей техники %(levels)s уровня}
 [rankedBattlesViewHeader/tabs/current]::{За ранг}
 [rankedBattlesViewHeader/tabs/final]::{Финальные}
 [rankedBattlesWidget/bonusMultiplier]::{х%(count)s}

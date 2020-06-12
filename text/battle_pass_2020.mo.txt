@@ -18,9 +18,9 @@
 [battlePassAwardsView/header/bpPostTitle]::{БОЕВОЙ ПРОПУСК. ЭЛИТНАЯ ЧАСТЬ}
 [battlePassAwardsView/header/bpTitle]::{БОЕВОЙ ПРОПУСК}
 [battlePassAwardsView/mainReward/bpBuyAwardsCaption]::{Поздравляем! Теперь вы будете получать сразу базовые и улучшенные награды за каждый последующий этап.}
-[battlePassAwardsView/mainReward/commander]::{Командир: «{name}»}
-[battlePassAwardsView/mainReward/reward]::{Медаль: «{name}»}
-[battlePassAwardsView/mainReward/style]::{Трёхмерный стиль: «{name}»}
+[battlePassAwardsView/mainReward/commander]::{Член экипажа: {name}}
+[battlePassAwardsView/mainReward/reward]::{Медаль: {name}}
+[battlePassAwardsView/mainReward/style]::{Трёхмерный стиль: {name}}
 [battlePassBuyView/backBtnText/progression]::{К БОЕВОМУ ПРОПУСКУ}
 [battlePassBuyView/backBtnText/shop]::{В МАГАЗИН}
 [battlePassBuyView/btnBuy]::{Купить}
@@ -60,26 +60,34 @@
 [battlePassVoting/backBtnDescr]::{К БОЕВОМУ ПРОПУСКУ}
 [battlePassVoting/backBtnTextPreview]::{К НАГРАДАМ}
 [battlePassVoting/confirm/battlePass/title]::{Забрать оба стиля}
-[battlePassVoting/confirm/descr]::{... и командира {name}}
+[battlePassVoting/confirm/descr]::{... и члена экипажа «{name}»}
 [battlePassVoting/confirm/title]::{Выбрать стиль «{name}»}
 [battlePassVoting/failServiceAlertTooltip/descr]::{Повторите попытку позже.}
 [battlePassVoting/failServiceAlertTooltip/title]::{Данные не получены}
-[battlePassVoting/info/descr]::{Владельцы улучшенного пропуска получат выбранного командира и оба стиля.}
-[battlePassVoting/info/title]::{Завершив {maxEpisode}-й этап, выбирайте в награду трёхмерный стиль и командира.}
+[battlePassVoting/info/descr]::{Владельцы улучшенного пропуска получат
+выбранного члена экипажа и оба стиля.}
+[battlePassVoting/info/title]::{Завершив {maxEpisode}-й этап, выбирайте в награду трёхмерный стиль и члена экипажа.}
 [battlePassVoting/options/cancel]::{Отменить}
 [battlePassVoting/options/choose]::{Выбрать}
-[battlePassVoting/options/descr]::{Командир {recruitName}}
-[battlePassVoting/options/name]::{Стиль «{name}»}
+[battlePassVoting/options/descr]::{{rewards}}
+[battlePassVoting/options/name]::{«{name}»}
 [battlePassVoting/options/preview]::{Предпросмотр стиля}
-[battlePassVoting/optionsDisabled/descr]::{Командир {recruitName}}
+[battlePassVoting/options/rewards]::{В награду стиль «%(mainStyleName)s» и %(role)s %(recruitFullName)s}
+[battlePassVoting/options/rewardsBP]::{В награду стили «%(mainStyleName)s» и «%(additionalStyleName)s», а также %(role)s %(recruitFullName)s}
+[battlePassVoting/optionsDisabled/descr]::{Член экипажа {rewards}}
 [battlePassVoting/optionsDisabled/name]::{Стиль «{name}»
 для танка {vehicle}}
-[battlePassVoting/result/name]::{Выбрали {name}}
+[battlePassVoting/result/name]::{Выбрали стиль «{name}»}
 [battlePassVoting/title]::{ФИНАЛЬНАЯ НАГРАДА СЕЗОНА}
 [battlePassVoting/titleResult]::{НАГРАДА СЕЗОНА ПОЛУЧЕНА}
 [battlePassVoting/titleVoting]::{ВЫБОР ПОБЕДИТЕЛЯ СЕЗОНА}
 [battlepassTab]::{Боевой пропуск}
 [commonProgression/body/ended]::{Сезон Боевого пропуска окончен}
+[finalReward/tankman/roles/commander]::{командир}
+[finalReward/tankman/roles/driver]::{механик-водитель}
+[finalReward/tankman/roles/gunner]::{наводчик}
+[finalReward/tankman/roles/loader]::{заряжающий}
+[finalReward/tankman/roles/radioman]::{радист}
 [intro/battlePass/descr]::{	В течение трёх месяцев играйте на технике VI–X уровней в Случайных боях (исключая Генеральное сражение) и зарабатывайте очки за попадание в топ своей команды по опыту. Чем больше очков, тем быстрее вы будете продвигаться от этапа к этапу. За каждый этап вы будете получать награды.}
 [intro/battlePass/title]::{Боевой пропуск}
 [intro/button]::{Так точно!}
@@ -87,7 +95,24 @@
 [intro/postProgress/title]::{Элитная часть прогрессии}
 [intro/rewards/descr]::{Каждый игрок получит награду за достижение новых этапов, которая включает трёхмерный стиль, трофейное оборудование, элементы внешнего вида и многое другое. Купив улучшенный пропуск, вы получите доступ к линейке улучшенных наград.}
 [intro/rewards/title]::{Две линейки наград}
-[intro/title]::{Боевой пропуск. Первый сезон.}
+[intro/title]::{БОЕВОЙ ПРОПУСК}
+[offSeason/alertTooltip]::{Результаты голосования временно недоступны. Попробуйте зайти позже.}
+[offSeason/finished]::{ЗАВЕРШЁН}
+[offSeason/footerLose]::{После окончания текущего сезона Боевого пропуска вам начислена многоразовая боевая задача на
+удвоенный опыт экипажа для техники IV–X уровней.}
+[offSeason/footerWin]::{После окончания текущего сезона Боевого пропуска вам начислена многоразовая боевая задача на
+удвоенный боевой опыт для техники IV–X уровней.}
+[offSeason/levelReached]::{В рамках сезона вы остановились на
+{level}-м этапе прогрессии.}
+[offSeason/levelReachedPost]::{В рамках сезона вы остановились на {level}-м этапе
+элитной прогрессии.}
+[offSeason/noProgress]::{Вы не провели ни одного боя в рамках
+Боевого пропуска.}
+[offSeason/postPassed]::{Поздравляем! В рамках сезона вы полностью прошли
+элитную часть прогрессии!}
+[offSeason/sideChosen]::{Выбрали сторону {vehicle}}
+[offSeason/startsSoon]::{Следующий сезон скоро начнётся!}
+[offSeason/title]::{СЕЗОН %(number)s}
 [points/any]::{%(vehicle) получает на %(bonus) больше за попадание на любое место, за которое начисляются очки.}
 [points/top]::{%(vehicle) получает на %(bonus) больше за попадание в %(top).}
 [points/topCount]::{топ-{top}}
@@ -103,6 +128,8 @@
 [progression/btnVote]::{ФИНАЛЬНАЯ
 НАГРАДА}
 [progression/btnVoteTooltip]::{Здесь можно ознакомиться с финальными наградами текущего сезона Боевого пропуска.}
+[progression/cantPlayerParticipate/button]::{Получить со скидкой}
+[progression/cantPlayerParticipate/label]::{Требуется техника VI–X уровней}
 [progression/currentStep]::{Текущий этап}
 [progression/currentStepLocked]::{УЛУЧШЕННАЯ НАГРАДА}
 [progression/episodeBuyBtn]::{Докупить этапы}
@@ -112,10 +139,12 @@
 [progression/errorBtn]::{В Ангар}
 [progression/postProgressionDescr]::{ЭЛИТНАЯ ЧАСТЬ ПРОГРЕССИИ}
 [progression/premiumProgressionDescr]::{УЛУЧШЕННЫЕ НАГРАДЫ}
+[progression/progressionArrow]::{ПОСМОТРЕТЬ
+ВСЕ ЭТАПЫ}
 [progression/seasonEndingDescr]::{До окончания сезона осталось: %(day)}
 [progression/seasonEndingTooltip]::{До окончания: {day}}
 [progression/seasonTime]::{%(day)s %(month)s}
-[progression/title]::{Сезон 1: Super Conqueror vs Объект 277}
+[progression/title]::{Сезон 2: TVP T 50/51 vs M48 Patton}
 [reward/postBattle/progress]::{Получено очков за попадание в топ по опыту:}
 [reward/postBattle/progress/tooltip]::{Получено очков за попадание в топ по опыту: %(points)d}
 [reward/postBattle/title/base]::{Боевой пропуск. %(level)d-й этап основной части.}
@@ -124,12 +153,12 @@
 [status/timeLeft/hours]::{%(hour)s ч}
 [status/timeLeft/lessMin]::{1 мин}
 [status/timeLeft/min]::{%(min)s мин}
-[tooltips/choseWinner/descr]::{Вы прошли основную часть прогрессии Боевого пропуска. Теперь вы можете выбрать в награду один из двух трёхмерных стилей, а также командира. Если куплен улучшенный пропуск, второй стиль вы получите автоматически.}
+[tooltips/choseWinner/descr]::{Вы прошли основную часть прогрессии Боевого пропуска. Теперь вы можете выбрать в награду один из двух трёхмерных стилей, а также члена экипажа. Если куплен улучшенный пропуск, второй стиль вы получите автоматически.}
 [tooltips/choseWinner/finalLevel]::{Последний этап прогрессии}
 [tooltips/choseWinner/title]::{Выберите финальную награду}
 [tooltips/commanders/chose]::{ИЛИ}
-[tooltips/commanders/descr]::{Завершив финальный этап, в награду вы сможете выбрать одного из командиров.}
-[tooltips/commanders/title]::{Один из двух уникальных командиров}
+[tooltips/commanders/descr]::{Завершив финальный этап, в награду вы сможете выбрать одного из уникальных членов экипажа.}
+[tooltips/commanders/title]::{Один из двух членов экипажа}
 [tooltips/completed/allRewardsObtained]::{Все награды получены}
 [tooltips/completed/finalLevel]::{Последний этап элитной части прогрессии}
 [tooltips/completed/got]::{Награда получена}
@@ -164,6 +193,8 @@
 [tooltips/pointsTable/win]::{За победу}
 [tooltips/postProgress/body]::{Элитная часть прогрессии начинается после завершения {maxLevelBase}-го этапа основной части и даёт возможность регулярно зарабатывать ценную игровую валюту. Продвижение по этапам элитной части прогрессии не требует наличия улучшенного пропуска.}
 [tooltips/postProgress/header]::{Элитная часть прогрессии}
+[tooltips/progressWarning/descr]::{Для заработка очков Боевого пропуска необходимо наличие техники VI–X уровней, на которой ещё не достигнут лимит очков.}
+[tooltips/progressWarning/title]::{Требуется техника VI–X уровней}
 [tooltips/styles/descr]::{Завершив финальный этап, в награду вы сможете выбрать один из стилей.}
 [tooltips/styles/footer]::{Выбрав финальную награду, обладатели улучшенного пропуска получат оба стиля.}
 [tooltips/styles/name]::{Подходит для %(name)}

@@ -369,11 +369,6 @@
                <offset>-0.062</offset>
             </node>
          </trackNodes>
-         <AODecals>
-            <decal>
-               <transform>3.75445 -0 0 -0 1.35 0 0 0 6.79922 0 0 1e-06</transform>
-            </decal>
-         </AODecals>
          <physicalTracks>
             <left>
                <segmentsCount>69</segmentsCount>
@@ -898,6 +893,11 @@
                </sourceCollisionHullPoints>
             </right>
          </physicalTracks>
+         <AODecals>
+            <decal>
+               <transform>3.75445 -0 0 -0 1.35 0 0 0 6.79922 0 0 1e-06</transform>
+            </decal>
+         </AODecals>
          <customization>
             <customizableVehicleAreas>
                <paint></paint>
@@ -1054,36 +1054,15 @@
          <chassis>
             <Chassis_GB01_Medium_Mark_I_bot>
                <grounds>
-                  <ground>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </ground>
-                  <sand>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </sand>
-                  <wood>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </wood>
-                  <snow>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </snow>
-                  <stone>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </stone>
-                  <metal>
-                     <medium>
-                        <rollingFriction>0.1127</rollingFriction>
-                     </medium>
-                  </metal>
+                  <soft>
+                     <rollingFriction>0.2093</rollingFriction>
+                  </soft>
+                  <medium>
+                     <rollingFriction>0.1127</rollingFriction>
+                  </medium>
+                  <firm>
+                     <rollingFriction>0.10465</rollingFriction>
+                  </firm>
                </grounds>
             </Chassis_GB01_Medium_Mark_I_bot>
          </chassis>

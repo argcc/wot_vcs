@@ -223,8 +223,6 @@
                <maxOffset>0.07</maxOffset>
             </group>
          </groundNodes>
-         <wwsoundPC>treads_type_pc</wwsoundPC>
-         <wwsoundNPC>trds_med_npc</wwsoundNPC>
          <trackThickness>0.005</trackThickness>
          <trackNodes>
             <enable> true </enable>
@@ -521,24 +519,6 @@
                <leftSibling>Track_VT_R13</leftSibling>
             </node>
          </trackNodes>
-         <effects>
-            <lodDist>MEDIUM</lodDist>
-            <mud>largeTankMud</mud>
-         </effects>
-         <hullPosition>0 0.896721 0</hullPosition>
-         <hitTester>
-            <collisionModelServer>vehicles/russian/R45_IS-7/collision/Chassis.model</collisionModelServer>
-            <collisionModelClient>vehicles/russian/R45_IS-7/collision_client/Chassis.model</collisionModelClient>
-         </hitTester>
-         <topRightCarryingPoint>1.40917 2.41708</topRightCarryingPoint>
-         <maxClimbAngle>25</maxClimbAngle>
-         <navmeshGirth>6.0</navmeshGirth>
-         <AODecals>
-            <decal>
-               <transform>5.0772 -0 -0 0 1.34508 0 0 0 9.1849 0 -0 -0</transform>
-            </decal>
-         </AODecals>
-         <trackThickness>0</trackThickness>
          <physicalTracks>
             <left>
                <segmentsCount>101</segmentsCount>
@@ -933,6 +913,26 @@
                </sourceCollisionHullPoints>
             </right>
          </physicalTracks>
+         <effects>
+            <lodDist>MEDIUM</lodDist>
+            <mud>largeTankMud</mud>
+         </effects>
+         <wwsoundPC>treads_type_pc</wwsoundPC>
+         <wwsoundNPC>trds_med_npc</wwsoundNPC>
+         <hullPosition>0 0.896721 0</hullPosition>
+         <hitTester>
+            <collisionModelServer>vehicles/russian/R45_IS-7/collision/Chassis.model</collisionModelServer>
+            <collisionModelClient>vehicles/russian/R45_IS-7/collision_client/Chassis.model</collisionModelClient>
+         </hitTester>
+         <topRightCarryingPoint>1.40917 2.41708</topRightCarryingPoint>
+         <maxClimbAngle>25</maxClimbAngle>
+         <navmeshGirth>6.0</navmeshGirth>
+         <AODecals>
+            <decal>
+               <transform>5.0772 -0 -0 0 1.34508 0 0 0 9.1849 0 -0 -0</transform>
+            </decal>
+         </AODecals>
+         <trackThickness>0</trackThickness>
          <customization>
             <customizableVehicleAreas>
                <paint>CHASSIS</paint>
@@ -1127,36 +1127,15 @@
          <chassis>
             <Chassis_IS-7_fallout>
                <grounds>
-                  <ground>
-                     <medium>
-                        <rollingFriction>0.1449</rollingFriction>
-                     </medium>
-                  </ground>
-                  <sand>
-                     <medium>
-                        <rollingFriction>0.1449</rollingFriction>
-                     </medium>
-                  </sand>
-                  <wood>
-                     <medium>
-                        <rollingFriction>0.1449</rollingFriction>
-                     </medium>
-                  </wood>
-                  <snow>
-                     <medium>
-                        <rollingFriction>0.1449</rollingFriction>
-                     </medium>
-                  </snow>
-                  <stone>
-                     <medium>
-                        <rollingFriction>0.1449</rollingFriction>
-                     </medium>
-                  </stone>
-                  <metal>
-                     <medium>
-                        <rollingFriction>0.1449</rollingFriction>
-                     </medium>
-                  </metal>
+                  <soft>
+                     <rollingFriction>0.24955</rollingFriction>
+                  </soft>
+                  <medium>
+                     <rollingFriction>0.1449</rollingFriction>
+                  </medium>
+                  <firm>
+                     <rollingFriction>0.10465</rollingFriction>
+                  </firm>
                </grounds>
             </Chassis_IS-7_fallout>
          </chassis>
