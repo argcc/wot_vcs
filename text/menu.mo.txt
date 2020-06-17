@@ -247,7 +247,7 @@ Content-Transfer-Encoding: 8bit
 [bonusType/6]::{Боевое обучение}
 [bonusType/7]::{Командный бой}
 [bonusType/8]::{Исторический бой}
-[bonusType/9]::{Специальный игровой режим}
+[bonusType/9]::{«Крадущийся тигр»}
 [booster/bonus/booster_credits]::{%(effectValue)s на %(effectHours)s к кредитам за бой}
 [booster/bonus/booster_crew_xp]::{%(effectValue)s на %(effectHours)s к опыту экипажа за бой}
 [booster/bonus/booster_fl_xp]::{%(effectValue)s на %(effectHours)s к фронтовому опыту за бой}
@@ -375,7 +375,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/copyClanName]::{Скопировать название клана}
 [contextMenu/copyToClipBoard]::{Копировать имя}
 [contextMenu/createContactNote]::{Создать заметку}
-[contextMenu/createEventSquad]::{Создать ++ивентный++ взвод}
+[contextMenu/createEventSquad]::{Создать Тигриный взвод}
 [contextMenu/createPrivateChannel]::{Отправить сообщение}
 [contextMenu/createSquad]::{Создать взвод}
 [contextMenu/disableCommunications]::{Заблокировать на время боя}
@@ -627,6 +627,11 @@ Content-Transfer-Encoding: 8bit
 [epic_training/create/title]::{Создание тренировочной комнаты для Линии фронта}
 [epic_training/info/settings/title]::{Настройки тренировочной комнаты для Линии фронта}
 [equipmentFits/title]::{Выбор снаряжения}
+[event10YC/allServer]::{Комендантский час на всех серверах}
+[event10YC/availableServer]::{Комендантский час на сервере %(serverName)s}
+[event10YC/button]::{Сменить сервер}
+[event10YC/notAvailableServer]::{Режим недоступен на сервере %(serverName)s}
+[event10YC/standalone]::{Комендантский час на сервере}
 [exchange/cancel]::{Отменить}
 [exchange/no_gold]::{У вас не хватает золота для обмена.}
 [exchange/onhand]::{До обмена:}
@@ -698,6 +703,7 @@ Content-Transfer-Encoding: 8bit
 [hangar/ammunitionPanel/technicalMaitenance/equipment/list/buy]::{Докупить}
 [hangar/ammunitionPanel/technicalMaitenance/equipment/list/inventory]::{На Складе}
 [hangar/ammunitionPanel/technicalMaitenance/equipment/list/price]::{Стоимость}
+[hangar/ammunitionPanel/technicalMaitenance/equipmentDisabled]::{Изменение снаряжения недоступно для данной машины}
 [hangar/ammunitionPanel/technicalMaitenance/repair/checkboxAuto]::{Ремонтировать автоматически}
 [hangar/ammunitionPanel/technicalMaitenance/repair/label]::{Ремонт}
 [hangar/ammunitionPanel/technicalMaitenance/title]::{Обслуживание}
@@ -829,7 +835,7 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/epicTraining/descr]::{Линия фронта}
 [headerButtons/battle/types/eventProgression]::{Экспедиция}
 [headerButtons/battle/types/eventProgression/about]::{Ожидайте следующий этап Экспедиции.}
-[headerButtons/battle/types/eventSquad]::{+++Лунный взвод+++}
+[headerButtons/battle/types/eventSquad]::{Тигриный взвод}
 [headerButtons/battle/types/fallout]::{«Бой до последнего»}
 [headerButtons/battle/types/fort]::{Укрепрайон: сражения}
 [headerButtons/battle/types/fortLeave]::{Укрепрайон: сражения}
@@ -863,7 +869,7 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/squad]::{Взвод}
 [headerButtons/battle/types/squad/descr]::{Формирование из 2-3 игроков для совместной игры в Случайных боях.}
 [headerButtons/battle/types/squad/epic]::{: Линия фронта}
-[headerButtons/battle/types/squad/event]::{+++: событие+++}
+[headerButtons/battle/types/squad/event]::{: «Крадущийся тигр»}
 [headerButtons/battle/types/squad/randomBattle]::{: Случайный бой}
 [headerButtons/battle/types/squadBattle]::{Отправить взвод в бой}
 [headerButtons/battle/types/squadLeave]::{Взвод}
@@ -924,6 +930,10 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/fightBtn/tooltip/rankedVehType/header]::{Неподходящая машина}
 [headerButtons/fightBtn/tooltip/sandbox/invalid/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/sandbox/invalid/level/body]::{Выйти в бой можно только на исследуемой и премиум технике %(levels)s уровней.}
+[headerButtons/fightBtn/tooltip/spgEventDisabled/body]::{На сервере комендантский час.}
+[headerButtons/fightBtn/tooltip/spgEventDisabled/header]::{Выход в бой недоступен}
+[headerButtons/fightBtn/tooltip/spgEventNotSet/body]::{Режим недоступен на выбранном сервере.}
+[headerButtons/fightBtn/tooltip/spgEventNotSet/header]::{Выход в бой недоступен}
 [headerButtons/hangar]::{Ангар}
 [headerButtons/menu]::{Меню}
 [headerButtons/missions]::{Задачи}
@@ -1071,7 +1081,7 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/4]::{Боевое обучение}
 [loading/battleTypes/5]::{Командный бой}
 [loading/battleTypes/6]::{Исторический бой}
-[loading/battleTypes/7]::{Специальный игровой режим}
+[loading/battleTypes/7]::{«Крадущийся тигр»}
 [loading/battleTypes/8]::{Вылазки}
 [loading/battleTypes/9]::{Бой с кланом}
 [loading/battleTypes/desc/0]::{ }
@@ -1350,6 +1360,7 @@ Content-Transfer-Encoding: 8bit
 [prebattle/CompaniesTitle/MIDDLE]::{Средний}
 [prebattle/already_in_awaiting_battle]::{Вы уже находитесь в режиме ожидания боя.}
 [prebattle/description]::{prebattle/description}
+[prebattle/eventWaitingTimeWarning]::{*Sturmtiger — это САУ. Придётся подождать, пока мы убираем с карты все лёгкие танки.}
 [prebattle/exitButton]::{Выйти из боя}
 [prebattle/groupsLabel]::{Команд в очереди:}
 [prebattle/invitations/buttons/cancel]::{Закрыть}

@@ -1890,5 +1890,23 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
             </button>
          </buttonsLayout>
       </ProgressiveItemUpdatedMessage>
+      <SPGEventAvailableSysMessage>
+         <priority>high</priority>
+         <type>yellow</type>
+         <icon>ClockIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/spgEvent/titles/available)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </SPGEventAvailableSysMessage>
+      <SPGEventNotSetSysMessage>
+         <priority>high</priority>
+         <type>yellow</type>
+         <icon>ClockIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/spgEvent/titles/notSet)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </SPGEventNotSetSysMessage>
+      <SPGEventPrimeTimeSysMessage>
+         <priority>high</priority>
+         <type>yellow</type>
+         <icon>ClockIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/spgEvent/titles/primeTime)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </SPGEventPrimeTimeSysMessage>
    </htmlTemplates>
 </messenger.xml>
