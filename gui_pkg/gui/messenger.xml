@@ -1187,6 +1187,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>ClockIcon</icon>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/rankedBattlesNotSet)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
       </RankedBattlesNotSetSysMessage>
+      <BobBattlesAvailableSysMessage>
+         <priority>high</priority>
+         <type>yellow</type>
+         <icon>ClockIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/bobBattlesAvailable)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </BobBattlesAvailableSysMessage>
       <PaymentMethodLinkSysMessage>
          <type>grey</type>
          <icon>ConfirmIcon</icon>
@@ -1576,6 +1582,36 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
 &lt;font color=&#34;#8C8C7E&#34;&gt;%(seasonProgress)s
 %(awardsBlock)s&lt;/font&gt;</message>
       </rankedSeasonQuest>
+      <rankedLeaderPositiveQuest>
+         <priority>medium</priority>
+         <type>grey</type>
+         <icon>RankedYearLB</icon>
+         <bgIcon>BgRankedYearLB</bgIcon>
+         <bgIconSizeAuto> true </bgIconSizeAuto>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
+               <action>showRankedYearPosition</action>
+            </button>
+         </buttonsLayout>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(title)s&lt;/font&gt;&lt;br/&gt;&lt;font color=&#34;#8C8C7E&#34;&gt;%(body)s&lt;/font&gt;</message>
+      </rankedLeaderPositiveQuest>
+      <rankedLeaderNegativeQuest>
+         <priority>medium</priority>
+         <type>grey</type>
+         <icon>RankedYearLB</icon>
+         <bgIcon>BgRankedYearLB</bgIcon>
+         <bgIconSizeAuto> true </bgIconSizeAuto>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
+               <action>showRankedBattlePage</action>
+            </button>
+         </buttonsLayout>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(title)s&lt;/font&gt;&lt;br/&gt;&lt;font color=&#34;#8C8C7E&#34;&gt;%(body)s&lt;/font&gt;</message>
+      </rankedLeaderNegativeQuest>
       <RankedFinalYearAwardQuest>
          <priority>high</priority>
          <type>grey</type>
@@ -1908,5 +1944,17 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>ClockIcon</icon>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/spgEvent/titles/primeTime)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
       </SPGEventPrimeTimeSysMessage>
+      <BobBattlesPrimeTimeSysMessage>
+         <priority>high</priority>
+         <type>yellow</type>
+         <icon>ClockIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/bobBattlesPrimeTime)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </BobBattlesPrimeTimeSysMessage>
+      <BobBattlesPrimeTimeNotSetSysMessage>
+         <priority>high</priority>
+         <type>yellow</type>
+         <icon>ClockIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#bob:systemMessage/notAvailable)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </BobBattlesPrimeTimeNotSetSysMessage>
    </htmlTemplates>
 </messenger.xml>

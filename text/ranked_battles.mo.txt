@@ -137,7 +137,7 @@ Content-Transfer-Encoding: 8bit
 [intoPage/blocks/block1/title]::{Техника Х уровня}
 [intoPage/blocks/block2/description]::{На пути к победе необходимо пройти через квалификацию и 3 дивизиона, а после — попасть в одну из лиг, сражаясь с равным по силе противником.}
 [intoPage/blocks/block2/title]::{3 дивизиона}
-[intoPage/blocks/block3/description]::{Пройдя весь сезон, вы сможете получить специальный стиль для техники X уровня, а в конце сезона 2019–2020 гг. — ценные награды и уникальный танк IX уровня.}
+[intoPage/blocks/block3/description]::{Пройдя весь сезон, вы сможете получить специальный стиль для техники X уровня, а в конце сезона 2020–2021 — ценные награды и уникальный танк IX уровня.}
 [intoPage/blocks/block3/title]::{Уникальные награды}
 [intoPage/btns/accept]::{Так точно!}
 [intoPage/btns/detailed]::{Подробнее о режиме}
@@ -241,14 +241,17 @@ Content-Transfer-Encoding: 8bit
 [rankedBattleMainView/divisions/rank]::{Ранг %(rank)s}
 [rankedBattleMainView/emptyBubble]::{ }
 [rankedBattleMainView/infoPage/header]::{Техника Х уровня, ролевой опыт, призовые бои, прогресс по 3 дивизионам и игра в лигах.}
-[rankedBattleMainView/leaguesView/descr]::{Продолжайте зарабатывать шевроны и повышать эффективность игры, чтобы укрепить свою позицию в рейтинге.}
+[rankedBattleMainView/leaguesView/descr]::{Продолжайте зарабатывать шевроны и повышать эффективность, чтобы укрепить свою позицию в лиге и попасть в Топ-%(count)d.}
 [rankedBattleMainView/leaguesView/league1]::{Золотая лига}
 [rankedBattleMainView/leaguesView/league2]::{Серебряная лига}
 [rankedBattleMainView/leaguesView/league3]::{Бронзовая лига}
+[rankedBattleMainView/leaguesView/top]::{ТОП-%(count)d}
+[rankedBattleMainView/leaguesView/topDescr]::{Продолжайте зарабатывать шевроны и повышать эффективность, чтобы укрепить свою позицию в лиге и в Топ-%(count)d.}
 [rankedBattleMainView/leaguesView/unavailableDescr]::{Идёт расчёт лиги, в которую вы попали. Результат скоро будет известен.}
 [rankedBattleMainView/leaguesView/unavailableTitle]::{Лига не определена}
 [rankedBattleMainView/season]::{%(season)s сезон}
-[rankedBattleMainView/seasonComplete]::{Сезон %(season)s завершён.}
+[rankedBattleMainView/seasonComplete]::{Сезон %(season)s завершён}
+[rankedBattleMainView/seasonCompleteSingle]::{Сезон %(season)s завершён.}
 [rankedBattleMainView/seasonGap]::{Сезон %(newSeason)s начнётся %(date)s}
 [rankedBattleMainView/seasonGap/bannedDivision/descr]::{Полученные в сезоне жетоны списаны из-за нарушений Правил игры.}
 [rankedBattleMainView/seasonGap/bannedLeague/descr]::{Вы были исключены из списка лидеров сезона за нарушение Правил игры. Полученные в сезоне жетоны списаны.}
@@ -266,7 +269,10 @@ Content-Transfer-Encoding: 8bit
 [rankedBattleMainView/seasonGap/notInDivisions/title]::{Вы прошли квалификацию}
 [rankedBattleMainView/seasonGap/notInSeason/descr]::{Вы не заработали ни одного ранга в завершившемся сезоне}
 [rankedBattleMainView/seasonGap/notInSeason/title]::{Нет рангов}
-[rankedBattleMainView/seasonGap/sprinter]::{Спринтер}
+[rankedBattleMainView/seasonGap/rolledDivision/descr]::{Вы были исключены из списка лидеров сезона после процедуры восстановления аккаунта.}
+[rankedBattleMainView/seasonGap/rolledLeague/descr]::{Вы были исключены из списка лидеров сезона после процедуры восстановления аккаунта.}
+[rankedBattleMainView/seasonGap/rolledNotInDivisions/descr]::{Вы были исключены из списка лидеров сезона после процедуры восстановления аккаунта.}
+[rankedBattleMainView/seasonGap/rolledNotInSeason/descr]::{Вы были исключены из списка лидеров сезона после процедуры восстановления аккаунта.}
 [rankedBattleMainView/seasonGap/stats/efficiency]::{Эффективность}
 [rankedBattleMainView/seasonGap/stats/outOfRating]::{Вне рейтинга}
 [rankedBattleMainView/seasonGap/waitingLeague/descr]::{После завершения подсчётов вы узнаете свой финальный результат в сезоне и получите заслуженную награду}
@@ -284,6 +290,7 @@ Content-Transfer-Encoding: 8bit
 [rankedBattleMainView/stats/seasonEfficiency]::{Общая эффективность}
 [rankedBattleMainView/stats/stripesInLeague]::{Шевронов в лигах}
 [rankedBattleMainView/stats/stripesTotal]::{Шевронов всего}
+[rankedBattleMainView/yearGap/header]::{Ваши результаты за 2020–2021 гг.}
 [rankedBattlePage/closeBtn]::{ЗАКРЫТЬ}
 [rankedBattleView/awardBlock/emptyLeague]::{—}
 [rankedBattleView/awardBlock/points/currLeagueHeader]::{Текущая лига}
@@ -464,6 +471,13 @@ Content-Transfer-Encoding: 8bit
 [welcomeScreen/rightRuleTooltip/body]::{Чем выше ранг вы заслужите, тем более существенные награды получите.}
 [welcomeScreen/rightRuleTooltip/header]::{Ценные награды}
 [welcomeScreen/rulesDelimeter]::{или}
+[yearLeaderboard/rewardView/battleType]::{Ранговый бой}
+[yearLeaderboard/rewardView/clanDescr]::{[%(clan)s] }
+[yearLeaderboard/rewardView/leaderboardBtn/label]::{Перейти к рейтинговой таблице}
+[yearLeaderboard/rewardView/positionDescr]::{Позиция {name} {clan}в рейтинге}
+[yearLeaderboard/rewardView/reward/label]::{Вы получили особую нашивку %(name) для установки рядом с вашим именем.}
+[yearLeaderboard/rewardView/reward/nameTemplate]::{«{name}»}
+[yearLeaderboard/rewardView/title]::{Вы попали в Топ-{total}}
 [yearRewards/box/big/title]::{Повышенная награда}
 [yearRewards/box/large/title]::{Максимальная награда}
 [yearRewards/box/medium/title]::{Стандартная награда}
