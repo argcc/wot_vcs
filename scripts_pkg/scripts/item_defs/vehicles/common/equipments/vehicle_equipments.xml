@@ -34,7 +34,7 @@
       <kpi>
          <mul>
             <name>vehicleFireChance</name>
-            <value>1.1</value>
+            <value>0.9</value>
          </mul>
       </kpi>
    </autoExtinguishers>
@@ -179,9 +179,11 @@
       <vehicleFilter>
          <include>
             <nations>usa germany france uk czech sweden poland italy</nations>
-            <engine>
-               <tags>gasoline</tags>
-            </engine>
+            <componentFilters>
+               <engine>
+                  <tags>gasoline</tags>
+               </engine>
+            </componentFilters>
          </include>
       </vehicleFilter>
       <script>
@@ -216,9 +218,11 @@
       <vehicleFilter>
          <include>
             <nations>usa germany france uk czech sweden poland italy</nations>
-            <engine>
-               <tags>gasoline</tags>
-            </engine>
+            <componentFilters>
+               <engine>
+                  <tags>gasoline</tags>
+               </engine>
+            </componentFilters>
          </include>
       </vehicleFilter>
       <script>

@@ -6,6 +6,7 @@
       <driver></driver>
       <loader>radioman</loader>
    </crew>
+   <supplySlots>8 8 8</supplySlots>
    <speedLimits>
       <forward>49</forward>
       <backward>20</backward>
@@ -14,9 +15,16 @@
       <moving>0.2</moving>
       <still>0.2</still>
       <camouflageBonus>0.03</camouflageBonus>
-      <camouflageNetBonus>0.1</camouflageNetBonus>
       <firePenalty>0.4</firePenalty>
    </invisibility>
+   <optDevsOverrides>
+      <camouflageNet>
+         <invisibilityBonus>0.1 0.125</invisibilityBonus>
+      </camouflageNet>
+      <additionalInvisibilityDevice>
+         <invisibilityBonus>0.06 0.08</invisibilityBonus>
+      </additionalInvisibilityDevice>
+   </optDevsOverrides>
    <repairCost>14.28571465</repairCost>
    <crewXpFactor>1.0</crewXpFactor>
    <camouflage>
@@ -2192,7 +2200,7 @@
          <guns>
             <_122mm_cannon_U-11_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <armor>
                   <armor_1>
                      140
@@ -2292,7 +2300,7 @@
                      <cost>0</cost>
                   </chassis>
                </unlocks>
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -25 1 -25</minPitch>
                   <maxPitch>0 7 1 7</maxPitch>
@@ -2343,11 +2351,11 @@
                </shotDispersionFactors>
                <multiGunEffects>shot_dualgun1_large_L shot_dualgun1_large_R</multiGunEffects>
                <dualGun>
-                  <chargeTime>3.5</chargeTime>
+                  <chargeTime>2</chargeTime>
                   <shootImpulse>300</shootImpulse>
-                  <reloadLockTime>2.0</reloadLockTime>
+                  <reloadLockTime>0.0</reloadLockTime>
                   <reloadTimes>7 7</reloadTimes>
-                  <rateTime>3</rateTime>
+                  <rateTime>4</rateTime>
                   <chargeThreshold>0.5</chargeThreshold>
                   <afterShotDelay>1</afterShotDelay>
                   <preChargeIndication>0.25</preChargeIndication>
@@ -2407,7 +2415,7 @@
                      <cost>0</cost>
                   </chassis>
                </unlocks>
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -25 1 -25</minPitch>
                   <maxPitch>0 7 1 7</maxPitch>
@@ -2532,12 +2540,12 @@
             <gun>
                <gunNode>G_L</gunNode>
                <gunFire>HP_gunFire_L</gunFire>
-               <position>-0.219744 0.378394 1.45139</position>
+               <position>-0.188 -0.013 0.094</position>
             </gun>
             <gun>
                <gunNode>G_R</gunNode>
                <gunFire>HP_gunFire_R</gunFire>
-               <position>0.219744 0.378394 1.45139</position>
+               <position>0.188 -0.013 0.094</position>
             </gun>
          </multiGun>
       </Turret_1_T150_SH>
@@ -2612,7 +2620,7 @@
          <guns>
             <_100mm_S34_dualgun_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -12 1 -12</minPitch>
                   <maxPitch>0 5 0.416666 5 0.425 0 0.575 0 0.583333 5 1 5</maxPitch>
@@ -2687,11 +2695,11 @@
                </shotDispersionFactors>
                <multiGunEffects>shot_dualgun1_large_L shot_dualgun1_large_R</multiGunEffects>
                <dualGun>
-                  <chargeTime>3.5</chargeTime>
+                  <chargeTime>2</chargeTime>
                   <shootImpulse>300</shootImpulse>
-                  <reloadLockTime>2.0</reloadLockTime>
+                  <reloadLockTime>0.0</reloadLockTime>
                   <reloadTimes>7 7</reloadTimes>
-                  <rateTime>3</rateTime>
+                  <rateTime>4</rateTime>
                   <chargeThreshold>0.5</chargeThreshold>
                   <afterShotDelay>1</afterShotDelay>
                   <preChargeIndication>0.25</preChargeIndication>
@@ -2741,7 +2749,7 @@
             </_100mm_S34_dualgun_SH>
             <_122mm_BL-9_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -12 1 -12</minPitch>
                   <maxPitch>0 5 0.416666 5 0.425 0 0.575 0 0.583333 5 1 5</maxPitch>
@@ -2854,7 +2862,7 @@
             </_122mm_BL-9_SH>
             <_122mm_M62-T2_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <armor>
                   <armor_1>
                      180
@@ -2969,7 +2977,7 @@
             <_107mm_ZiS-6_dualgun_SH>
                shared
                <reloadTime>8</reloadTime>
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <armor>
                   <armor_1>
                      180
@@ -3043,11 +3051,11 @@
                </shotDispersionFactors>
                <multiGunEffects>shot_dualgun1_large_mb_L shot_dualgun1_large_mb_R</multiGunEffects>
                <dualGun>
-                  <chargeTime>3</chargeTime>
+                  <chargeTime>2</chargeTime>
                   <shootImpulse>300</shootImpulse>
-                  <reloadLockTime>2.0</reloadLockTime>
+                  <reloadLockTime>0.0</reloadLockTime>
                   <reloadTimes>8 8</reloadTimes>
-                  <rateTime>2</rateTime>
+                  <rateTime>5</rateTime>
                   <chargeThreshold>0.5</chargeThreshold>
                   <afterShotDelay>1</afterShotDelay>
                   <preChargeIndication>0.25</preChargeIndication>
@@ -3133,12 +3141,12 @@
             <gun>
                <gunNode>G_L</gunNode>
                <gunFire>HP_gunFire_L</gunFire>
-               <position>-0.219744 0.378394 1.45139</position>
+               <position>-0.178 -0.021 0.074</position>
             </gun>
             <gun>
                <gunNode>G_R</gunNode>
                <gunFire>HP_gunFire_R</gunFire>
-               <position>0.219744 0.378394 1.45139</position>
+               <position>0.178 -0.021 0.074</position>
             </gun>
          </multiGun>
          <camouflage>
@@ -3200,7 +3208,7 @@
          <guns>
             <_100mm_S34_dualgun_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -15 1 -15</minPitch>
                   <maxPitch>0 5 0.444444 5 0.45 2 0.55 2 0.555555 5 1 5</maxPitch>
@@ -3247,11 +3255,11 @@
                </shotDispersionFactors>
                <multiGunEffects>shot_dualgun1_large_L shot_dualgun1_large_R</multiGunEffects>
                <dualGun>
-                  <chargeTime>3.5</chargeTime>
+                  <chargeTime>2</chargeTime>
                   <shootImpulse>300</shootImpulse>
-                  <reloadLockTime>2.0</reloadLockTime>
+                  <reloadLockTime>0.0</reloadLockTime>
                   <reloadTimes>7 7</reloadTimes>
-                  <rateTime>3</rateTime>
+                  <rateTime>4</rateTime>
                   <chargeThreshold>0.5</chargeThreshold>
                   <afterShotDelay>1</afterShotDelay>
                   <preChargeIndication>0.25</preChargeIndication>
@@ -3301,7 +3309,7 @@
             </_100mm_S34_dualgun_SH>
             <_122mm_BL-9_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -15 1 -15</minPitch>
                   <maxPitch>0 5 0.444444 5 0.45 2 0.55 2 0.555555 5 1 5</maxPitch>
@@ -3387,7 +3395,7 @@
             <_107mm_ZiS-6_dualgun_SH>
                shared
                <reloadTime>8</reloadTime>
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <armor>
                   <armor_1>
                      180
@@ -3433,11 +3441,11 @@
                </shotDispersionFactors>
                <multiGunEffects>shot_dualgun1_large_mb_L shot_dualgun1_large_mb_R</multiGunEffects>
                <dualGun>
-                  <chargeTime>3</chargeTime>
+                  <chargeTime>2</chargeTime>
                   <shootImpulse>300</shootImpulse>
-                  <reloadLockTime>2.0</reloadLockTime>
+                  <reloadLockTime>0.0</reloadLockTime>
                   <reloadTimes>8 8</reloadTimes>
-                  <rateTime>2</rateTime>
+                  <rateTime>5</rateTime>
                   <chargeThreshold>0.5</chargeThreshold>
                   <afterShotDelay>1</afterShotDelay>
                   <preChargeIndication>0.25</preChargeIndication>
@@ -3488,7 +3496,7 @@
             <_130mm_S-70_SH>
                shared
                <reloadTime>10</reloadTime>
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <armor>
                   <armor_1>
                      180
@@ -3613,12 +3621,12 @@
             <gun>
                <gunNode>G_L</gunNode>
                <gunFire>HP_gunFire_L</gunFire>
-               <position>-0.219744 0.378394 1.45139</position>
+               <position>-0.139 0.01 0.182</position>
             </gun>
             <gun>
                <gunNode>G_R</gunNode>
                <gunFire>HP_gunFire_R</gunFire>
-               <position>0.219744 0.378394 1.45139</position>
+               <position>0.244 0.01 0.182</position>
             </gun>
          </multiGun>
       </Turret_3_KV4_SH>

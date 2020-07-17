@@ -7,6 +7,7 @@
       <radioman></radioman>
       <loader></loader>
    </crew>
+   <supplySlots>8 8 8</supplySlots>
    <speedLimits>
       <forward>64</forward>
       <backward>20</backward>
@@ -15,9 +16,16 @@
       <moving>0.19</moving>
       <still>0.253</still>
       <camouflageBonus>0.03</camouflageBonus>
-      <camouflageNetBonus>0.1</camouflageNetBonus>
       <firePenalty>0.38</firePenalty>
    </invisibility>
+   <optDevsOverrides>
+      <camouflageNet>
+         <invisibilityBonus>0.1 0.125</invisibilityBonus>
+      </camouflageNet>
+      <additionalInvisibilityDevice>
+         <invisibilityBonus>0.06 0.08</invisibilityBonus>
+      </additionalInvisibilityDevice>
+   </optDevsOverrides>
    <repairCost>16.66666709</repairCost>
    <crewXpFactor>1.0</crewXpFactor>
    <camouflage>
@@ -68,7 +76,7 @@
                <exploded>vehicles/british/GB107_Cavalier_SH/crash/lod0/Hull_02.model</exploded>
             </models>
             <exhaust>
-               <pixie>diesel_medium</pixie>
+               <pixie>diesel_large</pixie>
                <nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
             </exhaust>
             <turretPositions>
@@ -148,7 +156,7 @@
                <exploded>vehicles/british/GB107_Cavalier_SH/crash/lod0/Hull_03.model</exploded>
             </models>
             <exhaust>
-               <pixie>gas_medium</pixie>
+               <pixie>gas_large</pixie>
                <nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2 HP_Track_Exhaus_3 HP_Track_Exhaus_4</nodes>
             </exhaust>
             <turretPositions>
@@ -236,7 +244,7 @@
          <sensitivityToImpulse>0.58</sensitivityToImpulse>
       </swinging>
       <exhaust>
-         <pixie>gas_medium</pixie>
+         <pixie>gas_large</pixie>
          <nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
       </exhaust>
       <turretPositions>
@@ -2519,7 +2527,7 @@
          <guns>
             <_3.7inch_Howitzer_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <armor>
                   <gun>40</gun>
                </armor>
@@ -2593,7 +2601,7 @@
                      <cost>0</cost>
                   </chassis>
                </unlocks>
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 10 0.25 10 0.333333 8 0.416667 3 0.5 3 0.583333 3 0.666667 8 0.75 10.01 1 10</maxPitch>
@@ -2675,7 +2683,7 @@
                      <cost>0</cost>
                   </chassis>
                </unlocks>
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.25 10 0.333333 8 0.416667 3 0.5 3 0.583333 3 0.666667 8 0.75 10.01 1 10</maxPitch>
@@ -2840,7 +2848,7 @@
          <guns>
             <OQF_17pdr_Gun_Mk_VII_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 10 0.333333 10 0.416667 5.5 0.5 4.5 0.583333 5.5 0.666667 10 1 10</maxPitch>
@@ -2928,7 +2936,7 @@
             </OQF_17pdr_Gun_Mk_VII_SH>
             <_32_pounder_Gun_OQF_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.333333 10 0.416667 5.5 0.5 4.5 0.583333 5.5 0.666667 10 1 10</maxPitch>
@@ -3008,7 +3016,7 @@
             </_32_pounder_Gun_OQF_SH>
             <_20pdr_Gun_Type_B_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.333333 10 0.416667 5 0.5 4 0.583333 5 0.666667 10 1 10</maxPitch>
@@ -3088,7 +3096,7 @@
             </_20pdr_Gun_Type_B_SH>
             <_105mm_Gun_L7_HEAT_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 10 0.333333 10 0.416667 4 0.5 3.5 0.583333 4 0.666667 10 1 10</maxPitch>
@@ -3267,7 +3275,7 @@
          <guns>
             <OQF_17pdr_Gun_Mk_VII_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 10 0.333333 10 0.416667 5.5 0.5 4.5 0.583333 5.5 0.666667 10 1 10</maxPitch>
@@ -3339,7 +3347,7 @@
             </OQF_17pdr_Gun_Mk_VII_SH>
             <_32_pounder_Gun_OQF_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -18 1 -18</minPitch>
                   <maxPitch>0 10 0.333333 10 0.416667 5.5 0.5 4.5 0.583333 5.5 0.666667 10 1 10</maxPitch>
@@ -3403,7 +3411,7 @@
             </_32_pounder_Gun_OQF_SH>
             <_105mm_Gun_L7_HEAT_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
                   <maxPitch>0 10 0.333333 10 0.416667 4.5 0.5 4 0.583333 4.5 0.666667 10 1 10</maxPitch>
@@ -3468,7 +3476,7 @@
             </_105mm_Gun_L7_HEAT_SH>
             <_5_5inch_AT_Gun_SH>
                shared
-               <maxAmmo>60</maxAmmo>
+               <maxAmmo>50</maxAmmo>
                <armor>
                   <gun>60</gun>
                </armor>

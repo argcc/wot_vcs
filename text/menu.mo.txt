@@ -287,17 +287,8 @@ Content-Transfer-Encoding: 8bit
 [boosterBuyWindow/pricePerItem]::{Стоимость покупки 1 шт.:}
 [boosterBuyWindow/rearmCheckboxLabel]::{Включить автопополнение инструкций}
 [boosterBuyWindow/title]::{Купить инструкции «{name}»?}
-[boosterFittingRenderer/buyButton]::{Докупить}
-[boosterFittingRenderer/removeButton]::{Убрать}
 [boosterInfo/closeBtn]::{Закрыть}
-[boosterInstallWindow/cantWorkStatus]::{РАБОТАТЬ НЕ БУДЕТ.}
-[boosterInstallWindow/installButton]::{Установить}
-[boosterInstallWindow/message]::{Внимание! У вас отсутствует оборудование %(equipmentName)s. Инструкция}
-[boosterInstallWindow/title]::{Установка инструкции}
 [boosterSelectPopover/rearmCheckBoxLabel]::{Включить автопополнение инструкций}
-[boosterSelectPopover/tabs/forCrew]::{Для экипажа}
-[boosterSelectPopover/tabs/forEquipment]::{К оборудованию}
-[boosterSelectPopover/title]::{Предбоевые инструкции}
 [boosterSellWindow/pricePerItem]::{Стоимость продажи 1 шт.:}
 [boosterSellWindow/title]::{Продать инструкции «{name}»?}
 [boosters/common/effect_time]::{Время действия}
@@ -404,7 +395,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/messenger/closeAllExceptCurrent]::{Закрыть все, кроме текущего}
 [contextMenu/messenger/closeCurrent]::{Закрыть текущий канал}
 [contextMenu/messenger/minimizeAll]::{Свернуть все каналы}
-[contextMenu/moduleInfo]::{Информация о предмете}
+[contextMenu/moduleInfo]::{Информация}
 [contextMenu/moneyTransfer]::{Перевод золота...}
 [contextMenu/nationChange]::{Сменить нацию}
 [contextMenu/notFairPlay]::{Неспортивное поведение}
@@ -432,7 +423,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/tankmanUnload]::{Высадить в Казарму}
 [contextMenu/tankmanUnloadAll]::{Высадить весь экипаж}
 [contextMenu/unequip]::{Выгрузить}
-[contextMenu/unload]::{Выгрузить на Склад}
+[contextMenu/unload]::{Убрать на Склад}
 [contextMenu/unlock]::{Исследовать}
 [contextMenu/unlockSlot]::{Разблокировать слот}
 [contextMenu/unsetMuted]::{Включить голосовые сообщения}
@@ -492,8 +483,8 @@ Content-Transfer-Encoding: 8bit
 оборудование}
 [crystals/info/tab/spend/card/specialTanks/description]::{Особая техника, доступная только за боны.}
 [crystals/info/tab/spend/card/specialTanks/title]::{Техника за боны}
-[crystals/info/tab/spend/card/toShop]::{В магазин}
-[crystals/info/tab/spend/description]::{За боны можно приобретать особую технику, предбоевые инструкции, а также усовершенствованное оборудование, которое заметно улучшает параметры машины.}
+[crystals/info/tab/spend/card/toShop]::{В Магазин}
+[crystals/info/tab/spend/description]::{За боны можно приобретать особую технику, предбоевые инструкции для оборудования, а также усовершенствованное оборудование, которое заметно улучшает параметры машины.}
 [crystals/info/tab/spendTab]::{Куда потратить}
 [crystals/info/title]::{БОНЫ}
 [crystals/promoWindow/title]::{Боны}
@@ -508,6 +499,8 @@ Content-Transfer-Encoding: 8bit
 [cst_item_ctx_menu/convertBlueprint]::{Создать один фрагмент}
 [cst_item_ctx_menu/convertBlueprintMax]::{Создать максимум фрагментов}
 [cst_item_ctx_menu/convertBlueprintMaxCount]::{Создать максимум фрагментов (%(count)d)}
+[cst_item_ctx_menu/demount]::{Демонтировать на Склад}
+[cst_item_ctx_menu/destroy]::{Уничтожить}
 [cst_item_ctx_menu/editStyle]::{Изменить}
 [cst_item_ctx_menu/exchange]::{Обменять}
 [cst_item_ctx_menu/goToCollection]::{Перейти в коллекцию}
@@ -516,6 +509,9 @@ Content-Transfer-Encoding: 8bit
 [cst_item_ctx_menu/preview]::{Предпросмотр машины}
 [cst_item_ctx_menu/previewCustomization]::{Предпросмотр}
 [cst_item_ctx_menu/prohibitSale]::{Снять выделение}
+[cst_item_ctx_menu/putOnFirst]::{Поместить в слот №1}
+[cst_item_ctx_menu/putOnSecond]::{Поместить в слот №2}
+[cst_item_ctx_menu/putOnThird]::{Поместить в слот №3}
 [cst_item_ctx_menu/remove]::{Убрать}
 [cst_item_ctx_menu/removeFromTank]::{Снять с текущей машины}
 [cst_item_ctx_menu/removeFromTank/desert]::{Снять для пустынной карты}
@@ -523,11 +519,14 @@ Content-Transfer-Encoding: 8bit
 [cst_item_ctx_menu/removeFromTank/winter]::{Снять для зимней карты}
 [cst_item_ctx_menu/rentRenew]::{Продлить аренду}
 [cst_item_ctx_menu/restore]::{Восстановить}
+[cst_item_ctx_menu/select]::{Поместить в слот}
 [cst_item_ctx_menu/sell]::{Продать}
 [cst_item_ctx_menu/showBlueprint]::{К чертежу}
 [cst_item_ctx_menu/showInHangar]::{Показать в Ангаре}
 [cst_item_ctx_menu/showVehicleStatistics]::{К статистике}
 [cst_item_ctx_menu/styleInfo]::{Информация о стиле}
+[cst_item_ctx_menu/takeOff]::{Убрать из слота}
+[cst_item_ctx_menu/unload]::{Выгрузить на Склад}
 [cst_item_ctx_menu/upgrade]::{Наладить}
 [currentVehicleStatus/ammoNotFull]::{Неполный боекомплект}
 [currentVehicleStatus/ammoNotFullEvents]::{Неполный боекомплект}
@@ -663,7 +662,6 @@ Content-Transfer-Encoding: 8bit
 [epicTraining/title]::{Тренировочный бой на Линии фронта}
 [epic_training/create/title]::{Создание тренировочной комнаты для Линии фронта}
 [epic_training/info/settings/title]::{Настройки тренировочной комнаты для Линии фронта}
-[equipmentFits/title]::{Выбор снаряжения}
 [exchange/cancel]::{Отменить}
 [exchange/no_gold]::{У вас не хватает золота для обмена.}
 [exchange/onhand]::{До обмена:}
@@ -680,6 +678,28 @@ Content-Transfer-Encoding: 8bit
 [exchangeXP/pay]::{К оплате:}
 [exchangeXP/submit]::{Перевести}
 [exchangeXP/title]::{Перевод в свободный опыт}
+[extraParams/desc]::{Параметр, напрямую не влияющий на эффективность уничтожения противника.}
+[extraParams/header]::{Бонус %(paramName)s}
+[extraParams/multiDesc]::{Суммарный бонус рассчитывается мультипликативно и может отличаться от паспортных значений.}
+[extraParams/name/crewHitChance]::{Параметр, отвечающий за шанс избежания ранения членами экипажа.}
+[extraParams/name/crewRepeatedStunDuration]::{Параметр, отвечающий за время дополнительного оглушения для уже оглушённой машины.}
+[extraParams/name/crewStunDuration]::{Параметр, отвечающий за время получаемого оглушения.}
+[extraParams/name/demaskFoliageFactor]::{Параметр, отвечающий за демаскировку полностью скрытого растительностью противника (как единичным элементом растительности, так и множественными). Применяется как к неподвижным машинам, так и к движущимся.}
+[extraParams/name/demaskMovingFactor]::{Параметр, отвечающий за демаскировку движущихся машин противника. Чем больше значение, тем проще обнаружение.}
+[extraParams/name/vehPenaltyForDamageEngineAndCombat]::{Параметр, отвечающий за снижение штрафа ко времени перезарядки при повреждённой боеукладке и динамическим ТТХ при повреждённом двигателе (по умолчанию — в 2 раза).}
+[extraParams/name/vehicleAmmoBayEngineFuelStrength]::{Параметр, отвечающий за прочность боеукладки, топливных баков и двигателя. Большее значение затрудняет их повреждение.}
+[extraParams/name/vehicleAmmoBayStrength]::{Параметр, отвечающий за прочность боеукладки. Большее значение затрудняет её повреждение.}
+[extraParams/name/vehicleChassisFallDamage]::{Параметр, отвечающий за наносимый технике урон при падении на ходовую. Не изменяет урон при падении на борт/крышу.}
+[extraParams/name/vehicleChassisRepairSpeed]::{Параметр, отвечающий за скорость ремонта ходовой. Чем больше значение, тем быстрее ремонт.}
+[extraParams/name/vehicleChassisStrength]::{Параметр, отвечающий за прочность ходовой. Большее значение затрудняет её повреждение как от снарядов, так и от падения/тарана.}
+[extraParams/name/vehicleEnemySpottingTime]::{Параметр, отвечающий за время поддержания противника видимым для команды после потери прямой видимости. Значение по умолчанию — 10 секунд.}
+[extraParams/name/vehicleFireChance]::{Параметр, отвечающий за шанс возгорания двигателя. Двигатель имеет шанс возгорания при каждом получении урона по этому модулю (кроме урона от снарядов самого мелкого калибра).}
+[extraParams/name/vehicleGunShotDispersion]::{Параметр, отвечающий за ухудшение точности при движении, повороте корпуса и башни. Чем меньше значение, тем меньше разлёт круга сведения.}
+[extraParams/name/vehicleOwnSpottingTime]::{Параметр, отвечающий за время поддержания вашей машины видимой для команды противника после потери прямой видимости. Значение по умолчанию — 10 секунд.}
+[extraParams/name/vehicleRamOrExplosionDamageResistance]::{Параметр, отвечающий за получаемый урон от ОФ снарядов и тарана. Чем больше брони в точке взрыва, тем сильнее эффект.}
+[extraParams/name/vehicleReloadTimeAfterShellChange]::{Параметр, отвечающий за время смены типа снаряда при полной зарядке текущего.}
+[extraParams/name/vehicleRepairSpeed]::{Параметр, отвечающий за скорость ремонта всех модулей машины — как внутренних, так и внешних. Чем больше значение, тем быстрее ремонт.}
+[extraParams/name/vehicleSpeedGain]::{Параметр, отвечающий за качество сцепления ходовой с поверхностью. Чем выше значение, тем быстрее будет набираться линейная скорость.}
 [finalStatistic/commonStats/resultlabel/ended]::{Бой окончен}
 [finalStatistic/commonStats/resultlabel/lose]::{Поражение}
 [finalStatistic/commonStats/resultlabel/techWin]::{Техническая победа}
@@ -691,15 +711,10 @@ Content-Transfer-Encoding: 8bit
 [finalStatistic/tabs/teamStats]::{Командный результат}
 [finalStatistic/window/title]::{Результаты боя}
 [fittingListItemRenderer/replace]::{Поменять снаряжение местами}
-[fittingListItemRenderer/unload]::{Выгрузить на Склад}
+[fittingListItemRenderer/unload]::{Убрать на Склад}
 [fittingPopover/manageAbilities]::{Управление резервами}
 [fittingSelectPopover/descText]::{Данное оборудование доступно для покупки за %(currencyName)s. Для покупки перейдите во вкладку «Усовершенствованное».}
 [fittingSelectPopover/descText/crystal]::{боны}
-[fittingSelectPopover/okBtnLabel]::{Показать оборудование}
-[fittingSelectPopover/titleText]::{Усовершенствованное оборудование}
-[fittingSelectPopover/trophyOverlay/descText]::{Трофейное оборудование — это новая линейка предметов, которая обладает параметрами штатного оборудования, но может быть улучшена до показателей усовершенствованного. Трофейное оборудование невозможно приобрести за игровую валюту, но можно получить в качестве награды в игровых событиях.}
-[fittingSelectPopover/trophyOverlay/okBtnLabel]::{Так точно!}
-[fittingSelectPopover/trophyOverlay/titleText]::{Трофейное оборудование}
 [fortification/installName]::{Установлен}
 [fortification/unloadName]::{Выгрузить}
 [fortificationCtx/assignedPlayers]::{Закреплённые игроки}
@@ -715,8 +730,8 @@ Content-Transfer-Encoding: 8bit
 [goldFish/eventTitle]::{ВЫГОДНОЕ ПРЕДЛОЖЕНИЕ НА ПОКУПКУ ИГРОВОГО ЗОЛОТА}
 [goldFish/header]::{Единовременная акция в Премиум магазине}
 [goldFish/windowHeader]::{Информационный листок}
-[hangar/ammunitionPanel/maitenanceBtn]::{Обслуживание}
-[hangar/ammunitionPanel/nationChangeBtn]::{СМЕНА НАЦИИ}
+[hangar/ammunitionPanel/maitenanceBtn]::{Ремонт}
+[hangar/ammunitionPanel/nationChangeBtn]::{Смена нации}
 [hangar/ammunitionPanel/technicalMaitenance/ammo/checkboxAuto]::{Пополнять автоматически}
 [hangar/ammunitionPanel/technicalMaitenance/ammo/label]::{Боекомплект}
 [hangar/ammunitionPanel/technicalMaitenance/ammo/list/buy]::{Докупить}
@@ -1282,9 +1297,7 @@ Content-Transfer-Encoding: 8bit
 [moduleFits/too_heavy]::{Недостаточно грузоподъёмности}
 [moduleFits/too_heavy_chassis]::{Слишком тяжёлые модули}
 [moduleFits/unlock_error]::{Не исследован}
-[moduleFits/upgradeBtn/label]::{Наладить}
 [moduleFits/upgradeBtn/tooltip/body]::{Наладка работы оборудования улучшает его характеристики.}
-[moduleFits/upgradeBtn/tooltip/header]::{?empty?}
 [moduleFits/wrong_slot]::{?empty?}
 [moduleInfo/additionalInfo]::{Характеристики снаряда могут отличаться в зависимости от орудия.}
 [moduleInfo/autoReloadGunLabel]::{Система дозарядки магазина}
@@ -1298,71 +1311,74 @@ Content-Transfer-Encoding: 8bit
 [moduleInfo/compatible/uniChargedVehicles]::{Работает как однозарядное на технике:}
 [moduleInfo/compatible/vehicles]::{Устанавливается на технику:}
 [moduleInfo/dualGunLabel]::{Спаренная орудийная установка}
-[moduleInfo/hydraulicAutoSiegeChassisLabel]::{Гидропневматическая подвеска:
-позволяет изменять угол наклона корпуса}
-[moduleInfo/hydraulicChassisLabel]::{Гидропневматическая подвеска:
-позволяет переходить в осадный / походный режимы}
-[moduleInfo/hydraulicWheeledChassisLabel]::{Гидропневматический привод телескопического типа:
-позволяет изменять положение дополнительных колёс.}
+[moduleInfo/hydraulicAutoSiegeChassisLabel]::{Гидропневматическая подвеска: позволяет изменять угол наклона корпуса}
+[moduleInfo/hydraulicChassisLabel]::{Гидропневматическая подвеска: позволяет переходить в осадный / походный режимы}
+[moduleInfo/hydraulicWheeledChassisLabel]::{Гидропневматический привод телескопического типа: позволяет изменять положение дополнительных колёс.}
 [moduleInfo/parametersClipGunLabel]::{<img src='%s' vspace='-4'/> Для орудия с магазинной системой заряжания:}
 [moduleInfo/parametersLabel]::{Характеристики:}
-[moduleInfo/params/aimingTime]::{Время сведения }
-[moduleInfo/params/areaRadius]::{Радиус зоны поражения }
-[moduleInfo/params/areaSquare]::{Зона поражения }
-[moduleInfo/params/armor]::{Бронирование }
-[moduleInfo/params/artDelayRange]::{Время до готовности к залпу }
-[moduleInfo/params/autoReloadTime]::{Время дозарядки одного снаряда }
-[moduleInfo/params/avgDamage]::{Средний урон }
-[moduleInfo/params/avgDamageList]::{Средний урон }
-[moduleInfo/params/avgDamagePerMinute]::{Средний урон в минуту }
-[moduleInfo/params/avgPiercingPower]::{Средняя бронепробиваемость }
-[moduleInfo/params/bombDamage]::{Урон одной авиабомбы }
-[moduleInfo/params/bombsNumberRange]::{Количество бомб за вылет }
-[moduleInfo/params/caliber]::{Калибр }
-[moduleInfo/params/chargeTime]::{Время залпа }
-[moduleInfo/params/circularVisionRadius]::{Обзор }
-[moduleInfo/params/cooldownSeconds]::{Время подготовки }
-[moduleInfo/params/damage]::{Урон }
-[moduleInfo/params/dispertionRadius]::{Разброс на 100 м }
+[moduleInfo/params/aimingTime]::{Время сведения}
+[moduleInfo/params/areaRadius]::{Радиус зоны поражения}
+[moduleInfo/params/areaSquare]::{Зона поражения}
+[moduleInfo/params/armor]::{Бронирование}
+[moduleInfo/params/artDelayRange]::{Время до готовности к залпу}
+[moduleInfo/params/autoReloadTime]::{Время дозарядки одного снаряда}
+[moduleInfo/params/avgDamage]::{Средний урон}
+[moduleInfo/params/avgDamageList]::{Средний урон}
+[moduleInfo/params/avgDamagePerMinute]::{Средний урон в минуту}
+[moduleInfo/params/avgPiercingPower]::{Средняя бронепробиваемость}
+[moduleInfo/params/bombDamage]::{Урон одной авиабомбы}
+[moduleInfo/params/bombsNumberRange]::{Количество бомб за вылет}
+[moduleInfo/params/caliber]::{Калибр}
+[moduleInfo/params/chargeTime]::{Время залпа}
+[moduleInfo/params/circularVisionRadius]::{Обзор}
+[moduleInfo/params/cooldownSeconds]::{Время подготовки}
+[moduleInfo/params/damage]::{Урон}
+[moduleInfo/params/dispertionRadius]::{Разброс на 100 м}
 [moduleInfo/params/drivingControl]::{К управляемости на скорости }
-[moduleInfo/params/enginePower]::{Мощность двигателя }
+[moduleInfo/params/enginePower]::{Мощность двигателя}
 [moduleInfo/params/enginePowerPerTon]::{К удельной мощности (л.с./т) }
-[moduleInfo/params/explosionRadius]::{Радиус разлёта осколков }
-[moduleInfo/params/fireStartingChance]::{Вероятность пожара при попадании }
-[moduleInfo/params/flyDelayRange]::{Время полёта }
+[moduleInfo/params/explosionRadius]::{Радиус разлёта осколков}
+[moduleInfo/params/fireStartingChance]::{Вероятность пожара при попадании}
+[moduleInfo/params/flyDelayRange]::{Время полёта}
 [moduleInfo/params/forwardMaxSpeed]::{Максимальная скорость }
-[moduleInfo/params/hullAndChassisWeight]::{Масса корпуса }
+[moduleInfo/params/hullAndChassisWeight]::{Масса }
 [moduleInfo/params/hullArmor]::{Бронирование корпуса }
 [moduleInfo/params/hullWeight]::{Масса корпуса }
 [moduleInfo/params/level_lbl]::{Боевой резерв %(level)s уровня}
 [moduleInfo/params/maxHealth]::{Прочность }
 [moduleInfo/params/maxHullHealth]::{Прочность }
-[moduleInfo/params/maxLoad]::{Максимальная нагрузка }
-[moduleInfo/params/maxShotDistance]::{Дальность стрельбы }
+[moduleInfo/params/maxLoad]::{Максимальная нагрузка}
+[moduleInfo/params/maxShotDistance]::{Дальность стрельбы}
 [moduleInfo/params/maxShotDistance/footnote]::{* максимальная дальность полета снарядов для данного орудия}
 [moduleInfo/params/maxSteeringLockAngle]::{Максимальный угол поворота колёс}
-[moduleInfo/params/noPiercingDistance/footnote]::{* для данного типа снарядов не зависит от расстояния%s}
+[moduleInfo/params/noPiercingDistance/footnote]::{* для данного типа снарядов не зависит от расстояния}
 [moduleInfo/params/noPiercingDistance/footnote/maxDistance]::{, максимальная дальность полёта - 400 м}
-[moduleInfo/params/piercingDistance]::{%(dist)s метров }
+[moduleInfo/params/piercingDistance]::{%(dist)s м}
+[moduleInfo/params/piercingDistance/footnote]::{* зависит от расстояния: %(minDist)s–%(maxDist)s м}
 [moduleInfo/params/piercingDistanceHeader]::{Средняя бронепробиваемость (мм) — Расстояние}
-[moduleInfo/params/piercingPower]::{Бронепробиваемость }
+[moduleInfo/params/piercingPower]::{Бронепробиваемость}
 [moduleInfo/params/radarCooldown]::{Время подготовки радара }
 [moduleInfo/params/radarRadius]::{Радиус обнаружения }
-[moduleInfo/params/radioDistance]::{Дальность связи }
-[moduleInfo/params/rateTime]::{Время между выстрелом и переходом к заряженному орудию }
-[moduleInfo/params/reloadMagazineTime]::{Время полной перезарядки }
-[moduleInfo/params/reloadTime]::{Скорострельность }
-[moduleInfo/params/reloadTimeSecs]::{Заряжание орудия }
-[moduleInfo/params/rotationSpeed]::{Скорость поворота }
-[moduleInfo/params/shellReloadingTime]::{Время перезарядки между выстрелами }
-[moduleInfo/params/shellsCount]::{Снарядов в магазине }
-[moduleInfo/params/shotsNumberRange]::{Количество снарядов за залп }
-[moduleInfo/params/stunMaxDuration]::{Максимальное время оглушения }
-[moduleInfo/params/stunMaxDurationList]::{Максимальное время оглушения }
-[moduleInfo/params/stunMinDuration]::{Минимальное время оглушения }
-[moduleInfo/params/stunMinDurationList]::{Минимальное время оглушения }
-[moduleInfo/params/weight]::{Масса }
+[moduleInfo/params/radioDistance]::{Дальность связи}
+[moduleInfo/params/rateTime]::{Время между выстрелом и переходом к заряженному орудию}
+[moduleInfo/params/reloadMagazineTime]::{Время полной перезарядки}
+[moduleInfo/params/reloadTime]::{Скорострельность}
+[moduleInfo/params/reloadTimeSecs]::{Заряжание орудия}
+[moduleInfo/params/rotationSpeed]::{Скорость поворота}
+[moduleInfo/params/shellReloadingTime]::{Время перезарядки между выстрелами}
+[moduleInfo/params/shellsCount]::{Снарядов в магазине}
+[moduleInfo/params/shotSpeed]::{Начальная скорость полёта}
+[moduleInfo/params/shotsNumberRange]::{Количество снарядов за залп}
+[moduleInfo/params/stunDurationList]::{Время оглушения}
+[moduleInfo/params/stunMaxDuration]::{Максимальное время оглушения}
+[moduleInfo/params/stunMaxDurationList]::{Максимальное время оглушения}
+[moduleInfo/params/stunMinDuration]::{Минимальное время оглушения}
+[moduleInfo/params/stunMinDurationList]::{Минимальное время оглушения}
+[moduleInfo/params/turboshaftEnginePower]::{Мощность двигателя (турбо)}
+[moduleInfo/params/weight]::{Масса}
 [moduleInfo/title]::{ }
+[moduleInfo/turboshaftEngine]::{Газотурбинный двигатель:
+позволяет развивать высокую скорость.}
 [nation_tree/blueprint_title/china]::{Чертежи техники Китая}
 [nation_tree/blueprint_title/czech]::{Чертежи техники Чехословакии}
 [nation_tree/blueprint_title/france]::{Чертежи техники Франции}
@@ -1403,8 +1419,6 @@ Content-Transfer-Encoding: 8bit
 [onlineCounter/unavailable]::{- -}
 [opponents]::{%(firstOpponent)s vs. %(secondOpponent)s}
 [optionalDeviceFits/title]::{Выбор оборудования}
-[optionalDeviceSelectPopover/tabs/deluxe]::{Усовершенствованное}
-[optionalDeviceSelectPopover/tabs/simple]::{Штатное}
 [prebattle/CompaniesTitle/ABSOLUTE]::{Абсолютный}
 [prebattle/CompaniesTitle/CHAMPION]::{Чемпионский}
 [prebattle/CompaniesTitle/EVENT]::{Стальная охота 15x15}
@@ -1628,8 +1642,7 @@ Content-Transfer-Encoding: 8bit
 [serverStats/arenasCount]::{Боёв:}
 [serverStats/playersCount]::{Игроков:}
 [serverStats/playersInArenaCount]::{В бою:}
-[shellListItemRenderer/replace]::{Поменять снаряды местами}
-[shellListItemRenderer/setAsDefault]::{Назначить снаряд базовым}
+[shell/caliber/units]::{мм}
 [shop/actions/filter/label]::{Показать все предложения со скидкой}
 [shop/errors/centerIsDown]::{Временно недоступен}
 [shop/errors/inHangar]::{В Ангаре}
@@ -1834,7 +1847,7 @@ Content-Transfer-Encoding: 8bit
 [tank_params/aimingTime]::{Время сведения}
 [tank_params/attainableSpeed]::{Скорость, набираемая за 5 секунд}
 [tank_params/autoReloadTime]::{Время дозарядки одного снаряда}
-[tank_params/avgDamage]::{Средний урон за выстрел}
+[tank_params/avgDamage]::{Средний урон}
 [tank_params/avgDamagePerMinute]::{Средний урон в минуту}
 [tank_params/avgPiercingPower]::{Средняя бронепробиваемость}
 [tank_params/chargeTime]::{Время залпа}
@@ -1848,6 +1861,7 @@ Content-Transfer-Encoding: 8bit
 [tank_params/enginePower]::{Мощность двигателя}
 [tank_params/enginePowerPerTon]::{Удельная мощность}
 [tank_params/explosionRadius]::{Радиус разлёта осколков}
+[tank_params/extraRepairSpeed]::{к скорости ремонта}
 [tank_params/faceFrontBoardInMM]::{(лоб/борт/корма в мм)}
 [tank_params/forwardMaxSpeed]::{Максимальная скорость}
 [tank_params/gps]::{(град/с)}
@@ -1856,8 +1870,8 @@ Content-Transfer-Encoding: 8bit
 [tank_params/gunYawLimits]::{Углы горизонтальной наводки}
 [tank_params/h]::{(выстр)}
 [tank_params/hullArmor]::{Бронирование корпуса}
-[tank_params/invisibilityMovingFactor]::{Незаметность машины в движении (%)}
-[tank_params/invisibilityStillFactor]::{Незаметность неподвижной машины (%)}
+[tank_params/invisibilityMovingFactor]::{В движении (%)}
+[tank_params/invisibilityStillFactor]::{Неподвижной машины (%)}
 [tank_params/kg]::{(кг)}
 [tank_params/m]::{(м)}
 [tank_params/maxAmmo]::{Боекомплект}
@@ -1865,6 +1879,10 @@ Content-Transfer-Encoding: 8bit
 [tank_params/maxSteeringLockAngle]::{Максимальный угол поворота колёс}
 [tank_params/mm]::{(мм)}
 [tank_params/mph]::{(км/ч)}
+[tank_params/mps]::{(м/с)}
+[tank_params/no_brackets/kg]::{кг}
+[tank_params/no_brackets/mm]::{мм}
+[tank_params/no_brackets/s]::{c}
 [tank_params/p]::{(л.с.)}
 [tank_params/param12]::{Проходимость}
 [tank_params/percent]::{ }
@@ -1883,10 +1901,13 @@ Content-Transfer-Encoding: 8bit
 [tank_params/reloadTimeSecs]::{Заряжание орудия}
 [tank_params/s]::{(с)}
 [tank_params/s_s]::{(с/с)}
+[tank_params/shortened/avgPiercingPower]::{Пробивает:}
 [tank_params/shotDispersionAngle]::{Разброс на 100 м}
+[tank_params/shotSpeed]::{Начальная скорость полёта}
 [tank_params/speedLimits]::{Макс. скорость / задний ход}
 [tank_params/spm]::{(выстр/мин)}
 [tank_params/sqm]::{(м²)}
+[tank_params/stunDurationList]::{Время оглушения}
 [tank_params/stunMaxDuration]::{Максимальное время оглушения}
 [tank_params/stunMinDuration]::{Минимальное время оглушения}
 [tank_params/switchOffTime]::{Время перехода в походный режим }
@@ -1894,6 +1915,11 @@ Content-Transfer-Encoding: 8bit
 [tank_params/switchTime]::{Время перехода в осадный / походный режим}
 [tank_params/t]::{(т)}
 [tank_params/timeOfReaching]::{Время преодоления 100 м}
+[tank_params/turboshaftEnginePower]::{Мощность двигателя (турбо)}
+[tank_params/turboshaftInvisibilityMovingFactor]::{В движении (турбо) (%)}
+[tank_params/turboshaftInvisibilityStillFactor]::{Неподвижной машины (турбо) (%)}
+[tank_params/turboshaftSpeedModeSpeed]::{Макс. скорость / задний ход (турбо)}
+[tank_params/turboshaftSwitchTime]::{Время смены режимов двигателя}
 [tank_params/turretArmor]::{Бронирование башни}
 [tank_params/turretModuleRotationSpeed]::{Скорость поворота башни}
 [tank_params/turretRotationSpeed]::{Скорость гориз. перевода прицела}
@@ -1998,7 +2024,6 @@ Content-Transfer-Encoding: 8bit
 [teachingSkill/teachToLevel]::{Обучить до уровня:}
 [teachingSkill/title]::{Обучение за свободный опыт}
 [teachingSkill/totalPay]::{К оплате:}
-[technicalMaintenance/ammoTitleEx]::{(кассеты по %d шт.)}
 [techtree/Announcement]::{Скоро}
 [techtree/intro/block0/desc]::{На начальных уровнях стало меньше машин, убрано большинство неоднозначных развилок и переходов, структура Дерева облегчена.}
 [techtree/intro/block0/title]::{Наведён порядок}
@@ -2136,12 +2161,18 @@ Content-Transfer-Encoding: 8bit
 [vehicleInfo/params/reloadTime]::{Скорострельность орудия (выстр/мин)}
 [vehicleInfo/params/reloadTimeSecs]::{Заряжание орудия (с)}
 [vehicleInfo/params/shotDispersionAngle]::{Разброс на 100 м (м)}
+[vehicleInfo/params/shotSpeed]::{Скорость полёта}
 [vehicleInfo/params/speedLimits]::{Макс. скорость / задний ход (км/ч)}
 [vehicleInfo/params/stunMaxDuration]::{Максимальное время оглушения (c)}
 [vehicleInfo/params/stunMinDuration]::{Минимальное время оглушения (c)}
 [vehicleInfo/params/switchOffTime]::{Время перехода в походный режим (с)}
 [vehicleInfo/params/switchOnTime]::{Время перехода в осадный режим (с)}
 [vehicleInfo/params/switchTime]::{Время перехода в осадный / походный режим (с)}
+[vehicleInfo/params/turboshaftEnginePower]::{Мощность двигателя (турбо) (л.с.)}
+[vehicleInfo/params/turboshaftInvisibilityMovingFactor]::{Незаметность машины в движении (турбо) (%)}
+[vehicleInfo/params/turboshaftInvisibilityStillFactor]::{Незаметность неподвижной машины (турбо) (%)}
+[vehicleInfo/params/turboshaftSpeedModeSpeed]::{Макс. скорость / задний ход (турбо) (км/ч)}
+[vehicleInfo/params/turboshaftSwitchTime]::{Время смены режимов двигателя (с)}
 [vehicleInfo/params/turretArmor]::{Бронирование башни (лоб/борт/корма в мм)}
 [vehicleInfo/params/turretRotationSpeed]::{Скорость горизонтального перевода прицела (град/с)}
 [vehicleInfo/params/turretYawLimits]::{Углы поворота башни (град)}

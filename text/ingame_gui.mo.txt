@@ -89,7 +89,7 @@ Content-Transfer-Encoding: 8bit
 [chat_shortcuts/reloading_ready_cassette]::{К выстрелу готов! Снарядов в кассете: %(int32Arg1)s шт.}
 [chat_shortcuts/reloading_unavailable]::{Боекомплект пуст.}
 [chat_shortcuts/spg_aim_area]::{Навожусь на позицию. К выстрелу готов!}
-[chat_shortcuts/spg_aim_area_reloading]::{Навожусь на позицию. Перезаряжаюсь, ещё %(reloadTime)d c!}
+[chat_shortcuts/spg_aim_area_reloading]::{Навожусь на позицию. Перезаряжаюсь ещё %(reloadTime)d c!}
 [chat_shortcuts/supporting_ally]::{%(target)s, я помогу тебе!}
 [chat_shortcuts/thanks]::{%(target)s, спасибо!}
 [chat_shortcuts/turn_back]::{%(target)s, назад!}
@@ -247,6 +247,9 @@ Content-Transfer-Encoding: 8bit
 [hitMarker/ricochet]::{Рикошет}
 [levelProgress/maxLevel]::{МАКСИМАЛЬНЫЙ УРОВЕНЬ МАШИНЫ}
 [marker/meters]::{м}
+[optDeviceResurrection/ammoBay]::{Подрыв боеукладки предотвращён оборудованием «%(device)s»}
+[optDeviceResurrection/engine]::{Поломка двигателя предотвращена оборудованием «%(device)s»}
+[optDeviceResurrection/fuelTank]::{Возгорание предотвращёно оборудованием «%(device)s»}
 [personalMissions/tip/additionalHeader]::{Дополнительное условие:}
 [personalMissions/tip/mainHeader]::{Основное условие:}
 [personalMissions/tip/noQuests/battleType]::{Для данного типа боя нет принятых к исполнению боевых задач.}
@@ -419,6 +422,7 @@ Content-Transfer-Encoding: 8bit
 [player_messages/ENGINE_DESTROYED_AT_BURNOUT]::{Устройство [%(device)s] вышло из строя из-за использования рывка.}
 [player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM]::{Устройство [%(device)s] разрушено из-за снятого ограничителя оборотов.}
 [player_messages/FIRE_STOPPED]::{Пожар потушен.}
+[player_messages/OPT_DEVICE_USED]::{%(message)s}
 [player_messages/TANKMAN_HIT_AT_SHOT]::{[%(device)s] ранен выстрелом %(entity)s.}
 [player_messages/TANKMAN_RESTORED]::{[%(device)s] снова в строю.}
 [player_messages/allied_team_name]::{Союзники}
@@ -677,19 +681,18 @@ Home/End — перемотка в начало/конец
 [shells_kinds/ARMOR_PIERCING_HE]::{%(caliber)s мм бронебойный каморный снаряд %(userString)s}
 [shells_kinds/HIGH_EXPLOSIVE]::{%(caliber)s мм осколочно-фугасный снаряд %(userString)s}
 [shells_kinds/HOLLOW_CHARGE]::{%(caliber)s мм кумулятивный снаряд %(userString)s}
-[shells_kinds/params]::{Повреждения %(damage)s
-Пробиваемость %(piercingPower)s}
-[shells_kinds/paramsNoPiercing]::{Повреждения %(damage)s}
-[shells_kinds/stunParams]::{Повреждения %(damage)s
-Пробиваемость %(piercingPower)s
-Минимальное время оглушения %(stunMinDuration)s (с)
-Максимальное время оглушения %(stunMaxDuration)s (с)}
+[shells_kinds/params/damage]::{Средний урон: %(value)s ед.}
+[shells_kinds/params/explosionRadius]::{Радиус разлёта осколков: %(value)s м}
+[shells_kinds/params/piercingPower]::{Средняя бронепробиваемость: %(value)s мм}
+[shells_kinds/params/shotSpeed]::{Начальная скорость полёта:  %(value)s м/с}
+[shells_kinds/params/stunDuration]::{Время оглушения: %(minValue)s–%(maxValue)s с}
 [siegeMode/hint/forMode/0]::{для перехода в осадный режим}
 [siegeMode/hint/forMode/1]::{?empty?}
 [siegeMode/hint/forMode/2]::{для возврата в походный режим}
 [siegeMode/hint/forMode/3]::{?empty?}
 [siegeMode/hint/noBinding]::{Ключевые клавиши не назначены}
 [siegeMode/hint/press]::{Нажмите}
+[siegeMode/hint/turboshaftEngine]::{для смены режима работы двигателя}
 [siegeMode/hint/wheeled]::{для смены режима движения}
 [statistics/exit]::{Нажмите Esc для выхода в Ангар...}
 [statistics/final/heroes]::{?empty?}

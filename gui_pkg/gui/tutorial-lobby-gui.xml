@@ -185,6 +185,46 @@
    </scenes>
    <gui-items>
       <item>
+         <name>RepairBtn</name>
+         <type>dict</type>
+         <value>
+            <item>
+               <name>view</name>
+               <value>hangar</value>
+            </item>
+            <item>
+               <name>path</name>
+               <value>ammunitionPanel.maintenanceBtn</value>
+            </item>
+            <item>
+               <name>padding</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>left</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>top</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>right</name>
+                     <type>float</type>
+                     <value>4</value>
+                  </item>
+                  <item>
+                     <name>bottom</name>
+                     <type>float</type>
+                     <value>2</value>
+                  </item>
+               </value>
+            </item>
+         </value>
+      </item>
+      <item>
          <name>LobbyMenu</name>
          <type>dict</type>
          <value>
@@ -759,46 +799,6 @@
          </value>
       </item>
       <item>
-         <name>MaintenanceButton</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.maintenanceBtn</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>4</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>2</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
          <name>CustomizationSlots</name>
          <type>dict</type>
          <value>
@@ -1119,7 +1119,7 @@
          </value>
       </item>
       <item>
-         <name>OptionalDevice1DropDown</name>
+         <name>HangarOptionalDeviceSlots</name>
          <type>dict</type>
          <value>
             <item>
@@ -1128,166 +1128,7 @@
             </item>
             <item>
                <name>path</name>
-               <value>ammunitionPanel.optionalDevice1</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-            <item>
-               <name>bootcampHint</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>hideBorder</name>
-                     <type>bool</type>
-                     <value>False</value>
-                  </item>
-                  <item>
-                     <name>padding</name>
-                     <type>dict</type>
-                     <value>
-                        <item>
-                           <name>left</name>
-                           <type>float</type>
-                           <value>0</value>
-                        </item>
-                        <item>
-                           <name>top</name>
-                           <type>float</type>
-                           <value>0</value>
-                        </item>
-                        <item>
-                           <name>right</name>
-                           <type>float</type>
-                           <value>158</value>
-                        </item>
-                        <item>
-                           <name>bottom</name>
-                           <type>float</type>
-                           <value>3</value>
-                        </item>
-                     </value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>OptionalDevice1DropDownList</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>fittingSelectPopover</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>itemsList</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>OptionalDevice2DropDownList</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>optDevicesSelectPopover</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>itemsList</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>OptionalDevice2DropDown</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.optionalDevice2</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>OptionalDevice3DropDown</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.optionalDevice3</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>OptionalDevice1Renderer</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>fittingSelectPopover</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>itemsList:OptDevFittingItemRendererUI?%OptionalDeviceItemID%</value>
+               <value>BootcampPanelOptDeviceMC</value>
             </item>
             <item>
                <name>padding</name>
@@ -1346,58 +1187,7 @@
                         <item>
                            <name>bottom</name>
                            <type>float</type>
-                           <value>9</value>
-                        </item>
-                     </value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>OptionalDevice2Renderer</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>optDevicesSelectPopover</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>itemsList:OptDevFittingItemRendererUI?%OptionalDevice2ItemID%</value>
-            </item>
-            <item>
-               <name>bootcampHint</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>hideBorder</name>
-                     <type>bool</type>
-                     <value>False</value>
-                  </item>
-                  <item>
-                     <name>padding</name>
-                     <type>dict</type>
-                     <value>
-                        <item>
-                           <name>left</name>
-                           <type>float</type>
                            <value>0</value>
-                        </item>
-                        <item>
-                           <name>top</name>
-                           <type>float</type>
-                           <value>0</value>
-                        </item>
-                        <item>
-                           <name>right</name>
-                           <type>float</type>
-                           <value>0</value>
-                        </item>
-                        <item>
-                           <name>bottom</name>
-                           <type>float</type>
-                           <value>9</value>
                         </item>
                      </value>
                   </item>
@@ -2666,395 +2456,6 @@
          </value>
       </item>
       <item>
-         <name>EquipmentItem1DropDown</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>technicalMaintenance</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>eqItem1</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-            <item>
-               <name>bootcampHint</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>hideBorder</name>
-                     <type>bool</type>
-                     <value>False</value>
-                  </item>
-                  <item>
-                     <name>padding</name>
-                     <type>dict</type>
-                     <value>
-                        <item>
-                           <name>left</name>
-                           <type>float</type>
-                           <value>8</value>
-                        </item>
-                        <item>
-                           <name>top</name>
-                           <type>float</type>
-                           <value>1</value>
-                        </item>
-                        <item>
-                           <name>right</name>
-                           <type>float</type>
-                           <value>890</value>
-                        </item>
-                        <item>
-                           <name>bottom</name>
-                           <type>float</type>
-                           <value>4</value>
-                        </item>
-                     </value>
-                  </item>
-               </value>
-            </item>
-            <item>
-               <name>anim</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>overlay</name>
-                     <type>dict</type>
-                     <value>
-                        <item>
-                           <name>x</name>
-                           <type>int</type>
-                           <value>0</value>
-                        </item>
-                        <item>
-                           <name>y</name>
-                           <type>int</type>
-                           <value>0</value>
-                        </item>
-                        <item>
-                           <name>width</name>
-                           <type>int</type>
-                           <value>940</value>
-                        </item>
-                        <item>
-                           <name>height</name>
-                           <type>int</type>
-                           <value>326</value>
-                        </item>
-                     </value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>EquipmentItem2DropDown</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>technicalMaintenance</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>eqItem2</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>EquipmentItem3DropDown</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>technicalMaintenance</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>eqItem3</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>EquipmentItem1Renderer</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>technicalMaintenance</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>eqItem1.select.dropDownList:EquipmentListItemRendererUI?%EquipmentItem1ID%</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>EquipmentItem2Renderer</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>technicalMaintenance</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>eqItem2.select.dropDownList:EquipmentListItemRendererUI?%EquipmentItem2ID%</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>EquipmentItem3Renderer</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>technicalMaintenance</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>eqItem3.select.dropDownList:EquipmentListItemRendererUI?%EquipmentItem3ID%</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>TechnicalMaintenanceApplyButton</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>technicalMaintenance</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>applyBtn</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>TechnicalMaintenanceHelpButton</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>technicalMaintenance</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>helpBtn</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
          <name>PremiumPeriodRenderer</name>
          <type>dict</type>
          <value>
@@ -3264,7 +2665,87 @@
             </item>
             <item>
                <name>path</name>
-               <value>ammunitionPanel</value>
+               <value>ammunitionPanelInject</value>
+            </item>
+            <item>
+               <name>padding</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>left</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>top</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>right</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>bottom</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+               </value>
+            </item>
+         </value>
+      </item>
+      <item>
+         <name>HangarPanelOptDevice</name>
+         <type>dict</type>
+         <value>
+            <item>
+               <name>view</name>
+               <value>hangar</value>
+            </item>
+            <item>
+               <name>path</name>
+               <value>HangarPanelOptDeviceMC</value>
+            </item>
+            <item>
+               <name>padding</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>left</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>top</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>right</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>bottom</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+               </value>
+            </item>
+         </value>
+      </item>
+      <item>
+         <name>HangarPanelShells</name>
+         <type>dict</type>
+         <value>
+            <item>
+               <name>view</name>
+               <value>hangar</value>
+            </item>
+            <item>
+               <name>path</name>
+               <value>HangarPanelShellsMC</value>
             </item>
             <item>
                <name>padding</name>
@@ -3928,86 +3409,6 @@
          </value>
       </item>
       <item>
-         <name>EpicReservesSlot</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.battleAbilitiesHighlighter</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>5</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>EpicReservesBtn</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>battleAbilitySelectPopover</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>battleAbilitiesBtnArea</value>
-            </item>
-            <item>
-               <name>padding</name>
-               <type>dict</type>
-               <value>
-                  <item>
-                     <name>left</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>top</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>right</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-                  <item>
-                     <name>bottom</name>
-                     <type>float</type>
-                     <value>0</value>
-                  </item>
-               </value>
-            </item>
-         </value>
-      </item>
-      <item>
          <name>MessengerBar</name>
          <type>dict</type>
          <value>
@@ -4046,7 +3447,7 @@
          </value>
       </item>
       <item>
-         <name>HangarModuleGun</name>
+         <name>HangarEquipmentSlots</name>
          <type>dict</type>
          <value>
             <item>
@@ -4055,77 +3456,7 @@
             </item>
             <item>
                <name>path</name>
-               <value>ammunitionPanel.gun</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>HangarModuleTurret</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.turret</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>HangarModuleEngine</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.engine</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>HangarModuleChassis</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.chassis</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>HangarModuleRadio</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.radio</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>HangarEquipment1</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
-            </item>
-            <item>
-               <name>path</name>
-               <value>ammunitionPanel.equipment1</value>
+               <value>BootcampPanelEquipmentMC</value>
             </item>
             <item>
                <name>bootcampHint</name>
@@ -4153,12 +3484,12 @@
                         <item>
                            <name>right</name>
                            <type>float</type>
-                           <value>158</value>
+                           <value>0</value>
                         </item>
                         <item>
                            <name>bottom</name>
                            <type>float</type>
-                           <value>3</value>
+                           <value>0</value>
                         </item>
                      </value>
                   </item>
@@ -4167,86 +3498,257 @@
          </value>
       </item>
       <item>
-         <name>HangarEquipment2</name>
+         <name>AmmunitionSetupEquipmentCards</name>
          <type>dict</type>
          <value>
             <item>
                <name>view</name>
-               <value>hangar</value>
+               <value>ammunitionSetupView</value>
             </item>
             <item>
                <name>path</name>
-               <value>ammunitionPanel.equipment2</value>
+               <value>SetupViewCardsEquipmentMC</value>
+            </item>
+            <item>
+               <name>bootcampHint</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>hideBorder</name>
+                     <type>bool</type>
+                     <value>False</value>
+                  </item>
+                  <item>
+                     <name>padding</name>
+                     <type>dict</type>
+                     <value>
+                        <item>
+                           <name>left</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>top</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>right</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>bottom</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                     </value>
+                  </item>
+               </value>
             </item>
          </value>
       </item>
       <item>
-         <name>HangarEquipment3</name>
+         <name>AmmunitionSetupEquipmentApplyBtn</name>
          <type>dict</type>
          <value>
             <item>
                <name>view</name>
-               <value>hangar</value>
+               <value>ammunitionSetupView</value>
             </item>
             <item>
                <name>path</name>
-               <value>ammunitionPanel.equipment3</value>
+               <value>ApplyHangarEquipmentMC</value>
+            </item>
+            <item>
+               <name>bootcampHint</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>hideBorder</name>
+                     <type>bool</type>
+                     <value>False</value>
+                  </item>
+                  <item>
+                     <name>padding</name>
+                     <type>dict</type>
+                     <value>
+                        <item>
+                           <name>left</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>top</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>right</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>bottom</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                     </value>
+                  </item>
+               </value>
             </item>
          </value>
       </item>
       <item>
-         <name>HangarShell1</name>
+         <name>AmmunitionSetupOptionalDeviceCards</name>
          <type>dict</type>
          <value>
             <item>
                <name>view</name>
-               <value>hangar</value>
+               <value>ammunitionSetupView</value>
             </item>
             <item>
                <name>path</name>
-               <value>ammunitionPanel.shell1</value>
+               <value>SetupViewCardsOptDeviceMC</value>
+            </item>
+            <item>
+               <name>bootcampHint</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>hideBorder</name>
+                     <type>bool</type>
+                     <value>False</value>
+                  </item>
+                  <item>
+                     <name>padding</name>
+                     <type>dict</type>
+                     <value>
+                        <item>
+                           <name>left</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>top</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>right</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>bottom</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                     </value>
+                  </item>
+               </value>
             </item>
          </value>
       </item>
       <item>
-         <name>HangarShell2</name>
+         <name>AmmunitionSetupOptionalDeviceApplyBtn</name>
          <type>dict</type>
          <value>
             <item>
                <name>view</name>
-               <value>hangar</value>
+               <value>ammunitionSetupView</value>
             </item>
             <item>
                <name>path</name>
-               <value>ammunitionPanel.shell2</value>
+               <value>ApplyHangarOptDeviceMC</value>
+            </item>
+            <item>
+               <name>bootcampHint</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>hideBorder</name>
+                     <type>bool</type>
+                     <value>False</value>
+                  </item>
+                  <item>
+                     <name>padding</name>
+                     <type>dict</type>
+                     <value>
+                        <item>
+                           <name>left</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>top</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>right</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>bottom</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                     </value>
+                  </item>
+               </value>
             </item>
          </value>
       </item>
       <item>
-         <name>HangarShell3</name>
+         <name>AmmunitionSetupOptionalDeviceSlots</name>
          <type>dict</type>
          <value>
             <item>
                <name>view</name>
-               <value>hangar</value>
+               <value>ammunitionSetupView</value>
             </item>
             <item>
                <name>path</name>
-               <value>ammunitionPanel.shell3</value>
-            </item>
-         </value>
-      </item>
-      <item>
-         <name>HangarBooster</name>
-         <type>dict</type>
-         <value>
-            <item>
-               <name>view</name>
-               <value>hangar</value>
+               <value>SetupViewSlotsOptDeviceMC</value>
             </item>
             <item>
-               <name>path</name>
-               <value>ammunitionPanel.booster</value>
+               <name>bootcampHint</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>hideBorder</name>
+                     <type>bool</type>
+                     <value>False</value>
+                  </item>
+                  <item>
+                     <name>padding</name>
+                     <type>dict</type>
+                     <value>
+                        <item>
+                           <name>left</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>top</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>right</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                        <item>
+                           <name>bottom</name>
+                           <type>float</type>
+                           <value>0</value>
+                        </item>
+                     </value>
+                  </item>
+               </value>
             </item>
          </value>
       </item>
@@ -4900,6 +4402,126 @@
             <item>
                <name>path</name>
                <value>header.questsFlags.battlePassEntryPoint</value>
+            </item>
+            <item>
+               <name>padding</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>left</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>top</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>right</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>bottom</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+               </value>
+            </item>
+         </value>
+      </item>
+      <item>
+         <name>AmmunitionPanelTutorialHintZone</name>
+         <type>dict</type>
+         <value>
+            <item>
+               <name>view</name>
+               <value>hangar</value>
+            </item>
+            <item>
+               <name>path</name>
+               <value>ammunitionPanelHintMC</value>
+            </item>
+            <item>
+               <name>padding</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>left</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>top</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>right</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>bottom</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+               </value>
+            </item>
+         </value>
+      </item>
+      <item>
+         <name>FilterTutorialHintZone</name>
+         <type>dict</type>
+         <value>
+            <item>
+               <name>view</name>
+               <value>ammunitionSetupView</value>
+            </item>
+            <item>
+               <name>path</name>
+               <value>filterHintMC</value>
+            </item>
+            <item>
+               <name>padding</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>left</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>top</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>right</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>bottom</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+               </value>
+            </item>
+         </value>
+      </item>
+      <item>
+         <name>OptDevDragAndDropHintZone</name>
+         <type>dict</type>
+         <value>
+            <item>
+               <name>view</name>
+               <value>ammunitionSetupView</value>
+            </item>
+            <item>
+               <name>path</name>
+               <value>optDevDragAndDropMC</value>
             </item>
             <item>
                <name>padding</name>

@@ -10,9 +10,9 @@ Content-Transfer-Encoding: 8bit
 }
 [alertMessage/allPeripheriesHalt]::{Комендантский час на всех серверах. Бои начнутся через %(time)s.}
 [alertMessage/button]::{Сменить сервер}
-[alertMessage/seasonAlmostFinished]::{Событие «Стальной охотник» завершится через %(time)s}
-[alertMessage/seasonFinished]::{Событие «Стальной охотник» завершено}
-[alertMessage/seasonIsComing]::{Событие «Стальной охотник» начнётся через %(time)s}
+[alertMessage/seasonAlmostFinished]::{Режим «Стальной охотник» завершится через %(time)s}
+[alertMessage/seasonFinished]::{Режим «Стальной охотник» завершён}
+[alertMessage/seasonIsComing]::{Режим «Стальной охотник» начнётся через %(time)s}
 [alertMessage/singleModeHalt]::{Комендантский час на сервере. Бои начнутся через %(time)s.}
 [alertMessage/somePeripheriesHalt]::{Комендантский час на %(serverName)s}
 [alertMessage/unsuitablePeriphery]::{На текущем сервере бои недоступны}
@@ -71,7 +71,7 @@ Content-Transfer-Encoding: 8bit
 [commanderInfo/fullName/uk]::{Walter Bussfender}
 [commanderInfo/fullName/usa]::{Reginald Berly}
 [commanderInfo/fullName/ussr]::{Пётр Лопахин}
-[commanderTooltip/vehicleDescription]::{Специального танка «%(vehicle)s» события «Стальной охотник».}
+[commanderTooltip/vehicleDescription]::{Специального танка «%(vehicle)s» режима «Стальной охотник».}
 [equipment/berserk/active]::{В ЯРОСТИ!}
 [equipment/healPoint/healed]::{Восстановление прочности машины}
 [equipment/healPoint/healing]::{Восстановление прочности машины}
@@ -80,7 +80,7 @@ Content-Transfer-Encoding: 8bit
 [fullStats/alive]::{Всего в живых}
 [fullStats/deathZone/closed/description]::{Зона закрыта}
 [fullStats/deathZone/warning/description]::{Зона закрывается}
-[fullStats/description]::{Основная задача — остаться последним выжившим игроком (или взводом). Собирайте ресурсы, улучшайте машину, выживайте!}
+[fullStats/description]::{Основная задача — остаться последним выжившим игроком (или взводом). Собирайте ресурсы, улучшайте машину, выживайте!}
 [fullStats/destroyed]::{Лично уничтожено}
 [fullStats/icons/airDrop/description]::{Груз: прочность, ремонт модулей, заряды всех умений,
 снаряды, опыт}
@@ -100,7 +100,7 @@ Content-Transfer-Encoding: 8bit
 [hangarVehicleInfo/introDialog/title]::{Улучшайте технику прямо в бою}
 [hangarVehicleInfo/moduleTreeTab]::{Модули техники}
 [hangarVehicleInfo/moduleTreeTip]::{Модули доступны для исследования только в бою. Чтобы вызвать дерево исследований, в бою нажмите %(key)s.}
-[hangarVehicleInfo/tooltips/battleProgression/note]::{Для получения опыта %(highlight1)s и %(highlight2)s. С каждым новым уровнем вы можете улучшить модуль из дерева исследований — это существенно улучшит ТТХ вашей машины.}
+[hangarVehicleInfo/tooltips/battleProgression/note]::{Для получения опыта %(highlight1)s и %(highlight2)s. С каждым новым уровнем вы можете улучшить модуль из дерева исследований — это существенно улучшит ТТХ вашей машины.}
 [hangarVehicleInfo/tooltips/battleProgression/noteHighlight1]::{наносите урон противнику}
 [hangarVehicleInfo/tooltips/battleProgression/noteHighlight2]::{подбирайте трофеи на карте}
 [hangarVehicleInfo/tooltips/battleProgression/title]::{Улучшение машины в бою}
@@ -113,7 +113,6 @@ Content-Transfer-Encoding: 8bit
 [hangarVehicleInfo/tooltips/weakZones/header]::{Уязвимые зоны машины}
 [hangarVehicleInfo/weakZones/ammunition]::{Боеукладка}
 [hangarVehicleInfo/weakZones/engine]::{Двигатель}
-[hangarVehicleInfo/weakZones/fuelTank]::{Топливные баки}
 [hangarVehicleInfo/weakZonesTab]::{Уязвимые зоны}
 [hangarVehicleInfo/weakZonesTip]::{Попадания в эти зоны наносят машине критические повреждения}
 [levelUp/severalTitles]::{ПОЛУЧЕНЫ УРОВНИ: %(firstLevel)s – %(lastLevel)s!}
@@ -171,7 +170,7 @@ Content-Transfer-Encoding: 8bit
 [techtree/turret_health]::{Запас прочности}
 [techtree/turret_rotation_speed]::{Скорость вращения}
 [timersPanel/damagingSmoke]::{Броню съедает коррозия!}
-[timersPanel/deathZone]::{Зона закрыта — срочно покиньте её, или вам конец!}
+[timersPanel/deathZone]::{Зона закрыта — срочно покиньте её, или вам конец!}
 [timersPanel/halfOverturned]::{Машина возвращается на гусеницы...}
 [timersPanel/inspired]::{Улучшены ТТХ}
 [timersPanel/lootPickup]::{Захват: %(lootType)s}
@@ -182,14 +181,13 @@ Content-Transfer-Encoding: 8bit
 [tooltips/weakZones/ammunition]::{Боеукладка}
 [tooltips/weakZones/description]::{Расположение уязвимых зон не зависит от модели машины: все они располагаются примерно в одних и тех же участках корпуса и башни.}
 [tooltips/weakZones/engine]::{Двигатель}
-[tooltips/weakZones/fuelTank]::{Топливные баки}
 [tooltips/weakZones/title]::{Уязвимые зоны машины}
 [upgradePanel/alert/0]::{Вы не можете улучшать машину!}
-[upgradePanel/alert/1]::{Вы не можете улучшать машину — идут активные боевые действия!}
-[upgradePanel/alert/2]::{Вы не можете улучшать машину — машина в воде!}
-[upgradePanel/alert/3]::{Вы не можете улучшать машину — машина перевёрнута!}
+[upgradePanel/alert/1]::{Вы не можете улучшать машину — идут активные боевые действия!}
+[upgradePanel/alert/2]::{Вы не можете улучшать машину — машина в воде!}
+[upgradePanel/alert/3]::{Вы не можете улучшать машину — машина перевёрнута!}
 [upgradePanel/alert/4]::{ }
-[upgradePanel/description]::{Нажмите %(key)s, чтобы увидеть дерево развития}
+[upgradePanel/description]::{Нажмите %(key)s, чтобы увидеть дерево исследований}
 [upgradePanel/title/default]::{Доступен новый модуль}
 [upgradePanel/title/hull]::{Доступен новый корпус}
 [upgradePanel/title/vehicleChassis]::{Доступна новая ходовая}
@@ -198,7 +196,7 @@ Content-Transfer-Encoding: 8bit
 [upgradePanel/title/vehicleRadio]::{Доступен новый радар}
 [upgradePanel/title/vehicleTurret]::{Доступна новая башня}
 [vehModuleConfigurator/delimiter]::{ИЛИ}
-[vehicleDescription/france]::{Этот танк — воплощение скорости, манёвренности и скорострельности.}
+[vehicleDescription/france]::{Этот танк — воплощение скорости, манёвренности и скорострельности.}
 [vehicleDescription/germany]::{Очень живучая машина, приспособленная для ведения затяжных боёв.}
 [vehicleDescription/uk]::{Скорострельные британские орудия способны измотать и обескровить любую цель.}
 [vehicleDescription/usa]::{Достойная манёвренность и пробивное орудие диктуют агрессивную тактику боя.}

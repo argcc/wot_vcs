@@ -35,11 +35,13 @@
          <maxHealth>&lt;h1&gt;_(#menu:tank_params/maxHealth)&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;</maxHealth>
          <weight>&lt;h1&gt;_(#menu:tank_params/weight)&lt;p&gt;_(#menu:tank_params/t)&lt;/p&gt;&lt;/h1&gt;</weight>
          <enginePower>&lt;h1&gt;_(#menu:tank_params/enginePower)&lt;p&gt;_(#menu:tank_params/p)&lt;/p&gt;&lt;/h1&gt;</enginePower>
+         <turboshaftEnginePower>&lt;h1&gt;_(#menu:tank_params/turboshaftEnginePower)&lt;p&gt;_(#menu:tank_params/p)&lt;/p&gt;&lt;/h1&gt;</turboshaftEnginePower>
          <enginePowerPerTon>&lt;h1&gt;_(#menu:tank_params/enginePowerPerTon)&lt;p&gt;_(#menu:tank_params/pt)&lt;/p&gt;&lt;/h1&gt;</enginePowerPerTon>
          <speedLimits>&lt;h1&gt;_(#menu:tank_params/speedLimits)&lt;p&gt;_(#menu:tank_params/mph)&lt;/p&gt;&lt;/h1&gt;</speedLimits>
          <chassisRotationSpeed>&lt;h1&gt;_(#menu:tank_params/chassisRotationSpeed)&lt;p&gt;_(#menu:tank_params/gps)&lt;/p&gt;&lt;/h1&gt;</chassisRotationSpeed>
          <maxSteeringLockAngle>&lt;h1&gt;_(#menu:tank_params/maxSteeringLockAngle)&lt;p&gt;_(#menu:tank_params/grads)&lt;/p&gt;&lt;/h1&gt;</maxSteeringLockAngle>
          <wheeledSpeedModeSpeed>&lt;h1&gt;_(#menu:tank_params/wheeledSpeedModeSpeed)&lt;p&gt;_(#menu:tank_params/mph)&lt;/p&gt;&lt;/h1&gt;</wheeledSpeedModeSpeed>
+         <turboshaftSpeedModeSpeed>&lt;h1&gt;_(#menu:tank_params/turboshaftSpeedModeSpeed)&lt;p&gt;_(#menu:tank_params/mph)&lt;/p&gt;&lt;/h1&gt;</turboshaftSpeedModeSpeed>
          <hullArmor>&lt;h1&gt;_(#menu:tank_params/hullArmor)&lt;p&gt;_(#menu:tank_params/faceFrontBoardInMM)&lt;/p&gt;&lt;/h1&gt;</hullArmor>
          <turretArmor>&lt;h1&gt;_(#menu:tank_params/turretArmor)&lt;p&gt;_(#menu:tank_params/faceFrontBoardInMM)&lt;/p&gt;&lt;/h1&gt;</turretArmor>
          <reloadTime>&lt;h1&gt;_(#menu:tank_params/reloadTime)&lt;p&gt;_(#menu:tank_params/spm)&lt;/p&gt;&lt;/h1&gt;</reloadTime>
@@ -438,12 +440,14 @@
          <leaveEventWarning>&lt;font color=&#34;#FF0000&#34;&gt;%(message)s&lt;/font&gt;</leaveEventWarning>
       </dialogs>
       <popovers>
-         <optionalDevice>
+         <equipment>
             <colorTagOpen>&lt;font color=&#34;#80d43a&#34;&gt;</colorTagOpen>
             <colorTagClose>&lt;/font&gt;</colorTagClose>
             <expTagOpen>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#C9C9B6&#39;&gt;</expTagOpen>
             <expTagClose>&lt;/font&gt;</expTagClose>
-         </optionalDevice>
+            <effectTagOpen>&lt;font color=&#34;#cbac77&#34;&gt;</effectTagOpen>
+            <effectTagClose>&lt;/font&gt;</effectTagClose>
+         </equipment>
          <crewBattleBooster>
             <colorTagOpen>&lt;font color=&#34;#80d43a&#34;&gt;</colorTagOpen>
             <colorTagClose>&lt;/font&gt;</colorTagClose>

@@ -7,6 +7,25 @@
          <effects>
             <invoke-gui-cmd>OverrideHeaderMenuButtons</invoke-gui-cmd>
             <set-visible>
+               AmmunitionPanel
+               <val>False</val>
+            </set-visible>
+            <global-inactivate>BootcampPanelEquipmentMC</global-inactivate>
+            <global-inactivate>BootcampPanelOptDeviceMC</global-inactivate>
+            <global-inactivate>SetupViewSlotsOptDeviceMC</global-inactivate>
+            <set-visible>
+               HangarEquipmentSlots
+               <val>False</val>
+            </set-visible>
+            <set-visible>
+               HangarOptionalDeviceSlots
+               <val>False</val>
+            </set-visible>
+            <set-visible>
+               AmmunitionSetupOptionalDeviceSlots
+               <val>False</val>
+            </set-visible>
+            <set-visible>
                MessengerBar
                <val>False</val>
             </set-visible>
@@ -39,7 +58,7 @@
                <val>False</val>
             </set-visible>
             <set-visible>
-               MaintenanceButton
+               RepairBtn
                <val>False</val>
             </set-visible>
             <set-visible>
@@ -48,66 +67,6 @@
             </set-visible>
             <set-visible>
                VehicleStateMessage
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleGun
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleTurret
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleEngine
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleChassis
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleRadio
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               OptionalDevice1DropDown
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               OptionalDevice2DropDown
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               OptionalDevice3DropDown
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarEquipment1
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarEquipment2
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarEquipment3
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarShell1
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarShell2
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarShell3
-               <val>False</val>
-            </set-visible>
-            <set-visible>
-               HangarBooster
                <val>False</val>
             </set-visible>
             <set-visible>

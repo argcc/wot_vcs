@@ -7,6 +7,7 @@
       <radioman></radioman>
       <loader></loader>
    </crew>
+   <supplySlots>8 8 8</supplySlots>
    <speedLimits>
       <forward>40</forward>
       <backward>15</backward>
@@ -15,9 +16,16 @@
       <moving>0.2</moving>
       <still>0.2</still>
       <camouflageBonus>0.03</camouflageBonus>
-      <camouflageNetBonus>0.1</camouflageNetBonus>
       <firePenalty>0.4</firePenalty>
    </invisibility>
+   <optDevsOverrides>
+      <camouflageNet>
+         <invisibilityBonus>0.1 0.125</invisibilityBonus>
+      </camouflageNet>
+      <additionalInvisibilityDevice>
+         <invisibilityBonus>0.06 0.08</invisibilityBonus>
+      </additionalInvisibilityDevice>
+   </optDevsOverrides>
    <repairCost>13.33333365</repairCost>
    <crewXpFactor>1.0</crewXpFactor>
    <camouflage>
@@ -2542,7 +2550,7 @@
                   <maxPitch>0 10 0.353005 10 0.416667 5 0.583333 5 0.646995 10 1 10</maxPitch>
                </pitchLimits>
                <reloadTime>6.5</reloadTime>
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <armor>
                   <armor_1>
                      140
@@ -2631,7 +2639,7 @@
             </_105mm_StuH42_L28Pz_SH>
             <_105mm_KwK45_L52_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
                <reloadTime>7</reloadTime>
                <unlocks>
@@ -2736,7 +2744,7 @@
             </_105mm_KwK45_L52_SH>
             <_128mm_L50_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <reloadTime>10</reloadTime>
                <unlocks>
                   <chassis>
@@ -2949,7 +2957,7 @@
          <guns>
             <_105mm_KwK45_L52_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
                <reloadTime>7</reloadTime>
                <shotDispersionFactors>
@@ -3057,7 +3065,7 @@
             </_105mm_KwK45_L52_SH>
             <_128mm_L50_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <reloadTime>10</reloadTime>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
@@ -3159,7 +3167,7 @@
             </_128mm_L50_SH>
             <_105mm_KwK46_L70_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <shotDispersionRadius>0.38</shotDispersionRadius>
                <reloadTime>16</reloadTime>
                <aimingTime>2.7</aimingTime>
@@ -3265,7 +3273,7 @@
             </_105mm_KwK46_L70_SH>
             <_128mm_KwK44_L55_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <reloadTime>8</reloadTime>
                <armor>
                   <armor_1>
@@ -3472,7 +3480,7 @@
          <guns>
             <_105mm_KwK45_L52_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
                <reloadTime>7</reloadTime>
                <armor>
@@ -3583,7 +3591,7 @@
             </_105mm_KwK45_L52_SH>
             <_128mm_L50_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <reloadTime>10</reloadTime>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
@@ -3693,7 +3701,7 @@
             </_128mm_L50_SH>
             <_128mm_KwK44_L55_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <reloadTime>8</reloadTime>
                <armor>
                   <armor_1>
@@ -3804,7 +3812,7 @@
             </_128mm_KwK44_L55_SH>
             <_150mm_KwK44_L38_SH>
                shared
-               <maxAmmo>50</maxAmmo>
+               <maxAmmo>40</maxAmmo>
                <aimingTime>2.7</aimingTime>
                <pitchLimits>
                   <minPitch>0 -20 1 -20</minPitch>
