@@ -20,7 +20,7 @@ Content-Transfer-Encoding: 8bit
 [arena_start_errors/join/ACCOUNT_LOCK]::{Ошибка присоединения. Вы уже присоединены к команде.}
 [arena_start_errors/join/CANNOT_CREATE]::{Ошибка присоединения. Неправильный номер команды.}
 [arena_start_errors/join/COOLDOWN]::{Ошибка присоединения. Операция временно заморожена. Попробуйте позже.}
-[arena_start_errors/join/EVENT_DISABLED]::{В настоящий момент данное событие недоступно. Следите за новостями на сайте игры.}
+[arena_start_errors/join/EVENT_DISABLED]::{В настоящий момент данное событие недоступно. Следите за новостями на портале игры.}
 [arena_start_errors/join/NOT_FOUND]::{Ошибка присоединения. Приглашение устарело.}
 [arena_start_errors/join/PRIVACY]::{Ошибка присоединения. Недостаточно прав.}
 [arena_start_errors/join/QUEUE_FULL]::{Действие недоступно. Очередь на вход в бой переполнена. Попробуйте позже.}
@@ -754,7 +754,6 @@ Content-Transfer-Encoding: 8bit
 [prebattle/teamInvalid/limits/level]::{К бою допускается только техника в диапазоне уровней от %(minLevel)d до %(maxLevel)d.}
 [prebattle/teamInvalid/limits/vehicles]::{Выбранная машина не подходит для данного боя.}
 [prebattle/teamInvalid/observers]::{Команда не может состоять только из наблюдателей.}
-[prebattle/vehicleInvalid/bobOnly]::{Выбранная машина подходит только для режима «Схватка».}
 [prebattle/vehicleInvalid/epicOnly]::{Выбранная машина подходит только для режима «Линия фронта».}
 [prebattle/vehicleInvalid/falloutOnly]::{Выбранная машина подходит только для режима «Бой до последнего».}
 [prebattle/vehicleInvalid/limits/ammo]::{На выбранную машину загружены снаряды или снаряжение, не удовлетворяющие условиям боя.}
@@ -900,6 +899,9 @@ Content-Transfer-Encoding: 8bit
 [rotation/lock]::{Следующие группы заблокированы и более недоступны для боя: %(groupNum)s.}
 [rotation/unlock]::{Следующие группы разблокированы и теперь доступны для боя: %(groupNum)s.}
 [rotation/vehicleIsLocked]::{Машина заблокирована и недоступна для боя.}
+[royale/notification/congratulations]::{Поздравляем!}
+[royale/notification/primeTime]::{Бои режима «Стальной охотник» недоступны до окончания режима прекращения огня. Расписание смотрите в календаре.}
+[royale/notifications/singleLevel/text]::{Получен уровень: %(level)s}
 [securityMessage/bad_email]::{Уважаемый пользователь! Ваш адрес электронной почты зарегистрирован на подозрительном сервере. Просим вас сменить email. %(link)s}
 [securityMessage/change_setings]::{Изменить параметры безопасности}
 [securityMessage/no_phone]::{Уважаемый пользователь! Рекомендуем выполнить привязку вашего аккаунта к телефону для обеспечения безопасности. %(link)s}
@@ -933,9 +935,6 @@ Content-Transfer-Encoding: 8bit
 [shop/vehicle/not_enough_money_for_rent]::{Для аренды %(userString)s не хватает %(price)s.}
 [shop/vehicle/not_found]::{%(userString)s в Магазине не найден. Попробуйте позже.}
 [shop_resync]::{%(date)s в %(time)s произошли серверные изменения, интерфейс обновлен.}
-[spgEvent/notification/available]::{Комендантский час закончился, режим «Крадущийся тигр» снова доступен.}
-[spgEvent/notification/notSet]::{Режим «Крадущийся тигр» недоступен на выбранном сервере.}
-[spgEvent/notification/primeTime]::{Режим «Крадущийся тигр» недоступен до окончания комендантского часа.}
 [squad/createError]::{Создание взводов доступно только игрокам с премиум аккаунтом.}
 [squad/kickedFromQueue]::{Невозможно подобрать соперников для данного взвода. Попробуйте переформировать команду.}
 [squad/leaveDisabled]::{Операция недоступна
@@ -1058,6 +1057,7 @@ Content-Transfer-Encoding: 8bit
 [unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER]::{Управление боевыми резервами в бою передано другому игроку.}
 [unit/warnings/CANT_PICK_LEADER]::{Вы исключены из состава отряда: отряд расформирован.}
 [unit/warnings/CLAN_CHANGED]::{Вы исключены из отряда. Клан изменён.}
+[unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED]::{Подбор легионеров остановлен.}
 [unit/warnings/FORT_BATTLE_END]::{Действие недоступно. Истекло время ожидания боя.}
 [unit/warnings/INVITE_REMOVED]::{Ошибка присоединения. Вы были исключены из команды.}
 [unit/warnings/KICKED_CANDIDATE]::{Вы были автоматически исключены из добровольцев.}

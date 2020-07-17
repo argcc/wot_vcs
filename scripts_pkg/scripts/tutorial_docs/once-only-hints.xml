@@ -198,6 +198,7 @@
          </condition>
          <update-runtime>True</update-runtime>
          <check-view-area>True</check-view-area>
+         <hide-immediately>True</hide-immediately>
          <ignore-outside-click>True</ignore-outside-click>
       </hint>
       <hint>
@@ -307,6 +308,7 @@
             </simple-state>
          </checked-ui-state>
          <update-runtime>True</update-runtime>
+         <hide-immediately>True</hide-immediately>
          <ignore-outside-click>True</ignore-outside-click>
       </hint>
       <hint>
@@ -322,6 +324,23 @@
          <checked-ui-state>
             <simple-state>
                <state>visible</state>
+               <value>True</value>
+            </simple-state>
+         </checked-ui-state>
+         <update-runtime>True</update-runtime>
+         <ignore-outside-click>True</ignore-outside-click>
+      </hint>
+      <hint>
+         CrystalsBtnHint
+         <item-id>CrystalsButton</item-id>
+         <text>_(#tutorial:crystals/openBtn)</text>
+         <arrow>
+            <direction>B</direction>
+            <loop>True</loop>
+         </arrow>
+         <checked-ui-state>
+            <simple-state>
+               <state>enabled</state>
                <value>True</value>
             </simple-state>
          </checked-ui-state>
@@ -396,6 +415,10 @@
          <checked-ui-state>
             <simple-state>
                <state>enabled</state>
+               <value>True</value>
+            </simple-state>
+            <simple-state>
+               <state>visible</state>
                <value>True</value>
             </simple-state>
          </checked-ui-state>

@@ -39,18 +39,13 @@ Content-Transfer-Encoding: 8bit
 [chatControls/exitFromChatMode]::{Отменить набор текста и выйти из режима чата}
 [chatControls/send]::{Отправить сообщение}
 [chatControls/title]::{В режиме чата}
-[chatShortcuts/attack]::{В атаку!}
-[chatShortcuts/attackEnemy]::{Атакую!}
-[chatShortcuts/attackEnemy/ext]::{(при наведённом на противника прицеле)}
-[chatShortcuts/backToBase]::{Защищайте базу!}
-[chatShortcuts/followMe]::{За мной!}
+[chatShortcuts/attack_enemy]::{Поддержите огнём!}
+[chatShortcuts/attack_enemy_with_SPG]::{Атакую!}
+[chatShortcuts/attack_enemy_with_SPG/ext]::{(при наведённом на противника прицеле)}
 [chatShortcuts/helpMe]::{Нужна помощь!}
 [chatShortcuts/helpMeEx]::{Помоги!}
-[chatShortcuts/negative]::{Никак нет!}
 [chatShortcuts/positive]::{Так точно!}
 [chatShortcuts/reloadingGun]::{Перезаряжаюсь!}
-[chatShortcuts/stop]::{Стой!}
-[chatShortcuts/supportMeWithFire]::{Поддержите огнём!}
 [chatShortcuts/title]::{Быстрые команды:}
 [chatShortcuts/toBack]::{Назад!}
 [crosshairControls/ammoNumber]::{Количество снарядов}
@@ -72,6 +67,18 @@ Content-Transfer-Encoding: 8bit
 [crosshairControls/targetLevel]::{Уровень техники}
 [crosshairControls/targetName]::{Модель техники / Имя игрока}
 [crosshairControls/title]::{Прицел и маркер орудия}
+[detailsHelp/battleRoyale/airDrop/description]::{На карте будет появляться различная добыча, содержащая снаряды, снаряжение и опыт. Самый ценный контейнер (груз) сбрасывается с самолёта. Помните, что за ним начнётся настоящая охота, и в зоне его приземления будет особенно жарко.}
+[detailsHelp/battleRoyale/airDrop/title]::{Сбор трофеев и груза}
+[detailsHelp/battleRoyale/radar/description]::{Активированный радар отображает местоположение противника и ценных предметов на миникарте. Помните, что работающий радар нарушает режим радиомолчания, и противник в зоне покрытия радара могут вас засечь.}
+[detailsHelp/battleRoyale/radar/title]::{Радар}
+[detailsHelp/battleRoyale/sectorVision/description]::{Вы можете обнаружить только ту технику, которая попала в ваш сектор видимости — «конус» перед башней. Также для удобства он отображается на миникарте.}
+[detailsHelp/battleRoyale/sectorVision/title]::{Изменённая система обзора}
+[detailsHelp/battleRoyale/uniqueAbilities/description]::{У каждого из «охотников» есть 2 общих и 2 уникальных боевых умения. Учитывайте это при выборе машины.}
+[detailsHelp/battleRoyale/uniqueAbilities/title]::{У каждого танка свои боевые умения}
+[detailsHelp/battleRoyale/upgrade/description]::{На улучшение машины тратится опыт, который можно получить из добычи, а также при нанесении урона или уничтожении противника. На каждом уровне вам предлагается выбор из двух характеристик, одну из которых можно улучшить.}
+[detailsHelp/battleRoyale/upgrade/title]::{Техника улучшается прямо в бою}
+[detailsHelp/battleRoyale/zone/description]::{Жёлтый цвет сигнализирует о скором закрытии зоны — она станет красной. Если же вы попали в красную зону, то как можно скорее покиньте её, иначе ваша машина будет уничтожена.}
+[detailsHelp/battleRoyale/zone/title]::{Уменьшение игровой зоны}
 [detailsHelp/default/title]::{Помощь}
 [detailsHelp/dualGun/quick_fire]::{У этих машин после выстрела идёт смена активного орудия. Первое орудие начинает заряжаться автоматически, а для выстрела из второго заряженного орудия придётся немного подождать.}
 [detailsHelp/dualGun/quick_fire/title]::{Беглый огонь}
@@ -98,12 +105,31 @@ Content-Transfer-Encoding: 8bit
 [markerMarks/target/sau]::{Цель атакующей САУ}
 [markerMarks/target/tank]::{Цель атакующей машины}
 [markerMarks/title]::{Обозначение быстрых команд на миникарте:}
-[radialMenu/attackEnemy]::{Поддержите огнём!}
-[radialMenu/attackEnemy/ext]::{(при наведённом на противника прицеле)}
-[radialMenu/show]::{Показать меню приказов}
-[radialMenu/show/ext]::{(список приказов в меню зависит от цели)}
-[radialMenu/title]::{Меню приказов}
+[radialMenu/attackAreaSPG]::{Навожусь сюда!}
+[radialMenu/attack_enemy]::{Поддержите огнём!}
+[radialMenu/attack_enemy_with_SPG]::{Атакую цель!}
+[radialMenu/attacking_base]::{Я захвачу!}
+[radialMenu/attacking_enemy]::{Атакую цель!}
+[radialMenu/attention_to_base_atk]::{Захватите!}
+[radialMenu/attention_to_base_def]::{Защищайте!}
+[radialMenu/attention_to_position]::{Внимание сюда!}
+[radialMenu/cancel_reply]::{Отказать}
+[radialMenu/defending_base]::{Я защищу!}
+[radialMenu/going_there]::{Двигаюсь сюда!}
+[radialMenu/helpMe]::{Помогите!}
+[radialMenu/helpMeEx]::{Нужна поддержка!}
+[radialMenu/positive]::{Так точно!}
+[radialMenu/reloadingGun]::{Перезарядка!}
+[radialMenu/reply_to_player]::{Подтверждаю!}
+[radialMenu/supporting_ally]::{Я помогу тебе!}
+[radialMenu/thanks]::{Спасибо!}
+[radialMenu/turn_back]::{Отступай!}
 [returnToGame]::{Esc — вернуться в бой}
 [settings/button]::{Настройки}
 [settings/help]::{Для просмотра и настройки всех используемых в игре клавиш нажмите кнопку «Настройки».}
+[teamComm/highlightAsActiveTarget]::{Отметить как активную цель}
+[teamComm/highlightLocation]::{Отметить позицию}
+[teamComm/show]::{Показать меню приказов}
+[teamComm/show/ext]::{(список приказов в меню зависит от цели)}
+[teamComm/title]::{Коммуникация с командой}
 [vehicleTypes/title]::{Обозначение типов техники}

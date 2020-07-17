@@ -331,6 +331,7 @@ Content-Transfer-Encoding: 8bit
 [battleProgress/position/advantage]::{%(formattedProgress)s Отрыв: %(advantage)s Место: %(position)s}
 [battleProgress/position/left]::{%(formattedProgress)s Осталось: %(left)s Место: %(position)s}
 [battleProgress/position/short]::{%(formattedProgress)s Место: %(position)s}
+[bonusName/battle_bonus_x5]::{Задача на x5 опыта за бой}
 [bonusName/berths]::{Мест в Казарме}
 [bonusName/blueprints/any]::{Фрагменты чертежей:}
 [bonusName/blueprints/nation]::{Фрагментов чертежей на нацию %(nationName)s:}
@@ -759,6 +760,7 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/postBattle/dailyReset/timeFmt]::{%H:%M}
 [details/conditions/postBattle/deltaDailyReset/timeFmt]::{%H ч %M мин}
 [details/conditions/postBattle/separator]::{При этом в каждом бою:}
+[details/conditions/postBattle/weeklyReset/timeFmt]::{%H:%M}
 [details/conditions/ramDamage]::{Нанести урон машине противника тараном}
 [details/conditions/ramDamage/all]::{Нанести урон тараном любой машине противника}
 [details/conditions/ramDamage/eventCount]::{Указанное количество раз нанести тараном урон машине противника}
@@ -821,6 +823,7 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/results/formation/avg]::{Среднее значение для формирования по параметру: %(param)s}
 [details/conditions/results/formation/simple]::{Параметр для формирования: %(param)s}
 [details/conditions/results/single/avg]::{Среднее значение по параметру: %(param)s}
+[details/conditions/results/single/battleRoyale/top1]::{Победить в бою (ваш взвод или лично вы должны занять первое место).}
 [details/conditions/results/single/bothTeams/position]::{Занять %(position)d место среди обеих команд по: %(param)s}
 [details/conditions/results/single/bothTeams/position/not]::{Не занять %(position)d место среди обеих команд по: %(param)s}
 [details/conditions/results/single/bothTeams/range]::{Попасть на %(high)d-%(low)d место среди обеих команд по: %(param)s}
@@ -969,7 +972,6 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/22/battlesCount]::{Проведённых Ранговых боёв}
 [details/dossier/24/battlesCount]::{Проведённых Генеральных сражений}
 [details/dossier/27/battlesCount]::{Проведённых Генеральных сражений}
-[details/dossier/32/battlesCount]::{Проведённых боёв в режиме «Схватка»}
 [details/dossier/4/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/5/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/6/battlesCount]::{Пройденных Боевых обучений}
@@ -980,27 +982,6 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/battleCitizen]::{Операция «Ностальгия»}
 [details/dossier/battlesCount]::{Проведённых боёв}
 [details/dossier/beasthunter]::{«Зверобой»}
-[details/dossier/bob/battlesCount]::{Боёв в режиме «Схватка»}
-[details/dossier/bob/capturePoints]::{Очков захвата базы в режиме «Схватка»}
-[details/dossier/bob/damageAssistedRadio]::{Урон по вашим разведданным в режиме «Схватка»}
-[details/dossier/bob/damageAssistedTrack]::{Урон, нанесённый союзниками после попадания, сбившего гусеницу в режиме «Схватка»}
-[details/dossier/bob/damageBlockedByArmor]::{Заблокированного бронёй урона в режиме «Схватка»}
-[details/dossier/bob/damageDealt]::{Нанесённый урон в режиме «Схватка»}
-[details/dossier/bob/damageReceived]::{Полученный урон в режиме «Схватка»}
-[details/dossier/bob/directHits]::{Попаданий в режиме «Схватка»}
-[details/dossier/bob/droppedCapturePoints]::{Очков защиты базы в режиме «Схватка»}
-[details/dossier/bob/frags]::{Уничтоженных машин противника в режиме «Схватка»}
-[details/dossier/bob/losses]::{Поражений в режиме «Схватка»}
-[details/dossier/bob/maxDamage]::{Максимальный урон в режиме «Схватка»}
-[details/dossier/bob/noDamageDirectHitsReceived]::{Полученных попаданий без урона в режиме «Схватка»}
-[details/dossier/bob/originalXP]::{«Чистый» опыт в режиме «Схватка»}
-[details/dossier/bob/piercings]::{Пробитий в режиме «Схватка»}
-[details/dossier/bob/piercingsReceived]::{Полученных пробитий в режиме «Схватка»}
-[details/dossier/bob/potentialDamageReceived]::{Полученного урона от любых попаданий, кроме осколочно-фугасных в режиме «Схватка»}
-[details/dossier/bob/spotted]::{Обнаруженных машин противника в режиме «Схватка»}
-[details/dossier/bob/survivedBattles]::{Боёв в режиме «Схватка», в которых машина игрока не была уничтожена}
-[details/dossier/bob/wins]::{Побед в режиме «Схватка»}
-[details/dossier/bob/xp]::{Заработанный опыт в режиме «Схватка»}
 [details/dossier/bombardier]::{«Бомбардир»}
 [details/dossier/clan/battlesCount]::{Боёв в «Мировой войне»}
 [details/dossier/clan/capturePoints]::{Очков захвата базы в «Мировой войне»}
@@ -1359,6 +1340,7 @@ Content-Transfer-Encoding: 8bit
 [details/requirementsRelation/notEqual]::{не равно}
 [details/status/completed]::{Боевая задача выполнена!}
 [details/status/completed/daily]::{Боевая задача выполнена. Следующее доступное выполнение: %(time)s}
+[details/status/completed/weekly]::{Боевая задача выполнена. Следующее доступное выполнение: %(time)s}
 [details/status/notAvailable/in_future]::{Боевая задача недоступна. Станет доступна %(time)s}
 [details/status/notAvailable/invalid_time_interval]::{Боевая задача недоступна. Станет доступна %(time)s}
 [details/status/notAvailable/invalid_weekday]::{Боевая задача недоступна. Станет доступна %(time)s}
@@ -1441,11 +1423,14 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/description]::{Описание задачи}
 [missionDetails/missionsComplete]::{Выполнено: %(count)s / %(total)s}
 [missionDetails/missionsComplete/daily]::{Выполнено в сутки: %(count)s/%(total)s}
+[missionDetails/missionsComplete/weekly]::{Выполнено в неделю: %(count)s / %(total)s}
 [missionDetails/missionsCompleteCounter]::{Выполнено: %(count)s}
 [missionDetails/nextPageBtn/label]::{Следующие}
 [missionDetails/personalQuest/complete/left]::{Осталось выполнений: %(count)s}
 [missionDetails/personalQuest/complete/left/daily]::{Из них в сутки: %(count)s}
+[missionDetails/personalQuest/complete/left/weekly]::{Из них в неделю: %(count)s}
 [missionDetails/personalQuest/details/complete/left/daily]::{из них в сутки: %(count)s}
+[missionDetails/personalQuest/details/complete/left/weekly]::{из них в неделю: %(count)s}
 [missionDetails/prevPageBtn/label]::{Предыдущие}
 [missionDetails/requirements/conclusion/available]::{Требования выполнены (%(count)s)}
 [missionDetails/requirements/conclusion/unavailable]::{Требования не выполнены (%(count)s)}
@@ -1453,6 +1438,7 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/requirements/header/unavailable]::{Задача недоступна:}
 [missionDetails/resetDate]::{Обнуление задачи в %(time)s}
 [missionDetails/status/completed/daily]::{Следующее доступное выполнение через: %(time)s}
+[missionDetails/status/completed/weekly]::{Следующее доступное выполнение через: %(time)s}
 [missionDetails/status/disabled]::{Задача отключена}
 [missionDetails/status/notAvailable]::{Недоступно}
 [missionDetails/status/notAvailable/in_future]::{станет доступна через %(time)s}
@@ -1473,6 +1459,7 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/vehicle/conditions/type/tooltip]::{Тип техники: %(type)s}
 [missionDetails/vehiclesAvailable]::{В наличии: %(count)s}
 [missionDetails/vehiclesSelect]::{Выбрать технику}
+[missionDetails/weeklyReset]::{Обнуление задачи: %(time)s}
 [missions/awards/merged]::{И ещё: %(count)s}
 [missions/battle/eventBoards/date]::{Дата}
 [missions/battle/eventBoards/result]::{Результат}
@@ -1617,7 +1604,7 @@ Content-Transfer-Encoding: 8bit
 [premiumQuests/quests/prem_acc_q02/title]::{Вторая премиум задача}
 [premiumQuests/quests/prem_acc_q03/title]::{Третья премиум задача}
 [premiumQuests/tab/label]::{Премиум}
-[premiumQuests/tooltips/locked/body]::{Выполните предыдущую премиум задачу для доступа к следующей.}
+[premiumQuests/tooltips/locked/body]::{Выполните предыдущую премиум задачу для доступа к текущей.}
 [premiumQuests/tooltips/locked/header]::{Задача недоступна}
 [quest/chain/hint/holdAwardSheet]::{ВЫПОЛНИТЬ ЗАДАЧУ ЗА БЛАНК ПРИКАЗА}
 [quest/chain/hint/pause]::{ПОСТАВИТЬ НА ПАУЗУ}

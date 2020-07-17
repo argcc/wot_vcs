@@ -242,13 +242,13 @@ Content-Transfer-Encoding: 8bit
 [bonusType/22]::{Ранговый бой}
 [bonusType/24]::{Генеральное сражение}
 [bonusType/27]::{Линия фронта}
-[bonusType/32]::{Схватка: вне времени}
+[bonusType/29]::{«Стальной охотник»}
 [bonusType/4]::{Специальный бой}
 [bonusType/5]::{Специальный бой}
 [bonusType/6]::{Боевое обучение}
 [bonusType/7]::{Командный бой}
 [bonusType/8]::{Исторический бой}
-[bonusType/9]::{«Крадущийся тигр»}
+[bonusType/9]::{Специальный игровой режим}
 [booster/bonus/booster_credits]::{%(effectValue)s на %(effectHours)s к кредитам за бой}
 [booster/bonus/booster_crew_xp]::{%(effectValue)s на %(effectHours)s к опыту экипажа за бой}
 [booster/bonus/booster_fl_xp]::{%(effectValue)s на %(effectHours)s к фронтовому опыту за бой}
@@ -375,7 +375,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/compare]::{Добавить к сравнению}
 [contextMenu/copyClanName]::{Скопировать название клана}
 [contextMenu/copyToClipBoard]::{Копировать имя}
-[contextMenu/createBobSquad]::{Создать взвод для Схватки}
+[contextMenu/createBattleRoyaleSquad]::{Создать взвод охотников}
 [contextMenu/createContactNote]::{Создать заметку}
 [contextMenu/createEventSquad]::{Создать Тигриный взвод}
 [contextMenu/createPrivateChannel]::{Отправить сообщение}
@@ -453,15 +453,49 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/withdrawInvitationToSquad]::{Отозвать приглашение во взвод}
 [copy]::{© 2009–2020 Wargaming.net. Все права защищены.}
 [counter/newCounter]::{НОВОЕ}
-[crystals/promoWindow/closebtn]::{Закрыть}
-[crystals/promoWindow/header]::{Боны: как получить и для чего нужны}
-[crystals/promoWindow/openShopBtnLabel]::{Купить в Магазине}
-[crystals/promoWindow/subDescr0]::{За Генеральные сражения, Ранговые и Случайные бои, где участвует техника только Х уровня, а также за получение некоторых наград.}
-[crystals/promoWindow/subDescr1]::{Если у вас есть машина Х уровня — выберите желаемый режим или тип боя для заработка бон.}
-[crystals/promoWindow/subDescr2]::{Покупайте усовершенствованное оборудование, инструкции и особую технику.}
-[crystals/promoWindow/subTitle0]::{Несколько способов получения}
-[crystals/promoWindow/subTitle1]::{Свобода выбора}
-[crystals/promoWindow/subTitle2]::{Уникальные товары}
+[crystals/info/tab/earn/events/description]::{Боны можно заработать и другими способами:
+%(types)}
+[crystals/info/tab/earn/events/descriptionContent]::{в рамках определённых игровых событий, за выполнение
+ежедневных задач, за участие в специальных акциях и т.д.}
+[crystals/info/tab/earn/events/title]::{БОНЫ ЗА СОБЫТИЯ}
+[crystals/info/tab/earn/level/description]::{Боны зарабатываются на технике %(level10)
+с активным индикатором заработка бон в следующих режимах:}
+[crystals/info/tab/earn/level/descriptionContent/level10]::{Х уровня}
+[crystals/info/tab/earn/level/mod/0]::{Случайный
+бой}
+[crystals/info/tab/earn/level/mod/1]::{Генеральное
+сражение}
+[crystals/info/tab/earn/level/mod/2]::{Ранговый
+бой}
+[crystals/info/tab/earn/level/title]::{УРОВЕНЬ ТЕХНИКИ}
+[crystals/info/tab/earn/marker/description/1]::{У каждой машины свой лимит заработка %(week).}
+[crystals/info/tab/earn/marker/description/2]::{Машины с возможностью зарабатывать боны отмечаются
+фиолетовым индикатором на нижней панели Ангара.}
+[crystals/info/tab/earn/marker/description/3]::{Лимит обнуляется раз в неделю.}
+[crystals/info/tab/earn/marker/descriptionContent/week]::{бон в неделю}
+[crystals/info/tab/earn/marker/title]::{ИНДИКАТОР ЗАРАБОТКА БОН}
+[crystals/info/tab/earnTab]::{Как заработать}
+[crystals/info/tab/get/card/condition]::{Условие}
+[crystals/info/tab/get/card/defeat]::{Поражение / ничья}
+[crystals/info/tab/get/card/description]::{Топ-%(position)s по опыту}
+[crystals/info/tab/get/card/win]::{Победа}
+[crystals/info/tab/get/description]::{Играйте в Случайных боях и Генеральных сражениях на машинах с активным индикатором заработка бон. Чем выше ваша позиция в послебоевой статистике по количеству заработанного «чистого» опыта, тем больше бон вы получите за бой.}
+[crystals/info/tab/get/general]::{ГЕНЕРАЛЬНОЕ СРАЖЕНИЕ}
+[crystals/info/tab/get/random]::{СЛУЧАЙНЫЙ БОЙ}
+[crystals/info/tab/get/ranked]::{РАНГОВЫЙ БОЙ}
+[crystals/info/tab/getTab]::{Условия начисления}
+[crystals/info/tab/spend/card/instructions/description]::{Усиливают эффект, который даёт установленное оборудование.}
+[crystals/info/tab/spend/card/instructions/title]::{Предбоевые инструкции}
+[crystals/info/tab/spend/card/price]::{от  %(price)s}
+[crystals/info/tab/spend/card/specialEquipment/description]::{Улучшает характеристики машины. Эффект больше, чем у штатного оборудования.}
+[crystals/info/tab/spend/card/specialEquipment/title]::{Усовершенствованное
+оборудование}
+[crystals/info/tab/spend/card/specialTanks/description]::{Особая техника, доступная только за боны.}
+[crystals/info/tab/spend/card/specialTanks/title]::{Техника за боны}
+[crystals/info/tab/spend/card/toShop]::{В магазин}
+[crystals/info/tab/spend/description]::{За боны можно приобретать особую технику, предбоевые инструкции, а также усовершенствованное оборудование, которое заметно улучшает параметры машины.}
+[crystals/info/tab/spendTab]::{Куда потратить}
+[crystals/info/title]::{БОНЫ}
 [crystals/promoWindow/title]::{Боны}
 [cst_item_ctx_menu/activate]::{Активировать}
 [cst_item_ctx_menu/addToCompare]::{Добавить к сравнению}
@@ -623,17 +657,13 @@ Content-Transfer-Encoding: 8bit
 [disconnect/codes/1011]::{рассинхронизация инвентаря, связанная с компонентом «Снаряжение» (код 1011)}
 [disconnect/codes/1012]::{рассинхронизация инвентаря, связанная с компонентом «Экипаж» (код 1012)}
 [disconnect/codes/1013]::{рассинхронизация инвентаря, связанная с компонентом «Изменение внешнего вида» (код 1013)}
+[disconnect/codes/1014]::{рассинхронизация исследованных компонентов (код 1014)}
 [discount/description/vehicle]::{скидка %(effectValue)s на покупку %(targetName)s}
 [discount/userName/vehicle]::{Персональная скидка на покупку техники}
 [epicTraining/title]::{Тренировочный бой на Линии фронта}
 [epic_training/create/title]::{Создание тренировочной комнаты для Линии фронта}
 [epic_training/info/settings/title]::{Настройки тренировочной комнаты для Линии фронта}
 [equipmentFits/title]::{Выбор снаряжения}
-[event10YC/allServer]::{Комендантский час на всех серверах}
-[event10YC/availableServer]::{Комендантский час на сервере %(serverName)s}
-[event10YC/button]::{Сменить сервер}
-[event10YC/notAvailableServer]::{Режим недоступен на сервере %(serverName)s}
-[event10YC/standalone]::{Комендантский час на сервере}
 [exchange/cancel]::{Отменить}
 [exchange/no_gold]::{У вас не хватает золота для обмена.}
 [exchange/onhand]::{До обмена:}
@@ -823,10 +853,13 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/menu/standart]::{Случайный бой}
 [headerButtons/battle/menu/training]::{Тренировочный бой}
 [headerButtons/battle/menu/unit]::{Командный бой}
+[headerButtons/battle/types/battleRoyale]::{Стальной охотник}
+[headerButtons/battle/types/battleRoyale/extra/finished]::{Охота окончена}
+[headerButtons/battle/types/battleRoyale/extra/frozen]::{Режим временно отключён}
+[headerButtons/battle/types/battleRoyaleSquad]::{Взвод охотников}
+[headerButtons/battle/types/battleRoyaleSquad/description]::{Создать взвод из 3 бойцов}
 [headerButtons/battle/types/battleTeaching]::{Учебный бой}
 [headerButtons/battle/types/battleTutorial]::{Боевое обучение}
-[headerButtons/battle/types/bob]::{Схватка: вне времени}
-[headerButtons/battle/types/bob/descr]::{?empty?}
 [headerButtons/battle/types/epic]::{Линия фронта}
 [headerButtons/battle/types/epic/descr]::{Режим с автоматическим подбором союзников для игры против случайных противников.}
 [headerButtons/battle/types/epic/extra/currentCycle]::{Сезон %(season)s. Этап %(cycle)s}
@@ -872,8 +905,9 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/spec/descr]::{Участие в чемпионатах, турнирах и «Мировой войне».}
 [headerButtons/battle/types/specLeave]::{Специальный бой}
 [headerButtons/battle/types/squad]::{Взвод}
-[headerButtons/battle/types/squad/bob]::{: Схватка}
+[headerButtons/battle/types/squad/battleRoyale]::{: Стальной охотник}
 [headerButtons/battle/types/squad/descr]::{Формирование из 2-3 игроков для совместной игры в Случайных боях.}
+[headerButtons/battle/types/squad/description]::{Игра взводом до 3-х бойцов}
 [headerButtons/battle/types/squad/epic]::{: Линия фронта}
 [headerButtons/battle/types/squad/event]::{: «Крадущийся тигр»}
 [headerButtons/battle/types/squad/randomBattle]::{: Случайный бой}
@@ -906,8 +940,8 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/clans]::{Кланы}
 [headerButtons/defaultCounter]::{!}
 [headerButtons/doLabel/premium]::{Продлить}
-[headerButtons/fightBtn/tooltip/bobOnly/body]::{Выбранная машина подходит только для режима «Схватка».}
-[headerButtons/fightBtn/tooltip/bobOnly/header]::{Выход в бой недоступен}
+[headerButtons/fightBtn/tooltip/battleRoyaleDisabled/body]::{На текущем сервере комендантский час.}
+[headerButtons/fightBtn/tooltip/battleRoyaleDisabled/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/body]::{Выбранная машина подходит только для режима «Линия фронта».}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicLevelRequired/bodyEnd]::{технике %(level)s уровня}
@@ -938,10 +972,8 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/fightBtn/tooltip/rankedVehType/header]::{Неподходящая машина}
 [headerButtons/fightBtn/tooltip/sandbox/invalid/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/sandbox/invalid/level/body]::{Выйти в бой можно только на исследуемой и премиум технике %(levels)s уровней.}
-[headerButtons/fightBtn/tooltip/spgEventDisabled/body]::{На сервере комендантский час.}
-[headerButtons/fightBtn/tooltip/spgEventDisabled/header]::{Выход в бой недоступен}
-[headerButtons/fightBtn/tooltip/spgEventNotSet/body]::{Режим недоступен на выбранном сервере.}
-[headerButtons/fightBtn/tooltip/spgEventNotSet/header]::{Выход в бой недоступен}
+[headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/body]::{В бой можно выйти только на специальной технике режима «Стальной охотник».}
+[headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/header]::{Неподходящая машина}
 [headerButtons/hangar]::{Ангар}
 [headerButtons/menu]::{Меню}
 [headerButtons/missions]::{Задачи}
@@ -1086,11 +1118,11 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/20]::{Тренировочный бой}
 [loading/battleTypes/21]::{Линия фронта}
 [loading/battleTypes/22]::{Линия фронта}
-[loading/battleTypes/23]::{Схватка: вне времени}
+[loading/battleTypes/23]::{Стальной охотник}
 [loading/battleTypes/4]::{Боевое обучение}
 [loading/battleTypes/5]::{Командный бой}
 [loading/battleTypes/6]::{Исторический бой}
-[loading/battleTypes/7]::{«Крадущийся тигр»}
+[loading/battleTypes/7]::{Специальный игровой режим}
 [loading/battleTypes/8]::{Вылазки}
 [loading/battleTypes/9]::{Бой с кланом}
 [loading/battleTypes/desc/0]::{ }
@@ -1141,6 +1173,7 @@ Content-Transfer-Encoding: 8bit
 [login/caps]::{Caps}
 [login/changeAaccount]::{Сменить аккаунт}
 [login/fastEnter]::{Быстрый вход:}
+[login/healthNotice]::{?empty?}
 [login/login]::{Электронная почта:}
 [login/ok]::{Войти!}
 [login/password]::{Пароль:}
@@ -1291,11 +1324,19 @@ Content-Transfer-Encoding: 8bit
 [moduleInfo/params/cooldownSeconds]::{Время подготовки }
 [moduleInfo/params/damage]::{Урон }
 [moduleInfo/params/dispertionRadius]::{Разброс на 100 м }
+[moduleInfo/params/drivingControl]::{К управляемости на скорости }
 [moduleInfo/params/enginePower]::{Мощность двигателя }
+[moduleInfo/params/enginePowerPerTon]::{К удельной мощности (л.с./т) }
 [moduleInfo/params/explosionRadius]::{Радиус разлёта осколков }
 [moduleInfo/params/fireStartingChance]::{Вероятность пожара при попадании }
 [moduleInfo/params/flyDelayRange]::{Время полёта }
+[moduleInfo/params/forwardMaxSpeed]::{Максимальная скорость }
+[moduleInfo/params/hullAndChassisWeight]::{Масса корпуса }
+[moduleInfo/params/hullArmor]::{Бронирование корпуса }
+[moduleInfo/params/hullWeight]::{Масса корпуса }
 [moduleInfo/params/level_lbl]::{Боевой резерв %(level)s уровня}
+[moduleInfo/params/maxHealth]::{Прочность }
+[moduleInfo/params/maxHullHealth]::{Прочность }
 [moduleInfo/params/maxLoad]::{Максимальная нагрузка }
 [moduleInfo/params/maxShotDistance]::{Дальность стрельбы }
 [moduleInfo/params/maxShotDistance/footnote]::{* максимальная дальность полета снарядов для данного орудия}
@@ -1305,6 +1346,8 @@ Content-Transfer-Encoding: 8bit
 [moduleInfo/params/piercingDistance]::{%(dist)s метров }
 [moduleInfo/params/piercingDistanceHeader]::{Средняя бронепробиваемость (мм) — Расстояние}
 [moduleInfo/params/piercingPower]::{Бронепробиваемость }
+[moduleInfo/params/radarCooldown]::{Время подготовки радара }
+[moduleInfo/params/radarRadius]::{Радиус обнаружения }
 [moduleInfo/params/radioDistance]::{Дальность связи }
 [moduleInfo/params/rateTime]::{Время между выстрелом и переходом к заряженному орудию }
 [moduleInfo/params/reloadMagazineTime]::{Время полной перезарядки }
@@ -1369,8 +1412,9 @@ Content-Transfer-Encoding: 8bit
 [prebattle/CompaniesTitle/JUNIOR]::{Юниорский}
 [prebattle/CompaniesTitle/MIDDLE]::{Средний}
 [prebattle/already_in_awaiting_battle]::{Вы уже находитесь в режиме ожидания боя.}
+[prebattle/battleRoyale/solo]::{В одиночной очереди}
+[prebattle/battleRoyale/squad]::{Во взводной очереди}
 [prebattle/description]::{prebattle/description}
-[prebattle/eventWaitingTimeWarning]::{*Sturmtiger — это САУ. Придётся подождать, пока мы убираем с карты все лёгкие танки.}
 [prebattle/exitButton]::{Выйти из боя}
 [prebattle/groupsLabel]::{Команд в очереди:}
 [prebattle/invitations/buttons/cancel]::{Закрыть}
@@ -1744,7 +1788,7 @@ Content-Transfer-Encoding: 8bit
 [storeTab/actions]::{Акции}
 [storeTab/inventory]::{Склад}
 [storeTab/shop]::{Магазин}
-[tankCarousel/statsStatus/unavailable]::{Данных пока нет}
+[tankCarousel/statsStatus/unavailable]::{Нет данных}
 [tankCarousel/vehicleStates/ammoNotFull]::{?empty?}
 [tankCarousel/vehicleStates/ammoNotFullEvents]::{Неполный боекомплект}
 [tankCarousel/vehicleStates/battle]::{В бою}
@@ -1794,6 +1838,7 @@ Content-Transfer-Encoding: 8bit
 [tank_params/avgDamagePerMinute]::{Средний урон в минуту}
 [tank_params/avgPiercingPower]::{Средняя бронепробиваемость}
 [tank_params/chargeTime]::{Время залпа}
+[tank_params/chassisModuleRotationSpeed]::{Скорость поворота шасси}
 [tank_params/chassisRotationSpeed]::{Скорость поворота шасси}
 [tank_params/circularVisionRadius]::{Обзор}
 [tank_params/clipFireRate]::{Перезарядка}
@@ -1804,8 +1849,10 @@ Content-Transfer-Encoding: 8bit
 [tank_params/enginePowerPerTon]::{Удельная мощность}
 [tank_params/explosionRadius]::{Радиус разлёта осколков}
 [tank_params/faceFrontBoardInMM]::{(лоб/борт/корма в мм)}
+[tank_params/forwardMaxSpeed]::{Максимальная скорость}
 [tank_params/gps]::{(град/с)}
 [tank_params/grads]::{(град)}
+[tank_params/gunModuleAvgDamageList]::{Средний урон}
 [tank_params/gunYawLimits]::{Углы горизонтальной наводки}
 [tank_params/h]::{(выстр)}
 [tank_params/hullArmor]::{Бронирование корпуса}
@@ -1824,6 +1871,8 @@ Content-Transfer-Encoding: 8bit
 [tank_params/piercingPower]::{Бронепробиваемость базовым снарядом}
 [tank_params/pitchLimits]::{Углы вертикальной наводки}
 [tank_params/pt]::{(л.с./т)}
+[tank_params/radarCooldown]::{Время подготовки радара}
+[tank_params/radarRadius]::{Радиус обнаружения}
 [tank_params/radioDistance]::{Дальность связи}
 [tank_params/relativeArmor]::{Живучесть}
 [tank_params/relativeCamouflage]::{Незаметность}
@@ -1846,6 +1895,7 @@ Content-Transfer-Encoding: 8bit
 [tank_params/t]::{(т)}
 [tank_params/timeOfReaching]::{Время преодоления 100 м}
 [tank_params/turretArmor]::{Бронирование башни}
+[tank_params/turretModuleRotationSpeed]::{Скорость поворота башни}
 [tank_params/turretRotationSpeed]::{Скорость гориз. перевода прицела}
 [tank_params/turretYawLimits]::{Углы поворота башни}
 [tank_params/val]::{(ед.)}

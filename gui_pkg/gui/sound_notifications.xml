@@ -636,6 +636,15 @@
          <minTimeBetweenEvents>2</minTimeBetweenEvents>
       </voice>
    </combat_reserve>
+   <nitro_combat_reserve>
+      <voice>
+         <wwsound>be_nitro_replenishment_full</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer>True</shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </nitro_combat_reserve>
    <crew_member_contusion>
       <fx>
          <wwsound>crew_member_contusion</wwsound>
@@ -739,10 +748,6 @@
       </fx>
    </eb_new_battle_objective>
    <eb_new_objective_hq_ATK>
-      <fx>
-         <wwsound>eb_attackers_capture_all_zones</wwsound>
-         <playRules>0</playRules>
-      </fx>
       <voice>
          <wwsound>vo_eb_last_zone_attackers</wwsound>
          <playRules>1</playRules>
@@ -750,10 +755,6 @@
       </voice>
    </eb_new_objective_hq_ATK>
    <eb_new_objective_hq_DEF>
-      <fx>
-         <wwsound>eb_attackers_capture_all_zones</wwsound>
-         <playRules>0</playRules>
-      </fx>
       <voice>
          <wwsound>vo_eb_last_zone_defenders</wwsound>
          <playRules>1</playRules>
@@ -1029,10 +1030,6 @@
       </voice>
    </eb_main_objectives_reached_other_ATK>
    <eb_main_objectives_reached_DEF>
-      <fx>
-         <wwsound>eb_attackers_capture_all_zones</wwsound>
-         <playRules>0</playRules>
-      </fx>
       <voice>
          <wwsound>vo_eb_last_zone_defenders</wwsound>
          <playRules>2</playRules>
@@ -1537,4 +1534,218 @@
          <playRules>0</playRules>
       </fx>
    </eb_rank_up_hide>
+   <ibc_ping_attention>
+      <fx>
+         <wwsound>ibc_pc_ping_attention</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_attention>
+   <ibc_ping_attention_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_attention</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_attention_npc>
+   <ibc_ping_reply>
+      <fx>
+         <wwsound>ibc_pc_ping_reply</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_reply>
+   <ibc_ping_reply_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_reply</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_reply_npc>
+   <ibc_ping_request>
+      <fx>
+         <wwsound>ibc_pc_ping_request</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_request>
+   <ibc_ping_request_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_request</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_request_npc>
+   <ibc_ping_action>
+      <fx>
+         <wwsound>ibc_pc_ping_action</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_action>
+   <ibc_ping_action_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_action</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_action_npc>
+   <ibc_ping_reply>
+      <fx>
+         <wwsound>ibc_pc_ping_reply</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_reply>
+   <ibc_ping_reply_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_reply</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_reply_npc>
+   <ibc_ping_cancel>
+      <fx>
+         <wwsound>ibc_pc_ping_cancel</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_cancel>
+   <ibc_ping_cancel_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_cancel</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_ping_cancel_npc>
+   <ibc_marker_focused>
+      <fx>
+         <wwsound>ibc_pc_ping_highlight</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </ibc_marker_focused>
+   <ibc_ping_help_me_ex>
+      <fx>
+         <wwsound>ibc_pc_ping_request</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_pc_request_sos</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_help_me_ex>
+   <ibc_ping_help_me_ex_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_request</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_npc_request_sos</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_help_me_ex_npc>
+   <ibc_ping_help_me_ex_reply>
+      <fx>
+         <wwsound>ibc_npc_ping_action</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_pc_reply_sos</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_help_me_ex_reply>
+   <ibc_ping_help_me_ex_reply_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_action</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_npc_reply_sos</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_help_me_ex_reply_npc>
+   <ibc_ping_affirmative>
+      <fx>
+         <wwsound>ibc_pc_ping_reply</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_pc_reply_affirmative</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_affirmative>
+   <ibc_ping_affirmative_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_reply</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_npc_reply_affirmative</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_affirmative_npc>
+   <ibc_ping_retreat>
+      <fx>
+         <wwsound>ibc_pc_ping_request</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_pc_request_retreat</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_retreat>
+   <ibc_ping_retreat_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_request</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_npc_request_retreat</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_retreat_npc>
+   <ibc_ping_thanks>
+      <fx>
+         <wwsound>ibc_pc_ping_reply</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_pc_reply_thank_you</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_thanks>
+   <ibc_ping_thanks_npc>
+      <fx>
+         <wwsound>ibc_npc_ping_reply</wwsound>
+         <playRules>0</playRules>
+      </fx>
+      <voice>
+         <wwsound>ibc_vo_npc_reply_thank_you</wwsound>
+         <playRules>3</playRules>
+         <shouldBindToPlayer> true </shouldBindToPlayer>
+         <timeout>9</timeout>
+         <minTimeBetweenEvents>2</minTimeBetweenEvents>
+      </voice>
+   </ibc_ping_thanks_npc>
+   <br_ability>
+      <fx>
+         <wwsound>eb_ability_ready_to_use</wwsound>
+         <playRules>0</playRules>
+      </fx>
+   </br_ability>
 </sound_notifications.xml>
