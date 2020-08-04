@@ -74,6 +74,7 @@ Content-Transfer-Encoding: 8bit
 [client/error/broadcastInCooldown]::{Отправка сообщений заморожена на %s с.}
 [client/error/commandInCooldown/limited]::{Команда «%s» заморожена на %s с.}
 [client/error/commandInCooldown/unlimited]::{Команда «%s» заморожена.}
+[client/errors/commandInCooldown/suspendedText]::{Сообщение заморожено на %s c.}
 [client/information/addToFriends/message]::{Пользователь %s добавлен в группу «Друзья».}
 [client/information/addToIgnored/message]::{%s добавлен в «Чёрный список», связь в чате с ним полностью отключена, сообщения скрыты.}
 [client/information/addToTmpIgnored/message]::{Чат с %s заблокирован, сообщения в текущем бою скрыты.}
@@ -277,6 +278,7 @@ Content-Transfer-Encoding: 8bit
 [dialogs/searchContact/labels/search]::{Поиск}
 [dialogs/searchContact/title]::{Найти контакты}
 [dialogs/serviceChannel/title]::{Служебный канал}
+[dialogs/simpleSquad/battleRoyale/VehicleRestriction]::{Выберите специальную машину}
 [dialogs/simpleSquad/epicBattle/VehicleRestriction]::{Выберите машину VIII уровня}
 [dialogs/simpleSquad/recommendationLevel]::{Рекомендовать игроков}
 [dialogs/simpleSquad/vehicle/recommendationLevel]::{Выберите машину %(level)s уровня}
@@ -285,6 +287,7 @@ Content-Transfer-Encoding: 8bit
 [dialogs/squad/message/allReady]::{Нажмите, чтобы отменить готовность.}
 [dialogs/squad/message/getNotReady]::{Нажмите, чтобы отменить готовность.}
 [dialogs/squad/message/getReady]::{Подтвердите готовность выйти в бой}
+[dialogs/squad/message/invalidVehicle]::{Неподходящая машина}
 [dialogs/squad/message/invalidVehicleLevel]::{Неподходящий уровень}
 [dialogs/squad/message/spgForbidden]::{Невозможно взять САУ во взвод}
 [dialogs/squad/message/spgFull]::{Достигнут максимум количества САУ во взводе}
@@ -302,10 +305,12 @@ Content-Transfer-Encoding: 8bit
 [dialogs/squadChannel/buttons/recommend]::{Рекомендовать игроков}
 [dialogs/squadChannel/chatName]::{Канал связи:}
 [dialogs/squadChannel/context/kickPlayer]::{Исключить из взвода}
+[dialogs/squadChannel/headerMsg/battleRoyaleHint]::{Основная задача — остаться
+последним выжившим взводом.}
 [dialogs/squadChannel/headerMsg/epicBattleFormationRestriction]::{Режим «Линия фронта» доступен
 только для техники VIII уровня.}
-[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{Для выхода в бой
-выберите Sturmtiger.}
+[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{+++ event +++
++++ event +++}
 [dialogs/squadChannel/headerMsg/squadFormation]::{Дополнительный опыт за бой
 при игре на технике IV уровня и выше}
 [dialogs/squadChannel/headerMsg/squadFormationRestriction]::{Играйте на технике одного уровня
@@ -455,6 +460,7 @@ Content-Transfer-Encoding: 8bit
 [server/errors/chatCommandError/title]::{Ошибка чата}
 [server/errors/commandInCooldown/message]::{Команда %(command)s заморожена на %(cooldownPeriod)s с.}
 [server/errors/commandInCooldown/title]::{Ошибка чата}
+[server/errors/commandInTeamCooldown/message]::{Сообщение заморожено. Слишком много сообщений.}
 [server/errors/connectTimeout/message]::{Период ожидания подключения к каналу истек.}
 [server/errors/connectTimeout/title]::{Ошибка чата}
 [server/errors/createPrivateError/message]::{Нельзя создать приватный канал, поскольку пользователя сейчас нет в сети.}
@@ -504,6 +510,12 @@ Content-Transfer-Encoding: 8bit
 [server_error/user_room_creation/NAME_EXISTS]::{Канал «%(strArg1)s» уже существует.}
 [server_error/user_room_creation/WRONG_SYMBOL]::{Некорректные символы в имени канала.}
 [server_error/user_room_creation/WRONG_WORD]::{Запрещённые слова в имени канала.}
+[serviceChannelMessages/BRVehiclesInvoice/button]::{Стальной охотник}
+[serviceChannelMessages/BRVehiclesInvoice/descr]::{Это специальная техника для режима «Стальной охотник». Перейдите в режим, чтобы узнать, на что она способна.}
+[serviceChannelMessages/BRbattleResults/ended]::{Машина уничтожена}
+[serviceChannelMessages/BRbattleResults/levelEarned]::{Получен уровень}
+[serviceChannelMessages/BRbattleResults/pointsEarned]::{Получено очков}
+[serviceChannelMessages/BRbattleResults/victory]::{Победа}
 [serviceChannelMessages/achievementReceived/message]::{Достижения}
 [serviceChannelMessages/actionBegin]::{Акция}
 [serviceChannelMessages/actionEnd]::{Акция завершена.}
@@ -707,6 +719,9 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/currencyUpdate/received/crystal]::{Получено бон}
 [serviceChannelMessages/currencyUpdate/received/eventCoin]::{Получено юбилейных монет}
 [serviceChannelMessages/currencyUpdate/received/gold]::{Получено золота}
+[serviceChannelMessages/dedicationReward/header]::{Награда «Герой нашего времени»}
+[serviceChannelMessages/dedicationReward/text]::{Получена медаль %(medalName)s за %(battlesCount)s сыгранных боёв
+Получены декали за %(battlesCount)s сыгранных боёв (x%(decalsCount)s)}
 [serviceChannelMessages/demountKitDisabled]::{Операции с демонтажными наборами временно недоступны: ведутся технические работы.}
 [serviceChannelMessages/demountKitEnabled]::{Операции с демонтажными наборами возобновлены. Приносим извинения за причинённые неудобства.}
 [serviceChannelMessages/durationOfPremiumAccountExpires]::{Срок действия Общего премиум аккаунта истекает %(expiryTime)s.}
@@ -924,9 +939,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/specialReward/nationalBlueprints]::{Национальный фрагмент (%(nationName)s) (x%(fragmentsCount)s)}
 [serviceChannelMessages/specialReward/title]::{Специальная награда}
 [serviceChannelMessages/specialReward/vehicleBlueprints]::{Фрагмент чертежа для %(vehicleName)s (x%(fragmentsCount)s)}
-[serviceChannelMessages/spgEvent/titles/available]::{«Крадущийся тигр» снова доступен}
-[serviceChannelMessages/spgEvent/titles/notSet]::{Бои на «Штурмтигре» недоступны}
-[serviceChannelMessages/spgEvent/titles/primeTime]::{Комендантский час}
 [serviceChannelMessages/sysMsg/converter/blueprintsReceived]::{Получена компенсация за чертежи исследованной техники:}
 [serviceChannelMessages/sysMsg/converter/camouflages]::{Изменён камуфляж}
 [serviceChannelMessages/sysMsg/converter/creditsReceived]::{Начислено кредитов: %(credits)s}
@@ -976,8 +988,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/customizations/sell]::{%(itemType)s «%(itemName)s», %(count)s шт. Получено %(money)s}
 [serviceChannelMessages/sysMsg/openCustomization/button]::{К внешнему виду}
 [serviceChannelMessages/sysMsg/removeCustomizations]::{Из-за смены модулей следующие элементы внешнего вида были сняты с %(vehicle)s.}
-[serviceChannelMessages/sysMsg/titles/bobBattlesAvailable]::{Режим «Схватка» снова доступен}
-[serviceChannelMessages/sysMsg/titles/bobBattlesPrimeTime]::{Комендантский час}
 [serviceChannelMessages/sysMsg/titles/customization]::{Изменение внешнего вида:}
 [serviceChannelMessages/sysMsg/titles/dismantling]::{Демонтировано:}
 [serviceChannelMessages/sysMsg/titles/error]::{Ошибка:}

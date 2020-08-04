@@ -330,91 +330,6 @@
          </exclude>
       </vehicleFilter>
       <style>
-         <id>243</id>
-         <texture>gui/maps/vehicles/styles/generic_custom_look_usa.png</texture>
-         <description>#vehicle_customization:main_style/generic_custom_look_usa_desc</description>
-         <longDescriptionSpecial>#vehicle_customization:main_style/generic_custom_look_usa_desc/long</longDescriptionSpecial>
-         <userString>#vehicle_customization:main_style/generic_custom_look_usa</userString>
-         <tags>progression_required addNationalEmblem</tags>
-         <itemFilters>
-            <projection_decal>
-               <include>
-                  <itemGroupName>Progression Decals</itemGroupName>
-               </include>
-            </projection_decal>
-         </itemFilters>
-         <outfits>
-            <outfit>
-               <season>summer</season>
-               <camouflages>
-                  <item>
-                     <id>15204</id>
-                     <appliedTo>4368</appliedTo>
-                     <patternSize>1</patternSize>
-                     <palette>0</palette>
-                  </item>
-               </camouflages>
-               <decals>
-                  <item>
-                     <id>14705</id>
-                     <appliedTo>52416</appliedTo>
-                  </item>
-               </decals>
-            </outfit>
-            <outfit>
-               <season>winter</season>
-               <camouflages>
-                  <item>
-                     <id>15210</id>
-                     <appliedTo>4368</appliedTo>
-                     <patternSize>1</patternSize>
-                     <palette>0</palette>
-                  </item>
-               </camouflages>
-               <decals>
-                  <item>
-                     <id>14705</id>
-                     <appliedTo>52416</appliedTo>
-                  </item>
-               </decals>
-            </outfit>
-            <outfit>
-               <season>desert</season>
-               <camouflages>
-                  <item>
-                     <id>15201</id>
-                     <appliedTo>4368</appliedTo>
-                     <patternSize>1</patternSize>
-                     <palette>0</palette>
-                  </item>
-               </camouflages>
-               <decals>
-                  <item>
-                     <id>14705</id>
-                     <appliedTo>52416</appliedTo>
-                  </item>
-               </decals>
-            </outfit>
-            <outfit>
-               <season>event</season>
-            </outfit>
-         </outfits>
-      </style>
-   </itemGroup>
-   <itemGroup>
-      <userString>#vehicle_customization:styles/main_styles</userString>
-      <season>ALL</season>
-      <historical> true </historical>
-      <priceGroup>styles 700g</priceGroup>
-      <vehicleFilter>
-         <include>
-            <nations>usa</nations>
-         </include>
-         <exclude>
-            <vehicles>usa:A13_T34_hvy_BF</vehicles>
-         </exclude>
-      </vehicleFilter>
-      <style>
          <id>29</id>
          <texture>gui/maps/vehicles/styles/generic_custom_look_2_usa.png</texture>
          <description>#vehicle_customization:main_style/generic_custom_look_2_usa_desc</description>
@@ -600,6 +515,14 @@
          <modelsSet>KingTiger</modelsSet>
          <maxNumber>1</maxNumber>
          <userString>#vehicle_customization:special_style/kingtiger</userString>
+         <tags>progression_required</tags>
+         <itemFilters>
+            <projection_decal>
+               <include>
+                  <itemGroupName>Progression Decals</itemGroupName>
+               </include>
+            </projection_decal>
+         </itemFilters>
          <outfits>
             <outfit>
                <season>ALL</season>
@@ -891,7 +814,14 @@
          <modelsSet>offspring</modelsSet>
          <maxNumber>1</maxNumber>
          <userString>#vehicle_customization:main_style/A127_TL_1_LPC_3Dst_Offspring</userString>
-         <tags>offspringArenaMusic</tags>
+         <tags>offspringArenaMusic progression_required</tags>
+         <itemFilters>
+            <projection_decal>
+               <include>
+                  <itemGroupName>Progression Decals</itemGroupName>
+               </include>
+            </projection_decal>
+         </itemFilters>
          <outfits>
             <outfit>
                <season>ALL</season>
@@ -913,48 +843,6 @@
                      <appliedTo>52416</appliedTo>
                   </item>
                </decals>
-               <projection_decals>
-                  <item>
-                     <id>127</id>
-                     <showOn>HULL</showOn>
-                     <doubleSided>0</doubleSided>
-                     <position>
-                        <p0>-1.5</p0>
-                        <p1>1</p1>
-                        <p2>-0.37</p2>
-                     </position>
-                     <rotation>
-                        <r0>1.5708</r0>
-                        <r1>1.5708</r1>
-                        <r2>0.0</r2>
-                     </rotation>
-                     <scale>
-                        <s0>3.4</s0>
-                        <s1>1.0</s1>
-                        <s2>3.4</s2>
-                     </scale>
-                  </item>
-                  <item>
-                     <id>138</id>
-                     <showOn>HULL</showOn>
-                     <doubleSided>0</doubleSided>
-                     <position>
-                        <p0>1.5</p0>
-                        <p1>1</p1>
-                        <p2>-0.4</p2>
-                     </position>
-                     <rotation>
-                        <r0>1.5708</r0>
-                        <r1>0.0</r1>
-                        <r2>1.5708</r2>
-                     </rotation>
-                     <scale>
-                        <s0>2.6</s0>
-                        <s1>1.0</s1>
-                        <s2>2.6</s2>
-                     </scale>
-                  </item>
-               </projection_decals>
             </outfit>
          </outfits>
       </style>
@@ -1211,6 +1099,52 @@
    <itemGroup>
       <userString>#vehicle_customization:styles/special_styles</userString>
       <season>ALL</season>
+      <historical> true </historical>
+      <priceGroup>styles 3000g notInShop</priceGroup>
+      <vehicleFilter>
+         <include>
+            <vehicles>usa:A120_M48A5</vehicles>
+         </include>
+      </vehicleFilter>
+      <style>
+         <id>294</id>
+         <texture>gui/maps/vehicles/styles/A120_M48A5_3Dst.png</texture>
+         <longDescriptionSpecial>#vehicle_customization:special_style/A120_M48A5_3Dst_desc/long</longDescriptionSpecial>
+         <modelsSet>battlepass2020</modelsSet>
+         <maxNumber>1</maxNumber>
+         <userString>#vehicle_customization:special_style/A120_M48A5_3Dst</userString>
+         <tags>progression_required addNationalEmblem</tags>
+         <itemFilters>
+            <projection_decal>
+               <include>
+                  <itemGroupName>Progression Decals</itemGroupName>
+               </include>
+            </projection_decal>
+         </itemFilters>
+         <outfits>
+            <outfit>
+               <season>ALL</season>
+               <camouflages>
+                  <item>
+                     <id>1</id>
+                     <appliedTo>4368</appliedTo>
+                     <patternSize>1</patternSize>
+                     <palette>0</palette>
+                  </item>
+               </camouflages>
+               <decals>
+                  <item>
+                     <id>0</id>
+                     <appliedTo>52416</appliedTo>
+                  </item>
+               </decals>
+            </outfit>
+         </outfits>
+      </style>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:styles/special_styles</userString>
+      <season>ALL</season>
       <historical> false </historical>
       <priceGroup>styles 1750g notInShop</priceGroup>
       <vehicleFilter>
@@ -1248,52 +1182,6 @@
                      <id>213</id>
                      <appliedTo>13104</appliedTo>
                   </item>
-                  <item>
-                     <id>0</id>
-                     <appliedTo>52416</appliedTo>
-                  </item>
-               </decals>
-            </outfit>
-         </outfits>
-      </style>
-   </itemGroup>
-   <itemGroup>
-      <userString>#vehicle_customization:styles/special_styles</userString>
-      <season>ALL</season>
-      <historical> true </historical>
-      <priceGroup>styles 3000g notInShop</priceGroup>
-      <vehicleFilter>
-         <include>
-            <vehicles>usa:A120_M48A5</vehicles>
-         </include>
-      </vehicleFilter>
-      <style>
-         <id>294</id>
-         <texture>gui/maps/vehicles/styles/A120_M48A5_3Dst.png</texture>
-         <longDescriptionSpecial>#vehicle_customization:special_style/A120_M48A5_3Dst_desc/long</longDescriptionSpecial>
-         <modelsSet>battlepass2020</modelsSet>
-         <maxNumber>1</maxNumber>
-         <userString>#vehicle_customization:special_style/A120_M48A5_3Dst</userString>
-         <tags>progression_required addNationalEmblem</tags>
-         <itemFilters>
-            <projection_decal>
-               <include>
-                  <itemGroupName>Progression Decals</itemGroupName>
-               </include>
-            </projection_decal>
-         </itemFilters>
-         <outfits>
-            <outfit>
-               <season>ALL</season>
-               <camouflages>
-                  <item>
-                     <id>1</id>
-                     <appliedTo>4368</appliedTo>
-                     <patternSize>1</patternSize>
-                     <palette>0</palette>
-                  </item>
-               </camouflages>
-               <decals>
                   <item>
                      <id>0</id>
                      <appliedTo>52416</appliedTo>

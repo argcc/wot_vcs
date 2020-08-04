@@ -7,7 +7,7 @@
          <post-effects></post-effects>
          <runtime-effects>
             <show-hint>
-               AmmunitionPanelHint
+               AmmunitionPanelShellsHint
                <condition>
                   <active>AmmunitionPanelOnScene</active>
                </condition>
@@ -15,7 +15,7 @@
          </runtime-effects>
          <gui-items>
             <gui-item>
-               AmmunitionPanel
+               HangarPanelShells
                <on-scene-effects>
                   <activate>AmmunitionPanelOnScene</activate>
                </on-scene-effects>
@@ -36,39 +36,40 @@
    </scenes>
    <has-id>
       <hint>
-         AmmunitionPanelHint
-         <item-id>AmmunitionPanel</item-id>
+         AmmunitionPanelShellsHint
+         <item-id>HangarPanelShells</item-id>
          <text>#quests:action/chain/hint/shellsPrice</text>
          <arrow>
             <direction>T</direction>
             <loop>True</loop>
          </arrow>
          <padding>
-            <left>394</left>
-            <top>72</top>
-            <right>206</right>
-            <bottom>4</bottom>
+            <left>0</left>
+            <top>0</top>
+            <right>0</right>
+            <bottom>0</bottom>
          </padding>
          <actions>
             <click>
-               AmmunitionPanel
+               HangarPanelShells
                <effects>
                   <refuse-training></refuse-training>
                </effects>
             </click>
             <click-outside>
-               AmmunitionPanel
+               HangarPanelShells
                <effects>
                   <refuse-training></refuse-training>
                </effects>
             </click-outside>
             <esc>
-               AmmunitionPanel
+               HangarPanelShells
                <effects>
                   <refuse-training></refuse-training>
                </effects>
             </esc>
          </actions>
+         <hide-immediately>True</hide-immediately>
       </hint>
    </has-id>
    <triggers></triggers>

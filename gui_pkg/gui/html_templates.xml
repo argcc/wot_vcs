@@ -35,11 +35,13 @@
          <maxHealth>&lt;h1&gt;_(#menu:tank_params/maxHealth)&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;</maxHealth>
          <weight>&lt;h1&gt;_(#menu:tank_params/weight)&lt;p&gt;_(#menu:tank_params/t)&lt;/p&gt;&lt;/h1&gt;</weight>
          <enginePower>&lt;h1&gt;_(#menu:tank_params/enginePower)&lt;p&gt;_(#menu:tank_params/p)&lt;/p&gt;&lt;/h1&gt;</enginePower>
+         <turboshaftEnginePower>&lt;h1&gt;_(#menu:tank_params/turboshaftEnginePower)&lt;p&gt;_(#menu:tank_params/p)&lt;/p&gt;&lt;/h1&gt;</turboshaftEnginePower>
          <enginePowerPerTon>&lt;h1&gt;_(#menu:tank_params/enginePowerPerTon)&lt;p&gt;_(#menu:tank_params/pt)&lt;/p&gt;&lt;/h1&gt;</enginePowerPerTon>
          <speedLimits>&lt;h1&gt;_(#menu:tank_params/speedLimits)&lt;p&gt;_(#menu:tank_params/mph)&lt;/p&gt;&lt;/h1&gt;</speedLimits>
          <chassisRotationSpeed>&lt;h1&gt;_(#menu:tank_params/chassisRotationSpeed)&lt;p&gt;_(#menu:tank_params/gps)&lt;/p&gt;&lt;/h1&gt;</chassisRotationSpeed>
          <maxSteeringLockAngle>&lt;h1&gt;_(#menu:tank_params/maxSteeringLockAngle)&lt;p&gt;_(#menu:tank_params/grads)&lt;/p&gt;&lt;/h1&gt;</maxSteeringLockAngle>
          <wheeledSpeedModeSpeed>&lt;h1&gt;_(#menu:tank_params/wheeledSpeedModeSpeed)&lt;p&gt;_(#menu:tank_params/mph)&lt;/p&gt;&lt;/h1&gt;</wheeledSpeedModeSpeed>
+         <turboshaftSpeedModeSpeed>&lt;h1&gt;_(#menu:tank_params/turboshaftSpeedModeSpeed)&lt;p&gt;_(#menu:tank_params/mph)&lt;/p&gt;&lt;/h1&gt;</turboshaftSpeedModeSpeed>
          <hullArmor>&lt;h1&gt;_(#menu:tank_params/hullArmor)&lt;p&gt;_(#menu:tank_params/faceFrontBoardInMM)&lt;/p&gt;&lt;/h1&gt;</hullArmor>
          <turretArmor>&lt;h1&gt;_(#menu:tank_params/turretArmor)&lt;p&gt;_(#menu:tank_params/faceFrontBoardInMM)&lt;/p&gt;&lt;/h1&gt;</turretArmor>
          <reloadTime>&lt;h1&gt;_(#menu:tank_params/reloadTime)&lt;p&gt;_(#menu:tank_params/spm)&lt;/p&gt;&lt;/h1&gt;</reloadTime>
@@ -438,12 +440,14 @@
          <leaveEventWarning>&lt;font color=&#34;#FF0000&#34;&gt;%(message)s&lt;/font&gt;</leaveEventWarning>
       </dialogs>
       <popovers>
-         <optionalDevice>
+         <equipment>
             <colorTagOpen>&lt;font color=&#34;#80d43a&#34;&gt;</colorTagOpen>
             <colorTagClose>&lt;/font&gt;</colorTagClose>
             <expTagOpen>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#C9C9B6&#39;&gt;</expTagOpen>
             <expTagClose>&lt;/font&gt;</expTagClose>
-         </optionalDevice>
+            <effectTagOpen>&lt;font color=&#34;#cbac77&#34;&gt;</effectTagOpen>
+            <effectTagClose>&lt;/font&gt;</effectTagClose>
+         </equipment>
          <crewBattleBooster>
             <colorTagOpen>&lt;font color=&#34;#80d43a&#34;&gt;</colorTagOpen>
             <colorTagClose>&lt;/font&gt;</colorTagClose>
@@ -482,7 +486,7 @@
             <EVENT>_(#invites:invites/text/EVENT) %(sender)s</EVENT>
             <STRONGHOLD>_(#invites:invites/text/STRONGHOLD) %(sender)s</STRONGHOLD>
             <EPIC>_(#invites:invites/text/EPIC) %(sender)s</EPIC>
-            <BOB>_(#invites:invites/text/BOB) %(sender)s</BOB>
+            <BATTLE_ROYALE>_(#invites:invites/text/BATTLE_ROYALE) %(sender)s</BATTLE_ROYALE>
          </inviteTitle>
          <inviteTitleCreatorName>
             <context>
@@ -806,6 +810,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
             <levelError>&lt;IMG SRC=&#39;img://gui/maps/icons/library/errorIcon.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; hspace=&#39;0&#39;/&gt; &lt;font face=&#39;$FieldFont&#39; size=&#39;15&#39; color=&#39;#B70000&#39;&gt;_(#cyberSport:window/unit/teamPoints)  &lt;/font&gt;&lt;font face=&#39;$TitleFont&#39; size=&#39;15&#39; color=&#39;#B70000&#39;&gt;%(sumLevels)s&lt;/font&gt;</levelError>
             <invalidLevelDescription>%(description)s&lt;br/&gt;&lt;br/&gt;&lt;IMG SRC=&#39;img://gui/maps/icons/library/alertIcon2.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; hspace=&#39;0&#39;/&gt; &lt;font color=&#39;#B70000&#39;&gt;%(reason)s&lt;/font&gt;</invalidLevelDescription>
             <required>&lt;IMG SRC=&#39;img://gui/maps/icons/library/cybersport/alertIcon.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-4&#39; hspace=&#39;0&#39;/&gt; &lt;font color=&#39;#EE7000&#39;&gt;_(#cyberSport:window/unit/slot/required)&lt;/font&gt;</required>
+            <battleRoyale>&lt;IMG SRC=&#39;img://gui/maps/icons/library/cybersport/alertIcon.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-4&#39; hspace=&#39;0&#39;/&gt; &lt;font size=&#39;14&#39; color=&#39;#EE7000&#39;&gt;_(#cyberSport:window/unit/slot/battleRoyale)&lt;/font&gt;</battleRoyale>
          </unit>
          <league>
             <leagueInfoWithIcon>&lt;img src=&#34;%(icon)s&#34; width=&#34;16&#34; height=&#34;16&#34; vspace=&#34;-4&#34;&gt; &lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#8C8C7E&#39;&gt;_(#profile:profile/summary/club/ladderInfo)&lt;/font&gt;</leagueInfoWithIcon>
@@ -1153,7 +1158,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
       <referralButton>
          <iconTemplate>&lt;img src=&#39;img://gui/maps/icons/messenger/%(iconName)s.png&#39; width=&#39;%(width)s&#39; height=&#39;%(height)s&#39; vspace=&#39;-31&#39;/&gt;</iconTemplate>
       </referralButton>
-      <onlineCounter>&lt;b&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;12&#34; color=&#34;#CBAC77&#34;&gt;%(key)s: &lt;/font&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;12&#34; color=&#34;#8C8C7C&#34;&gt;%(value)s&lt;/font&gt;&lt;/b&gt;</onlineCounter>
+      <onlineCounter>&lt;b&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;12&#34; color=&#34;#CBAC77&#34;&gt;%(key)s%(delimiter)s &lt;/font&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;12&#34; color=&#34;#8C8C7C&#34;&gt;%(value)s&lt;/font&gt;&lt;/b&gt;</onlineCounter>
       <tank_carousel>
          <statistic>
             <wins>&lt;img src=&#39;img://gui/maps/icons/statistic/wins24_gray.png&#39; width=&#39;18&#39; height=&#39;24&#39; vspace=&#39;-7&#39;/&gt;%(wins)s</wins>
@@ -1260,4 +1265,11 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <gray>&lt;font color=&#34;#807F71&#34; size=&#34;15&#34; face=&#34;$TitleFont&#34;&gt;%(text)s&lt;/font&gt;</gray>
       </message>
    </bootcamp>
+   <battleRoyale>
+      <paramTitleOrange>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#ffb266&#34;&gt;%(message)s&lt;/font&gt;</paramTitleOrange>
+      <paramTitleRed>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#ff3333&#34;&gt;%(message)s&lt;/font&gt;</paramTitleRed>
+      <paramTitleGreen>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#ccff66&#34;&gt;%(message)s&lt;/font&gt;</paramTitleGreen>
+      <paramTitleWhite>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#D3D3CA&#34;&gt;%(message)s&lt;/font&gt;</paramTitleWhite>
+      <standardText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#595950&#34;&gt;%(message)s&lt;/font&gt;</standardText>
+   </battleRoyale>
 </html_templates.xml>

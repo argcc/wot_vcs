@@ -59,6 +59,9 @@
          <hasMods>
             <Type>UINT8</Type>
          </hasMods>
+         <reason32bit>
+            <Type>UINT8</Type>
+         </reason32bit>
          <cpuFamily>
             <Type>UINT32</Type>
          </cpuFamily>
@@ -194,6 +197,9 @@
          <drrScale>
             <Type>UINT8</Type>
          </drrScale>
+         <memoryCritical>
+            <Type>UINT8</Type>
+         </memoryCritical>
          <gameSessionDuration>
             <Type>INT16</Type>
          </gameSessionDuration>
@@ -417,6 +423,9 @@
          <commanderSkinID>
             <Type>UINT16</Type>
          </commanderSkinID>
+         <maxHealth>
+            <Type>UINT16</Type>
+         </maxHealth>
       </Properties>
    </PUBLIC_VEHICLE_INFO>
    <ATTACK_RESULTS>
@@ -942,6 +951,12 @@
          <attackerSiegeState>
             <Type>INT8</Type>
          </attackerSiegeState>
+         <attackerMasterVehID>
+            <Type>UINT16</Type>
+         </attackerMasterVehID>
+         <needsCount>
+            <Type>BOOL</Type>
+         </needsCount>
       </Properties>
    </ATTACKER_INFO>
    <DESTRUCTIBLE_ATTACK_INFO>
@@ -959,6 +974,18 @@
          </attacker>
       </Properties>
    </DESTRUCTIBLE_ATTACK_INFO>
+   <CLIENT_STATUS_STATISTICS>
+      FIXED_DICT
+      <AllowNone> true </AllowNone>
+      <Properties>
+         <ping>
+            <Type>INT16</Type>
+         </ping>
+         <lag>
+            <Type>UINT8</Type>
+         </lag>
+      </Properties>
+   </CLIENT_STATUS_STATISTICS>
    <VEHICLE_SPATIAL_INFO>
       FIXED_DICT
       <Properties>
@@ -988,6 +1015,9 @@
          <circularVisionRadius>
             <Type>UINT16</Type>
          </circularVisionRadius>
+         <gunPiercing>
+            <Type>FLOAT</Type>
+         </gunPiercing>
       </Properties>
    </VEHICLE_SYNC_ATTRS>
    <SpaceToD>
@@ -1279,7 +1309,7 @@
          </vehPerks>
       </Properties>
    </RESPAWN_INFO_VEHICLE>
-   <INSPIRING_EFFECT>
+   <BUFF_EFFECT>
       FIXED_DICT
       <AllowNone> true </AllowNone>
       <Properties>
@@ -1296,11 +1326,32 @@
             <Type>FLOAT32</Type>
          </inactivationDelay>
       </Properties>
-   </INSPIRING_EFFECT>
-   <INSPIRED>
+   </BUFF_EFFECT>
+   <DOT_EFFECT>
       FIXED_DICT
       <AllowNone> true </AllowNone>
       <Properties>
+         <endTime>
+            <Type>FLOAT64</Type>
+         </endTime>
+         <period>
+            <Type>FLOAT32</Type>
+         </period>
+         <groupId>
+            <Type>UINT8</Type>
+         </groupId>
+         <attackReasonID>
+            <Type>UINT8</Type>
+         </attackReasonID>
+      </Properties>
+   </DOT_EFFECT>
+   <BUFF_EFFECT_INACTIVATION>
+      FIXED_DICT
+      <AllowNone> true </AllowNone>
+      <Properties>
+         <senderKey>
+            <Type>STRING</Type>
+         </senderKey>
          <startTime>
             <Type>FLOAT64</Type>
          </startTime>
@@ -1314,7 +1365,55 @@
             <Type>FLOAT64</Type>
          </inactivationEndTime>
       </Properties>
-   </INSPIRED>
+   </BUFF_EFFECT_INACTIVATION>
+   <HOT_EFFECT>
+      FIXED_DICT
+      <AllowNone> true </AllowNone>
+      <Properties>
+         <senderKey>
+            <Type>STRING</Type>
+         </senderKey>
+         <startTime>
+            <Type>FLOAT64</Type>
+         </startTime>
+         <endTime>
+            <Type>FLOAT64</Type>
+         </endTime>
+         <inactivationStartTime>
+            <Type>FLOAT64</Type>
+         </inactivationStartTime>
+         <inactivationEndTime>
+            <Type>FLOAT64</Type>
+         </inactivationEndTime>
+         <isInfluenceZone>
+            <Type>BOOL</Type>
+         </isInfluenceZone>
+      </Properties>
+   </HOT_EFFECT>
+   <INSPIRED_EFFECT>
+      FIXED_DICT
+      <AllowNone> true </AllowNone>
+      <Properties>
+         <primary>
+            <Type>BOOL</Type>
+         </primary>
+         <startTime>
+            <Type>FLOAT64</Type>
+         </startTime>
+         <endTime>
+            <Type>FLOAT64</Type>
+         </endTime>
+         <inactivationStartTime>
+            <Type>FLOAT64</Type>
+         </inactivationStartTime>
+         <inactivationEndTime>
+            <Type>FLOAT64</Type>
+         </inactivationEndTime>
+         <equipmentID>
+            <Type>UINT16</Type>
+         </equipmentID>
+      </Properties>
+   </INSPIRED_EFFECT>
    <SMOKE_INFO>
       FIXED_DICT
       <Properties>
@@ -1439,6 +1538,9 @@
          <overriddenBadge>
             <Type>UINT8</Type>
          </overriddenBadge>
+         <maxHealth>
+            <Type>UINT16</Type>
+         </maxHealth>
       </Properties>
    </CLIENT_VEHICLE_PUBLIC_INFO>
    <PLAY_LIMITS>
@@ -1455,4 +1557,15 @@
          </dailyPlayLimit>
       </Properties>
    </PLAY_LIMITS>
+   <TIME_WITH_REASON>
+      FIXED_DICT
+      <Properties>
+         <time>
+            <Type>INT32</Type>
+         </time>
+         <reason>
+            <Type>UINT8</Type>
+         </reason>
+      </Properties>
+   </TIME_WITH_REASON>
 </alias.xml>

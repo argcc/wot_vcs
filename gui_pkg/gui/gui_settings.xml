@@ -202,11 +202,6 @@
       <type>vector4</type>
    </setting>
    <setting>
-      40 100 100 3.0
-      <name>markerBgSettings</name>
-      <type>vector4</type>
-   </setting>
-   <setting>
       <name>rememberPassVisible</name>
       <type>bool</type>
       <value>True</value>
@@ -260,22 +255,6 @@
          <item>zh_tw</item>
          <item>ko</item>
          <item>ja</item>
-      </value>
-   </setting>
-   <setting>
-      <name>movingText</name>
-      <type>dict</type>
-      <value>
-         <item>
-            <name>show</name>
-            <type>bool</type>
-            <value>False</value>
-         </item>
-         <item>
-            <name>internalBrowser</name>
-            <type>bool</type>
-            <value>False</value>
-         </item>
       </value>
    </setting>
    <setting>
@@ -355,7 +334,7 @@
    <setting>
       <name>isBattleCmdCoolDownVisible</name>
       <type>bool</type>
-      <value>False</value>
+      <value>True</value>
    </setting>
    <setting>
       <name>cache</name>
@@ -838,6 +817,21 @@
             <type>url</type>
          </item>
          <item>
+            $PARAMS(/bons/optional_devices)
+            <name>bonsDevicesUrl</name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/bons/vehicles)
+            <name>bonsVehiclesUrl</name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/bons/prebattle_instructions)
+            <name>bonsInstructionsUrl</name>
+            <type>url</type>
+         </item>
+         <item>
             $PARAMS(/trade_in)
             <name>tradeIn</name>
             <type>url</type>
@@ -893,22 +887,6 @@
                <item>uk</item>
                <item>kk</item>
             </value>
-         </item>
-      </value>
-   </setting>
-   <setting>
-      <name>adventCalendar</name>
-      <type>dict</type>
-      <value>
-         <item>
-            https://calendar.worldoftanks.ru/igb/$LANGUAGE_CODE/
-            <name>baseURL</name>
-            <type>url</type>
-         </item>
-         <item>
-            <name>popupIntervalInHours</name>
-            <type>int</type>
-            <value>24</value>
          </item>
       </value>
    </setting>
@@ -972,6 +950,10 @@
             <type>url</type>
          </item>
          <item>
+            <name>CN</name>
+            <type>url</type>
+         </item>
+         <item>
             https://worldoftanks.ru/$LANGUAGE_CODE/news/updates/tech-trees-update/
             <name>default</name>
             <type>url</type>
@@ -996,6 +978,22 @@
             2020
             <name>year</name>
             <type>int</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
+      <name>vivoxLicense</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
+      <value>
+         <item>
+            <name>CN</name>
+            <type>string</type>
+         </item>
+         <item>
+            Utilizes Vivox, © 2018 Vivox, Inc. All rights reserved. See www.vivox.com for details.\n
+            <name>default</name>
+            <type>string</type>
          </item>
       </value>
    </setting>

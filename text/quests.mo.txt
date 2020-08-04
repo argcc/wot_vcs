@@ -35,7 +35,7 @@ Content-Transfer-Encoding: 8bit
 [action/auto/mul_PriceGroupPriceByTag]::{Скидка на покупку элементов внешнего вида}
 [action/auto/mul_ShellPrice]::{Скидка на покупку снарядов}
 [action/auto/mul_ShellPriceAll]::{Скидка на покупку снарядов}
-[action/auto/paidRemovalCost]::{Скидка на демонтаж сложного оборудования}
+[action/auto/paidRemovalCost]::{Скидка на демонтаж оборудования}
 [action/auto/passportChangeCost]::{Скидка на смену документов членов экипажа}
 [action/auto/premiumPacket14Cost]::{Скидка на покупку 14 дней премиум аккаунта}
 [action/auto/premiumPacket180Cost]::{Скидка на покупку 180 дней премиум аккаунта}
@@ -157,7 +157,7 @@ Content-Transfer-Encoding: 8bit
 [action/full/goldDropSkillsCost]::{Сбросьте выбранные умения и навыки членов экипажа за золото со скидкой %(discount)s. Это поможет, если вы пересаживаете экипаж на машину с другой ролью в бою.}
 [action/full/goldTankmanCost]::{Обучите или переобучите экипаж за золото со скидкой %(discount)s. Хорошо развитый экипаж дополняет характеристики машины и поможет эффективнее реализовывать потенциал вашей машины.}
 [action/full/mul_ShellPrice]::{Закупайте любые снаряды со скидкой, которая составляет %(discount)s. Пополнение боезапаса впрок сэкономит вам ресурсы в дальнейшем.}
-[action/full/paidRemovalCost]::{Демонтируйте сложное оборудование по сниженной цене: теперь скидка на демонтаж составляет %(discount)s. Благодаря этой акции вы сэкономите золото при смене сложного оборудования.}
+[action/full/paidRemovalCost]::{Демонтируйте оборудование по сниженной цене: теперь скидка на демонтаж составляет %(discount)s. Благодаря этой акции вы сэкономите золото при смене оборудования.}
 [action/full/passportChangeCost]::{Смените документы членам экипажа со скидкой в %(discount)s. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.}
 [action/full/premiumPacket14Cost]::{Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 14 дней: %(discount)s}
 [action/full/premiumPacket180Cost]::{Выгодная стоимость покупки дней премиум аккаунта (или его продление) на 180 дней: %(discount)s}
@@ -216,8 +216,8 @@ Content-Transfer-Encoding: 8bit
 [action/hero/full/mul_ShellPrice]::{Закупайте любые снаряды со скидкой, которая составляет %(discount)s. Пополнение боезапаса впрок сейчас сэкономит вам ресурсы в дальнейшем.
 
 Обратите внимание, что орудие, к которому вы покупаете снаряд, может устанавливаться на множестве разных машин. Таким образом, купив впрок самые распространённые снаряды для каждой нации, на технике которой вы предпочитаете играть, вы надолго обеспечите боеприпасами множество машин.}
-[action/hero/full/paidRemovalCost]::{Демонтируйте сложное оборудование по сниженной цене: теперь скидка на демонтаж составляет %(discount)s. Благодаря этой акции вы сэкономите золото при замене сложного оборудования.
-Покупка полного комплекта сложного оборудования на новую машину может быть очень затратной, поэтому есть смысл снять оборудование со старой машины, заплатив немного золота, и перекинуть его на новую. Помните, что только 3 типа оборудования можно снимать бесплатно. Это стереотруба, маскировочная сеть и ящик с инструментами.}
+[action/hero/full/paidRemovalCost]::{Демонтируйте оборудование по сниженной цене: теперь скидка на демонтаж составляет %(discount)s. Благодаря этой акции вы сэкономите золото при замене оборудования.
+Покупка полного комплекта оборудования на новую машину может быть очень затратной, поэтому есть смысл снять оборудование со старой машины, заплатив немного золота, и перекинуть его на новую.}
 [action/hero/full/passportChangeCost]::{Смените документы членам экипажа со скидкой в %(discount)s. Ваш экипаж — верный помощник в бою, который заслуживает индивидуализации.
 
 Соберите в одной машине уникальный экипаж из друзей и знакомых или известных исторических личностей. В услугу входят смена имени, фамилии, а также фотографии вашего члена экипажа.}
@@ -281,7 +281,7 @@ Content-Transfer-Encoding: 8bit
 [action/short/mul_PriceGroupPriceAll]::{Скидка до %(discount)s на покупку элементов внешнего вида}
 [action/short/mul_PriceGroupPriceByTag]::{Скидка до %(discount)s на покупку элементов внешнего вида}
 [action/short/mul_ShellPrice]::{Скидка на покупку снарядов %(discount)s}
-[action/short/paidRemovalCost]::{Скидка %(discount)s на демонтаж сложного оборудования}
+[action/short/paidRemovalCost]::{Скидка %(discount)s на демонтаж оборудования}
 [action/short/passportChangeCost]::{Скидка %(discount)s на смену документов членов экипажа}
 [action/short/premiumPacket14Cost]::{Премиум аккаунт по выгодной цене: 14 дней — %(discount)s}
 [action/short/premiumPacket180Cost]::{Премиум аккаунт по выгодной цене: 180 дней — %(discount)s}
@@ -331,6 +331,7 @@ Content-Transfer-Encoding: 8bit
 [battleProgress/position/advantage]::{%(formattedProgress)s Отрыв: %(advantage)s Место: %(position)s}
 [battleProgress/position/left]::{%(formattedProgress)s Осталось: %(left)s Место: %(position)s}
 [battleProgress/position/short]::{%(formattedProgress)s Место: %(position)s}
+[bonusName/battle_bonus_x5]::{Задача на x5 опыта за бой}
 [bonusName/berths]::{Мест в Казарме}
 [bonusName/blueprints/any]::{Фрагменты чертежей:}
 [bonusName/blueprints/nation]::{Фрагментов чертежей на нацию %(nationName)s:}
@@ -759,6 +760,7 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/postBattle/dailyReset/timeFmt]::{%H:%M}
 [details/conditions/postBattle/deltaDailyReset/timeFmt]::{%H ч %M мин}
 [details/conditions/postBattle/separator]::{При этом в каждом бою:}
+[details/conditions/postBattle/weeklyReset/timeFmt]::{%H:%M}
 [details/conditions/ramDamage]::{Нанести урон машине противника тараном}
 [details/conditions/ramDamage/all]::{Нанести урон тараном любой машине противника}
 [details/conditions/ramDamage/eventCount]::{Указанное количество раз нанести тараном урон машине противника}
@@ -821,6 +823,7 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/results/formation/avg]::{Среднее значение для формирования по параметру: %(param)s}
 [details/conditions/results/formation/simple]::{Параметр для формирования: %(param)s}
 [details/conditions/results/single/avg]::{Среднее значение по параметру: %(param)s}
+[details/conditions/results/single/battleRoyale/top1]::{Победить в бою (ваш взвод или лично вы должны занять первое место).}
 [details/conditions/results/single/bothTeams/position]::{Занять %(position)d место среди обеих команд по: %(param)s}
 [details/conditions/results/single/bothTeams/position/not]::{Не занять %(position)d место среди обеих команд по: %(param)s}
 [details/conditions/results/single/bothTeams/range]::{Попасть на %(high)d-%(low)d место среди обеих команд по: %(param)s}
@@ -969,7 +972,6 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/22/battlesCount]::{Проведённых Ранговых боёв}
 [details/dossier/24/battlesCount]::{Проведённых Генеральных сражений}
 [details/dossier/27/battlesCount]::{Проведённых Генеральных сражений}
-[details/dossier/32/battlesCount]::{Проведённых боёв в режиме «Схватка»}
 [details/dossier/4/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/5/battlesCount]::{Проведённых Специальных боёв}
 [details/dossier/6/battlesCount]::{Пройденных Боевых обучений}
@@ -980,27 +982,6 @@ Content-Transfer-Encoding: 8bit
 [details/dossier/battleCitizen]::{Операция «Ностальгия»}
 [details/dossier/battlesCount]::{Проведённых боёв}
 [details/dossier/beasthunter]::{«Зверобой»}
-[details/dossier/bob/battlesCount]::{Боёв в режиме «Схватка»}
-[details/dossier/bob/capturePoints]::{Очков захвата базы в режиме «Схватка»}
-[details/dossier/bob/damageAssistedRadio]::{Урон по вашим разведданным в режиме «Схватка»}
-[details/dossier/bob/damageAssistedTrack]::{Урон, нанесённый союзниками после попадания, сбившего гусеницу в режиме «Схватка»}
-[details/dossier/bob/damageBlockedByArmor]::{Заблокированного бронёй урона в режиме «Схватка»}
-[details/dossier/bob/damageDealt]::{Нанесённый урон в режиме «Схватка»}
-[details/dossier/bob/damageReceived]::{Полученный урон в режиме «Схватка»}
-[details/dossier/bob/directHits]::{Попаданий в режиме «Схватка»}
-[details/dossier/bob/droppedCapturePoints]::{Очков защиты базы в режиме «Схватка»}
-[details/dossier/bob/frags]::{Уничтоженных машин противника в режиме «Схватка»}
-[details/dossier/bob/losses]::{Поражений в режиме «Схватка»}
-[details/dossier/bob/maxDamage]::{Максимальный урон в режиме «Схватка»}
-[details/dossier/bob/noDamageDirectHitsReceived]::{Полученных попаданий без урона в режиме «Схватка»}
-[details/dossier/bob/originalXP]::{«Чистый» опыт в режиме «Схватка»}
-[details/dossier/bob/piercings]::{Пробитий в режиме «Схватка»}
-[details/dossier/bob/piercingsReceived]::{Полученных пробитий в режиме «Схватка»}
-[details/dossier/bob/potentialDamageReceived]::{Полученного урона от любых попаданий, кроме осколочно-фугасных в режиме «Схватка»}
-[details/dossier/bob/spotted]::{Обнаруженных машин противника в режиме «Схватка»}
-[details/dossier/bob/survivedBattles]::{Боёв в режиме «Схватка», в которых машина игрока не была уничтожена}
-[details/dossier/bob/wins]::{Побед в режиме «Схватка»}
-[details/dossier/bob/xp]::{Заработанный опыт в режиме «Схватка»}
 [details/dossier/bombardier]::{«Бомбардир»}
 [details/dossier/clan/battlesCount]::{Боёв в «Мировой войне»}
 [details/dossier/clan/capturePoints]::{Очков захвата базы в «Мировой войне»}
@@ -1237,7 +1218,6 @@ Content-Transfer-Encoding: 8bit
 [details/modifiers/economics/freeXPToTManXPRate]::{На стоимость перевода свободного опыта в опыт экипажа}
 [details/modifiers/economics/goldDropSkillsCost]::{На сброс умений экипажа за золото}
 [details/modifiers/economics/goldTankmanCost]::{На обучение и переобучение экипажа за золото}
-[details/modifiers/economics/paidRemovalCost]::{На демонтаж сложного оборудования}
 [details/modifiers/economics/passportChangeCost]::{На смену документов экипажа}
 [details/modifiers/economics/premiumPacket1]::{На покупку премиум аккаунта на 1 день}
 [details/modifiers/economics/premiumPacket14]::{На покупку премиум аккаунта на 14 дней}
@@ -1359,6 +1339,7 @@ Content-Transfer-Encoding: 8bit
 [details/requirementsRelation/notEqual]::{не равно}
 [details/status/completed]::{Боевая задача выполнена!}
 [details/status/completed/daily]::{Боевая задача выполнена. Следующее доступное выполнение: %(time)s}
+[details/status/completed/weekly]::{Боевая задача выполнена. Следующее доступное выполнение: %(time)s}
 [details/status/notAvailable/in_future]::{Боевая задача недоступна. Станет доступна %(time)s}
 [details/status/notAvailable/invalid_time_interval]::{Боевая задача недоступна. Станет доступна %(time)s}
 [details/status/notAvailable/invalid_weekday]::{Боевая задача недоступна. Станет доступна %(time)s}
@@ -1441,11 +1422,14 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/description]::{Описание задачи}
 [missionDetails/missionsComplete]::{Выполнено: %(count)s / %(total)s}
 [missionDetails/missionsComplete/daily]::{Выполнено в сутки: %(count)s/%(total)s}
+[missionDetails/missionsComplete/weekly]::{Выполнено в неделю: %(count)s / %(total)s}
 [missionDetails/missionsCompleteCounter]::{Выполнено: %(count)s}
 [missionDetails/nextPageBtn/label]::{Следующие}
 [missionDetails/personalQuest/complete/left]::{Осталось выполнений: %(count)s}
 [missionDetails/personalQuest/complete/left/daily]::{Из них в сутки: %(count)s}
+[missionDetails/personalQuest/complete/left/weekly]::{Из них в неделю: %(count)s}
 [missionDetails/personalQuest/details/complete/left/daily]::{из них в сутки: %(count)s}
+[missionDetails/personalQuest/details/complete/left/weekly]::{из них в неделю: %(count)s}
 [missionDetails/prevPageBtn/label]::{Предыдущие}
 [missionDetails/requirements/conclusion/available]::{Требования выполнены (%(count)s)}
 [missionDetails/requirements/conclusion/unavailable]::{Требования не выполнены (%(count)s)}
@@ -1453,6 +1437,7 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/requirements/header/unavailable]::{Задача недоступна:}
 [missionDetails/resetDate]::{Обнуление задачи в %(time)s}
 [missionDetails/status/completed/daily]::{Следующее доступное выполнение через: %(time)s}
+[missionDetails/status/completed/weekly]::{Следующее доступное выполнение через: %(time)s}
 [missionDetails/status/disabled]::{Задача отключена}
 [missionDetails/status/notAvailable]::{Недоступно}
 [missionDetails/status/notAvailable/in_future]::{станет доступна через %(time)s}
@@ -1473,6 +1458,7 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/vehicle/conditions/type/tooltip]::{Тип техники: %(type)s}
 [missionDetails/vehiclesAvailable]::{В наличии: %(count)s}
 [missionDetails/vehiclesSelect]::{Выбрать технику}
+[missionDetails/weeklyReset]::{Обнуление задачи: %(time)s}
 [missions/awards/merged]::{И ещё: %(count)s}
 [missions/battle/eventBoards/date]::{Дата}
 [missions/battle/eventBoards/result]::{Результат}
@@ -1603,7 +1589,7 @@ Content-Transfer-Encoding: 8bit
 [premiumQuests/header/title]::{ПРЕМИУМ ЗАДАЧИ}
 [premiumQuests/info/conditions]::{Некоторые задачи необходимо выполнить за один бой, в то время как накопительные задачи можно выполнять за любое количество боёв. Для накопительных задач предусмотрена шкала прогресса. Задачи доступны для выполнения в Случайных боях (в т. ч. в Генеральном сражении).}
 [premiumQuests/info/conditionsTitle]::{Условия}
-[premiumQuests/info/epicRewards]::{Для получения особой награды необходимо выполнить цепочку задач, выстроенную по принципу марафона: в зачёт идёт каждая выполненная стандартная, премиум или бонусная задача. По завершении последней задачи цикл начинается заново. Данные задачи цикла не имеют ограничений по времени и могут быть выполнены в любой момент.}
+[premiumQuests/info/epicRewards]::{Для получения особой награды необходимо выполнить цепочку задач, выстроенную по принципу марафона: в зачёт идёт каждая выполненная стандартная, премиум и бонусная задача. По завершении последней задачи цикл начинается заново. Цикл не имеет ограничений по времени и может быть завершён в любой момент.}
 [premiumQuests/info/epicRewardsTitle]::{Особая награда}
 [premiumQuests/info/premiumMissions]::{Танковый премиум аккаунт открывает доступ к цепочке из трёх премиум задач, которые необходимо выполнить последовательно. Все задачи доступны для выполнения в Случайных боях. Прогресс выполнения премиум задач обновляется после каждого боя.}
 [premiumQuests/info/premiumMissionsTitle]::{Премиум задачи}
@@ -1617,7 +1603,7 @@ Content-Transfer-Encoding: 8bit
 [premiumQuests/quests/prem_acc_q02/title]::{Вторая премиум задача}
 [premiumQuests/quests/prem_acc_q03/title]::{Третья премиум задача}
 [premiumQuests/tab/label]::{Премиум}
-[premiumQuests/tooltips/locked/body]::{Выполните предыдущую премиум задачу для доступа к следующей.}
+[premiumQuests/tooltips/locked/body]::{Выполните предыдущую премиум задачу для доступа к текущей.}
 [premiumQuests/tooltips/locked/header]::{Задача недоступна}
 [quest/chain/hint/holdAwardSheet]::{ВЫПОЛНИТЬ ЗАДАЧУ ЗА БЛАНК ПРИКАЗА}
 [quest/chain/hint/pause]::{ПОСТАВИТЬ НА ПАУЗУ}

@@ -1,23 +1,4 @@
 <Vehicle.def>
-   <Implements>
-      <Interface>VehicleAIProxy</Interface>
-      <Interface>TeamBase_Vehicle</Interface>
-      <Interface>SectorBase_Vehicle</Interface>
-      <Interface>RepairBase_Vehicle</Interface>
-      <Interface>VehicleObserver</Interface>
-      <Interface>BattleFeedback</Interface>
-      <Interface>Harm</Interface>
-      <Interface>Sector_Vehicle</Interface>
-      <Interface>ProtectionZone_Vehicle</Interface>
-      <Interface>StepRepairPoint_Vehicle</Interface>
-      <Interface>DestructibleEntity_Vehicle</Interface>
-      <Interface>DefenderBonusController_Vehicle</Interface>
-      <Interface>RecoveryMechanic_Vehicle</Interface>
-      <Interface>RespawnController_Vehicle</Interface>
-      <Interface>SmokeController_Vehicle</Interface>
-      <Interface>InspireController_Vehicle</Interface>
-      <Interface>Wheels</Interface>
-   </Implements>
    <LoDLevels>
       <level>
          20
@@ -35,6 +16,24 @@
          <label>FAR</label>
       </level>
    </LoDLevels>
+   <Implements>
+      <Interface>VehicleAIProxy</Interface>
+      <Interface>TeamBase_Vehicle</Interface>
+      <Interface>SectorBase_Vehicle</Interface>
+      <Interface>RepairBase_Vehicle</Interface>
+      <Interface>VehicleObserver</Interface>
+      <Interface>BattleFeedback</Interface>
+      <Interface>Harm</Interface>
+      <Interface>Sector_Vehicle</Interface>
+      <Interface>ProtectionZone_Vehicle</Interface>
+      <Interface>StepRepairPoint_Vehicle</Interface>
+      <Interface>DestructibleEntity_Vehicle</Interface>
+      <Interface>DefenderBonusController_Vehicle</Interface>
+      <Interface>RecoveryMechanic_Vehicle</Interface>
+      <Interface>RespawnController_Vehicle</Interface>
+      <Interface>SmokeController_Vehicle</Interface>
+      <Interface>Wheels</Interface>
+   </Implements>
    <Volatile>
       <position></position>
       <yaw></yaw>
@@ -165,6 +164,26 @@
          <Type>UINT8</Type>
          <Flags>CELL_PUBLIC</Flags>
       </botKind>
+      <eventBotKind>
+         <Type>UINT8</Type>
+         <Flags>CELL_PRIVATE</Flags>
+      </eventBotKind>
+      <respawnOffset>
+         <Type>VECTOR3</Type>
+         <Flags>CELL_PRIVATE</Flags>
+      </respawnOffset>
+      <xRayFactor>
+         <Type>FLOAT</Type>
+         <Flags>CELL_PRIVATE</Flags>
+      </xRayFactor>
+      <masterVehID>
+         <Type>UINT32</Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </masterVehID>
+      <needsCount>
+         <Type>BOOL</Type>
+         <Flags>CELL_PRIVATE</Flags>
+      </needsCount>
       <crewCompactDescrs>
          <Type>
             TUPLE
@@ -213,13 +232,33 @@
          <Flags>BASE</Flags>
       </arena>
       <inspiringEffect>
-         <Type>INSPIRING_EFFECT</Type>
+         <Type>BUFF_EFFECT</Type>
          <Flags>ALL_CLIENTS</Flags>
       </inspiringEffect>
+      <healingEffect>
+         <Type>BUFF_EFFECT</Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </healingEffect>
+      <dotEffect>
+         <Type>DOT_EFFECT</Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </dotEffect>
       <inspired>
-         <Type>INSPIRED</Type>
+         <Type>INSPIRED_EFFECT</Type>
          <Flags>ALL_CLIENTS</Flags>
       </inspired>
+      <healing>
+         <Type>BUFF_EFFECT_INACTIVATION</Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </healing>
+      <healOverTime>
+         <Type>HOT_EFFECT</Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </healOverTime>
+      <debuff>
+         <Type>BOOL</Type>
+         <Flags>ALL_CLIENTS</Flags>
+      </debuff>
       <isSpeedCapturing>
          <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
@@ -233,10 +272,13 @@
       <events></events>
       <p></p>
       <_Vehicle__p></_Vehicle__p>
+      <arenaCell></arenaCell>
       <_components></_components>
       <_battleFeedback></_battleFeedback>
       <_directVisibility></_directVisibility>
       <_harm></_harm>
+      <_inspireController></_inspireController>
+      <_healPointController></_healPointController>
       <_entityExtraUserData></_entityExtraUserData>
       <_extras></_extras>
       <attrs></attrs>
@@ -402,6 +444,7 @@
          <Arg>INT32</Arg>
          <Arg>UINT16</Arg>
          <Arg>UINT8</Arg>
+         <Arg>UINT8</Arg>
          <Arg>INT16</Arg>
          <Arg>INT16</Arg>
       </updateVehicleAmmo>
@@ -485,6 +528,9 @@
       <requestVisibilityLists>
          <Arg>MAILBOX</Arg>
       </requestVisibilityLists>
+      <updateActiveDeathZones>
+         <Arg>PYTHON</Arg>
+      </updateActiveDeathZones>
    </CellMethods>
    <BaseMethods>
       <createCellNearHere>

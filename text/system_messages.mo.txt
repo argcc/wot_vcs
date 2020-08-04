@@ -20,7 +20,7 @@ Content-Transfer-Encoding: 8bit
 [arena_start_errors/join/ACCOUNT_LOCK]::{Ошибка присоединения. Вы уже присоединены к команде.}
 [arena_start_errors/join/CANNOT_CREATE]::{Ошибка присоединения. Неправильный номер команды.}
 [arena_start_errors/join/COOLDOWN]::{Ошибка присоединения. Операция временно заморожена. Попробуйте позже.}
-[arena_start_errors/join/EVENT_DISABLED]::{В настоящий момент данное событие недоступно. Следите за новостями на сайте игры.}
+[arena_start_errors/join/EVENT_DISABLED]::{В настоящий момент данное событие недоступно. Следите за новостями на портале игры.}
 [arena_start_errors/join/NOT_FOUND]::{Ошибка присоединения. Приглашение устарело.}
 [arena_start_errors/join/PRIVACY]::{Ошибка присоединения. Недостаточно прав.}
 [arena_start_errors/join/QUEUE_FULL]::{Действие недоступно. Очередь на вход в бой переполнена. Попробуйте позже.}
@@ -94,6 +94,7 @@ Content-Transfer-Encoding: 8bit
 [badges/select/server_error]::{Ошибка сервера}
 [badges/select/server_error/COOLDOWN]::{Действие недоступно. Дождитесь завершения текущей операции.}
 [battle/request/SEND_INVITES]::{Отправка приглашений}
+[battleAbilities_apply/error]::{Ошибка при настройке боевых резервов. Повторите попытку позже.}
 [battleBooster_buy/credits_error]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно кредитов.}
 [battleBooster_buy/crystal_error]::{Покупка %(kind)s «%(name)s» не удалась. Недостаточно бон.}
 [battleBooster_buy/error_not_for_this_vehicle_type]::{%(kind)s «%(name)s» не подходит для этой машины.}
@@ -114,6 +115,9 @@ Content-Transfer-Encoding: 8bit
 [battleBooster_buy/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [battleBooster_sell/server_error]::{Операции с инструкциями временно недоступны: ведутся технические работы.}
 [battleBooster_sell/success]::{%(kind)s «%(name)s» продана (%(count)s шт.). Получено %(money)s.}
+[battleBoosters_apply/error]::{Ошибка операции с инструкциями. Повторите попытку позже.}
+[battleBoosters_apply/not_enough_money]::{Ошибка операции с инструкциями. Недостаточно средств для покупки.}
+[battleBoosters_apply/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [battlePass/badgeRemoved/text]::{Нашивка %(badgeName)s списана в связи с окончанием сезона Боевого пропуска.}
 [battlePass/switch_disable/body]::{Сезон завершился, но мы обязательно встретимся в следующем!}
 [battlePass/switch_disable/title]::{Боевой пропуск, сезон 2.}
@@ -285,6 +289,9 @@ Content-Transfer-Encoding: 8bit
 [collectorVehicle/switch_on/body]::{Работа коллекций налажена. Приносим извинения за причинённые неудобства.}
 [collectorVehicle/switch_on/title]::{Коллекции вновь доступны}
 [connected]::{Добро пожаловать на сервер %s World of Tanks!}
+[consumables_apply/error]::{Ошибка при настройке снаряжения. Повторите попытку позже.}
+[consumables_apply/not_enough_money]::{Ошибка при настройке снаряжения. Недостаточно средств для покупки.}
+[consumables_apply/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [crewBooks/failed]::{Возникла ошибка при изучение учебного материала.}
 [crewBooksNotification/bookUsed]::{Использовано: %(name)s}
 [crewBooks_buy/server_error]::{Покупка учебного материала не удалась. Ошибка сервера, повторите операцию позже.}
@@ -580,12 +587,9 @@ Content-Transfer-Encoding: 8bit
 [layout_apply/SHELLS_NO_CREDITS]::{Ошибка при обслуживании «%(vehName)s». Недостаточно кредитов для покупки снарядов.}
 [layout_apply/SHELLS_NO_GOLD]::{Ошибка при обслуживании «%(vehName)s». Недостаточно золота для покупки снарядов.}
 [layout_apply/SHELLS_NO_WALLET_SESSION]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
-[layout_apply/SHOP_DESYNC]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
 [layout_apply/Vehicle is locked]::{Ошибка при обслуживании «%(vehName)s». Машина заблокирована.}
-[layout_apply/WRONG_ARGS_TYPE]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
-[layout_apply/WRONG_ARG_VALUE]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
+[layout_apply/error]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
 [layout_apply/invalid_vehicle]::{Ошибка при обслуживании «%(vehName)s». Неправильная машина.}
-[layout_apply/server_error]::{Ошибка при обслуживании «%(vehName)s». Попробуйте позже.}
 [layout_apply/success_money_spent]::{Всего на пополнение боекомплекта потрачено %(money)s.}
 [layout_apply/vehicle_locked]::{Ошибка при обслуживании «%(vehName)s». Машина заблокирована.}
 [layout_apply/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
@@ -666,6 +670,10 @@ Content-Transfer-Encoding: 8bit
 [offers/switch_off/body]::{Сервис «Поставки из тыла» временно недоступен.}
 [offers/unavailable_many]::{Потерян доступ к предложениям: %(count)s шт.}
 [offers/unavailable_one]::{Потерян доступ к предложению.}
+[optionalDevices_apply/error]::{Ошибка при настройке оборудования. Повторите попытку позже.}
+[optionalDevices_apply/not_enough_money]::{Ошибка при настройке оборудования. Недостаточно средств для покупки.}
+[optionalDevices_apply/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
+[optionalDevices_remove/error]::{Ошибка при настройке оборудования. Повторите попытку позже.}
 [periphery/errors/isNotAvailable]::{Переход недоступен: невозможно определить сервер.}
 [personalMissions/badge]::{Начислена нашивка: %(name)s.}
 [personalMissions/camouflageGiven]::{Начислен уникальный камуфляж для %(vehicleName)s.}
@@ -754,7 +762,6 @@ Content-Transfer-Encoding: 8bit
 [prebattle/teamInvalid/limits/level]::{К бою допускается только техника в диапазоне уровней от %(minLevel)d до %(maxLevel)d.}
 [prebattle/teamInvalid/limits/vehicles]::{Выбранная машина не подходит для данного боя.}
 [prebattle/teamInvalid/observers]::{Команда не может состоять только из наблюдателей.}
-[prebattle/vehicleInvalid/bobOnly]::{Выбранная машина подходит только для режима «Схватка».}
 [prebattle/vehicleInvalid/epicOnly]::{Выбранная машина подходит только для режима «Линия фронта».}
 [prebattle/vehicleInvalid/falloutOnly]::{Выбранная машина подходит только для режима «Бой до последнего».}
 [prebattle/vehicleInvalid/limits/ammo]::{На выбранную машину загружены снаряды или снаряжение, не удовлетворяющие условиям боя.}
@@ -900,6 +907,9 @@ Content-Transfer-Encoding: 8bit
 [rotation/lock]::{Следующие группы заблокированы и более недоступны для боя: %(groupNum)s.}
 [rotation/unlock]::{Следующие группы разблокированы и теперь доступны для боя: %(groupNum)s.}
 [rotation/vehicleIsLocked]::{Машина заблокирована и недоступна для боя.}
+[royale/notification/congratulations]::{Поздравляем!}
+[royale/notification/primeTime]::{Бои режима «Стальной охотник» недоступны до окончания режима прекращения огня. Расписание смотрите в календаре.}
+[royale/notifications/singleLevel/text]::{Получен уровень: %(level)s}
 [securityMessage/bad_email]::{Уважаемый пользователь! Ваш адрес электронной почты зарегистрирован на подозрительном сервере. Просим вас сменить email. %(link)s}
 [securityMessage/change_setings]::{Изменить параметры безопасности}
 [securityMessage/no_phone]::{Уважаемый пользователь! Рекомендуем выполнить привязку вашего аккаунта к телефону для обеспечения безопасности. %(link)s}
@@ -922,6 +932,10 @@ Content-Transfer-Encoding: 8bit
 [shell_sell/invalid_module]::{Продажа «%(name)s» не удалась. Неправильный снаряд.}
 [shell_sell/server_error]::{Продажа «%(name)s» не удалась. Попробуйте позже.}
 [shell_sell/success]::{Снаряд «%(name)s» (%(count)s шт.). Получено %(money)s.}
+[shells_apply/error]::{Ошибка при настройке боекомплекта. Повторите попытку позже.}
+[shells_apply/not_enough_money]::{Ошибка при настройке боекомплекта. Недостаточно средств для покупки.}
+[shells_apply/success_money_spent]::{Всего на пополнение боекомплекта потрачено %(money)s.}
+[shells_apply/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
 [shop/item/buy_and_equip_in_processing]::{Запрос на покупку и установку модуля отправлен, ожидается ответ от сервера.}
 [shop/item/buy_server_error]::{Покупка модуля %(typeString)s «%(userString)s» не удалась. Попробуйте позже.}
 [shop/item/buy_success]::{Модуль %(typeString)s «%(userString)s» успешно приобретён (%(count)d шт.). Потрачено %(price)s.}
@@ -933,9 +947,6 @@ Content-Transfer-Encoding: 8bit
 [shop/vehicle/not_enough_money_for_rent]::{Для аренды %(userString)s не хватает %(price)s.}
 [shop/vehicle/not_found]::{%(userString)s в Магазине не найден. Попробуйте позже.}
 [shop_resync]::{%(date)s в %(time)s произошли серверные изменения, интерфейс обновлен.}
-[spgEvent/notification/available]::{Комендантский час закончился, режим «Крадущийся тигр» снова доступен.}
-[spgEvent/notification/notSet]::{Режим «Крадущийся тигр» недоступен на выбранном сервере.}
-[spgEvent/notification/primeTime]::{Режим «Крадущийся тигр» недоступен до окончания комендантского часа.}
 [squad/createError]::{Создание взводов доступно только игрокам с премиум аккаунтом.}
 [squad/kickedFromQueue]::{Невозможно подобрать соперников для данного взвода. Попробуйте переформировать команду.}
 [squad/leaveDisabled]::{Операция недоступна
@@ -1058,6 +1069,7 @@ Content-Transfer-Encoding: 8bit
 [unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER]::{Управление боевыми резервами в бою передано другому игроку.}
 [unit/warnings/CANT_PICK_LEADER]::{Вы исключены из состава отряда: отряд расформирован.}
 [unit/warnings/CLAN_CHANGED]::{Вы исключены из отряда. Клан изменён.}
+[unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED]::{Подбор легионеров остановлен.}
 [unit/warnings/FORT_BATTLE_END]::{Действие недоступно. Истекло время ожидания боя.}
 [unit/warnings/INVITE_REMOVED]::{Ошибка присоединения. Вы были исключены из команды.}
 [unit/warnings/KICKED_CANDIDATE]::{Вы были автоматически исключены из добровольцев.}
@@ -1149,6 +1161,7 @@ Content-Transfer-Encoding: 8bit
 [vehicle_rent/success]::{Машина «%(vehName)s» арендована %(rentPackageName)s. Потрачено %(price)s. %(buyOption)s}
 [vehicle_rent/timeRent]::{на %(days)d д}
 [vehicle_rent/wallet_not_available]::{Операция невозможна. Всё ваше золото станет доступно после автоматического восстановления работоспособности Единого кошелька.}
+[vehicle_repair/credits_error]::{Не хватает %(needed)s на ремонт «%(vehName)s».}
 [vehicle_repair/not_enough_credits]::{Не хватает %(needed)s на ремонт «%(vehName)s».}
 [vehicle_repair/server_error]::{Ошибка ремонта «%(vehName)s». Попробуйте позже.}
 [vehicle_repair/success]::{«%(vehName)s» отремонтирован. Потрачено %(money)s.}

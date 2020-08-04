@@ -8,222 +8,190 @@ MIME-Version: 1.0
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: 8bit
 }
+[additionalInvisibilityDevice/long_special]::{Эффективность зависит от типа техники. Увеличивает незаметность как неподвижной, так и движущейся машины. Полезно для активной разведки, а также для пассивного наблюдения с более рискованных позиций.}
+[additionalInvisibilityDevice/name]::{Малошумная система выхлопа}
+[additionalInvisibilityDevice/short_special]::{Увеличивает незаметность неподвижной и движущейся машины.}
+[additionalInvisibilityDevice_tier1/name]::{Малошумная система выхлопа (Класс 1)}
+[additionalInvisibilityDevice_tier2/name]::{Малошумная система выхлопа (Класс 2)}
+[additionalInvisibilityDevice_tier3/name]::{Малошумная система выхлопа (Класс 3)}
 [afterburning/descr]::{На короткое время даёт существенную прибавку к скорости.
 Перезарядка: 20 сек.}
 [afterburning/name]::{Турбонагнетатель}
-[aimingStabilizer/descr]::{{colorTagOpen}-20%{colorTagClose} от разброса после выстрела, при движении и повороте башни}
 [aimingStabilizer/long_special]::{Уменьшение разброса — важный фактор, ведь чем меньше будет изначальный разброс орудия, тем с меньшего по диаметру круга начнётся сведение, а значит, оно пройдёт быстрее. Кроме того, неподготовленный выстрел (выстрел без сведения или с ходу) также будет точнее.}
-[aimingStabilizer/short_special]::{{colorTagOpen}-20%{colorTagClose} от разброса после выстрела, при движении и повороте башни}
+[aimingStabilizer/name]::{Стабилизатор вертикальной наводки}
 [aimingStabilizerBattleBooster/descr]::{%s от разброса после выстрела, при движении и повороте башни с установленным оборудованием «Стабилизатор вертикальной наводки» (Mk 1 и Mk 2), «Комплекс стабилизационного оборудования» или «Трофейный стабилизатор».}
 [aimingStabilizerBattleBooster/gain/deluxe]::{-5%}
 [aimingStabilizerBattleBooster/gain/simple]::{-5%}
-[aimingStabilizerBattleBooster/long_special]::{Расходуется за один бой. Усиливает эффект оборудования «Стабилизатор вертикальной наводки» (Mk 1 и Мk 2) или «Комплекс стабилизационного оборудования». Для установки инструкции данное оборудование должно быть на технике.}
+[aimingStabilizerBattleBooster/long_special]::{Расходуется за 1 бой. Усиливает эффект оборудования «Стабилизатор вертикальной наводки» (Класс 1 и 2) или «Комплекс стабилизационного оборудования». Для установки инструкции данное оборудование должно быть на технике.}
 [aimingStabilizerBattleBooster/name]::{Смазка стабилизаторов}
 [aimingStabilizerBattleBooster/short_special]::{Усиливает эффект от стабилизатора}
-[aimingStabilizer_Mk1/name]::{Стабилизатор вертикальной наводки Mk 1}
-[aimingStabilizer_Mk2/name]::{Стабилизатор вертикальной наводки Mk 2}
+[aimingStabilizer_Mk1/name]::{Стабилизатор вертикальной наводки (Класс 1)}
+[aimingStabilizer_Mk2/name]::{Стабилизатор вертикальной наводки (Класс 2)}
+[aimingStabilizer_tier1/name]::{Стабилизатор вертикальной наводки (Класс 1)}
+[aimingStabilizer_tier2/name]::{Стабилизатор вертикальной наводки (Класс 2)}
 [antifragmentationLining/long_special]::{Абсорбция — поглощение; проще говоря, подбой уменьшает урон от столкновений с другой техникой и от попаданий по машине осколочно-фугасных снарядов. Подбой пригодится на тяжёлых танках ближнего боя с крепкой бронёй и мощным таранным потенциалом.}
-[antifragmentationLining/short_special]::{Защищает от ОФ-снарядов и ранений экипажа}
-[antifragmentationLining_heavy/descr]::{{colorTagOpen}+30%{colorTagClose} к абсорбции повреждений от взрывов и тарана
-{colorTagOpen}+30%{colorTagClose} к защите экипажа от ранений
-{colorTagOpen}-10%{colorTagClose} от времени оглушения
-{colorTagOpen}-10%{colorTagClose} дополнительно от времени повторного оглушения}
-[antifragmentationLining_heavy/name]::{Тяжёлый противоосколочный подбой}
-[antifragmentationLining_light/descr]::{{colorTagOpen}+20%{colorTagClose} к абсорбции повреждений от взрывов и тарана
-{colorTagOpen}+20%{colorTagClose} к защите экипажа от ранений
-{colorTagOpen}-10%{colorTagClose} от времени оглушения}
-[antifragmentationLining_light/name]::{Лёгкий противоосколочный подбой}
-[antifragmentationLining_medium/descr]::{{colorTagOpen}+25%{colorTagClose} к абсорбции повреждений от взрывов и тарана
-{colorTagOpen}+25%{colorTagClose} к защите экипажа от ранений
-{colorTagOpen}-10%{colorTagClose} от времени оглушения}
-[antifragmentationLining_medium/name]::{Средний противоосколочный подбой}
-[antifragmentationLining_superheavy/descr]::{{colorTagOpen}+50%{colorTagClose} к абсорбции повреждений от взрывов и тарана
-{colorTagOpen}+50%{colorTagClose} к защите экипажа от ранений
-{colorTagOpen}-10%{colorTagClose} от времени оглушения
-{colorTagOpen}-20%{colorTagClose} дополнительно от времени повторного оглушения}
-[antifragmentationLining_superheavy/name]::{Сверхтяжёлый противоосколочный подбой}
+[antifragmentationLining/name]::{Противоосколочный подбой}
+[antifragmentationLining/short_special]::{Защищает от ОФ снарядов, тарана, ранений и оглушения}
+[antifragmentationLining_tier1/name]::{Сверхтяжёлый противоосколочный подбой}
+[antifragmentationLining_tier2/name]::{Тяжёлый противоосколочный подбой}
+[antifragmentationLining_tier3/name]::{Средний противоосколочный подбой}
+[antifragmentationLining_tier4/name]::{Лёгкий противоосколочный подбой}
 [artillery/longDescr]::{Артиллерийская батарея выполняет залп осколочно-фугасными снарядами по определённой площади. Техника в центре удара получает значительные повреждения.}
 [artillery/name]::{Артобстрел}
 [artillery/shortDescr]::{Максимальный урон по медленной технике противника}
-[autoExtinguishers/always]::{+10% к защите от пожара}
+[autoExtinguishers/always]::{%(vehicleFireChance)s от шанса возгорания двигателя}
 [autoExtinguishers/descr]::{Автоматическое тушение пожара в собственной машине.}
 [autoExtinguishers/long_special]::{Автоматически тушит возгорание. Также пассивно снижает шанс возгорания. Не требует ручной активации. Подходит для всех типов техники любой нации.}
 [autoExtinguishers/name]::{Автоматический огнетушитель}
 [autoExtinguishers/onUse]::{Автоматическое тушение пожара в собственной машине. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.}
 [autoExtinguishers/restriction]::{?empty?}
 [autoExtinguishers/short_special]::{Автоматически тушит пожар}
+[berserker/descr]::{Значительно улучшает бронепробиваемость и ТТХ вашей машины, но отнимает очки прочности в течение некоторого времени.}
+[berserker/longDescr]::{Значительно улучшает бронепробиваемость и ТТХ вашей машины, но отнимает очки прочности в течение %(duration)s секунд.}
+[berserker/name]::{Берсерк}
+[berserker/shortDescr]::{Значительно улучшает бронепробиваемость и ТТХ вашей машины, но отнимает очки прочности в течение %(duration)s секунд.}
 [bomber/longDescr]::{Бомбардировщик совершает удар в указанную зону, повреждая и оглушая технику противника. Техника в центре удара получает значительные повреждения.}
 [bomber/name]::{Авиаудар}
 [bomber/shortDescr]::{Оглушение противника разрывами бомб}
-[builtinRepairkit/always]::{+15% к скорости ремонта модулей.}
+[brRegenerationKit/descr]::{Постепенно восстанавливает фиксированный процент прочности вашей машины.}
+[brRegenerationKit/long_special]::{Каждую секунду восстанавливает определённый процент прочности в течение %(duration)s секунд.}
+[brRegenerationKit/name]::{Восстановление}
+[brRegenerationKit/short_special]::{Каждую секунду восстанавливает определённый процент прочности в течение %(duration)s секунд.}
+[brRepairkit/descr]::{Ремонтирует все повреждённые модули вашей машины и снимает оглушение.}
+[brRepairkit/long_special]::{Ремонтирует все повреждённые модули вашей машины и снимает оглушение.}
+[brRepairkit/name]::{Ремонтный набор}
+[brRepairkit/short_special]::{Ремонтирует все повреждённые модули вашей машины и снимает оглушение.}
+[br_bomber/descr]::{Оглушает противника и наносит урон разрывами бомб в указанной области.}
+[br_bomber/longDescr]::{Оглушает противника и наносит урон разрывами бомб в указанной области.}
+[br_bomber/name]::{Авиаудар}
+[br_bomber/shortDescr]::{Оглушает противника и наносит урон разрывами бомб в указанной области.}
+[br_minefield/descr]::{Размещает в указанной области минное поле, которое действует некоторое время. Мины можно уничтожать выстрелами.}
+[br_minefield/longDescr]::{Размещает в указанной области минное поле, которое действует %(duration)s секунд. Мины можно уничтожать выстрелами.}
+[br_minefield/name]::{Минное поле}
+[br_minefield/shortDescr]::{Размещает в указанной области минное поле, которое действует некоторое время. Мины можно уничтожать выстрелами.}
+[br_smoke/descr]::{Добавляет бонус к маскировке всей технике, попавшей в зону действия.}
+[br_smoke/longDescr]::{На %(duration)s секунд добавляет бонус к маскировке всей технике, попавшей в зону действия.}
+[br_smoke/name]::{Дымовая завеса}
+[br_smoke/shortDescr]::{Добавляет бонус к маскировке всей технике, попавшей в зону действия.}
+[br_smoke_with_damage/descr]::{Добавляет бонус к маскировке всей технике, попавшей в зону действия. Также наносит урон любой машине в этой зоне.}
+[br_smoke_with_damage/longDescr]::{Добавляет бонус к маскировке всей технике, попавшей в зону действия. Также наносит урон любой машине в этой зоне. Действует %(duration)s секунд.}
+[br_smoke_with_damage/name]::{Корродирующее облако}
+[br_smoke_with_damage/shortDescr]::{Добавляет бонус к маскировке всей технике, попавшей в зону действия. Также наносит урон любой машине в этой зоне.}
+[builtinRepairkit/always]::{%(vehicleRepairSpeed)s к скорости ремонта модулей}
 [builtinRepairkit/long_special]::{Позволяет восстановить все повреждённые модули за раз. Также пассивно увеличивает скорость ремонта. Требует ручной активации. Подходит для определённой техники.}
 [builtinRepairkit/name]::{Штатный большой ремкомплект}
 [builtinRepairkit/onUse]::{Починка всех повреждённых модулей. Используется многократно за бой. Не расходуется.
 Данное снаряжение нельзя убрать, но можно переназначить в другой слот.}
 [builtinRepairkit/restriction]::{?empty?}
-[camouflageBattleBooster/action/boost]::{Добавляет дополнительные 10% к незаметности машины}
+[camouflageBattleBooster/action/boost]::{Добавляет дополнительные 10% к маскировке машины}
 [camouflageBattleBooster/action/perk]::{Даёт 100% умение «Маскировка» всему экипажу}
 [camouflageBattleBooster/long_special]::{Умение «Маскировка» увеличивает незаметность как подвижной, так и неподвижной машины. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.}
 [camouflageBattleBooster/name]::{Укрытия на местности}
 [camouflageBattleBooster/short_special]::{Даёт умение «Маскировка» или усиливает его}
-[camouflageNet/descr]::{Значительно увеличивает незаметность неподвижной машины}
-[camouflageNet/long_special]::{Сеть полезна для малозаметных машин: небольших лёгких танков, САУ и ПТ-САУ с низким силуэтом. Она усиливает действие «Маскировки», поэтому лучше применять их в связке. Активируется на неподвижной машине.}
+[camouflageNet/battle_descr]::{Увеличивает незаметность неподвижной машины через 3 с после остановки}
+[camouflageNet/long_special]::{Эффективность зависит от типа техники. Сеть полезна для малозаметных машин: САУ и засадных ПТ-САУ с низким силуэтом. Она усиливает действие умения «Маскировка», поэтому лучше применять их в связке. Активируется на неподвижной машине через 3 секунды после остановки.}
 [camouflageNet/name]::{Маскировочная сеть}
-[camouflageNet/short_special]::{Увеличивает незаметность машины}
-[carbonDioxide/descr]::{{colorTagOpen}+50%{colorTagClose} к прочности баков}
-[carbonDioxide/long_special]::{Данный вид оборудования может быть полезен на технике, которая из-за особенностей конструкции склонна к возгораниям. Эта проблема наиболее актуальна для машин серии КВ, советских средних танков Х уровня, а также некоторых других.}
-[carbonDioxide/name]::{Заполнение баков СО2}
-[carbonDioxide/short_special]::{{colorTagOpen}+50%{colorTagClose} к прочности баков}
-[chocolate/always]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[camouflageNet/short_special]::{Увеличивает незаметность неподвижной машины}
+[camouflageNet_tier2/name]::{Маскировочная сеть (Класс 2)}
+[camouflageNet_tier3/name]::{Маскировочная сеть (Класс 3)}
+[chocolate/always]::{{colorTagOpen}%(crewLevel)s{colorTagClose} ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [chocolate/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [chocolate/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для немецкой техники.}
 [chocolate/name]::{Шоколад}
 [chocolate/onUse]::{?empty?}
 [chocolate/restriction]::{Только для техники Германии.}
 [chocolate/short_special]::{Повышает эффективность немецких экипажей}
-[coatedOptics/descr]::{{colorTagOpen}+10%{colorTagClose} к радиусу обзора, но не более 445 м}
 [coatedOptics/long_special]::{В отличие от стереотрубы просветлённая оптика (любого типа) даёт меньшую прибавку, но зато работает постоянно, а не только после остановки машины. В связи с этим оптика нужна машинам, которые активно действуют на поле боя, в первую очередь лёгким и средним танкам.}
 [coatedOptics/name]::{Просветлённая оптика}
-[coatedOptics/short_special]::{{colorTagOpen}+10%{colorTagClose} к радиусу обзора}
-[coatedOpticsBattleBooster/descr]::{%s к радиусу обзора, но не более 445 м при установленном оборудовании «Просветлённая оптика», «Юстированная оптика» или «Трофейная оптика».}
+[coatedOpticsBattleBooster/descr]::{%s к радиусу обзора, но не более 445 м, при установленном оборудовании «Просветлённая оптика», «Юстированная оптика» или «Трофейная оптика».}
 [coatedOpticsBattleBooster/gain/deluxe]::{+2,5%}
 [coatedOpticsBattleBooster/gain/simple]::{+2,5%}
-[coatedOpticsBattleBooster/long_special]::{Расходуется за 1 бой. Усиливает эффект оборудования «Просветлённая оптика», «Юстированная оптика» или «Трофейная оптика». Для установки инструкции данное оборудование должно быть на технике.}
+[coatedOpticsBattleBooster/long_special]::{Расходуется за 1 бой. Усиливает эффект оборудования «Просветлённая оптика», «Юстированная оптика» или «Трофейная оптика». Для установки инструкции данное оборудование должно быть на технике, иначе инструкция работать не будет.}
 [coatedOpticsBattleBooster/name]::{Калибровка оптики}
 [coatedOpticsBattleBooster/short_special]::{Усиливает эффект от оптики}
-[cocacola/always]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[coatedOptics_tier1/name]::{Просветлённая оптика (Класс 1)}
+[coatedOptics_tier2/name]::{Просветлённая оптика (Класс 2)}
+[coatedOptics_tier3/name]::{Просветлённая оптика (Класс 3)}
+[cocacola/always]::{{colorTagOpen}%(crewLevel)s{colorTagClose} ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [cocacola/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [cocacola/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для американской техники.}
 [cocacola/name]::{Ящик Колы}
 [cocacola/onUse]::{?empty?}
 [cocacola/restriction]::{Только для техники США.}
 [cocacola/short_special]::{Повышает эффективность американских экипажей}
+[commandersView/long_special]::{Снижает незаметность противника, находящегося в движении, и маскировочные коэффициенты растительности при выслеживании цели. Позволяет с большей дистанции обнаруживать движущиеся цели и эффективнее обнаруживать противника, скрытого кустами или поваленным деревом.}
+[commandersView/name]::{Командирский обзорный прибор}
+[commandersView/short_special]::{Уменьшает незаметность противника в движении и за растительностью}
 [crewBattleBooster/descr/boost]::{Усиливает}
 [crewBattleBooster/descr/common]::{{colorTagOpen}{action}{colorTagClose} {skillOrPerk} «{name}»}
 [crewBattleBooster/descr/perk]::{навык}
 [crewBattleBooster/descr/replace]::{Даёт}
 [crewBattleBooster/descr/skill]::{умение}
-[deluxAimingStabilizer/descr]::{{colorTagOpen}-25%{colorTagClose} от разброса после выстрела, при движении и повороте башни}
-[deluxAimingStabilizer/long_special]::{Усовершенствованная версия стабилизатора вертикальной наводки ({colorTagOpen}-20%{colorTagClose} от разброса после выстрела, при движении и повороте башни), имеет больший эффект: {colorTagOpen}-25%{colorTagClose} от разброса при движении и повороте башни. Подходит всем нациям и типам техники, может быть демонтирован только за боны.}
+[deluxAimingStabilizer/long_special]::{Усовершенствованная версия стабилизатора вертикальной наводки ({colorTagOpen}-20%{colorTagClose} от разброса после выстрела, при движении и повороте башни), имеет больший эффект: {colorTagOpen}-27,5%{colorTagClose} от разброса после выстрела, при движении и повороте башни. Подходит всем нациям и типам техники, может быть демонтирован только за боны.}
 [deluxAimingStabilizer/name]::{Комплекс стабилизационного оборудования}
-[deluxAimingStabilizer/short_special]::{{colorTagOpen}-25%{colorTagClose} от разброса после выстрела, при движении и повороте башни}
-[deluxCoatedOptics/descr]::{{colorTagOpen}+12,5%{colorTagClose} к радиусу обзора, но не более 445 м}
-[deluxCoatedOptics/long_special]::{Усовершенствованная версия просветлённой оптики ({colorTagOpen}+10%{colorTagClose} к радиусу обзора), имеет больший эффект: {colorTagOpen}+12,5%{colorTagClose} к радиусу обзора. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.}
+[deluxCoatedOptics/long_special]::{Усовершенствованная версия просветлённой оптики ({colorTagOpen}+10%{colorTagClose} к радиусу обзора), имеет больший эффект: {colorTagOpen}+13,5%{colorTagClose} к радиусу обзора. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.}
 [deluxCoatedOptics/name]::{Юстированная оптика}
-[deluxCoatedOptics/short_special]::{{colorTagOpen}+12,5%{colorTagClose} к радиусу обзора}
-[deluxEnhancedAimDrives/descr]::{{colorTagOpen}+12,5%{colorTagClose} к скорости сведения}
-[deluxEnhancedAimDrives/long_special]::{Усовершенствованная версия усиленных приводов наводки ({colorTagOpen}+10%{colorTagClose} к скорости сведения), имеет больший эффект: {colorTagOpen}+12,5%{colorTagClose} к скорости сведения. Подходят ко всем нациям и типам техники, могут быть демонтированы только за боны.}
+[deluxEnhancedAimDrives/long_special]::{Усовершенствованная версия усиленных приводов наводки ({colorTagOpen}+10%{colorTagClose} к скорости сведения), имеет больший эффект: {colorTagOpen}+13,5%{colorTagClose} к скорости сведения. Подходят ко всем нациям и типам техники, могут быть демонтированы только за боны.}
 [deluxEnhancedAimDrives/name]::{Износостойкие приводы наводки}
-[deluxEnhancedAimDrives/short_special]::{{colorTagOpen}+12,5%{colorTagClose} к скорости сведения}
-[deluxImprovedVentilation/descr]::{{colorTagOpen}+7,5%{colorTagClose} ко всем умениям всего экипажа}
-[deluxImprovedVentilation/long_special]::{Усовершенствованная версия вентиляции ({colorTagOpen}+5%{colorTagClose} ко всем умениям экипажа), имеет больший эффект: {colorTagOpen}+7,5%{colorTagClose} ко всем умениям экипажа. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.}
+[deluxImprovedConfiguration/long_special]::{Аналог «Изменённой компоновки», даёт больший эффект. Подходит ко всем нациям и типам техники, может быть демонтирован только за боны.}
+[deluxImprovedConfiguration/name]::{Усовершенствованная компоновка}
+[deluxImprovedConfiguration/short_special]::{Ускоряет ремонт, защищает боеукладку, баки и двигатель}
+[deluxImprovedVentilation/long_special]::{Усовершенствованная версия вентиляции ({colorTagOpen}+5%{colorTagClose} ко всем умениям экипажа), имеет больший эффект: {colorTagOpen}+8,5%{colorTagClose} ко всем умениям экипажа. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.}
 [deluxImprovedVentilation/name]::{Система отвода пороховых газов}
-[deluxImprovedVentilation/short_special]::{{colorTagOpen}+7,5%{colorTagClose} ко всем умениям экипажа}
-[deluxRammer/descr]::{{colorTagOpen}-12,5%{colorTagClose} от времени заряжания}
-[deluxRammer/long_special]::{Усовершенствованная версия досылателя ({colorTagOpen}-10%{colorTagClose} от времени заряжания), имеет больший эффект: {colorTagOpen}-12,5%{colorTagClose} от времени заряжания. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.}
+[deluxRammer/long_special]::{Усовершенствованная версия досылателя ({colorTagOpen}-10%{colorTagClose} от времени заряжания), имеет больший эффект: {colorTagOpen}-13,5%{colorTagClose} от времени заряжания. Подходит ко всем нациям и типам техники, может быть демонтирована только за боны.}
 [deluxRammer/name]::{Экспериментальная система заряжания}
-[deluxRammer/short_special]::{{colorTagOpen}-12,5%{colorTagClose} от времени заряжания}
-[deluxToolbox/descr]::{{colorTagOpen}+40%{colorTagClose} к скорости ремонта}
-[deluxToolbox/long_special]::{Аналог ящика с инструментами ({colorTagOpen}+25%{colorTagClose} к скорости ремонта), имеет больший эффект: {colorTagOpen}+40%{colorTagClose} к скорости ремонта. Подходит ко всем нациям и типам техники, может быть демонтирован только за боны.}
-[deluxToolbox/name]::{Расширенный набор ЗИП}
-[deluxToolbox/short_special]::{{colorTagOpen}+40%{colorTagClose} к скорости ремонта}
-[enhancedAimDrives/descr]::{{colorTagOpen}+10%{colorTagClose} к скорости сведения}
+[empty]::{?empty?}
 [enhancedAimDrives/long_special]::{Ускорение сведения уменьшает время, затрачиваемое на прицеливание, а значит машина, оборудованная усиленными приводами наводки, стреляет точнее (и чаще, ведь перезарядка иногда проходит быстрее, чем сведение).}
 [enhancedAimDrives/name]::{Усиленные приводы наводки}
-[enhancedAimDrives/short_special]::{{colorTagOpen}+10%{colorTagClose} к скорости сведения}
 [enhancedAimDrivesBattleBooster/descr]::{%s к скорости сведения при установленном оборудовании «Усиленные приводы наводки», «Износостойкие приводы наводки» или «Трофейные приводы наводки».}
 [enhancedAimDrivesBattleBooster/gain/deluxe]::{+2,5%}
 [enhancedAimDrivesBattleBooster/gain/simple]::{+2,5%}
-[enhancedAimDrivesBattleBooster/long_special]::{Расходуется за 1 бой. Усиливает эффект оборудования «Трофейные приводы наводки», «Усиленные приводы наводки» или «Износостойкие приводы наводки». Для установки инструкции данное оборудование должно быть на технике.}
+[enhancedAimDrivesBattleBooster/long_special]::{Расходуется за 1 бой. Усиливает эффект оборудования «Трофейные приводы наводки», «Усиленные приводы наводки» или «Износостойкие приводы наводки». Для установки инструкции данное оборудование должно быть на технике, иначе инструкция работать не будет.}
 [enhancedAimDrivesBattleBooster/name]::{Настройка прицела}
 [enhancedAimDrivesBattleBooster/short_special]::{Усиливает эффект от приводов наводки}
+[enhancedAimDrives_tier1/name]::{Усиленные приводы наводки (Класс 1)}
+[enhancedAimDrives_tier2/name]::{Усиленные приводы наводки (Класс 2)}
+[enhancedAimDrives_tier3/name]::{Усиленные приводы наводки (Класс 3)}
 [enhancedBelwillWashers/name]::{Усиленные шайбы Бельвилля}
-[enhancedHorizontal_elastic_elements/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedHorizontal_elastic_elements/name]::{Усиленные горизонтальные рессоры}
-[enhancedHorizontal_springs/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedHorizontal_springs/name]::{Усиленные пружины 1-го класса}
-[enhancedHorizontal_springs_class2/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedHorizontal_springs_class2/name]::{Усиленные пружины 2-го класса}
-[enhancedHorizontal_springs_class3/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedHorizontal_springs_class3/name]::{Усиленные пружины 3-го класса}
 [enhancedLevers/name]::{Усиленные балансиры}
 [enhancedLongitudinalTorsions/name]::{Усиленные продольные торсионы}
 [enhancedSprings/name]::{Усиленные рессоры}
-[enhancedSprings_class2/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedSprings_class2/name]::{Усиленные рессоры 2-го класса}
-[enhancedSprings_class3/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedSprings_class3/name]::{Усиленные рессоры 3-го класса}
-[enhancedSuspension/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} к урону, передаваемому корпусу через ходовую при падении}
-[enhancedSuspension/long_special]::{Этот вид оборудования может называться по-разному: «Усиленные торсионы», «Усиленные рессоры» и так далее. Увеличение грузоподъёмности полезно для машин в базовой комплектации, у которых ещё не исследована ходовая, но исследованы другие приоритетные для установки модули.}
-[enhancedSuspension/short_special]::{Увеличивает грузоподъёмность}
-[enhancedSuspension_Christie/name]::{Усиленная подвеска Кристи}
-[enhancedSuspension_Vikkers/name]::{Усиленная подвеска Виккерса}
-[enhancedSuspension_candle/name]::{Усиленная свечная подвеска}
-[enhancedSuspension_wheeled/descr]::{{colorTagOpen}+50%{colorTagClose} к прочности ходовой}
-[enhancedSuspension_wheeled/long_special]::{Этот вид оборудования может называться по-разному: «Усиленные торсионы», «Усиленные рессоры» и так далее. Увеличение грузоподъёмности полезно для машин в базовой комплектации, у которых ещё не исследована ходовая, но исследованы другие приоритетные для установки модули.}
-[enhancedSuspension_wheeled/name]::{Укреплённое шасси}
-[enhancedSuspension_wheeled/short_special]::{Увеличивает прочность ходовой}
-[enhancedTorsions1t/name]::{Усиленные торсионы 1 т класса}
-[enhancedTorsions3t/name]::{Усиленные торсионы 3 т класса}
-[enhancedTorsions5t/name]::{Усиленные торсионы 5+ т класса}
-[enhancedVertical_elastic_elements/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedVertical_elastic_elements/name]::{Усиленные вертикальные рессоры}
-[enhancedVertical_springs/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedVertical_springs/name]::{Усиленные вертикальные пружины 1-го класса}
-[enhancedVertical_springs_class2/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedVertical_springs_class2/name]::{Усил. вертикальные пружины 2-го класса}
-[enhancedVertical_springs_class3/descr]::{{colorTagOpen}+10%{colorTagClose} к грузоподъёмности ходовой
-{colorTagOpen}+20%{colorTagClose} к прочности ходовой
-{colorTagOpen}-50%{colorTagClose} от урона, передаваемого корпусу через ходовую при падении}
-[enhancedVertical_springs_class3/name]::{Усил. вертикальные пружины 3-го класса}
-[filterCyclone/descr]::{{colorTagOpen}+50%{colorTagClose} к прочности двигателя}
-[filterCyclone/long_special]::{Фильтр доступен только для техники СССР. Предполагается для использования на машинах, которым часто повреждают двигатель. Однако помните, что лучшая защита двигателя — не подставлять корму (а двигатель чаще всего именно в корме) под выстрелы противника.}
-[filterCyclone/name]::{Фильтр «Циклон»}
-[filterCyclone/short_special]::{Увеличивает защищённость двигателя}
+[enhancedTorsions1t/name]::{Усиленные торсионы (класс 1 т)}
+[enhancedTorsions3t/name]::{Усиленные торсионы (класс 3 т)}
+[enhancedTorsions5t/name]::{Усиленные торсионы (класс 5+ т)}
+[extraHealthReserve/additional_descr]::{Полностью восстанавливает прочность ходовой после ремонта.}
+[extraHealthReserve/effect/chassisRestoration]::{Восстанавливает ходовую после ремонта}
+[extraHealthReserve/long_special]::{Увеличивает прочность машины, грузоподъёмность, скорость ремонта ходовой, а также уменьшает получаемый корпусом урон от падения (в случае падения на ходовую). Также позволяет полностью восстановить прочность ходовой после ремонта. Снижает шанс «потери» гусеницы при получении ей урона и позволяет дольше оставаться на ходу.}
+[extraHealthReserve/name]::{Улучшенная закалка}
+[extraHealthReserve/short_special]::{Увеличивает прочность машины и грузоподъёмность, защищает ходовую}
+[extraHealthReserve_tier1/name]::{Улучшенная закалка (Класс 1)}
+[extraHealthReserve_tier2/name]::{Улучшенная закалка (Класс 2)}
+[extraHealthReserve_tier3/name]::{Улучшенная закалка (Класс 3)}
 [fireFightingBattleBooster/action/boost]::{Добавляет к текущему уровню умения «Пожаротушение» дополнительные 50%}
 [fireFightingBattleBooster/action/perk]::{Даёт 100% умение «Пожаротушение» всему экипажу}
 [fireFightingBattleBooster/long_special]::{Умение «Пожаротушение» ускоряет тушение пожара в собственной машине. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.}
 [fireFightingBattleBooster/name]::{Искусство сбивать пламя}
 [fireFightingBattleBooster/short_special]::{Даёт умение «Пожаротушение» или усиливает его}
-[gasoline100/always]::{+5% к мощности двигателя и к скорости вращения башни. Расходуется за один бой.}
+[gasoline100/always]::{%(vehicleEnginePower)s к мощности двигателя и к скорости вращения башни. Расходуется за один бой.}
 [gasoline100/descr]::{{colorTagOpen}+5%{colorTagClose} к мощности двигателя и к скорости вращения башни.}
 [gasoline100/long_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя и скорости вращения башни на один бой. Расходуется за один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит для техники с бензиновыми двигателями.}
 [gasoline100/name]::{100-октановый бензин}
 [gasoline100/onUse]::{?empty?}
 [gasoline100/restriction]::{Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Италии, Польши.}
 [gasoline100/short_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя и к скорости вращения башни}
-[gasoline105/always]::{+10% к мощности двигателя и к скорости вращения башни. Расходуется за один бой.}
+[gasoline105/always]::{%(vehicleEnginePower)s к мощности двигателя и к скорости вращения башни. Расходуется за один бой.}
 [gasoline105/descr]::{{colorTagOpen}+10%{colorTagClose} к мощности двигателя и к скорости вращения башни.}
 [gasoline105/long_special]::{Добавляет {colorTagOpen}10%{colorTagClose} к мощности двигателя и скорости вращения башни на один бой. Расходуется за один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит для техники с бензиновыми двигателями.}
 [gasoline105/name]::{105-октановый бензин}
 [gasoline105/onUse]::{?empty?}
 [gasoline105/restriction]::{Только для бензиновых двигателей Германии, США, Великобритании, Франции, Чехословакии, Швеции, Италии, Польши.}
 [gasoline105/short_special]::{Добавляет {colorTagOpen}10%{colorTagClose} к мощности двигателя и к скорости вращения башни}
-[grousers/descr]::{{colorTagOpen}+10%{colorTagClose} к проходимости по слабым грунтам,
-{colorTagOpen}+5%{colorTagClose} к проходимости по средним грунтам}
-[grousers/long_special]::{Специализированный вид оборудования; доступен лишь для некоторых, не самых распространённых немецких и советских машин. В связке с умением «Король бездорожья», изученным у мехвода, даёт ощутимую прибавку к подвижности по болотам, песку, снегу.}
+[grousers/long_special]::{Увеличивает скорость поворота машины, а также сохранение набранной скорости при пересечении всех типов поверхности. Эффект больше заметен на средних и вязких грунтах. Работает эффективнее с умениями «Виртуоз» и «Король бездорожья».}
 [grousers/name]::{Дополнительные грунтозацепы}
-[grousers/short_special]::{Улучшает проходимость по вязким грунтам}
+[grousers/short_special]::{Увеличивает скорость поворота машины, улучшает набор скорости}
+[grousers_tier1/name]::{Дополнительные грунтозацепы (Класс 1)}
+[grousers_tier2/name]::{Дополнительные грунтозацепы (Класс 2)}
+[grousers_tier3/name]::{Дополнительные грунтозацепы (Класс 3)}
 [handExtinguishers/always]::{?empty?}
 [handExtinguishers/descr]::{Тушение пожара в собственной машине.}
 [handExtinguishers/long_special]::{Позволяет потушить возгорание в собственной машине. Требует ручной активации. Подходит для всех типов техники любой нации. Списывается по окончании боя, если был применён.}
@@ -231,32 +199,72 @@ Content-Transfer-Encoding: 8bit
 [handExtinguishers/onUse]::{Тушение пожара в собственной машине. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.}
 [handExtinguishers/restriction]::{?empty?}
 [handExtinguishers/short_special]::{Тушит пожар}
-[hotCoffee/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[healPoint/descr]::{Создаёт область вокруг машины игрока, находясь в которой техника игрока и его совзводных восстанавливает определённый процент прочности каждую секунду.}
+[healPoint/longDescr]::{Создаёт область вокруг машины игрока, находясь в которой техника игрока и его совзводных восстанавливает определённый процент прочности каждую секунду в течение %(duration)s секунд.}
+[healPoint/name]::{Зона восстановления}
+[healPoint/shortDescr]::{Создаёт область вокруг машины игрока, находясь в которой техника игрока и его совзводных восстанавливает определённый процент прочности каждую секунду в течение %(duration)s секунд.}
+[hotCoffee/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [hotCoffee/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [hotCoffee/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для французской техники.}
 [hotCoffee/name]::{Крепкий кофе}
 [hotCoffee/onUse]::{?empty?}
 [hotCoffee/restriction]::{Только для техники Франции.}
 [hotCoffee/short_special]::{Повышает эффективность французских экипажей}
-[improvedVentilation/descr]::{{colorTagOpen}+5%{colorTagClose} ко всем умениям всего экипажа}
+[improvedConfiguration/additional_descr]::{По одному разу за бой предотвращает взрыв боеукладки, возгорание баков и выведение двигателя из строя, если эти модули потеряли все очки прочности.}
+[improvedConfiguration/battleStatus/ammoBay/ready]::{Боеукладка защищена от подрыва}
+[improvedConfiguration/battleStatus/ammoBay/used]::{Подрыв боеукладки предотвращён}
+[improvedConfiguration/battleStatus/engine/ready]::{Двигатель защищён}
+[improvedConfiguration/battleStatus/engine/used]::{Выведение двигателя из строя предотвращено}
+[improvedConfiguration/battleStatus/fuelTank/ready]::{Баки защищены от возгорания}
+[improvedConfiguration/battleStatus/fuelTank/used]::{Возгорание баков предотвращено}
+[improvedConfiguration/battle_descr]::{По одному разу за бой предотвращает взрыв боеукладки, возгорание баков и выведение двигателя из строя, если эти модули потеряли все очки прочности.}
+[improvedConfiguration/effect/ammoBayFuelEngineRestoration]::{Предотвращает взрыв боеукладки, возгорание баков и выведение двигателя из строя}
+[improvedConfiguration/long_special]::{Ускоряет ремонт. Увеличивает прочность боеукладки, баков и двигателя. Уменьшает штраф к скорости заряжания и потерю мощности при повреждении соответствующих модулей. Уменьшает шанс возгорания двигателя. Также один раз за бой предотвращает взрыв боеукладки, возгорание баков и выведение двигателя из строя, если они потеряли все очки прочности. Работает эффективнее с навыками «Ремонт», «Бесконтактная боеукладка», «Чистота и порядок».}
+[improvedConfiguration/name]::{Изменённая компоновка}
+[improvedConfiguration/short_special]::{Ускоряет ремонт, защищает боеукладку, баки и двигатель}
+[improvedConfigurationBattleBooster/descr]::{%s к скорости ремонта при установленном оборудовании «Изменённая компоновка», «Усовершенствованная компоновка» или «Трофейные технологии защиты».}
+[improvedConfigurationBattleBooster/gain/deluxe]::{+10%}
+[improvedConfigurationBattleBooster/gain/simple]::{+10%}
+[improvedConfigurationBattleBooster/long_special]::{Расходуется за один бой. Усиливает эффект оборудования «Изменённая компоновка», «Усовершенствованная компоновка» или «Трофейные технологии защиты». Для установки инструкции данное оборудование должно быть на технике.}
+[improvedConfigurationBattleBooster/name]::{Предбоевое ТО}
+[improvedConfigurationBattleBooster/short_special]::{Увеличивает эффект от изменённой компоновки}
+[improvedConfiguration_tier1/name]::{Изменённая компоновка (Класс 1)}
+[improvedConfiguration_tier2/name]::{Изменённая компоновка (Класс 2)}
+[improvedRadioCommunication/long_special]::{Позволяет дольше передавать информацию о позиции противника после его исчезновения из прямой видимости. Уменьшает время видимости вашей машины для противника. Работает эффективнее с навыками «Злопамятный» и «Из последних сил».}
+[improvedRadioCommunication/name]::{Улучшенное радиооборудование}
+[improvedRadioCommunication/short_special]::{Увеличивает время отображения противника и уменьшает время вашей видимости}
+[improvedRotationMechanism/long_special]::{Увеличивает скорость поворота корпуса и башни для машин с башней или скорость перевода орудия для машин с неподвижной рубкой. Уменьшает разброс орудия при движении и поворотах корпуса и башни машины. Работает эффективнее с умением «Виртуоз».}
+[improvedRotationMechanism/name]::{Улучшенные механизмы поворота}
+[improvedRotationMechanism/short_special]::{Улучшает скорость поворота и уменьшает разброс орудия при движении и поворотах}
+[improvedRotationMechanism_tier1/name]::{Улучшенные механизмы поворота (Класс 1)}
+[improvedRotationMechanism_tier2/name]::{Улучшенные механизмы поворота (Класс 2)}
+[improvedSights/long_special]::{Уменьшение размера круга сведения увеличивает точность как полностью сведённого орудия, так и в процессе сведения, что позволит чаще попадать в цель.}
+[improvedSights/name]::{Улучшенный прицел}
+[improvedSights/short_special]::{Уменьшает разброс орудия}
+[improvedSights_tier1/name]::{Улучшенный прицел (Класс 1)}
+[improvedSights_tier2/name]::{Улучшенный прицел (Класс 2)}
+[improvedSights_tier3/name]::{Улучшенный прицел (Класс 3)}
 [improvedVentilation/long_special]::{Улучшает многие показатели машины: обзор, скорострельность, время сведения, динамические характеристики и так далее. Однако сама прибавка очень мала и будет заметна лишь в связке с навыком «Боевое братство», который изучен у экипажа.}
-[improvedVentilation/short_special]::{{colorTagOpen}+5%{colorTagClose} ко всем умениям экипажа}
-[improvedVentilationBattleBooster/descr]::{%s ко всем умениям всего экипажа при установленном оборудовании «Улучшенная вентиляция» (любого класса) или «Система отвода пороховых газов».}
+[improvedVentilation/name]::{Улучшенная вентиляция}
+[improvedVentilationBattleBooster/descr]::{%s ко всем умениям всего экипажа при установленном оборудовании «Улучшенная вентиляция» (любого класса), «Система отвода пороховых газов» или «Трофейная вентиляция».}
 [improvedVentilationBattleBooster/gain/deluxe]::{+2,5%}
 [improvedVentilationBattleBooster/gain/simple]::{+2,5%}
-[improvedVentilationBattleBooster/long_special]::{Расходуется за один бой. Усиливает эффект оборудования «Улучшенная вентиляция» (любого класса) или «Система отвода пороховых газов». Для установки инструкции данное оборудование должно быть на технике.}
+[improvedVentilationBattleBooster/long_special]::{Расходуется за 1 бой. Усиливает эффект оборудования «Улучшенная вентиляция» (любого класса), «Система отвода пороховых газов» или «Трофейная вентиляция». Для установки инструкции данное оборудование должно быть на технике, иначе инструкция работать не будет.}
 [improvedVentilationBattleBooster/name]::{Продувка воздуховодов}
 [improvedVentilationBattleBooster/short_special]::{Усиливает эффект от вентиляции}
-[improvedVentilation_class1/name]::{Улучшенная вентиляция Класс 1}
-[improvedVentilation_class2/name]::{Улучшенная вентиляция Класс 2}
-[improvedVentilation_class3/name]::{Улучшенная вентиляция Класс 3}
+[improvedVentilation_class1/name]::{Улучшенная вентиляция (Класс 1)}
+[improvedVentilation_class2/name]::{Улучшенная вентиляция (Класс 2)}
+[improvedVentilation_class3/name]::{Улучшенная вентиляция (Класс 3)}
+[improvedVentilation_tier1/name]::{Улучшенная вентиляция (Класс 1)}
+[improvedVentilation_tier2/name]::{Улучшенная вентиляция (Класс 2)}
+[improvedVentilation_tier3/name]::{Улучшенная вентиляция (Класс 3)}
 [inspire/longDescr]::{При использовании воодушевляет экипажи машины игрока и ближайших союзников в определённом радиусе, добавляя бонус в % к основным специальностям каждого члена экипажа.}
 [inspire/name]::{Воодушевление}
 [inspire/shortDescr]::{Бонус к основным специальностям экипажей игрока и союзников}
 [largeCaliberHowitzerRammer/name]::{Гаубичный досылатель крупного калибра}
 [largeCaliberTankRammer/name]::{Орудийный досылатель крупного калибра}
-[largeMedkit/always]::{-5% от времени оглушения
-+15% к защите экипажа от ранений}
+[largeMedkit/always]::{%(crewStunDuration)s от времени оглушения
+%(crewHitChance)s к защите экипажа от ранений}
 [largeMedkit/descr]::{Лечение всех раненых членов экипажа и снятие эффекта оглушения.}
 [largeMedkit/long_special]::{Позволяет вернуть в строй всех раненых членов экипажа за раз и снять эффект оглушения. Также пассивно улучшает защиту экипажа от ранений. Требует ручной активации. Подходит для всех типов техники любой нации.}
 [largeMedkit/name]::{Большая аптечка}
@@ -265,7 +273,7 @@ Content-Transfer-Encoding: 8bit
 [largeMedkit/restriction]::{?empty?}
 [largeMedkit/short_special]::{Лечит всех раненых членов экипажа и снимает оглушение}
 [largeMedkit/stunDisabled/descr]::{Лечение всех раненых членов экипажа.}
-[largeRepairkit/always]::{+10% к скорости ремонта модулей}
+[largeRepairkit/always]::{%(vehicleRepairSpeed)s к скорости ремонта модулей}
 [largeRepairkit/descr]::{Починка всех повреждённых модулей.}
 [largeRepairkit/long_special]::{Позволяет восстановить все повреждённые модули за раз. Также пассивно увеличивает скорость ремонта. Требует ручной активации. Подходит для всех типов техники любой нации.}
 [largeRepairkit/name]::{Большой ремкомплект}
@@ -277,7 +285,7 @@ Content-Transfer-Encoding: 8bit
 [lastEffortBattleBooster/long_special]::{Навык «Из последних сил» позволяет передавать разведданные в течение дополнительных 2 секунд после уничтожения машины. Расходуется за 1 бой. Если навык изучен, то установленная предбоевая инструкция добавляет к времени его действия 1 секунду (3 секунды суммарного эффекта). При отсутствии соответствующего навыка — полностью его заменяет (стандартные 2 секунды).}
 [lastEffortBattleBooster/name]::{Долг превыше всего}
 [lastEffortBattleBooster/short_special]::{Даёт навык «Из последних сил» или усиливает его}
-[lendLeaseOil/always]::{+5% к мощности двигателя. Расходуется за один бой.}
+[lendLeaseOil/always]::{%(vehicleEnginePower)s к мощности двигателя. Расходуется за один бой.}
 [lendLeaseOil/descr]::{{colorTagOpen}+5%{colorTagClose} к мощности двигателя.}
 [lendLeaseOil/long_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя на один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для советской техники.}
 [lendLeaseOil/name]::{Ленд-лизовское масло}
@@ -286,6 +294,10 @@ Content-Transfer-Encoding: 8bit
 [lendLeaseOil/short_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя}
 [mediumCaliberHowitzerRammer/name]::{Гаубичный досылатель среднего калибра}
 [mediumCaliberTankRammer/name]::{Орудийный досылатель среднего калибра}
+[nitro/descr]::{Временно увеличивает мощность двигателя, максимальную скорость и скорость поворота вашей машины.}
+[nitro/long_special]::{Улучшает динамические ТТХ на %(duration)s секунд.}
+[nitro/name]::{Турбонагнетатель}
+[nitro/short_special]::{Улучшает динамические ТТХ на %(duration)s секунд.}
 [passive_engineering/longDescr]::{Вызывает спецотряд, который ускоряет захват ключевых точек на карте или быстрее возвращает контроль над ними. Также ускоряет переподготовку зон обслуживания и увеличивает скорость их работы.}
 [passive_engineering/longFilterAlert]::{Данный боевой резерв нельзя использовать на САУ.}
 [passive_engineering/name]::{Диверсионный отряд}
@@ -296,77 +308,77 @@ Content-Transfer-Encoding: 8bit
 [pedantBattleBooster/long_special]::{Навык «Бесконтактная боеукладка» добавляет прочности штатной боеукладке. Расходуется за один бой. Если навык изучен, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего навыка — полностью его заменяет.}
 [pedantBattleBooster/name]::{Разложить снаряды}
 [pedantBattleBooster/short_special]::{Даёт навык «Бесконтактная боеукладка» или усиливает его}
-[qualityOil/always]::{+5% к мощности двигателя. Расходуется за один бой.}
+[qualityOil/always]::{%(vehicleEnginePower)s к мощности двигателя. Расходуется за один бой.}
 [qualityOil/descr]::{{colorTagOpen}+5%{colorTagClose} к мощности двигателя.}
 [qualityOil/long_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя на один бой. Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для техники Китая и Японии.}
 [qualityOil/name]::{Качественное масло}
 [qualityOil/onUse]::{?empty?}
 [qualityOil/restriction]::{Только для техники Китая и Японии.}
 [qualityOil/short_special]::{Добавляет {colorTagOpen}5%{colorTagClose} к мощности двигателя}
-[rammer/descr]::{{colorTagOpen}-10%{colorTagClose} от времени заряжания}
+[radar/descr]::{Позволяет обнаружить противника и добычу на миникарте.}
+[radar/name]::{Радар}
 [rammer/long_special]::{Скорострельность является важнейшей боевой характеристикой. Этот вид оборудования является одним из самых полезных в игре и рекомендован к установке на любую технику. На большую часть машин с магазинной системой заряжания досылатель установить нельзя.}
-[rammer/short_special]::{{colorTagOpen}-10%{colorTagClose} от времени заряжания}
 [rammerBattleBooster/descr]::{%s от времени заряжания орудия при установленном оборудовании «Досылатель» (любого типа орудия и калибра), «Экспериментальная система заряжания» или «Трофейный досылатель».}
 [rammerBattleBooster/gain/deluxe]::{-2,5%}
 [rammerBattleBooster/gain/simple]::{-2,5%}
-[rammerBattleBooster/long_special]::{Расходуется за 1 бой. Усиливает эффект оборудования «Досылатель» (любого типа орудия и калибра), «Трофейный досылатель» или «Экспериментальная система заряжания». Для установки инструкции данное оборудование должно быть на технике.}
+[rammerBattleBooster/long_special]::{Расходуется за 1 бой. Усиливает эффект оборудования «Досылатель» (любого типа орудия и калибра), «Трофейный досылатель» или «Экспериментальная система заряжания». Для установки инструкции данное оборудование должно быть на технике, иначе инструкция работать не будет.}
 [rammerBattleBooster/name]::{Рациональная боеукладка}
 [rammerBattleBooster/short_special]::{Усиливает эффект от досылателя}
 [rancorousBattleBooster/action/boost]::{Увеличивает время, позволяющее наводчику в зоне видимости наблюдать машину противника в прицеле дополнительные 2 с к базовому времени действия навыка}
 [rancorousBattleBooster/action/perk]::{Даёт 100% навык «Злопамятный»}
-[rancorousBattleBooster/long_special]::{Навык «Злопамятный» позволяет наблюдать машину противника дополнительные 2 секунды после её исчезновения с радаров. Расходуется за один бой. Если навык изучен, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего навыка — полностью его заменяет.}
+[rancorousBattleBooster/long_special]::{Навык «Злопамятный» позволяет наводчику в зоне видимости наблюдать машину противника в прицеле в течение дополнительных двух секунд. Расходуется за 1 бой. Если навык изучен, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего навыка — полностью его заменяет.}
 [rancorousBattleBooster/name]::{Концентрация на цели}
 [rancorousBattleBooster/short_special]::{Даёт навык «Злопамятный» или усиливает его}
-[ration/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[ration/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [ration/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [ration/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для советской техники.}
 [ration/name]::{Доппаёк}
 [ration/onUse]::{?empty?}
 [ration/restriction]::{Только для техники СССР.}
 [ration/short_special]::{Повышает эффективность советских экипажей}
-[ration_china/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[ration_china/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [ration_china/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [ration_china/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для китайской техники.}
 [ration_china/name]::{Улучшенный рацион}
 [ration_china/onUse]::{?empty?}
 [ration_china/restriction]::{Только для техники Китая.}
 [ration_china/short_special]::{Повышает эффективность китайских экипажей}
-[ration_czech/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[ration_czech/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [ration_czech/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [ration_czech/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для чехословацкой техники.}
 [ration_czech/name]::{Бухты}
 [ration_czech/onUse]::{?empty?}
 [ration_czech/restriction]::{Только для техники Чехословакии.}
 [ration_czech/short_special]::{Повышает эффективность чехословацких экипажей}
-[ration_italy/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[ration_italy/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [ration_italy/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [ration_italy/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для итальянской техники.}
 [ration_italy/name]::{Спагетти с мясным соусом}
 [ration_italy/onUse]::{?empty?}
 [ration_italy/restriction]::{Только для техники Италии.}
 [ration_italy/short_special]::{Повышает эффективность итальянских экипажей}
-[ration_japan/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[ration_japan/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [ration_japan/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [ration_japan/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для японской техники.}
 [ration_japan/name]::{Онигири}
 [ration_japan/onUse]::{?empty?}
 [ration_japan/restriction]::{Только для техники Японии.}
 [ration_japan/short_special]::{Повышает эффективность японских экипажей}
-[ration_poland/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[ration_poland/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [ration_poland/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [ration_poland/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для польской техники.}
 [ration_poland/name]::{Хлеб со смальцем}
 [ration_poland/onUse]::{?empty?}
 [ration_poland/restriction]::{Только для техники Польши.}
 [ration_poland/short_special]::{Повышает эффективность польских экипажей}
-[ration_sweden/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[ration_sweden/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [ration_sweden/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [ration_sweden/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для шведской техники.}
 [ration_sweden/name]::{Кофе с выпечкой}
 [ration_sweden/onUse]::{?empty?}
 [ration_sweden/restriction]::{Только для техники Швеции.}
 [ration_sweden/short_special]::{Повышает эффективность шведских экипажей}
-[ration_uk/always]::{+10% ко всем навыкам и умениям экипажа. Расходуется за один бой.}
+[ration_uk/always]::{%(crewLevel)s ко всем навыкам и умениям экипажа. Расходуется за один бой.}
 [ration_uk/descr]::{{colorTagOpen}+10%{colorTagClose} ко всем навыкам и умениям экипажа.}
 [ration_uk/long_special]::{Автоматически активируется после начала боя и действует на всём его протяжении. Подходит только для британской техники.}
 [ration_uk/name]::{Пудинг с чаем}
@@ -377,12 +389,20 @@ Content-Transfer-Encoding: 8bit
 [recon/name]::{Самолёт-разведчик}
 [recon/shortDescr]::{Определение позиций техники противника}
 [removedRpmLimiter/always]::{?empty?}
-[removedRpmLimiter/descr]::{Повышает мощность двигателя на {colorTagOpen}10%{colorTagClose}, но повреждает его.}
+[removedRpmLimiter/descr]::{{colorTagOpen}+10%{colorTagClose} к мощности двигателя. Повреждает двигатель при использовании.}
 [removedRpmLimiter/long_special]::{Повышает мощность двигателя на {colorTagOpen}10%{colorTagClose}, но при постоянном использовании повреждает его. Можно включать и отключать многократно в течение боя. Не расходуется. Подходит только для советской и китайской техники.}
-[removedRpmLimiter/name]::{Подкрученный регулятор оборотов двигателя}
-[removedRpmLimiter/onUse]::{Повышает мощность двигателя на 10%, но повреждает его. Используется многократно.}
+[removedRpmLimiter/name]::{Подкрученный регулятор оборотов}
+[removedRpmLimiter/onUse]::{Повышает мощность двигателя на %(vehicleEnginePower)s, но повреждает его. Используется многократно.}
 [removedRpmLimiter/restriction]::{Только для техники СССР и Китая.}
 [removedRpmLimiter/short_special]::{Добавляет {colorTagOpen}10%{colorTagClose} к мощности двигателя, но повреждает его}
+[repairpoint/descr]::{Устанавливает временную статическую область, в которой происходит ремонт всех повреждённых модулей, снятие оглушения и восстановление прочности.}
+[repairpoint/long_special]::{На %(duration)s секунд устанавливает статическую область, в которой происходит ремонт всех повреждённых модулей, снятие оглушения и восстановление прочности.}
+[repairpoint/name]::{Ремзона}
+[repairpoint/short_special]::{Устанавливает временную статическую область, в которой происходит ремонт всех повреждённых модулей, снятие оглушения и восстановление прочности.}
+[selfBuff/descr]::{Временно снижает разброс, улучшает стабилизацию орудия и увеличивает скорость его сведения.}
+[selfBuff/longDescr]::{На %(duration)s секунд снижает разброс, улучшает стабилизацию и скорострельность орудия, а также увеличивает скорость его сведения.}
+[selfBuff/name]::{Предельная концентрация}
+[selfBuff/shortDescr]::{На %(duration)s секунд снижает разброс, улучшает стабилизацию и скорострельность орудия, а также увеличивает скорость его сведения.}
 [sixthSenseBattleBooster/action/boost]::{Уменьшает время срабатывания навыка «Шестое чувство» на 1 с}
 [sixthSenseBattleBooster/action/perk]::{Даёт 100% навык «Шестое чувство»}
 [sixthSenseBattleBooster/long_special]::{Навык «Шестое чувство» позволяет определить, обнаружена ли ваша машина противником. Расходуется за один бой. Если навык изучен, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего навыка — полностью его заменяет.}
@@ -417,46 +437,45 @@ Content-Transfer-Encoding: 8bit
 [smoothTurretBattleBooster/long_special]::{Умение «Плавный поворот башни» уменьшает разброс орудия при повороте башни. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.}
 [smoothTurretBattleBooster/name]::{Без резких движений}
 [smoothTurretBattleBooster/short_special]::{Даёт умение «Плавный поворот башни» или усиливает его}
-[stereoscope/descr]::{{colorTagOpen}+25%{colorTagClose} к радиусу обзора из неподвижной машины,
-но не более 445 м}
-[stereoscope/long_special]::{Хороший обзор — важное преимущество в игре. Этот вид оборудования полезен на всех видах техники, кроме САУ и машин ближнего боя. Наибольшую пользу от стереотрубы получат «засадные бойцы»: техника с низким силуэтом и точными орудиями. Активируется на неподвижной машине.}
+[spawn_kamikaze/descr]::{Призывает самоходную мину, которая будет преследовать ближайшего противника для нанесения урона собственным подрывом. Брандер можно уничтожить выстрелами.}
+[spawn_kamikaze/longDescr]::{Призывает самоходную мину, которая %(duration)s секунд будет преследовать ближайшего противника для нанесения урона собственным подрывом. Брандер можно уничтожить выстрелами.}
+[spawn_kamikaze/name]::{Брандер}
+[spawn_kamikaze/shortDescr]::{Призывает самоходную мину, которая будет преследовать ближайшего противника для нанесения урона собственным подрывом. Брандер можно уничтожить выстрелами.}
+[stereoscope/battle_descr]::{Увеличивает обзор неподвижной машины через 3 с после остановки, но не более 445 метров}
+[stereoscope/long_special]::{Хороший обзор — важное преимущество в игре. Этот вид оборудования полезен для засадных ПТ-САУ с низким силуэтом и точными орудиями. Активируется на неподвижной машине через 3 секунды после остановки.}
 [stereoscope/name]::{Стереотруба}
-[stereoscope/short_special]::{{colorTagOpen}+25%{colorTagClose} к обзору из неподвижной машины}
-[toolbox/descr]::{{colorTagOpen}+25%{colorTagClose} к скорости ремонта}
-[toolbox/long_special]::{Высокая скорость ремонта критически важна для выживания любой машины. Обездвиженный танк или ПТ-САУ является лёгкой мишенью для противника. Ящик с инструментами — хороший выбор для ТТ, СТ и ПТ-САУ, экипажи которых изучают ремонт.}
-[toolbox/name]::{Ящик с инструментами}
-[toolbox/short_special]::{{colorTagOpen}+25%{colorTagClose} к скорости ремонта}
-[toolboxBattleBooster/descr]::{%s к скорости ремонта при установленном оборудовании «Ящик с инструментами» или «Расширенный набор ЗИП».}
-[toolboxBattleBooster/gain/deluxe]::{+10%}
-[toolboxBattleBooster/gain/simple]::{+10%}
-[toolboxBattleBooster/long_special]::{Расходуется за один бой. Усиливает эффект оборудования «Ящик с инструментами» или «Расширенный набор ЗИП». Для установки инструкции данное оборудование должно быть на технике.}
-[toolboxBattleBooster/name]::{Предбоевое ТО}
-[toolboxBattleBooster/short_special]::{Усиливает эффект от ящика с инструментами}
-[trophyBasicAimDrives/descr]::{{colorTagOpen}+12,5%{colorTagClose} к скорости сведения}
+[stereoscope_tier1/name]::{Стереотруба (Класс 1)}
+[stereoscope_tier2/name]::{Стереотруба (Класс 2)}
+[stereoscope_tier3/name]::{Стереотруба (Класс 3)}
+[tankRammer/name]::{Орудийный досылатель}
+[tankRammer_tier1/name]::{Орудийный досылатель (Класс 1)}
+[tankRammer_tier2/name]::{Орудийный досылатель (Класс 2)}
+[trappoint/descr]::{Создаёт область, в зоне действия которой снижаются все динамические ТТХ техники противника.}
+[trappoint/long_special]::{На %(duration)s секунд создаёт область, в которой динамические ТТХ техники противника снижаются на %(power)s%%.}
+[trappoint/name]::{Капкан}
+[trappoint/short_special]::{На %(duration)s секунд создаёт область, в которой динамические ТТХ техники противника снижаются на %(power)s%%.}
 [trophyBasicAimDrives/name]::{Трофейные приводы наводки}
-[trophyBasicAimingStabilizer/descr]::{{colorTagOpen}-25%{colorTagClose} от разброса при движении и повороте башни}
 [trophyBasicAimingStabilizer/name]::{Трофейный стабилизатор}
-[trophyBasicCoatedOptics/descr]::{{colorTagOpen}+12,5%{colorTagClose} к радиусу обзора, но не более 445 м}
 [trophyBasicCoatedOptics/name]::{Трофейная оптика}
-[trophyBasicImprovedVentilation/descr]::{{colorTagOpen}+7,5%{colorTagClose} ко всем умениям всего экипажа}
+[trophyBasicImprovedConfiguration/name]::{Трофейные технологии защиты}
 [trophyBasicImprovedVentilation/name]::{Трофейная вентиляция}
-[trophyBasicTankRammer/descr]::{{colorTagOpen}-12,5%{colorTagClose} от скорости заряжания}
 [trophyBasicTankRammer/name]::{Трофейный досылатель}
-[trophyUpgradedAimDrives/descr]::{{colorTagOpen}+12,5%{colorTagClose} к скорости сведения}
+[trophyOptics/descr]::{{colorTagOpen}+10%{colorTagClose} {arrow} к обзору, но не более 445 м}
+[trophyOptics/name]::{Трофейная оптика}
 [trophyUpgradedAimDrives/name]::{Трофейные приводы наводки}
 [trophyUpgradedAimingStabilizer/name]::{Трофейный стабилизатор}
 [trophyUpgradedCoatedOptics/name]::{Трофейная оптика}
-[trophyUpgradedImprovedVentilation/descr]::{{colorTagOpen}+7,5%{colorTagClose} ко всем умениям всего экипажа}
+[trophyUpgradedImprovedConfiguration/name]::{Трофейные технологии защиты}
 [trophyUpgradedImprovedVentilation/name]::{Трофейная вентиляция}
-[trophyUpgradedTankRammer/descr]::{{colorTagOpen}-12,5%{colorTagClose} от скорости заряжания}
 [trophyUpgradedTankRammer/name]::{Трофейный досылатель}
+[turbocharger/long_special]::{Увеличивает мощность двигателя, позволяя быстрее набирать скорость, маневрировать и преодолевать подъёмы. Увеличивает максимальную скорость машины вперёд и назад, что позволяет быстрее занимать позицию и избегать ответного огня.}
+[turbocharger/name]::{Турбонагнетатель}
+[turbocharger/short_special]::{Увеличивает мощность двигателя и максимальную скорость}
+[turbocharger_tier1/name]::{Турбонагнетатель (Класс 1)}
+[turbocharger_tier2/name]::{Турбонагнетатель (Класс 2)}
+[turbocharger_tier3/name]::{Турбонагнетатель (Класс 3)}
 [virtuosoBattleBooster/action/boost]::{Удваивает эффект от умения «Виртуоз»}
 [virtuosoBattleBooster/action/perk]::{Даёт 100% умение «Виртуоз»}
 [virtuosoBattleBooster/long_special]::{Умение «Виртуоз» ускоряет поворот машины как на месте, так и в движении. Расходуется за один бой. Если умение изучено, то установленная предбоевая инструкция усиливает его действие. При отсутствии соответствующего умения — полностью его заменяет.}
 [virtuosoBattleBooster/name]::{Полоса препятствий}
 [virtuosoBattleBooster/short_special]::{Даёт умение «Виртуоз» или усиливает его}
-[wetCombatPack/descr]::{{colorTagOpen}+50%{colorTagClose} к прочности боеукладки}
-[wetCombatPack/long_special]::{Данный вид оборудования пригодится на машинах, боеукладка которых имеет невысокую прочность и поэтому склонна к детонации. Например, к ним относятся ИС-3, Type 59, Т-44, реже — T110E5 и ИС-7. На остальной технике боеукладка взрывается в единичных случаях.}
-[wetCombatPack/short_special]::{{colorTagOpen}+50%{colorTagClose} к прочности боеукладки}
-[wetCombatPack_class1/name]::{«Мокрая» боеукладка Kласс 1}
-[wetCombatPack_class2/name]::{«Мокрая» боеукладка Kласс 2}

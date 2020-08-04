@@ -38,6 +38,7 @@
          <Arg>INT32</Arg>
          <Arg>UINT16</Arg>
          <Arg>UINT16</Arg>
+         <Arg>UINT8</Arg>
          <Arg>INT16</Arg>
          <Arg>INT16</Arg>
       </avatarClientProxy_updateVehicleAmmo>
@@ -56,7 +57,7 @@
       <avatarClientProxy_updateVehicleOptionalDeviceStatus>
          <Arg>OBJECT_ID</Arg>
          <Arg>UINT8</Arg>
-         <Arg>BOOL</Arg>
+         <Arg>UINT16</Arg>
       </avatarClientProxy_updateVehicleOptionalDeviceStatus>
       <avatarClientProxy_updateVehicleMiscStatus>
          <Arg>OBJECT_ID</Arg>
@@ -166,5 +167,11 @@
          <Arg>STRING</Arg>
          <Arg>PYTHON</Arg>
       </avatarClientProxy_updateQuestProgress>
+      <avatarClientProxy_onLootAction>
+         <Arg>OBJECT_ID</Arg>
+         <Arg>UINT8</Arg>
+         <Arg>UINT8</Arg>
+         <Arg>FLOAT32</Arg>
+      </avatarClientProxy_onLootAction>
    </BaseMethods>
 </AvatarClientProxy.def>

@@ -15,7 +15,7 @@
          </runtime-effects>
          <gui-items>
             <gui-item>
-               AmmunitionPanel
+               HangarPanelOptDevice
                <on-scene-effects>
                   <activate>AmmunitionPanelOnScene</activate>
                </on-scene-effects>
@@ -37,38 +37,39 @@
    <has-id>
       <hint>
          AmmunitionPanelHint
-         <item-id>AmmunitionPanel</item-id>
+         <item-id>HangarPanelOptDevice</item-id>
          <text>#quests:action/chain/hint/removalCost</text>
          <arrow>
             <direction>T</direction>
             <loop>True</loop>
          </arrow>
          <padding>
-            <left>258</left>
-            <top>72</top>
-            <right>389</right>
-            <bottom>4</bottom>
+            <left>0</left>
+            <top>0</top>
+            <right>0</right>
+            <bottom>0</bottom>
          </padding>
          <actions>
             <click>
-               AmmunitionPanel
+               HangarPanelOptDevice
                <effects>
                   <refuse-training></refuse-training>
                </effects>
             </click>
             <click-outside>
-               AmmunitionPanel
+               HangarPanelOptDevice
                <effects>
                   <refuse-training></refuse-training>
                </effects>
             </click-outside>
             <esc>
-               AmmunitionPanel
+               HangarPanelOptDevice
                <effects>
                   <refuse-training></refuse-training>
                </effects>
             </esc>
          </actions>
+         <hide-immediately>True</hide-immediately>
       </hint>
    </has-id>
    <triggers></triggers>

@@ -18,22 +18,6 @@
                   <checkpoint-not-reached>ModuleBoughtCheckpoint</checkpoint-not-reached>
                </condition>
             </request-exclusive-hint>
-            <effects-group>
-               <condition>
-                  <checkpoint-reached>ModuleBoughtCheckpoint</checkpoint-reached>
-               </condition>
-               <effects>
-                  <play-sound>
-                     bc_new_ui_element
-                     <event>ANIMATION_STARTED</event>
-                  </play-sound>
-                  <play-animation>
-                     HangarModuleEngine
-                     <type>clip</type>
-                     <wait_for_finish>True</wait_for_finish>
-                  </play-animation>
-               </effects>
-            </effects-group>
          </runtime-effects>
          <gui-items></gui-items>
       </scene>
@@ -259,26 +243,6 @@
                   <checkpoint-not-reached>EndCheckpoint</checkpoint-not-reached>
                </condition>
             </show-window>
-            <set-visible>
-               HangarModuleGun
-               <val>True</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleTurret
-               <val>True</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleEngine
-               <val>True</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleChassis
-               <val>True</val>
-            </set-visible>
-            <set-visible>
-               HangarModuleRadio
-               <val>True</val>
-            </set-visible>
             <update-layout>AmmunitionPanel</update-layout>
          </effects>
       </checkpoint>
@@ -373,7 +337,7 @@
                   <label>#bootcamp:message/credits/label</label>
                   <text>#bootcamp:message/credits/text</text>
                   <subtitle>SubtitleTankImprovement</subtitle>
-                  <voiceover>vo_bc_hangar_tank_improvement</voiceover>
+                  <voiceover>bc_info_line_universal</voiceover>
                   <bottom_renderer>rewards</bottom_renderer>
                   <bottom>
                      <data>
@@ -404,7 +368,7 @@
                   <label>#bootcamp:message/experience/label</label>
                   <text>#bootcamp:message/experience/text</text>
                   <subtitle>SubtitleExperience</subtitle>
-                  <voiceover>vo_bc_hangar_experience</voiceover>
+                  <voiceover>bc_info_line_universal</voiceover>
                   <bottom_renderer>rewards</bottom_renderer>
                   <bottom>
                      <data>

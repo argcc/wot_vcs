@@ -12,6 +12,8 @@ Content-Transfer-Encoding: 8bit
 [attackReason/artilleryProtection]::{Артобстрел}
 [attackReason/artillery_sector]::{Артобстрел}
 [attackReason/bombers]::{Авиаудар}
+[battleCommunication/hint/description]::{, чтобы отметить позицию или установить маркер}
+[battleCommunication/hint/press]::{Нажмите}
 [battleEndWarning/text]::{До конца боя:}
 [battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body]::{Текстовые и голосовые сообщения от данного игрока будут скрыты до конца текущего боя.}
 [battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header]::{Заблокировать сообщения данного игрока}
@@ -25,12 +27,12 @@ Content-Transfer-Encoding: 8bit
 [battleProgress/hint/press]::{Нажмите}
 [burnout/hint/engineDamageWarning]::{ОПАСНОСТЬ ПОЛОМКИ}
 [burnout/hint/engineDamaged]::{ПОЛОМКА ДВИГАТЕЛЯ}
-[chat_example/attack]::{В атаку!}
-[chat_example/attack_enemy]::{Атакую <Имя противника>!}
+[chat_example/attack_enemy]::{Поддержите огнём по <Имя противника>!}
+[chat_example/attack_enemy_with_SPG]::{Атакую <Имя противника>!}
+[chat_example/attention_to_base_atk]::{Захватите базу!}
+[chat_example/attention_to_base_def]::{Защищайте базу!}
 [chat_example/attention_to_cell]::{Внимание на <Квадрат на миникарте>!}
 [chat_example/attention_to_position]::{Внимание на позицию!}
-[chat_example/back_to_base]::{Защищайте базу!}
-[chat_example/follow_me]::{<Имя союзника>, за мной!}
 [chat_example/global_msg/atk/focus_hq]::{Уничтожьте цели}
 [chat_example/global_msg/atk/save_tanks]::{Не теряйте свою технику!}
 [chat_example/global_msg/atk/time]::{Захватите зону}
@@ -40,30 +42,34 @@ Content-Transfer-Encoding: 8bit
 [chat_example/global_msg/lane/center]::{В зоне требуется подкрепление}
 [chat_example/global_msg/lane/east]::{В зоне требуется подкрепление}
 [chat_example/global_msg/lane/west]::{В зоне требуется подкрепление}
+[chat_example/going_there]::{Направляюсь сюда!}
 [chat_example/help_me]::{Нужна помощь!}
 [chat_example/help_me_ex]::{<Имя союзника>, помоги!}
-[chat_example/negative]::{Никак нет!}
 [chat_example/positive]::{Так точно!}
 [chat_example/reloading_cassette]::{К выстрелу готов через: <Время перезарядки> с, снарядов в кассете: <Количество снарядов> шт.}
 [chat_example/reloading_gun]::{Перезаряжаюсь, ещё <Время перезарядки> c!}
 [chat_example/reloading_ready]::{К выстрелу готов!}
 [chat_example/reloading_ready_cassette]::{К выстрелу готов! До разрядки кассеты осталось снарядов: <Количество снарядов> шт.}
 [chat_example/reloading_unavailable]::{Боекомплект пуст.}
+[chat_example/reply_to_player]::{Принято!}
 [chat_example/spg_aim_area]::{Навожусь на <Квадрат на миникарте>!}
-[chat_example/stop]::{<Имя союзника>, стой!}
-[chat_example/support_me_with_fire]::{Поддержите огнём по <Имя противника>}
+[chat_example/supporting_ally]::{<Имя союзника>, я помогу тебе!}
+[chat_example/thanks]::{<Имя союзника>, спасибо!}
 [chat_example/turn_back]::{<Имя союзника>, назад!}
-[chat_shortcuts/attack]::{В атаку!}
-[chat_shortcuts/attack_enemy]::{К выстрелу готов! Атакую %(target)s!}
-[chat_shortcuts/attack_enemy_reloading]::{Атакую %(target)s! Перезаряжаюсь, ещё %(reloadTime)d c!}
-[chat_shortcuts/attention_to_base_atk]::{Захватите %(strArg1)s}
-[chat_shortcuts/attention_to_base_def]::{Защищайте %(strArg1)s}
+[chat_shortcuts/attack_enemy]::{Поддержите огнём по %(target)s}
+[chat_shortcuts/attack_enemy_with_SPG]::{К выстрелу готов! Атакую %(target)s!}
+[chat_shortcuts/attack_enemy_with_SPG_reloading]::{Атакую %(target)s! Перезаряжаюсь, ещё %(reloadTime)d c!}
+[chat_shortcuts/attacking_base]::{Я буду захватывать базу!}
+[chat_shortcuts/attacking_enemy]::{Атакую %(target)s!}
+[chat_shortcuts/attention_to_base_atk]::{Захватите базу!}
+[chat_shortcuts/attention_to_base_atk_numbered]::{Захватите базу %(strArg1)s!}
+[chat_shortcuts/attention_to_base_def]::{Защищайте базу!}
+[chat_shortcuts/attention_to_base_def_numbered]::{Захватите базу %(strArg1)s!}
 [chat_shortcuts/attention_to_cell]::{Внимание на %(cellName)s!}
-[chat_shortcuts/attention_to_objective_atk]::{Атакуйте цель %(int32Arg1)s}
-[chat_shortcuts/attention_to_objective_def]::{Защищайте цель %(int32Arg1)s}
-[chat_shortcuts/attention_to_position]::{Внимание на позицию!}
-[chat_shortcuts/back_to_base]::{Защищайте базу!}
-[chat_shortcuts/follow_me]::{%(target)s, за мной!}
+[chat_shortcuts/attention_to_objective_atk]::{Уничтожьте цель %(int32Arg1)s!}
+[chat_shortcuts/attention_to_objective_def]::{Защищайте цель %(int32Arg1)s!}
+[chat_shortcuts/attention_to_position]::{Внимание на позицию!}
+[chat_shortcuts/defending_base]::{Я буду защищать базу!}
 [chat_shortcuts/global_msg/atk/focus_hq]::{Уничтожайте цели!}
 [chat_shortcuts/global_msg/atk/save_tanks]::{У нас достаточно времени, не теряйте свою технику!}
 [chat_shortcuts/global_msg/atk/time]::{Время на исходе! Бросьте все силы на захват!}
@@ -73,19 +79,19 @@ Content-Transfer-Encoding: 8bit
 [chat_shortcuts/global_msg/lane/center]::{Требуется подкрепление в зоне %(strArg1)s!}
 [chat_shortcuts/global_msg/lane/east]::{Требуется подкрепление в зоне %(strArg1)s!}
 [chat_shortcuts/global_msg/lane/west]::{Требуется подкрепление в зоне %(strArg1)s!}
+[chat_shortcuts/going_there]::{Двигаюсь на позицию!}
 [chat_shortcuts/help_me]::{Нужна помощь!}
 [chat_shortcuts/help_me_ex]::{%(target)s, помоги!}
-[chat_shortcuts/negative]::{Никак нет!}
-[chat_shortcuts/positive]::{Так точно!}
+[chat_shortcuts/positive]::{%(target)s, так точно!}
 [chat_shortcuts/reloading_cassette]::{К выстрелу готов через: %(floatArg1)d с, снарядов в кассете: %(int32Arg1)s шт.}
 [chat_shortcuts/reloading_gun]::{Перезаряжаюсь, ещё %(floatArg1)d c!}
 [chat_shortcuts/reloading_ready]::{К выстрелу готов!}
-[chat_shortcuts/reloading_ready_cassette]::{К выстрелу готов! До разрядки кассеты осталось снарядов: %(int32Arg1)s шт.}
+[chat_shortcuts/reloading_ready_cassette]::{К выстрелу готов! Снарядов в кассете: %(int32Arg1)s шт.}
 [chat_shortcuts/reloading_unavailable]::{Боекомплект пуст.}
-[chat_shortcuts/spg_aim_area]::{Навожусь на %(cellName)s! К выстрелу готов!}
-[chat_shortcuts/spg_aim_area_reloading]::{Навожусь на %(cellName)s! Перезаряжаюсь, ещё %(reloadTime)d c!}
-[chat_shortcuts/stop]::{%(target)s, стой!}
-[chat_shortcuts/support_me_with_fire]::{Поддержите огнём по %(target)s}
+[chat_shortcuts/spg_aim_area]::{Навожусь на позицию. К выстрелу готов!}
+[chat_shortcuts/spg_aim_area_reloading]::{Навожусь на позицию. Перезаряжаюсь ещё %(reloadTime)d c!}
+[chat_shortcuts/supporting_ally]::{%(target)s, я помогу тебе!}
+[chat_shortcuts/thanks]::{%(target)s, спасибо!}
 [chat_shortcuts/turn_back]::{%(target)s, назад!}
 [colorSettingsTipPanel/btnLabel]::{Перейти к настройкам}
 [consumables_panel/equipment/cooldownSeconds]::{Время подготовки: %(cooldownSeconds)s с}
@@ -184,11 +190,14 @@ Content-Transfer-Encoding: 8bit
 [efficiencyRibbons/assistSpot]::{Урон по разведданным}
 [efficiencyRibbons/assistStun]::{Помощь оглушением}
 [efficiencyRibbons/assistTrack]::{Постановка на гусеницу}
+[efficiencyRibbons/berserker]::{Урон от берсерка}
 [efficiencyRibbons/bonusRibbon]::{Ролевой опыт}
 [efficiencyRibbons/burn]::{Поджог}
 [efficiencyRibbons/capture]::{Очки захвата}
 [efficiencyRibbons/crits]::{Критический урон}
 [efficiencyRibbons/damage]::{Урон выстрелом}
+[efficiencyRibbons/damageByMinefield]::{Урон минами}
+[efficiencyRibbons/deathZone]::{Урон зоной}
 [efficiencyRibbons/defence]::{Очки защиты}
 [efficiencyRibbons/defenderBonus]::{Зона защищена}
 [efficiencyRibbons/destructibleDamaged]::{Нанесён урон}
@@ -198,10 +207,14 @@ Content-Transfer-Encoding: 8bit
 [efficiencyRibbons/kill]::{Уничтожил}
 [efficiencyRibbons/ram]::{Таран}
 [efficiencyRibbons/receivedBurn]::{Урон пожаром}
+[efficiencyRibbons/receivedByMinefield]::{Урон минами}
+[efficiencyRibbons/receivedBySmoke]::{Урон корродирующим облаком}
 [efficiencyRibbons/receivedCrits]::{Критическое повреждение}
 [efficiencyRibbons/receivedDamage]::{Урон выстрелом}
+[efficiencyRibbons/receivedDmgBySpawnedBot]::{Урон брандером}
 [efficiencyRibbons/receivedRam]::{Урон тараном}
 [efficiencyRibbons/receivedWorldCollision]::{Урон ударом}
+[efficiencyRibbons/spawnedBotDmg]::{Урон брандером}
 [efficiencyRibbons/spotted]::{Обнаружил}
 [efficiencyRibbons/stun]::{Оглушение}
 [efficiencyRibbons/vehicleRecovery]::{Машина оставлена}
@@ -232,7 +245,11 @@ Content-Transfer-Encoding: 8bit
 [hitMarker/blocked]::{Броня не пробита}
 [hitMarker/critical]::{Критический урон}
 [hitMarker/ricochet]::{Рикошет}
+[levelProgress/maxLevel]::{МАКСИМАЛЬНЫЙ УРОВЕНЬ МАШИНЫ}
 [marker/meters]::{м}
+[optDeviceResurrection/ammoBay]::{Подрыв боеукладки предотвращён оборудованием «%(device)s»}
+[optDeviceResurrection/engine]::{Поломка двигателя предотвращена оборудованием «%(device)s»}
+[optDeviceResurrection/fuelTank]::{Возгорание предотвращёно оборудованием «%(device)s»}
 [personalMissions/tip/additionalHeader]::{Дополнительное условие:}
 [personalMissions/tip/mainHeader]::{Основное условие:}
 [personalMissions/tip/noQuests/battleType]::{Для данного типа боя нет принятых к исполнению боевых задач.}
@@ -253,9 +270,11 @@ Content-Transfer-Encoding: 8bit
 [player_errors/equipment/medkit/allTankmenAreSafe]::{Экипаж не пострадал, медицинская помощь не требуется.}
 [player_errors/equipment/medkit/tankmanIsSafe]::{[%(entity)s] не нуждается в медицинской помощи.}
 [player_errors/equipment/order/notReady]::{Резерв ещё не готов.}
+[player_errors/equipment/repairEverything/crewAndDevicesAreOk]::{Модули и командир в отличном состоянии, ремонт или лечение не требуется.}
 [player_errors/equipment/repairkit/allDevicesAreNotDamaged]::{Все устройства в отличном состоянии, ремонт не требуется.}
 [player_errors/equipment/repairkit/deviceIsNotDamaged]::{[%(entity)s] в отличном состоянии, ремонт не требуется.}
 [player_messages/ALLY_HIT]::{Попадание в союзника %(entity)s!}
+[player_messages/COMBAT_BR_EQUIPMENT_READY]::{Готово к использованию: [%(equipment)s]}
 [player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY]::{Артбатарея развёрнута и готова к залпу.}
 [player_messages/COMBAT_EQUIPMENT_READY_BOMBER]::{Авиация прибыла и готова к бомбометанию.}
 [player_messages/COMBAT_EQUIPMENT_READY_INSPIRE]::{Ваш экипаж готов воодушевить союзников.}
@@ -263,6 +282,7 @@ Content-Transfer-Encoding: 8bit
 [player_messages/COMBAT_EQUIPMENT_READY_SMOKE]::{Батарея дымопуска готова вести огонь.}
 [player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY]::{Артбатарея %(player)s произвела залп.}
 [player_messages/COMBAT_EQUIPMENT_USED_BOMBER]::{Авиация %(player)s приступила к бомбометанию.}
+[player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT]::{%(player)s создаёт зону восстановления.}
 [player_messages/COMBAT_EQUIPMENT_USED_INSPIRE]::{%(player)s активирует воодушевление.}
 [player_messages/COMBAT_EQUIPMENT_USED_RECON]::{%(player)s вызвал самолёт-разведчик.}
 [player_messages/COMBAT_EQUIPMENT_USED_SMOKE]::{%(player)s поставил дымовую завесу.}
@@ -402,6 +422,7 @@ Content-Transfer-Encoding: 8bit
 [player_messages/ENGINE_DESTROYED_AT_BURNOUT]::{Устройство [%(device)s] вышло из строя из-за использования рывка.}
 [player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM]::{Устройство [%(device)s] разрушено из-за снятого ограничителя оборотов.}
 [player_messages/FIRE_STOPPED]::{Пожар потушен.}
+[player_messages/OPT_DEVICE_USED]::{%(message)s}
 [player_messages/TANKMAN_HIT_AT_SHOT]::{[%(device)s] ранен выстрелом %(entity)s.}
 [player_messages/TANKMAN_RESTORED]::{[%(device)s] снова в строю.}
 [player_messages/allied_team_name]::{Союзники}
@@ -468,6 +489,8 @@ Home/End — перемотка в начало/конец
 [postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF]::{Экипаж уничтожен сильным ударом союзника}
 [postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF]::{Экипаж уничтожен сильным ударом}
 [postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE]::{Экипаж уничтожен в результате сильного удара}
+[postmortem_messages/DEATH_FROM_KAMIKAZE]::{Машина уничтожена брандером}
+[postmortem_messages/DEATH_FROM_MINE_EXPLOSION]::{Машина уничтожена минами}
 [postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF]::{Машина перевёрнута союзником}
 [postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF]::{Машина перевёрнута противником}
 [postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE]::{Машина уничтожена при перевороте}
@@ -481,6 +504,61 @@ Home/End — перемотка в начало/конец
 [postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF]::{Машина разбита противником}
 [postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE]::{Машина разбита}
 [postmortem_messages/DEATH_UNKNOWN]::{Ваша машина уничтожена}
+[prebattlemarker/prebattlemarker_0]::{Овраг}
+[prebattlemarker/prebattlemarker_1]::{Обзор}
+[prebattlemarker/prebattlemarker_10]::{Лес}
+[prebattlemarker/prebattlemarker_11]::{Тропа}
+[prebattlemarker/prebattlemarker_12]::{Улица}
+[prebattlemarker/prebattlemarker_13]::{Руины}
+[prebattlemarker/prebattlemarker_14]::{Мост}
+[prebattlemarker/prebattlemarker_15]::{ЖД}
+[prebattlemarker/prebattlemarker_16]::{Город}
+[prebattlemarker/prebattlemarker_17]::{Деревня}
+[prebattlemarker/prebattlemarker_18]::{Площадь}
+[prebattlemarker/prebattlemarker_19]::{Завод}
+[prebattlemarker/prebattlemarker_2]::{Холм}
+[prebattlemarker/prebattlemarker_20]::{Маяк}
+[prebattlemarker/prebattlemarker_21]::{Центр}
+[prebattlemarker/prebattlemarker_22]::{Замок}
+[prebattlemarker/prebattlemarker_23]::{Мельница}
+[prebattlemarker/prebattlemarker_24]::{Горы}
+[prebattlemarker/prebattlemarker_25]::{Маршрут A}
+[prebattlemarker/prebattlemarker_26]::{Маршрут B}
+[prebattlemarker/prebattlemarker_27]::{Маршрут C}
+[prebattlemarker/prebattlemarker_28]::{Маршрут D}
+[prebattlemarker/prebattlemarker_29]::{Маршрут E}
+[prebattlemarker/prebattlemarker_3]::{Долина}
+[prebattlemarker/prebattlemarker_30]::{Ледник}
+[prebattlemarker/prebattlemarker_31]::{Объезд}
+[prebattlemarker/prebattlemarker_32]::{Холмы}
+[prebattlemarker/prebattlemarker_33]::{Дорога}
+[prebattlemarker/prebattlemarker_34]::{Гора}
+[prebattlemarker/prebattlemarker_35]::{Бункер}
+[prebattlemarker/prebattlemarker_36]::{Аллея}
+[prebattlemarker/prebattlemarker_37]::{Стена}
+[prebattlemarker/prebattlemarker_38]::{Камни}
+[prebattlemarker/prebattlemarker_39]::{Цехи}
+[prebattlemarker/prebattlemarker_4]::{Поле}
+[prebattlemarker/prebattlemarker_40]::{Ангар}
+[prebattlemarker/prebattlemarker_41]::{Уголь}
+[prebattlemarker/prebattlemarker_42]::{Корабли}
+[prebattlemarker/prebattlemarker_43]::{Авианосец}
+[prebattlemarker/prebattlemarker_44]::{Окопы}
+[prebattlemarker/prebattlemarker_45]::{Серпантин}
+[prebattlemarker/prebattlemarker_46]::{Север}
+[prebattlemarker/prebattlemarker_47]::{Юг}
+[prebattlemarker/prebattlemarker_48]::{Запад}
+[prebattlemarker/prebattlemarker_49]::{Восток}
+[prebattlemarker/prebattlemarker_5]::{Гряда}
+[prebattlemarker/prebattlemarker_50]::{Дирижабль}
+[prebattlemarker/prebattlemarker_51]::{Склады}
+[prebattlemarker/prebattlemarker_6]::{Берег}
+[prebattlemarker/prebattlemarker_7]::{Река}
+[prebattlemarker/prebattlemarker_8]::{Озеро}
+[prebattlemarker/prebattlemarker_9]::{Болото}
+[quickReply/hint/press]::{Нажмите}
+[quickReply/hint/toAcknowledge]::{, чтобы подтвердить}
+[quickReply/hint/toHelp]::{, чтобы помочь}
 [recovery/cooldown]::{Вы сможете оставить машину через %(cooldown)s сек.}
 [recovery/hint1]::{Удерживайте}
 [recovery/hint2]::{, чтобы оставить машину}
@@ -553,6 +631,10 @@ Home/End — перемотка в начало/конец
 [rewardWindow/twitch14/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вы получаете уникального командира и другие ценные награды.}
 [rewardWindow/twitch14/headerText]::{Набор «Июль»}
 [rewardWindow/twitch14/subHeaderText]::{Получены награды}
+[rewardWindow/twitch15/btnLabel]::{Ещё}
+[rewardWindow/twitch15/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вы получаете уникальный стиль и другие ценные награды.}
+[rewardWindow/twitch15/headerText]::{Набор «Десятка»}
+[rewardWindow/twitch15/subHeaderText]::{Получены награды}
 [rewardWindow/twitch2/btnLabel]::{Так точно!}
 [rewardWindow/twitch2/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вам вручается щедрая награда.}
 [rewardWindow/twitch2/headerText]::{Набор Чарли}
@@ -603,19 +685,18 @@ Home/End — перемотка в начало/конец
 [shells_kinds/ARMOR_PIERCING_HE]::{%(caliber)s мм бронебойный каморный снаряд %(userString)s}
 [shells_kinds/HIGH_EXPLOSIVE]::{%(caliber)s мм осколочно-фугасный снаряд %(userString)s}
 [shells_kinds/HOLLOW_CHARGE]::{%(caliber)s мм кумулятивный снаряд %(userString)s}
-[shells_kinds/params]::{Повреждения %(damage)s
-Пробиваемость %(piercingPower)s}
-[shells_kinds/paramsNoPiercing]::{Повреждения %(damage)s}
-[shells_kinds/stunParams]::{Повреждения %(damage)s
-Пробиваемость %(piercingPower)s
-Минимальное время оглушения %(stunMinDuration)s (с)
-Максимальное время оглушения %(stunMaxDuration)s (с)}
+[shells_kinds/params/damage]::{Средний урон: %(value)s ед.}
+[shells_kinds/params/explosionRadius]::{Радиус разлёта осколков: %(value)s м}
+[shells_kinds/params/piercingPower]::{Средняя бронепробиваемость: %(value)s мм}
+[shells_kinds/params/shotSpeed]::{Начальная скорость полёта:  %(value)s м/с}
+[shells_kinds/params/stunDuration]::{Время оглушения: %(minValue)s–%(maxValue)s с}
 [siegeMode/hint/forMode/0]::{для перехода в осадный режим}
 [siegeMode/hint/forMode/1]::{?empty?}
 [siegeMode/hint/forMode/2]::{для возврата в походный режим}
 [siegeMode/hint/forMode/3]::{?empty?}
 [siegeMode/hint/noBinding]::{Ключевые клавиши не назначены}
 [siegeMode/hint/press]::{Нажмите}
+[siegeMode/hint/turboshaftEngine]::{для смены режима работы двигателя}
 [siegeMode/hint/wheeled]::{для смены режима движения}
 [statistics/exit]::{Нажмите Esc для выхода в Ангар...}
 [statistics/final/heroes]::{?empty?}

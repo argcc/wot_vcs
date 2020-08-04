@@ -282,7 +282,16 @@
          <description>#vehicle_customization:special_style/kv2_w_description</description>
          <longDescriptionSpecial>#vehicle_customization:special_style/kv2_w_description/long</longDescriptionSpecial>
          <modelsSet>WH</modelsSet>
+         <maxNumber>1</maxNumber>
          <userString>#vehicle_customization:special_style/kv2_w</userString>
+         <tags>progression_required</tags>
+         <itemFilters>
+            <projection_decal>
+               <include>
+                  <itemGroupName>Progression Decals</itemGroupName>
+               </include>
+            </projection_decal>
+         </itemFilters>
          <outfits>
             <outfit>
                <season>ALL</season>
@@ -413,6 +422,7 @@
          <description>#vehicle_customization:special_style/snow_leopard_description</description>
          <longDescriptionSpecial>#vehicle_customization:special_style/snow_leopard_description/long</longDescriptionSpecial>
          <modelsSet>SnowLeopard</modelsSet>
+         <maxNumber>1</maxNumber>
          <userString>#vehicle_customization:special_style/snow_leopard</userString>
          <tags>winter_hunt progression_required</tags>
          <itemFilters>
@@ -443,47 +453,6 @@
                      <appliedTo>52416</appliedTo>
                   </item>
                </decals>
-            </outfit>
-         </outfits>
-      </style>
-   </itemGroup>
-   <itemGroup>
-      <userString>#vehicle_customization:styles/special_styles</userString>
-      <season>ALL</season>
-      <historical> true </historical>
-      <priceGroup>styles 750g notInShop</priceGroup>
-      <vehicleFilter>
-         <include>
-            <vehicles>ussr:R160_T_50_2</vehicles>
-         </include>
-      </vehicleFilter>
-      <style>
-         <id>215</id>
-         <texture>gui/maps/vehicles/styles/t50_2.png</texture>
-         <description>#vehicle_customization:special_style/t50_2_desc</description>
-         <longDescriptionSpecial>#vehicle_customization:special_style/t50_2_desc/long</longDescriptionSpecial>
-         <modelsSet>SD</modelsSet>
-         <maxNumber>1</maxNumber>
-         <userString>#vehicle_customization:special_style/t50_2</userString>
-         <tags>progression_required addNationalEmblem</tags>
-         <itemFilters>
-            <projection_decal>
-               <include>
-                  <itemGroupName>Progression Decals</itemGroupName>
-               </include>
-            </projection_decal>
-         </itemFilters>
-         <outfits>
-            <outfit>
-               <season>ALL</season>
-               <camouflages>
-                  <item>
-                     <id>1</id>
-                     <appliedTo>16</appliedTo>
-                     <patternSize>1</patternSize>
-                     <palette>0</palette>
-                  </item>
-               </camouflages>
             </outfit>
          </outfits>
       </style>
@@ -638,6 +607,7 @@
          <texture>gui/maps/vehicles/styles/burnout.png</texture>
          <longDescriptionSpecial>#vehicle_customization:unique_style/burnout_desc/long</longDescriptionSpecial>
          <modelsSet>Burnout</modelsSet>
+         <maxNumber>1</maxNumber>
          <userString>#vehicle_customization:unique_style/burnout</userString>
          <tags>progression_required</tags>
          <itemFilters>
@@ -1347,7 +1317,14 @@
          <modelsSet>FULL3D</modelsSet>
          <maxNumber>1</maxNumber>
          <userString>#vehicle_customization:main_style/R127_T44_100_P_3Dst</userString>
-         <tags>addNationalEmblem</tags>
+         <tags>addNationalEmblem progression_required</tags>
+         <itemFilters>
+            <projection_decal>
+               <include>
+                  <itemGroupName>Progression Decals</itemGroupName>
+               </include>
+            </projection_decal>
+         </itemFilters>
          <outfits>
             <outfit>
                <season>ALL</season>

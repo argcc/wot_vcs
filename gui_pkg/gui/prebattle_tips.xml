@@ -96,6 +96,21 @@
          <vehicleClass>SPG</vehicleClass>
       </filter>
       <filter>
+         <id>from_2_to_10_levels</id>
+         <levels>2 3 4 5 6 7 8 9 10</levels>
+      </filter>
+      <filter>
+         <id>from_5_to_10_levels</id>
+         <levels>5 6 7 8 9 10</levels>
+      </filter>
+      <filter>
+         <id>opt_device_category</id>
+         <levels>6 7 8 9 10</levels>
+         <preceding>
+            <showTimes>1</showTimes>
+         </preceding>
+      </filter>
+      <filter>
          <id>only_AT-SPG</id>
          <vehicleClass>AT-SPG</vehicleClass>
       </filter>
@@ -356,6 +371,12 @@
          <filter>max_200_battles</filter>
       </tip>
       <tip>
+         <id>tip77</id>
+         <status>payAttention</status>
+         <group>tactics</group>
+         <filter>from_5_to_10_levels</filter>
+      </tip>
+      <tip>
          <id>tip78</id>
          <status>payAttention</status>
          <group>tactics</group>
@@ -444,6 +465,12 @@
          <status>payAttention</status>
          <group>crew</group>
          <filter>from_200_battles</filter>
+      </tip>
+      <tip>
+         <id>tip98</id>
+         <status>payAttention</status>
+         <group>tactics</group>
+         <filter>from_2_to_10_levels</filter>
       </tip>
       <tip>
          <id>tip99</id>
@@ -913,6 +940,24 @@
          <filter>battlePass_on</filter>
       </tip>
       <tip>
+         <id>tip191</id>
+         <status>payAttention</status>
+         <group>tactics</group>
+         <filter>from_2_to_10_levels</filter>
+      </tip>
+      <tip>
+         <id>tip192</id>
+         <status>payAttention</status>
+         <group>tactics</group>
+         <filter>opt_device_category</filter>
+      </tip>
+      <tip>
+         <id>tip193</id>
+         <status>payAttention</status>
+         <group>tactics</group>
+         <filter>from_2_to_10_levels</filter>
+      </tip>
+      <tip>
          <id>epicTip1</id>
          <status>epicModeIntroduction</status>
          <filter>max_15_battles</filter>
@@ -1066,6 +1111,30 @@
       <tip>
          <id>ranked9</id>
          <status>rankedStatus9</status>
+      </tip>
+      <tip>
+         <id>battleRoyale0</id>
+         <status>battleRoyale0Status</status>
+      </tip>
+      <tip>
+         <id>battleRoyale1</id>
+         <status>battleRoyale1Status</status>
+      </tip>
+      <tip>
+         <id>battleRoyale2</id>
+         <status>battleRoyale2Status</status>
+      </tip>
+      <tip>
+         <id>battleRoyale3</id>
+         <status>battleRoyale3Status</status>
+      </tip>
+      <tip>
+         <id>battleRoyale4</id>
+         <status>battleRoyale4Status</status>
+      </tip>
+      <tip>
+         <id>battleRoyale5</id>
+         <status>battleRoyale5Status</status>
       </tip>
    </tips>
 </prebattle_tips.xml>

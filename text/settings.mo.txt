@@ -170,6 +170,11 @@ Content-Transfer-Encoding: 8bit
 [autodetectButton/description]::{Определение оптимального качества графики для вашего компьютера.
 
 Может занять некоторое время.}
+[battlecomm/enableBattleComm]::{Включить коммуникацию в бою}
+[battlecomm/showCalloutMessages]::{Показывать личные команды}
+[battlecomm/showCommInPlayerlist]::{Показывать коммуникацию на панели команды}
+[battlecomm/showMarkers]::{Показывать маркеры баз в Случайных боях}
+[battlecomm/showStickyMarkers]::{Показывать закреплённые маркеры}
 [borderlessSize]::{Оконный (без рамки)}
 [borderlessSize/description]::{Оконный (без рамки)}
 [cancel_button]::{Отменить}
@@ -372,6 +377,7 @@ Content-Transfer-Encoding: 8bit
 [game/enableOpticalSnpEffect]::{Включить эффект оптики в снайперском режиме}
 [game/enableSpeedometer]::{Показывать спидометр колёсной техники}
 [game/enableVoIP]::{Голосовая связь}
+[game/fieldset/headerBattleCommunication]::{Коммуникация в бою}
 [game/fieldset/headerChat]::{Чат}
 [game/fieldset/headerGameplay]::{Типы случайных боёв}
 [game/fieldset/headerMinimap]::{Миникарта}
@@ -523,7 +529,6 @@ HD клиент — полная версия игры, включающая т�
 [keyboard/backDraftInvert]::{Инверсия при заднем ходе}
 [keyboard/keyboard]::{Клавиатура}
 [keyboard/keysBlocks/command/alternate_mode]::{Сменить режим прицела}
-[keyboard/keysBlocks/command/attack]::{В атаку!}
 [keyboard/keysBlocks/command/auto_rotation]::{Фиксация корпуса / смена режима}
 [keyboard/keysBlocks/command/backward]::{Назад}
 [keyboard/keysBlocks/command/backward_cruise]::{Назад}
@@ -533,10 +538,15 @@ HD клиент — полная версия игры, включающая т�
 [keyboard/keysBlocks/command/camera_right]::{Вправо}
 [keyboard/keysBlocks/command/camera_up]::{Вверх}
 [keyboard/keysBlocks/command/chargeFire]::{Произвести залп}
+[keyboard/keysBlocks/command/fallBack]::{Отступай!}
 [keyboard/keysBlocks/command/fire]::{Выстрелить}
 [keyboard/keysBlocks/command/forward]::{Вперёд}
 [keyboard/keysBlocks/command/forward_cruise]::{Вперёд}
 [keyboard/keysBlocks/command/frontlineSelfDestruction]::{Самоуничтожение на Линии фронта}
+[keyboard/keysBlocks/command/help]::{Помогите!}
+[keyboard/keysBlocks/command/highlightLocation]::{Отметить позицию}
+[keyboard/keysBlocks/command/highlightTarget]::{Отметить как активную цель}
+[keyboard/keysBlocks/command/item00]::{Снаряжение 10}
 [keyboard/keysBlocks/command/item01]::{Снаряжение 1}
 [keyboard/keysBlocks/command/item02]::{Снаряжение 2}
 [keyboard/keysBlocks/command/item03]::{Снаряжение 3}
@@ -545,24 +555,21 @@ HD клиент — полная версия игры, включающая т�
 [keyboard/keysBlocks/command/item06]::{Снаряжение 6}
 [keyboard/keysBlocks/command/item07]::{Снаряжение 7}
 [keyboard/keysBlocks/command/item08]::{Снаряжение 8}
+[keyboard/keysBlocks/command/item09]::{Снаряжение 9}
 [keyboard/keysBlocks/command/left]::{Влево}
 [keyboard/keysBlocks/command/lock_target]::{Автоприцел}
 [keyboard/keysBlocks/command/lock_target_off]::{Отключить автоприцел}
-[keyboard/keysBlocks/command/my_target/follow_me]::{Поддержите огнём! / За мной!}
-[keyboard/keysBlocks/command/negative]::{Никак нет!}
-[keyboard/keysBlocks/command/positive]::{Так точно!}
 [keyboard/keysBlocks/command/pushToTalk]::{Активация микрофона}
-[keyboard/keysBlocks/command/reload/stop]::{Перезаряжаюсь! / Стой!}
 [keyboard/keysBlocks/command/reloadPartialClip]::{Перезарядить кассету}
+[keyboard/keysBlocks/command/reloading]::{Перезарядка!}
 [keyboard/keysBlocks/command/right]::{Вправо}
 [keyboard/keysBlocks/command/showHUD]::{Скрыть боевой интерфейс}
 [keyboard/keysBlocks/command/showQuestProgress]::{Прогресс ЛБЗ}
-[keyboard/keysBlocks/command/showRadialMenu]::{Меню приказов}
+[keyboard/keysBlocks/command/showRadialMenu]::{Меню приказов / Подтверждение команды}
 [keyboard/keysBlocks/command/sizeDown]::{Уменьшить размер}
 [keyboard/keysBlocks/command/sizeUp]::{Увеличить размер}
-[keyboard/keysBlocks/command/sos/help_me]::{Нужна помощь! / Помоги!}
 [keyboard/keysBlocks/command/stop_fire]::{Остановка для выстрела}
-[keyboard/keysBlocks/command/to_base/to_back]::{Защищайте базу! / Назад!}
+[keyboard/keysBlocks/command/thankYou]::{Спасибо!}
 [keyboard/keysBlocks/command/trajectory_view]::{Вид от траектории}
 [keyboard/keysBlocks/command/useHorn]::{Подать звуковой сигнал}
 [keyboard/keysBlocks/command/visible]::{Скрыть/Показать}
@@ -574,6 +581,7 @@ HD клиент — полная версия игры, включающая т�
 [keyboard/keysBlocks/group/minimap]::{Миникарта}
 [keyboard/keysBlocks/group/movement]::{Передвижение}
 [keyboard/keysBlocks/group/shortcuts]::{Сообщения}
+[keyboard/keysBlocks/group/team_communication]::{Коммуникация с командой}
 [keyboard/keysBlocks/group/vehicle_other]::{Другое}
 [keyboard/keysBlocks/group/voicechat]::{Голосовая связь}
 [keyboard/mouse]::{Мышь}
