@@ -465,6 +465,12 @@ Content-Transfer-Encoding: 8bit
 [battleLoadingInfo/body]::{Выбор желаемого отображения подсказок. При этом:
 • в режиме «Учебный бой» иллюстрация отображается всегда.}
 [battleLoadingInfo/header]::{Подсказки на экране загрузки боя}
+[battlePassDeviceOffer/error/newDeviceGiftToken]::{Выбор штатного оборудования в «Поставках из тыла» временно недоступен.}
+[battlePassDeviceOffer/error/trophyGiftToken]::{Выбор трофейного оборудования в «Поставках из тыла» временно недоступен.}
+[battlePassDeviceOffer/footer/newDeviceGiftToken]::{По достижении этого этапа вы сможете получить одну из единиц оборудования на выбор в разделе «Поставки из тыла» на Складе.}
+[battlePassDeviceOffer/footer/trophyGiftToken]::{По достижении этого этапа вы сможете получить одну из единиц трофейного оборудования на выбор в разделе «Поставки из тыла» на Складе.}
+[battlePassDeviceOffer/title/newDeviceGiftToken]::{Штатное оборудование на выбор}
+[battlePassDeviceOffer/title/trophyGiftToken]::{Трофейное оборудование на выбор}
 [battleResults/CyberSport/points/lose/body]::{Количество очков Ладдера, потерянных командой: %(dif)s}
 [battleResults/CyberSport/points/lose/header]::{Пересчёт очков}
 [battleResults/CyberSport/points/win/body]::{Количество очков Ладдера, заработанных командой: %(dif)s}
@@ -1700,6 +1706,8 @@ Content-Transfer-Encoding: 8bit
 [header/battleRoyaleSquad/header]::{Взвод охотников}
 [header/battleType/body]::{Нажмите, чтобы открыть список доступных режимов боёв.}
 [header/battleType/header]::{Выбор режима боя}
+[header/bobSquad/body]::{Создание формирования из 2–3 игроков для совместной игры в боях режима «Схватка».}
+[header/bobSquad/header]::{Взвод}
 [header/buttons/available]::{В наличии}
 [header/buttons/barracks/body]::{Рекрутировать и демобилизовать членов экипажа.}
 [header/buttons/barracks/header]::{Казарма}
@@ -2019,6 +2027,8 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/commander_marina/label]::{Уникальный член экипажа}
 [notrecruitedtankman/commander_patrick/desc]::{Раз, два — тыква разберёт тебя. Три, четыре — нет врага страшнее в мире. Пять, шесть — вам летит дурная весть. Семь, восемь — Патрик к вам придёт без спроса. Девять, де…}
 [notrecruitedtankman/commander_patrick/label]::{Уникальный член экипажа}
+[notrecruitedtankman/commander_starlight/desc]::{Её имя говорит само за себя. Безупречная, с чистейшими намерениями и в буквальном смысле убийственным взглядом, готовая спасать мир. И внезапно осознавшая, что индустрия супергероев далеко не такая радужная, когда начинаешь видеть её изнутри.}
+[notrecruitedtankman/commander_starlight/label]::{Уникальный член экипажа}
 [notrecruitedtankman/czech_woman/desc]::{Выдавалась в награду за определённые игровые события. Девушка-танкист наделена изученным навыком «Боевое братство», а также дополнительным умением или навыком на выбор.}
 [notrecruitedtankman/czech_woman/event]::{событие «Чешские каникулы»}
 [notrecruitedtankman/czech_woman/label]::{Уникальный член экипажа}
@@ -2059,6 +2069,12 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/tankman/desc]::{?empty?}
 [notrecruitedtankman/tankman/howToGetInfo]::{?empty?}
 [notrecruitedtankman/tankman/label]::{Уникальный член экипажа}
+[notrecruitedtankman/tankmen_bp2_1/desc]::{Если вы попросите характеристику на Рида у его командира, тот скорее всего закатит глаза и тяжело вздохнёт. Рид — прирождённый бунтарь, который каким-то чудом ещё держится в дисциплинарных рамках, которые устанавливает ему служба в армии. Ему бы сейчас мотоцикл и 66-е шоссе под колёса — но нет, приходится жариться в танке и выполнять очередной приказ.}
+[notrecruitedtankman/tankmen_bp2_1/howToGetInfo]::{?empty?}
+[notrecruitedtankman/tankmen_bp2_1/label]::{Боевой пропуск, третий сезон}
+[notrecruitedtankman/tankmen_bp2_2/desc]::{Опытный боевой офицер, рассудительный, всегда предпочитающий рациональный подход эмоциональному. Легко адаптируется к любым условиям, куда бы ни завёл его приказ — будь то гарнизон за полярным кругом или военная база в песках северной Африки. Любит хоккей и подводную охоту, хотя найти на это время становится всё сложнее.}
+[notrecruitedtankman/tankmen_bp2_2/howToGetInfo]::{?empty?}
+[notrecruitedtankman/tankmen_bp2_2/label]::{Боевой пропуск, третий сезон}
 [notrecruitedtankman/tankwoman/desc]::{Выдавалась в награду за определённые игровые события. Девушка-танкист наделена изученным навыком «Боевое братство», а также дополнительным умением или навыком на выбор.}
 [notrecruitedtankman/tankwoman/label]::{Уникальный член экипажа}
 [notrecruitedtankman/twitch1/desc]::{Уникальный командир, эффективно поднимающий боевой дух всего экипажа. Рекрутировался только во время специальной акции «Прямой эфир».}
@@ -2907,8 +2923,6 @@ Content-Transfer-Encoding: 8bit
 [template/hours/short]::{%(value)s ч}
 [template/minutes/short]::{%(value)s мин}
 [template/time/lessThenMinute]::{менее минуты}
-[tooltips/battlePass/entryPoint/disabled/body]::{Идут технические работы}
-[tooltips/battlePass/entryPoint/disabled/header]::{Боевой пропуск}
 [trade/body]::{Премиум машину можно обменять на другую премиум машину
 текущего уровня или выше.
 
@@ -2983,6 +2997,7 @@ Content-Transfer-Encoding: 8bit
 [vehicle/crew_award]::{Экипаж (%d%%)}
 [vehicle/dailyXPFactor]::{Опыт за первую победу в день}
 [vehicle/damage]::{<h1>Урон</h1> <h2>(hp)</h2>}
+[vehicle/deal/bob/main]::{Машина для режима «Схватка»}
 [vehicle/deal/epic/main]::{Машина для режима «Линия фронта»}
 [vehicle/deal/telecom/main/Twitchprime]::{Машина доступна игрокам с активной подпиской на Prime Gaming.}
 [vehicle/deal/telecom/main/default]::{Машина доступна абонентам тарифного плана «%(tariff)s» от %(provider)s.}

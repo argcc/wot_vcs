@@ -586,6 +586,7 @@
             <usa:A67_T57_58>3.9 3.9 0.000000 0.000000</usa:A67_T57_58>
             <usa:A68_T28_Prototype>5.2 5.2 0.000000 0.000000</usa:A68_T28_Prototype>
             <usa:A69_T110E5>4 4 0.000000 0.000000</usa:A69_T110E5>
+            <usa:A69_T110E5_WB>4 4 0.000000 0.000000</usa:A69_T110E5_WB>
             <usa:A71_T21>2 2 0.000000 6.2</usa:A71_T21>
             <usa:A72_T25_2>2.4 2.4 0.000000 0.000000</usa:A72_T25_2>
             <usa:A74_T1_E6>1 1 0.000000 2.9</usa:A74_T1_E6>
@@ -1313,6 +1314,7 @@
             <usa:A67_T57_58>2.8027 2.8027 7.33247 5.34545</usa:A67_T57_58>
             <usa:A68_T28_Prototype>5.02432 5.02432 3.14675 3.5987</usa:A68_T28_Prototype>
             <usa:A69_T110E5>4.14865 4.14865 6.93506 4.19481</usa:A69_T110E5>
+            <usa:A69_T110E5_WB>4.14865 4.14865 6.93506 4.19481</usa:A69_T110E5_WB>
             <usa:A71_T21>1.72162 1.72162 4.30649 3.56753</usa:A71_T21>
             <usa:A72_T25_2>1.42703 1.42703 3.41688 0.000000</usa:A72_T25_2>
             <usa:A74_T1_E6>1.12703 1.12703 1.88831 0.000000</usa:A74_T1_E6>
@@ -1499,6 +1501,125 @@
             <ussr:R98_T44_85M>2 2 0.74 0.000000</ussr:R98_T44_85M>
             <ussr:R99_T44_122>2.8 2.8 4.95584 0.68</ussr:R99_T44_122>
          </tiling>
+      </camouflage>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:camouflage/opaque</userString>
+      <season>ALL</season>
+      <historical> false </historical>
+      <priceGroup>camouflages 50g notInShop</priceGroup>
+      <vehicleFilter>
+         <exclude>
+            <vehicles>china:Ch01_Type59_Gold germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+         </exclude>
+      </vehicleFilter>
+      <camouflage>
+         <id>196</id>
+         <texture>vehicles/russian/Camouflage/theboys.dds</texture>
+         <description>#vehicle_customization:camouflage/theboys/description</description>
+         <scales>1.3 1 0.7</scales>
+         <userString>#vehicle_customization:camouflage/theboys/label</userString>
+         <tags>hiddenInUI</tags>
+         <invisibilityFactor>1</invisibilityFactor>
+         <palettes>
+            <palette>
+               <c0>255 0 0 255</c0>
+               <c1>0 255 0 255</c1>
+               <c2>0 0 255 255</c2>
+               <c3>0 0 0 255</c3>
+            </palette>
+         </palettes>
+         <rotation>
+            <HULL>-0.261799</HULL>
+            <TURRET>-0.261799</TURRET>
+            <GUN>-0.261799</GUN>
+         </rotation>
+         <tiling>
+            <france:F18_Bat_Chatillon25t>2.28 2.28 10.451 14.8798</france:F18_Bat_Chatillon25t>
+            <germany:G121_Grille_15_L63>9.64293 9.64293 10.78 14.58</germany:G121_Grille_15_L63>
+            <sweden:S11_Strv_103B>1.2 1.2 12.64 12.97</sweden:S11_Strv_103B>
+            <uk:GB07_Matilda>2.4 2.4 10.42 14.67</uk:GB07_Matilda>
+            <uk:GB83_FV4005>3.7 3.7 10.08 14.51</uk:GB83_FV4005>
+            <uk:GB91_Super_Conqueror>1.56 1.56 11.07 14.48</uk:GB91_Super_Conqueror>
+            <usa:A13_T34_hvy>3.8 3.8 10.45 14.05</usa:A13_T34_hvy>
+            <usa:A67_T57_58>3.72 3.72 10.11 13.59</usa:A67_T57_58>
+            <ussr:R07_T-34-85>4.76 4.76 9.79 12.44</ussr:R07_T-34-85>
+            <ussr:R11_MS-1>5 5 11.07 14.37</ussr:R11_MS-1>
+            <ussr:R121_KV4_KTT>3.66 3.66 10.57 14.09</ussr:R121_KV4_KTT>
+            <ussr:R20_T-44>4.86 4.86 10.63 14.04</ussr:R20_T-44>
+            <ussr:R32_Matilda_II_LL>1 1 0.41 0.42</ussr:R32_Matilda_II_LL>
+            <ussr:R45_IS-7>3.62 3.62 10.5 14.67</ussr:R45_IS-7>
+         </tiling>
+         <tilingSettings>
+            <type>relative</type>
+            <factor>2.9 2.9</factor>
+            <offset>10.56 14.51</offset>
+         </tilingSettings>
+      </camouflage>
+   </itemGroup>
+   <itemGroup>
+      <userString>#vehicle_customization:camouflage/opaque</userString>
+      <season>ALL</season>
+      <historical> false </historical>
+      <priceGroup>camouflages 50g notInShop</priceGroup>
+      <vehicleFilter>
+         <exclude>
+            <vehicles>china:Ch01_Type59_Gold germany:G119_Panzer58_BF germany:G114_Rheinmetall_Skorpian usa:A13_T34_hvy_BF ussr:R61_Object252_BF</vehicles>
+         </exclude>
+      </vehicleFilter>
+      <camouflage>
+         <id>197</id>
+         <texture>vehicles/russian/Camouflage/seven.dds</texture>
+         <description>#vehicle_customization:camouflage/seven/description</description>
+         <scales>1.3 1 0.7</scales>
+         <userString>#vehicle_customization:camouflage/seven/label</userString>
+         <tags>hiddenInUI</tags>
+         <invisibilityFactor>1</invisibilityFactor>
+         <palettes>
+            <palette>
+               <c0>255 0 0 255</c0>
+               <c1>0 255 0 255</c1>
+               <c2>0 0 255 255</c2>
+               <c3>0 0 0 255</c3>
+            </palette>
+         </palettes>
+         <rotation>
+            <HULL>-0.261799</HULL>
+            <TURRET>-0.261799</TURRET>
+            <GUN>-0.261799</GUN>
+         </rotation>
+         <tiling>
+            <france:F108_Panhard_EBR_105>3.3 3.3 10 15.08</france:F108_Panhard_EBR_105>
+            <france:F10_AMX_50B>2 2 9.96 13.74</france:F10_AMX_50B>
+            <france:F18_Bat_Chatillon25t>2 2 9.86 14.9</france:F18_Bat_Chatillon25t>
+            <france:F84_Somua_SM>2.6 2.6 10.02 14.91</france:F84_Somua_SM>
+            <germany:G121_Grille_15_L63>7 7 10.91 14.08</germany:G121_Grille_15_L63>
+            <germany:G42_Maus>3.1 3.1 8.67 13.97</germany:G42_Maus>
+            <germany:G56_E-100>3.8 3.8 9.92 15.73</germany:G56_E-100>
+            <germany:G99_RhB_Waffentrager>4.2 4.2 0.35 -0.14</germany:G99_RhB_Waffentrager>
+            <italy:It08_Progetto_M40_mod_65>1.4 1.4 1.34 0.41</italy:It08_Progetto_M40_mod_65>
+            <japan:J20_Type_2605>3.7 3.7 9.3714 13.6984</japan:J20_Type_2605>
+            <japan:J28_O_I_100>2 2 9.84 14.83</japan:J28_O_I_100>
+            <poland:Pl15_60TP_Lewandowskiego>1.9 1.9 10.33 14.11</poland:Pl15_60TP_Lewandowskiego>
+            <sweden:S11_Strv_103B>2.2 2.2 9.81 14.61</sweden:S11_Strv_103B>
+            <uk:GB07_Matilda>1.9 1.9 10.14 14.43</uk:GB07_Matilda>
+            <uk:GB83_FV4005>3.4 3.4 9.93 14.54</uk:GB83_FV4005>
+            <uk:GB91_Super_Conqueror>2 2 -0.18 0.000000</uk:GB91_Super_Conqueror>
+            <usa:A12_T32>3.9 3.9 7.38 14.84</usa:A12_T32>
+            <usa:A67_T57_58>3.5 3.5 9.8414 13.6984</usa:A67_T57_58>
+            <ussr:R04_T-34>3.7 3.7 10.42 14.71</ussr:R04_T-34>
+            <ussr:R115_IS-3_auto>4 4 10.2414 14.2184</ussr:R115_IS-3_auto>
+            <ussr:R11_MS-1>5.4 5.4 9.95 13.92</ussr:R11_MS-1>
+            <ussr:R148_Object_430_U>1 1 10.21 13.53</ussr:R148_Object_430_U>
+            <ussr:R155_Object_277>3.1 3.1 5.11 14.92</ussr:R155_Object_277>
+            <ussr:R20_T-44>5.6 5.6 9.6 13.37</ussr:R20_T-44>
+            <ussr:R45_IS-7>4 4 10.01 15.25</ussr:R45_IS-7>
+         </tiling>
+         <tilingSettings>
+            <type>relative</type>
+            <factor>3 3</factor>
+            <offset>11.5314 14.9884</offset>
+         </tilingSettings>
       </camouflage>
    </itemGroup>
 </unified_nonCN.xml>

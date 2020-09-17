@@ -27,6 +27,7 @@ Content-Transfer-Encoding: 8bit
 [battleProgress/hint/press]::{Нажмите}
 [burnout/hint/engineDamageWarning]::{ОПАСНОСТЬ ПОЛОМКИ}
 [burnout/hint/engineDamaged]::{ПОЛОМКА ДВИГАТЕЛЯ}
+[chat_example/affirmative]::{Так точно!}
 [chat_example/attack_enemy]::{Поддержите огнём по <Имя противника>!}
 [chat_example/attack_enemy_with_SPG]::{Атакую <Имя противника>!}
 [chat_example/attention_to_base_atk]::{Захватите базу!}
@@ -45,6 +46,7 @@ Content-Transfer-Encoding: 8bit
 [chat_example/going_there]::{Направляюсь сюда!}
 [chat_example/help_me]::{Нужна помощь!}
 [chat_example/help_me_ex]::{<Имя союзника>, помоги!}
+[chat_example/negative]::{Никак нет!}
 [chat_example/positive]::{Так точно!}
 [chat_example/reloading_cassette]::{К выстрелу готов через: <Время перезарядки> с, снарядов в кассете: <Количество снарядов> шт.}
 [chat_example/reloading_gun]::{Перезаряжаюсь, ещё <Время перезарядки> c!}
@@ -56,6 +58,7 @@ Content-Transfer-Encoding: 8bit
 [chat_example/supporting_ally]::{<Имя союзника>, я помогу тебе!}
 [chat_example/thanks]::{<Имя союзника>, спасибо!}
 [chat_example/turn_back]::{<Имя союзника>, назад!}
+[chat_shortcuts/affirmative]::{Так точно!}
 [chat_shortcuts/attack_enemy]::{Поддержите огнём по %(target)s}
 [chat_shortcuts/attack_enemy_with_SPG]::{К выстрелу готов! Атакую %(target)s!}
 [chat_shortcuts/attack_enemy_with_SPG_reloading]::{Атакую %(target)s! Перезаряжаюсь, ещё %(reloadTime)d c!}
@@ -69,6 +72,7 @@ Content-Transfer-Encoding: 8bit
 [chat_shortcuts/attention_to_objective_atk]::{Уничтожьте цель %(int32Arg1)s!}
 [chat_shortcuts/attention_to_objective_def]::{Защищайте цель %(int32Arg1)s!}
 [chat_shortcuts/attention_to_position]::{Внимание на позицию!}
+[chat_shortcuts/attention_to_position_gridInfo]::{Внимание на %(gridId)s}
 [chat_shortcuts/defending_base]::{Я буду защищать базу!}
 [chat_shortcuts/global_msg/atk/focus_hq]::{Уничтожайте цели!}
 [chat_shortcuts/global_msg/atk/save_tanks]::{У нас достаточно времени, не теряйте свою технику!}
@@ -80,8 +84,10 @@ Content-Transfer-Encoding: 8bit
 [chat_shortcuts/global_msg/lane/east]::{Требуется подкрепление в зоне %(strArg1)s!}
 [chat_shortcuts/global_msg/lane/west]::{Требуется подкрепление в зоне %(strArg1)s!}
 [chat_shortcuts/going_there]::{Двигаюсь на позицию!}
+[chat_shortcuts/going_there_gridInfo]::{Двигаюсь в %(gridId)s}
 [chat_shortcuts/help_me]::{Нужна помощь!}
 [chat_shortcuts/help_me_ex]::{%(target)s, помоги!}
+[chat_shortcuts/negative]::{Никак нет!}
 [chat_shortcuts/positive]::{%(target)s, так точно!}
 [chat_shortcuts/reloading_cassette]::{К выстрелу готов через: %(floatArg1)d с, снарядов в кассете: %(int32Arg1)s шт.}
 [chat_shortcuts/reloading_gun]::{Перезаряжаюсь, ещё %(floatArg1)d c!}
@@ -89,7 +95,9 @@ Content-Transfer-Encoding: 8bit
 [chat_shortcuts/reloading_ready_cassette]::{К выстрелу готов! Снарядов в кассете: %(int32Arg1)s шт.}
 [chat_shortcuts/reloading_unavailable]::{Боекомплект пуст.}
 [chat_shortcuts/spg_aim_area]::{Навожусь на позицию. К выстрелу готов!}
+[chat_shortcuts/spg_aim_area_gridInfo]::{Навожусь на %(gridId)s. К выстрелу готов!}
 [chat_shortcuts/spg_aim_area_reloading]::{Навожусь на позицию. Перезаряжаюсь ещё %(reloadTime)d c!}
+[chat_shortcuts/spg_aim_area_reloading_gridInfo]::{Навожусь на %(gridId)s. Перезаряжаюсь, ещё %(reloadTime)d с!}
 [chat_shortcuts/supporting_ally]::{%(target)s, я помогу тебе!}
 [chat_shortcuts/thanks]::{%(target)s, спасибо!}
 [chat_shortcuts/turn_back]::{%(target)s, назад!}
@@ -635,6 +643,10 @@ Home/End — перемотка в начало/конец
 [rewardWindow/twitch15/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вы получаете уникальный стиль и другие ценные награды.}
 [rewardWindow/twitch15/headerText]::{Набор «Десятка»}
 [rewardWindow/twitch15/subHeaderText]::{Получены награды}
+[rewardWindow/twitch16/btnLabel]::{Рекрутировать}
+[rewardWindow/twitch16/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вы получаете уникальный стиль и другие ценные награды.}
+[rewardWindow/twitch16/headerText]::{World of Tanks: Набор Старлайт}
+[rewardWindow/twitch16/subHeaderText]::{Получены награды}
 [rewardWindow/twitch2/btnLabel]::{Так точно!}
 [rewardWindow/twitch2/descText]::{Поздравляем, боец! За участие в специальной акции «Прямой эфир» вам вручается щедрая награда.}
 [rewardWindow/twitch2/headerText]::{Набор Чарли}

@@ -628,6 +628,8 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <rankedFinalYearPoints>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/rankedFinaleAwardsNotification/text)&lt;/font&gt;</rankedFinalYearPoints>
       <battlePassGold>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battlePassReward/buy/gold) &lt;font color=&#39;#FFC363&#39;&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battlePassGold>
       <battlePassTMan>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battlePassReward/tman) &lt;font color=&#39;#D6D7D4&#39;&gt;%(name)s&lt;/font&gt;&lt;/font&gt;</battlePassTMan>
+      <battlePassTrophySelect>&lt;font color=&#39;#D6D7D4&#39;&gt;_(#messenger:serviceChannelMessages/battlePass/trophySelectToken) &lt;/font&gt;</battlePassTrophySelect>
+      <battlePassNewDeviceToken>&lt;font color=&#39;#D6D7D4&#39;&gt;_(#messenger:serviceChannelMessages/battlePass/newDeviceToken) &lt;/font&gt;</battlePassNewDeviceToken>
       <intelligenceBlueprintReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived): &lt;font color=&#39;#D6D7D4&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;</intelligenceBlueprintReceived>
       <nationalBlueprintReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived): &lt;font color=&#39;#D6D7D4&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;</nationalBlueprintReceived>
    </htmlTemplatesSimple>
@@ -1222,6 +1224,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>ClockIcon</icon>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/rankedBattlesNotSet)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
       </RankedBattlesNotSetSysMessage>
+      <BobBattlesAvailableSysMessage>
+         <priority>high</priority>
+         <type>yellow</type>
+         <icon>ClockIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/bobBattlesAvailable)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+      </BobBattlesAvailableSysMessage>
       <PaymentMethodLinkSysMessage>
          <type>grey</type>
          <icon>ConfirmIcon</icon>
@@ -1987,5 +1995,20 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>InformationIcon</icon>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/dedicationReward/header)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
       </DedicationRewardMessage>
+      <NotSelectedDevicesReminderSysMessage>
+         <priority>low</priority>
+         <type>grey</type>
+         <icon>BattlePassIcon</icon>
+         <groupID>offer</groupID>
+         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#messenger:serviceChannelMessages/nonSelectedDevices/button)</label>
+               <action>openSelectDevices</action>
+               <width>107</width>
+            </button>
+         </buttonsLayout>
+      </NotSelectedDevicesReminderSysMessage>
    </htmlTemplates>
 </messenger.xml>
