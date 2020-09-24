@@ -267,6 +267,10 @@
          <Type>BOOL</Type>
          <Flags>ALL_CLIENTS</Flags>
       </isBlockingCapture>
+      <dogTag>
+         <Type>BATTLE_DOG_TAG</Type>
+         <Flags>CELL_PRIVATE</Flags>
+      </dogTag>
    </Properties>
    <TempProperties>
       <events></events>
@@ -403,9 +407,6 @@
          <Arg>MAILBOX</Arg>
          <Arg>BOOL</Arg>
       </registerObserver>
-      <sendFinalStats>
-         <Arg>PYTHON</Arg>
-      </sendFinalStats>
       <onClientConnected>
          <Arg>BOOL</Arg>
       </onClientConnected>
@@ -533,19 +534,10 @@
       </updateActiveDeathZones>
    </CellMethods>
    <BaseMethods>
-      <createCellNearHere>
-         <Arg>MAILBOX</Arg>
-      </createCellNearHere>
       <onCreateCellSuccess></onCreateCellSuccess>
-      <receiveFinalStats>
-         <Arg>STRING</Arg>
-      </receiveFinalStats>
       <setAvatar>
          <Arg>MAILBOX</Arg>
       </setAvatar>
-      <sendFinalStats>
-         <Arg>PYTHON</Arg>
-      </sendFinalStats>
       <smartDestroy></smartDestroy>
       <logAimMetrics>
          <Arg>PYTHON</Arg>

@@ -243,7 +243,6 @@ Content-Transfer-Encoding: 8bit
 [bonusType/24]::{Генеральное сражение}
 [bonusType/27]::{Линия фронта}
 [bonusType/29]::{«Стальной охотник»}
-[bonusType/32]::{Схватка}
 [bonusType/4]::{Специальный бой}
 [bonusType/5]::{Специальный бой}
 [bonusType/6]::{Боевое обучение}
@@ -368,7 +367,6 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/copyClanName]::{Скопировать название клана}
 [contextMenu/copyToClipBoard]::{Копировать имя}
 [contextMenu/createBattleRoyaleSquad]::{Создать взвод охотников}
-[contextMenu/createBobSquad]::{Создать взвод для Схватки}
 [contextMenu/createContactNote]::{Создать заметку}
 [contextMenu/createEventSquad]::{Создать Тигриный взвод}
 [contextMenu/createPrivateChannel]::{Отправить сообщение}
@@ -560,6 +558,7 @@ Content-Transfer-Encoding: 8bit
 [currentVehicleStatus/rotationGroupLocked]::{Недоступно}
 [currentVehicleStatus/rotationGroupUnlocked]::{К бою готов!}
 [currentVehicleStatus/serverRestriction]::{Серверное ограничение}
+[currentVehicleStatus/tooHeavy]::{Машина перегружена}
 [currentVehicleStatus/undamaged]::{К бою готов!}
 [currentVehicleStatus/unsuitableToQueue]::{Не подходит}
 [currentVehicleStatus/unsuitableToUnit]::{Не подходит}
@@ -877,8 +876,6 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/battleRoyaleSquad/description]::{Создать взвод из 3 бойцов}
 [headerButtons/battle/types/battleTeaching]::{Учебный бой}
 [headerButtons/battle/types/battleTutorial]::{Боевое обучение}
-[headerButtons/battle/types/bob]::{Схватка}
-[headerButtons/battle/types/bob/descr]::{?empty?}
 [headerButtons/battle/types/epic]::{Линия фронта}
 [headerButtons/battle/types/epic/descr]::{Режим с автоматическим подбором союзников для игры против случайных противников.}
 [headerButtons/battle/types/epic/extra/currentCycle]::{Сезон %(season)s. Этап %(cycle)s}
@@ -917,7 +914,7 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/ranked/availability/yearEnded]::{Сезон окончен}
 [headerButtons/battle/types/ranked/descr]::{Бой за продвижение вверх по ладдерной таблице с получением рангов и ценных наград.
 • Тип боёв: Стандартный бой.
-• Допустимая техника: только Х уровень.}
+• Допустимая техника: только Х уровень (исследуемая и коллекционная).}
 [headerButtons/battle/types/rankedLeave/descr]::{Выйти из боя}
 [headerButtons/battle/types/simpleSquad]::{Взвод}
 [headerButtons/battle/types/spec]::{Специальный бой}
@@ -925,7 +922,6 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/specLeave]::{Специальный бой}
 [headerButtons/battle/types/squad]::{Взвод}
 [headerButtons/battle/types/squad/battleRoyale]::{: Стальной охотник}
-[headerButtons/battle/types/squad/bob]::{: Схватка}
 [headerButtons/battle/types/squad/descr]::{Формирование из 2-3 игроков для совместной игры в Случайных боях.}
 [headerButtons/battle/types/squad/description]::{Игра взводом до 3-х бойцов}
 [headerButtons/battle/types/squad/epic]::{: Линия фронта}
@@ -962,8 +958,6 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/doLabel/premium]::{Продлить}
 [headerButtons/fightBtn/tooltip/battleRoyaleDisabled/body]::{На текущем сервере комендантский час.}
 [headerButtons/fightBtn/tooltip/battleRoyaleDisabled/header]::{Выход в бой недоступен}
-[headerButtons/fightBtn/tooltip/bobOnly/body]::{Выбранная машина подходит только для режима «Схватка».}
-[headerButtons/fightBtn/tooltip/bobOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/body]::{Выбранная машина подходит только для режима «Линия фронта».}
 [headerButtons/fightBtn/tooltip/epicBattleOnly/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/epicLevelRequired/bodyEnd]::{технике %(level)s уровня}
@@ -1141,7 +1135,6 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/21]::{Линия фронта}
 [loading/battleTypes/22]::{Линия фронта}
 [loading/battleTypes/23]::{Стальной охотник}
-[loading/battleTypes/24]::{Схватка}
 [loading/battleTypes/4]::{Боевое обучение}
 [loading/battleTypes/5]::{Командный бой}
 [loading/battleTypes/6]::{Исторический бой}
@@ -1167,7 +1160,6 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/desc/21]::{ }
 [loading/battleTypes/desc/22]::{ }
 [loading/battleTypes/desc/23]::{ }
-[loading/battleTypes/desc/24]::{ }
 [loading/battleTypes/desc/4]::{ }
 [loading/battleTypes/desc/5]::{ }
 [loading/battleTypes/desc/6]::{ }
@@ -1849,6 +1841,7 @@ Content-Transfer-Encoding: 8bit
 [tankCarousel/vehicleStates/rotationGroupLocked]::{Недоступно}
 [tankCarousel/vehicleStates/rotationGroupUnlocked]::{Доступно боёв: %(battlesLeft)s}
 [tankCarousel/vehicleStates/serverRestriction]::{Серверное ограничение}
+[tankCarousel/vehicleStates/tooHeavy]::{Машина перегружена}
 [tankCarousel/vehicleStates/unavailable]::{Недоступно}
 [tankCarousel/vehicleStates/undamaged]::{?empty?}
 [tankCarousel/vehicleStates/unsuitableToQueue]::{Не подходит}

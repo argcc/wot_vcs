@@ -1224,12 +1224,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>ClockIcon</icon>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/rankedBattlesNotSet)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
       </RankedBattlesNotSetSysMessage>
-      <BobBattlesAvailableSysMessage>
-         <priority>high</priority>
-         <type>yellow</type>
-         <icon>ClockIcon</icon>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/bobBattlesAvailable)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
-      </BobBattlesAvailableSysMessage>
       <PaymentMethodLinkSysMessage>
          <type>grey</type>
          <icon>ConfirmIcon</icon>
@@ -1735,6 +1729,21 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>WarningIcon</icon>
          <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
       </RentOfStyleIsAlmostExpiredAutoprolongationONSysMessage>
+      <MissingEventsNotification>
+         <priority>high</priority>
+         <type>grey</type>
+         <icon>AlertIcon</icon>
+         <groupID>offer</groupID>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#system_messages:missingEvents/header)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:missingEvents/text)&lt;/font&gt;&lt;font color=&#39;#D6D7D4&#39;&gt;%(count)s&lt;/font&gt;</message>
+         <buttonsLayout>
+            <button>
+               <type>submit</type>
+               <label>_(#system_messages:missingEvents/button)</label>
+               <action>openMissingEvents</action>
+               <width>107</width>
+            </button>
+         </buttonsLayout>
+      </MissingEventsNotification>
       <RecruitGiftSysMessage>
          <priority>low</priority>
          <type>grey</type>
@@ -1913,11 +1922,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <bgIcon>bg_battle_pass</bgIcon>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(header)s&lt;/font&gt;&lt;br/&gt;%(text)s</message>
       </BattlePassDefaultRewardMessage>
-      <LowTierRewardsMessage>
-         <type>grey</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/lowTierRewardsQuests):&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
-      </LowTierRewardsMessage>
       <UpgradeForCreditsSysMessage>
          <type>yellow</type>
          <icon>CreditsIcon</icon>
@@ -1990,6 +1994,18 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
             </button>
          </buttonsLayout>
       </ProgressiveItemUpdatedMessage>
+      <DogTagComponentUnlockMessage>
+         <priority>medium</priority>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(title)s&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(message)s&lt;/font&gt;</message>
+      </DogTagComponentUnlockMessage>
+      <DogTagComponentGradingMessage>
+         <priority>medium</priority>
+         <type>grey</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;%(title)s&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(message)s&lt;/font&gt;</message>
+      </DogTagComponentGradingMessage>
       <DedicationRewardMessage>
          <type>grey</type>
          <icon>InformationIcon</icon>

@@ -53,7 +53,6 @@ Content-Transfer-Encoding: 8bit
 [chat_example/reloading_ready]::{К выстрелу готов!}
 [chat_example/reloading_ready_cassette]::{К выстрелу готов! До разрядки кассеты осталось снарядов: <Количество снарядов> шт.}
 [chat_example/reloading_unavailable]::{Боекомплект пуст.}
-[chat_example/reply_to_player]::{Принято!}
 [chat_example/spg_aim_area]::{Навожусь на <Квадрат на миникарте>!}
 [chat_example/supporting_ally]::{<Имя союзника>, я помогу тебе!}
 [chat_example/thanks]::{<Имя союзника>, спасибо!}
@@ -63,17 +62,21 @@ Content-Transfer-Encoding: 8bit
 [chat_shortcuts/attack_enemy_with_SPG]::{К выстрелу готов! Атакую %(target)s!}
 [chat_shortcuts/attack_enemy_with_SPG_reloading]::{Атакую %(target)s! Перезаряжаюсь, ещё %(reloadTime)d c!}
 [chat_shortcuts/attacking_base]::{Я буду захватывать базу!}
+[chat_shortcuts/attacking_base_numbered]::{Я захватываю базу %(strArg1)s!}
 [chat_shortcuts/attacking_enemy]::{Атакую %(target)s!}
 [chat_shortcuts/attention_to_base_atk]::{Захватите базу!}
 [chat_shortcuts/attention_to_base_atk_numbered]::{Захватите базу %(strArg1)s!}
 [chat_shortcuts/attention_to_base_def]::{Защищайте базу!}
-[chat_shortcuts/attention_to_base_def_numbered]::{Захватите базу %(strArg1)s!}
+[chat_shortcuts/attention_to_base_def_numbered]::{Защищайте базу %(strArg1)s!}
 [chat_shortcuts/attention_to_cell]::{Внимание на %(cellName)s!}
 [chat_shortcuts/attention_to_objective_atk]::{Уничтожьте цель %(int32Arg1)s!}
+[chat_shortcuts/attention_to_objective_atk_autocommit]::{Я атакую цель %(int32Arg1)s!}
 [chat_shortcuts/attention_to_objective_def]::{Защищайте цель %(int32Arg1)s!}
+[chat_shortcuts/attention_to_objective_def_autocommit]::{Я защищаю цель %(int32Arg1)s!}
 [chat_shortcuts/attention_to_position]::{Внимание на позицию!}
 [chat_shortcuts/attention_to_position_gridInfo]::{Внимание на %(gridId)s}
 [chat_shortcuts/defending_base]::{Я буду защищать базу!}
+[chat_shortcuts/defending_base_numbered]::{Я защищаю базу %(strArg1)s!}
 [chat_shortcuts/global_msg/atk/focus_hq]::{Уничтожайте цели!}
 [chat_shortcuts/global_msg/atk/save_tanks]::{У нас достаточно времени, не теряйте свою технику!}
 [chat_shortcuts/global_msg/atk/time]::{Время на исходе! Бросьте все силы на захват!}
