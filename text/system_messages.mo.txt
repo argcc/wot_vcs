@@ -401,10 +401,14 @@ Content-Transfer-Encoding: 8bit
 [equip_tankman/success]::{Пересадка члена экипажа выполнена успешно.}
 [equip_tankman/vehicle_locked]::{Ошибка перемещения члена экипажа на машину. Машина заблокирована.}
 [equip_tankman/vehicle_need_repair]::{Ошибка перемещения члена экипажа на машину. Необходим ремонт.}
-[event_progression_buy_vehicle/buy]::{Дата: %(date)s
-%(veh_name)s, 100%% экипаж и слот успешно приобретены.
+[event_progression_buy_style/server_error]::{Покупка стиля «%(name)s» не была совершена}
+[event_progression_buy_style/success]::{Дата: %(date)s
+Стиль «%(name)s» успешно приобретён.
 Списано жетонов: %(count)s}
-[event_progression_buy_vehicle/server_error]::{Покупка %(veh_name)s не была совершена}
+[event_progression_buy_vehicle/server_error]::{Покупка %(name)s не была совершена}
+[event_progression_buy_vehicle/success]::{Дата: %(date)s
+%(name)s, 100%% экипаж и слот успешно приобретены.
+Списано жетонов: %(count)s}
 [exchange/not_enough_gold]::{Недостаточно золота для обмена.}
 [exchange/server_error]::{Ошибка обмена %(gold)s золота. Попробуйте позже.}
 [exchange/success]::{Обмен %(gold)s золота успешно завершён. Получено %(credits)s.}
@@ -1224,3 +1228,23 @@ Content-Transfer-Encoding: 8bit
 [wallet/not_available_gold]::{Идёт получение данных о балансе. Всё ваше золото станет доступно в ближайшее время.}
 [window/buttons/close]::{Закрыть}
 [wrong_slot]::{Модуль %s «%s» не подходит для слота %s.}
+[wt_event/details/button]::{Подробнее}
+[wt_event/event/disabled]::{Событие «Последний Ваффентрагер» завершено.
+1. Списаны специальные машины и экипаж.
+2. Накопленный боевой опыт переведён на МС-1.
+3. Имеющиеся энергоблоки открыты, имущество из них начислено на аккаунты.}
+[wt_event/event/enabled]::{Событие «Последний Ваффентрагер» началось.
+Узрите же легендарный
+Waffenträger auf E 110!}
+[wt_event/lootboxes/button]::{Об энергоблоках}
+[wt_event/lootboxes/disabled]::{Операция временно недоступна: ведутся технические работы.
+Вы продолжите получать и накапливать энергоблоки.}
+[wt_event/lootboxes/enabled]::{Функциональность восстановлена}
+[wt_event/lootboxes/header]::{Открытие энергоблоков}
+[wt_event/opened_box]::{Есть неполученные награды в открытом энергоблоке.}
+[wt_event/ticket/buy]::{К покупке}
+[wt_event/ticket/free]::{В этот раз вы провели бой на Waffenträger auf E 110 без ключа! В дальнейшем ключи можно получить в награду за задачи или в составе специальных наборов, приобретаемых в Магазине.}
+[wt_event/ticket/owned]::{Списан ключ за игру на Waffenträger auf E 110.
+Ключи можно получить в награду за задачи или в составе специальных наборов, приобретаемых в Магазине.
+Осталось ключей: %(count)s}
+[wt_event/ticket/tasks]::{К задачам}

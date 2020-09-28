@@ -144,7 +144,7 @@ Content-Transfer-Encoding: 8bit
 • Экипаж, обученный на 100%%;
 • %(prem)s на время действия тарифа;
 • Дополнительный слот в Ангаре.}
-[awardWindow/telecomAward/description/prem/default]::{Премиум аккаунт}
+[awardWindow/telecomAward/description/prem/default]::{Премиум-аккаунт}
 [awardWindow/telecomAward/description/withBrotherhood/Twitchprime]::{Поздравляем! В рамках акции «Прямой эфир» вам стали доступны:
 %(vehicles)s
 • Экипаж, обученный на 100%% (включая полностью изученный навык «Боевое братство»);
@@ -249,7 +249,7 @@ Content-Transfer-Encoding: 8bit
 [bonusType/6]::{Боевое обучение}
 [bonusType/7]::{Командный бой}
 [bonusType/8]::{Исторический бой}
-[bonusType/9]::{Специальный игровой режим}
+[bonusType/9]::{Последний Ваффентрагер}
 [booster/bonus/booster_credits]::{%(effectValue)s на %(effectHours)s к кредитам за бой}
 [booster/bonus/booster_crew_xp]::{%(effectValue)s на %(effectHours)s к опыту экипажа за бой}
 [booster/bonus/booster_fl_xp]::{%(effectValue)s на %(effectHours)s к фронтовому опыту за бой}
@@ -370,7 +370,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/createBattleRoyaleSquad]::{Создать взвод охотников}
 [contextMenu/createBobSquad]::{Создать взвод для Схватки}
 [contextMenu/createContactNote]::{Создать заметку}
-[contextMenu/createEventSquad]::{Создать Тигриный взвод}
+[contextMenu/createEventSquad]::{Создать взвод Гончих}
 [contextMenu/createPrivateChannel]::{Отправить сообщение}
 [contextMenu/createSquad]::{Создать взвод}
 [contextMenu/disableCommunications]::{Заблокировать на время боя}
@@ -560,6 +560,7 @@ Content-Transfer-Encoding: 8bit
 [currentVehicleStatus/rotationGroupLocked]::{Недоступно}
 [currentVehicleStatus/rotationGroupUnlocked]::{К бою готов!}
 [currentVehicleStatus/serverRestriction]::{Серверное ограничение}
+[currentVehicleStatus/ticketsShortage]::{Нет ключа}
 [currentVehicleStatus/undamaged]::{К бою готов!}
 [currentVehicleStatus/unsuitableToQueue]::{Не подходит}
 [currentVehicleStatus/unsuitableToUnit]::{Не подходит}
@@ -881,8 +882,9 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/bob/descr]::{?empty?}
 [headerButtons/battle/types/epic]::{Линия фронта}
 [headerButtons/battle/types/epic/descr]::{Режим с автоматическим подбором союзников для игры против случайных противников.}
-[headerButtons/battle/types/epic/extra/currentCycle]::{Сезон %(season)s. Этап %(cycle)s}
+[headerButtons/battle/types/epic/extra/currentCycle]::{Этап %(cycle)s}
 [headerButtons/battle/types/epic/extra/currentSeason]::{Сезон %(season)s}
+[headerButtons/battle/types/epic/extra/currentSeason_cn]::{Стартовый эпизод}
 [headerButtons/battle/types/epic/extra/frozen]::{Режим отключён}
 [headerButtons/battle/types/epic/extra/startsAt]::{С %(time)s}
 [headerButtons/battle/types/epicBattle]::{Режим ожидания Линии фронта}
@@ -891,7 +893,9 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/epicTraining/descr]::{Линия фронта}
 [headerButtons/battle/types/eventProgression]::{Экспедиция}
 [headerButtons/battle/types/eventProgression/about]::{Ожидайте следующий этап Экспедиции.}
-[headerButtons/battle/types/eventSquad]::{Тигриный взвод}
+[headerButtons/battle/types/eventProgression/about_cn]::{Ожидайте начало эпизода Линии фронта.}
+[headerButtons/battle/types/eventProgression_cn]::{Линия фронта}
+[headerButtons/battle/types/eventSquad]::{?empty?}
 [headerButtons/battle/types/fallout]::{«Бой до последнего»}
 [headerButtons/battle/types/fort]::{Укрепрайон: сражения}
 [headerButtons/battle/types/fortLeave]::{Укрепрайон: сражения}
@@ -929,7 +933,7 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/squad/descr]::{Формирование из 2-3 игроков для совместной игры в Случайных боях.}
 [headerButtons/battle/types/squad/description]::{Игра взводом до 3-х бойцов}
 [headerButtons/battle/types/squad/epic]::{: Линия фронта}
-[headerButtons/battle/types/squad/event]::{: «Крадущийся тигр»}
+[headerButtons/battle/types/squad/event]::{: Последний Ваффентрагер}
 [headerButtons/battle/types/squad/randomBattle]::{: Случайный бой}
 [headerButtons/battle/types/squadBattle]::{Отправить взвод в бой}
 [headerButtons/battle/types/squadLeave]::{Взвод}
@@ -969,6 +973,8 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/fightBtn/tooltip/epicLevelRequired/bodyEnd]::{технике %(level)s уровня}
 [headerButtons/fightBtn/tooltip/epicLevelRequired/bodyStart]::{В бой можно выйти только на %(requirements)s.}
 [headerButtons/fightBtn/tooltip/epicLevelRequired/header]::{Неподходящая машина}
+[headerButtons/fightBtn/tooltip/eventDisabled/body]::{На этом сервере комендантский час. Попробуйте перейти на другой сервер.}
+[headerButtons/fightBtn/tooltip/eventDisabled/header]::{Выход в бой невозможен}
 [headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/body]::{Для выхода в бой подтвердить готовность должны командир взвода и как минимум один из совзводных.}
 [headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/header]::{Выход в бой недоступен}
 [headerButtons/fightBtn/tooltip/falloutNotReady/body]::{Выберите технику: выйти в бой можно только полностью укомплектовав группу.}
@@ -1145,7 +1151,7 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/4]::{Боевое обучение}
 [loading/battleTypes/5]::{Командный бой}
 [loading/battleTypes/6]::{Исторический бой}
-[loading/battleTypes/7]::{Специальный игровой режим}
+[loading/battleTypes/7]::{Последний Ваффентрагер}
 [loading/battleTypes/8]::{Вылазки}
 [loading/battleTypes/9]::{Бой с кланом}
 [loading/battleTypes/desc/0]::{ }
@@ -1849,6 +1855,7 @@ Content-Transfer-Encoding: 8bit
 [tankCarousel/vehicleStates/rotationGroupLocked]::{Недоступно}
 [tankCarousel/vehicleStates/rotationGroupUnlocked]::{Доступно боёв: %(battlesLeft)s}
 [tankCarousel/vehicleStates/serverRestriction]::{Серверное ограничение}
+[tankCarousel/vehicleStates/ticketsShortage]::{Нет ключа}
 [tankCarousel/vehicleStates/unavailable]::{Недоступно}
 [tankCarousel/vehicleStates/undamaged]::{?empty?}
 [tankCarousel/vehicleStates/unsuitableToQueue]::{Не подходит}

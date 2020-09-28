@@ -36,6 +36,7 @@ Content-Transfer-Encoding: 8bit
 [antifragmentationLining_tier2/name]::{Тяжёлый противоосколочный подбой}
 [antifragmentationLining_tier3/name]::{Средний противоосколочный подбой}
 [antifragmentationLining_tier4/name]::{Лёгкий противоосколочный подбой}
+[antifragmentationLining_wt/name]::{Сверхтяжёлый противоосколочный подбой}
 [artillery/longDescr]::{Артиллерийская батарея выполняет залп осколочно-фугасными снарядами по определённой площади. Техника в центре удара получает значительные повреждения.}
 [artillery/name]::{Артобстрел}
 [artillery/shortDescr]::{Максимальный урон по медленной технике противника}
@@ -273,6 +274,14 @@ Content-Transfer-Encoding: 8bit
 [largeMedkit/restriction]::{?empty?}
 [largeMedkit/short_special]::{Лечит всех раненых членов экипажа и снимает оглушение}
 [largeMedkit/stunDisabled/descr]::{Лечение всех раненых членов экипажа.}
+[largeMedkit_wt/always]::{%(crewHitChance)s к защите экипажа от ранений}
+[largeMedkit_wt/descr]::{Лечение всех раненых членов экипажа и снятие эффекта оглушения.}
+[largeMedkit_wt/long_special]::{Позволяет вернуть в строй всех раненых членов экипажа за раз. Также пассивно улучшает защиту экипажа от ранений. Требует ручной активации. Подходит для всех типов техники любой нации.}
+[largeMedkit_wt/name]::{Большая аптечка}
+[largeMedkit_wt/onUse]::{Лечение всех раненых членов экипажа. Используется многократно за бой. Снаряжение списывается после боя, если было хоть раз применено.}
+[largeMedkit_wt/restriction]::{?empty?}
+[largeMedkit_wt/short_special]::{Лечит всех раненых членов экипажа}
+[largeMedkit_wt/stunDisabled/descr]::{Лечение всех раненых членов экипажа.}
 [largeRepairkit/always]::{%(vehicleRepairSpeed)s к скорости ремонта модулей}
 [largeRepairkit/descr]::{Починка всех повреждённых модулей.}
 [largeRepairkit/long_special]::{Позволяет восстановить все повреждённые модули за раз. Также пассивно увеличивает скорость ремонта. Требует ручной активации. Подходит для всех типов техники любой нации.}

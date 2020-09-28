@@ -292,6 +292,7 @@ Content-Transfer-Encoding: 8bit
 [dialogs/squad/message/spgForbidden]::{Невозможно взять САУ во взвод}
 [dialogs/squad/message/spgFull]::{Достигнут максимум количества САУ во взводе}
 [dialogs/squad/message/vehicles/differentLevels]::{Штраф к опыту из-за некорректного состава взвода!}
+[dialogs/squad/message/whiteTigerForbidden]::{Выберите Т-55 «Разряд»}
 [dialogs/squadChannel/battleType]::{Режим боя:}
 [dialogs/squadChannel/battleTypeDomination]::{Случайный бой}
 [dialogs/squadChannel/bonuses/credits]::{К кредитам}
@@ -690,6 +691,11 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/techVictory]::{Техническая победа}
 [serviceChannelMessages/battleResults/training_battle]::{Учебный бой}
 [serviceChannelMessages/battleResults/victory]::{Победа}
+[serviceChannelMessages/battleResults/wt_event/gameMode]::{Игровое событие}
+[serviceChannelMessages/battleResults/wt_event/gameModeName]::{«Последний Ваффентрагер»}
+[serviceChannelMessages/battleResults/wt_event/side]::{Сторона}
+[serviceChannelMessages/battleResults/wt_event/side/boss]::{Инженер}
+[serviceChannelMessages/battleResults/wt_event/side/hunter]::{Гончие}
 [serviceChannelMessages/battleTutorial/reasons/extermination]::{Машина уничтожена}
 [serviceChannelMessages/battleTutorial/reasons/failed]::{?empty?}
 [serviceChannelMessages/battleTutorial/reasons/finished]::{?empty?}
@@ -871,10 +877,13 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/lootBoxes/footer]::{Нажмите кнопку, чтобы перейти к содержимому.}
 [serviceChannelMessages/lootBoxes/header]::{Вам посылка:}
 [serviceChannelMessages/lootBoxes/item/name]::{«%(name)s» %(colorTagOpen)sx%(count)s%(colorTagClose)s}
+[serviceChannelMessages/lootBoxesAutoOpen/boxes]::{Открыто энергоблоков: %(boxes)s}
 [serviceChannelMessages/lootBoxesAutoOpen/button]::{Посмотреть}
-[serviceChannelMessages/lootBoxesAutoOpen/counter]::{x%(count)s}
-[serviceChannelMessages/lootBoxesAutoOpen/header]::{Получены награды}
-[serviceChannelMessages/lootBoxesAutoOpen/text]::{Мы открыли за вас коробки и начиcлили награды за «Новогоднее наступление»}
+[serviceChannelMessages/lootBoxesAutoOpen/counter]::{%(boxName)s (x%(count)d)}
+[serviceChannelMessages/lootBoxesAutoOpen/header]::{Открытие энергоблоков}
+[serviceChannelMessages/lootBoxesAutoOpen/rewards]::{Получено имущество:
+%(rewards)s}
+[serviceChannelMessages/lootBoxesAutoOpen/text]::{Мы открыли за вас энергоблоки и начиcлили их содержимое:}
 [serviceChannelMessages/nonSelectedDevices/button]::{Выбрать}
 [serviceChannelMessages/nonSelectedDevices/text/battlePassNewDeviceGiftToken]::{Вам доступно штатное оборудование на выбор: %(count)s}
 [serviceChannelMessages/nonSelectedDevices/text/battlePassTrophyGiftToken]::{Вам доступно трофейное оборудование на выбор: %(count)s}
@@ -1028,6 +1037,10 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/vehiclesAllLockExpired]::{Блокировка закончилась. Вся техника доступна для кланового боя.}
 [serviceChannelMessages/waresBoughtAsGold]::{От игрока %(srcName)s получено золота: %(srcWares)s.}
 [serviceChannelMessages/waresSoldAsGold]::{%(srcWares)s золота отправлено игроку %(dstName)s. Комиссия составила %(fee)s.}
+[serviceChannelMessages/wt_event/boxesEarned]::{Получено энергоблоков:}
+[serviceChannelMessages/wt_event/completedQuests]::{Задач в бою выполнено:}
+[serviceChannelMessages/wt_event/specialBoxesEarned]::{Получено Спецэнергоблоков:}
+[serviceChannelMessages/wt_event/ticket]::{Получено ключей:}
 [serviceChannelMessages/xpReceivedAsGift]::{От администрации получен свободный опыт: %(freeXP)s.}
 [status/offline]::{Не в сети}
 [status/online]::{В сети}

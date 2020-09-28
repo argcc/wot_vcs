@@ -1376,17 +1376,22 @@ Content-Transfer-Encoding: 8bit
 [equipment/restriction]::{Ограничение:}
 [event/squad/disable/body]::{Для режима «Крадущийся тигр» выберите Sturmtiger.}
 [event/squad/disable/header]::{Внимание!}
-[eventProgression/allSeasonsAreOver]::{Все этапы завершены.}
+[eventProgression/allSeasonsAreOver/multi]::{Все этапы завершены}
+[eventProgression/allSeasonsAreOver/single]::{Эпизод завершён}
 [eventProgression/currency]::{Жетоны:}
 [eventProgression/description]::{Участвуйте в Экспедиции и получайте уникальную технику за жетоны: %(vehicles)s или %(vehicle)s.}
+[eventProgression/description_cn]::{Отправляйтесь на Линию фронта и получайте ценные игровые награды, а также уникальные стили за заработанные жетоны: %(styles)s, %(style)s.}
 [eventProgression/disabled]::{Режим отключён}
 [eventProgression/frontLine]::{Линия фронта}
 [eventProgression/header]::{Экспедиция}
 [eventProgression/level]::{Уровень %(level)s}
 [eventProgression/season]::{Линия фронта. Этап %(season)s}
+[eventProgression/season_cn]::{Этап %(season)s}
 [eventProgression/steelHunter/season]::{Стальной охотник. Этап %(season)s}
-[eventProgression/timeToLeft]::{До конца этапа: %(value)s}
-[eventProgression/timeToStart]::{До начала этапа: %(value)s}
+[eventProgression/timeToLeft/cycle]::{До конца этапа: %(value)s}
+[eventProgression/timeToLeft/season]::{До конца: %(value)s}
+[eventProgression/timeToStart/cycle]::{До начала этапа: %(value)s}
+[eventProgression/timeToStart/season]::{До начала: %(value)s}
 [eventProgression/unlockedDailyMissions]::{Стали доступны ежедневные задачи.}
 [falloutBattleSelectorWindow/btnDisabled/body]::{Вы находитесь в очереди на вход в бой.}
 [falloutBattleSelectorWindow/btnDisabled/header]::{Переход недоступен}
@@ -2015,6 +2020,8 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/bp-commander-1_2/label]::{Боевой пропуск, второй сезон}
 [notrecruitedtankman/buffon/desc]::{Выдавался за выполнение определённых условий в футбольном режиме 2018 года. Легендарный итальянский вратарь Джанлуиджи Буффон — командир экипажа с уникальной озвучкой и изученными навыками.}
 [notrecruitedtankman/buffon/label]::{Футбольный режим}
+[notrecruitedtankman/ch_compensation/desc]::{Выбран в качестве компенсации за изменение ТТХ снаряда. У него изучен «нулевой» навык «Боевое братство».}
+[notrecruitedtankman/ch_compensation/label]::{Уникальный член экипажа}
 [notrecruitedtankman/commander_bp1/desc]::{Исключительно темпераментный военный со сложным импульсивным характером, который фактически родился и вырос в танковой части. Несмотря на средние теоретические знания, прекрасно чувствует себя в любой боевой ситуации за счёт звериного чутья и хорошо развитой интуиции. Отличается нестандартным тактическим мышлением, что зачастую играет ему на руку в бою.}
 [notrecruitedtankman/commander_bp1/howToGetInfo]::{?empty?}
 [notrecruitedtankman/commander_bp1/label]::{Боевой пропуск, первый сезон}
@@ -2094,6 +2101,9 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/twitch9/desc]::{Главная цель тактической бороды Анри — поддерживать моральный дух экипажа и приносить победу. Мода, характерная для подводного флота, добралась-таки до бронетанковых войск.}
 [notrecruitedtankman/twitch9/label]::{Уникальный член экипажа}
 [notrecruitedtankman/useBefore]::{Доступно до: %(date)s}
+[notrecruitedtankman/wt_raidboss_commander/desc]::{«Природа подарила нам электричество, но лишь я один сумел увидеть его неисчерпаемую силу, обуздать её, подчинить. Мне не верили. Надо мной посмеивались. И где же вы сейчас, бесталанные скептики?»}
+[notrecruitedtankman/wt_raidboss_commander/howToGetInfo]::{?empty?}
+[notrecruitedtankman/wt_raidboss_commander/label]::{Последний Ваффентрагер}
 [parameter/categories]::{Категория: }
 [personalMissions/awards/camouflage/alliance/body]::{Набор из 3 камуфляжных схем (летняя, зимняя и пустынная).
 
@@ -2612,6 +2622,8 @@ Content-Transfer-Encoding: 8bit
 [settings_dialog/sound/alternativeVoices/body]::{Воспроизвести пример}
 [settings_dialog/sound/soundModeInvalid]::{Файлы выбранного голоса уведомлений
 повреждены или отсутствуют.}
+[setttingsDisabledNotification/body]::{В этом игровом режиме часть настроек недоступна, выберите другой режим.}
+[setttingsDisabledNotification/header]::{Недоступно}
 [shell/basic]::{Базовый}
 [shell/basic/description]::{%(bold)s — снаряд, применяемый по умолчанию для выбранного орудия. Используется для вычисления характеристик орудия и параметра «Огневая мощь».}
 [shell/basic/description/bold]::{Базовый снаряд}
@@ -3124,6 +3136,8 @@ Content-Transfer-Encoding: 8bit
 [vehiclePreview/buyButton/parentVehicleIsLocked/header]::{Исследование недоступно}
 [vehiclePreview/buyingPanel/eventProgression/price/body]::{Экспедиция 2020 года разбита на несколько этапов. Всего их запланировано восемь. За каждый этап вы можете заработать определённое количество жетонов Экспедиции (до 3 шт. за этап) и обменять их на наградные машины IX уровня. Помните, что максимального количества жетонов хватит только на две машины из трёх. Распоряжайтесь жетонами мудро.}
 [vehiclePreview/buyingPanel/eventProgression/price/header]::{Жетоны Экспедиции}
+[vehiclePreview/buyingPanel/eventProgression/style_price/body]::{За двухнедельный эпизод Линии фронта вы можете заработать определённое количество жетонов (до 6 шт.) и обменять их на наградные стили.}
+[vehiclePreview/buyingPanel/eventProgression/style_price/header]::{Жетоны Линии фронта}
 [vehiclePreview/crew/additionalRoles]::{По совместительству: %(roles)s}
 [vehiclePreview/crew/commander]::{Влияет на дальность обнаружения противника (%(paramName)s).
 Усиливает экипаж. За каждые %(commanderPercents)s своего основного навыка командир добавляет по %(crewPercents)s к основному умению всем членам экипажа, кроме самого себя.}
