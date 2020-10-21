@@ -1829,6 +1829,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>InformationIcon</icon>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#lootboxes:notification/header)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;%(text)s</message>
       </LootBoxRewardsSysMessage>
+      <EventLootBoxesAutoOpenMessage>
+         <priority>high</priority>
+         <type>yellow</type>
+         <icon>WarningIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/lootBoxesAutoOpen/event/header)&lt;/font&gt;&lt;br/&gt;&lt;font face=&#34;$FieldFont&#34; size=&#34;14&#34; color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/lootBoxesAutoOpen/event/text)&lt;/font&gt;&lt;br/&gt;_(#messenger:serviceChannelMessages/lootBoxesAutoOpen/event/boxes)&lt;br/&gt;%(rewards)s</message>
+      </EventLootBoxesAutoOpenMessage>
       <OfferGiftBonusesSysMessage>
          <type>grey</type>
          <priority>low</priority>

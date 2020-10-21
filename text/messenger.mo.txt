@@ -876,6 +876,12 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/lootBoxes/item/name]::{«%(name)s» %(colorTagOpen)sx%(count)s%(colorTagClose)s}
 [serviceChannelMessages/lootBoxesAutoOpen/button]::{Посмотреть}
 [serviceChannelMessages/lootBoxesAutoOpen/counter]::{x%(count)s}
+[serviceChannelMessages/lootBoxesAutoOpen/event/boxes]::{Открыто энергоблоков: %(boxes)s}
+[serviceChannelMessages/lootBoxesAutoOpen/event/counter]::{%(boxName)s (x%(count)d)}
+[serviceChannelMessages/lootBoxesAutoOpen/event/header]::{Открытие энергоблоков}
+[serviceChannelMessages/lootBoxesAutoOpen/event/rewards]::{Получено имущество:
+%(rewards)s}
+[serviceChannelMessages/lootBoxesAutoOpen/event/text]::{Мы открыли за вас энергоблоки и начиcлили их содержимое:}
 [serviceChannelMessages/lootBoxesAutoOpen/header]::{Получены награды}
 [serviceChannelMessages/lootBoxesAutoOpen/text]::{Мы открыли за вас коробки и начиcлили награды за «Новогоднее наступление»}
 [serviceChannelMessages/nonSelectedDevices/button]::{Выбрать}
@@ -1035,6 +1041,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/xpReceivedAsGift]::{От администрации получен свободный опыт: %(freeXP)s.}
 [status/offline]::{Не в сети}
 [status/online]::{В сети}
-[xmpp_error/action]::{Невозможно выполнить «%(actionName)s». Код ошибки: %(strArg1)s. Попробуйте позже.}
-[xmpp_error/simple]::{Код ошибки: %(strArg1)s. Попробуйте позже.}
+[xmpp_error/action]::{Невозможно выполнить «%(actionName)s». Попробуйте позже.}
+[xmpp_error/simple]::{Попробуйте позже.}
 [xmpp_error/user_room_creation]::{Невозможно создать пользовательский канал %(strArg1)s.}
