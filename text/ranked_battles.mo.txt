@@ -8,12 +8,12 @@ MIME-Version: 1.0
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: 8bit
 }
-[alertMessage/allPeripheriesHalt]::{Комендантский час на всех серверах. Бои начнутся через %(time)s.}
+[alertMessage/allPeripheriesHalt]::{Режим прекращения огня на всех серверах. Бои начнутся через %(time)s.}
 [alertMessage/button/changeServer]::{Сменить сервер}
 [alertMessage/button/moreInfo]::{Подробнее}
 [alertMessage/seasonFinished]::{Сезон %(seasonName)s завершён}
-[alertMessage/singleModeHalt]::{Комендантский час на сервере. Бои начнутся через %(time)s.}
-[alertMessage/somePeripheriesHalt]::{Комендантский час на сервере %(serverName)s}
+[alertMessage/singleModeHalt]::{Режим прекращения огня на сервере. Бои начнутся через %(time)s.}
+[alertMessage/somePeripheriesHalt]::{Режим прекращения огня на сервере %(serverName)s}
 [alertMessage/unsuitablePeriphery]::{Режим недоступен на сервере %(serverName)s}
 [alertMessage/unsuitableVehicles]::{В Ангаре нет подходящей техники %(levels)s уровня}
 [awards/bonusBattles/efficiency]::{Стандартных, за эффективность в завершённом этапе: %(amount)s}
@@ -133,15 +133,25 @@ Content-Transfer-Encoding: 8bit
 [division/tooltip/status/locked]::{Дивизион недоступен}
 [division/tooltip/status/locked/desc]::{Сначала необходимо пройти предыдущий дивизион.}
 [division/tooltip/status/locked/descQual]::{Квалификация ещё не пройдена.}
-[intoPage/blocks/block1/description]::{Сражения проходят в формате 15х15 игроков, по правилам Стандартного боя, на ограниченном количестве карт и только на технике Х уровня.}
-[intoPage/blocks/block1/title]::{Техника Х уровня}
-[intoPage/blocks/block2/description]::{На пути к победе необходимо пройти через квалификацию и 3 дивизиона, а после — попасть в одну из лиг, сражаясь с равным по силе противником.}
-[intoPage/blocks/block2/title]::{3 дивизиона}
-[intoPage/blocks/block3/description]::{Пройдя весь сезон, вы сможете получить специальный стиль для техники X уровня, а в конце сезона 2020–2021 — ценные награды и уникальный танк IX уровня.}
-[intoPage/blocks/block3/title]::{Уникальные награды}
-[intoPage/btns/accept]::{Так точно!}
-[intoPage/btns/detailed]::{Подробнее о режиме}
-[intoPage/description]::{Бои 15х15, X уровень техники, 3 дивизиона на пути к победе.}
+[entryPoint/activeSeason]::{Сезон {season}, до {date}}
+[entryPoint/beforeSeason]::{Сезон {season}, с {date}}
+[entryPoint/frozen/thin]::{Временно отключён}
+[entryPoint/frozen/wide]::{Режим временно отключён}
+[entryPoint/title]::{РАНГОВЫЙ БОЙ}
+[entryPoint/waitNextSeasonDate/thin/newSeasonSoon]::{Сезон {nextSeason}, с {date}}
+[entryPoint/waitNextSeasonDate/thin/seasonEnd]::{Сезон {season} завершён}
+[entryPoint/waitNextSeasonDate/wide]::{Сезон {season} завершён | Сезон {nextSeason} с {date}}
+[entryPoint/waitNextSeasonWithoutDate]::{Сезон {season} завершён}
+[introPage/blocks/block1/description]::{Сражения проходят 15х15 игроков по правилам Стандартного боя, на ограниченном количестве карт и только на исследуемой и коллекционной технике Х уровня.}
+[introPage/blocks/block1/title]::{Техника Х уровня}
+[introPage/blocks/block2/description]::{На пути к победе необходимо пройти через квалификацию и 3 дивизиона, а после — попасть в одну из лиг, сражаясь с равным по силе противником.}
+[introPage/blocks/block2/title]::{3 дивизиона}
+[introPage/blocks/block3/description]::{Пройдя весь сезон, вы сможете получить специальный стиль для техники X уровня, а в конце сезона 2020–2021 — ценные награды и уникальный танк IX уровня.}
+[introPage/blocks/block3/title]::{Уникальные награды}
+[introPage/blocks/yearRewardDisabled]::{Пройдя весь сезон, вы сможете получить уникальный стиль для техники X уровня.}
+[introPage/btns/accept]::{Так точно!}
+[introPage/btns/detailed]::{Подробнее о режиме}
+[introPage/description]::{Бои 15х15, X уровень техники, 3 дивизиона на пути к победе.}
 [notification/rankEarned]::{получен ранг}
 [notification/rankLost]::{потерян ранг}
 [notification/rankedMessage]::{Поздравляем!
@@ -157,13 +167,13 @@ Content-Transfer-Encoding: 8bit
 [primeTime/applyBtn]::{Перейти}
 [primeTime/continueBtn]::{Продолжить}
 [primeTime/serverTooltip]::{Сервер}
-[primeTime/status/allServersDisabled]::{Комендантский час на всех серверах}
+[primeTime/status/allServersDisabled]::{Режим прекращения огня на всех серверах}
 [primeTime/status/disable]::{Вы можете перейти на выбранный сервер, чтобы продолжить предбоевую подготовку.}
 [primeTime/status/disableFirst]::{Режим на сервере %(server)s недоступен}
 [primeTime/status/primeIsAvailable]::{Бои на %(server)s будут доступны ещё %(time)s}
 [primeTime/status/primeWillBeAvailable]::{Начало боёв на %(server)s через %(time)s}
 [primeTime/status/seasonDisabled]::{%(season)s сезон на сервере %(server)s завершился.}
-[primeTime/status/untill]::{Комендантский час до %(startTime)s на сервере %(server)s}
+[primeTime/status/untill]::{Режим прекращения огня до %(startTime)s на сервере %(server)s}
 [primeTime/title]::{Ранговые бои
 пока не проводятся}
 [primeTime/titleWelcome]::{Добро пожаловать
@@ -249,12 +259,14 @@ Content-Transfer-Encoding: 8bit
 [rankedBattleMainView/leaguesView/topDescr]::{Продолжайте зарабатывать шевроны и повышать эффективность, чтобы укрепить свою позицию в лиге и в Топ-%(count)d.}
 [rankedBattleMainView/leaguesView/unavailableDescr]::{Идёт расчёт лиги, в которую вы попали. Результат скоро будет известен.}
 [rankedBattleMainView/leaguesView/unavailableTitle]::{Лига не определена}
+[rankedBattleMainView/leaguesView/yearLeaderboardDisabled]::{Продолжайте зарабатывать шевроны и повышать эффективность, чтобы укрепить свою позицию в лиге.}
 [rankedBattleMainView/season]::{%(season)s сезон}
 [rankedBattleMainView/seasonComplete]::{Сезон %(season)s завершён}
 [rankedBattleMainView/seasonCompleteSingle]::{Сезон %(season)s завершён.}
 [rankedBattleMainView/seasonGap]::{Сезон %(newSeason)s начнётся %(date)s}
 [rankedBattleMainView/seasonGap/bannedDivision/descr]::{Полученные в сезоне жетоны списаны из-за нарушений Правил игры.}
 [rankedBattleMainView/seasonGap/bannedLeague/descr]::{Вы были исключены из списка лидеров сезона за нарушение Правил игры. Полученные в сезоне жетоны списаны.}
+[rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr]::{Вы были исключены из списка лидеров сезона за нарушение Правил игры.}
 [rankedBattleMainView/seasonGap/bannedNotInDivisions/descr]::{Ранговый жетон был списан из-за нарушений Правил игры}
 [rankedBattleMainView/seasonGap/bannedNotInSeason/descr]::{Полученные в сезоне жетоны списаны из-за нарушений Правил игры.}
 [rankedBattleMainView/seasonGap/division/descr]::{Ваш наивысший заслуженный ранг в сезоне}
@@ -366,7 +378,11 @@ Content-Transfer-Encoding: 8bit
 [rankedBattlesUnreachableView/bottomText]::{Как быстрее получить технику %(levels)s уровня?}
 [rankedBattlesUnreachableView/closeBtnLabel]::{ЗАКРЫТЬ}
 [rankedBattlesUnreachableView/subtitleText]::{Режим недоступен}
-[rankedBattlesUnreachableView/unreachableText]::{Для Ранговых боёв необходимо наличие в Ангаре подходящей техники %(levels)s уровня}
+[rankedBattlesUnreachableView/vehicleAvailableForBuy]::{Для Ранговых боёв необходимо наличие в Ангаре подходящей техники %(levels)s уровня.
+У вас есть исследованная, но не купленная техника %(levels)s уровня.}
+[rankedBattlesUnreachableView/vehicleAvailableForRestore]::{Для Ранговых боёв необходимо наличие в Ангаре подходящей техники %(levels)s уровня.
+У вас есть техника %(levels)s уровня, доступная для восстановления.}
+[rankedBattlesUnreachableView/vehicleUnavailable]::{Для Ранговых боёв необходимо наличие в Ангаре подходящей техники %(levels)s уровня.}
 [rankedBattlesViewHeader/tabs/current]::{За ранг}
 [rankedBattlesViewHeader/tabs/final]::{Финальные}
 [rankedBattlesWidget/bonusMultiplier]::{х%(count)s}
@@ -417,7 +433,7 @@ Content-Transfer-Encoding: 8bit
 [seasonComplete/sprinterImproved]::{Вы достигли лиг в числе первых и получаете награду за Золотую лигу.}
 [seasonComplete/sprinterTop]::{Вы достигли лиг в числе первых.}
 [seasonComplete/tooltip/body]::{Ваш результат в %(season)s сезоне}
-[selectorTooltip/desc]::{Бои на технике Х уровня по правилам Стандартного боя. Команды подбираются из игроков примерно одного ранга.}
+[selectorTooltip/desc]::{Бои на исследуемой и коллекционной технике Х уровня по правилам Стандартного боя. Команды подбираются из игроков примерно одного ранга.}
 [selectorTooltip/tillEnd]::{До конца сезона:}
 [selectorTooltip/timeTable/empty]::{—}
 [selectorTooltip/timeTable/title]::{Расписание боёв}
@@ -458,7 +474,8 @@ Content-Transfer-Encoding: 8bit
 [welcomeScreen/header]::{Добро пожаловать, боец!}
 [welcomeScreen/leftRule]::{Выходите в бой на любимой машине
 Х уровня}
-[welcomeScreen/leftRuleTooltip/body]::{Бои одного уровня обеспечивают равные условия для всех участников.}
+[welcomeScreen/leftRuleTooltip/body]::{Выходите в бой на любимой исследуемой или коллекционной технике
+Х уровня}
 [welcomeScreen/leftRuleTooltip/header]::{Х уровень}
 [welcomeScreen/negative/body]::{{team}, но попасть в топ-{topNumber} игроков своей команды по опыту.}
 [welcomeScreen/negative/team]::{Проиграть}

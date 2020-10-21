@@ -27,6 +27,7 @@ Content-Transfer-Encoding: 8bit
 [Contact/status/inBattle/training]::{В Тренировочном бою}
 [Contact/status/inBattle/tutorial]::{В Боевом обучении}
 [Contact/status/inBattle/unknown]::{В бою}
+[Contact/status/maxdifficultylevel]::{Максимально доступная сложность $(level)s}
 [Contact/status/online]::{В сети}
 [Contact/units/clan]::{Клан:}
 [Contact/units/groups]::{Находится в группах:}
@@ -274,10 +275,6 @@ Content-Transfer-Encoding: 8bit
 [anonymizer/header]::{Скрытие имени во время боя}
 [anonymizer/teamStats/body]::{Настоящее игровое имя и тег клана не видны другим игрокам в бою.}
 [anonymizer/teamStats/header]::{Имя игрока было скрыто: %(name)s}
-[autumn_marathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике X уровня, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите польский средний премиум танк VIII уровня CS-52 LIS бесплатно!}
-[autumn_marathon/body/extra]::{%(hours)s до завершения события «Охота на ЛИС». Вы ещё некоторое время можете купить польский средний премиум танк VIII уровня CS-52 LIS с учётом персональной скидки в Премиум магазине.}
-[autumn_marathon/body/extra_smart]::{Событие завершено, танк получен. Сейчас вы можете выполнять дополнительные задачи события.}
-[autumn_marathon/header]::{Охота на ЛИС}
 [awardItem/battleToken/description]::{Доступ к нескольким задачам.}
 [awardItem/battleToken/one/body]::{Открывает доступ к задаче «%(name)s»}
 [awardItem/battleToken/one/header]::{Доступ к боевой задаче}
@@ -360,7 +357,6 @@ Content-Transfer-Encoding: 8bit
 [awardItem/crystal/body]::{Редкая специализированная валюта, за которую покупаются уникальные товары, недоступные за другую валюту.}
 [awardItem/crystal/header]::{Боны}
 [awardItem/eventCoin/body]::{Начисляются за выполнение юбилейных задач во время активной фазы и периода затишья в рамках события «Десятилетие». Также выдаются в подарок за покупку юбилейных наборов в Магазине.}
-[awardItem/eventCoin/body_CN]::{Начисляются за выполнение всех юбилейных задач в рамках события «Десятилетие». Также выдаются в подарок за покупку юбилейных наборов в Магазине.}
 [awardItem/eventCoin/header]::{Юбилейные монеты}
 [awardItem/freeTokens/body]::{Уникальный документ. Выдаётся за выполнение завершающей задачи каждой ветки и дополнительного условия к ней.}
 [awardItem/freeTokens/header]::{Бланк приказа}
@@ -390,16 +386,16 @@ Content-Transfer-Encoding: 8bit
 [awardItem/premium_plus/header]::{Танковый премиум аккаунт}
 [awardItem/randomBooklet/body]::{Вы получите учебную брошюру для случайной нации. Применяется ко всему экипажу. Изучение даёт по 20 000 опыта каждому члену экипажа.}
 [awardItem/randomBooklet/header]::{Случайная учебная брошюра}
-[awardItem/rankedBonusBattles/body]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой машины X уровня. Не тратится, если по результатам боя вы не получили шевроны.
+[awardItem/rankedBonusBattles/body]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой разрешённой к участию в режиме машины Х уровня. Не тратится, если по результатам боя вы не получили шевроны.
 • Переносится на следующий день.
 • Расходуется после ежедневных призовых боёв.}
 [awardItem/rankedBonusBattles/header]::{Стандартный призовой бой}
-[awardItem/rankedDailyBattles/body]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой машины X уровня. Не тратится, если по результатам боя вы не получили шевроны.
+[awardItem/rankedDailyBattles/body]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой разрешённой к участию в режиме машины Х уровня. Не тратится, если по результатам боя вы не получили шевроны.
 • Не переносится на следующий день.
 • Расходуется в первую очередь.}
 [awardItem/rankedDailyBattles/header]::{Ежедневный призовой бой}
-[awardItem/ranked_202007_access/body]::{Вы сможете купить товары из раздела «Товары Ранговых боёв».}
-[awardItem/ranked_202007_access/header]::{Доступ к покупке}
+[awardItem/ranked_202010_access/body]::{Вы сможете купить товары из раздела «Товары Ранговых боёв».}
+[awardItem/ranked_202010_access/header]::{Доступ к покупке}
 [awardItem/ranked_2020_discount/body]::{Увеличение скидки на товары из раздела «Товары Ранговых боёв».}
 [awardItem/ranked_2020_discount/header]::{Увеличение скидки}
 [awardItem/slots/body]::{Дополнительный свободный слот для новой машины в Ангаре.}
@@ -424,9 +420,8 @@ Content-Transfer-Encoding: 8bit
 [awardItem/xpFactor/header]::{Коэффициент боевого опыта}
 [badgeinfo/text]::{Отметка отображается в списке команд при загрузке, на экране команд по Tab и в постбоевой статистике.}
 [badgeinfo/title]::{Отобразить/скрыть нашивку}
-[badgepage/ranked/suffixItem/confirmation]::{Необходимо подтверждать каждый год.}
-[badgepage/ranked/suffixItem/duration]::{Подтверждена до конца последнего сезона Ранговых боёв 2021–2022 гг.}
-[badgepage/ranked/suffixItem/position]::{Получена за попадание в список лучших бойцов Ранговых боёв сезонов 2020–2021 гг.}
+[badgepage/ranked/suffixItem/duration]::{Право владения необходимо подтверждать каждый год.}
+[badgepage/ranked/suffixItem/position]::{За попадание в список лучших бойцов Ранговых боёв по итогам года.}
 [barracks/item_buy/body]::{Нажмите, чтобы вызвать окно подтверждения расширения Казармы.}
 [barracks/item_buy/header]::{Расширить Казарму}
 [barracks/item_empty/body]::{Нажмите, чтобы открыть окно рекрутирования члена экипажа.}
@@ -525,6 +520,15 @@ Content-Transfer-Encoding: 8bit
 • карта для режима «Линия фронта» на выбор;
 • ограничения: VIII уровень техники.}
 [battleTypes/epic_training/header]::{Тренировочный бой на Линии фронта}
+[battleTypes/event/body]::{Военная разведывательная операция.
+Примите управление одной из пяти уникальных машин и сражайтесь против тёмных сил за ценные награды в специальном игровом событии.}
+[battleTypes/event/days]::{Осталось: %(day)s д}
+[battleTypes/event/description]::{Режим требователен к компьютеру. В случае недостаточной производительности попробуйте понизить настройки графики.}
+[battleTypes/event/end]::{Осталось: {}}
+[battleTypes/event/header]::{«Мирный-13»}
+[battleTypes/event/hours]::{Осталось: %(hour)s ч}
+[battleTypes/event/lessMin]::{Осталось: меньше минуты}
+[battleTypes/event/min]::{Осталось: %(min)s м}
 [battleTypes/fallout/body]::{Выбор из двух подрежимов, отличающихся по формату и условиям победы.
 • Подрежимы: Превосходство, Стальная охота}
 [battleTypes/fallout/header]::{«Бой до последнего»}
@@ -551,7 +555,7 @@ Content-Transfer-Encoding: 8bit
 [battleTypes/leaveUnit/header]::{Командный бой}
 [battleTypes/ranked/body]::{Бой за продвижение вверх по ладдерной таблице с получением рангов и ценных наград.
 • Тип боёв: Стандартный бой.
-• Допустимая техника: только Х уровень.}
+• Допустимая техника: только Х уровень (исследуемая и коллекционная).}
 [battleTypes/ranked/body/coming]::{Режим станет доступен %(date)s.}
 [battleTypes/ranked/body/disabled]::{Следите за новостями на портале игры, чтобы не пропустить информацию о начале нового сезона.}
 [battleTypes/ranked/body/frozen]::{Режим временно отключён по техническим причинам.}
@@ -559,7 +563,7 @@ Content-Transfer-Encoding: 8bit
 [battleTypes/ranked/bonusBattle/daily/bodyOther]::{ • не переносится на следующий день;
  • расходуется в первую очередь.}
 [battleTypes/ranked/bonusBattle/daily/title]::{Ежедневный}
-[battleTypes/ranked/bonusBattle/description]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой машины Х уровня. Не тратится, если по результатам боя вы не получили шевроны.}
+[battleTypes/ranked/bonusBattle/description]::{Удваивает количество полученных шевронов. Автоматически применяется к эффективному бою раз в сутки для каждой разрешённой к участию в режиме машины Х уровня. Не тратится, если по результатам боя вы не получили шевроны.}
 [battleTypes/ranked/bonusBattle/persistent/title]::{Стандартный}
 [battleTypes/ranked/bonusBattle/title]::{Призовой бой}
 [battleTypes/ranked/haveDisposableShield]::{Ранг защищён. Очки прочности защиты не восстанавливаются, а при полной их потере «щит» разбивается навсегда.}
@@ -958,6 +962,7 @@ Content-Transfer-Encoding: 8bit
 [cyberSport/unit/command]::{Команда}
 [cyberSport/unit/configure/body]::{Нажмите, чтобы указать необходимую для команды технику.}
 [cyberSport/unit/configure/header]::{Настройка требований}
+[cyberSport/unit/fightBtn/difficultyLevelNotUnlocked/body]::{Не подходящий уровень сложности взвода}
 [cyberSport/unit/fightBtn/eventVehicleWrongMode/body]::{Вы не можете участвовать на этой машине.}
 [cyberSport/unit/fightBtn/eventVehicleWrongMode/header]::{Внимание!}
 [cyberSport/unit/fightBtn/notInSlot/body]::{Займите место в штате отряда для подтверждения готовности.}
@@ -1026,8 +1031,6 @@ Content-Transfer-Encoding: 8bit
 [deviceFits/already_installed/header]::{Установлено на:}
 [deviceFits/credits_error/header]::{Недостаточно кредитов}
 [deviceFits/credits_error/text]::{Заработайте кредиты в бою, продайте излишки со Склада или обменяйте золото.}
-[deviceFits/incompatible_device/header]::{Оборудование повышенного класса}
-[deviceFits/incompatible_device/text]::{Это оборудование можно бесплатно демонтировать и установить на подходящую машину соответствующего уровня, однако вы уже не сможете вернуть его на текущую машину. Данное оборудование будет демонтировано на Склад в новом обновлении.}
 [deviceFits/need_turret/header]::{Орудие не устанавливается в текущую башню.}
 [deviceFits/need_turret/text]::{Замените башню на совместимую.}
 [deviceFits/not_for_this_vehicle_type/header]::{Текущее орудие не устанавливается в башню.}
@@ -1340,12 +1343,6 @@ Content-Transfer-Encoding: 8bit
 [eliteXP/body]::{Может быть переведён
 в свободный опыт.}
 [eliteXP/header]::{Опыт}
-[enableBattleComm/body]::{При отключении блокирует все способы коммуникации (кроме чата):
-
-• Маркеры
-• Точки назначения
-• Личные команды}
-[enableBattleComm/header]::{Включить коммуникацию в бою}
 [epicBattleWidget/desc/maxPrestige]::{Доблесть %(prestige)s из %(maxPrestige)s}
 [epicBattleWidget/desc/noPrestige]::{Степень доблести не получена. Уровень %(level)s}
 [epicBattleWidget/desc/normal]::{Доблесть %(prestige)s из %(maxPrestige)s. Уровень %(level)s}
@@ -1374,34 +1371,48 @@ Content-Transfer-Encoding: 8bit
 [equipment/empty/header]::{Место для снаряжения}
 [equipment/onUse]::{При использовании:}
 [equipment/restriction]::{Ограничение:}
+[event/afk/ban/body]::{За систематическое бездействие или дезертирство игроку было запрещено участвовать в событии «Мирный-13».}
+[event/afk/ban/fbBody]::{Вы не можете участвовать в боях за Мирный-13 до %(value)s}
+[event/afk/ban/header]::{Вы отстранены}
+[event/afk/warning/body]::{Игрок был уличён в бездействии или дезертирстве. Рецидив ведёт к наказанию.}
+[event/afk/warning/header]::{Предупреждение}
+[event/commander/canNotUse/inBattle/description]::{Командир танка «%(name)s» находится в бою.}
+[event/commander/canNotUse/inBattle/title]::{Нельзя применить!}
+[event/commanders/description1]::{В боях за Мирный-13 вы получаете опыт командира в зависимости от количества пройденных фаз и количества Мириума, доставленного к Волоту. Опыт идёт на продвижение по уровням, в награду за которые вы получаете монеты события.}
+[event/commanders/description2]::{После определённого уровня ваш командир получит статус «Элитный» и начнёт приносить фиксированное количество монет — по %(coins)s %(icon)s.}
+[event/commanders/footer]::{По окончании события «Мирный-13» ({0} в {1}) оставшиеся монеты будут списаны.}
+[event/commanders/header]::{Награды командира танка «{}»}
+[event/commanders/premium]::{На особой технике вы зарабатываете больше монет.}
+[event/header/quests/empty]::{Новые боевые задачи события станут доступны в %(hour)s:%(min)s}
+[event/healing/description]::{После каждого боя командиру нужно время, чтобы прийти в себя. Вы можете использовать стимулятор.}
+[event/healing/timeLeft]::{Время до готовности %(time)s}
+[event/lobby/ban/expiration]::{Блокировка будет снята %(value)s}
+[event/lobby/ban/header]::{Вы отстранены}
+[event/lobby/ban/headerDescription]::{За систематический сабботаж операции в %(color_tag_open)sМирном-13%(color_tag_close)s (бездействие и дезертирство) вам запрещено участвовать в боях события.}
+[event/lobby/ban/quest]::{Реабилитация}
+[event/lobby/ban/questDescription]::{Чтобы искупить вину, выполните задачу %(color_tag_open)s«Искупление»%(color_tag_close)s в Случайных боях.}
+[event/squad/difficulty/dropdown/body]::{Только командир может изменять сложность.}
+[event/squad/difficulty/dropdown/commander/body]::{Вы можете выбрать сложность из доступных. От сложности зависят потенциальные награды.}
+[event/squad/difficulty/dropdown/header]::{Выбран уровень сложности %(level)s}
+[event/squad/difficulty/lock]::{%(icon)s Продолжайте играть на %(level)s сложности, чтобы разблокировать следующую.}
+[event/squad/difficulty/warning]::{%(icon)s Сложность разблокирована, но доступ к ней есть не у всех совзводных.}
 [event/squad/disable/body]::{Для режима «Крадущийся тигр» выберите Sturmtiger.}
 [event/squad/disable/header]::{Внимание!}
-[eventProgression/allSeasonsAreOver/multi]::{Все этапы завершены}
-[eventProgression/allSeasonsAreOver/single]::{Эпизод завершён}
+[event/squad/disableWrongDifficulty/header]::{Недоступно: взвод не готов}
+[event/squad/disableWrongDifficultyCommander/body]::{Уровни сложности среди игроков не совпадают. Измените уровень сложности взвода «Мирный-13».}
+[event/squad/disableWrongDifficultyPlayer/body]::{Уровень сложности, установленный во взводе, не соответсвует вашему максимально доступному.}
+[eventProgression/allSeasonsAreOver]::{Все этапы завершены.}
 [eventProgression/currency]::{Жетоны:}
 [eventProgression/description]::{Участвуйте в Экспедиции и получайте уникальную технику за жетоны: %(vehicles)s или %(vehicle)s.}
-[eventProgression/description_cn]::{Отправляйтесь на Линию фронта и получайте ценные игровые награды, а также уникальные стили за заработанные жетоны: %(styles)s, %(style)s.}
 [eventProgression/disabled]::{Режим отключён}
 [eventProgression/frontLine]::{Линия фронта}
 [eventProgression/header]::{Экспедиция}
 [eventProgression/level]::{Уровень %(level)s}
 [eventProgression/season]::{Линия фронта. Этап %(season)s}
-[eventProgression/season_cn]::{Этап %(season)s}
 [eventProgression/steelHunter/season]::{Стальной охотник. Этап %(season)s}
-[eventProgression/timeToLeft/cycle]::{До конца этапа: %(value)s}
-[eventProgression/timeToLeft/season]::{До конца: %(value)s}
-[eventProgression/timeToStart/cycle]::{До начала этапа: %(value)s}
-[eventProgression/timeToStart/season]::{До начала: %(value)s}
+[eventProgression/timeToLeft]::{До конца этапа: %(value)s}
+[eventProgression/timeToStart]::{До начала этапа: %(value)s}
 [eventProgression/unlockedDailyMissions]::{Стали доступны ежедневные задачи.}
-[event_marathon/body]::{Играйте на технике IV–X уровней или на Progetto M35 mod. 46 и выполняйте задачи в Случайных боях. За выполнение каждой из 7 задач вас ждут награды (фрагменты итальянских и универсальных чертежей, личные резервы, оборудование, предбоевые инструкции, уникальный трёхмерный стиль для Progetto M35 mod. 46 и т.д.). Обратите внимание, что, выполняя задачи на самом Progetto M35 mod. 46, вы будете получать дополнительные награды.}
-[event_marathon/body/extra]::{Играйте на технике IV–X уровней или на Progetto M35 mod. 46 и выполняйте задачи в Случайных боях. За выполнение каждой из 7 задач вас ждут награды (фрагменты итальянских и универсальных чертежей, личные резервы, оборудование, предбоевые инструкции, уникальный трёхмерный стиль для Progetto M35 mod. 46 и т.д.). Обратите внимание, что, выполняя задачи на самом Progetto M35 mod. 46, вы будете получать дополнительные награды.}
-[event_marathon/body/extra_smart]::{Играйте на технике IV–X уровней или на Progetto M35 mod. 46 и выполняйте задачи в Случайных боях. За выполнение каждой из 7 задач вас ждут награды (фрагменты итальянских и универсальных чертежей, личные резервы, оборудование, предбоевые инструкции, уникальный трёхмерный стиль для Progetto M35 mod. 46 и т.д.). Обратите внимание, что, выполняя задачи на самом Progetto M35 mod. 46, вы будете получать дополнительные награды.}
-[event_marathon/error/battle_type]::{Доступно только в Случайных боях}
-[event_marathon/error/veh_type]::{Доступно только на технике IV уровня и выше}
-[event_marathon/extra_state/completed]::{Стиль получен}
-[event_marathon/extra_state/discount]::{Ваша скидка: %(discount)s%%}
-[event_marathon/extra_state/steps]::{Выполнено задач: %(currentStep)s / %(allStep)s}
-[event_marathon/header]::{Safari Corazzato}
 [falloutBattleSelectorWindow/btnDisabled/body]::{Вы находитесь в очереди на вход в бой.}
 [falloutBattleSelectorWindow/btnDisabled/header]::{Переход недоступен}
 [falloutBattleSelectorWindow/btnInSquadDisabled/body]::{Невозможно перейти в данный режим: вы не командир взвода.}
@@ -1506,8 +1517,6 @@ Content-Transfer-Encoding: 8bit
 компенсации влияния драйвера видеокарты и настроек
 дисплея на изображение.}
 [gamma/header]::{Гамма}
-[giveaway/body]::{На данной машине можно выполнять юбилейные задачи.}
-[giveaway/header]::{Юбилейные бои}
 [gold/body]::{Дополнительная игровая валюта.
 Нажмите «Купить золото», чтобы
 приобрести золото.}
@@ -1553,6 +1562,9 @@ Content-Transfer-Encoding: 8bit
 [hangar/elen/header/toendofregistration]::{До завершения регистрации:}
 [hangar/elen/primetime/invalid]::{Бои будут учитываться позже:}
 [hangar/elen/primetime/valid]::{Бои учитываются:}
+[hangar/header/halloween/noVehicle/body]::{Выбрана машина слишком низкого уровня. Для выполнения задач события «Мирный-13» выберите машину %(min)s-%(max)s уровня.}
+[hangar/header/halloween/noVehicle/header]::{Доступных задач нет}
+[hangar/header/halloween/quests/header]::{Задачи события «Мирный-13»: %(count)s}
 [hangar/header/personalMissions/available/body]::{Боевая задача не выбрана. Нажмите, чтобы перейти к списку доступных задач.}
 [hangar/header/personalMissions/available/header]::{Задача не выбрана}
 [hangar/header/personalMissions/award/body]::{Задачи ветки %(chainName)s выполнены. Нажмите, чтобы перейти к списку задач и забрать награду.}
@@ -1622,6 +1634,7 @@ Content-Transfer-Encoding: 8bit
 [hangar/startBtn/preview/body]::{Чтобы выйти в бой, вернитесь в Ангар к выбору машины.}
 [hangar/startBtn/squadNotReady/body]::{Для выхода в бой выберите машину и подтвердите готовность.}
 [hangar/startBtn/squadNotReady/header]::{Недоступно}
+[hangar/startBtn/vehicleToHeavy/body]::{Текущая нагрузка превышает грузоподъёмность ходовой. Повысьте грузоподъёмность, установив более совершенную ходовую или оборудование типа «Улучшенная закалка».}
 [hangar/status/toRent]::{Перейти к продлению аренды.}
 [hangar/tankCarusel/wrongSquadSPGVehicle/body]::{Для подтверждения готовности выберите другой тип техники.}
 [hangar/tankCarusel/wrongSquadSPGVehicle/header]::{Недоступно}
@@ -1720,8 +1733,6 @@ Content-Transfer-Encoding: 8bit
 [header/battleRoyaleSquad/header]::{Взвод охотников}
 [header/battleType/body]::{Нажмите, чтобы открыть список доступных режимов боёв.}
 [header/battleType/header]::{Выбор режима боя}
-[header/bobSquad/body]::{Создание формирования из 2–3 игроков для совместной игры в боях режима «Схватка».}
-[header/bobSquad/header]::{Взвод}
 [header/buttons/available]::{В наличии}
 [header/buttons/barracks/body]::{Рекрутировать и демобилизовать членов экипажа.}
 [header/buttons/barracks/header]::{Казарма}
@@ -1910,15 +1921,15 @@ Content-Transfer-Encoding: 8bit
 [login/soundButton/on/header]::{?empty?}
 [marathon/body]::{Выполняйте условия каждого этапа, при этом задачи на мастерство можно выполнять только на технике Х уровня, а на усердие с VI по X. За прохождение каждого из 10 этапов вас ждут специальные награды. Завершите все этапы и получите уникальную премиум ПТ-САУ VIII уровня бесплатно.}
 [marathon/body/extra]::{%(hours)s до завершения продаж уникального премиум танка VIII уровня с учётом персональной скидки.}
-[marathon/body/extra_smart]::{После активной фазы вы ещё некоторое время можете купить уникальный премиум танк VIII уровня с учётом персональной скидки.}
+[marathon/body/extra_smart]::{После активной фазы вы ещё некоторое время сможете купить уникальный премиум танк VIII уровня с учётом персональной скидки.}
 [marathon/date]::{%(day)s %(month)s %(hour)s:%(minutes)s}
 [marathon/error/battle_type]::{Доступно только в Случайных боях}
-[marathon/error/veh_type]::{Доступно только на технике VI уровня и выше}
+[marathon/error/veh_type]::{Доступно только на технике VIII и X уровней}
 [marathon/extra_state/completed]::{Танк получен}
 [marathon/extra_state/discount]::{Ваша скидка: %(discount)s%%}
 [marathon/extra_state/steps]::{Пройдено этапов: %(currentStep)s / %(allStep)s}
 [marathon/header]::{Зимняя охота}
-[marathon/off/body]::{В настоящий момент событие недоступно по техническим причинам. Попробуйте позже.}
+[marathon/off/body]::{В данный момент событие недоступно по техническим причинам. Попробуйте позже.}
 [marathon/off/header]::{Событие недоступно}
 [marathon/state/complete]::{Завершено}
 [marathon/state/end]::{До завершения: %(value)s}
@@ -2039,6 +2050,8 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/commander_bp2/label]::{Боевой пропуск, первый сезон}
 [notrecruitedtankman/commander_cesare/desc]::{Талантливая девушка-командир, чей боевой запал и азарт полностью соответствуют её имени. Добиваться своего любой ценой, вести за собой людей и всегда быть на острие атаки — три кита, определяющие её поведение в бою.}
 [notrecruitedtankman/commander_cesare/label]::{Уникальный член экипажа}
+[notrecruitedtankman/commander_maeve/desc]::{Воплощение абсолютной силы. У неё несокрушимое тело и дух, а девочки по всему миру считают её образцом для подражания.}
+[notrecruitedtankman/commander_maeve/label]::{Уникальный член экипажа}
 [notrecruitedtankman/commander_marina/desc]::{Нет такой машины, управление которой не смогла бы освоить эта смелая француженка. Определённо не позавидуешь тем, кто встанет на пути её экипажа, готового на любой риск.}
 [notrecruitedtankman/commander_marina/label]::{Уникальный член экипажа}
 [notrecruitedtankman/commander_patrick/desc]::{Раз, два — тыква разберёт тебя. Три, четыре — нет врага страшнее в мире. Пять, шесть — вам летит дурная весть. Семь, восемь — Патрик к вам придёт без спроса. Девять, де…}
@@ -2050,6 +2063,13 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/czech_woman/label]::{Уникальный член экипажа}
 [notrecruitedtankman/expireTitle]::{Рекрутирование}
 [notrecruitedtankman/howToGet]::{Как получить:}
+[notrecruitedtankman/hw19_commanders/desc]::{Уникальный член экипажа, полученный в рамках события «Мирный-13». При рекрутировании вы можете выбрать:
+• нацию;
+• тип техники и машину;
+• специальность.
+У этого члена экипажа достаточно опыта для изучения трёх навыков или умений на выбор.}
+[notrecruitedtankman/hw19_commanders/howToGetInfo]::{За участие в событии «Мирный-13».}
+[notrecruitedtankman/hw19_commanders/label]::{Для всех режимов игры}
 [notrecruitedtankman/ny19men/desc]::{«...Ну иди сюда, попробуй меня поздравить, я тебя сам поздравлю, умница, хороший человек, будь ты счастлив!..»}
 [notrecruitedtankman/ny19men/label]::{Новогоднее наступление 2019}
 [notrecruitedtankman/ny19woman/desc]::{Выдавалась в награду за достижение определённого уровня атмосферы праздника в рамках события «Новогоднее наступление 2019». У девушки изучено «Боевое братство», а также достаточно опыта на дополнительный навык или умение на выбор.}
@@ -2110,9 +2130,6 @@ Content-Transfer-Encoding: 8bit
 [notrecruitedtankman/twitch9/desc]::{Главная цель тактической бороды Анри — поддерживать моральный дух экипажа и приносить победу. Мода, характерная для подводного флота, добралась-таки до бронетанковых войск.}
 [notrecruitedtankman/twitch9/label]::{Уникальный член экипажа}
 [notrecruitedtankman/useBefore]::{Доступно до: %(date)s}
-[notrecruitedtankman/wt_raidboss_commander/desc]::{«Природа подарила нам электричество, но лишь я один сумел увидеть его неисчерпаемую силу, обуздать её, подчинить. Мне не верили. Надо мной посмеивались. И где же вы сейчас, бесталанные скептики?»}
-[notrecruitedtankman/wt_raidboss_commander/howToGetInfo]::{?empty?}
-[notrecruitedtankman/wt_raidboss_commander/label]::{Последний Ваффентрагер}
 [parameter/categories]::{Категория: }
 [personalMissions/awards/camouflage/alliance/body]::{Набор из 3 камуфляжных схем (летняя, зимняя и пустынная).
 
@@ -2225,6 +2242,9 @@ Content-Transfer-Encoding: 8bit
 [personalMissions/status/sheetRecoveryInProgress/header]::{Заложен бланк приказа}
 [personalMissions/tankgirlsBlock/body]::{Для пополнения Казармы назначьте полученных членов экипажа на желаемые машины и специальности, предварительно выбрав нацию.}
 [personalMissions/tankgirlsBlock/header]::{Нерекрутированные девушки-танкисты}
+[personalTradeInInfo/discount]::{Получите желанные машины бесплатно или со значительной скидкой, обменяв их на свою премиум технику.}
+[personalTradeInInfo/header]::{Персональный обмен техники}
+[personalTradeInInfo/info]::{Обменяйте свою премиум машину на уникальную технику.}
 [personal_case/skills/accTeachingOfSkillBtn/body]::{Нажмите, чтобы ускорить развитие текущего умения или навыка, используя свободный опыт.}
 [personal_case/skills/accTeachingOfSkillBtn/header]::{Ускоренное обучение}
 [personal_case/skills/accTeachingOfSkillBtn/notEnoughFreeXP/body]::{Недостаточно свободного опыта для развития текущего умения или навыка.}
@@ -2362,7 +2382,48 @@ Content-Transfer-Encoding: 8bit
 [quests/bonuses/token/battle_bonus_x5/body]::{Возможность получить в пять раз больше опыта за бой, начиная со второго боя в день на любой машине.}
 [quests/bonuses/token/battle_bonus_x5/header]::{Задача на x5 к опыту за бой}
 [quests/bonuses/token/body]::{Данная марка — наградной элемент, необходимый для выполнения определённой боевой задачи.}
+[quests/bonuses/token/body/he19_A100_T49_Halloween]::{Особый танк события «Мирный-13». Позволяет зарабатывать больше монет.
+Если машина была получена ранее, вы получите компенсацию монетами.
+После завершения события танк будет списан.}
+[quests/bonuses/token/body/he19_R40_T_54_Halloween]::{Особый танк события «Мирный-13». Позволяет зарабатывать больше монет.
+Если машина была получена ранее, вы получите компенсацию монетами.
+После завершения события танк будет списан.}
+[quests/bonuses/token/body/he19_energy_for_use_booster]::{Удваивает опыт командира, полученный в бою за Мирный-13. Действует один бой.}
+[quests/bonuses/token/body/he19_energy_for_use_healing]::{Мгновенно возвращает командира в состояние полной боевой готовности.}
+[quests/bonuses/token/body/he19_money]::{Специальная валюта, за которую можно приобрести уникальные стили и другие товары события.}
+[quests/bonuses/token/body/he19_tanksRank1]::{Будет нанесён на всю технику события.}
+[quests/bonuses/token/body/he19_tanksRank2]::{Будет нанесён на всю технику события.}
+[quests/bonuses/token/body/he19_tanksRank3]::{Будет нанесён на всю технику события.}
+[quests/bonuses/token/body/he20_afk_pardon_order]::{Этот документ позволяет досрочно вернуться к операции в <b>Мирном-13</b>.}
+[quests/bonuses/token/description/he19_A100_T49_Halloween]::{Особый танк события «Мирный-13». Позволяет зарабатывать больше монет.
+
+Техника будет списана по завершению события %(date)s.}
+[quests/bonuses/token/description/he19_R40_T_54_Halloween]::{Особый танк события «Мирный-13». Позволяет зарабатывать больше монет.
+
+Техника будет списана по завершению события %(date)s.}
+[quests/bonuses/token/description/he19_energy_for_use_booster]::{Удваивает опыт командира, полученный в бою за Мирный-13.
+
+Действует один бой.}
+[quests/bonuses/token/description/he19_energy_for_use_healing]::{Позволяет моментально привести командира в чувство для следующего боя за Мирный-13.}
+[quests/bonuses/token/description/premium_plus]::{Особый статус аккаунта, позволяющий
+зарабатывать больше опыта и кредитов, а также
+предоставляющий дополнительные возможности.}
+[quests/bonuses/token/he19_money/howToGet]::{Как получить:}
+[quests/bonuses/token/he19_money/howToGetVariants]::{• повышать уровни командиров;
+• выполнять специальные задания.}
+[quests/bonuses/token/he19_money/specialConditions]::{Обратите внимание!}
+[quests/bonuses/token/he19_money/specialConditionsDesc]::{По окончании события «Мирный-13» ({0} в {1}) оставшиеся монеты будут списаны.}
 [quests/bonuses/token/header]::{Марка %(userName)s}
+[quests/bonuses/token/header/he19_A100_T49_Halloween]::{Гренадёр}
+[quests/bonuses/token/header/he19_R40_T_54_Halloween]::{Малахит}
+[quests/bonuses/token/header/he19_energy_for_use_booster]::{Усилитель опыта в Мирном-13}
+[quests/bonuses/token/header/he19_energy_for_use_healing]::{Стимулятор}
+[quests/bonuses/token/header/he19_money]::{Монеты}
+[quests/bonuses/token/header/he19_tanksRank1]::{Стиль (1-я стадия)}
+[quests/bonuses/token/header/he19_tanksRank2]::{Стиль (2-я стадия)}
+[quests/bonuses/token/header/he19_tanksRank3]::{Стиль (3-я стадия)}
+[quests/bonuses/token/header/he20_afk_pardon_order]::{Приказ о реабилитации}
+[quests/bonuses/token/header/premium_plus]::{Танковый премиум аккаунт}
 [quests/bonuses/token/progressionExperience/body]::{Помогает продвигаться вперёд по прогрессии режима «Стальной охотник» и получать награды за уровни.}
 [quests/bonuses/token/progressionExperience/header]::{Очки охоты}
 [quests/bonuses/token/resource/clan_promoresource/body]::{Ресурс для развития Укрепрайона и подготовки клановых резервов. Заработать промресурс можно в Вылазках, Наступлениях, Случайных боях (на технике X уровня) или в Ранговых боях.}
@@ -2489,6 +2550,7 @@ Content-Transfer-Encoding: 8bit
 [rankedBattlesView/rating/body]::{Рейтинг текущего сезона режима «Ранговый бой».}
 [rankedBattlesView/rating/header]::{Рейтинг сезона}
 [rankedBattlesView/rewards/body]::{Возможные награды режима «Ранговый бой» и условия их получения.}
+[rankedBattlesView/rewards/body/seasonOff]::{Сезон закончен, раздел «Награды» будет доступен для просмотра со стартом нового сезона.}
 [rankedBattlesView/rewards/header]::{Награды}
 [rankedBattlesView/shop/body]::{Товары за боны, к которым можно получить доступ в режиме «Ранговый бой».}
 [rankedBattlesView/shop/header]::{Товары Ранговых боёв}
@@ -2530,6 +2592,7 @@ Content-Transfer-Encoding: 8bit
 [redButton/disabled/vehicle/rentalsIsOver/header]::{Аренда завершена}
 [redButton/disabled/vehicle/roaming/body]::{?empty?}
 [redButton/disabled/vehicle/roaming/header]::{Серверное ограничение}
+[redButton/disabled/vehicle/tooHeavy/body]::{Текущая нагрузка превышает грузоподъёмность ходовой. Повысьте грузоподъёмность, установив более совершенную ходовую или оборудование типа «Улучшенная закалка».}
 [repair/auto/body]::{Ремонт будет выполняться автоматически, если это необходимо,
 после выхода машины из боя.}
 [repair/auto/header]::{Ремонтировать автоматически}
@@ -2614,6 +2677,9 @@ Content-Transfer-Encoding: 8bit
 [settings/ribbons/enemyStun/header]::{?empty?}
 [settings/ribbons/receivedDamage/body]::{При включении настройки будут отображаться ленты о входящем уроне выстрелом, пожаром, ударом и тараном.}
 [settings/ribbons/receivedDamage/header]::{settings/ribbons/receivedDamage/header}
+[settings/showLocationMarkers/body]::{При отключении маркеры позиций («Внимание на…», «Навожусь на…», точки назначения) не отображаются на карте.}
+[settings/showLocationMarkers/bodyFooter]::{Маркеры отображаются только на миникарте.}
+[settings/showLocationMarkers/header]::{Показывать маркеры позиций на карте}
 [settings/sound/deviceAlert/body]::{Выбранный тип акустики отличается от автоматически определённого игрой. Часть звуков может отсутствовать, поэтому рекомендуем протестировать изменения звучания.}
 [settings/sound/deviceAlert/header]::{Несоответствующий тип акустики}
 [settings/sound/subtitles/body]::{Дублирование голосового оповещения текстом в режиме «Учебный полигон».}
@@ -2631,8 +2697,6 @@ Content-Transfer-Encoding: 8bit
 [settings_dialog/sound/alternativeVoices/body]::{Воспроизвести пример}
 [settings_dialog/sound/soundModeInvalid]::{Файлы выбранного голоса уведомлений
 повреждены или отсутствуют.}
-[setttingsDisabledNotification/body]::{В этом игровом режиме часть настроек недоступна, выберите другой режим.}
-[setttingsDisabledNotification/header]::{Недоступно}
 [shell/basic]::{Базовый}
 [shell/basic/description]::{%(bold)s — снаряд, применяемый по умолчанию для выбранного орудия. Используется для вычисления характеристик орудия и параметра «Огневая мощь».}
 [shell/basic/description/bold]::{Базовый снаряд}
@@ -2645,6 +2709,8 @@ Content-Transfer-Encoding: 8bit
 [showDamageIcon/enemyRicochet]::{Рикошет}
 [showDamageIcon/header]::{Уведомления при нанесении урона}
 [showDamageIcon/trackDamage]::{Критический урон}
+[showDogTag/body]::{Изменения некоторых настроек вступят в силу со следующего боя.}
+[showDogTag/header]::{Показывать жетон}
 [showMarksOnGun/body]::{Включение или отключение отображения отличительных отметок на своей технике для всех режимов боёв. При изменении настройки в бою эффект наступит после выхода из боя.}
 [showMarksOnGun/header]::{Отображать отличительные отметки}
 [showSectorOnMap/body]::{Включение или отключение отображения
@@ -2728,6 +2794,7 @@ Content-Transfer-Encoding: 8bit
 [squadWindow/event/domination]::{Взвод в событии «Превосходство: Стальная ярость» состоит из 3 игроков. Вся техника должна быть отремонтирована, иметь укомплектованный экипаж и полный боекомплект.}
 [squadWindow/event/domination/note]::{Машины: %(vehicles)s}
 [squadWindow/eventVehicle]::{Для режима «Крадущийся тигр» выберите Sturmtiger.}
+[squadWindow/headerRestriction/difficultyNotUnlocked]::{Уровень сложности взвода не соответствует вашему максимально доступному уровню сложности}
 [squadWindow/infoIcon/battleRoyale/body]::{Взвод должен состоять из трёх специальных машин режима.}
 [squadWindow/infoIcon/battleRoyale/header]::{Правила формирования взвода}
 [squadWindow/infoIcon/tech/body]::{Взвод должен состоять из машин одного уровня.}
@@ -2996,9 +3063,7 @@ Content-Transfer-Encoding: 8bit
 [training/observer/btn/body]::{Нажмите, чтобы включить или отключить режим наблюдателя.}
 [training/observer/btn/header]::{Режим наблюдателя}
 [training/observer/icon/body]::{Режим наблюдателя отключён.}
-[training/observer/icon/header]::{ }
 [training/observer/selectedicon/body]::{Режим наблюдателя включён.}
-[training/observer/selectedicon/header]::{ }
 [turnOffCombatChat/body]::{Данная функция работает только в режимах
 «Случайный бой», «Ранговый бой», «Линия фронта», при этом:
 
@@ -3018,7 +3083,6 @@ Content-Transfer-Encoding: 8bit
 [vehicle/crew_award]::{Экипаж (%d%%)}
 [vehicle/dailyXPFactor]::{Опыт за первую победу в день}
 [vehicle/damage]::{<h1>Урон</h1> <h2>(hp)</h2>}
-[vehicle/deal/bob/main]::{Машина для режима «Схватка»}
 [vehicle/deal/epic/main]::{Машина для режима «Линия фронта»}
 [vehicle/deal/telecom/main/Twitchprime]::{Машина доступна игрокам с активной подпиской на Prime Gaming.}
 [vehicle/deal/telecom/main/default]::{Машина доступна абонентам тарифного плана «%(tariff)s» от %(provider)s.}
@@ -3145,8 +3209,6 @@ Content-Transfer-Encoding: 8bit
 [vehiclePreview/buyButton/parentVehicleIsLocked/header]::{Исследование недоступно}
 [vehiclePreview/buyingPanel/eventProgression/price/body]::{Экспедиция 2020 года разбита на несколько этапов. Всего их запланировано восемь. За каждый этап вы можете заработать определённое количество жетонов Экспедиции (до 3 шт. за этап) и обменять их на наградные машины IX уровня. Помните, что максимального количества жетонов хватит только на две машины из трёх. Распоряжайтесь жетонами мудро.}
 [vehiclePreview/buyingPanel/eventProgression/price/header]::{Жетоны Экспедиции}
-[vehiclePreview/buyingPanel/eventProgression/style_price/body]::{За двухнедельный эпизод Линии фронта вы можете заработать определённое количество жетонов (до 6 шт.) и обменять их на наградные стили.}
-[vehiclePreview/buyingPanel/eventProgression/style_price/header]::{Жетоны Линии фронта}
 [vehiclePreview/crew/additionalRoles]::{По совместительству: %(roles)s}
 [vehiclePreview/crew/commander]::{Влияет на дальность обнаружения противника (%(paramName)s).
 Усиливает экипаж. За каждые %(commanderPercents)s своего основного навыка командир добавляет по %(crewPercents)s к основному умению всем членам экипажа, кроме самого себя.}
@@ -3261,6 +3323,7 @@ Content-Transfer-Encoding: 8bit
 [vehicleStatus/restoreCooldown/hours]::{Осталось часов до возможности восстановления: %(time)s}
 [vehicleStatus/rotationGroupUnlocked/header]::{К бою готов (Группа %(groupNum)s, доступно боев: %(battlesLeft)s)}
 [vehicleStatus/serverRestriction/header]::{?empty?}
+[vehicleStatus/tooHeavy/header]::{Машина перегружена}
 [vehicleStatus/undamaged/header]::{К бою готов}
 [vehicleStatus/unsuitableToQueue/header]::{Не подходит}
 [vehicleStatus/unsuitableToUnit/header]::{Не подходит для взвода}

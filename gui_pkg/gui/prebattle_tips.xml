@@ -125,6 +125,22 @@
          <id>battlePass_on</id>
          <battlePassActiveCheck>True</battlePassActiveCheck>
       </filter>
+      <filter>
+         <id>rankedYearReward_on</id>
+         <rankedYearRewardCheck>True</rankedYearRewardCheck>
+      </filter>
+      <filter>
+         <id>rankedLB_on</id>
+         <rankedLBCheck>True</rankedLBCheck>
+      </filter>
+      <filter>
+         <id>rankedShop_on</id>
+         <rankedShopCheck>True</rankedShopCheck>
+      </filter>
+      <filter>
+         <id>nonCnRealms</id>
+         <realms>RU EU NA ASIA KR CT ST QA DEV SB</realms>
+      </filter>
    </filters>
    <tips>
       <tip>
@@ -1103,14 +1119,34 @@
       <tip>
          <id>ranked7</id>
          <status>rankedStatus7</status>
+         <filter>rankedYearReward_on</filter>
       </tip>
       <tip>
          <id>ranked8</id>
          <status>rankedStatus8</status>
+         <filter>nonCnRealms</filter>
       </tip>
       <tip>
          <id>ranked9</id>
          <status>rankedStatus9</status>
+      </tip>
+      <tip>
+         <id>ranked10</id>
+         <status>rankedStatus10</status>
+         <filter>rankedShop_on</filter>
+      </tip>
+      <tip>
+         <id>ranked11</id>
+         <status>rankedStatus11</status>
+      </tip>
+      <tip>
+         <id>ranked12</id>
+         <status>rankedStatus12</status>
+         <filter>rankedLB_on</filter>
+      </tip>
+      <tip>
+         <id>ranked13</id>
+         <status>rankedStatus13</status>
       </tip>
       <tip>
          <id>battleRoyale0</id>

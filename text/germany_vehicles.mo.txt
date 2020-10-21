@@ -31,9 +31,6 @@ Content-Transfer-Encoding: 8bit
 [Bison_I]::{Sturmpanzer I Bison}
 [Bison_I_descr]::{САУ была создана в 1939–1940 гг. на базе ходовой части танка Panzerkampfwagen I. Оснащена 150-мм пушкой s.I.G. 33, которая устанавливалась вместе с лафетом. Скорострельность составляла 3 выстрела в минуту, возимый боезапас — всего 8 выстрелов. Требовалось сопровождение транспортёра. Применялась в 1940–1943 гг. в ходе Французской кампании, в Балканской кампании и на Восточном фронте. Впоследствии была разработана САУ Sturmpanzer II с аналогичным типом орудия.}
 [Bison_I_short]::{Bison}
-[Chassis_1_G105_T-55_NVA_DDR_EL]::{T 55А}
-[Chassis_1_G98_Waffentrager_E100_TL]::{Waffenträger auf E 110}
-[Chassis_1_G98_Waffentrager_E100_TL_S]::{Waffenträger auf E 220}
 [Chassis_Auf_Panther]::{Aufkl. Panther}
 [Chassis_Auf_Panther_2]::{Aufkl. Panther verstärkteketten}
 [Chassis_DW_II]::{D.W.}
@@ -47,6 +44,7 @@ Content-Transfer-Encoding: 8bit
 [Chassis_E-75]::{E 75}
 [Chassis_E-75_2]::{E 75 verstärkteketten}
 [Chassis_E50_Ausf_M]::{E 50 Ausf. M}
+[Chassis_G00_Bomber_Hell]::{Hell Bomber}
 [Chassis_G00_Bomber_SH]::{?empty?}
 [Chassis_G04_PzVI_Tiger_IA]::{Pz.Kpfw. Tiger Ausf. E}
 [Chassis_G100_Gtraktor_Krupp]::{Großtraktor - Krupp}
@@ -97,10 +95,14 @@ Content-Transfer-Encoding: 8bit
 [Chassis_G142_M48RPz]::{M48A2 Räumpanzer}
 [Chassis_G143_E75_TS]::{E 75 TS}
 [Chassis_G144_Kpz_50t]::{Kampfpanzer 50 t}
+[Chassis_G146_E100_Hell_Boss]::{E 100}
 [Chassis_G16_PzVIB_Tiger_II_F]::{Tiger II}
 [Chassis_G16_PzVIB_Tiger_II_F_short]::{Tiger II}
+[Chassis_G54_E-50_Hall_minion]::{E-50 Hell minion}
 [Chassis_G58_VK4502P]::{VK 45.02(P) Ausf. B}
 [Chassis_G58_VK4502P_short]::{VK 45.02(P) Ausf. B}
+[Chassis_G64_Panther_II_Hall_minion]::{Panther II verstärkteketten}
+[Chassis_G73_E50_Ausf_M_Hall_minion]::{E 50 Ausf. M Hell minion}
 [Chassis_G85_Aufklarungspanzer_V]::{Aufklärungspanzer V}
 [Chassis_G98_Waffentrager_E100_P]::{Waffenträger auf E 100 (P)}
 [Chassis_GW_Elefant]::{G.W. Tiger (P)}
@@ -167,7 +169,7 @@ verstärkteketten}
 [Chassis_RhB_Waffentrager]::{Rhm.-B. WT}
 [Chassis_RhB_Waffentrager_2]::{Rhm.-B. WT verstärkteketten}
 [Chassis_Sturer_Emil]::{Schwere Betonknacker}
-[Chassis_Sturer_Emil_2]::{Pz.Sfl. für 12.8 cm K. 40}
+[Chassis_Sturer_Emil_2]::{Pz.Sfl. für 12,8 cm K. 40}
 [Chassis_T-15]::{Pz.Kpfw. T 15}
 [Chassis_T-25]::{Pz.Kpfw. T 25}
 [Chassis_VK2001DB]::{VK 20.01 (III)}
@@ -189,7 +191,7 @@ verstärkteketten}
 [Chassis_VK4502A_short]::{VK 45.02 (P) Ausf. A}
 [Chassis_VK7201]::{VK 72.01 (K)}
 [Chassis_Waffentrager_E100]::{Waffenträger auf E 100}
-[Chassis_Waffentrager_IV]::{Waffenträger auf Pz. IV für 12.8 cm}
+[Chassis_Waffentrager_IV]::{Waffenträger auf Pz. IV für 12,8 cm}
 [Chassis_Waffentrager_IV_2]::{Waffenträger auf Pz. IV für 15 cm}
 [Chrysler_361B]::{Chrysler 361B}
 [Continental_AOS-895-3]::{Continental AOS-895-3}
@@ -214,9 +216,6 @@ AVI-1790-8}
 [DickerMax_short_special]::{Отличный обзор и углы склонения орудия, высокий разовый урон}
 [Die_Signalfahnen_bot]::{«Сигнальные флажки»}
 [E-100]::{E 100}
-[E-100_WT]::{E 100 WT}
-[E-100_WT_descr]::{В июне 1943 года компания Adlerwerke получила заказ на разработку танка E 100. Однако в 1944 году все работы над тяжёлыми танками были прекращены. К концу войны было изготовлено шасси прототипа, захваченное впоследствии британской армией.}
-[E-100_WT_short]::{E 100 WT}
 [E-100_descr]::{В июне 1943 года компания Adlerwerke получила заказ на разработку танка E 100. Однако в 1944 году все работы над тяжёлыми танками были прекращены. К концу войны было изготовлено шасси прототипа, захваченное впоследствии британской армией.}
 [E-100_short]::{E 100}
 [E-25]::{E 25}
@@ -227,15 +226,12 @@ AVI-1790-8}
 [E-50_descr]::{В 1945 году Е 50 должен был стать основным немецким средним танком и заменить «Пантеру» и «Пантеру II». Работы над танком были прекращены на стадии эскизного проектирования.}
 [E-50_short]::{E 50}
 [E-75]::{E 75}
-[E-75_WT]::{E 75 WT}
-[E-75_WT_descr]::{В 1945 году E 75 должен был стать основным немецким тяжёлым танком и заменить «Тигра II». Работы над танком были прекращены на стадии эскизного проектирования.}
-[E-75_WT_short]::{E 75 WT}
 [E-75_descr]::{В 1945 году E 75 должен был стать основным немецким тяжёлым танком и заменить «Тигра II». Работы над танком были прекращены на стадии эскизного проектирования.}
 [E-75_short]::{E 75}
 [E50_Ausf_M]::{E 50 Ausf. M}
+[E50_Ausf_M_Hall_minion_descr]::{E50_Ausf_M_Hall_minion_descr}
 [E50_Ausf_M_descr]::{Одним из требований, выдвигаемых военными к танкам E-серии, было перенесение трансмиссии в кормовую часть корпуса. Однако в процессе разработки танков E 50 и E 75 для ускорения работы была полностью заимствована компоновка моторно-трансмиссионного отделения танка Tiger II, что полностью исключало перенос трансмиссии назад. E 50 Ausf. M — реконструкция проекта E 50 с задним расположением трансмиссии.}
 [E50_Ausf_M_short]::{E 50 M}
-[Engine_VK4502P_2]::{Maybach Neues Projekt WT}
 [Ferdinand]::{Ferdinand}
 [Ferdinand_descr]::{Машина создана на базе «Тигра» Порше. Всего в апреле – мае 1943 года было изготовлено 90 машин, которые впервые были использованы в Курской битве.}
 [Ferdinandstandardketten]::{Ferdinand}
@@ -247,6 +243,8 @@ AVI-1790-8}
 [FuG11]::{FuG 11}
 [FuG12]::{FuG 12}
 [FuG12A]::{FuG 12 A}
+[FuG12_Hall_minion]::{FuG12 Hell minion}
+[FuG12_Hall_minion_2]::{FuG 12}
 [FuG12_SH]::{FuG 12 L2}
 [FuG16]::{Fu 16}
 [FuG2]::{FuG 2}
@@ -266,8 +264,14 @@ AVI-1790-8}
 [FuG_F]::{Fu.Spr.Ger. "f"}
 [FuG_FA]::{Fu.Spr.Ger. "f" A}
 [FuG_Spr.1]::{FuG Spr. 1}
+[FuG_Spr.1_2]::{FuG Spr. 1}
 [FuG_Spr.A]::{Fu.Spr.Ger. "a"}
-[FuG_WT]::{FuG WT}
+[G00_Bomber_Hell]::{Ёрш}
+[G00_Bomber_Hell_AP]::{G00_Bomber_Hell_AP}
+[G00_Bomber_Hell_Engine]::{Hell Bomber Engine}
+[G00_Bomber_Hell_Radio]::{Hell Bomber Radio}
+[G00_Bomber_Hell_descr]::{G00_Bomber_Hell_descr}
+[G00_Bomber_Hell_short]::{Ёрш}
 [G00_Bomber_SH]::{Брандер}
 [G00_Bomber_SH_AP]::{?empty?}
 [G00_Bomber_SH_Engine]::{?empty?}
@@ -289,9 +293,6 @@ AVI-1790-8}
 [G104_Stug_IV_descr]::{По предложению Министерства вооружений в феврале 1943 года компания Krupp начала испытания установки рубки доработанной StuG III на новое шасси Pz.Kpfw. IV Ausf. H и J. Первые машины сошли с конвейера к декабрю 1943 года, а с января 1944 компания Krupp полностью перешла на их производство, свернув выпуск Pz. IV. Всего произведено 1108 машин и ещё 31 переделана из танков.}
 [G104_Stug_IV_short]::{StuG IV}
 [G105_T-55_NVA_DDR]::{T 55A}
-[G105_T-55_NVA_DDR_EL]::{T-55 «Разряд»}
-[G105_T-55_NVA_DDR_EL_desc]::{«А мы точно всё изолировали? Мне как-то не по себе от осознания того, что предстоит оседлать саму молнию. От такого генератора целый посёлок запитать можно, а мы его энергию по каналу ствола пускаем. Дожил бы Фарадей до этого момента, увидел бы, как мы с электромагнитными полями изгаляемся — так и помер бы обратно. Ох, матушка-физика, сделай так, чтобы оно работало на нас, а не против нас. На тебя лишь уповаем».}
-[G105_T-55_NVA_DDR_EL_short]::{T-55 «Разряд»}
 [G105_T-55_NVA_DDR_descr]::{Т 55А являлся усовершенствованным вариантом танка Т-55. Отличался повышенным уровнем противоатомной защиты и отсутствием курсового пулемёта. Около 1800 танков Т-55 и Т 55А было поставлено из СССР в ГДР в период с 1962 по 1970 год.}
 [G105_T-55_NVA_DDR_short]::{T 55A}
 [G106_PzKpfwPanther_AusfF]::{Panther mit 8,8 cm L/71}
@@ -327,9 +328,11 @@ AVI-1790-8}
 [G113_SP_I_C_descr]::{Для повышения огневой мощи и улучшения противотанковых возможностей танкоразведывательных батальонов с 1956 по 1962 год проводились работы по созданию разведывательного истребителя танков. Для этого планировалась установка на боевую разведывательную машину 90-мм противотанкового орудия. Над проектом работали компании Hotchkiss и Klöckner-Humboldt-Deutz. Проект так и не был принят, количество построенных прототипов неизвестно.}
 [G113_SP_I_C_short]::{SP I C}
 [G114_Rheinmetall_Skorpian]::{Rheinmetall Skorpion G}
+[G114_Rheinmetall_Skorpian_HELL]::{Альфа Skorpion}
 [G114_Rheinmetall_Skorpian_descr]::{Разработка самоходных установок второй серии на базе танка Panther была начата компанией Rheinmetall в январе 1943 года. Чертёж машины 12,8 cm Skorpion датируется 2 апреля 1943 года. Машина не была реализована в металле.}
 [G114_Rheinmetall_Skorpian_long_special]::{ПТ-САУ с хорошими динамическими характеристиками, отличным орудием и башней полного вращения. Машина может быстро занимать ключевые позиции и вести прицельную стрельбу без лишних доворотов корпуса. Однако стоит помнить про исключительно тонкую броню, которая особенно боится ОФ-снарядов.}
 [G114_Rheinmetall_Skorpian_short]::{Skorpion G}
+[G114_Rheinmetall_Skorpian_short_HELL]::{Альфа Skorpion}
 [G114_Rheinmetall_Skorpian_short_special]::{Мощное орудие, башня полного вращения}
 [G114_Skorpian]::{Rheinmetall Skorpion}
 [G114_Skorpian_descr]::{Разработка самоходных установок второй серии на базе танка Panther была начата компанией Rheinmetall в январе 1943 года. Чертёж машины 12,8 cm Skorpion датируется 2 апреля 1943 года. Машина не была реализована в металле.}
@@ -392,9 +395,6 @@ AVI-1790-8}
 [G126_HWK_12_descr]::{Серия лёгких гусеничных бронетранспортёров HWK 10 разрабатывалась компанией Henschel-Werke в конце 1950-х – первой половине 1960-х годов. Машины разрабатывались для экспортных поставок. Первый прототип бронетранспортёра HWK 11 был создан в 1963 году, а позже 40 машин были поставлены в Мексику. Также было создано два прототипа разведывательной машины HWK 13. На базе общего шасси планировалось создание танка HWK 12, однако прототип построен не был.}
 [G126_HWK_12_short]::{HWK 12}
 [G134_PzKpfw_VII]::{Pz.Kpfw. VII}
-[G134_PzKpfw_VII_WT]::{Pz.Kpfw. VII WT}
-[G134_PzKpfw_VII_WT_descr]::{Вариант сверхтяжёлого танка фирмы Krupp с задним расположением башни, прорабатывавшийся в 1942 году. Проект был свёрнут в пользу более тяжёлых машин. Не было выпущено ни одного экземпляра.}
-[G134_PzKpfw_VII_WT_short]::{Pz.Kpfw. VII WT}
 [G134_PzKpfw_VII_bob]::{Pz.Kpfw. VII BB}
 [G134_PzKpfw_VII_bob_short]::{Pz.Kpfw. VII BB}
 [G134_PzKpfw_VII_descr]::{Вариант сверхтяжёлого танка компании Krupp с задним расположением башни, прорабатывавшийся в 1942 году. Проект был свёрнут в пользу более тяжёлых машин. Не было выпущено ни одного экземпляра.}
@@ -447,26 +447,35 @@ AVI-1790-8}
 [G144_Kpz_50t_long_special]::{Немецкий танк с необычным внешним видом: сочетание «щучьего носа» от советских танков и «леопардообразной» башни. Машина обладает относительно хорошим лобовым бронированием: 120-мм ВЛД, 250 мм во лбу башни. Броня бортов осталось на уровне Leopard 1 – 40 мм. В целом игровой процесс на этом танке похож на гибрид Т-62А и «леопарда»: комфортное, точное орудие, удобные УВН, но при этом скромное бронирование бортов диктуют осторожную игру «от рельефа» с частой сменой позиций.}
 [G144_Kpz_50t_short]::{Kpz 50 t}
 [G144_Kpz_50t_short_special]::{Комфортное орудие, небольшие размеры}
+[G146_E100_Hell_Boss]::{Неуязвимый}
+[G146_E100_Hell_Boss_descr]::{G146_E100_Hell_Boss_descr}
+[G146_E100_Hell_Boss_short]::{Неуязвимый}
 [G20_Marder_II]::{Marder II}
 [G20_Marder_II_descr]::{Лёгкая ПТ-САУ, разработанная в начале 1942 года на базе шасси устаревшего, но массового танка Pz.Kpfw. II. Машина также получила мощное орудие. Активно применялась на Восточном фронте, а с 1944 года — в Италии и на Западном фронте. Состояла на вооружении до конца войны.}
 [G20_Marder_II_short]::{Marder II}
+[G25_PzII_Luchs_HELL]::{Заяц}
+[G25_PzII_Luchs_HELL_HALL]::{Заяц}
+[G25_PzII_Luchs_short_HELL]::{Заяц}
+[G25_PzII_Luchs_short_HELL_HALL]::{Заяц}
+[G54_E-50_Hall_minion]::{Альфа E 50}
+[G54_E-50_Hall_minion_descr]::{G54_E-50_Hall_minion_descr}
+[G54_E-50_Hall_minion_short]::{Альфа E 50}
 [G58_VK4502P]::{VK 45.02 (P) Ausf. B7}
 [G58_VK4502P_descr]::{Вариант с передним и задним расположением башни был разработан Фердинандом Порше. Серийно не выпускался.}
 [G58_VK4502P_short]::{VK 45.02 B7}
+[G64_Panther_II_Hall_minion]::{Охотник Panther II}
+[G64_Panther_II_Hall_minion_short]::{Охотник Panther II}
 [G70_PzIV_Hydro_long_special]::{Танк является стандартным представителем немецких средних танков своего уровня. В меру бронированный, в меру быстрый, с хорошим орудием. Главное его отличие — повышенная прочность и комфортные углы склонения орудия. Учитывая льготный уровень боёв, данный танк является грозной силой в опытных руках.}
 [G70_PzIV_Hydro_short_special]::{Хорошие бронепробиваемость и УВН, высокая прочность}
+[G73_E50_Ausf_M_Hall_minion]::{Альфа E 50 M}
+[G73_E50_Ausf_M_Hall_minion_short]::{Альфа E 50 M}
 [G85_Aufklarungspanzer_V]::{Aufklärungspanzer V}
 [G85_Aufklarungspanzer_V_descr]::{Проект тяжёлой разведывательной машины на базе танка Panther. Использование корпуса и ходовой серийной машины значительно бы облегчило налаживание серийного производства. Установка меньшей по габаритам башни снижала вес машины, что положительно отразилось бы на ходовых характеристиках. Однако работы были завершены ещё на стадии проектирования.}
 [G85_Aufklarungspanzer_V_short]::{Aufkl.Pz. V}
 [G98_Waffentrager_E100_P_cn]::{Waffenträger auf E 100 (P) Mod}
 [G98_Waffentrager_E100_P_cn_descr]::{Проект более технологичной производственной модернизации, ориентированной на использование более доступных комплектующих, создавался в терпящей поражение Германии, как ответ на разрушение производственных цепочек под бомбовыми ударами и наступлениями стран Антигитлеровской коалиции.}
 [G98_Waffentrager_E100_P_cn_short]::{WT E 100 Mod}
-[G98_Waffentrager_E100_TL]::{Waffenträger auf E 110}
-[G98_Waffentrager_E100_TL_S]::{Waffenträger auf E 220}
-[G98_Waffentrager_E100_TL_S_desc]::{«Отойдя от немого шока, я поймал единственную сформировавшуюся мысль — какой же я дурак, что не захватил с базы фотоаппарат. Мне никто никогда не поверит, что я даже видел это чудовище, а если я скажу, что сражался против него, что противостоял ему — меня сочтут сумасшедшим. Какой разум мог сотворить это? Какой раздел инженерии, машиностроения, электротехники отвечает за... это? Клянусь, если неожиданно выяснится, что это — одушевлённый предмет, я даже не удивлюсь. И да, если у машин есть свой бог — то он передо мной».}
-[G98_Waffentrager_E100_TL_S_short]::{WT auf E 220}
-[G98_Waffentrager_E100_TL_desc]::{«Отойдя от немого шока, я поймал единственную сформировавшуюся мысль — какой же я дурак, что не захватил с базы фотоаппарат. Мне никто никогда не поверит, что я даже видел это чудовище, а если я скажу, что сражался против него, что противостоял ему — меня сочтут сумасшедшим. Какой разум мог сотворить это? Какой раздел инженерии, машиностроения, электротехники отвечает за... это? Клянусь, если неожиданно выяснится, что это — одушевлённый предмет, я даже не удивлюсь. И да, если у машин есть свой бог — то он передо мной».}
-[G98_Waffentrager_E100_TL_short]::{WT auf E 110}
+[G98_Waffentrager_E100_P_short_special]::{Магазинная система заряжания, высокая огневая мощь}
 [GT_101]::{GT 101}
 [GW_Mk_VIe]::{G.Pz. Mk. VI (e)}
 [GW_Mk_VIe_descr]::{В ходе кампании 1940 года немецкими трофеями стали несколько британских лёгких танков Mk. VI. В Вермахте они получили обозначение Leichter Panzerkampfwagen Mk. IV 734(e). До осени 1942 года трофеи использовались как учебные машины, но в ноябре было принято решение разработать на их базе самоходное орудие. В 1942 году были разработаны варианты САУ со 105- и 150-мм полевой гаубицей. Все машины были потеряны во время боёв во Франции летом–осенью 1944 года.}
@@ -492,8 +501,8 @@ AVI-1790-8}
 [Grille_short]::{Grille}
 [Grilleketten_ausf_A]::{Grille}
 [Grilleketten_ausf_B]::{Grille verstärkteketten}
+[Gun_1_G00_Bomber_Hell]::{Gun_1_G00_Bomber_Hell}
 [Gun_1_G00_Bomber_SH]::{?empty?}
-[Gun_1_G98_Waffentrager_E100_TL]::{Gun WT}
 [H35ketten]::{Pz.Kpfw. 38H 735 (f)}
 [H39_captured]::{Pz.Kpfw. 38H 735 (f)}
 [H39_captured_descr]::{В ходе Французской кампании Германией было захвачено около 600 танков Hotchkiss 39 в качестве трофеев. Эти машины были модернизированы и продолжили участвовать в боевых действиях уже в частях Вермахта.}
@@ -537,6 +546,7 @@ AVI-1790-8}
 [JagdTigerH_cn]::{Jagdtiger Prototype}
 [JagdTigerH_cn_descr]::{Один из двух первых прототипов тяжёлой противотанковой САУ Jagdtiger, построенный на шасси фирмы «Хеншель» и, в отличие от машины на шасси Порше, носивший обозначение «Прототип №2».}
 [JagdTigerH_cn_short]::{Jagdtiger Pr}
+[JagdTigerH_cn_short_special]::{Мощное орудие, хорошая защищённость}
 [JagdTigerH_ketten]::{Jagdtiger (H)}
 [JagdTigerH_turm]::{Jagdtiger (H)}
 [JagdTiger_SdKfz_185]::{8,8 cm Pak 43 Jagdtiger}
@@ -582,6 +592,7 @@ AVI-1790-8}
 [Ltraktor_short]::{L.Tr.}
 [Luchsketten_Ausf_A]::{Luchs}
 [Luchsketten_Ausf_B]::{Luchs verstärkteketten}
+[Luchsketten_Ausf_B_2]::{Luchs verstärkteketten}
 [MB-503]::{Daimler-Benz MB 503}
 [MB-503_short]::{MB 503}
 [MB-837]::{MTU MB 837 Aa 500}
@@ -611,9 +622,6 @@ verstärkteketten}
 [Marder_III_short]::{Marder 38T}
 [Marderturm]::{Marder II}
 [Maus]::{Maus}
-[Maus_WT]::{Maus WT}
-[Maus_WT_descr]::{Разрабатывался с июня 1942 по июль 1944 года. Было изготовлено два прототипа, из которых только один получил башню с вооружением.}
-[Maus_WT_short]::{Maus WT}
 [Maus_descr]::{Разрабатывался с июня 1942 по июль 1944 года. Было изготовлено два прототипа, из которых только один получил башню с вооружением.}
 [Maus_short]::{Maus}
 [Mausketten]::{Maus}
@@ -628,6 +636,7 @@ verstärkteketten}
 [Maybach_HL66P]::{Maybach HL 66 P}
 [Maybach_HL66Px2]::{2 x Maybach HL 66 P}
 [Maybach_HL90]::{Maybach HL 90}
+[Maybach_HL90_2]::{Maybach HL 90}
 [Maybach_HL_108TR]::{Maybach HL 108 TR}
 [Maybach_HL_108_TR_R]::{Maybach HL 108 TR R}
 [Maybach_HL_116]::{Maybach HL 116}
@@ -676,6 +685,7 @@ TRM P45}
 [Maybach_HL_230P45]::{Maybach HL 230 P45}
 [Maybach_HL_230P45_05]::{Maybach HL 130 P50}
 [Maybach_HL_230_TRM_P30]::{Maybach HL 230 TRM P30}
+[Maybach_HL_230_TRM_P30_Hall_minion]::{Maybach HL 230 TRM P30}
 [Maybach_HL_230_TRM_P30_SH]::{Maybach H 230 TR P50}
 [Maybach_HL_230_TRM_P30_short]::{Maybach
 HL 230 TRM P30}
@@ -692,10 +702,14 @@ TRM P72}
 [Maybach_HL_234P50]::{Maybach HL 295 Ausf. A}
 [Maybach_HL_234P50_short]::{Maybach HL 295 (A)}
 [Maybach_HL_234P60]::{Maybach Neues Projekt}
+[Maybach_HL_234P60_Hell_Boss]::{Maybach Neues Projekt}
 [Maybach_HL_234P60_WT]::{Maybach Neues Projekt A}
 [Maybach_HL_234P60_WT_short]::{Maybach Neues Projekt A}
 [Maybach_HL_234P60_short]::{Maybach Neues Projekt}
 [Maybach_HL_234_TRM_P30]::{Maybach HL 234 TRM P30}
+[Maybach_HL_234_TRM_P30_Hall_minion]::{Maybach HL 234 TRM P30 Hell minion}
+[Maybach_HL_234_TRM_P30_Hall_minion_short]::{Maybach
+HL 234 TRM P30 Hell minion}
 [Maybach_HL_234_TRM_P30_short]::{Maybach
 HL 234 TRM P30}
 [Maybach_HL_234_TRM_P45_1]::{Maybach HL 234 TRM P45}
@@ -705,6 +719,7 @@ TRM P45}
 [Maybach_HL_234_TRM_P45_Leicht_short]::{Maybach HL 295
 Ausf. A}
 [Maybach_HL_235]::{Maybach HL 235}
+[Maybach_HL_235_Hall_minion]::{Maybach HL 235 Hell minion}
 [Maybach_HL_45P]::{Maybach HL 45 P}
 [Maybach_HL_98]::{Maybach HL 98}
 [Maybach_NL38TR]::{Maybach HL 38 TR}
@@ -714,6 +729,7 @@ Ausf. A}
 [Nashorn_descr]::{Полное название ПТ-САУ Nashorn («Носорог») — 8.8 cm PaK 43/1 auf Geschützwagen III/IV (Sf). До 1944 года называлась Hornisse («Шершень»). Производилась на том же шасси, что и тяжёлая САУ артподдержки Hummel. Впервые использована в бою летом 1943 года на Восточном фронте. Всего было выпущено 494 машины.}
 [Nashorn_short]::{Nashorn}
 [Panther_II]::{Panther II}
+[Panther_II_Hall_minion_descr]::{Panther_II_Hall_minion_descr}
 [Panther_II_descr]::{Планы создания машины появились уже в 1943 году. В 1944 г. были заказаны два прототипа с башнями от «Пантеры I». К 1945 году компанией MAN был изготовлен только один прототип.}
 [Panther_II_short]::{Panther II}
 [Panther_M10]::{Panther/M10}
@@ -797,9 +813,6 @@ verstärkteketten}
 [PzIII-IV]::{Pz.Kpfw. III/IV}
 [PzIII-IV_ausf_B]::{Pz.Kpfw. III/IV verstärkteketten}
 [PzIII_A]::{Pz.Kpfw. III Ausf. E}
-[PzIII_A_WT]::{Pz.Kpfw. III Ausf. E WT}
-[PzIII_A_WT_descr]::{Заказ на создание боевой гусеничной машины массой 15 тонн с пушечным вооружением поступил ещё в 1935 году. И хотя масса первой крупносерийной машины Pz.Kpfw. III Ausf. E уже достигла 19,5 тонн, её конструкция была признана удачной, и количество машин в серии достигло 96. Последующие модификации выпускались ещё более крупными партиями, в результате чего Pz. Kpfw. III стал самым массовым танком Вермахта.}
-[PzIII_A_WT_short]::{Pz. III E WT}
 [PzIII_A_descr]::{Заказ на создание боевой гусеничной машины массой 15 тонн с пушечным вооружением поступил ещё в 1935 году. И хотя масса первой крупносерийной машины Pz.Kpfw. III Ausf. E уже достигла 19,5 тонн, её конструкция была признана удачной, и количество машин в серии достигло 96. Последующие модификации выпускались ещё более крупными партиями, в результате чего Pz. Kpfw. III стал самым массовым танком Вермахта.}
 [PzIII_A_short]::{Pz. III E}
 [PzIII_AusfJ]::{Pz.Kpfw. III Ausf. J}
@@ -833,16 +846,17 @@ Ausf. J}
 [PzIIIketten_Ausf_L_short]::{Pz.Kpfw. III
 Ausf. L}
 [PzIIL_Grosseturm]::{Luchs 5 cm}
+[PzIIL_Grosseturm_2]::{Luchs 5 cm}
 [PzIIL_Luchsturm]::{Luchs 2 cm}
 [PzII_J]::{Pz.Kpfw. II Ausf. J}
 [PzII_J_descr]::{Разведывательный танк с усиленным бронированием. Являлся дальнейшим развитием Pz.Kpfw. II. В октябре 1939 года был сделан заказ на установочную партию. В июле 1940 года был построен первый прототип. В 1943–1944 гг. семь машин участвовали в боевых действиях на Восточном фронте в составе 12-й танковой дивизии. Всего было произведено 22 машины.}
 [PzII_J_short]::{Pz. II J}
 [PzII_Luchs]::{Pz.Kpfw. II Luchs}
-[PzII_Luchs_WT]::{Pz.Kpfw. II Luchs WT}
-[PzII_Luchs_WT_descr]::{Основными отличиями данной машины от Pz.Kpfw. II Ausf. С являлись новый корпус, башня и ходовая с шахматным расположением опорных катков. Данная разведывательная машина обладала высокими характеристиками, однако в связи с дороговизной был произведён всего 131 танк модификации L.}
-[PzII_Luchs_WT_short]::{Luchs WT}
+[PzII_Luchs_2]::{Pz.Kpfw. II Luchs}
 [PzII_Luchs_descr]::{Основными отличиями данной машины от Pz.Kpfw. II Ausf. С являлись новый корпус, башня и ходовая с шахматным расположением опорных катков. Данная разведывательная машина обладала высокими характеристиками, однако в связи с дороговизной был произведён всего 131 танк модификации L.}
+[PzII_Luchs_descr_2]::{Основными отличиями данной машины от Pz.Kpfw. II Ausf. С являлись новый корпус, башня и ходовая с шахматным расположением опорных катков. Данная разведывательная машина обладала высокими характеристиками, однако в связи с дороговизной был произведён всего 131 танк модификации L.}
 [PzII_Luchs_short]::{Luchs}
+[PzII_Luchs_short_2]::{Luchs}
 [PzII_Luchsturm]::{Pz.Kpfw. II Ausf. F}
 [PzII_Luchsturm_short]::{Pz.Kpfw. II Ausf. F}
 [PzII_Standartturm]::{Pz.Kpfw. II Ausf. b}
@@ -915,9 +929,6 @@ Versuchs-Serie}
 [PzVIB_Tiger_II_F]::{Tiger II (H)}
 [PzVIB_Tiger_II_F_descr]::{Наиболее защищённый танк Второй мировой войны с самой мощной противотанковой пушкой, но с перегруженной моторно-трансмисcионной группой и ходовой частью, а также со слишком большой массой. При условии навязывания противнику огневого боя на большой дистанции, преимущества танка Tiger II в вооружении и броневой защите были подавляющими. Однако из-за большой массы, низкой надёжности двигателя и трансмиссии, а также вследствие небольшого количества произведённых машин, Tiger II не оказал серьёзного влияния на ход боевых действий.}
 [PzVIB_Tiger_II_F_short]::{Tiger II (H)}
-[PzVIB_Tiger_II_WT]::{Tiger II WT}
-[PzVIB_Tiger_II_WT_descr]::{Наиболее защищённый танк с самой мощной противотанковой пушкой, но с перегруженной моторно-трансмисcионной группой и ходовой частью, а также со слишком большой массой. При условии навязывания противнику огневого боя на большой дистанции преимущества «Тигра II» в вооружении и броневой защите были подавляющими. Однако из-за большой массы, низкой надёжности двигателя и трансмиссии, а также вследствие небольшого количества произведённых машин «Тигр II» не оказал серьёзного влияния на ход боевых действий.}
-[PzVIB_Tiger_II_WT_short]::{Tiger II WT}
 [PzVIB_Tiger_II_descr]::{Наиболее защищённый танк с самой мощной противотанковой пушкой, но с перегруженной моторно-трансмисcионной группой и ходовой частью, а также со слишком большой массой. При условии навязывания противнику огневого боя на большой дистанции преимущества «Тигра II» в вооружении и броневой защите были подавляющими. Однако из-за большой массы, низкой надёжности двигателя и трансмиссии, а также вследствие небольшого количества произведённых машин «Тигр II» не оказал серьёзного влияния на ход боевых действий.}
 [PzVIB_Tiger_II_short]::{Tiger II}
 [PzVIB_Vetstaerktketten]::{Tiger II}
@@ -933,8 +944,6 @@ Ausf. E}
 [PzVI_Tiger_P_descr]::{26 мая 1941 года Адольф Гитлер приказал доктору Порше и компании Henschel разработать прототипы нового тяжёлого танка, которые были продемонстрированы фюреру 20 апреля 1942 года. Машина разработки Порше не пошла в производство из-за слишком сложной системы привода и управления, а также необходимости использования большого количества меди. Позднее 90 оставшихся корпусов переделали в ПТ-САУ Ferdinand.}
 [PzVI_Tiger_P_short]::{Tiger (P)}
 [PzVI_Vetstaerktketten]::{Pz.Kpfw. Tiger Ausf. E}
-[PzVI_WT]::{Tiger I WT}
-[PzVI_WT_descr]::{Разработка танка началась в 1937 году компанией Henschel. Выпускался серийно с 1942 года. Впервые использовался в боевых действиях под Ленинградом. Танк участвовал в боях в Тунисе, самое массовое применение было в ходе сражения на Курской Дуге. Несмотря на прекращение производства летом 1944 года, «Тигр I» использовался до конца войны. Всего было выпущено 1354 танка.}
 [PzVI_descr]::{Разработка танка началась в 1937 году компанией Henschel. Выпускался серийно с 1942 года. Впервые использовался в боевых действиях под Ленинградом. Танк участвовал в боях в Тунисе, самое массовое применение было в ходе сражения на Курской Дуге. Несмотря на прекращение производства летом 1944 года, «Тигр I» использовался до конца войны. Всего было выпущено 1354 танка.}
 [PzV_PzIV]::{Pz.Kpfw. V/IV}
 [PzV_PzIV_CN]::{Pz.Kpfw. V Berge-Panther}
@@ -948,9 +957,6 @@ Ausf. E}
 [PzV_PzIV_ausf_Alfa_short]::{Pz. V/IV A}
 [PzV_PzIV_descr]::{Танк был изготовлен ремонтно-восстановительной ротой 653-го тяжёлого противотанкового батальона на базе шасси БРЭМ Bergepanther и башни Pz. IV.}
 [PzV_PzIV_short]::{Pz. V/IV}
-[PzV_WT]::{Panther WT}
-[PzV_WT_descr]::{Этот знаменитый танк выпускался с января 1943 по апрель 1945 года. Всего было выпущено 5796 машин, не считая восьми шасси серии F.}
-[PzV_WT_short]::{Panther WT}
 [PzV_descr]::{Этот знаменитый танк выпускался с января 1943 по апрель 1945 года. Всего было выпущено 5796 машин, не считая восьми шасси серии F.}
 [PzV_short]::{Panther}
 [Pz_II_AusfG]::{Pz.Kpfw. II Ausf. G}
@@ -963,10 +969,6 @@ Ausf. E}
 [Pz_IV_AusfD_descr]::{Выпуск этой модификации танка Pz IV начался в октябре 1939 года. Основными отличиями стали усиленное бронирование и наружное расположение маски пушки. За время серийного выпуска, который продолжался до мая 1940 года, было выпущено 229 машин этого типа.}
 [Pz_IV_AusfD_short]::{Pz. IV D}
 [Pz_IV_AusfH]::{Pz.Kpfw. IV Ausf. H}
-[Pz_IV_AusfH_WT]::{Pz.Kpfw. IV Ausf. H WT}
-[Pz_IV_AusfH_WT_descr]::{Pz. IV модификации G выпускался с мая 1942 года. В апреле 1943 года параллельно начался выпуск машин модификации Н, которая стала самой массовой в истории Pz. IV. Дополнительное бронирование на первых моделях было навесным, а впоследствии было заменено единой плитой толщиной 80 мм.
-Была установлена новая трансмиссия, хотя и несколько снизившая скорость машины, но более надёжная. Также на танки этих модификаций стали ставить экраны толщиной 5-8 мм. Всего было выпущено 3774 машины модификации H.}
-[Pz_IV_AusfH_WT_short]::{Pz. IV H WT}
 [Pz_IV_AusfH_descr]::{Pz. IV модификации G выпускался с мая 1942 года. В апреле 1943 года параллельно начался выпуск машин модификации Н, которая стала самой массовой в истории Pz. IV. Дополнительное бронирование на первых моделях было навесным, а впоследствии было заменено единой плитой толщиной 80 мм.
 Была установлена новая трансмиссия, хотя и несколько снизившая скорость машины, но более надёжная. Также на танки этих модификаций стали ставить экраны толщиной 5-8 мм. Всего было выпущено 3774 машины модификации H.}
 [Pz_IV_AusfH_short]::{Pz. IV H}
@@ -980,7 +982,6 @@ Ausf. E}
 [R113]::{R-113}
 [R_4_T]::{R/4-T}
 [R_5a]::{R/5a}
-[Radio_VK4502P]::{10WSc WT}
 [Renault]::{Renault}
 [RhB_Waffentrager]::{Rhm.-Borsig Waffenträger}
 [RhB_Waffentrager_descr]::{Проект компании Rheinmetall-Borsig был разработан в рамках конкурса по созданию специального артиллерийского транспортёра. Машина позволяла не только перевозить артиллерийскую систему, но и вести огонь непосредственно с шасси. В конструкции предполагалось широко использовать детали ходовой части САУ Hetzer. Разработка велась с конца 1942 до середины 1944 года, однако из-за сложности конструкции, высокой стоимости и большой массы предпочтение было отдано проекту компании Ardelt.}
@@ -1037,7 +1038,6 @@ verstärkteketten}
 [Tatra_V-103_R]::{Tatra Typ TD 103 P}
 [Tatra_V-103_R_short]::{Tatra Typ
 TD 103 P}
-[Tiger_WT_short]::{Tiger I WT}
 [Tiger_short]::{Tiger I}
 [Turret_1_Auf_Panther]::{VK 16.02 Leopard}
 [Turret_1_DW_II]::{D.W.-Versuchsturm}
@@ -1046,6 +1046,7 @@ TD 103 P}
 [Turret_1_E-50]::{E 50 Ausf. A}
 [Turret_1_E-75]::{E 75 Ausf. A}
 [Turret_1_E50_Ausf_M]::{E 50 Ausf. M}
+[Turret_1_G00_Bomber_Hell]::{Hell Bomber}
 [Turret_1_G00_Bomber_SH]::{?empty?}
 [Turret_1_G04_PzVI_Tiger_IA]::{Pz.Kpfw. Tiger Ausf. E}
 [Turret_1_G04_PzVI_Tiger_IA_short]::{Pz.Kpfw. Tiger
@@ -1055,7 +1056,6 @@ Ausf. E}
 [Turret_1_G103_RU_251]::{Spähpanzer Ru 251 Drehturm 360°}
 [Turret_1_G104_Stug_IV]::{StuG IV}
 [Turret_1_G105_T-55_NVA_DDR]::{T 55A}
-[Turret_1_G105_T-55_NVA_DDR_EL]::{T 55A}
 [Turret_1_G106_PzKpfwPanther_AusfF]::{Panther mit 8,8 cm Kw.K. 43 L/71}
 [Turret_1_G106_PzKpfwPanther_AusfF_short]::{Panther mit
 8,8 cm Kw.K. 43 L/71}
@@ -1093,14 +1093,16 @@ Ausf. E}
 [Turret_1_G142_M48RPz]::{M48A2 Räumpanzer}
 [Turret_1_G143_E75_TS]::{E 75 TS}
 [Turret_1_G144_Kpz_50t]::{Kampfpanzer 50 t}
+[Turret_1_G146_E100_Hell_Boss]::{E 100}
 [Turret_1_G16_PzVIB_Tiger_II_F]::{Tiger II}
 [Turret_1_G16_PzVIB_Tiger_II_F_short]::{Tiger II}
+[Turret_1_G54_E-50_Hall_minion]::{E-50 Hell minion}
 [Turret_1_G58_VK4502P]::{VK 45.02 (P) Ausf. B}
 [Turret_1_G58_VK4502P_short]::{VK 45.02 (P) Ausf. B}
+[Turret_1_G64_Panther_II_Hall_minion]::{Turm-Panther (schmale Blende)}
+[Turret_1_G73_E50_Ausf_M_Hall_minion]::{E 50 Ausf. M Hell minion}
 [Turret_1_G85_Aufklarungspanzer_V]::{Aufklärungspanzer V}
 [Turret_1_G98_Waffentrager_E100_P]::{Waffenträger auf E 100 (P)}
-[Turret_1_G98_Waffentrager_E100_TL]::{Waffenträger auf E 110}
-[Turret_1_G98_Waffentrager_E100_TL_S]::{Waffenträger auf E 220}
 [Turret_1_GW_Elefant]::{G.W. Tiger (P)}
 [Turret_1_GW_Mk_IVe]::{G.Pz. Mk. VI (e)}
 [Turret_1_G_E]::{G.W. E 100}
@@ -1142,7 +1144,7 @@ Turm Nr. 1}
 [Turret_1_VK4502A]::{VK 45.02 (P) Ausf. A}
 [Turret_1_VK4502A_short]::{VK 45.02 (P) Ausf. A}
 [Turret_1_Waffentrager_E100]::{Waffenträger auf E 100}
-[Turret_1_Waffentrager_IV]::{Waffenträger auf Pz. IV für 12.8 cm}
+[Turret_1_Waffentrager_IV]::{Waffenträger auf Pz. IV für 12,8 cm}
 [Turret_2_Auf_Panther]::{VK 28.01 Ausf. C}
 [Turret_2_DW_II]::{VK 30.01 (H) 0-Serie}
 [Turret_2_E-100]::{E 100}
@@ -1183,9 +1185,6 @@ Schwerer Turm}
 [VK2001DB_descr]::{Прототип среднего танка. Работы по проектированию и созданию опытного образца велись компанией Daimler-Benz с 1939 по 1941 год. Новая машина должна была стать новым единым средним танком Вермахта. Во время использования прототипа на Восточном фронте был выявлен ряд серьёзных проблем. В декабре 1941 года танк был признан устаревшим, и все работы по нему были свёрнуты.}
 [VK2001DB_short]::{VK 20.01 D}
 [VK2801]::{VK 28.01}
-[VK2801_WT]::{VK 28.01 WT}
-[VK2801_WT_descr]::{Разведывательный танк, разрабатывавшийся компанией Daimler-Benz. В металле проект реализован не был.}
-[VK2801_WT_short]::{VK 28.01 WT}
 [VK2801_descr]::{Разведывательный танк, разрабатывавшийся компанией Daimler-Benz. В металле проект реализован не был.}
 [VK2801_short]::{VK 28.01}
 [VK3001H]::{VK 30.01 (H)}
@@ -1236,9 +1235,6 @@ verstärkteketten}
 Ausf. H2}
 [VK3601H_Standardturm]::{VK 36.01 (H)}
 [VK3601H_Standardturm_short]::{VK 36.01 (H)}
-[VK3601H_WT]::{VK 36.01 (H) WT}
-[VK3601H_WT_descr]::{Немецкий опытный тяжёлый танк времён Второй мировой войны, разработанный компанией Henschel, дальнейшее развитие проекта VK 30.01 (H). Проект стал одним из этапов разработки танка «Тигр». Всего в начале 1942 года было построено 8 шасси и 1 прототип. В ходе работы над прототипом были отработаны многие технические решения, которые впоследствии послужили основой при разработке тяжёлых танков Германии во Второй мировой войне. В дальнейшем шасси использовались в качестве базы для ремонтно-эвакуационных машин.}
-[VK3601H_WT_short]::{VK 36.01 H WT}
 [VK3601H_descr]::{Немецкий опытный тяжёлый танк времён Второй мировой войны, разработанный компанией Henschel, дальнейшее развитие проекта VK 30.01 (H). Проект стал одним из этапов разработки танка «Тигр». Всего в начале 1942 года было построено 8 шасси и 1 прототип. В ходе работы над прототипом были отработаны многие технические решения, которые впоследствии послужили основой при разработке тяжёлых танков Германии во Второй мировой войне. В дальнейшем шасси использовались в качестве базы для ремонтно-эвакуационных машин.}
 [VK3601H_henshelketten]::{VK 36.01 (H)}
 [VK3601H_henshelketten_ausf_B]::{VK 36.01 (H) verstärkteketten}
@@ -1271,7 +1267,7 @@ verstärkteketten}
 [Waffentrager_E100_descr]::{Вариант установки зенитных орудий крупного калибра на шасси танка Е 100. Предполагалось использовать 128- и 150-мм орудия с автоматом заряжания. Однако к концу войны разработка данного проекта так и не была начата.}
 [Waffentrager_E100_short]::{WT E 100}
 [Waffentrager_IV]::{Waffenträger auf Pz. IV}
-[Waffentrager_IV_descr]::{ПТ-САУ, разработанная в феврале 1944 года на базе узлов и агрегатов PzIV. Существовала только в эскизах. Работы над проектом были прекращены в пользу аналогичной машины, разработанной на базе узлов и агрегатов Krupp Waffentrager 12.8 cm PaK 44 чешского производства.}
+[Waffentrager_IV_descr]::{ПТ-САУ, разработанная в феврале 1944 года на базе узлов и агрегатов PzIV. Существовала только в эскизах. Работы над проектом были прекращены в пользу аналогичной машины, разработанной на базе узлов и агрегатов Krupp Waffentrager 12,8 cm PaK 44 чешского производства.}
 [Waffentrager_IV_short]::{WT auf Pz. IV}
 [Weiss_Manfred_V_8H]::{Weiss Manfréd V-8H}
 [Wespe]::{Wespe}
@@ -1281,15 +1277,13 @@ verstärkteketten}
 [Wespeketten_ausf_B]::{Wespe verstärkteketten}
 [Wespeturm]::{Wespe}
 [_100mm_3UBK4]::{3UBK4}
-[_100mm_3UBK4_WT]::{3UBK4 WT}
 [_100mm_BR-412D]::{UBR-412D}
-[_100mm_BR-412D_WT]::{UBR-412D WT}
 [_100mm_Typ_D-10T2S]::{100 mm Panzerkanone D-10T2S L/56}
 [_100mm_UOF-412]::{UOF-412}
-[_100mm_UOF-412_WT]::{UOF-412 WT}
 [_105mmGr39H1A]::{Gr 39 H1A}
 [_105mmGr39H1A_SH]::{Gr 39/46 HL}
 [_105mmGr_39H1A_K]::{Gr 39 H1A K}
+[_105mmGr_39H1A_K_Hall_minion]::{Gr 39 H1A K HM}
 [_105mm_APCR_DM23]::{DM23}
 [_105mm_APDS_M_SH]::{M 42/43}
 [_105mm_AP_DM13]::{DM13}
@@ -1307,18 +1301,21 @@ verstärkteketten}
 [_105mm_K18_L52A]::{10,5 cm Kanone 18}
 [_105mm_Kanone]::{105 mm Kanone}
 [_105mm_KwK45_L52]::{10,5 cm Kw.K. L/52}
-[_105mm_KwK45_L52_N]::{10.5 cm KwsPz.K. L/52}
-[_105mm_KwK45_L52_SH]::{10.5 cm Kw.K. L/52}
+[_105mm_KwK45_L52_N]::{10,5 cm KwsPz.K. L/52}
+[_105mm_KwK45_L52_SH]::{10,5 cm Kw.K. L/52}
 [_105mm_KwK45_L52_ausf_B]::{10,5 cm Kw.K. L/52 Ausf. B}
 [_105mm_KwK45_L52_ausf_B_short]::{10,5 cm Kw.K. L/52
 Ausf. B}
 [_105mm_KwK45_L52_ausf_K]::{10,5 cm Kw.K. L/52 Ausf. K}
+[_105mm_KwK45_L52_ausf_K_Hall_minion]::{10,5 cm Kw.K. L/52 Ausf. K Hell minion}
+[_105mm_KwK45_L52_ausf_K_Hall_minion_short]::{10,5 cm Kw.K. L/52
+Ausf. K HM}
 [_105mm_KwK45_L52_ausf_K_short]::{10,5 cm Kw.K. L/52
 Ausf. K}
 [_105mm_KwK46_L68]::{10,5 cm Kw.K. L/68}
-[_105mm_KwK46_L68_N]::{10.5 cm KwsPz.K. L/68}
+[_105mm_KwK46_L68_N]::{10,5 cm KwsPz.K. L/68}
 [_105mm_KwK46_L70]::{10,5 cm Kw.K. L/70}
-[_105mm_KwK46_L70_SH]::{10.5 cm Kw.K. L/70}
+[_105mm_KwK46_L70_SH]::{10,5 cm Kw.K. L/70}
 [_105mm_Kw_K_L_73]::{10,5 cm Kw.K. L/73}
 [_105mm_L7A1]::{10,5 cm L7A1}
 [_105mm_PzGr.40Rot]::{PzGr 40 rot}
@@ -1331,6 +1328,7 @@ Ausf. K}
 [_105mm_Pzgr.40]::{Pzgr 40}
 [_105mm_Pzgr.40G]::{Pzgr 40 G}
 [_105mm_Pzgr.40K]::{Pzgr 40 K}
+[_105mm_Pzgr.40K_Hall_minion]::{Pzgr 40 K HM}
 [_105mm_Pzgr.40L1]::{Pzgr 40 L1}
 [_105mm_Pzgr.40_n]::{Pzgr ver. 40}
 [_105mm_Pzgr.41L1_SH]::{Pzgr 41 L1}
@@ -1339,6 +1337,7 @@ Ausf. K}
 [_105mm_Rheinmetall_V1]::{10,5 cm Rheinmetall V1}
 [_105mm_Sprg.18G]::{Sprgr 18G}
 [_105mm_Sprg.18K]::{Sprgr 18 K}
+[_105mm_Sprg.18K_Hall_minion]::{Sprgr 18 K HM}
 [_105mm_Sprg_K]::{Sprgr K}
 [_105mm_Sprg_L]::{Sprgr L}
 [_105mm_Sprg_L1]::{Sprgr L1}
@@ -1346,26 +1345,27 @@ Ausf. K}
 [_105mm_Sprgr_45]::{Sprgr. 45}
 [_105mm_StuH42_L28]::{10,5 cm Stu.H. 42 L/28}
 [_105mm_StuH42_L28Pz]::{10,5 cm Kw.K. L/28}
-[_105mm_StuH42_L28Pz_SH]::{10.5 cm Kw.K. L/28}
+[_105mm_StuH42_L28Pz_SH]::{10,5 cm Kw.K. L/28}
 [_105mm_leFH16_L22]::{10,5 cm le.F.H. 16 L/22}
 [_105mm_leFH18_L28]::{10,5 cm le.F.H. 18 L/28}
 [_10WSc]::{10WSc}
+[_10WSc_Hall_minion]::{10WSc Hell minion}
+[_10WSc_Hell_Boss]::{10WSc}
 [_10WSc_WT]::{10WSc A}
-[_128mm_AP_Waffentrager_E100_WT]::{AP WT}
-[_128mm_HE_Waffentrager_E100_WT]::{HE WT}
 [_128mm_K43_L55]::{12,8 cm Kanone 43 L/55}
 [_128mm_K44_2_L61]::{12,8 cm Kanone L/61}
 [_128mm_K44_2_L61_WT]::{12,8 cm Kanone L/61 A}
 [_128mm_K44_L55]::{12,8 cm Kanone 44 L/55}
 [_128mm_KwK44_L55]::{12,8 cm Kw.K. 44 L/55}
-[_128mm_KwK44_L55_N]::{12.8 cm Kw.K. Ausf. E}
-[_128mm_KwK44_L55_SH]::{12.8 cm Kw.K. 44 L/55}
+[_128mm_KwK44_L55_Hell_Boss]::{12,8 cm Kw.K. 44 L/55}
+[_128mm_KwK44_L55_N]::{12,8 cm Kw.K. Ausf. E}
+[_128mm_KwK44_L55_SH]::{12,8 cm Kw.K. 44 L/55}
 [_128mm_KwK46_L61]::{12,8 cm Kw.K. 46 L/61}
 [_128mm_Kw_K_L_61K]::{12,8 cm Kw.K. L/61K}
 [_128mm_L50]::{12,8 cm Kw.K. L/50}
 [_128mm_L50A]::{12,8 cm Kw.K. L/50}
 [_128mm_L50P]::{12,8 cm Kw.K. L/50 A}
-[_128mm_L50_SH]::{12.8 cm Kw.K. L/50}
+[_128mm_L50_SH]::{12,8 cm Kw.K. L/50}
 [_128mm_PaK44_2_L61]::{12,8 cm Pak L/66}
 [_128mm_PaK44_L55]::{12,8 cm Pak 44 L/55}
 [_128mm_PaK44_L55A]::{12,8 cm Pak 44/1 L/55}
@@ -1376,12 +1376,14 @@ Ausf. K}
 [_128mm_PzGr39K]::{Pzgr 39 K}
 [_128mm_PzGr39L]::{Pzgr 39 L}
 [_128mm_PzGr39_E]::{Pzgr 39 E}
+[_128mm_PzGr39_Hell_Boss]::{Pzgr 39}
 [_128mm_PzGr39_n]::{Pzgr ver. 39}
 [_128mm_PzGr40]::{Pzgr 40}
 [_128mm_PzGr40A]::{Pzgr 40 A}
 [_128mm_PzGr40E_HEAT_SH]::{Gr 55 HL}
 [_128mm_PzGr40K]::{Pzgr 40 K}
 [_128mm_PzGr40_E]::{Pzgr 40 E}
+[_128mm_PzGr40_Hell_Boss]::{Pzgr 40}
 [_128mm_PzGr40_n]::{Pzgr 40/48}
 [_128mm_PzGr43]::{Pzgr 43}
 [_128mm_PzGr44M_SH]::{Pzgr 44M}
@@ -1390,6 +1392,7 @@ Ausf. K}
 [_128mm_SprG18]::{Sprgr 18}
 [_128mm_SprG18A]::{Sprgr 18 A}
 [_128mm_SprG18_E]::{Sprgr 18 E}
+[_128mm_SprG18_Hell_Boss]::{Sprgr 18}
 [_128mm_SprG18_n]::{Sprgr ver. 18}
 [_128mm_SprG19]::{Sprgr 19}
 [_128mm_Sprgr_N9]::{Sprgr. Nr. 9}
@@ -1445,8 +1448,10 @@ Ausf. K}
 [_30mm_M]::{Spgr. Patr. 103 M}
 [_30mm_MK103]::{3 cm M.K. 103}
 [_30mm_MK103A]::{3 cm M.K. 103A}
+[_30mm_MK103_2]::{3 cm M.K. 103}
 [_30mm_Pzgr]::{H-Pzgr. Patr. 103 (w)}
 [_30mm_Pzgr43]::{H-Pzgr. Patr. 103 (u)}
+[_30mm_Pzgr_2]::{H-Pzgr. Patr. 103 (w)}
 [_37cm_Pzgr40]::{Pzgr 40}
 [_37cm_Pzgr40t]::{Pzgr 40 (t)}
 [_37cm_Pzgr40t_bootcamp]::{Pzgr 40 (t)}
@@ -1505,6 +1510,7 @@ Ausf. K}
 [_75mm_Flak_L60]::{7,5 cm Flak L/60}
 [_75mm_KwK41_L58_conic]::{7,5/5,5 cm Waffe 0725}
 [_75mm_KwK45_L100]::{7,5 cm Kw.K. L/100}
+[_75mm_KwK45_L100_Hall_minion]::{7,5 cm Kw.K. L/100}
 [_75mm_KwK_37_L24]::{7,5 cm Kw.K. 37 L/24}
 [_75mm_KwK_37_L24A]::{7,5 cm Kw.K. 37 L/24}
 [_75mm_KwK_40_L43]::{7,5 cm Kw.K. 40 L/43}
@@ -1520,10 +1526,13 @@ Ausf. K}
 [_75mm_PaK_40_3]::{7,5 cm Pak 40/3 L/46}
 [_75mm_Pzgr.40]::{Pzgr 40}
 [_75mm_Pzgr.40L]::{Pzgr 40 L}
+[_75mm_Pzgr.40L_Hall_minion]::{Pzgr 40 L}
 [_75mm_Pzgr39]::{Pzgr 39}
 [_75mm_Pzgr39L]::{Pzgr 39 L}
+[_75mm_Pzgr39L_Hall_minion]::{Pzgr 39 L}
 [_75mm_Sprg.18]::{Sprgr 18}
 [_75mm_Sprg.18L]::{Sprgr 18 L}
+[_75mm_Sprg.18L_Hall_minion]::{Sprgr 18 L}
 [_75mm_StuK42_L70]::{7,5 cm Pak 42 L/70}
 [_75mm_StuK42_L70A]::{7,5 cm Pak 42 L/70}
 [_75mm_StuK_37_L24]::{7,5 cm Kanone L/24}
@@ -1542,16 +1551,20 @@ Ausf. K}
 [_88mm_KwK_43_L71A]::{8,8 cm Pak 43 L/71}
 [_88mm_KwK_43_L71B]::{8,8 cm Kw.K. 43 L/71}
 [_88mm_KwK_43_L71_N]::{8.8 cm Kw.K. 43 L/71 mod.Vlt}
+[_88mm_KwK_43_L71_mod_Vlt]::{8,8 cm Kw.K. 43 L/71 mod.Vlt}
 [_88mm_KwK_L100]::{8,8 cm Kw.K. L/100}
+[_88mm_KwK_L100_Hall_minion]::{8,8 cm Kw.K. L/100 Hell minion}
 [_88mm_PaK_36_L56]::{8,8 cm Pak L/56}
 [_88mm_PaK_43_L71]::{8,8 cm Pak 43 L/71}
 [_88mm_Pak_43_L71A]::{8,8 cm Pak 43 L/71A}
 [_88mm_Pzgr.40]::{Pzgr 40}
 [_88mm_Pzgr.40L]::{Pzgr 40 L}
+[_88mm_Pzgr.40L_HM]::{Pzgr 40 L HM}
 [_88mm_Pzgr.40_43]::{Pzgr 40/43}
 [_88mm_Pzgr.40_43_n]::{Pzgr 48}
 [_88mm_Pzgr39]::{Pzgr 39}
 [_88mm_Pzgr39L]::{Pzgr 39 L}
+[_88mm_Pzgr39L_HM]::{Pzgr 39 L HM}
 [_88mm_Pzgr39_1]::{Pzgr. 39/1 Flak 41}
 [_88mm_Pzgr39_43]::{Pzgr 39/43}
 [_88mm_Pzgr39_43_n]::{Pzgr ver. 39/43}
@@ -1559,6 +1572,7 @@ Ausf. K}
 [_88mm_Pzgr_39_43A]::{Pzgr 39/43A}
 [_88mm_Sprg.18]::{Sprgr 18}
 [_88mm_Sprg.18L]::{Sprgr 18 L}
+[_88mm_Sprg.18L_HM]::{Sprgr 18 L HM}
 [_88mm_Sprg.43]::{Sprgr 43}
 [_88mm_Sprg.43_n]::{Sprgr ver. 43}
 [_88mm_Sprgr.Flak_41]::{Sprgr. Flak 41}

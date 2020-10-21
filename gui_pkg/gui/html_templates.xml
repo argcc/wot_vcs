@@ -24,6 +24,7 @@
       </server-state>
    </login>
    <lobby>
+      <moneyPanel>&lt;font size=&#34;14&#34;&gt;&lt;img src=&#39;img://gui/maps/icons/library/CrystalIcon-2.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39;/&gt;&amp;nbsp;&lt;font color=&#34;#c9c9b6&#34;&gt;%(crystals)s&lt;/font&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&#34;img://gui/maps/icons/library/GoldIcon-2.png&#34; width=&#34;16&#34; height=&#34;16&#34; vspace=&#34;-2&#34;/&gt;&amp;nbsp;&lt;font color=&#39;#fbc062&#39;&gt;%(gold)s&lt;/font&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&#39;img://gui/maps/icons/library/CreditsIcon-2.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39;/&gt;&amp;nbsp;&lt;font color=&#39;#ced9d9&#39;&gt;%(credits)s&lt;/font&amp;nbsp;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&#39;img://gui/maps/icons/library/FreeXpIcon-2.png&#39; width=&#39;18&#39; height=&#39;18&#39; vspace=&#39;-4&#39;/&gt;&lt;font size=&#34;6&#34;&gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&#39;#c9c9b6&#39;&gt;%(freeExp)s&lt;/font&gt;&lt;/font&gt;</moneyPanel>
       <header>
          <premium-timeLabel>&lt;font color=&#34;#cbac77&#34; size=&#34;16&#34;&gt;%(time).0f &lt;/font&gt;&lt;font color=&#34;#cbac77&#34; size=&#34;12&#34;&gt;%(metric)s&lt;/font&gt;</premium-timeLabel>
          <premiumPlus-timeLabel>&lt;font color=&#34;#FFCC66&#34; size=&#34;16&#34;&gt;%(time).0f &lt;/font&gt;&lt;font color=&#34;#CB7518&#34; size=&#34;12&#34;&gt;%(metric)s&lt;/font&gt;</premiumPlus-timeLabel>
@@ -175,7 +176,6 @@
          <tooltip_counter_value_label>&lt;font color=&#34;#D3D3CA&#34; size=&#34;12&#34; face=&#34;$TextFont&#34;&gt;%(text)s&lt;/font&gt;</tooltip_counter_value_label>
          <tooltip_params_style>&lt;font color=&#34;#4a4a3f&#34; size=&#34;12&#34; face=&#34;$FieldFont&#34;&gt;%(text)s&lt;/font&gt;</tooltip_params_style>
          <tooltip_crit_label>&lt;IMG SRC=&#34;img://gui/maps/icons/library/crits/%(image)sSmall.png&#34; width=&#34;16&#34; height=&#34;16&#34; vspace=&#34;-5&#34;/&gt;&lt;font color=&#34;#7b7969&#34;&gt;%(value)s&lt;/font&gt;</tooltip_crit_label>
-         <tooltip_crit_label_with_count>&lt;IMG SRC=&#34;img://gui/maps/icons/library/crits/%(image)sSmall.png&#34; width=&#34;16&#34; height=&#34;16&#34; vspace=&#34;-5&#34;/&gt;&lt;font color=&#34;#7b7969&#34;&gt;%(value)s (x%(count)s)&lt;/font&gt;</tooltip_crit_label_with_count>
          <tooltip_two_liner>%(line1)s&lt;br/&gt;%(line2)s</tooltip_two_liner>
          <tooltip_three_liner>%(line1)s&lt;br/&gt;%(line2)s&lt;br/&gt;%(line3)s</tooltip_three_liner>
          <tooltip_four_liner>%(line1)s&lt;br/&gt;%(line2)s&lt;br/&gt;%(line3)s&lt;br/&gt;%(line4)s</tooltip_four_liner>
@@ -299,6 +299,31 @@
             <ally_description>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#80D63A&#34;&gt;%s&lt;/font&gt;</ally_description>
          </settings_key_commands>
          <not_enough_money>%(description)s&lt;br/&gt;&lt;br/&gt;_(#storage:blueprints/card/convertRequired) &lt;font color=&#39;#ff2717&#39;&gt;%(value)s&lt;/font&gt; &lt;img src=&#39;%(icon)s&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; /&gt;</not_enough_money>
+         <tooltip_buff_header>&lt;img src=&#39;img://gui/maps/icons/event/buffs/%(iconName)s.png&#39; width=&#39;30&#39; height=&#39;30&#39; vspace=&#39;-10&#39;/&gt;&lt;FONT FACE=&#34;$TitleFont&#34; SIZE=&#34;15&#34; COLOR=&#34;#E9E2BF&#34;&gt;%(header)s&lt;/FONT&gt;</tooltip_buff_header>
+         <tooltip_buff_body>&lt;P&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;12&#34; COLOR=&#34;#8C8C7E&#34;&gt;%(anomaly)s&lt;/FONT&gt;&lt;/P&gt;&lt;P&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;5&#34; COLOR=&#34;#8C8C7E&#34;&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P&gt;&lt;FONT FACE=&#34;$FieldFont&#34; SIZE=&#34;14&#34; COLOR=&#34;#8C8C7E&#34;&gt;%(body)s&lt;/FONT&gt;&lt;/P&gt;</tooltip_buff_body>
+         <eventBanTooltip>
+            <header>
+               <context>
+                  <color_tag_open>&lt;font color=&#34;#E9E2BF&#34;&gt;</color_tag_open>
+                  <color_tag_close>&lt;/font&gt;</color_tag_close>
+               </context>
+               <text>_(#tooltips:event/lobby/ban/headerDescription)</text>
+            </header>
+            <quest>
+               <context>
+                  <color_tag_open>&lt;font color=&#34;#E9E2BF&#34;&gt;</color_tag_open>
+                  <color_tag_close>&lt;/font&gt;</color_tag_close>
+               </context>
+               <text>_(#tooltips:event/lobby/ban/questDescription)</text>
+            </quest>
+         </eventBanTooltip>
+         <event_commander_description1>
+            <context>
+               <color_tag_open>&lt;font color=&#34;#E9E2BF&#34;&gt;</color_tag_open>
+               <color_tag_close>&lt;/font&gt;</color_tag_close>
+            </context>
+            <text>_(#tooltips:event/commanders/description1)</text>
+         </event_commander_description1>
       </tooltips>
       <dialogs>
          <premium>
@@ -439,6 +464,11 @@
          <graphicsAlert>&lt;font color=&#34;#FF0000&#34;&gt;%(message)s&lt;/font&gt;</graphicsAlert>
          <questsDialogAlert>&lt;font color=&#34;#D39337&#34;&gt;%(message)s&lt;/font&gt;</questsDialogAlert>
          <leaveEventWarning>&lt;font color=&#34;#FF0000&#34;&gt;%(message)s&lt;/font&gt;</leaveEventWarning>
+         <eventAFK>
+            <subTitleOpenTag>&lt;font color=&#34;#e9e2bf&#34; face=&#34;$TitleFont&#34; size=&#34;15&#34;&gt;</subTitleOpenTag>
+            <closeTag>&lt;/font&gt;</closeTag>
+            <indent>&lt;br&gt;&lt;font size=&#34;6&#34;&gt;&lt;br&gt;&lt;/font&gt;</indent>
+         </eventAFK>
       </dialogs>
       <popovers>
          <equipment>
@@ -488,7 +518,6 @@
             <STRONGHOLD>_(#invites:invites/text/STRONGHOLD) %(sender)s</STRONGHOLD>
             <EPIC>_(#invites:invites/text/EPIC) %(sender)s</EPIC>
             <BATTLE_ROYALE>_(#invites:invites/text/BATTLE_ROYALE) %(sender)s</BATTLE_ROYALE>
-            <BOB>_(#invites:invites/text/BOB) %(sender)s</BOB>
          </inviteTitle>
          <inviteTitleCreatorName>
             <context>
@@ -497,6 +526,9 @@
             </context>
             <text>&lt;br/&gt;_(#invites:invites/text/creatorName)</text>
          </inviteTitleCreatorName>
+         <inviteError>
+            <text>&lt;br/&gt;&lt;br/&gt;&lt;font color=&#34;#FF0000&#34;&gt;%(error)s&lt;/font&gt;</text>
+         </inviteError>
          <inviteWarning>
             <text>&lt;br/&gt;&lt;br/&gt;&lt;font color=&#34;#EE7000&#34;&gt;%(warning)s&lt;/font&gt;</text>
          </inviteWarning>
@@ -749,7 +781,6 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
             <universalBlueprints>_(#quests:bonusName/blueprints/universal) &lt;font color=&#39;#CED9D9&#39;&gt;%(value)s&lt;/font&gt;</universalBlueprints>
             <rankedDailyBattles>&lt;font color=&#39;#95907F&#39;&gt;%(value)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/rankedDailyBattles.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-4&#39; /&gt;</rankedDailyBattles>
             <rankedBonusBattles>&lt;font color=&#39;#95907F&#39;&gt;%(value)s&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/rankedBonusBattles.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-4&#39; /&gt;</rankedBonusBattles>
-            <wtTicket>&lt;font color=&#39;#CED9D9&#39;&gt;%(value)s &lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/wtevent/common/icon_ticket_16.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;-3&#39; /&gt;</wtTicket>
          </bonuses>
          <carouselBonuses>
             <credits>&lt;font face=&#39;$FieldFont&#39; size=&#39;22&#39; color=&#39;#CED9D9&#39;&gt;&lt;b&gt;%(value)s &lt;/b&gt;&lt;/font&gt;&lt;img src=&#39;img://gui/maps/icons/library/CreditsIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; /&gt;</credits>
@@ -1023,7 +1054,6 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <demountKit>&lt;img src=&#39;img://gui/maps/icons/demountKit/common_16x16.png&#39; width=&#39;16&#39; height=&#39;16&#39;vspace=&#39;-3&#39;&gt;</demountKit>
          <starYellow>&lt;img src=&#39;img://gui/maps/icons/library/badges/icon_star_yellow.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;%(vspace)d&#39;&gt;</starYellow>
          <battlePass>&lt;img src=&#39;img://gui/maps/icons/library/BattlePassIcon-1.png&#39; width=&#39;16&#39; height=&#39;16&#39; vspace=&#39;%(vspace)d&#39; hspace=&#39;0&#39;/&gt;</battlePass>
-         <clockSh>&lt;img src=&#39;img://gui/maps/icons/library/clock_icon_s.png&#39; width=&#39;24&#39; height=&#39;24&#39; vspace=&#39;%(vspace)d&#39; hspace=&#39;0&#39;/&gt;</clockSh>
       </iconText>
       <textStyle>
          <epicTitle>&lt;font face=&#39;$TitleFont&#39; size=&#39;73&#39; color=&#39;#F2F2F7&#39;&gt;%(message)s&lt;/font&gt;</epicTitle>
@@ -1089,7 +1119,7 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <expTextBig>&lt;font face=&#39;$TitleFont&#39; size=&#39;22&#39; color=&#39;#C9C9B6&#39;&gt;&lt;b&gt;%(message)s&lt;/b&gt;&lt;/font&gt;</expTextBig>
          <errCurrencyTextBig>&lt;font face=&#39;$TitleFont&#39; size=&#39;22&#39; color=&#39;#B70000&#39;&gt;&lt;b&gt;%(message)s&lt;/b&gt;&lt;/font&gt;</errCurrencyTextBig>
          <crystalText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#C9C9B6&#39;&gt;%(message)s&lt;/font&gt;</crystalText>
-         <eventCoinText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#C9C9B6&#39;&gt;%(message)s&lt;/font&gt;</eventCoinText>
+         <eventCoinText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#F4ECFB&#39;&gt;%(message)s&lt;/font&gt;</eventCoinText>
          <textEpic>&lt;font face=&#39;$TitleFont&#39; size=&#39;56&#39; color=&#39;#E9E2BF&#39;&gt;%(message)s&lt;/font&gt;</textEpic>
          <demountKitText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#C9C9B6&#39;&gt;%(message)s&lt;/font&gt;</demountKitText>
          <statsText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#E9E2BF&#39;&gt;%(message)s&lt;/font&gt;</statsText>
@@ -1115,6 +1145,10 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
          <missionStatusUnavailable>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#ff2717&#39;&gt;%(message)s&lt;/font&gt;</missionStatusUnavailable>
          <missionStatusAvailable>&lt;font face=&#39;$TitleFont&#39; size=&#39;18&#39; color=&#39;#7ab300&#39;&gt;%(message)s&lt;/font&gt;</missionStatusAvailable>
          <failedStatusText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#B70000&#39;&gt;%(message)s&lt;/font&gt;</failedStatusText>
+         <coinsText>&lt;font face=&#39;$TitleFont&#39; size=&#39;14&#39; color=&#39;#F4ECFB&#39;&gt;%(message)s&lt;/font&gt;</coinsText>
+         <purpleText>&lt;font face=&#39;$TitleFont&#39; size=&#39;15&#39; color=&#39;#F4ECFB&#39;&gt;%(message)s&lt;/font&gt;</purpleText>
+         <eventPackBought>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#39;#80D43A&#39;&gt;%(message)s&lt;/font&gt;</eventPackBought>
+         <eventNotEnoughtTokens>&lt;font face=&#39;$TitleFont&#39; size=&#39;15&#39; color=&#39;#B70000&#39;&gt;%(message)s&lt;/font&gt;</eventNotEnoughtTokens>
       </textStyle>
       <profileStatistics>
          <marksOfMasteryText>%(marksOfMastery)s&lt;font size=&#39;14&#39; color=&#39;#939188&#39;&gt;/%(totalVehicles)s&lt;/font&gt;</marksOfMasteryText>
@@ -1276,4 +1310,36 @@ _(#invites:invites/text/fort/defence) &lt;font color=&#34;#c9c9b6&#34;&gt;%(clan
       <paramTitleWhite>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#D3D3CA&#34;&gt;%(message)s&lt;/font&gt;</paramTitleWhite>
       <standardText>&lt;font face=&#39;$FieldFont&#39; size=&#39;14&#39; color=&#34;#595950&#34;&gt;%(message)s&lt;/font&gt;</standardText>
    </battleRoyale>
+   <battleHints>
+      <testMessage>&lt;font color=&#34;#FFFFFF&#34;&gt;_(#event:notification/testMessage)&lt;/font&gt;</testMessage>
+      <testMessageDynamic>&lt;font color=&#34;#FFFFFF&#34;&gt;_(#event:notification/testMessageDynamic)&lt;/font&gt;</testMessageDynamic>
+      <deliverSouls>&lt;font color=&#34;#FFFFFF&#34;&gt;_(#event:notification/deliverSouls)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;56&#34; color=&#34;#FFFFFF&#34;&gt;{soulsCount}&lt;/font&gt;&amp;nbsp;&lt;img src=&#39;img://gui/maps/icons/battleHints/event/iconMatter.png&#39; vspace=&#39;-2&#39;/&gt;</deliverSouls>
+      <collectorEnabled>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/collectorEnabled)&lt;/font&gt;</collectorEnabled>
+      <failedActivateCollector>&lt;font color=&#34;#FFFFFF&#34; size=&#34;76&#34;&gt;_(#event:notification/battleEnded)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;22&#34; color=&#34;#FEFEFE&#34;&gt;_(#event:notification/failedActivateCollector)&lt;/font&gt;</failedActivateCollector>
+      <timeOut>&lt;font color=&#34;#FFFFFF&#34; size=&#34;76&#34;&gt;_(#event:notification/battleEnded)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;22&#34; color=&#34;#FEFEFE&#34;&gt;_(#event:notification/timeOut)&lt;/font&gt;</timeOut>
+      <failedRunIntoCollector>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/failedRunIntoCollector)&lt;/font&gt;</failedRunIntoCollector>
+      <world1>&lt;font color=&#34;#FFFFFF&#34; size=&#34;76&#34;&gt;_(#event:notification/world1)&lt;/font&gt;</world1>
+      <world2>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/world2)&lt;/font&gt;</world2>
+      <world3>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/world3)&lt;/font&gt;</world3>
+      <world4>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/world4)&lt;/font&gt;</world4>
+      <world5>&lt;font color=&#34;#FFFFFF&#34; size=&#34;76&#34;&gt;_(#event:notification/victory)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#34;#FEFEFE&#34; size=&#34;22&#34;&gt;_(#event:notification/world5)&lt;/font&gt;</world5>
+      <hunter>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/hunter)&lt;/font&gt;</hunter>
+      <bomber>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/bomber)&lt;/font&gt;</bomber>
+      <turret>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/turret)&lt;/font&gt;</turret>
+      <final_hint>&lt;font color=&#34;#000000&#34; size=&#34;76&#34;&gt;_(#event:notification/final_hint)&lt;/font&gt;</final_hint>
+      <anomaly_power>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/anomaly_power)&lt;/font&gt;</anomaly_power>
+      <anomaly_rage>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/anomaly_rage)&lt;/font&gt;</anomaly_rage>
+      <anomaly_strength>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/anomaly_strength)&lt;/font&gt;</anomaly_strength>
+      <anomaly_accuracy>&lt;font color=&#34;#FEFEFE&#34;&gt;_(#event:notification/anomaly_accuracy)&lt;/font&gt;</anomaly_accuracy>
+      <collectMatter>&lt;font color=&#34;#FFFFFF&#34; size=&#34;32&#34;&gt;_(#event:notification/collectMatter)&lt;/font&gt;&lt;br/&gt;&lt;img src=&#39;img://gui/maps/icons/battleHints/event/iconMatter.png&#39; vspace=&#39;-2&#39;/&gt;</collectMatter>
+      <deliverMatter>&lt;font color=&#34;#FFFFFF&#34; size=&#34;32&#34;&gt;_(#event:notification/deliverMatter)&lt;/font&gt;&lt;br/&gt;&lt;img src=&#39;img://gui/maps/icons/battleHints/event/iconVolot.png&#39; vspace=&#39;-2&#39;/&gt;</deliverMatter>
+      <getToPoint>&lt;font color=&#34;#FFFFFF&#34; size=&#34;32&#34;&gt;_(#event:notification/getToPoint)&lt;/font&gt;&lt;br/&gt;&lt;img src=&#39;img://gui/maps/icons/battleHints/event/iconVolotFull.png&#39; vspace=&#39;-2&#39;/&gt;</getToPoint>
+   </battleHints>
+   <battleTimer>
+      <collectMatter>&lt;font color=&#34;#FFFFFF&#34; size=&#34;22&#34;&gt;_(#event:battleTimer/collectMatter)&lt;/font&gt;</collectMatter>
+      <deliverMatter>&lt;font color=&#34;#FFFFFF&#34; size=&#34;22&#34;&gt;_(#event:battleTimer/deliverMatter)&lt;/font&gt;</deliverMatter>
+      <getToPoint>&lt;font color=&#34;#FFFFFF&#34; size=&#34;22&#34;&gt;_(#event:battleTimer/getToPoint)&lt;/font&gt;</getToPoint>
+      <waitingForOtherPlayers>&lt;font color=&#34;#FFFFFF&#34; size=&#34;36&#34;&gt;_(#event:arena/waiting/title)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#34;#F2F2F7&#34; size=&#34;16&#34;&gt;_(#event:arena/waiting/message)&lt;/font&gt;</waitingForOtherPlayers>
+      <arenaDescription>&lt;font color=&#34;#FFFFFF&#34; size=&#34;36&#34;&gt;_(#event:arena/description/title)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#34;#F2F2F7&#34; size=&#34;16&#34;&gt;_(#event:arena/description/message)&lt;/font&gt;</arenaDescription>
+   </battleTimer>
 </html_templates.xml>

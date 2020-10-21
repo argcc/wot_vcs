@@ -837,8 +837,18 @@
             <type>url</type>
          </item>
          <item>
+            $PARAMS(/trade_in_personal)
+            <name>trade_in_personal</name>
+            <type>url</type>
+         </item>
+         <item>
             $PARAMS(/trade-off-overlay)
             <name>tradeOffOverlay</name>
+            <type>url</type>
+         </item>
+         <item>
+            $PARAMS(/trade-off-personal-overlay)
+            <name>personalTradeOffOverlay</name>
             <type>url</type>
          </item>
          <item>
@@ -849,11 +859,6 @@
          <item>
             $PARAMS(/collection_vehicles/collection_vehicles)
             <name>buyCollectibleVehicle</name>
-            <type>url</type>
-         </item>
-         <item>
-            $PARAMS(/white-tiger-overlay/wt2020_category)
-            <name>buyWtLootBoxes</name>
             <type>url</type>
          </item>
       </value>
@@ -935,6 +940,117 @@
       </value>
    </setting>
    <setting>
+      <name>dogTagsInfoPage</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
+      <value>
+         <item>
+            https://webbrg.worldoftanks.com/$LANGUAGE_CODE/promocontent/dogtag/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.eu/$LANGUAGE_CODE/promocontent/dogtag/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.asia/$LANGUAGE_CODE/promocontent/dogtag/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg-cn360.wotgame.cn/$LANGUAGE_CODE/promocontent/dogtag/
+            <name>CN</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg-ct.worldoftanks.ru/$LANGUAGE_CODE/promocontent/dogtag/
+            <name>CT</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/dogtag/
+            <name>default</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
+      <name>dogTagsOnboardingVideo1</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
+      <value>
+         <item>
+            https://webbrg.worldoftanks.com/$LANGUAGE_CODE/promocontent/dogtagVideo1/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.eu/$LANGUAGE_CODE/promocontent/dogtagVideo1/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.asia/$LANGUAGE_CODE/promocontent/dogtagVideo1/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg-cn360.wotgame.cn/$LANGUAGE_CODE/promocontent/dogtagVideo1/
+            <name>CN</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg-ct.worldoftanks.ru/$LANGUAGE_CODE/promocontent/dogtagVideo1/
+            <name>CT</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/dogtagVideo1/
+            <name>default</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
+      <name>dogTagsOnboardingVideo2</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
+      <value>
+         <item>
+            https://webbrg.worldoftanks.com/$LANGUAGE_CODE/promocontent/dogtagVideo2/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.eu/$LANGUAGE_CODE/promocontent/dogtagVideo2/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.asia/$LANGUAGE_CODE/promocontent/dogtagVideo2/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg-cn360.wotgame.cn/$LANGUAGE_CODE/promocontent/dogtagVideo2/
+            <name>CN</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg-ct.worldoftanks.ru/$LANGUAGE_CODE/promocontent/dogtagVideo2/
+            <name>CT</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/dogtagVideo2/
+            <name>default</name>
+            <type>url</type>
+         </item>
+      </value>
+   </setting>
+   <setting>
       <name>techTreeUpdateNewsURL</name>
       <type>macros</type>
       <macros>AUTH_REALM</macros>
@@ -1003,28 +1119,65 @@
       </value>
    </setting>
    <setting>
-      <name>eventSettings</name>
-      <type>dict</type>
+      <name>EventHangarNotesURL</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
       <value>
          <item>
-            0.1
-            <name>bossHpRatio</name>
-            <type>float</type>
+            https://igbevents-wgt1.wott.iv/halloween/$LANGUAGE_CODE/
+            <name>RU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://igbevents.worldoftanks.asia/halloween/$LANGUAGE_CODE/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://igbevents.worldoftanks.eu/halloween/$LANGUAGE_CODE/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://igbevents.worldoftanks.com/halloween/$LANGUAGE_CODE/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://igbevents-wgt1.wott.iv/halloween/$LANGUAGE_CODE/
+            <name>default</name>
+            <type>url</type>
          </item>
       </value>
    </setting>
    <setting>
-      <name>wtEvent</name>
-      <type>dict</type>
+      <name>EventAboutPageURL</name>
+      <type>macros</type>
+      <macros>AUTH_REALM</macros>
       <value>
          <item>
-            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/WhiteTiger2020/
-            <name>infoPage</name>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>RU</name>
             <type>url</type>
          </item>
          <item>
-            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/VideoWhiteTiger2020/
-            <name>introVideo</name>
+            https://webbrg.worldoftanks.asia/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>ASIA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.eu/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>EU</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.com/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>NA</name>
+            <type>url</type>
+         </item>
+         <item>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/halloween19/
+            <name>default</name>
             <type>url</type>
          </item>
       </value>
