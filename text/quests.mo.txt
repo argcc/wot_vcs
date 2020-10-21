@@ -598,6 +598,8 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/cumulative/directTeamHits]::{Попадания по союзникам}
 [details/conditions/cumulative/droppedCapturePoints]::{Очки защиты}
 [details/conditions/cumulative/enemyHits]::{Попадания по противнику}
+[details/conditions/cumulative/environmentID]::{Дойдите до указанной фазы в составе взвода «Мирный-13»}
+[details/conditions/cumulative/eventPoints]::{Соберите материю}
 [details/conditions/cumulative/explosionEnemyHits]::{Разрывы ОФ-снарядов рядом с противником, нанёсшие урон осколками}
 [details/conditions/cumulative/explosionHits]::{ОФ-попадания}
 [details/conditions/cumulative/explosionHitsReceived]::{Полученные ОФ-попадания}
@@ -1432,13 +1434,18 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/personalQuest/details/complete/left/weekly]::{из них в неделю: %(count)s}
 [missionDetails/prevPageBtn/label]::{Предыдущие}
 [missionDetails/requirements/conclusion/available]::{Требования выполнены (%(count)s)}
+[missionDetails/requirements/conclusion/previousIncomplete]::{Выполните задачу «%(quest_name)s».}
 [missionDetails/requirements/conclusion/unavailable]::{Требования не выполнены (%(count)s)}
 [missionDetails/requirements/header/available]::{Задача доступна:}
 [missionDetails/requirements/header/unavailable]::{Задача недоступна:}
 [missionDetails/resetDate]::{Обнуление задачи в %(time)s}
+[missionDetails/status/complete]::{Выполнено}
 [missionDetails/status/completed/daily]::{Следующее доступное выполнение через: %(time)s}
+[missionDetails/status/completed/event]::{Боевая задача выполнена. Следующее доступное
+выполнение: %(time)s.}
 [missionDetails/status/completed/weekly]::{Следующее доступное выполнение через: %(time)s}
 [missionDetails/status/disabled]::{Задача отключена}
+[missionDetails/status/inProgress]::{Выполняется}
 [missionDetails/status/notAvailable]::{Недоступно}
 [missionDetails/status/notAvailable/in_future]::{станет доступна через %(time)s}
 [missionDetails/status/notAvailable/invalid_time_interval]::{станет доступна через %(time)s}
@@ -1676,6 +1683,16 @@ Content-Transfer-Encoding: 8bit
 [token/default/folder]::{«Устав»}
 [token/default/france]::{«Франция»}
 [token/default/germany]::{«Германия»}
+[token/default/he19_A100_T49_Halloween]::{«Особый танк события — Гренадёр»}
+[token/default/he19_R40_T_54_Halloween]::{«Особый танк события — Малахит»}
+[token/default/he19_energy_for_use_booster]::{Усилитель опыта в Мирном-13}
+[token/default/he19_energy_for_use_healing]::{Стимулятор}
+[token/default/he19_money]::{«Монета»}
+[token/default/he19_tanksRank1]::{«Стиль (1-я стадия)»}
+[token/default/he19_tanksRank2]::{«Стиль (2-я стадия)»}
+[token/default/he19_tanksRank3]::{«Стиль (3-я стадия)»}
+[token/default/he20_afk_pardon_order]::{Приказ о реабилитации}
+[token/default/he20_recruit]::{Новобранец %(name)s}
 [token/default/heavyTank]::{«Тяжёлый танк»}
 [token/default/italy]::{«Италия»}
 [token/default/japan]::{«Япония»}

@@ -4132,6 +4132,20 @@
          </value>
       </item>
       <item>
+         <name>OnlineCounter</name>
+         <type>dict</type>
+         <value>
+            <item>
+               <name>view</name>
+               <value>lobby</value>
+            </item>
+            <item>
+               <name>path</name>
+               <value>header.onlineCounter</value>
+            </item>
+         </value>
+      </item>
+      <item>
          <name>MainMenuButtonBar</name>
          <type>dict</type>
          <value>
@@ -4274,12 +4288,12 @@
                   <item>
                      <name>right</name>
                      <type>float</type>
-                     <value>0</value>
+                     <value>3</value>
                   </item>
                   <item>
                      <name>bottom</name>
                      <type>float</type>
-                     <value>0</value>
+                     <value>3</value>
                   </item>
                </value>
             </item>
@@ -4560,6 +4574,46 @@
                      <name>bottom</name>
                      <type>float</type>
                      <value>0</value>
+                  </item>
+               </value>
+            </item>
+         </value>
+      </item>
+      <item>
+         <name>EventCrewHealing</name>
+         <type>dict</type>
+         <value>
+            <item>
+               <name>view</name>
+               <value>hangar</value>
+            </item>
+            <item>
+               <name>path</name>
+               <value>crewHealing</value>
+            </item>
+            <item>
+               <name>padding</name>
+               <type>dict</type>
+               <value>
+                  <item>
+                     <name>left</name>
+                     <type>float</type>
+                     <value>0</value>
+                  </item>
+                  <item>
+                     <name>top</name>
+                     <type>float</type>
+                     <value>2</value>
+                  </item>
+                  <item>
+                     <name>right</name>
+                     <type>float</type>
+                     <value>1</value>
+                  </item>
+                  <item>
+                     <name>bottom</name>
+                     <type>float</type>
+                     <value>3</value>
                   </item>
                </value>
             </item>

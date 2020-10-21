@@ -210,6 +210,14 @@ Content-Transfer-Encoding: 8bit
 [hotCoffee/onUse]::{?empty?}
 [hotCoffee/restriction]::{Только для техники Франции.}
 [hotCoffee/short_special]::{Повышает эффективность французских экипажей}
+[hpRepairAndCrewHeal/always]::{?empty?}
+[hpRepairAndCrewHeal/descr]::{Восстанавливает прочность, тушит пожар и чинит повреждённые модули.}
+[hpRepairAndCrewHeal/name]::{Экстренный ремонт}
+[hpRepairAndCrewHeal/onUse]::{• Сразу восстанавливает 400 ед. прочности танка.
+• Восстанавливает дополнительные 900 ед. прочности в течение 30 с.
+• Восстановление прерывается, если танк в это время получит урон.
+• Также тушит пожар и чинит повреждённые модули.}
+[hpRepairAndCrewHeal/restriction]::{?empty?}
 [improvedConfiguration/additional_descr]::{По одному разу за бой предотвращает взрыв боеукладки, возгорание баков и выведение двигателя из строя, если эти модули потеряли все очки прочности.}
 [improvedConfiguration/battleStatus/ammoBay/ready]::{Боеукладка защищена от подрыва}
 [improvedConfiguration/battleStatus/ammoBay/used]::{Подрыв боеукладки предотвращён}
@@ -261,6 +269,16 @@ Content-Transfer-Encoding: 8bit
 [inspire/longDescr]::{При использовании воодушевляет экипажи машины игрока и ближайших союзников в определённом радиусе, добавляя бонус в % к основным специальностям каждого члена экипажа.}
 [inspire/name]::{Воодушевление}
 [inspire/shortDescr]::{Бонус к основным специальностям экипажей игрока и союзников}
+[instantReload/always]::{?empty?}
+[instantReload/descr]::{Мгновенно завершает перезарядку.}
+[instantReload/name]::{Всегда готов!}
+[instantReload/onUse]::{Мгновенно завершает перезарядку орудий с циклическим или магазинным заряжанием.}
+[instantReload/restriction]::{?empty?}
+[invulnerability/always]::{?empty?}
+[invulnerability/descr]::{Дает неуязвимость на 7 секунд.}
+[invulnerability/name]::{Энергощит}
+[invulnerability/onUse]::{Создаёт щит, который защищает танк от любого урона в течение 7 с.}
+[invulnerability/restriction]::{?empty?}
 [largeCaliberHowitzerRammer/name]::{Гаубичный досылатель крупного калибра}
 [largeCaliberTankRammer/name]::{Орудийный досылатель крупного калибра}
 [largeMedkit/always]::{%(crewStunDuration)s от времени оглушения
@@ -298,6 +316,31 @@ Content-Transfer-Encoding: 8bit
 [nitro/long_special]::{Улучшает динамические ТТХ на %(duration)s секунд.}
 [nitro/name]::{Турбонагнетатель}
 [nitro/short_special]::{Улучшает динамические ТТХ на %(duration)s секунд.}
+[nitroRamDamage/always]::{?empty?}
+[nitroRamDamage/descr]::{На определённое время разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage/name]::{Турбонагнетатель}
+[nitroRamDamage/onUse]::{Разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage/restriction]::{?empty?}
+[nitroRamDamage2/always]::{?empty?}
+[nitroRamDamage2/descr]::{На определённое время разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage2/name]::{Турбонагнетатель}
+[nitroRamDamage2/onUse]::{Разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage2/restriction]::{?empty?}
+[nitroRamDamage3/always]::{?empty?}
+[nitroRamDamage3/descr]::{На определённое время разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage3/name]::{Турбонагнетатель}
+[nitroRamDamage3/onUse]::{Разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage3/restriction]::{?empty?}
+[nitroRamDamage4/always]::{?empty?}
+[nitroRamDamage4/descr]::{На определённое время разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage4/name]::{Турбонагнетатель}
+[nitroRamDamage4/onUse]::{Разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage4/restriction]::{?empty?}
+[nitroRamDamage5/always]::{?empty?}
+[nitroRamDamage5/descr]::{На определённое время разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage5/name]::{Турбонагнетатель}
+[nitroRamDamage5/onUse]::{Разгоняет танк и увеличивает наносимый тараном урон.}
+[nitroRamDamage5/restriction]::{?empty?}
 [passive_engineering/longDescr]::{Вызывает спецотряд, который ускоряет захват ключевых точек на карте или быстрее возвращает контроль над ними. Также ускоряет переподготовку зон обслуживания и увеличивает скорость их работы.}
 [passive_engineering/longFilterAlert]::{Данный боевой резерв нельзя использовать на САУ.}
 [passive_engineering/name]::{Диверсионный отряд}
@@ -399,6 +442,8 @@ Content-Transfer-Encoding: 8bit
 [repairpoint/long_special]::{На %(duration)s секунд устанавливает статическую область, в которой происходит ремонт всех повреждённых модулей, снятие оглушения и восстановление прочности.}
 [repairpoint/name]::{Ремзона}
 [repairpoint/short_special]::{Устанавливает временную статическую область, в которой происходит ремонт всех повреждённых модулей, снятие оглушения и восстановление прочности.}
+[resurrect_equipment/descr]::{Вы возрождаетесь с 50% прочности, если ваша команда перейдёт в следующую фазу боя.}
+[resurrect_equipment/name]::{Феникс}
 [selfBuff/descr]::{Временно снижает разброс, улучшает стабилизацию орудия, увеличивает скорость сведения орудия и скорострельность.}
 [selfBuff/longDescr]::{На %(duration)s секунд снижает разброс, улучшает стабилизацию и скорострельность орудия, а также увеличивает скорость его сведения.}
 [selfBuff/name]::{Предельная концентрация}
@@ -450,6 +495,16 @@ Content-Transfer-Encoding: 8bit
 [tankRammer/name]::{Орудийный досылатель}
 [tankRammer_tier1/name]::{Орудийный досылатель (Класс 1)}
 [tankRammer_tier2/name]::{Орудийный досылатель (Класс 2)}
+[teamRepairKit/always]::{Пассивно добавляет 20% к скорости ремонта модулей.}
+[teamRepairKit/descr]::{Мгновенно чинит все повреждённые модули союзных машин в радиусе действия способности.}
+[teamRepairKit/name]::{Аварийный набор}
+[teamRepairKit/onUse]::{Мгновенно чинит все повреждённые модули союзных машин в радиусе действия способности}
+[teamRepairKit/restriction]::{?empty?}
+[teamResupply/always]::{?empty?}
+[teamResupply/descr]::{Мгновенно восстанавливает часть прочности союзным машинам в радиусе действия способности.}
+[teamResupply/name]::{Полевая ремзона}
+[teamResupply/onUse]::{Мгновенно восстанавливает часть прочности союзным машинам в радиусе действия способности.}
+[teamResupply/restriction]::{?empty?}
 [trappoint/descr]::{Создаёт область, в зоне действия которой снижаются все динамические ТТХ техники противника.}
 [trappoint/long_special]::{На %(duration)s секунд создаёт область, в которой динамические ТТХ техники противника снижаются на %(power)s%%.}
 [trappoint/name]::{Капкан}

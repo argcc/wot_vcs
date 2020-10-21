@@ -80,6 +80,14 @@ Content-Transfer-Encoding: 8bit
 оборудование будет помещено на Склад.}
 [buyInstallConfirmation/submit]::{Купить}
 [buyInstallConfirmation/title]::{Подтверждение покупки}
+[buyItemPackConfirmation/cancel]::{Отменить}
+[buyItemPackConfirmation/message]::{Купить «Набор героев Мирного» за %(goldCost)s?}
+[buyItemPackConfirmation/submit]::{Купить}
+[buyItemPackConfirmation/title]::{Подтверждение покупки}
+[buyPlayerPackConfirmation/cancel]::{Отменить}
+[buyPlayerPackConfirmation/message]::{Купить «Вспомогательный набор» за %(goldCost)s?}
+[buyPlayerPackConfirmation/submit]::{Купить}
+[buyPlayerPackConfirmation/title]::{Подтверждение покупки}
 [buyPremWithoutBenefitsConfirmation/cancel]::{Отменить}
 [buyPremWithoutBenefitsConfirmation/message]::{Купить премиум аккаунт на %(days)s д за %(gold)s золота?
  %(alertIcon)s %(alertColorTagOpen)s В связи с техническими проблемами дополнительный опыт и кредиты не будут начислены. Вы можете выбрать другой бой или купить премиум аккаунт стандартным способом.%(tagClose)s}
@@ -381,6 +389,17 @@ Content-Transfer-Encoding: 8bit
 [equipmentSale/conformation/header]::{Продать оборудование «%(equipment)s»?}
 [eula/p1]::{Пожалуйста, ознакомьтесь с условиями <BR/><A HREF='event:%(eulaURL)s'><U>Лицензионного соглашения</U></A>, прежде чем продолжить.}
 [eula/p2]::{НАЖИМАЯ КНОПКУ «ПРИНИМАЮ», ВЫ ПОДТВЕРЖДАЕТЕ, ЧТО ВНИМАТЕЛЬНО ПРОЧИТАЛИ, ПОНЯЛИ И ПОЛНОСТЬЮ СОГЛАСНЫ С УСЛОВИЯМИ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ, ОБЯЗУЕТЕСЬ ИХ СОБЛЮДАТЬ И НЕСТИ ОТВЕТСТВЕННОСТЬ ЗА ИХ НАРУШЕНИЕ. УСЛОВИЯ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ И ДОПОЛНЕНИЙ К НЕМУ ЯВЛЯЮТСЯ СУЩЕСТВЕННЫМИ И ОБЯЗАТЕЛЬНЫМИ ДЛЯ ВСЕХ УЧАСТНИКОВ ПРОЕКТА.}
+[event/afk/afterBattle/cancel]::{Ознакомлен}
+[event/afk/afterBattle/message]::{%(subTitleOpenTag)sПредупреждение%(closeTag)s%(indent)sВаши действия вредят успеху всей операции в Мирном-13. Это совершенно недопустимо. При повторном нарушении вам ограничат доступ к участию в этом событии.}
+[event/afk/afterBattle/title]::{Недопустимое поведение}
+[event/afk/ban/cancel]::{Ознакомлен}
+[event/afk/ban/message]::{%(subTitleOpenTag)sВы отстранены%(closeTag)s%(indent)sЗа систематический сабботаж операции в Мирном-13 (бездействие и дезертирство) вам запрещено участвовать в боях события.%(indent)sБлокировка будет снята автоматически %(pardonDate)s или после выполнения специальной боевой задачи в Случайных боях.}
+[event/afk/ban/submit]::{К задаче}
+[event/afk/ban/title]::{Недопустимое поведение}
+[event/afk/battle/cancel]::{Отменить}
+[event/afk/battle/message]::{%(subTitleOpenTag)sВы нужны команде!%(closeTag)s%(indent)sДаже если ваша машина уничтожена, вы вернетёсь в бой, если команда перейдёт в другую фазу. Бегство с поля боя расценивается как дезертирство и может повлечь применение дисциплинарного взыскания.}
+[event/afk/battle/submit]::{Бежать}
+[event/afk/battle/title]::{Бегство с поля боя}
 [exchangeGoldConfirmation/cancel]::{Отменить}
 [exchangeGoldConfirmation/message]::{Обменять %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s на %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?}
 [exchangeGoldConfirmation/submit]::{Обменять}
@@ -499,6 +518,10 @@ Content-Transfer-Encoding: 8bit
 [hofDisabled/cancel]::{Закрыть}
 [hofDisabled/message]::{Зал славы временно недоступен. Повторите попытку позже.}
 [hofDisabled/title]::{Внимание!}
+[hw19RepairVehicle/cancel]::{Отменить}
+[hw19RepairVehicle/message]::{Провести восстановление машины за %(money)s?}
+[hw19RepairVehicle/submit]::{Подтвердить}
+[hw19RepairVehicle/title]::{Подтверждение восстановления}
 [interviewQuit/cancel]::{Назад}
 [interviewQuit/message]::{Сейчас вы можете отказаться от участия в опросе и пройти его позже, открыв сообщение с приглашением в Центре уведомлений. Сообщение активно в рамках текущей игровой сессии.}
 [interviewQuit/submit]::{Отказаться}
@@ -848,6 +871,9 @@ Content-Transfer-Encoding: 8bit
 [soundSpeakersPresetReset/message]::{Выбранный тип акустики отличается от автоматически определённого игрой. Часть звуков может отсутствовать. Выставить оптимальные настройки звука?}
 [soundSpeakersPresetReset/submit]::{Да}
 [soundSpeakersPresetReset/title]::{Несоответствующий тип акустики}
+[squad/eventDisabled/cancel]::{Так точно!}
+[squad/eventDisabled/message]::{Событие более недоступно. Взвод «Мирный-13» будет расформирован.}
+[squad/eventDisabled/title]::{Событие закончилось}
 [squad/goToAnother/cancel]::{Отменить}
 [squad/goToAnother/message]::{Вы состоите во взводе. При переходе в другой режим вы будете исключены из взвода.}
 [squad/goToAnother/submit]::{Перейти}
@@ -943,7 +969,7 @@ Content-Transfer-Encoding: 8bit
 [technicalMaintenanceConfirm/submit]::{ОК}
 [technicalMaintenanceConfirm/title]::{Подтверждение покупки}
 [tradeInConfirmation/cancel]::{Отменить}
-[tradeInConfirmation/message]::{Машина %(vehName)s будет продана и недоступна для восстановления.%(addition)s}
+[tradeInConfirmation/message]::{Машина %(vehName)s будет сдана и недоступна для восстановления.%(addition)s}
 [tradeInConfirmation/message/addition]::{ Дополнительно, %(operations)s.}
 [tradeInConfirmation/message/crew]::{экипаж будет высажен в Казарму}
 [tradeInConfirmation/message/equipments]::{снаряжение будет выгружено на Склад}
