@@ -206,9 +206,9 @@ Content-Transfer-Encoding: 8bit
 Для обмена необходимо %(gold)s}
 [confirmExchangeDialog/exchangeCredits/needGoldText]::{Обменять %(gold)s на недостающие кредиты?}
 [confirmExchangeDialog/exchangeCredits/needItemsStepperTitle]::{Необходимо кредитов:}
-[confirmExchangeDialog/exchangeCredits/needItemsText]::{На покупку не хватает: %(value)s}
-[confirmExchangeDialog/exchangeCredits/submit]::{Обменять}
-[confirmExchangeDialog/exchangeCredits/title]::{Подтверждение обмена для покупки}
+[confirmExchangeDialog/exchangeCredits/needItemsText]::{На покупку не хватает %(value)s}
+[confirmExchangeDialog/exchangeCredits/submit]::{Подтвердить}
+[confirmExchangeDialog/exchangeCredits/title]::{Подтверждение обмена}
 [confirmExchangeDialog/exchangeXp/cancel]::{Отменить}
 [confirmExchangeDialog/exchangeXp/exchangeNoNeedText]::{Перевод для исследования не требуется.
 У вас достаточно опыта.}
@@ -216,9 +216,9 @@ Content-Transfer-Encoding: 8bit
 Для перевода необходимо %(gold)s}
 [confirmExchangeDialog/exchangeXp/needGoldText]::{Перевести недостающий опыт за %(gold)s?}
 [confirmExchangeDialog/exchangeXp/needItemsStepperTitle]::{Необходимо опыта:}
-[confirmExchangeDialog/exchangeXp/needItemsText]::{На исследование не хватает: %(value)s}
+[confirmExchangeDialog/exchangeXp/needItemsText]::{На исследование не хватает %(value)s}
 [confirmExchangeDialog/exchangeXp/submit]::{Перевести}
-[confirmExchangeDialog/exchangeXp/title]::{Подтверждение обмена для исследования}
+[confirmExchangeDialog/exchangeXp/title]::{Подтверждение обмена}
 [confirmExchangeDialog/goldItemsStepperTitle]::{К оплате:}
 [confirmExchangeDialog/restoreExchangeCredits/cancel]::{Отменить}
 [confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText]::{Обмен для восстановления не требуется.
@@ -227,9 +227,9 @@ Content-Transfer-Encoding: 8bit
 Для обмена необходимо %(gold)s}
 [confirmExchangeDialog/restoreExchangeCredits/needGoldText]::{Обменять %(gold)s на недостающие кредиты?}
 [confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle]::{Необходимо кредитов:}
-[confirmExchangeDialog/restoreExchangeCredits/needItemsText]::{На восстановление не хватает: %(value)s}
+[confirmExchangeDialog/restoreExchangeCredits/needItemsText]::{На восстановление не хватает %(value)s}
 [confirmExchangeDialog/restoreExchangeCredits/submit]::{Обменять}
-[confirmExchangeDialog/restoreExchangeCredits/title]::{Подтверждение обмена для восстановления}
+[confirmExchangeDialog/restoreExchangeCredits/title]::{Подтверждение обмена}
 [confirmModuleDialog/countLabel]::{Количество:}
 [confirmModuleDialog/countLabel1]::{Количество}
 [confirmModuleDialog/inventory/totalLabel1]::{Итого}
@@ -393,11 +393,11 @@ Content-Transfer-Encoding: 8bit
 [event/afk/afterBattle/message]::{%(subTitleOpenTag)sПредупреждение%(closeTag)s%(indent)sВаши действия вредят успеху всей операции в Мирном-13. Это совершенно недопустимо. При повторном нарушении вам ограничат доступ к участию в этом событии.}
 [event/afk/afterBattle/title]::{Недопустимое поведение}
 [event/afk/ban/cancel]::{Ознакомлен}
-[event/afk/ban/message]::{%(subTitleOpenTag)sВы отстранены%(closeTag)s%(indent)sЗа систематический сабботаж операции в Мирном-13 (бездействие и дезертирство) вам запрещено участвовать в боях события.%(indent)sБлокировка будет снята автоматически %(pardonDate)s или после выполнения специальной боевой задачи в Случайных боях.}
+[event/afk/ban/message]::{%(subTitleOpenTag)sВы отстранены%(closeTag)s%(indent)sЗа систематический саботаж операции в Мирном-13 (бездействие и дезертирство) вам запрещено участвовать в боях события.%(indent)sБлокировка будет снята автоматически %(pardonDate)s или после выполнения специальной боевой задачи в Случайных боях.}
 [event/afk/ban/submit]::{К задаче}
 [event/afk/ban/title]::{Недопустимое поведение}
 [event/afk/battle/cancel]::{Отменить}
-[event/afk/battle/message]::{%(subTitleOpenTag)sВы нужны команде!%(closeTag)s%(indent)sДаже если ваша машина уничтожена, вы вернетёсь в бой, если команда перейдёт в другую фазу. Бегство с поля боя расценивается как дезертирство и может повлечь применение дисциплинарного взыскания.}
+[event/afk/battle/message]::{%(subTitleOpenTag)sВы нужны команде!%(closeTag)s%(indent)sДаже если ваша машина уничтожена, вы вернётесь в бой, если команда перейдёт в другую фазу. Бегство с поля боя расценивается как дезертирство и может повлечь применение дисциплинарного взыскания.}
 [event/afk/battle/submit]::{Бежать}
 [event/afk/battle/title]::{Бегство с поля боя}
 [exchangeGoldConfirmation/cancel]::{Отменить}
@@ -519,9 +519,9 @@ Content-Transfer-Encoding: 8bit
 [hofDisabled/message]::{Зал славы временно недоступен. Повторите попытку позже.}
 [hofDisabled/title]::{Внимание!}
 [hw19RepairVehicle/cancel]::{Отменить}
-[hw19RepairVehicle/message]::{Провести восстановление машины за %(money)s?}
+[hw19RepairVehicle/message]::{Провести дегазацию машины за %(money)s?}
 [hw19RepairVehicle/submit]::{Подтвердить}
-[hw19RepairVehicle/title]::{Подтверждение восстановления}
+[hw19RepairVehicle/title]::{Подтверждение дегазации}
 [interviewQuit/cancel]::{Назад}
 [interviewQuit/message]::{Сейчас вы можете отказаться от участия в опросе и пройти его позже, открыв сообщение с приглашением в Центре уведомлений. Сообщение активно в рамках текущей игровой сессии.}
 [interviewQuit/submit]::{Отказаться}

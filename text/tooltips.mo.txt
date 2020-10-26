@@ -435,7 +435,7 @@ Content-Transfer-Encoding: 8bit
 • за %(price)s — в последующие %(withMoneyLeftValue)s.}
 [barracks/tankmen/recovery/gold/body]::{У вас %(totalLeftValue)s для его возвращения в строй за %(price)s.}
 [barracks/tankmen/recovery/header]::{Член экипажа демобилизован}
-[barracks/tankmen/recovery/newSkill]::{Умения/навыки не выбраны}
+[barracks/tankmen/recovery/newSkill]::{Умения/навыки на выбор}
 [barracks/tankmen/recoveryBtn/header]::{Восстановить члена экипажа}
 [barracks/tankmen/recruit/body]::{Нажмите, чтобы открыть окно рекрутирования члена экипажа.}
 [barracks/tankmen/recruit/header]::{Рекрутировать члена экипажа}
@@ -962,7 +962,7 @@ Content-Transfer-Encoding: 8bit
 [cyberSport/unit/command]::{Команда}
 [cyberSport/unit/configure/body]::{Нажмите, чтобы указать необходимую для команды технику.}
 [cyberSport/unit/configure/header]::{Настройка требований}
-[cyberSport/unit/fightBtn/difficultyLevelNotUnlocked/body]::{Не подходящий уровень сложности взвода}
+[cyberSport/unit/fightBtn/difficultyLevelNotUnlocked/body]::{Неподходящий уровень сложности взвода}
 [cyberSport/unit/fightBtn/eventVehicleWrongMode/body]::{Вы не можете участвовать на этой машине.}
 [cyberSport/unit/fightBtn/eventVehicleWrongMode/header]::{Внимание!}
 [cyberSport/unit/fightBtn/notInSlot/body]::{Займите место в штате отряда для подтверждения готовности.}
@@ -1388,19 +1388,19 @@ Content-Transfer-Encoding: 8bit
 [event/healing/timeLeft]::{Время до готовности %(time)s}
 [event/lobby/ban/expiration]::{Блокировка будет снята %(value)s}
 [event/lobby/ban/header]::{Вы отстранены}
-[event/lobby/ban/headerDescription]::{За систематический сабботаж операции в %(color_tag_open)sМирном-13%(color_tag_close)s (бездействие и дезертирство) вам запрещено участвовать в боях события.}
+[event/lobby/ban/headerDescription]::{За систематический саботаж операции в %(color_tag_open)sМирном-13%(color_tag_close)s (бездействие и дезертирство) вам запрещено участвовать в боях события.}
 [event/lobby/ban/quest]::{Реабилитация}
-[event/lobby/ban/questDescription]::{Чтобы искупить вину, выполните задачу %(color_tag_open)s«Искупление»%(color_tag_close)s в Случайных боях.}
+[event/lobby/ban/questDescription]::{Чтобы искупить вину, выполните задачу %(color_tag_open)s«Индульгенция»%(color_tag_close)s в Случайных боях.}
 [event/squad/difficulty/dropdown/body]::{Только командир может изменять сложность.}
 [event/squad/difficulty/dropdown/commander/body]::{Вы можете выбрать сложность из доступных. От сложности зависят потенциальные награды.}
 [event/squad/difficulty/dropdown/header]::{Выбран уровень сложности %(level)s}
 [event/squad/difficulty/lock]::{%(icon)s Продолжайте играть на %(level)s сложности, чтобы разблокировать следующую.}
 [event/squad/difficulty/warning]::{%(icon)s Сложность разблокирована, но доступ к ней есть не у всех совзводных.}
-[event/squad/disable/body]::{Для режима «Крадущийся тигр» выберите Sturmtiger.}
+[event/squad/disable/body]::{Для этого взвода подходят %(tankName)s}
 [event/squad/disable/header]::{Внимание!}
 [event/squad/disableWrongDifficulty/header]::{Недоступно: взвод не готов}
 [event/squad/disableWrongDifficultyCommander/body]::{Уровни сложности среди игроков не совпадают. Измените уровень сложности взвода «Мирный-13».}
-[event/squad/disableWrongDifficultyPlayer/body]::{Уровень сложности, установленный во взводе, не соответсвует вашему максимально доступному.}
+[event/squad/disableWrongDifficultyPlayer/body]::{Уровень сложности, установленный во взводе, не соответствует вашему максимально доступному.}
 [eventProgression/allSeasonsAreOver]::{Все этапы завершены.}
 [eventProgression/currency]::{Жетоны:}
 [eventProgression/description]::{Участвуйте в Экспедиции и получайте уникальную технику за жетоны: %(vehicles)s или %(vehicle)s.}
@@ -1803,9 +1803,8 @@ Content-Transfer-Encoding: 8bit
 Доступен перевод опыта
 и ускоренное обучение экипажа.}
 [header/eliteIcon/header]::{Элитная машина}
-[header/eventSquad/body]::{Создание формирования из 2-3 игроков для совместной игры в Случайных боях.
-• Типы боёв: Стандартный бой, Штурм, Встречный бой.}
-[header/eventSquad/header]::{Взвод}
+[header/eventSquad/body]::{Создание формирования из 2-5 игроков для совместной игры в боях события «Мирный-13».}
+[header/eventSquad/header]::{Взвод «Мирный-13»}
 [header/info/players_online_full/body]::{Общее количество игроков
 на сервере «%(servername)s» / всего игроков на серверах региона.}
 [header/info/players_online_full/header]::{Игроки в сети}
@@ -2397,10 +2396,10 @@ Content-Transfer-Encoding: 8bit
 [quests/bonuses/token/body/he20_afk_pardon_order]::{Этот документ позволяет досрочно вернуться к операции в <b>Мирном-13</b>.}
 [quests/bonuses/token/description/he19_A100_T49_Halloween]::{Особый танк события «Мирный-13». Позволяет зарабатывать больше монет.
 
-Техника будет списана по завершению события %(date)s.}
+Техника будет списана по завершении события %(date)s.}
 [quests/bonuses/token/description/he19_R40_T_54_Halloween]::{Особый танк события «Мирный-13». Позволяет зарабатывать больше монет.
 
-Техника будет списана по завершению события %(date)s.}
+Техника будет списана по завершении события %(date)s.}
 [quests/bonuses/token/description/he19_energy_for_use_booster]::{Удваивает опыт командира, полученный в бою за Мирный-13.
 
 Действует один бой.}
@@ -2414,7 +2413,7 @@ Content-Transfer-Encoding: 8bit
 [quests/bonuses/token/he19_money/specialConditions]::{Обратите внимание!}
 [quests/bonuses/token/he19_money/specialConditionsDesc]::{По окончании события «Мирный-13» ({0} в {1}) оставшиеся монеты будут списаны.}
 [quests/bonuses/token/header]::{Марка %(userName)s}
-[quests/bonuses/token/header/he19_A100_T49_Halloween]::{Гренадёр}
+[quests/bonuses/token/header/he19_A100_T49_Halloween]::{Гренадер}
 [quests/bonuses/token/header/he19_R40_T_54_Halloween]::{Малахит}
 [quests/bonuses/token/header/he19_energy_for_use_booster]::{Усилитель опыта в Мирном-13}
 [quests/bonuses/token/header/he19_energy_for_use_healing]::{Стимулятор}
@@ -2793,7 +2792,7 @@ Content-Transfer-Encoding: 8bit
 [squadWindow/domination/vehiclesInfoIcon/header]::{Состав группы}
 [squadWindow/event/domination]::{Взвод в событии «Превосходство: Стальная ярость» состоит из 3 игроков. Вся техника должна быть отремонтирована, иметь укомплектованный экипаж и полный боекомплект.}
 [squadWindow/event/domination/note]::{Машины: %(vehicles)s}
-[squadWindow/eventVehicle]::{Для режима «Крадущийся тигр» выберите Sturmtiger.}
+[squadWindow/eventVehicle]::{Для этого взвода подходят %(tankName)s}
 [squadWindow/headerRestriction/difficultyNotUnlocked]::{Уровень сложности взвода не соответствует вашему максимально доступному уровню сложности}
 [squadWindow/infoIcon/battleRoyale/body]::{Взвод должен состоять из трёх специальных машин режима.}
 [squadWindow/infoIcon/battleRoyale/header]::{Правила формирования взвода}
