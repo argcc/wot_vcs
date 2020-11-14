@@ -543,7 +543,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <battleQuestsPremiumPlus>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/premium_plus): &lt;font color=&#39;#D6D7D4&#39;&gt;%(days)s&lt;/font&gt;&lt;/font&gt;</battleQuestsPremiumPlus>
       <battleQuestsItems>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/quests/items): &lt;font color=&#39;#D6D7D4&#39;&gt;%(names)s&lt;/font&gt;&lt;/font&gt;</battleQuestsItems>
       <completionTokens>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:personalMissions/completionTokenGain): &lt;font color=&#39;#D6D7D4&#39;&gt;%(completionToken)s&lt;/font&gt;&lt;/font&gt;</completionTokens>
-      <afkPardonOrder>&lt;font color=&#39;#D6D7D4&#39;&gt;%(userName)s&lt;/font&gt;</afkPardonOrder>
       <vehiclesAccruedQuestsReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/vehiclesAccrued): &lt;font color=&#39;#D6D7D4&#39;&gt;%(vehicles)s&lt;/font&gt;&lt;/font&gt;</vehiclesAccruedQuestsReceived>
       <vehiclesDebitedQuestsReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/vehiclesDebited): &lt;font color=&#39;#D6D7D4&#39;&gt;%(vehicles)s&lt;/font&gt;&lt;/font&gt;</vehiclesDebitedQuestsReceived>
       <vehiclesRentedQuestsReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/vehiclesRented): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(vehicles)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</vehiclesRentedQuestsReceived>
@@ -583,6 +582,7 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <crystalCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/crystal) %(amount)s</crystalCompensationInvoiceReceived>
       <eventCoinCompensationInvoiceReceived>_(#messenger:serviceChannelMessages/invoiceReceived/compensation/eventCoin) %(amount)s</eventCoinCompensationInvoiceReceived>
       <tankmenInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/tankmen): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(tankman)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</tankmenInvoiceReceived>
+      <tankmenInvoiceDismiss>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/tankmenToRemove): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(tankmenToRemove)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</tankmenInvoiceDismiss>
       <boostersInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/boosters): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(boosters)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</boostersInvoiceReceived>
       <enhancementsAccruedInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/enhancementsAccrued): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</enhancementsAccruedInvoiceReceived>
       <enhancementsDebitedInvoiceReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/invoiceReceived/enhancementsDebited): &lt;font color=&#39;#8C8C7E&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</enhancementsDebitedInvoiceReceived>
@@ -633,8 +633,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
       <battlePassNewDeviceToken>&lt;font color=&#39;#D6D7D4&#39;&gt;_(#messenger:serviceChannelMessages/battlePass/newDeviceToken) &lt;/font&gt;</battlePassNewDeviceToken>
       <intelligenceBlueprintReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived): &lt;font color=&#39;#D6D7D4&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;</intelligenceBlueprintReceived>
       <nationalBlueprintReceived>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived): &lt;font color=&#39;#D6D7D4&#39;&gt;&lt;b&gt;%(count)s&lt;/b&gt;&lt;/font&gt;</nationalBlueprintReceived>
-      <receiveHE19Money>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#tooltips:quests/bonuses/token/header/he19_money): &lt;font color=&#39;#D6D7D4&#39;&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</receiveHE19Money>
-      <halloweenVehicleRentMoneySpent>&lt;br/&gt;&lt;br/&gt;%(message)s</halloweenVehicleRentMoneySpent>
    </htmlTemplatesSimple>
    <htmlTemplates>
       <serverReboot>
@@ -744,40 +742,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <priority>medium</priority>
          <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/specialReward/title)&lt;/font&gt;&lt;br/&gt;%(specialRewardItems)s</message>
       </specialReward>
-      <HW20VictoryResult>
-         <type>battleResult</type>
-         <icon>BattleResultIcon</icon>
-         <bgIcon>
-            BgBattleResultIconVictory
-            <FORT_BATTLE>frtClanBtlBgBattleResult_UR_Victory</FORT_BATTLE>
-         </bgIcon>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
-               <action>showBattleResults</action>
-            </button>
-         </buttonsLayout>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/battleResults/victory)!&lt;/font&gt;
-&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s &lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color=&#39;#C8C8B5&#39;&gt;%(xp)s&lt;/font&gt;%(xpEx)s%(battlePassProgress)s&lt;/font&gt;%(crystalStr)s%(gold)s%(eventCoinStr)s&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/freeXP): &lt;font color=&#39;#C8C8B5&#39;&gt;%(freeXP)s&lt;/font&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/commanderPoints): &lt;font color=&#39;#E5B654&#39;&gt;%(commanderPoints)s&lt;/font&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color=&#39;#C5CFCF&#39;&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;&lt;br/&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s%(piggyBank)s</message>
-      </HW20VictoryResult>
-      <HW20DefeatResult>
-         <type>battleResult</type>
-         <icon>BattleResultIcon</icon>
-         <bgIcon>
-            BgBattleResultIconDefeat
-            <FORT_BATTLE>frtClanBtlBgBattleResult_UR_Defeat</FORT_BATTLE>
-         </bgIcon>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#messenger:serviceChannelMessages/battleResults/button)</label>
-               <action>showBattleResults</action>
-            </button>
-         </buttonsLayout>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/battleResults/defeat)&lt;/font&gt;
-&lt;font color=&#39;#929290&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/battle): %(arenaName)s &lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#929290&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/tanks): %(vehicleNames)s&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#929290&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color=&#39;#C8C8B5&#39;&gt;%(xp)s&lt;/font&gt;%(xpEx)s%(battlePassProgress)s&lt;/font&gt;%(crystalStr)s%(gold)s%(eventCoinStr)s&lt;br/&gt;&lt;font color=&#39;#929290&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/freeXP): &lt;font color=&#39;#C8C8B5&#39;&gt;%(freeXP)s&lt;/font&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#929290&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/commanderPoints): &lt;font color=&#39;#E5B654&#39;&gt;%(commanderPoints)s&lt;/font&gt;&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#929290&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color=&#39;#C5CFCF&#39;&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;&lt;br/&gt;%(rankedProgress)s%(rankedBonusBattles)s%(achieves)s%(lock)s%(quests)s%(piggyBank)s</message>
-      </HW20DefeatResult>
       <battleTutorialResBonuses>
          <type>battleResult</type>
          <icon>BattleResultIcon</icon>
@@ -1266,33 +1230,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>InformationIcon</icon>
          <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;&lt;br/&gt;&lt;img src=&#39;img://gui/maps/shop/misc/%(type)s.png&#39; align=&#39;baseline&#39; width=&#39;160&#39; height=&#39;36&#39; vspace=&#39;-54&#39;/&gt;</message>
       </PaymentMethodUnlinkSysMessage>
-      <EventRepairSysMessage>
-         <priority>low</priority>
-         <type>yellow</type>
-         <icon>CreditsIcon</icon>
-         <message>&lt;font  face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/eventRepair)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/message/eventRepair)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
-      </EventRepairSysMessage>
-      <EventBoosterSysMessage>
-         <priority>low</priority>
-         <type>yellow</type>
-         <icon>CreditsIcon</icon>
-         <message>&lt;font  face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/eventBooster)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/message/eventBooster)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
-      </EventBoosterSysMessage>
-      <EventBoosterActivatedSysMessage>
-         <type>yellow</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/eventBoosterActivated) %(text)s&lt;/font&gt;</message>
-      </EventBoosterActivatedSysMessage>
-      <EventHealingAllSysMessage>
-         <type>yellow</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/eventHealingAll)&lt;/font&gt;</message>
-      </EventHealingAllSysMessage>
-      <EventRestoreSysMessage>
-         <type>yellow</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/eventRestore) %(text)s&lt;/font&gt;</message>
-      </EventRestoreSysMessage>
       <AOGASNotify>
          <priority>high</priority>
          <type>yellow</type>
@@ -1354,46 +1291,6 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          </filters>
          <message>&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
       </serverDowntimeCompensation>
-      <halloweenVehicleRent>
-         <type>yellow</type>
-         <icon>GoldIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/halloweenHangar/vehicleRent)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
-      </halloweenVehicleRent>
-      <halloweenStyleBought>
-         <type>yellow</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/halloweenHangar/styleBought)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
-      </halloweenStyleBought>
-      <halloweenStyleBoughtByGold>
-         <type>yellow</type>
-         <icon>GoldIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/halloweenHangar/styleBought)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
-      </halloweenStyleBoughtByGold>
-      <halloweenStyleBundleBought>
-         <type>yellow</type>
-         <icon>GoldIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/halloweenHangar/styleBundleBought)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
-      </halloweenStyleBundleBought>
-      <bestDealBandleBought>
-         <type>yellow</type>
-         <icon>GoldIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/halloweenHangar/bestdealBought)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
-      </bestDealBandleBought>
-      <halloweenBuyShopItem>
-         <type>yellow</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/halloweenHangar/buyShopItem)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
-      </halloweenBuyShopItem>
-      <halloweenCommanderLevelReached>
-         <type>grey</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/halloweenHangar/halloweenCommanderLevelReached)&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
-      </halloweenCommanderLevelReached>
-      <halloweenDifficultyLevelReached>
-         <type>grey</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font color=&#39;#E9E2BF&#39; face=&#34;$TitleFont&#34; size=&#34;15&#34;&gt;_(#messenger:serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReached)&lt;/font&gt;&lt;br/&gt;_(#messenger:serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReachedText)</message>
-      </halloweenDifficultyLevelReached>
       <tokenQuests>
          <type>battleResult</type>
          <icon>BattleResultIcon</icon>
@@ -1689,6 +1586,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>MessageIcon</icon>
          <message>&lt;font color=&#34;#8C8C7E&#34;&gt;_(#system_messages:squad/notValidMaxSpgDeleted)&lt;/font&gt;</message>
       </prbVehicleMaxSpgKick>
+      <prbWrongEnqueueDataKick>
+         <priority>high</priority>
+         <type>grey</type>
+         <icon>MessageIcon</icon>
+         <message>&lt;font color=&#34;#8C8C7E&#34;&gt;_(#system_messages:squad/notValidEnqueueData)&lt;/font&gt;</message>
+      </prbWrongEnqueueDataKick>
       <RotationGroupLock>
          <priority>medium</priority>
          <type>grey</type>
@@ -1858,7 +1761,7 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
             </button>
          </buttonsLayout>
       </RecruitGiftSysMessage>
-      <RecruitReminderSysMessage>
+      <RecruitReminder>
          <priority>low</priority>
          <type>grey</type>
          <icon>InformationIcon</icon>
@@ -1872,7 +1775,7 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
                <width>107</width>
             </button>
          </buttonsLayout>
-      </RecruitReminderSysMessage>
+      </RecruitReminder>
       <PersonalMissionFailedMessage>
          <type>personalMissionFailed</type>
          <icon>WarningIcon</icon>
@@ -1977,12 +1880,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
             </button>
          </buttonsLayout>
       </ProgressiveRewardNotification>
-      <FrontlineVehicleRewardsSysMessage>
+      <FrontlineRewardsSysMessage>
          <type>lightGrey</type>
          <priority>medium</priority>
          <icon>rewardPoints</icon>
          <message>&lt;font  face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/financialTransaction)&lt;/font&gt;&lt;br/&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;%(text)s&lt;/font&gt;</message>
-      </FrontlineVehicleRewardsSysMessage>
+      </FrontlineRewardsSysMessage>
       <PiggyBankSmashedMessage>
          <type>grey</type>
          <icon>CreditsIcon</icon>
@@ -2131,59 +2034,5 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
             </button>
          </buttonsLayout>
       </NotSelectedDevicesReminder>
-      <EventAFKWarningSysMessage>
-         <type>grey</type>
-         <icon>alert</icon>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#system_messages:event/afk/warning/header)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;6&#34;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:event/afk/warning/body)&lt;/font&gt;</message>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#system_messages:event/afk/button)</label>
-               <action>showEventWarningWindow</action>
-               <width>130</width>
-            </button>
-         </buttonsLayout>
-      </EventAFKWarningSysMessage>
-      <EventAFKBanSysMessage>
-         <type>grey</type>
-         <icon>ban</icon>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#system_messages:event/afk/ban/header)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;6&#34;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:event/afk/ban/body)&lt;/font&gt;</message>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#system_messages:event/afk/button)</label>
-               <action>showEventBanWindow</action>
-               <width>130</width>
-            </button>
-         </buttonsLayout>
-      </EventAFKBanSysMessage>
-      <EventAFKQuestSysMessage>
-         <type>grey</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#system_messages:event/afk/quest/header)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;6&#34;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:event/afk/quest/body)&lt;/font&gt;</message>
-         <buttonsLayout>
-            <button>
-               <type>submit</type>
-               <label>_(#system_messages:event/afk/quest/button)</label>
-               <action>gotoEventBanRedeemQuest</action>
-               <width>130</width>
-            </button>
-         </buttonsLayout>
-      </EventAFKQuestSysMessage>
-      <EventAFKErrorSysMessage>
-         <type>grey</type>
-         <icon>ErrorIcon</icon>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#system_messages:event/afk/error/header)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;6&#34;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:event/afk/error/body)&lt;/font&gt;</message>
-      </EventAFKErrorSysMessage>
-      <EventAFKUnbanByQuestSysMessage>
-         <type>grey</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#system_messages:event/afk/questUnban/header)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;6&#34;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:event/afk/questUnban/body)&lt;/font&gt;</message>
-      </EventAFKUnbanByQuestSysMessage>
-      <EventAFKUnbanSysMessage>
-         <type>grey</type>
-         <icon>InformationIcon</icon>
-         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&gt;_(#system_messages:event/afk/unban/header)&lt;/font&gt;&lt;br/&gt;&lt;font size=&#34;6&#34;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color=&#39;#8C8C7E&#39;&gt;_(#system_messages:event/afk/unban/body)&lt;/font&gt;</message>
-      </EventAFKUnbanSysMessage>
    </htmlTemplates>
 </messenger.xml>

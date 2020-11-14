@@ -21,7 +21,6 @@ Content-Transfer-Encoding: 8bit
 [arena_start_errors/join/CANNOT_CREATE]::{Ошибка присоединения. Неправильный номер команды.}
 [arena_start_errors/join/COOLDOWN]::{Ошибка присоединения. Операция временно заморожена. Попробуйте позже.}
 [arena_start_errors/join/EVENT_DISABLED]::{В настоящий момент данное событие недоступно. Следите за новостями на портале игры.}
-[arena_start_errors/join/NOT_ENOUGH_ENERGY]::{Невозможно выйти в бой. Командиру нужен отдых.}
 [arena_start_errors/join/NOT_FOUND]::{Ошибка присоединения. Приглашение устарело.}
 [arena_start_errors/join/PRIVACY]::{Ошибка присоединения. Недостаточно прав.}
 [arena_start_errors/join/QUEUE_FULL]::{Действие недоступно. Очередь на вход в бой переполнена. Попробуйте позже.}
@@ -408,25 +407,14 @@ Content-Transfer-Encoding: 8bit
 [equip_tankman/success]::{Пересадка члена экипажа выполнена успешно.}
 [equip_tankman/vehicle_locked]::{Ошибка перемещения члена экипажа на машину. Машина заблокирована.}
 [equip_tankman/vehicle_need_repair]::{Ошибка перемещения члена экипажа на машину. Необходим ремонт.}
-[event/afk/ban/body]::{Доступ к боям за Мирный-13 закрыт, время блокировки истекает %(pardonDate)s}
-[event/afk/ban/header]::{Мирный-13, блокировка:}
-[event/afk/button]::{Подробнее}
-[event/afk/error/body]::{В данный момент операция невозможна. Попробуйте позже.}
-[event/afk/error/header]::{Ошибка:}
-[event/afk/quest/body]::{Доступна специальная задача %(questName)s}
-[event/afk/quest/button]::{К задаче}
-[event/afk/quest/header]::{Вам дан шанс}
-[event/afk/quest/questName]::{«%(questName)s»}
-[event/afk/questUnban/body]::{Получен приказ о реабилитации: доступ к боям за Мирный-13 возвращён.}
-[event/afk/questUnban/header]::{Блокировка снята}
-[event/afk/unban/body]::{Истёк срок блокировки в событии: доступ к боям за Мирный-13 возвращён.}
-[event/afk/unban/header]::{Блокировка снята}
-[event/afk/warning/body]::{Вы получили предупреждение за бездействие или бегство с поля боя.}
-[event/afk/warning/header]::{Мирный-13, предупреждение:}
-[event_progression_buy_vehicle/buy]::{Дата: %(date)s
-%(veh_name)s, 100%% экипаж и слот успешно приобретены.
+[event_progression_buy_style/server_error]::{Покупка стиля «%(name)s» не была совершена}
+[event_progression_buy_style/success]::{Дата: %(date)s
+Стиль «%(name)s» успешно приобретён.
 Списано жетонов: %(count)s}
-[event_progression_buy_vehicle/server_error]::{Покупка %(veh_name)s не была совершена}
+[event_progression_buy_vehicle/server_error]::{Покупка %(name)s не была совершена}
+[event_progression_buy_vehicle/success]::{Дата: %(date)s
+%(name)s, 100%% экипаж и слот успешно приобретены.
+Списано жетонов: %(count)s}
 [exchange/not_enough_gold]::{Недостаточно золота для обмена.}
 [exchange/server_error]::{Ошибка обмена %(gold)s золота. Попробуйте позже.}
 [exchange/success]::{Обмен %(gold)s золота успешно завершён. Получено %(credits)s.}
@@ -581,34 +569,6 @@ Content-Transfer-Encoding: 8bit
 [gameSessionControl/korea/timeTillMidnight]::{До полуночи осталось: %(timeLeft)s}
 [graficsOptionsFail]::{Невозможно применить графические настройки: %s. Данные настройки несовместимы с вашей видеокартой.}
 [graficsPresetFail]::{Невозможно применить выбранное качество графики по причине несовместимости с вашей видеокартой.}
-[hw19/server_error]::{Ошибка покупки.
-У вас недостаточно средств, или произошёл технический сбой.}
-[hw19_bestdeal/NO_CREDITS]::{Недостаточно кредитов для покупки.}
-[hw19_bestdeal/NO_GOLD]::{Недостаточно золота для покупки.}
-[hw19_buy_energy/booster_already_activated]::{Ошибка активации. Усилитель уже активирован.}
-[hw19_buy_energy/server_error]::{Ошибка восстановления.
-У вас недостаточно средств, или произошёл технический сбой.}
-[hw19_buy_energy/success]::{Потрачено: %(money)s}
-[hw19_buy_energy/vehicle_already_has_energy]::{Ошибка операции. Командир к бою готов.}
-[hw19_buy_energy/vehicle_can_not_have_energy]::{Ошибка операции. Этого командира нельзя привести в чувство.}
-[hw19_buy_energy/vehicle_in_battle]::{Ошибка активации. Машина в бою.}
-[hw19_draw_energy/account_does_not_have_healing_items]::{Ошибка операции. У вас нет необходимых предметов.}
-[hw19_draw_energy/server_error]::{Ошибка восстановления.
-У вас недостаточно средств, или произошёл технический сбой.}
-[hw19_draw_energy/success]::{%(vehicle)s}
-[hw19_draw_energy/vehicle_already_has_energy]::{Ошибка операции. Командир уже готов к бою.}
-[hw19_draw_energy/vehicle_in_battle]::{Ошибка дегазации. Машина в бою.}
-[hw19_lock_energy/account_does_not_have_booster_items]::{Ошибка активации. У вас нет необходимых предметов.}
-[hw19_lock_energy/booster_already_activated]::{Ошибка активации. Усилитель уже активирован.}
-[hw19_lock_energy/server_error]::{Ошибка активации.
-У вас недостаточно средств, или произошёл технический сбой.}
-[hw19_lock_energy/success]::{%(vehicle)s}
-[hw19_lock_energy/vehicle_in_battle]::{Ошибка активации. Машина в бою.}
-[hw19_shop/buy_coins_success]::{Монеты куплены.}
-[hw19_shop/sell_coins_success]::{Монеты проданы.}
-[hw19_token/award]::{Поздравляем! Вам начислены монеты в количестве %(count)s шт.}
-[hw19_vehicle/already_bought]::{Танк уже куплен.}
-[hw19_vehicle/buy_success]::{Танк куплен. Потрачено: %(money)s}
 [igr/customization/begin]::{В %(igrIcon)s вам доступны бесплатные виды камуфляжа, надписи и эмблемы.}
 [igr/customization/end]::{Срок действия %(igrIcon)s истёк. Используемый бесплатный камуфляж, надписи и эмблемы будут сняты с машины.}
 [info/noAvailable]::{Подробная информация недоступна.}
@@ -1014,6 +974,7 @@ Content-Transfer-Encoding: 8bit
 [squad/notSetReadyStatus]::{Не удалось выйти в бой в составе взвода.}
 [squad/notValidDeleted]::{Машина %(vehName)s исключена из состава взвода из-за несоответствия уровню машины командира взвода. Выберите машину такого же уровня.}
 [squad/notValidDeletedFilter]::{Машина %(vehName)s исключена из состава взвода из-за изменений требований командира.}
+[squad/notValidEnqueueData]::{Вы исключены из состава взвода из-за изменений требований командира или не можете в него вступить из-за некорректно выбранной машины. Выберите другую машину.}
 [squad/notValidMaxSpgDeleted]::{Машина %(vehName)s исключена из состава взвода из-за ограничения по количеству САУ во взводе. Выберите машину другого типа.}
 [squad_bonus/switch_off/body]::{По техническим причинам данная функциональность временно недоступна.
 Приносим свои извинения.}
@@ -1078,7 +1039,6 @@ Content-Transfer-Encoding: 8bit
 [unit/errors/HAS_IN_ARENA_MEMBERS]::{Действие недоступно. Часть отряда ещё в бою.}
 [unit/errors/INSUFFICIENT_ROLE]::{У вас нет прав на выполнение операции.}
 [unit/errors/JOIN_CTX_LOCK]::{Аккаунт заблокирован.}
-[unit/errors/MISSING_DIFFICULTY_LEVEL]::{Действие недоступно. У одного из игроков взвода отсутствует сложность.}
 [unit/errors/NOT_IDLE]::{Команда в очереди или в поиске.}
 [unit/errors/NOT_INVITED]::{Невозможно присоединиться к команде с закрытым доступом.}
 [unit/errors/NOT_IN_QUEUE]::{Команда не в очереди.}
@@ -1108,7 +1068,6 @@ Content-Transfer-Encoding: 8bit
 [unit/errors/UNIT_RESTORED]::{Действие недоступно. Отряд восстановлен.}
 [unit/errors/VEHICLE_MISMATCH]::{Действие недоступно. Машина не соответствует требованиям.}
 [unit/errors/VEHICLE_NOT_CHOSEN]::{Действие недоступно. Сначала выберите машину.}
-[unit/errors/WRONG_DIFFICULTY_LEVEL]::{Действие недоступно. В составе взвода игроки с различными сложностями.}
 [unit/errors/WRONG_UNIT_REQUISITES]::{Команды не существует.}
 [unit/errors/WRONG_VEHICLE]::{Действие недоступно. Машина не готова или не соответствует требованиям.}
 [unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER]::{Управление боевыми резервами в бою передано вам.}
@@ -1116,17 +1075,14 @@ Content-Transfer-Encoding: 8bit
 [unit/notification/divisionType/ABSOLUTE]::{Абсолютный}
 [unit/notification/divisionType/CHAMPION]::{Чемпионский}
 [unit/notification/divisionType/MIDDLE]::{Средний}
-[unit/notification/eventPlayerAdded]::{%(userName)s присоединился к разведотряду Мирный-13.}
-[unit/notification/eventPlayerRemoved]::{%(userName)s покинул разведотряд Мирный-13.}
 [unit/notification/giveLeadership]::{%(userName)s был назначен командиром.}
-[unit/notification/notReadyDifficultyLevel]::{Игрок %(userName)s не готов. Доступна сложность %(level)s.}
 [unit/notification/playerAdded]::{%(userName)s присоединился к отряду.}
 [unit/notification/playerOffline]::{Связь с %(userName)s потеряна.}
 [unit/notification/playerOnline]::{Связь с %(userName)s восстановлена.}
 [unit/notification/playerRemoved]::{%(userName)s покинул отряд.}
-[unit/notification/selectedDifficultyLevel]::{Игрок %(userName)s изменил сложность на %(level)s.}
 [unit/warnings/ALREADY_INVITED]::{Приглашение игроку уже отправлено.}
 [unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER]::{Командование передано другому игроку.}
+[unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION]::{Командование отрядом и управление боевыми резервами в бою передано другому игроку.}
 [unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER]::{Управление боевыми резервами в бою передано другому игроку.}
 [unit/warnings/CANT_PICK_LEADER]::{Вы исключены из состава отряда: отряд расформирован.}
 [unit/warnings/CLAN_CHANGED]::{Вы исключены из отряда. Клан изменён.}
@@ -1137,6 +1093,9 @@ Content-Transfer-Encoding: 8bit
 [unit/warnings/KICKED_FROM_UNIT_ASSEMBLER]::{Время поиска истекло. Подходящей команды не найдено.}
 [unit/warnings/KICKED_PLAYER]::{Вы были исключены командиром.}
 [unit/warnings/NO_CLAN_MEMBERS]::{Вы исключены из состава отряда: отряд расформирован.}
+[unit/warnings/PLAYER_BECOME_COMMANDER]::{Вы стали командиром отряда.}
+[unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION]::{Вы стали командиром отряда.
+Управление боевыми резервами в бою передано вам.}
 [unit/warnings/STRONGHOLDS_DIRECTION_CHANGED]::{Выбран другой плацдарм для Наступления.}
 [unit/warnings/STRONGHOLDS_MODE_CHANGED]::{Выбран другой режим.}
 [unit/warnings/UNIT_ASSEMBLER_TIMEOUT]::{Время поиска истекло. Подходящие игроки не найдены.}

@@ -1,25 +1,25 @@
-<CircularEventAreaCounter.def>
+<DeathZoneAreaTrigger.def>
    <Domain>NONE</Domain>
+   <NonChunk>True</NonChunk>
    <Properties>
-      <Name>
+      <EventID>
          <Type>STRING</Type>
          <Editable>True</Editable>
-      </Name>
-      <ReactOnDeadVehicles>
+      </EventID>
+      <Shape>
          <Type>STRING</Type>
          <Editable>True</Editable>
-      </ReactOnDeadVehicles>
+         <Default>Rectangle</Default>
+      </Shape>
       <ReactOnTeam>
          <Type>STRING</Type>
          <Editable>True</Editable>
+         <Default>1</Default>
       </ReactOnTeam>
-      <ActivationsCount>
-         <Type>UINT8</Type>
+      <DeathZoneType>
+         <Type>STRING</Type>
          <Editable>True</Editable>
-      </ActivationsCount>
-      <Cooldown>
-         <Type>FLOAT</Type>
-         <Editable>True</Editable>
-      </Cooldown>
+         <Default>Default</Default>
+      </DeathZoneType>
    </Properties>
-</CircularEventAreaCounter.def>
+</DeathZoneAreaTrigger.def>

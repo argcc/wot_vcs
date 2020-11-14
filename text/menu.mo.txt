@@ -368,7 +368,7 @@ Content-Transfer-Encoding: 8bit
 [contextMenu/copyToClipBoard]::{Копировать имя}
 [contextMenu/createBattleRoyaleSquad]::{Создать взвод охотников}
 [contextMenu/createContactNote]::{Создать заметку}
-[contextMenu/createEventSquad]::{Создать взвод «Мирный-13»}
+[contextMenu/createEventSquad]::{Создать взвод события}
 [contextMenu/createPrivateChannel]::{Отправить сообщение}
 [contextMenu/createSquad]::{Создать взвод}
 [contextMenu/disableCommunications]::{Заблокировать на время боя}
@@ -754,7 +754,6 @@ Content-Transfer-Encoding: 8bit
 [hangar/ammunitionPanel/technicalMaitenance/equipment/list/inventory]::{На Складе}
 [hangar/ammunitionPanel/technicalMaitenance/equipment/list/price]::{Стоимость}
 [hangar/ammunitionPanel/technicalMaitenance/equipmentDisabled]::{Изменение снаряжения недоступно для данной машины}
-[hangar/ammunitionPanel/technicalMaitenance/eventInfo]::{После завершения события оставшееся у вас специальное снаряжение будет компенсировано в кредитах.}
 [hangar/ammunitionPanel/technicalMaitenance/repair/checkboxAuto]::{Ремонтировать автоматически}
 [hangar/ammunitionPanel/technicalMaitenance/repair/label]::{Ремонт}
 [hangar/ammunitionPanel/technicalMaitenance/title]::{Обслуживание}
@@ -889,10 +888,9 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/epicBattle/descr]::{Войти в режим ожидания Линии фронта}
 [headerButtons/battle/types/epicTraining]::{Тренировочный бой}
 [headerButtons/battle/types/epicTraining/descr]::{Линия фронта}
-[headerButtons/battle/types/eventBattle]::{Мирный-13}
 [headerButtons/battle/types/eventProgression]::{Экспедиция}
 [headerButtons/battle/types/eventProgression/about]::{Ожидайте следующий этап Экспедиции.}
-[headerButtons/battle/types/eventSquad]::{Взвод «Мирный-13»}
+[headerButtons/battle/types/eventSquad]::{Взвод события}
 [headerButtons/battle/types/fallout]::{«Бой до последнего»}
 [headerButtons/battle/types/fort]::{Укрепрайон: сражения}
 [headerButtons/battle/types/fortLeave]::{Укрепрайон: сражения}
@@ -929,7 +927,7 @@ Content-Transfer-Encoding: 8bit
 [headerButtons/battle/types/squad/descr]::{Формирование из 2-3 игроков для совместной игры в Случайных боях.}
 [headerButtons/battle/types/squad/description]::{Игра взводом до 3-х бойцов}
 [headerButtons/battle/types/squad/epic]::{: Линия фронта}
-[headerButtons/battle/types/squad/event]::{: Мирный-13}
+[headerButtons/battle/types/squad/event]::{+++: событие+++}
 [headerButtons/battle/types/squad/randomBattle]::{: Случайный бой}
 [headerButtons/battle/types/squadBattle]::{Отправить взвод в бой}
 [headerButtons/battle/types/squadLeave]::{Взвод}
@@ -1142,8 +1140,7 @@ Content-Transfer-Encoding: 8bit
 [loading/battleTypes/4]::{Боевое обучение}
 [loading/battleTypes/5]::{Командный бой}
 [loading/battleTypes/6]::{Исторический бой}
-[loading/battleTypes/7]::{Задача: полностью заполните Волот,
-чтобы защититься от взрыва по истечении времени фазы.}
+[loading/battleTypes/7]::{Специальный игровой режим}
 [loading/battleTypes/8]::{Вылазки}
 [loading/battleTypes/9]::{Бой с кланом}
 [loading/battleTypes/desc/0]::{ }
@@ -1309,6 +1306,8 @@ Content-Transfer-Encoding: 8bit
 [moduleFits/wrong_slot]::{?empty?}
 [moduleInfo/additionalInfo]::{Характеристики снаряда могут отличаться в зависимости от орудия.}
 [moduleInfo/autoReloadGunLabel]::{Система дозарядки магазина}
+[moduleInfo/autoReloadGunLabel/boost]::{Доработанная система дозарядки:
+Позволяет уменьшить базовое время дозарядки снарядов.}
 [moduleInfo/clipGunLabel]::{Магазинная система заряжания}
 [moduleInfo/closeBtn]::{Закрыть}
 [moduleInfo/compatible/clipVehicles]::{Оснащается магазинной системой заряжания на технике:}
@@ -1330,6 +1329,7 @@ Content-Transfer-Encoding: 8bit
 [moduleInfo/params/armor]::{Бронирование}
 [moduleInfo/params/artDelayRange]::{Время до готовности к залпу}
 [moduleInfo/params/autoReloadTime]::{Время дозарядки одного снаряда}
+[moduleInfo/params/autoReloadTime/boost]::{Базовое время дозарядки одного снаряда}
 [moduleInfo/params/avgDamage]::{Средний урон}
 [moduleInfo/params/avgDamageList]::{Средний урон}
 [moduleInfo/params/avgDamagePerMinute]::{Средний урон в минуту}
@@ -1437,9 +1437,7 @@ Content-Transfer-Encoding: 8bit
 [prebattle/battleRoyale/solo]::{В одиночной очереди}
 [prebattle/battleRoyale/squad]::{Во взводной очереди}
 [prebattle/description]::{prebattle/description}
-[prebattle/difficultyLabel/event]::{Сложность}
 [prebattle/exitButton]::{Выйти из боя}
-[prebattle/exitButton/event]::{Отменить}
 [prebattle/groupsLabel]::{Команд в очереди:}
 [prebattle/invitations/buttons/cancel]::{Закрыть}
 [prebattle/invitations/buttons/search]::{Искать}
@@ -1463,9 +1461,6 @@ Content-Transfer-Encoding: 8bit
 [prebattle/startingTankLabel]::{Ваша первая машина: }
 [prebattle/tankLabel]::{Вы выбрали:}
 [prebattle/timerLabel]::{Время ожидания:}
-[prebattle/timerLabel/event]::{Поиск союзников...}
-[prebattle/tipsLabel/event]::{Долго не можете найти команду?
-Попробуйте изменить уровень сложности.}
 [prebattle/title]::{Стандартный бой}
 [prebattle/waitingTimeWarning]::{*Ожидание боя для САУ занимает больше времени, чем для других типов техники. Пожалуйста, подождите.}
 [premium/bonus]::{Кредитов и опыта
@@ -2152,6 +2147,7 @@ Content-Transfer-Encoding: 8bit
 [vehicleInfo/nationChangeBtn/label]::{Сменить нацию}
 [vehicleInfo/params/aimingTime]::{Время сведения (с)}
 [vehicleInfo/params/autoReloadTime]::{Время дозарядки одного снаряда (c)}
+[vehicleInfo/params/autoReloadTimeBoost]::{Базовое время дозарядки одного снаряда (с)}
 [vehicleInfo/params/avgDamage]::{Средний урон за выстрел}
 [vehicleInfo/params/avgDamagePerMinute]::{Средний урон в минуту}
 [vehicleInfo/params/avgPiercingPower]::{Средняя бронепробиваемость}

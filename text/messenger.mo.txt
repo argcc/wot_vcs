@@ -84,9 +84,6 @@ Content-Transfer-Encoding: 8bit
 [client/information/removeFromTmpIgnored/message]::{Чат c %s вновь доступен.}
 [client/information/setMuted/message]::{%s не может отправлять вам голосовые сообщения.}
 [client/information/unsetMuted/message]::{%s может отправлять вам голосовые сообщения.}
-[client/warning/AFKWarning/message]::{Бездействие приравнивается к дезертирству
-и жёстко наказывается! Для победы нужны
-усилия всех членов команды!}
 [client/warning/emptyUserSearchToken/message]::{Задан пустой запрос}
 [client/warning/emptyUserSearchToken/title]::{Поиск пользователей}
 [client/warning/invalidUserSearchToken/message]::{Неправильная длина либо недопустимый символ в строке поиска. Допустимая длина от %d до %d символов.}
@@ -312,8 +309,8 @@ Content-Transfer-Encoding: 8bit
 последним выжившим взводом.}
 [dialogs/squadChannel/headerMsg/epicBattleFormationRestriction]::{Режим «Линия фронта» доступен
 только для техники VIII уровня.}
-[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{Режим боя:
-«Мирный-13»}
+[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{+++ event +++
++++ event +++}
 [dialogs/squadChannel/headerMsg/squadFormation]::{Дополнительный опыт за бой
 при игре на технике IV уровня и выше}
 [dialogs/squadChannel/headerMsg/squadFormationRestriction]::{Играйте на технике одного уровня
@@ -597,7 +594,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/battle]::{Бой}
 [serviceChannelMessages/battleResults/battlePass]::{Получено очков прогрессии: %(pointsDiff)s}
 [serviceChannelMessages/battleResults/button]::{Подробнее}
-[serviceChannelMessages/battleResults/commanderPoints]::{Получено опыта командира}
 [serviceChannelMessages/battleResults/contributionForDamageAllies]::{компенсация за урон от союзников: %s}
 [serviceChannelMessages/battleResults/credits]::{Получено кредитов}
 [serviceChannelMessages/battleResults/crystal]::{Получено бон}
@@ -641,7 +637,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/quests/gold]::{Добавлено золота}
 [serviceChannelMessages/battleResults/quests/items]::{Добавлено}
 [serviceChannelMessages/battleResults/quests/items/name]::{%(name)s (x%(count)s)}
-[serviceChannelMessages/battleResults/quests/items/singleName]::{%(name)s}
 [serviceChannelMessages/battleResults/quests/premium]::{Добавлено дней Общего премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/premium_plus]::{Добавлено дней Танкового премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/rankedBonusBattles]::{Начислено призовых боёв: %(bonusBattles)s}
@@ -799,15 +794,6 @@ Content-Transfer-Encoding: 8bit
 Другие кланы не могут на вас нападать. Завершение периода нейтралитета %(finish)s.}
 [serviceChannelMessages/fortificationStartUp]::{На склад командного центра зачислено %(defResCount)s единиц промресурса.}
 [serviceChannelMessages/goldReceivedAsGift]::{От администрации получено золота: %(gold)s.}
-[serviceChannelMessages/halloweenHangar/bestdealBought]::{Набор куплен}
-[serviceChannelMessages/halloweenHangar/buyShopItem]::{Товар куплен}
-[serviceChannelMessages/halloweenHangar/halloweenCommanderLevelReached]::{Достигнут уровень %(level)s, получены награды:}
-[serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReached]::{Доступна новая сложность %(stars)s}
-[serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReachedText]::{Вы можете выбрать новую сложность в соответствующем пункте меню}
-[serviceChannelMessages/halloweenHangar/spentCoins]::{монет: %(coins)s}
-[serviceChannelMessages/halloweenHangar/styleBought]::{Стиль куплен}
-[serviceChannelMessages/halloweenHangar/styleBundleBought]::{Набор стилей куплен}
-[serviceChannelMessages/halloweenHangar/vehicleRent]::{Танк куплен}
 [serviceChannelMessages/invoiceReceived/berthsAccrued]::{Добавлены койки в Казарму}
 [serviceChannelMessages/invoiceReceived/berthsDebited]::{Списаны койки из Казармы}
 [serviceChannelMessages/invoiceReceived/boosters]::{Личные резервы}
@@ -877,6 +863,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/tankmen]::{Новобранцы}
 [serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued]::{Начислено нераспределённого опыта членам экипажа}
 [serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited]::{Списано нераспределённого опыта с членов экипажа}
+[serviceChannelMessages/invoiceReceived/tankmenToRemove]::{Демобилизованные}
 [serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued]::{Начислено фрагментов чертежей на %(vehicleName)s}
 [serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited]::{Списано фрагментов чертежей с %(vehicleName)s}
 [serviceChannelMessages/invoiceReceived/vehiclesAccrued]::{Добавлена техника}
@@ -951,7 +938,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/recruitGift/header]::{В вашем полку прибыло!}
 [serviceChannelMessages/recruitGift/text]::{Вам начислен экипаж за %(event)s.}
 [serviceChannelMessages/recruitReminder/text]::{У вас остались нерекрутированные члены экипажа: %(count)s. Ближайший срок списания %(date)s!}
-[serviceChannelMessages/recruitReminderNotRemain/text]::{У вас не осталось нерекрутированных членов экипажа}
 [serviceChannelMessages/recruitReminderTermless/text]::{У вас остались нерекрутированные члены экипажа: %(count)s}
 [serviceChannelMessages/removedBadgeAchievement]::{Списано нашивок}
 [serviceChannelMessages/rentCompensation/compensation]::{Компенсация}
@@ -1018,18 +1004,11 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/customizations/map/summer]::{Летняя карта: }
 [serviceChannelMessages/sysMsg/customizations/map/winter]::{Зимняя карта: }
 [serviceChannelMessages/sysMsg/customizations/sell]::{%(itemType)s «%(itemName)s», %(count)s шт. Получено %(money)s}
-[serviceChannelMessages/sysMsg/message/eventBooster]::{Усилитель опыта командира (1 шт.)}
-[serviceChannelMessages/sysMsg/message/eventRepair]::{Восстановление для командира (1 шт.)}
 [serviceChannelMessages/sysMsg/openCustomization/button]::{К внешнему виду}
 [serviceChannelMessages/sysMsg/removeCustomizations]::{Из-за смены модулей следующие элементы внешнего вида были сняты с %(vehicle)s.}
 [serviceChannelMessages/sysMsg/titles/customization]::{Изменение внешнего вида:}
 [serviceChannelMessages/sysMsg/titles/dismantling]::{Демонтировано:}
 [serviceChannelMessages/sysMsg/titles/error]::{Ошибка:}
-[serviceChannelMessages/sysMsg/titles/eventBooster]::{Куплено:}
-[serviceChannelMessages/sysMsg/titles/eventBoosterActivated]::{Активировано усиление «х2 к опыту» для командира танка}
-[serviceChannelMessages/sysMsg/titles/eventHealingAll]::{Все командиры приведены в чувство и готовы к новым операциям в Мирном-13}
-[serviceChannelMessages/sysMsg/titles/eventRepair]::{Куплено:}
-[serviceChannelMessages/sysMsg/titles/eventRestore]::{Командира танка приведён в чувство.}
 [serviceChannelMessages/sysMsg/titles/financialTransaction]::{Финансовая операция:}
 [serviceChannelMessages/sysMsg/titles/multipleSelling]::{Продажа предметов со Cклада:}
 [serviceChannelMessages/sysMsg/titles/paymentMethodLink]::{Платёжный способ «%(method)s» был привязан}
