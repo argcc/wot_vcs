@@ -1399,6 +1399,12 @@ _(#messenger:battle/toolTips/mutePlayer){/BODY}</value>
          <icon>BattleResultIcon</icon>
          <message>&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/quests):&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
       </tokenQuests>
+      <SeniorityAwardsQuest>
+         <type>battleResult</type>
+         <icon>InformationIcon</icon>
+         <message>&lt;font face=&#34;$TitleFont&#34; size=&#34;15&#34; color=&#34;#E9E2BF&#34;&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/seniorityRewardHeader)&lt;/font&gt;
+&lt;font color=&#39;#8C8C7E&#39;&gt;_(#messenger:serviceChannelMessages/battleResults/seniorityRewardBody):&lt;/font&gt;&lt;br/&gt;%(achieves)s</message>
+      </SeniorityAwardsQuest>
       <royaleVehiclesInvoiceReceived>
          <type>yellow</type>
          <icon>MessageIcon</icon>
