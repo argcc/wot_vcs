@@ -84,9 +84,6 @@ Content-Transfer-Encoding: 8bit
 [client/information/removeFromTmpIgnored/message]::{Чат c %s вновь доступен.}
 [client/information/setMuted/message]::{%s не может отправлять вам голосовые сообщения.}
 [client/information/unsetMuted/message]::{%s может отправлять вам голосовые сообщения.}
-[client/warning/AFKWarning/message]::{Бездействие приравнивается к дезертирству
-и жёстко наказывается! Для победы нужны
-усилия всех членов команды!}
 [client/warning/emptyUserSearchToken/message]::{Задан пустой запрос}
 [client/warning/emptyUserSearchToken/title]::{Поиск пользователей}
 [client/warning/invalidUserSearchToken/message]::{Неправильная длина либо недопустимый символ в строке поиска. Допустимая длина от %d до %d символов.}
@@ -312,8 +309,8 @@ Content-Transfer-Encoding: 8bit
 последним выжившим взводом.}
 [dialogs/squadChannel/headerMsg/epicBattleFormationRestriction]::{Режим «Линия фронта» доступен
 только для техники VIII уровня.}
-[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{Режим боя:
-«Мирный-13»}
+[dialogs/squadChannel/headerMsg/eventFormationRestriction]::{+++ event +++
++++ event +++}
 [dialogs/squadChannel/headerMsg/squadFormation]::{Дополнительный опыт за бой
 при игре на технике IV уровня и выше}
 [dialogs/squadChannel/headerMsg/squadFormationRestriction]::{Играйте на технике одного уровня
@@ -597,7 +594,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/battle]::{Бой}
 [serviceChannelMessages/battleResults/battlePass]::{Получено очков прогрессии: %(pointsDiff)s}
 [serviceChannelMessages/battleResults/button]::{Подробнее}
-[serviceChannelMessages/battleResults/commanderPoints]::{Получено опыта командира}
 [serviceChannelMessages/battleResults/contributionForDamageAllies]::{компенсация за урон от союзников: %s}
 [serviceChannelMessages/battleResults/credits]::{Получено кредитов}
 [serviceChannelMessages/battleResults/crystal]::{Получено бон}
@@ -629,7 +625,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/personalMissions/both]::{Поздравляем!
 За успешное выполнение личных боевых задач обеих кампаний вам присвоены следующие награды}
 [serviceChannelMessages/battleResults/piggyBank]::{В хранилище поступило}
-[serviceChannelMessages/battleResults/quests]::{Боевая задача выполнена! Награда}
+[serviceChannelMessages/battleResults/quests]::{Условия выполнены! Награда}
 [serviceChannelMessages/battleResults/quests/achievements]::{Достижения}
 [serviceChannelMessages/battleResults/quests/berths]::{Добавлено коек в Казарму}
 [serviceChannelMessages/battleResults/quests/credits]::{Добавлено кредитов}
@@ -641,12 +637,13 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/battleResults/quests/gold]::{Добавлено золота}
 [serviceChannelMessages/battleResults/quests/items]::{Добавлено}
 [serviceChannelMessages/battleResults/quests/items/name]::{%(name)s (x%(count)s)}
-[serviceChannelMessages/battleResults/quests/items/singleName]::{%(name)s}
+[serviceChannelMessages/battleResults/quests/nyBoxes]::{Добавлена малая коробка (x%(count)s)}
 [serviceChannelMessages/battleResults/quests/premium]::{Добавлено дней Общего премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/premium_plus]::{Добавлено дней Танкового премиум аккаунта}
 [serviceChannelMessages/battleResults/quests/rankedBonusBattles]::{Начислено призовых боёв: %(bonusBattles)s}
 [serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily]::{%(count)s ежедневных}
 [serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent]::{%(count)s стандартных}
+[serviceChannelMessages/battleResults/quests/variadicDiscount]::{Добавлена скидка %(discount)s%% на технику %(level)s уровня}
 [serviceChannelMessages/battleResults/quests/vehicleSlots]::{Добавлено слотов}
 [serviceChannelMessages/battleResults/rankedBonusBattles]::{Начислено призовых боёв}
 [serviceChannelMessages/battleResults/rankedBonusBattles/efficiency]::{ 
@@ -801,15 +798,6 @@ Content-Transfer-Encoding: 8bit
 Другие кланы не могут на вас нападать. Завершение периода нейтралитета %(finish)s.}
 [serviceChannelMessages/fortificationStartUp]::{На склад командного центра зачислено %(defResCount)s единиц промресурса.}
 [serviceChannelMessages/goldReceivedAsGift]::{От администрации получено золота: %(gold)s.}
-[serviceChannelMessages/halloweenHangar/bestdealBought]::{Набор куплен}
-[serviceChannelMessages/halloweenHangar/buyShopItem]::{Товар куплен}
-[serviceChannelMessages/halloweenHangar/halloweenCommanderLevelReached]::{Достигнут уровень %(level)s, получены награды:}
-[serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReached]::{Доступна новая сложность %(stars)s}
-[serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReachedText]::{Вы можете выбрать новую сложность в соответствующем пункте меню}
-[serviceChannelMessages/halloweenHangar/spentCoins]::{монет: %(coins)s}
-[serviceChannelMessages/halloweenHangar/styleBought]::{Стиль куплен}
-[serviceChannelMessages/halloweenHangar/styleBundleBought]::{Набор стилей куплен}
-[serviceChannelMessages/halloweenHangar/vehicleRent]::{Танк куплен}
 [serviceChannelMessages/invoiceReceived/berthsAccrued]::{Добавлены койки в Казарму}
 [serviceChannelMessages/invoiceReceived/berthsDebited]::{Списаны койки из Казармы}
 [serviceChannelMessages/invoiceReceived/boosters]::{Личные резервы}
@@ -864,6 +852,12 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/itemsInstalled]::{Установлено на технику}
 [serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued]::{Начислено фрагментов чертежей на технику %(nationName)s}
 [serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited]::{Списано фрагментов чертежей на технику %(nationName)s}
+[serviceChannelMessages/invoiceReceived/nyFillersAccrued]::{Начислено зарядов: }
+[serviceChannelMessages/invoiceReceived/nyFillersDebited]::{Списано зарядов: }
+[serviceChannelMessages/invoiceReceived/nyFragmentsAccrued]::{Начислено осколков: }
+[serviceChannelMessages/invoiceReceived/nyFragmentsDebited]::{Списано осколков: }
+[serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived]::{Начислены украшения: }
+[serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived]::{Списаны украшения: }
 [serviceChannelMessages/invoiceReceived/pieces]::{шт.}
 [serviceChannelMessages/invoiceReceived/premiumAccrued]::{Добавлено дней Общего премиум аккаунта}
 [serviceChannelMessages/invoiceReceived/premiumDebited]::{Списано дней Общего премиум аккаунта}
@@ -879,6 +873,8 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/tankmen]::{Новобранцы}
 [serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued]::{Начислено нераспределённого опыта членам экипажа}
 [serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited]::{Списано нераспределённого опыта с членов экипажа}
+[serviceChannelMessages/invoiceReceived/tankmenToRemove]::{Демобилизованные}
+[serviceChannelMessages/invoiceReceived/toyTypeWrapper]::{«%(name)s» (x%(count)s)}
 [serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued]::{Начислено фрагментов чертежей на %(vehicleName)s}
 [serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited]::{Списано фрагментов чертежей с %(vehicleName)s}
 [serviceChannelMessages/invoiceReceived/vehiclesAccrued]::{Добавлена техника}
@@ -886,7 +882,7 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/invoiceReceived/vehiclesRented]::{Добавлена арендованная техника}
 [serviceChannelMessages/invoiceReceived/vehiclesRented/bonus]::{Внимание! Последующее продление аренды обойдётся дешевле.}
 [serviceChannelMessages/itemReceivedAsGift]::{От администрации получено снаряжение: %(typeName)s «%(itemName)s» — %(amount)d шт.}
-[serviceChannelMessages/lootBoxes/button]::{К коробкам}
+[serviceChannelMessages/lootBoxes/button]::{Получить}
 [serviceChannelMessages/lootBoxes/footer]::{Нажмите кнопку, чтобы перейти к содержимому.}
 [serviceChannelMessages/lootBoxes/header]::{Вам посылка:}
 [serviceChannelMessages/lootBoxes/item/name]::{«%(name)s» %(colorTagOpen)sx%(count)s%(colorTagClose)s}
@@ -900,6 +896,10 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/lootBoxesAutoOpen/event/text]::{Мы открыли за вас энергоблоки и начиcлили их содержимое:}
 [serviceChannelMessages/lootBoxesAutoOpen/header]::{Получены награды}
 [serviceChannelMessages/lootBoxesAutoOpen/text]::{Мы открыли за вас коробки и начиcлили награды за «Новогоднее наступление»}
+[serviceChannelMessages/lootBoxesGift/body]::{Нажмите кнопку, чтобы перейти к содержимому.}
+[serviceChannelMessages/lootBoxesGift/button]::{Получить}
+[serviceChannelMessages/lootBoxesGift/header]::{Вам посылка:}
+[serviceChannelMessages/newYearTalisman/button]::{К снегурочкам}
 [serviceChannelMessages/nonSelectedDevices/button]::{Выбрать}
 [serviceChannelMessages/nonSelectedDevices/text/battlePassNewDeviceGiftToken]::{Вам доступно штатное оборудование на выбор: %(count)s}
 [serviceChannelMessages/nonSelectedDevices/text/battlePassTrophyGiftToken]::{Вам доступно трофейное оборудование на выбор: %(count)s}
@@ -953,7 +953,6 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/recruitGift/header]::{В вашем полку прибыло!}
 [serviceChannelMessages/recruitGift/text]::{Вам начислен экипаж за %(event)s.}
 [serviceChannelMessages/recruitReminder/text]::{У вас остались нерекрутированные члены экипажа: %(count)s. Ближайший срок списания %(date)s!}
-[serviceChannelMessages/recruitReminderNotRemain/text]::{У вас не осталось нерекрутированных членов экипажа}
 [serviceChannelMessages/recruitReminderTermless/text]::{У вас остались нерекрутированные члены экипажа: %(count)s}
 [serviceChannelMessages/removedBadgeAchievement]::{Списано нашивок}
 [serviceChannelMessages/rentCompensation/compensation]::{Компенсация}
@@ -1020,18 +1019,11 @@ Content-Transfer-Encoding: 8bit
 [serviceChannelMessages/sysMsg/customizations/map/summer]::{Летняя карта: }
 [serviceChannelMessages/sysMsg/customizations/map/winter]::{Зимняя карта: }
 [serviceChannelMessages/sysMsg/customizations/sell]::{%(itemType)s «%(itemName)s», %(count)s шт. Получено %(money)s}
-[serviceChannelMessages/sysMsg/message/eventBooster]::{Усилитель опыта командира (1 шт.)}
-[serviceChannelMessages/sysMsg/message/eventRepair]::{Восстановление для командира (1 шт.)}
 [serviceChannelMessages/sysMsg/openCustomization/button]::{К внешнему виду}
 [serviceChannelMessages/sysMsg/removeCustomizations]::{Из-за смены модулей следующие элементы внешнего вида были сняты с %(vehicle)s.}
 [serviceChannelMessages/sysMsg/titles/customization]::{Изменение внешнего вида:}
 [serviceChannelMessages/sysMsg/titles/dismantling]::{Демонтировано:}
 [serviceChannelMessages/sysMsg/titles/error]::{Ошибка:}
-[serviceChannelMessages/sysMsg/titles/eventBooster]::{Куплено:}
-[serviceChannelMessages/sysMsg/titles/eventBoosterActivated]::{Активировано усиление «х2 к опыту» для командира танка}
-[serviceChannelMessages/sysMsg/titles/eventHealingAll]::{Все командиры приведены в чувство и готовы к новым операциям в Мирном-13}
-[serviceChannelMessages/sysMsg/titles/eventRepair]::{Куплено:}
-[serviceChannelMessages/sysMsg/titles/eventRestore]::{Командира танка приведён в чувство.}
 [serviceChannelMessages/sysMsg/titles/financialTransaction]::{Финансовая операция:}
 [serviceChannelMessages/sysMsg/titles/multipleSelling]::{Продажа предметов со Cклада:}
 [serviceChannelMessages/sysMsg/titles/paymentMethodLink]::{Платёжный способ «%(method)s» был привязан}

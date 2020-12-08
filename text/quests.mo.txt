@@ -389,6 +389,7 @@ Content-Transfer-Encoding: 8bit
 [bonusName/gold]::{Золото}
 [bonusName/inscription]::{Надпись}
 [bonusName/modification]::{Эффект}
+[bonusName/ny21Fillers]::{Заряд для антиповторителя}
 [bonusName/paint]::{Краска}
 [bonusName/personalNumber]::{Трёхзначный номер}
 [bonusName/premium]::{Дней Общего премиум аккаунта}
@@ -396,7 +397,7 @@ Content-Transfer-Encoding: 8bit
 [bonusName/projectionDecal]::{Декаль}
 [bonusName/rankedBonusBattles]::{Стандартный призовой бой.}
 [bonusName/rankedDailyBattles]::{Ежедневный призовой бой.}
-[bonusName/slots]::{Слотов в Ангаре}
+[bonusName/slots]::{Слот в Ангаре}
 [bonusName/style]::{Стиль}
 [bonusName/tankmen/no_skills]::{Экипаж}
 [bonusName/tankmen/with_skills]::{Укомплектованный экипаж}
@@ -437,6 +438,8 @@ Content-Transfer-Encoding: 8bit
 [bonuses/notAvailable]::{Награда недоступна}
 [bonuses/premium_plus/description]::{Дней Танкового премиум аккаунта: %(value)s}
 [bonuses/tankmen/description]::{%(value)s}
+[bonuses/variadicDiscount/buttonLabel]::{Выбрать}
+[bonuses/variadicDiscount/discountAmount]::{-{amount}%}
 [bonuses/vehicles/crewLvl]::{%d%% экипаж}
 [bonuses/vehicles/description]::{%(value)s}
 [bonuses/vehicles/name]::{%(name)s (%(vehInfo)s)}
@@ -456,10 +459,10 @@ Content-Transfer-Encoding: 8bit
 [dailyQuests/bonus/tooltipTitle]::{Бонусная задача}
 [dailyQuests/bonusQuest/countDown_hrs]::{Истекает через %H ч %M мин}
 [dailyQuests/bonusQuest/countDown_minSec]::{Истекает через %MM:%SS}
-[dailyQuests/condition/destroyModule_few]::{Совершить критических попаданий за бой: %(value)d}
-[dailyQuests/condition/destroyModule_few_accum]::{Совершить суммарно критических попаданий: %(value)d}
-[dailyQuests/condition/destroyModule_plural]::{Совершить критических попаданий за бой: %(value)d}
-[dailyQuests/condition/destroyModule_plural_accum]::{Совершить суммарно критических попаданий: %(value)d}
+[dailyQuests/condition/destroyModule_few]::{Совершить %(value)d критических попадания в бою}
+[dailyQuests/condition/destroyModule_few_accum]::{Совершить %(value)d критических попадания}
+[dailyQuests/condition/destroyModule_plural]::{Совершить %(value)d критических попаданий в бою}
+[dailyQuests/condition/destroyModule_plural_accum]::{Совершить %(value)d критических попаданий}
 [dailyQuests/condition/destroyVeh_few]::{Уничтожить %(value)d ед. техники за бой}
 [dailyQuests/condition/destroyVeh_few_accum]::{Уничтожить %(value)d ед. техники}
 [dailyQuests/condition/destroyVeh_plural]::{Уничтожить %(value)d ед. техники за бой}
@@ -489,7 +492,7 @@ Content-Transfer-Encoding: 8bit
 [dailyQuests/info/bonusMission]::{Выполнение трёх стандартных задач открывает доступ к бонусной, за выполнение которой вы получите ещё более ценные награды. Вы должны успеть выполнить бонусную задачу до конца дня, иначе она пропадёт.}
 [dailyQuests/info/bonusMissionTitle]::{Бонусная задача}
 [dailyQuests/info/dailyMissionTitle]::{Стандартные задачи}
-[dailyQuests/info/dailyMissions]::{Стандартные задачи состоят из случайных условий, и выполнять их можно ежедневно. Как и в личных боевых задачах, прогресс выполнения стандартных задач обновляется после каждого боя. Эти задачи не имеют ограничений по времени и могут быть выполнены в любой момент.}
+[dailyQuests/info/dailyMissions]::{Стандартные задачи состоят из случайных условий, а выполнять их можно ежедневно. Как и в личных боевых задачах, прогресс выполнения стандартных задач обновляется после каждого боя. Эти задачи предпочтительно выполнять в день их выдачи, иначе они перенесутся на следующий день, а следующая задача не будет выдана до выполнения текущей. На период Новогоднего наступления в каждую задачу обязательно добавляются малые новогодние коробки в дополнение к награде.}
 [dailyQuests/info/missionSwitchTitle]::{Замена задачи}
 [dailyQuests/info/missionSwitch_hrs]::{Нежелательная стандартная задача может быть заменена на другую случайную. После замены данная опция станет недоступна на %H ч. Замена задачи приведёт к потере прогресса, если в этот момент одна или несколько ваших машин находятся в бою.}
 [dailyQuests/info/missionSwitch_min]::{Нежелательная стандартная задача может быть заменена на другую случайную. После замены данная опция станет недоступна на %H ч и %MM мин. Замена задачи приведёт к потере прогресса, если в этот момент одна или несколько ваших машин находятся в бою.}
@@ -598,8 +601,6 @@ Content-Transfer-Encoding: 8bit
 [details/conditions/cumulative/directTeamHits]::{Попадания по союзникам}
 [details/conditions/cumulative/droppedCapturePoints]::{Очки защиты}
 [details/conditions/cumulative/enemyHits]::{Попадания по противнику}
-[details/conditions/cumulative/environmentID]::{Дойдите до указанной фазы в составе взвода «Мирный-13»}
-[details/conditions/cumulative/eventPoints]::{Соберите материю}
 [details/conditions/cumulative/explosionEnemyHits]::{Разрывы ОФ-снарядов рядом с противником, нанёсшие урон осколками}
 [details/conditions/cumulative/explosionHits]::{ОФ-попадания}
 [details/conditions/cumulative/explosionHitsReceived]::{Полученные ОФ-попадания}
@@ -1434,18 +1435,13 @@ Content-Transfer-Encoding: 8bit
 [missionDetails/personalQuest/details/complete/left/weekly]::{из них в неделю: %(count)s}
 [missionDetails/prevPageBtn/label]::{Предыдущие}
 [missionDetails/requirements/conclusion/available]::{Требования выполнены (%(count)s)}
-[missionDetails/requirements/conclusion/previousIncomplete]::{Выполните задачу «%(quest_name)s».}
 [missionDetails/requirements/conclusion/unavailable]::{Требования не выполнены (%(count)s)}
 [missionDetails/requirements/header/available]::{Задача доступна:}
 [missionDetails/requirements/header/unavailable]::{Задача недоступна:}
 [missionDetails/resetDate]::{Обнуление задачи в %(time)s}
-[missionDetails/status/complete]::{Выполнено}
 [missionDetails/status/completed/daily]::{Следующее доступное выполнение через: %(time)s}
-[missionDetails/status/completed/event]::{Боевая задача выполнена. Следующее доступное
-выполнение: %(time)s.}
 [missionDetails/status/completed/weekly]::{Следующее доступное выполнение через: %(time)s}
 [missionDetails/status/disabled]::{Задача отключена}
-[missionDetails/status/inProgress]::{Выполняется}
 [missionDetails/status/notAvailable]::{Недоступно}
 [missionDetails/status/notAvailable/in_future]::{станет доступна через %(time)s}
 [missionDetails/status/notAvailable/invalid_time_interval]::{станет доступна через %(time)s}
@@ -1478,7 +1474,7 @@ Content-Transfer-Encoding: 8bit
 [missions/filter/popover/hideDone]::{Скрыть выполненные}
 [missions/filter/popover/hideUnavailable]::{Скрыть недоступные}
 [missions/filter/popover/title]::{Фильтр задач}
-[missions/filterCounter/closeButton/body]::{Нажмите, чтобы сбросить настройки фильтра на стандартные.}
+[missions/filterCounter/closeButton/body]::{Нажмите, чтобы сбросить настройки фильтра на состояние по умолчанию.}
 [missions/filterCounter/closeButton/header]::{Установить по умолчанию}
 [missions/filterCounter/label]::{Показано задач:}
 [missions/group/motive/label]::{Боевые задачи выбранной категории}
@@ -1504,20 +1500,15 @@ Content-Transfer-Encoding: 8bit
 [missions/tab/eventBoards/disabled/body]::{Соревнования временно недоступны: ведутся профилактические работы.}
 [missions/tab/eventBoards/disabled/header]::{Соревнования}
 [missions/tab/eventBoards/header]::{Соревнования}
-[missions/tab/event_marathon]::{?empty?}
-[missions/tab/event_marathon/body]::{Игровое событие, в рамках которого вы можете получить средний премиум танк V уровня Т-34 экранированный совершенно бесплатно.}
-[missions/tab/event_marathon/header]::{S-Challenge}
 [missions/tab/kursk/body]::{Ежедневные боевые задачи, приуроченные к годовщине Курcкой битвы.}
 [missions/tab/kursk/header]::{Курская битва}
 [missions/tab/label/categories]::{Боевые задачи}
 [missions/tab/label/currentVehicle]::{Для %(vehName)s}
 [missions/tab/label/daily]::{Ежедневные}
 [missions/tab/label/eventBoards]::{Соревнования}
-[missions/tab/label/event_marathon]::{S-Challenge}
 [missions/tab/label/kursk]::{Курская битва}
 [missions/tab/label/marathons]::{События}
 [missions/tab/label/missions]::{Учебные задачи}
-[missions/tab/label/winter_marathon]::{Полярная охота}
 [missions/tab/marathons/body]::{Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.}
 [missions/tab/marathons/header]::{События}
 [missions/tab/marathons/header/award]::{Награда:}
@@ -1528,9 +1519,6 @@ Content-Transfer-Encoding: 8bit
 [missions/tab/marathons/header/title/action]::{АКЦИЯ}
 [missions/tab/missions/body]::{Комплекс боевых задач, полное выполнение которого обеспечит получение ценной награды.}
 [missions/tab/missions/header]::{Учебные задачи}
-[missions/tab/winter_marathon]::{?empty?}
-[missions/tab/winter_marathon/body]::{Игровое событие, в рамках которого вы можете бесплатно получить советский средний премиум танк VIII уровня Объект 274а.}
-[missions/tab/winter_marathon/header]::{Полярная охота}
 [missions/tokenPopover/buyBtn/label]::{Купить марку}
 [missions/tokenPopover/descr]::{Список боевых задач, в которых можно получить марку %(name)s}
 [missions/tokenPopover/descr/shop]::{Марку %(name)s можно купить только в Премиум магазине.}
@@ -1691,16 +1679,6 @@ Content-Transfer-Encoding: 8bit
 [token/default/folder]::{«Устав»}
 [token/default/france]::{«Франция»}
 [token/default/germany]::{«Германия»}
-[token/default/he19_A100_T49_Halloween]::{«Особый танк события — Гренадер»}
-[token/default/he19_R40_T_54_Halloween]::{«Особый танк события — Малахит»}
-[token/default/he19_energy_for_use_booster]::{Усилитель опыта в Мирном-13}
-[token/default/he19_energy_for_use_healing]::{Стимулятор}
-[token/default/he19_money]::{«Монета»}
-[token/default/he19_tanksRank1]::{«Стиль (1-я стадия)»}
-[token/default/he19_tanksRank2]::{«Стиль (2-я стадия)»}
-[token/default/he19_tanksRank3]::{«Стиль (3-я стадия)»}
-[token/default/he20_afk_pardon_order]::{Приказ о реабилитации}
-[token/default/he20_recruit]::{Новобранец %(name)s}
 [token/default/heavyTank]::{«Тяжёлый танк»}
 [token/default/italy]::{«Италия»}
 [token/default/japan]::{«Япония»}

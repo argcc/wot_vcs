@@ -1119,75 +1119,17 @@
       </value>
    </setting>
    <setting>
-      <name>EventHangarNotesURL</name>
-      <type>macros</type>
-      <macros>AUTH_REALM</macros>
-      <value>
-         <item>
-            https://igbevents.worldoftanks.ru/halloween/$LANGUAGE_CODE/
-            <name>RU</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://igbevents.worldoftanks.asia/halloween/$LANGUAGE_CODE/
-            <name>ASIA</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://igbevents.worldoftanks.eu/halloween/$LANGUAGE_CODE/
-            <name>EU</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://igbevents.worldoftanks.com/halloween/$LANGUAGE_CODE/
-            <name>NA</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://igbevents.wotgame.cn/halloween/$LANGUAGE_CODE/
-            <name>CN</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://igbevents.worldoftanks.ru/halloween/$LANGUAGE_CODE/
-            <name>default</name>
-            <type>url</type>
-         </item>
-      </value>
+      https://ru.wargaming.net/id/signin/token/?account_id=$DB_ID&amp;token=$WGNI_TOKEN&amp;continue_on_failure=1&amp;next=$TARGET_URL(https://ru.wargaming.net/shop/gifts)
+      <name>lootBoxGiftURL</name>
+      <type>url</type>
    </setting>
    <setting>
-      <name>EventAboutPageURL</name>
-      <type>macros</type>
-      <macros>AUTH_REALM</macros>
+      <name>newYearInfo</name>
+      <type>dict</type>
       <value>
          <item>
-            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/halloween19/
-            <name>RU</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://webbrg.worldoftanks.asia/$LANGUAGE_CODE/promocontent/halloween19/
-            <name>ASIA</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://webbrg.worldoftanks.eu/$LANGUAGE_CODE/promocontent/halloween19/
-            <name>EU</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://webbrg.worldoftanks.com/$LANGUAGE_CODE/promocontent/halloween19/
-            <name>NA</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://webbrg-cn360.wotgame.cn/$LANGUAGE_CODE/promocontent/halloween19/
-            <name>CN</name>
-            <type>url</type>
-         </item>
-         <item>
-            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/halloween19/
-            <name>default</name>
+            https://webbrg.worldoftanks.ru/$LANGUAGE_CODE/promocontent/HO2020Video/
+            <name>baseURL</name>
             <type>url</type>
          </item>
       </value>

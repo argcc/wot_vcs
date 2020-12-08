@@ -90,10 +90,6 @@ Content-Transfer-Encoding: 8bit
 [chat_shortcuts/going_there_gridInfo]::{Двигаюсь в %(gridId)s}
 [chat_shortcuts/help_me]::{Нужна помощь!}
 [chat_shortcuts/help_me_ex]::{%(target)s, помоги!}
-[chat_shortcuts/moveto_camp]::{К зоне!}
-[chat_shortcuts/moveto_collector]::{К Волоту!}
-[chat_shortcuts/moving_to_camp]::{Еду к зоне!}
-[chat_shortcuts/moving_to_collector]::{Еду к Волоту!}
 [chat_shortcuts/negative]::{Никак нет!}
 [chat_shortcuts/positive]::{%(target)s, так точно!}
 [chat_shortcuts/reloading_cassette]::{К выстрелу готов через: %(floatArg1)d с, снарядов в кассете: %(int32Arg1)s шт.}
@@ -115,6 +111,7 @@ Content-Transfer-Encoding: 8bit
 [cruise_ctrl/speedMetric]::{км/ч}
 [damageIndicator/friendlyFire/noDamageLabel]::{- -}
 [damageIndicator/multiplier]::{x%(multiplier)s}
+[damageLog/DEATH_ZONE]::{СЗ}
 [damageLog/multiplier]::{x%(multiplier)s}
 [damageLog/shellType/ARMOR_PIERCING]::{ББ}
 [damageLog/shellType/ARMOR_PIERCING_CR]::{БП}
@@ -219,7 +216,6 @@ Content-Transfer-Encoding: 8bit
 [efficiencyRibbons/destructibleDestroyed]::{Цель уничтожена}
 [efficiencyRibbons/destructiblesDefended]::{Цель защищена}
 [efficiencyRibbons/enemySectorCaptured]::{Зона захвачена}
-[efficiencyRibbons/eventDeathOnPhaseChange]::{Машина уничтожена}
 [efficiencyRibbons/kill]::{Уничтожил}
 [efficiencyRibbons/ram]::{Таран}
 [efficiencyRibbons/receivedBurn]::{Урон пожаром}
@@ -259,7 +255,6 @@ Content-Transfer-Encoding: 8bit
 [helpScreen/hint/description]::{для знакомства с особенностями машины}
 [helpScreen/hint/press]::{Нажмите}
 [hitMarker/blocked]::{Броня не пробита}
-[hitMarker/boss]::{Бессмысленно!}
 [hitMarker/critical]::{Критический урон}
 [hitMarker/ricochet]::{Рикошет}
 [levelProgress/maxLevel]::{МАКСИМАЛЬНЫЙ УРОВЕНЬ МАШИНЫ}
@@ -283,8 +278,6 @@ Content-Transfer-Encoding: 8bit
 [player_errors/cant_switch/engine_destroyed]::{Смена режима недоступна: двигатель выведен из строя.}
 [player_errors/equipment/alreadyActivated]::{Уже активно в данный момент: [%(name)s]}
 [player_errors/equipment/extinguisher/doesNotActivated]::{Снаряжение [%(name)s] не активировано: нет пожара.}
-[player_errors/equipment/hpRepairAndCrewHeal/notRequired]::{Танк не повреждён.}
-[player_errors/equipment/instantReload/notRequired]::{Орудие уже заряжено.}
 [player_errors/equipment/isInCooldown]::{Недоступно. [%(name)s] на перезарядке.}
 [player_errors/equipment/medkit/allTankmenAreSafe]::{Экипаж не пострадал, медицинская помощь не требуется.}
 [player_errors/equipment/medkit/tankmanIsSafe]::{[%(entity)s] не нуждается в медицинской помощи.}
@@ -440,16 +433,10 @@ Content-Transfer-Encoding: 8bit
 [player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM]::{Устройство [%(device)s] повреждено из-за снятого ограничителя оборотов.}
 [player_messages/ENGINE_DESTROYED_AT_BURNOUT]::{Устройство [%(device)s] вышло из строя из-за использования рывка.}
 [player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM]::{Устройство [%(device)s] разрушено из-за снятого ограничителя оборотов.}
-[player_messages/EQUIPMENT_USAGE]::{Активировано снаряжение %(equipment_name)s}
-[player_messages/EVENT_DEATH_FROM_BOSS_AURA_ENEMY_ALLY]::{Союзник %(target)s уничтожен аурой противника.}
-[player_messages/EVENT_DEATH_FROM_BOSS_AURA_ENEMY_SELF]::{Машина уничтожена аурой противника.}
 [player_messages/FIRE_STOPPED]::{Пожар потушен.}
 [player_messages/OPT_DEVICE_USED]::{%(message)s}
-[player_messages/PICKUP_LORE_ITEM]::{Вы собрали %(value)s ед. свидетельств}
-[player_messages/PICKUP_SOULS]::{Вы собрали %(souls)s ед. Мириума}
 [player_messages/TANKMAN_HIT_AT_SHOT]::{[%(device)s] ранен выстрелом %(entity)s.}
 [player_messages/TANKMAN_RESTORED]::{[%(device)s] снова в строю.}
-[player_messages/TEAM_EQUIPMENT_USAGE]::{%(player_name)s активирует снаряжение %(equipment_name)s}
 [player_messages/allied_team_name]::{Союзники}
 [player_messages/ally_base_captured_by_notification]::{Захват нашей базы%s (%d)}
 [player_messages/ally_base_captured_notification]::{Наша база%s захвачена!}
@@ -476,9 +463,6 @@ Home/End — перемотка в начало/конец
 [player_messages/replaySavedCameraActivated]::{Сохранённая камера активирована}
 [player_messages/replaySpeedChange]::{Скорость воспроизведения: %(speed)sx}
 [player_messages/tank_in_fire]::{Машина горит!}
-[players_panel/info/collector]::{Осталось доставить к Волоту}
-[players_panel/info/collector_full]::{Волот заполнен}
-[players_panel/info/team]::{Собрано командой}
 [players_panel/state/large/body]::{Показать имя игрока, уничтоженные цели, иконку и название машины}
 [players_panel/state/large/header]::{Длинная}
 [players_panel/state/large/note]::{(Используйте Ctrl + Tab для переключения между режимами)}
@@ -502,8 +486,6 @@ Home/End — перемотка в начало/конец
 [postmortem/tips/exitHangar/label]::{Выйти в Ангар}
 [postmortem/tips/exitHangar/text]::{Esc > Выйти в Ангар.
 Начните бой на другой машине.}
-[postmortem/tips/hint/desc]::{если ваша команда совершит переход в следующую фазу}
-[postmortem/tips/hint/title]::{ВЫ ВОЗРОДИТЕСЬ,}
 [postmortem/tips/observerMode/label]::{Режим Наблюдателя}
 [postmortem/tips/observerMode/text]::{Переключайтесь между машинами союзников.}
 [postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF]::{Машина уничтожена в запретной зоне союзником}
@@ -534,11 +516,6 @@ Home/End — перемотка в начало/конец
 [postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF]::{Машина разбита противником}
 [postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE]::{Машина разбита}
 [postmortem_messages/DEATH_UNKNOWN]::{Ваша машина уничтожена}
-[postmortem_messages/EVENT_DEATH_FROM_BOSS_AURA]::{Машина уничтожена аурой противника}
-[postmortem_messages/EVENT_DEATH_FROM_DEATH_ZONE]::{Машина разбилась}
-[postmortem_messages/EVENT_DEATH_FROM_SHOT]::{Машина уничтожена выстрелом противника}
-[postmortem_messages/EVENT_DEATH_ON_PHASE_CHANGE]::{Машина уничтожена. Коллектор не заполнен.}
-[postmortem_messages/EVENT_DEATH_ON_PHASE_CHANGE_FULL_SC]::{Машина уничтожена. Вне области заполненного коллектора.}
 [prebattlemarker/prebattlemarker_0]::{Овраг}
 [prebattlemarker/prebattlemarker_1]::{Обзор}
 [prebattlemarker/prebattlemarker_10]::{Лес}
@@ -628,15 +605,11 @@ Home/End — перемотка в начало/конец
 [rewardWindow/commander_patrick/headerText]::{Набор Джульетт}
 [rewardWindow/commander_patrick/subHeaderText]::{Получены награды}
 [rewardWindow/countLabel]::{x{count}}
-[rewardWindow/hw19_commanders/btnLabel]::{Рекрутировать}
-[rewardWindow/hw19_commanders/descText]::{Поздравляем, боец! За покупку этого набора вы получаете уникального члена экипажа и другие награды.}
-[rewardWindow/hw19_commanders/headerText]::{Один из героев Мирного-13}
-[rewardWindow/hw19_commanders/subHeaderText]::{Получены награды}
-[rewardWindow/lootbox/btnLabel]::{Перейти к коробкам}
+[rewardWindow/lootbox/btnLabel]::{К коробкам}
 [rewardWindow/lootbox/descText]::{Вам начислены большие коробки с ценной наградой.}
 [rewardWindow/lootbox/headerText]::{Получены коробки!}
-[rewardWindow/lootbox/isFreeDescText]::{За выполнение боевых задач вы получаете малые коробки с ценной наградой.}
-[rewardWindow/lootbox/winHeaderText]::{Время вскрывать посылки!}
+[rewardWindow/lootbox/isFreeDescText]::{За выполнение новогодних боевых задач вы получаете малые коробки с ценной наградой.}
+[rewardWindow/lootbox/winHeaderText]::{Время вскрывать коробки!}
 [rewardWindow/piggyBank/btnLabel]::{Так точно!}
 [rewardWindow/piggyBank/descText]::{Накопление кредитов приостановлено. Продлите премиум аккаунт, чтобы продолжить пополнение хранилища.}
 [rewardWindow/piggyBank/headerText]::{Кредиты получены}
@@ -740,7 +713,7 @@ Home/End — перемотка в начало/конец
 [shells_kinds/params/damage]::{Средний урон: %(value)s ед.}
 [shells_kinds/params/explosionRadius]::{Радиус разлёта осколков: %(value)s м}
 [shells_kinds/params/piercingPower]::{Средняя бронепробиваемость: %(value)s мм}
-[shells_kinds/params/shotSpeed]::{Начальная скорость полёта:  %(value)s м/с}
+[shells_kinds/params/shotSpeed]::{Скорость полёта:  %(value)s м/с}
 [shells_kinds/params/stunDuration]::{Время оглушения: %(minValue)s–%(maxValue)s с}
 [siegeMode/hint/forMode/0]::{для перехода в осадный режим}
 [siegeMode/hint/forMode/1]::{?empty?}

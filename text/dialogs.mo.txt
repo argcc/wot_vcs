@@ -64,6 +64,10 @@ Content-Transfer-Encoding: 8bit
 [bootcampCenterUnavailable/cancel]::{Закрыть}
 [bootcampCenterUnavailable/message]::{К сожалению, из-за технических работ Учебный полигон недоступен. Пожалуйста, попробуйте позже.}
 [bootcampCenterUnavailable/title]::{Учебный полигон недоступен}
+[breakDecorations/cancel]::{Отменить}
+[breakDecorations/message]::{Разбить украшения и получить %(price)s?}
+[breakDecorations/submit]::{Подтвердить}
+[breakDecorations/title]::{Предупреждение операции}
 [buyConfirmation/cancel]::{Отменить}
 [buyConfirmation/message]::{Купить %(product)s за %(price)s?}
 [buyConfirmation/messageCombine]::{Купить «{%name}» {%count} шт.?}
@@ -80,14 +84,6 @@ Content-Transfer-Encoding: 8bit
 оборудование будет помещено на Склад.}
 [buyInstallConfirmation/submit]::{Купить}
 [buyInstallConfirmation/title]::{Подтверждение покупки}
-[buyItemPackConfirmation/cancel]::{Отменить}
-[buyItemPackConfirmation/message]::{Купить «Набор героев Мирного» за %(goldCost)s?}
-[buyItemPackConfirmation/submit]::{Купить}
-[buyItemPackConfirmation/title]::{Подтверждение покупки}
-[buyPlayerPackConfirmation/cancel]::{Отменить}
-[buyPlayerPackConfirmation/message]::{Купить «Вспомогательный набор» за %(goldCost)s?}
-[buyPlayerPackConfirmation/submit]::{Купить}
-[buyPlayerPackConfirmation/title]::{Подтверждение покупки}
 [buyPremWithoutBenefitsConfirmation/cancel]::{Отменить}
 [buyPremWithoutBenefitsConfirmation/message]::{Купить премиум аккаунт на %(days)s д за %(gold)s золота?
  %(alertIcon)s %(alertColorTagOpen)s В связи с техническими проблемами дополнительный опыт и кредиты не будут начислены. Вы можете выбрать другой бой или купить премиум аккаунт стандартным способом.%(tagClose)s}
@@ -177,6 +173,10 @@ Content-Transfer-Encoding: 8bit
 [common/cost]::{Стоимость:}
 [common/error/cancel]::{Закрыть}
 [common/submit]::{Продолжить}
+[confirmApplyVehicleDiscount/cancel]::{Отменить}
+[confirmApplyVehicleDiscount/message]::{Активировать %(discount_tag_open)s%(discount)s%%%(tag_close)s скидку на машину %(veh_type_tag_open)s%(vehicleType)s%(veh_type_tag_close)s%(vehicle_tag_open)s%(vehicleName)s%(tag_close)s?}
+[confirmApplyVehicleDiscount/submit]::{Активировать}
+[confirmApplyVehicleDiscount/title]::{Активация скидки}
 [confirmBattleBoosterBuyAndInstall/cancel]::{Отменить}
 [confirmBattleBoosterBuyAndInstall/submit]::{Купить}
 [confirmBattleBoosterBuyAndInstall/title]::{Покупка и установка инструкций}
@@ -206,9 +206,9 @@ Content-Transfer-Encoding: 8bit
 Для обмена необходимо %(gold)s}
 [confirmExchangeDialog/exchangeCredits/needGoldText]::{Обменять %(gold)s на недостающие кредиты?}
 [confirmExchangeDialog/exchangeCredits/needItemsStepperTitle]::{Необходимо кредитов:}
-[confirmExchangeDialog/exchangeCredits/needItemsText]::{На покупку не хватает %(value)s}
-[confirmExchangeDialog/exchangeCredits/submit]::{Подтвердить}
-[confirmExchangeDialog/exchangeCredits/title]::{Подтверждение обмена}
+[confirmExchangeDialog/exchangeCredits/needItemsText]::{На покупку не хватает: %(value)s}
+[confirmExchangeDialog/exchangeCredits/submit]::{Обменять}
+[confirmExchangeDialog/exchangeCredits/title]::{Подтверждение обмена для покупки}
 [confirmExchangeDialog/exchangeXp/cancel]::{Отменить}
 [confirmExchangeDialog/exchangeXp/exchangeNoNeedText]::{Перевод для исследования не требуется.
 У вас достаточно опыта.}
@@ -216,9 +216,9 @@ Content-Transfer-Encoding: 8bit
 Для перевода необходимо %(gold)s}
 [confirmExchangeDialog/exchangeXp/needGoldText]::{Перевести недостающий опыт за %(gold)s?}
 [confirmExchangeDialog/exchangeXp/needItemsStepperTitle]::{Необходимо опыта:}
-[confirmExchangeDialog/exchangeXp/needItemsText]::{На исследование не хватает %(value)s}
+[confirmExchangeDialog/exchangeXp/needItemsText]::{На исследование не хватает: %(value)s}
 [confirmExchangeDialog/exchangeXp/submit]::{Перевести}
-[confirmExchangeDialog/exchangeXp/title]::{Подтверждение обмена}
+[confirmExchangeDialog/exchangeXp/title]::{Подтверждение обмена для исследования}
 [confirmExchangeDialog/goldItemsStepperTitle]::{К оплате:}
 [confirmExchangeDialog/restoreExchangeCredits/cancel]::{Отменить}
 [confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText]::{Обмен для восстановления не требуется.
@@ -227,9 +227,9 @@ Content-Transfer-Encoding: 8bit
 Для обмена необходимо %(gold)s}
 [confirmExchangeDialog/restoreExchangeCredits/needGoldText]::{Обменять %(gold)s на недостающие кредиты?}
 [confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle]::{Необходимо кредитов:}
-[confirmExchangeDialog/restoreExchangeCredits/needItemsText]::{На восстановление не хватает %(value)s}
+[confirmExchangeDialog/restoreExchangeCredits/needItemsText]::{На восстановление не хватает: %(value)s}
 [confirmExchangeDialog/restoreExchangeCredits/submit]::{Обменять}
-[confirmExchangeDialog/restoreExchangeCredits/title]::{Подтверждение обмена}
+[confirmExchangeDialog/restoreExchangeCredits/title]::{Подтверждение обмена для восстановления}
 [confirmModuleDialog/countLabel]::{Количество:}
 [confirmModuleDialog/countLabel1]::{Количество}
 [confirmModuleDialog/inventory/totalLabel1]::{Итого}
@@ -389,17 +389,6 @@ Content-Transfer-Encoding: 8bit
 [equipmentSale/conformation/header]::{Продать оборудование «%(equipment)s»?}
 [eula/p1]::{Пожалуйста, ознакомьтесь с условиями <BR/><A HREF='event:%(eulaURL)s'><U>Лицензионного соглашения</U></A>, прежде чем продолжить.}
 [eula/p2]::{НАЖИМАЯ КНОПКУ «ПРИНИМАЮ», ВЫ ПОДТВЕРЖДАЕТЕ, ЧТО ВНИМАТЕЛЬНО ПРОЧИТАЛИ, ПОНЯЛИ И ПОЛНОСТЬЮ СОГЛАСНЫ С УСЛОВИЯМИ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ, ОБЯЗУЕТЕСЬ ИХ СОБЛЮДАТЬ И НЕСТИ ОТВЕТСТВЕННОСТЬ ЗА ИХ НАРУШЕНИЕ. УСЛОВИЯ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ И ДОПОЛНЕНИЙ К НЕМУ ЯВЛЯЮТСЯ СУЩЕСТВЕННЫМИ И ОБЯЗАТЕЛЬНЫМИ ДЛЯ ВСЕХ УЧАСТНИКОВ ПРОЕКТА.}
-[event/afk/afterBattle/cancel]::{Ознакомлен}
-[event/afk/afterBattle/message]::{%(subTitleOpenTag)sПредупреждение%(closeTag)s%(indent)sВаши действия вредят успеху всей операции в Мирном-13. Это совершенно недопустимо. При повторном нарушении вам ограничат доступ к участию в этом событии.}
-[event/afk/afterBattle/title]::{Недопустимое поведение}
-[event/afk/ban/cancel]::{Ознакомлен}
-[event/afk/ban/message]::{%(subTitleOpenTag)sВы отстранены%(closeTag)s%(indent)sЗа систематический саботаж операции в Мирном-13 (бездействие и дезертирство) вам запрещено участвовать в боях события.%(indent)sБлокировка будет снята автоматически %(pardonDate)s или после выполнения специальной боевой задачи в Случайных боях.}
-[event/afk/ban/submit]::{К задаче}
-[event/afk/ban/title]::{Недопустимое поведение}
-[event/afk/battle/cancel]::{Отменить}
-[event/afk/battle/message]::{%(subTitleOpenTag)sВы нужны команде!%(closeTag)s%(indent)sДаже если ваша машина уничтожена, вы вернётесь в бой, если команда перейдёт в другую фазу. Бегство с поля боя расценивается как дезертирство и может повлечь применение дисциплинарного взыскания.}
-[event/afk/battle/submit]::{Бежать}
-[event/afk/battle/title]::{Бегство с поля боя}
 [exchangeGoldConfirmation/cancel]::{Отменить}
 [exchangeGoldConfirmation/message]::{Обменять %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s на %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?}
 [exchangeGoldConfirmation/submit]::{Обменять}
@@ -439,12 +428,12 @@ Content-Transfer-Encoding: 8bit
 [freeVehicleLeftLimit/message]::{Вы израсходовали лимит на приобретение бесплатной техники. Попробуйте завтра.}
 [freeVehicleLeftLimit/submit]::{Закрыть}
 [freeVehicleLeftLimit/title]::{Лимит покупки}
-[freeXPInfo/message]::{%(orangeText_open)sОпыт%(orangeText_close)s%(simpleText_open)s — игровой ресурс, зарабатываемый в боях.
+[freeXPInfo/message]::{%(orangeText_open)sОпыт%(orangeText_close)s%(simpleText_open)s — игровой ресурс, зарабатываемый в боях.
 
 Включает в себя:%(simpleText_close)s
 %(xpIcon)s%(orangeText_open)sБоевой опыт%(orangeText_close)s%(simpleText_open)s используется для изучения новых модулей определённой машины и дальнейшего развития в том проекте игровой вселенной Wargaming, в котором он был заработан.%(simpleText_close)s
 
-%(freeXPIcon)s%(orangeText_open)sСвободный опыт%(orangeText_close)s%(simpleText_open)s используется для изучения любых модулей и техники. Расходуйте свободный опыт рационально.%(simpleText_close)s}
+%(freeXPIcon)s%(orangeText_open)sСвободный опыт%(orangeText_close)s%(simpleText_open)s используется для изучения доступных модулей и техники, а также может быть направлен на ускорение обучения экипажа. Расходуйте свободный опыт рационально.%(simpleText_close)s}
 [freeXPInfo/submitBtnLbl]::{Продолжить}
 [freeXPInfo/title]::{Опыт в игре}
 [frontline/dialogPrestigePointsConvert/cancel]::{Отменить}
@@ -518,10 +507,6 @@ Content-Transfer-Encoding: 8bit
 [hofDisabled/cancel]::{Закрыть}
 [hofDisabled/message]::{Зал славы временно недоступен. Повторите попытку позже.}
 [hofDisabled/title]::{Внимание!}
-[hw19RepairVehicle/cancel]::{Отменить}
-[hw19RepairVehicle/message]::{Провести дегазацию машины за %(money)s?}
-[hw19RepairVehicle/submit]::{Подтвердить}
-[hw19RepairVehicle/title]::{Подтверждение дегазации}
 [interviewQuit/cancel]::{Назад}
 [interviewQuit/message]::{Сейчас вы можете отказаться от участия в опросе и пройти его позже, открыв сообщение с приглашением в Центре уведомлений. Сообщение активно в рамках текущей игровой сессии.}
 [interviewQuit/submit]::{Отказаться}
@@ -610,6 +595,10 @@ Content-Transfer-Encoding: 8bit
 [moneyTransferRestriction/message_expiry]::{Срок действия: %s.}
 [moneyTransferRestriction/submit]::{ОК}
 [moneyTransferRestriction/title]::{Перевод золота запрещён.}
+[newYear/buyToy/cancel]::{Отменить}
+[newYear/buyToy/message]::{Купить украшение за %(price)s?}
+[newYear/buyToy/submit]::{Купить}
+[newYear/buyToy/title]::{Подтверждение операции}
 [nextBattleOptionConfirmation/cancel]::{Нет}
 [nextBattleOptionConfirmation/message]::{Изменения некоторых настроек вступят в силу со следующего боя. Продолжить?}
 [nextBattleOptionConfirmation/submit]::{Да}
@@ -872,8 +861,8 @@ Content-Transfer-Encoding: 8bit
 [soundSpeakersPresetReset/submit]::{Да}
 [soundSpeakersPresetReset/title]::{Несоответствующий тип акустики}
 [squad/eventDisabled/cancel]::{Так точно!}
-[squad/eventDisabled/message]::{Событие более недоступно. Взвод «Мирный-13» будет расформирован.}
-[squad/eventDisabled/title]::{Событие закончилось}
+[squad/eventDisabled/message]::{Событие недоступно. Взвод будет расформирован.}
+[squad/eventDisabled/title]::{Событие завершено}
 [squad/goToAnother/cancel]::{Отменить}
 [squad/goToAnother/message]::{Вы состоите во взводе. При переходе в другой режим вы будете исключены из взвода.}
 [squad/goToAnother/submit]::{Перейти}

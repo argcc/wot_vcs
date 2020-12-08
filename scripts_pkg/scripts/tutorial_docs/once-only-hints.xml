@@ -77,6 +77,46 @@
          <equal-actions>True</equal-actions>
       </hint>
       <hint>
+         HangarHaveNewBadgeHint
+         <item-id>AccountButton</item-id>
+         <text>_(#menu:header/account/popover/tutorial/newBadge)</text>
+         <arrow>
+            <direction>B</direction>
+            <loop>True</loop>
+         </arrow>
+         <checked-ui-state>
+            <simple-state>
+               <state>enabled</state>
+               <value>True</value>
+            </simple-state>
+         </checked-ui-state>
+         <update-runtime>True</update-runtime>
+         <ignore-outside-click>True</ignore-outside-click>
+         <condition>
+            <global-active>_HaveNewBadge</global-active>
+         </condition>
+      </hint>
+      <hint>
+         HangarHaveNewSuffixBadgeHint
+         <item-id>AccountButton</item-id>
+         <text>_(#menu:header/account/popover/tutorial/newSuffixBadge)</text>
+         <arrow>
+            <direction>B</direction>
+            <loop>True</loop>
+         </arrow>
+         <checked-ui-state>
+            <simple-state>
+               <state>enabled</state>
+               <value>True</value>
+            </simple-state>
+         </checked-ui-state>
+         <update-runtime>True</update-runtime>
+         <ignore-outside-click>True</ignore-outside-click>
+         <condition>
+            <global-active>_HaveNewSuffixBadge</global-active>
+         </condition>
+      </hint>
+      <hint>
          HaveNewBadgeHint
          <item-id>NewBadgeHintBtn</item-id>
          <text>_(#menu:header/account/popover/tutorial/newBadge)</text>
@@ -84,10 +124,11 @@
             <direction>B</direction>
             <loop>True</loop>
          </arrow>
+         <update-runtime>True</update-runtime>
+         <ignore-outside-click>True</ignore-outside-click>
          <condition>
             <global-active>_HaveNewBadge</global-active>
          </condition>
-         <equal-actions>True</equal-actions>
       </hint>
       <hint>
          HaveNewSuffixBadgeHint
@@ -97,10 +138,11 @@
             <direction>B</direction>
             <loop>True</loop>
          </arrow>
+         <update-runtime>True</update-runtime>
+         <ignore-outside-click>True</ignore-outside-click>
          <condition>
             <global-active>_HaveNewSuffixBadge</global-active>
          </condition>
-         <equal-actions>True</equal-actions>
       </hint>
       <hint>
          BadgePageNewSuffixBadgeHint
@@ -110,10 +152,11 @@
             <direction>B</direction>
             <loop>True</loop>
          </arrow>
+         <update-runtime>True</update-runtime>
+         <ignore-outside-click>True</ignore-outside-click>
          <condition>
             <global-active>_BadgePageHasNewSuffixBadge</global-active>
          </condition>
-         <equal-actions>True</equal-actions>
       </hint>
       <hint>
          EpicReservesSlotHint
@@ -140,10 +183,17 @@
             </simple-state>
          </checked-ui-state>
          <condition>
-            <condition-hint-showed>
-               <hint-id>AccountButtonHint</hint-id>
-               <value>True</value>
-            </condition-hint-showed>
+            <condition-and>
+               <condition-hint-showed>
+                  <hint-id>AccountButtonHint</hint-id>
+                  <value>True</value>
+               </condition-hint-showed>
+               <class-condition>
+                  UISpamCondition
+                  <path>gui.ui_spam.tutorial_conditions</path>
+                  <arguments>blueprintsButton</arguments>
+               </class-condition>
+            </condition-and>
          </condition>
          <update-runtime>True</update-runtime>
          <ignore-outside-click>True</ignore-outside-click>
@@ -162,6 +212,13 @@
                <value>True</value>
             </simple-state>
          </checked-ui-state>
+         <condition>
+            <class-condition>
+               UISpamCondition
+               <path>gui.ui_spam.tutorial_conditions</path>
+               <arguments>blueprintsButton</arguments>
+            </class-condition>
+         </condition>
          <ignore-outside-click>True</ignore-outside-click>
          <update-runtime>True</update-runtime>
       </hint>
@@ -313,6 +370,13 @@
                <value>True</value>
             </simple-state>
          </checked-ui-state>
+         <condition>
+            <class-condition>
+               UISpamCondition
+               <path>gui.ui_spam.tutorial_conditions</path>
+               <arguments>sessionStats</arguments>
+            </class-condition>
+         </condition>
          <update-runtime>True</update-runtime>
          <ignore-outside-click>True</ignore-outside-click>
       </hint>
@@ -367,6 +431,13 @@
                <value>True</value>
             </simple-state>
          </checked-ui-state>
+         <condition>
+            <class-condition>
+               UISpamCondition
+               <path>gui.ui_spam.tutorial_conditions</path>
+               <arguments>CrystalsBtnHint</arguments>
+            </class-condition>
+         </condition>
          <update-runtime>True</update-runtime>
          <ignore-outside-click>True</ignore-outside-click>
       </hint>
@@ -525,22 +596,17 @@
          <ignore-outside-click>True</ignore-outside-click>
       </hint>
       <hint>
-         EventCrewHealingHint
-         <item-id>EventCrewHealing</item-id>
-         <text>_(#tutorial:event/healing)</text>
+         NyVehiclesExtraSlotBonusHint
+         <item-id>NyVehiclesExtraSlotBonusDD</item-id>
+         <text>_(#tutorial:newYear/vehicles/extraSlotBonus)</text>
          <arrow>
-            <direction>R</direction>
+            <direction>T</direction>
             <loop>True</loop>
          </arrow>
-         <checked-ui-state>
-            <simple-state>
-               <state>visible</state>
-               <value>True</value>
-            </simple-state>
-         </checked-ui-state>
          <update-runtime>True</update-runtime>
-         <hide-immediately>True</hide-immediately>
          <ignore-outside-click>True</ignore-outside-click>
+         <hide-immediately>True</hide-immediately>
+         <equal-actions>True</equal-actions>
       </hint>
    </hints>
 </once-only-hints.xml>
